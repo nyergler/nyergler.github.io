@@ -4,6 +4,14 @@
 [goldmark]
 [goldmark.renderer]
   unsafe = true
+[goldmark.extensions]
+  definitionList = true
+  footnote = true
+  linkify = true
+  strikethrough = true
+  table = true
+  taskList = true
+  typographer = true
 
 [highlight]
   noClasses = false
