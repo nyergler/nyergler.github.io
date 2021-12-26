@@ -1,0 +1,99 @@
+---
+title: ACCU Friday
+author: Nathan Yergler
+type: post
+date: 2005-04-24T11:37:10+00:00
+excerpt: |
+  <p>Well we made it back to Indiana last night after about 12 hours of
+  blissfully uneventful travel. Friday at <span class="caps">ACCU</span>/PyUK was fairly
+  interesting, although not as “darn cool” as the Nokia presentation
+  Thursday.
+  After the previously covered keynote, the morning session on the Python
+  track was John Pinner’s ...</p>
+url: /2005/04/24/accu-friday/
+categories:
+  - pyuk2005
+
+---
+Well we made it back to Indiana last night after about 12 hours of blissfully uneventful travel. Friday at <span class="caps">ACCU</span>/PyUK was fairly interesting, although not as “darn cool” as the Nokia presentation Thursday. After the previously covered keynote, the morning session on the Python track was John Pinner’s presentation on [PayThyme][1] , an open source, Python based payroll system. Even though John chose my presentation on Thursday as his nap time (from the front row, I might add), his presentation was one I had missed at PyCon, and which Vern had indicated was slightly interesting.
+
+The most interesting thing about the talk was the brief discussion of business model. Clocksoft, John’s company, licenses their software under the <span class="caps">GPL</span>. While there may be valid skepticism about making money from support for commodity applications such as word processors and spreadsheets, John made an interesting point: everyone has to do payroll, no one wants to figure out the changes to the law every year. And since it is so integral to businesses across the board, everyone is willing to pay for a reasonable support contract. I think that if someone is looking to make money off of open source software, this is an important point: look deeper than the apps on “everyone’s” desk for the app that only a handful of people in the company use, but which is vital to operation: payroll, accounting, etc. These aren’t the sexiest apps to write, but people are willing to pay if they work right (and often, from my observation, even when they don’t).
+
+The first block of the afternoon’s Python track was devoted to two <span class="caps">XP</span> related talks. First, about sprint driven development, and second regarding doctest. Both were interesting in passing, although I didn’t really learn anything new and spent most of the time playing with the Nokia Series 60 Emulator.
+
+The final block of the day consisted of two talks I was looking forward to: Aspects in Python and Network Protocol Development with Generators. One talk met expectations, the other did not. First, I had hoped Aspects in Python would provide me with a greater understanding of what <span class="caps">AOP</span> is, and how it can be useful. Before the talk all I knew was that <span class="caps">AOP</span> consisted of marking areas of your code as able to be overriden or supplemented by other code. I’m not sure I really can answer the questions any better after the talk.
+
+The real problem, I think, is that the presenter attempted to demonstrate how to implement a small-scale aspect system in Python, coming from a Java background. We have no lack of examples of people porting Java code to Python only to end up with Python code that doesn’t pass the “smell” test; that is, it’s right, it works (often well), but just doesn’t “smell” like Python, so there’s some aversion to continuing to use it. This aspect system was just like that. The biggest problem is that the presenter’s system went to great lengths to provide methods for wrapping code with common idioms, such as transaction handling. This in and of itself makes a great deal of sense, and is a great place to use decorators. But the presenter was resistant to decorators, calling them “Java annotations light”, and stating they “clutter” the code. Instead he advocated placing the wrapping (“weaving” in <span class="caps">AOP</span> terminology, apparently) after the code declaration, at the end of the module in his example.
+
+Of course, when asked by a C++-track visitor how novice programmers could be made aware that the code they were editting was wrapped, he lamented the fact that there was no <span class="caps">IDE</span> support for <span class="caps">AOP</span>-in-Python today, and how that was often how Java programmers dealt with it. Instead, he recommended explicit commenting. I then commented that it seemed like he just made a case for using decorators instead of his approach, since it keeps the “weaving” and code close together and is often quite descriptive and explicit. He wasn’t convinced, and I wasn’t impressed.
+
+The second talk was presented by Michael Sparks of <span class="caps">BBC</span> R&D on [Kamaelia and Axon][2] , their Python toolkits for creating single-threaded, psuedo-state machine network protocol implementations which they can use to test and development protocols for delivering multimedia to thousands of users simultaneously. The most interesting thing about their toolkit is the use of “inboxes” for communication between layers. That is, they have the idea of “inboxes” and “outboxes” in an object, which can be chained together to pass along responsibility for processing and handling.
+
+For example, a LiveAudio object might have an outbox which consists of a raw <span class="caps">PCM</span> feed. An Encoder object’s inbox could be connected to that outbox to receive the raw feed, encode it in Ogg, and then pass it out to the inbox of a multicast server. Using Python generators, Axon and Kamaelia make this passing trivial, and the scheduler (which is currently a brain dead, straight forward approach, but could be replaced independently for better performance) activates the correct code object as necessary. Very cool.
+
+Overall I’d say PyUK was a success. I came away with several ideas I want to explore, and saw some new things I hadn’t run into before. It’s hard to make a direct comparison to PyCon, however. Due to its ascociation with the <span class="caps">ACCU</span>, PyUK definitely has a more of a computer science focus. PyCon, on the otherhand, embraces non-<span class="caps">CS</span> applications along side really geeky discussions of optimizing memory management which is rather refreshing. Both are interesting in their own right, and I hope that the organizers of PyUK (er, Andy) continue to increase the offerings of talks next year, both in terms of quantity and overall quality. Good job guys, maybe I’ll cross the pond again next year for another go round.
+
+<table class="docutils field-list" frame="void" rules="none">
+  <col class="field-name" /> <col class="field-body" /> <tr class="field">
+    <th class="field-name">
+      date:
+    </th>
+
+    <td class="field-body">
+      2005-04-24 11:37:10
+    </td>
+  </tr>
+
+  <tr class="field">
+    <th class="field-name">
+      wordpress_id:
+    </th>
+
+    <td class="field-body">
+      293
+    </td>
+  </tr>
+
+  <tr class="field">
+    <th class="field-name">
+      layout:
+    </th>
+
+    <td class="field-body">
+      post
+    </td>
+  </tr>
+
+  <tr class="field">
+    <th class="field-name">
+      slug:
+    </th>
+
+    <td class="field-body">
+      accu-friday
+    </td>
+  </tr>
+
+  <tr class="field">
+    <th class="field-name">
+      comments:
+    </th>
+
+    <td class="field-body">
+      False
+    </td>
+  </tr>
+
+  <tr class="field">
+    <th class="field-name">
+      category:
+    </th>
+
+    <td class="field-body">
+      pyuk2005
+    </td>
+  </tr>
+</table>
+
+ [1]: http://www.paythyme.com/
+ [2]: http://kamaelia.sourceforge.net/

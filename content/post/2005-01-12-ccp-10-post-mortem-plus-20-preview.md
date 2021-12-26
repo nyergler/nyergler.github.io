@@ -1,0 +1,104 @@
+---
+title: 'ccP 1.0 Post Mortem, plus 2.0 Preview'
+author: Nathan Yergler
+type: post
+date: 2005-01-12T08:48:10+00:00
+excerpt: |
+  <p>So I spent the last week working from the <span class="caps">CC</span> San Francisco offices.
+  During that time I did some planning, and started hacking on what will
+  become ccPublisher 2.0. So it seems like as good a time as any to go
+  over the process that was 1.0, and ...</p>
+url: /2005/01/12/ccp-10-post-mortem-plus-20-preview/
+categories:
+  - development
+
+---
+So I spent the last week working from the <span class="caps">CC</span> San Francisco offices. During that time I did some planning, and started hacking on what will become ccPublisher 2.0. So it seems like as good a time as any to go over the process that was 1.0, and look ahead to what will become 2.0.
+
+**ccPublisher 1.0 Overview** ccPublisher (ccP8 from here on out) went from nothing to production in six months. Not bad, if you ask me (although I’ll admit I’m more than a little biased). During that time we developed quite a few pieces of infrastructure, as well of interconnecting pieces. Not only did we develop ccP8, we also developed and accelerated several other Creative Commons related pieces of code. So the purpose of this piece is to review what we did right, wrong and otherwise, in an attempt to further improve the 2.0 development process.
+
+**What went right**
+
+* **<span class="caps">CC</span> Web Services**: ccP8 uses the nascent Creative Commons web services to render our license chooser interface. While we had begun the discussion of providing a web-service alternative to the partner interface, things hadn’t moved forward that quickly. With the immediate need of ccP8, we developed the first working beta of our web services. You can find more information [here][1] , and we’re hoping to refine the <span class="caps">API</span> further in the near future to make them more generally usable for our partners. * **PyArchive**: A key driver of ccP8 was a need to mask the cumbersome, onerous upload process at the [Internet Archive][2] . The Archive has an “advanced” contribution engine available, and that was what we used for ccP8. [PyArchive][3]  is as Python package which wraps this process. While not perfect (and currently being improved), PyArchive stands out an example of what we did right for ccP8 1.0. Nearly completely independent from the rest of the ccP8 code base, I found it easy and managable to implement changes and improvments to the code base. Look for a standalone release of PyArchive in the near future. * **Coordination with <span class="caps">IA</span>**: The Internet Archive, and the help they provided me, can not go unnoticed. ccP8 would not have hit 1.0 without their help and cooperation. Props to Jon, Parker and the gang. * **Crossplatform support**: ccP8 grew from the [ccTag][4]  codebase. ccTag was initially developed as a one-off contract project with Creative Commons, and part of that contract was support of both Mac <span class="caps">OS</span> X and Windows (and Linux, if possible) from a single code base. This drove many early decisions, and was carried over to the ccPublisher project. And I think on this point we did fairly well. The codebase has very little in the way of platform specific work arounds (mostly just pathing for things like preferences) and I don’t recall a point where we really broke it on one platform in favor of another, something that’s happened at times on other projects I’ve worked on (you know, “well, to do it &#8216;right’ we’ll make it work on Win32, and go back and fix <span class="caps">OSX</span> in the next iteration”).
+
+**What went wrong**
+
+* **The wizard framework** wxWidgets and wxPython provide a basic “wizard” widget: a set of pages with sequencing support. These work pretty well, but have a few inherent problems. First, you can’t add or remove buttons from the bottom; it’s always Previous, Next and Quit. Second, there are properties of the window you just can’t change, like whether resize is enabled, etc. We decided this wasn’t desirable. Finally, the wizard buttons don’t space right on Mac <span class="caps">OS</span> X. I’m sure Robin or someone is working on that (if it’s not fixed already; we did the initial development with 2.4 and are using 2.5 now), but we knew that <span class="caps">OS</span> X users were a core audience for us, so it needed to look “right”. These problems, coupled with a desire to load the Wizard from an <span class="caps">XRC</span> file, prompted me to develop the XrcWizard and XrcWizardPage classes. These classes simply provide wizard-like semantics to a sequence of panels, along with page changing notification. And that’s where I went wrong. ccP8 contains lots of sequencing decisions based on what the user entered in a previous panel. As the application grew, I did a really poor job of keeping the semantics straight. As a result, the XrcWizardPage and XrcWizard classes have lots of overlap right now. Either one can do validation of a page’s contents, and in some cases (I’m embarassed to admit) both validate the same page (although not the same aspects of it; things aren’t **that** bad). Additionally, the application “business logic” (for lack of a better term) is tied very closely to the user interface, making it more difficult to customize ccP8 than it should be. * **Metadata collection** Metadata collection in ccP8 sucks for two reasons. First, some background. An important goal of ccP8 is simplicity. To our way of thinking, the simpler the “basic” process, the better. I think this is an important goal; a big barrier to getting non-geeks to contribute to the Internet Archive is the current upload and import process. Early versions of ccP8 placed equal emphasis on either uploading to the Internet Archive or hosting the file on your own web site. This later changed to a focus on uploading to the Archive, with the self-hosting option considered an “advanced” path. So we made a few decisions, which weren’t all good. First, the metadata collection was split between several non-contiguous pages in the wizard. This decision was made because some was only used for the Internet Archive. A better decision would have been to simply include the Archive-specific metadata in the self-hosting <span class="caps">RDF</span> (mapped to Dublin Core or something). In our quest for simplicity, we also hid certain metadata fields under “advanced” buttons. I think there are 2 (if not 3) places you can enter “advanced” metadata. What really distinguishes these two pools of metadata? Is one more advanced than the other? In reality it’s an artificial distinction which only serves to confuse users. Finally, and related to the problems mentioned with the wizard framework, there’s no central data structure for storing metadata in the application. As a result, every place we want to use a particular piece of metadata we reach into the <span class="caps">UI</span> and read the value from it. Again, this makes customization harder than necessary (not to mention incremental changes).
+
+**Too Close to Call**
+
+* **<span class="caps">ID3</span>**: I didn’t really believe [Mike][5]  when he told me that any task involving ID3v2 was a complete and total pain in the ass. I should know by now to listen to him. You’d think something so widely used would have standardized, complete libraries. It doesn’t. Right now we use two different tagging libraries in ccP8. One (eyeD3) does the actual tagging of MP3s, and the other (pyTagger) is used for upgrading files from ID3v1/2.2 to 2.3. Why not just one? Well eyeD3 only supports ID3v2.3, and pyTagger writes 2.3 tags in “compressed” form. This wouldn’t be so big a deal, except that Windows Media Player can’t handle compressed tags properly, refusing to play the file, and QuickTime Player won’t display the tag contents (which sorta freaks people out). So two libraries it is.
+
+**What’s coming Up**
+
+A big focus on 2.0 is on correcting the problems I identified above. There are a couple of overriding goals. First, I want to separate the user interface from the actual archive submission code as much as possible. Learning from what we did right (particularly with PyArchive), this should make life easier. Much easier. We also want to clean up the metadata storage and collection. Finally, we want to make customization of ccP8 (and derivative works) as easy as possible. This goal is going to drive several features, including modular metadata and modular backend implementations which will further reinforce the other goals (code separation, etc). I guess I don’t have lots of details to write about right now, but work has already begun in this area. Hopefully we’ll have a “preview” release real soon now. This preview won’t do anything except replicate existing functionality using the new code base. It should provide some good examples for people looking to customize the app, as well as give us a base to build new features on.
+
+In the meantime, if you have suggestions or features you’d like to see in ccPublisher, [write them down][6] . Seriously.
+
+<table class="docutils field-list" frame="void" rules="none">
+  <col class="field-name" /> <col class="field-body" /> <tr class="field">
+    <th class="field-name">
+      date:
+    </th>
+
+    <td class="field-body">
+      2005-01-12 08:48:10
+    </td>
+  </tr>
+
+  <tr class="field">
+    <th class="field-name">
+      wordpress_id:
+    </th>
+
+    <td class="field-body">
+      248
+    </td>
+  </tr>
+
+  <tr class="field">
+    <th class="field-name">
+      layout:
+    </th>
+
+    <td class="field-body">
+      post
+    </td>
+  </tr>
+
+  <tr class="field">
+    <th class="field-name">
+      slug:
+    </th>
+
+    <td class="field-body">
+      ccp-10-post-mortem-plus-20-preview
+    </td>
+  </tr>
+
+  <tr class="field">
+    <th class="field-name">
+      comments:
+    </th>
+
+    <td class="field-body">
+    </td>
+  </tr>
+
+  <tr class="field">
+    <th class="field-name">
+      category:
+    </th>
+
+    <td class="field-body">
+      development
+    </td>
+  </tr>
+</table>
+
+ [1]: http://api.creativecommons.org
+ [2]: http://archive.org
+ [3]: http://cvs.sourceforge.net/viewcvs.py/cctools/pyarchive/
+ [4]: http://creativecommons.org/weblog/entry/4279
+ [5]: http://gondwanaland.com/mlog/
+ [6]: http://wiki.creativecommons.org/wiki/CcPublisherRequests
