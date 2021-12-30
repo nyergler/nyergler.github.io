@@ -1,9 +1,6 @@
 ---
 title: Continuous Integration with CodeBuild and CodePipeline
-author: Nathan Yergler
-type: post
 date: 2019-10-17T15:08:36+00:00
-url: /2019/10/17/continuous-integration-with-codebuild-and-codepipeline/
 categories:
   - startup
 tags:
@@ -30,13 +27,13 @@ We&#8217;re only two weeks in, but one thing that I _liked_ about CodeBuild is t
 
 In our case the Pipeline takes the artifact from Code Build, and deploys it to Elastic Beanstalk. I suspect Beanstalk is the first thing we&#8217;ll throw away infrastructure wise, but it&#8217;s nice for now: we&#8217;re able to configure an EC2 instance with everything running on it we need, and scale that up behind an ALB. Because we&#8217;re trying to describe all of our infrastructure with Terraform, the hardest part was getting it to use an ALB rather than a classic ELB. This required an [Option][3] to be defined in the Environment declaration:
 
-`<br />
-  setting {<br />
-    namespace = "aws:elasticbeanstalk:environment"<br />
-    name      = "LoadBalancerType"<br />
-    value     = "application"<br />
-  }<br />
-` 
+```
+  setting {
+    namespace = "aws:elasticbeanstalk:environment"
+    name      = "LoadBalancerType"
+    value     = "application"
+  }
+```
 
 Overall I&#8217;m pretty happy with CodeBuild and CodePipeline. We&#8217;ve decided to re-evaluate early decisions in a month or so, and I&#8217;ll post an update about whether we stick with it then.
 

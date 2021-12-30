@@ -10,8 +10,11 @@ kind:
 
 ---
 
-> Regardless of the form of the parable, the moral has certainly been true with my own work, especially writing and blogging. The _frequency_ of my work — showing up at regular intervals, without worrying about results — has actually lead to better results.
+> Regardless of the form of the parable, the moral has certainly been true with
+> my own work, especially writing and blogging. The _frequency_ of my work —
+> showing up at regular intervals, without worrying about results — has actually
+> lead to better results.
 >
 > Quantity leads to quality.
-
-> — <a rel="noreferrer noopener" href="https://austinkleon.com/2020/12/10/quantity-leads-to-quality-the-origin-of-a-parable/" target="_blank">Austin Kleon</a>
+>
+ — [Austin Kleon](https://austinkleon.com/2020/12/10/quantity-leads-to-quality-the-origin-of-a-parable/)

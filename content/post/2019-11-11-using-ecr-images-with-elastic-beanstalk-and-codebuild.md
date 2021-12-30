@@ -1,9 +1,6 @@
 ---
 title: Using ECR images with Elastic Beanstalk and CodeBuild
-author: Nathan Yergler
-type: post
 date: 2019-11-11T17:11:11+00:00
-url: /2019/11/11/using-ecr-images-with-elastic-beanstalk-and-codebuild/
 categories:
   - startup
 tags:
@@ -31,7 +28,7 @@ I was able to apply the policy with the following Terraform fragment:
           "ecr:BatchGetImage",
           "ecr:BatchCheckLayerAvailability",
         ]
-    
+
         principals {
           type = "Service"
           identifiers = [
@@ -40,12 +37,12 @@ I was able to apply the policy with the following Terraform fragment:
         }
       }
     }
-    
+
     resource "aws_ecr_repository_policy" "build" {
       repository = "${aws_ecr_repository.build.name}" # the name of your ECR repository
       policy = "${data.aws_iam_policy_document.ecr_policy.json}"
     }
-    
+
 
 Once this was applied, Pipeline and command line builds both were able to pull the image.
 

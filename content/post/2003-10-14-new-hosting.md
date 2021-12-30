@@ -1,7 +1,5 @@
 ---
 title: 'New Hosting'
-author: Nathan Yergler
-type: post
 date: 2003-10-14T23:02:00+00:00
 url: /2003/10/14/new-hosting/
 categories:

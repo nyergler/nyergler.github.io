@@ -1,9 +1,7 @@
 ---
 title: 'Ahhh… Now I Understand'
-author: Nathan Yergler
-type: post
+slug: ahhh-now-i-understand
 date: 2003-10-14T12:36:17+00:00
-url: /2003/10/14/ahhh-now-i-understand/
 categories:
   - python
 

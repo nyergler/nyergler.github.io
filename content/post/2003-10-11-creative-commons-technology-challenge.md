@@ -1,9 +1,6 @@
 ---
-title: 'Creative Commons Technology Challenge'
-author: Nathan Yergler
-type: post
+title: Creative Commons Technology Challenge
 date: 2003-10-11T10:57:05+00:00
-url: /2003/10/11/creative-commons-technology-challenge/
 categories:
   - General
 
