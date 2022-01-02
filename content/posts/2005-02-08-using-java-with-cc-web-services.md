@@ -1,19 +1,9 @@
 ---
 title: Using Java with CC Web Services
-author: Nathan Yergler
-type: post
-date: 2005-02-08T09:28:01+00:00
-excerpt: |
-  <p>We launced the <a class="reference external" href="http://api.creativecommons.org">Creative Commons Web
-  Services</a> several months ago. At the
-  time, the goal was to provide a “beta” experience, as well as one that
-  would power “ccPublisher’s” license chooser. At the time, we planned to
-  develop both <span class="caps">SOAP</span> and <span class="caps">REST</span> implementations, but left the <span class="caps">SOAP</span>
-  implementation incomplete ...</p>
-url: /2005/02/08/using-java-with-cc-web-services/
+date: 2005-02-08T09:28:01.000Z
 categories:
   - development
-
+slug: using-java-with-cc-web-services
 ---
 We launced the [Creative Commons Web Services][1]  several months ago. At the time, the goal was to provide a “beta” experience, as well as one that would power “ccPublisher’s” license chooser. At the time, we planned to develop both <span class="caps">SOAP</span> and <span class="caps">REST</span> implementations, but left the <span class="caps">SOAP</span> implementation incomplete due to time constraints. It’s been on my list to finish “real soon now” ever since.
 
@@ -42,67 +32,7 @@ Over the weekend [Mike][2]  pointed me to [an interview][3]  with Stewart Butter
 
 The other, probably more important development, is a wrapper class, CcRest, which wraps the web services calls and is (hopefully) suitable for use in other Java applications. CcRest currently depends on [<span class="caps">JDOM</span>][7]  and [Jaxen][8]  for it’s <span class="caps">XML</span> and XPath functionality. The demo app, RestDemo, relies on the <span class="caps">SWT</span> <span class="caps">UI</span> library. The source code is available as a Jar and in <span class="caps">CVS</span> from the [<span class="caps">CC</span> Tools Project][9]  at SourceForge. I’ll be adding some documentation to the [<span class="caps">CC</span> Developer Wiki][10]  as well. I’ll be the first to admit that I’m not all that proficient in Java, so if anyone has suggestions or improvments, I’ll be happy to hear about them.
 
-<table class="docutils field-list" frame="void" rules="none">
-  <col class="field-name" /> <col class="field-body" /> <tr class="field">
-    <th class="field-name">
-      date:
-    </th>
 
-    <td class="field-body">
-      2005-02-08 09:28:01
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      wordpress_id:
-    </th>
-
-    <td class="field-body">
-      258
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      layout:
-    </th>
-
-    <td class="field-body">
-      post
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      slug:
-    </th>
-
-    <td class="field-body">
-      using-java-with-cc-web-services
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      comments:
-    </th>
-
-    <td class="field-body">
-      False
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      category:
-    </th>
-
-    <td class="field-body">
-      development
-    </td>
-  </tr>
-</table>
 
  [1]: http://api.creativecommons.org
  [2]: http://gondwanaland.com/mlog/

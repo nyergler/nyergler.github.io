@@ -1,16 +1,6 @@
 ---
-title: 'Visualizing CC Licenses with CSS3 Transitions & Transforms'
-author: Nathan Yergler
-type: post
-date: 2011-01-07T22:54:20+00:00
-excerpt: |
-  <p><strong><span class="caps">TL</span>;<span class="caps">DR</span>:</strong> Go check out the <a class="reference external" href="http://labs.creativecommons.org/2011/demos/license-layers/"><span class="caps">CSS3</span>-based visualization of the <span class="caps">CC</span> license
-  model</a>
-  (Chrome, Safari, or Firefox 4). Read below for details of why and how I
-  built it.</p>
-  <p>We launched a refresh of the Creative Commons’ site design on Thursday.
-  Part of that refresh was updating the content ...</p>
-url: /2011/01/07/css3-license-layers/
+title: Visualizing CC Licenses with CSS3 Transitions & Transforms
+date: 2011-01-07T22:54:20.000Z
 categories:
   - experiments
 tags:
@@ -18,7 +8,7 @@ tags:
   - experiment
   - javascript
   - jquery
-
+slug: css3-license-layers
 ---
 **<span class="caps">TL</span>;<span class="caps">DR</span>:** Go check out the [<span class="caps">CSS3</span>-based visualization of the <span class="caps">CC</span> license model][1]  (Chrome, Safari, or Firefox 4). Read below for details of why and how I built it.
 
@@ -46,77 +36,7 @@ I also ran into some issues with my <span class="caps">SVG</span> graphics. The 
 
 Overall this was a really fun experiment, and it was gratifying to see how support for these new specifications makes visually engaging pages really straightforward.
 
-<table class="docutils field-list" frame="void" rules="none">
-  <col class="field-name" /> <col class="field-body" /> <tr class="field">
-    <th class="field-name">
-      date:
-    </th>
 
-    <td class="field-body">
-      2011-01-07 22:54:20
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      wordpress_id:
-    </th>
-
-    <td class="field-body">
-      1846
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      layout:
-    </th>
-
-    <td class="field-body">
-      post
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      slug:
-    </th>
-
-    <td class="field-body">
-      css3-license-layers
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      comments:
-    </th>
-
-    <td class="field-body">
-      False
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      category:
-    </th>
-
-    <td class="field-body">
-      experiments
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      tags:
-    </th>
-
-    <td class="field-body">
-      css3, experiment, javascript, jquery
-    </td>
-  </tr>
-</table>
 
  [1]: http://labs.creativecommons.org/2011/demos/license-layers/
  [2]: http://creativecommons.org/licenses/

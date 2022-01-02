@@ -1,18 +1,10 @@
 ---
-title: 'We are so fucked'
-author: Nathan Yergler
-type: post
-date: 2004-11-04T11:36:35+00:00
-excerpt: |
-  <p>I’ d like to provide some pithy, insightful commentary on the election,
-  but frankly, I’m in a state of shock(“23% of <em>my people</em> voted for
-  <em>him</em>?!?”). I’ve voted for plenty of losers (witness my flirtation with
-  the Libertarian Party), but I’ve never felt so… betrayed. So ...</p>
-url: /2004/11/04/we-are-so-fucked/
+title: We are so fucked
+date: 2004-11-04T11:36:35.000Z
 categories:
   - my life
   - politics
-
+slug: we-are-so-fucked
 ---
 I’ d like to provide some pithy, insightful commentary on the election, but frankly, I’m in a state of shock(“23% of _my people_ voted for _him_?!?”). I’ve voted for plenty of losers (witness my flirtation with the Libertarian Party), but I’ve never felt so… betrayed. So instead I offer a list of things other bloggers are saying which made me smile. Now go, crank up the [Le Tigre][1] , and kindle the anger and outrage that will last for the next four years.
 
@@ -31,65 +23,6 @@ I’ d like to provide some pithy, insightful commentary on the election, but fr
   </li>
 </ul>
 
-<table class="docutils field-list" frame="void" rules="none">
-  <col class="field-name" /> <col class="field-body" /> <tr class="field">
-    <th class="field-name">
-      date:
-    </th>
 
-    <td class="field-body">
-      2004-11-04 11:36:35
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      wordpress_id:
-    </th>
-
-    <td class="field-body">
-      228
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      layout:
-    </th>
-
-    <td class="field-body">
-      post
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      slug:
-    </th>
-
-    <td class="field-body">
-      we-are-so-fucked
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      comments:
-    </th>
-
-    <td class="field-body">
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      category:
-    </th>
-
-    <td class="field-body">
-      my life, politics
-    </td>
-  </tr>
-</table>
 
  [1]: http://www.letigreworld.com

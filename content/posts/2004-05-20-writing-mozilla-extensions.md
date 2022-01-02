@@ -1,20 +1,9 @@
 ---
-title: 'Writing Mozilla Extensions'
-author: Nathan Yergler
-type: post
-date: 2004-05-20T08:43:54+00:00
-excerpt: |
-  <p>Over the past 6 months, I’ve begun writing
-  <a class="reference external" href="http://yergler.net/projects/mozcc">two</a>
-  <a class="reference external" href="http://yergler.net/projects/quickfile">different</a> Mozilla-based
-  extensions. One for Thunderbird, one for Mozilla Suite/Fire{bird|fox}.
-  In my experience, Mozilla is an amazingly powerful and flexible
-  platform: it provides a cross-platform foundation to build applications
-  on, but more importantly it’s an application ...</p>
-url: /2004/05/20/writing-mozilla-extensions/
+title: Writing Mozilla Extensions
+date: 2004-05-20T08:43:54.000Z
 categories:
   - development
-
+slug: writing-mozilla-extensions
 ---
 Over the past 6 months, I’ve begun writing [two][1]  [different][2]  Mozilla-based extensions. One for Thunderbird, one for Mozilla Suite/Fire{bird|fox}. In my experience, Mozilla is an amazingly powerful and flexible platform: it provides a cross-platform foundation to build applications on, but more importantly it’s an application that has the right attitude. The attitude of “we’re building the best app we can, but lots of smart people don’t work for us, so we’ll give them the tools they need to make the app (and their lives) better.” That’s cool; that’s the right attitude to have. Of course, extending Mozilla through an extension is easier said than done in many ways. I have yet to find a site listing the “one, best way” to put together an extension. There’s lots of ways to do it, and as a result, lots of confusion when the two examples you’re drawing from use two different approaches.
 
@@ -53,66 +42,7 @@ There are still a couple of things I’m working on. First, I need to make the p
 
 You can download DemoExt [here][4] , or browse the [<span class="caps">CVS</span> tree][5]  . As always suggestions, feedback and corrections are welcome. Enjoy!
 
-<table class="docutils field-list" frame="void" rules="none">
-  <col class="field-name" /> <col class="field-body" /> <tr class="field">
-    <th class="field-name">
-      date:
-    </th>
 
-    <td class="field-body">
-      2004-05-20 08:43:54
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      wordpress_id:
-    </th>
-
-    <td class="field-body">
-      130
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      layout:
-    </th>
-
-    <td class="field-body">
-      post
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      slug:
-    </th>
-
-    <td class="field-body">
-      writing-mozilla-extensions
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      comments:
-    </th>
-
-    <td class="field-body">
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      category:
-    </th>
-
-    <td class="field-body">
-      development
-    </td>
-  </tr>
-</table>
 
  [1]: http://yergler.net/projects/mozcc
  [2]: http://yergler.net/projects/quickfile

@@ -1,19 +1,11 @@
 ---
-title: 'New Foundations'
-author: Nathan Yergler
-type: post
-date: 2012-05-16T23:13:57+00:00
-excerpt: |
-  <p>I’ve written a little about how I think about technical debt, and what
-  it means to live with it. I want to talk about some technical debt at
-  Creative Commons, and how we handled it the wrong way. A project we
-  thought would take a couple months stretched into ...</p>
-url: /2012/05/16/new-foundations/
+title: New Foundations
+date: 2012-05-16T23:13:57.000Z
 categories:
   - engineering
   - process
   - talks
-
+slug: new-foundations
 ---
 I’ve written a little about how I think about technical debt, and what it means to live with it. I want to talk about some technical debt at Creative Commons, and how we handled it the wrong way. A project we thought would take a couple months stretched into years, and in the end never fulfilled the promise we thought it had. And it was supposed to be a straight-forward project.
 
@@ -47,63 +39,4 @@ The problem isn’t that we wanted to improve our underlying infrastructure, or 
 
 To successfully live with technical debt, this is the sort of maneuver you often have to use. I think of this as Lateral Refactoring: you’re not refactoring to the <span class="caps">API</span>/design you want to wind up with, you’re tacking along an orthogonal axis until you’re at the point where you can start moving forward again. By doing this you can realize some benefit sooner, and continue shipping new features and bug fixes.
 
-<table class="docutils field-list" frame="void" rules="none">
-  <col class="field-name" /> <col class="field-body" /> <tr class="field">
-    <th class="field-name">
-      date:
-    </th>
 
-    <td class="field-body">
-      2012-05-16 23:13:57
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      wordpress_id:
-    </th>
-
-    <td class="field-body">
-      2073
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      layout:
-    </th>
-
-    <td class="field-body">
-      post
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      slug:
-    </th>
-
-    <td class="field-body">
-      new-foundations
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      comments:
-    </th>
-
-    <td class="field-body">
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      category:
-    </th>
-
-    <td class="field-body">
-      engineering, process, talks
-    </td>
-  </tr>
-</table>

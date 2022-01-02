@@ -1,13 +1,12 @@
 ---
 title: Extending Create React App with Babel Macros
 slug: customize-babel-configuration-with-macros
-date: 2020-06-26T15:56:37+00:00
+date: 2020-06-26T15:56:37.000Z
 categories:
   - engineering
 tags:
   - frontend
   - react
-
 ---
 
 I have a co-dependent relationship with <a aria-label="undefined (opens in a new tab)" href="https://create-react-app.dev/" target="_blank" rel="noreferrer noopener">Create React App</a>. When we&#8217;re good, we&#8217;re really good. When I have an unmet need &#8212; when I want to customize some part of the build process &#8212; I do my best to make CRA work. And when it doesn&#8217;t, for whatever reason, I [eject][1] and fall back to [Webpack][2], [Babel][3], & friends, resentful that CRA has let me down. Recently, though, I discovered that you can customize Babel configuration in a Create React App projects without ejecting.

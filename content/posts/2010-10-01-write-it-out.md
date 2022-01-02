@@ -1,17 +1,6 @@
 ---
-title: 'Write it Out'
-author: Nathan Yergler
-type: post
-date: 2010-10-01T11:33:44+00:00
-excerpt: |
-  <p>You should go read Marc’s write-up of <a class="reference external" href="http://blog.precipice.org/why-wesabe-lost-to-mint">why Wesabe “lost” to
-  Mint</a><sup>†</sup>;
-  it’s interesting, insightful, and clearly written.</p>
-  <p>It was two sentences that aren’t about Wesabe or Mint which caught my
-  attention; the emphasis is mine.</p>
-  <blockquote>
-  I don’t agree with those who say you should learn ...</blockquote>
-url: /2010/10/01/write-it-out/
+title: Write it Out
+date: 2010-10-01T11:33:44.000Z
 categories:
   - writing
 tags:
@@ -19,7 +8,7 @@ tags:
   - morning pages
   - wesabe
   - writing
-
+slug: write-it-out
 ---
 You should go read Marc’s write-up of [why Wesabe “lost” to Mint][1] <sup>†</sup>; it’s interesting, insightful, and clearly written.
 
@@ -34,76 +23,7 @@ I suppose the real question is why I’m surprised or excited when others have t
 
 <sup>†</sup> Everything he says makes sense to me, which sucks since I always perceived Wesabe as more closely aligned with my best financial interests. When Mint showed me an ad for FreeCreditReport.com, I lost all faith that they have my best interest at heart (this [TechDirt article][3]  is a good introduction to why).
 
-<table class="docutils field-list" frame="void" rules="none">
-  <col class="field-name" /> <col class="field-body" /> <tr class="field">
-    <th class="field-name">
-      date:
-    </th>
 
-    <td class="field-body">
-      2010-10-01 11:33:44
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      wordpress_id:
-    </th>
-
-    <td class="field-body">
-      1788
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      layout:
-    </th>
-
-    <td class="field-body">
-      post
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      slug:
-    </th>
-
-    <td class="field-body">
-      write-it-out
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      comments:
-    </th>
-
-    <td class="field-body">
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      category:
-    </th>
-
-    <td class="field-body">
-      writing
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      tags:
-    </th>
-
-    <td class="field-body">
-      mint.com, morning pages, wesabe, writing
-    </td>
-  </tr>
-</table>
 
  [1]: http://blog.precipice.org/why-wesabe-lost-to-mint
  [2]: https://secure.wikimedia.org/wikipedia/en/wiki/Julia_Cameron

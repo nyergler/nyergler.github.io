@@ -1,18 +1,9 @@
 ---
-title: 'Gnome Summit Day 1'
-author: Nathan Yergler
-type: post
-date: 2005-10-08T20:51:55+00:00
-excerpt: |
-  <p>After a too-short night of sleep, the Gnome Summit got underway this
-  morning. I previously thought PyCon was an unstructured, free form
-  conference. I now realize that these Gnome guys have taken it to a whole
-  new level. The master schedule: a chalk board. Good times.</p>
-  <p>Today was mostly spent ...</p>
-url: /2005/10/08/gnome-summit-day-1/
+title: Gnome Summit Day 1
+date: 2005-10-08T20:51:55.000Z
 categories:
   - gnome2005
-
+slug: gnome-summit-day-1
 ---
 After a too-short night of sleep, the Gnome Summit got underway this morning. I previously thought PyCon was an unstructured, free form conference. I now realize that these Gnome guys have taken it to a whole new level. The master schedule: a chalk board. Good times.
 
@@ -39,66 +30,7 @@ I finally met Luis Villa, the recovering manager, this morning and he graciously
 
 So after the day wrapped a group of us went over to Harvard Square for Malaysian food and I had some terrifically yummy mango chicken. Tonite: random hacking, tomorrow: Luis has promised to handcuff me to Larry and lock us in a room until we implement licensing in F-Spot. I like Luis, but if that’s his management style maybe it’s best he stopped (just kidding, Luis).
 
-<table class="docutils field-list" frame="void" rules="none">
-  <col class="field-name" /> <col class="field-body" /> <tr class="field">
-    <th class="field-name">
-      date:
-    </th>
 
-    <td class="field-body">
-      2005-10-08 20:51:55
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      wordpress_id:
-    </th>
-
-    <td class="field-body">
-      341
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      layout:
-    </th>
-
-    <td class="field-body">
-      post
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      slug:
-    </th>
-
-    <td class="field-body">
-      gnome-summit-day-1
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      comments:
-    </th>
-
-    <td class="field-body">
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      category:
-    </th>
-
-    <td class="field-body">
-      gnome2005
-    </td>
-  </tr>
-</table>
 
  [1]: http://api.creativecommons.org
  [2]: http://developer.creativecommons.org

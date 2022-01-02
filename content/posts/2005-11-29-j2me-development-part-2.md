@@ -1,20 +1,9 @@
 ---
-title: J2ME Development, part 2
-author: Nathan Yergler
-type: post
-date: 2005-11-29T09:26:49+00:00
-excerpt: |
-  <p>So in <a class="reference external" href="http://yergler.net/blog/archives/2005/11/17/mobile-development-compared">a previous
-  post</a>
-  I compared two recent mobile development projects: one using <span class="caps">J2ME</span> for
-  Motorola <span class="caps">IDEN</span> phones, and the other using Python for Nokia Series 60
-  phones. Since then I’ve done some more work on the <span class="caps">J2ME</span> project and have
-  a few additional thoughts and clarifications.</p>
-  <p>First ...</p>
-url: /2005/11/29/j2me-development-part-2/
+title: 'J2ME Development, part 2'
+date: 2005-11-29T09:26:49.000Z
 categories:
   - development
-
+slug: j2me-development-part-2
 ---
 So in [a previous post][1]  I compared two recent mobile development projects: one using <span class="caps">J2ME</span> for Motorola <span class="caps">IDEN</span> phones, and the other using Python for Nokia Series 60 phones. Since then I’ve done some more work on the <span class="caps">J2ME</span> project and have a few additional thoughts and clarifications.
 
@@ -26,65 +15,6 @@ Contrast this to Python for Series 60 <span class="caps">API</span>. Just like <
 
 To be fair, I don’t hate <span class="caps">J2ME</span>. I don’t even dislike it. It just seems like Nokia has made decisions in designing their <span class="caps">API</span> which give the maximum flexibility to the developer, and that’s a good thing. I’m actually going to be doing a research project next semester in which I’ll be developing for <span class="caps">J2ME</span>, so I’ll have plenty of additional opportunities to compare and contrast. I’m also still planning on porting my Sudoku implementation to <span class="caps">J2ME</span>, just to do a one-to-one comparison. Stay tuned.
 
-<table class="docutils field-list" frame="void" rules="none">
-  <col class="field-name" /> <col class="field-body" /> <tr class="field">
-    <th class="field-name">
-      date:
-    </th>
 
-    <td class="field-body">
-      2005-11-29 09:26:49
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      wordpress_id:
-    </th>
-
-    <td class="field-body">
-      355
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      layout:
-    </th>
-
-    <td class="field-body">
-      post
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      slug:
-    </th>
-
-    <td class="field-body">
-      j2me-development-part-2
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      comments:
-    </th>
-
-    <td class="field-body">
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      category:
-    </th>
-
-    <td class="field-body">
-      development
-    </td>
-  </tr>
-</table>
 
  [1]: http://yergler.net/blog/archives/2005/11/17/mobile-development-compared

@@ -1,18 +1,9 @@
 ---
-title: 'Distributing Python Applications'
-author: Nathan Yergler
-type: post
-date: 2005-05-12T13:05:45+00:00
-excerpt: |
-  <p>As a preface, this post is mostly rambling thoughts on the current state
-  of ccPublisher 2, and some of the challenges yet to be worked through.
-  You’ve been warned.</p>
-  <p>So now that the semester has wrapped up and my days are no longer
-  consumed by homework, exams and projects ...</p>
-url: /2005/05/12/distributing-python-applications/
+title: Distributing Python Applications
+date: 2005-05-12T13:05:45.000Z
 categories:
   - development
-
+slug: distributing-python-applications
 ---
 As a preface, this post is mostly rambling thoughts on the current state of ccPublisher 2, and some of the challenges yet to be worked through. You’ve been warned.
 
@@ -56,64 +47,4 @@ So now that we have a working component model (well, one we stole from Zope 3 th
 
 Overall the problem is not insurmountable, but simple one of resources. And it sucks that each platform will need it’s own attention. I guess the upside is that once we’ve figured it out, customizers won’t have to worry about the details. And that’s a good thing.
 
-<table class="docutils field-list" frame="void" rules="none">
-  <col class="field-name" /> <col class="field-body" /> <tr class="field">
-    <th class="field-name">
-      date:
-    </th>
 
-    <td class="field-body">
-      2005-05-12 13:05:45
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      wordpress_id:
-    </th>
-
-    <td class="field-body">
-      296
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      layout:
-    </th>
-
-    <td class="field-body">
-      post
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      slug:
-    </th>
-
-    <td class="field-body">
-      distributing-python-applications
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      comments:
-    </th>
-
-    <td class="field-body">
-      False
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      category:
-    </th>
-
-    <td class="field-body">
-      development
-    </td>
-  </tr>
-</table>

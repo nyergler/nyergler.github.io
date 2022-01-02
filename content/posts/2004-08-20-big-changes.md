@@ -1,18 +1,9 @@
 ---
-title: 'Big Changes'
-author: Nathan Yergler
-type: post
-date: 2004-08-20T14:05:32+00:00
-excerpt: |
-  <p>I haven’t blogged much since <span class="caps">OSCON</span>. Not because things haven’t been
-  happening or haven’t been interesting, but because sometimes it’s hard
-  to find the motivation or impetus to write about things.</p>
-  <p>Last Friday, August 13, was my last day at
-  <a class="reference external" href="http://canterburyschool.org">Canterbury</a>. It was strange, much more ...</p>
-url: /2004/08/20/big-changes/
+title: Big Changes
+date: 2004-08-20T14:05:32.000Z
 categories:
   - my life
-
+slug: big-changes
 ---
 I haven’t blogged much since <span class="caps">OSCON</span>. Not because things haven’t been happening or haven’t been interesting, but because sometimes it’s hard to find the motivation or impetus to write about things.
 
@@ -24,66 +15,7 @@ As it stands I’m sitting here listening to Bruce Hornsby, reliving memories fr
 
 A resolution, then: this semester, I’ll do something that scares me every week. Lately it seems that things that scare me are also the things that make me grow the most. And god knows, I still need to grow.
 
-<table class="docutils field-list" frame="void" rules="none">
-  <col class="field-name" /> <col class="field-body" /> <tr class="field">
-    <th class="field-name">
-      date:
-    </th>
 
-    <td class="field-body">
-      2004-08-20 14:05:32
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      wordpress_id:
-    </th>
-
-    <td class="field-body">
-      175
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      layout:
-    </th>
-
-    <td class="field-body">
-      post
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      slug:
-    </th>
-
-    <td class="field-body">
-      big-changes
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      comments:
-    </th>
-
-    <td class="field-body">
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      category:
-    </th>
-
-    <td class="field-body">
-      my life
-    </td>
-  </tr>
-</table>
 
  [1]: http://canterburyschool.org
  [2]: http://creativecommons.org

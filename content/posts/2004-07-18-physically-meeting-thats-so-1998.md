@@ -1,17 +1,9 @@
 ---
-title: 'Physically Meeting? That’s So 1998'
-author: Nathan Yergler
-type: post
-date: 2004-07-18T20:45:44+00:00
-excerpt: |
-  <p>I’m in San Francisco for the next week. I arrived around noon, and spent
-  the afternoon wandering around the city. It’s been about 18 months since
-  I was here last, but it always seems like I fall back into the rythym of
-  the city. True, I’m still ...</p>
-url: /2004/07/18/physically-meeting-thats-so-1998/
+title: Physically Meeting? That’s So 1998
+date: 2004-07-18T20:45:44.000Z
 categories:
   - my life
-
+slug: physically-meeting-thats-so-1998
 ---
 I’m in San Francisco for the next week. I arrived around noon, and spent the afternoon wandering around the city. It’s been about 18 months since I was here last, but it always seems like I fall back into the rythym of the city. True, I’m still anxious about new places and a little agoraphobic when it comes to places I’m unfamiliar with, but in San Francisco the anxiety and nervousness is a familiar, almost comforting part off the background noise.
 
@@ -19,66 +11,7 @@ I’m here to meet the [Creative Commons][1]  staff, and get plugged in to the o
 
 I’m here in San Francisco through Saturday, at which point I’m heading up to Portland for a little mini-vacation. Of course, what would vacation be without work? 😉 I’ll be attending [<span class="caps">OSCON</span>][4]  along with two days of tutorials. It’s interesting how life’s events are so interconnected: two years ago I attended <span class="caps">OSCON</span> in San Diego. I was just over a year into my job at Canterbury, had found open source religion, but wasn’t really plugged into the ideas. I heard Lessig speak, and that marked the start of my fascination with Creative Commons. Now, two years later, I’m spending a week at the <span class="caps">CC</span> offices before heading to <span class="caps">OSCON</span> again.
 
-<table class="docutils field-list" frame="void" rules="none">
-  <col class="field-name" /> <col class="field-body" /> <tr class="field">
-    <th class="field-name">
-      date:
-    </th>
 
-    <td class="field-body">
-      2004-07-18 20:45:44
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      wordpress_id:
-    </th>
-
-    <td class="field-body">
-      155
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      layout:
-    </th>
-
-    <td class="field-body">
-      post
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      slug:
-    </th>
-
-    <td class="field-body">
-      physically-meeting-thats-so-1998
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      comments:
-    </th>
-
-    <td class="field-body">
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      category:
-    </th>
-
-    <td class="field-body">
-      my life
-    </td>
-  </tr>
-</table>
 
  [1]: http://creativecommons.org
  [2]: http://creativecommons.org/learn/aboutus/people#21

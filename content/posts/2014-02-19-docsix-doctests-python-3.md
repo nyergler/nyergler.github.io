@@ -1,15 +1,6 @@
 ---
 title: 'DocSix: Doctests on Python 2 & 3'
-author: Nathan Yergler
-type: post
-date: 2014-02-19T00:00:00+00:00
-excerpt: |
-  <p>I was first introduced to <a class="reference external" href="http://en.wikipedia.org/wiki/Doctest">doctests</a> working on Zope 3 at early PyCon
-  sprints. At the time the combination of documentation, specification,
-  and test in a single document seemed pretty interesting to me. These
-  days I like to use them for testing my documentation.</p>
-  <p>Last week <a class="reference external" href="https://github.com/stvs2fork">stvs2fork</a> helpfully opened <a class="reference external" href="https://github.com/eventbrite/rebar/pull/1">a ...</a></p>
-url: /2014/02/19/docsix-doctests-python-3/
+date: 2014-02-19T00:00:00.000Z
 categories:
   - development
 tags:
@@ -17,7 +8,7 @@ tags:
   - python
   - python3
   - testing
-
+slug: docsix-doctests-python-3
 ---
 I was first introduced to [doctests][1]  working on Zope 3 at early PyCon sprints. At the time the combination of documentation, specification, and test in a single document seemed pretty interesting to me. These days I like to use them for testing my documentation.
 
@@ -60,46 +51,7 @@ Potentially useful links:
   </li>
 </ul>
 
-<table class="docutils field-list" frame="void" rules="none">
-  <col class="field-name" /> <col class="field-body" /> <tr class="field">
-    <th class="field-name">
-      author:
-    </th>
 
-    <td class="field-body">
-      Nathan Yergler
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      category:
-    </th>
-
-    <td class="field-body">
-      development
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      tags:
-    </th>
-
-    <td class="field-body">
-      python, doctests, testing, python3
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      comments:
-    </th>
-
-    <td class="field-body">
-    </td>
-  </tr>
-</table>
 
  [1]: http://en.wikipedia.org/wiki/Doctest
  [2]: https://github.com/stvs2fork

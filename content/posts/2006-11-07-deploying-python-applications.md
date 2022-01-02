@@ -1,19 +1,9 @@
 ---
-title: 'Deploying Python Applications'
-author: Nathan Yergler
-type: post
-date: 2006-11-07T16:50:41+00:00
-excerpt: |
-  <p>This post started out as details of some Django work I’ve been doing
-  lately. But it turned out that I needed to talk about zc.buildout first,
-  so Django will have to wait.</p>
-  <p>Lately I’ve been working on an application for
-  <a class="reference external" href="http://creativecommons.org">work</a> that’s using
-  <a class="reference external" href="http://cherrypy.org">CherryPy</a>. Why not ...</p>
-url: /2006/11/07/deploying-python-applications/
+title: Deploying Python Applications
+date: 2006-11-07T16:50:41.000Z
 categories:
   - development
-
+slug: deploying-python-applications
 ---
 This post started out as details of some Django work I’ve been doing lately. But it turned out that I needed to talk about zc.buildout first, so Django will have to wait.
 
@@ -35,66 +25,7 @@ zc.buildout improves on this experience by reading the script information during
 
 I haven’t played with custom recipes yet, but even with simple tasks like this, zc.buildout is a great tool. Thanks, Jim! Tomorrow: zc.buildout, Django, eggs and you.
 
-<table class="docutils field-list" frame="void" rules="none">
-  <col class="field-name" /> <col class="field-body" /> <tr class="field">
-    <th class="field-name">
-      date:
-    </th>
 
-    <td class="field-body">
-      2006-11-07 16:50:41
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      wordpress_id:
-    </th>
-
-    <td class="field-body">
-      458
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      layout:
-    </th>
-
-    <td class="field-body">
-      post
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      slug:
-    </th>
-
-    <td class="field-body">
-      deploying-python-applications
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      comments:
-    </th>
-
-    <td class="field-body">
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      category:
-    </th>
-
-    <td class="field-body">
-      development
-    </td>
-  </tr>
-</table>
 
  [1]: http://creativecommons.org
  [2]: http://cherrypy.org

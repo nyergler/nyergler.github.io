@@ -1,18 +1,9 @@
 ---
-title: 'Boring Software'
-author: Nathan Yergler
-type: post
-date: 2004-06-18T09:25:53+00:00
-excerpt: |
-  <p>Yesterday morning I had a meeting with an accountant. As part of my
-  transition to my new job, I’m also transitioning from respectable,
-  properly W2’d corporate flak to renegade, rebelious, “damn the man” 1099
-  contracter. <span class="caps">OK</span>, maybe not exactly that, but sometimes it feels that way.
-  So my ...</p>
-url: /2004/06/18/boring-software/
+title: Boring Software
+date: 2004-06-18T09:25:53.000Z
 categories:
   - my life
-
+slug: boring-software
 ---
 Yesterday morning I had a meeting with an accountant. As part of my transition to my new job, I’m also transitioning from respectable, properly W2’d corporate flak to renegade, rebelious, “damn the man” 1099 contracter. <span class="caps">OK</span>, maybe not exactly that, but sometimes it feels that way. So my partner Garrett asked one of his co-workers for a <span class="caps">CPA</span> recommendation, and she recommended Randy. Now, even though I worked at an accounting firm for a while (where while == 4 months), I managed to avoid learning absolutely anything about accounting. In fact, I was a little fuzzy on exactly how deductions worked when I showed up for my appointment yesterday.
 
@@ -24,66 +15,7 @@ Consider: writing finance software is boring. To me, at least, and I don’t thi
 
 No, that would be boring.
 
-<table class="docutils field-list" frame="void" rules="none">
-  <col class="field-name" /> <col class="field-body" /> <tr class="field">
-    <th class="field-name">
-      date:
-    </th>
 
-    <td class="field-body">
-      2004-06-18 09:25:53
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      wordpress_id:
-    </th>
-
-    <td class="field-body">
-      139
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      layout:
-    </th>
-
-    <td class="field-body">
-      post
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      slug:
-    </th>
-
-    <td class="field-body">
-      boring-software
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      comments:
-    </th>
-
-    <td class="field-body">
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      category:
-    </th>
-
-    <td class="field-body">
-      my life
-    </td>
-  </tr>
-</table>
 
  [1]: http://www.intuit.com/
  [2]: http://microsoft.com/money

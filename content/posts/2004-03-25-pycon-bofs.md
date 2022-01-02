@@ -1,18 +1,9 @@
 ---
-title: 'PyCon BOFs'
-author: Nathan Yergler
-type: post
-date: 2004-03-25T08:49:24+00:00
-excerpt: |
-  <p>Last night I engaged in a short of <span class="caps">BOF</span> marathon. For someone who was
-  previously a <span class="caps">BOF</span> virgin, it was an interesting experience. BOFs, or
-  Birds Of a Feather meetings, are opportunities for people with similar
-  interests to meet and converse about a given subject in a casual
-  environment. I ...</p>
-url: /2004/03/25/pycon-bofs/
+title: PyCon BOFs
+date: 2004-03-25T08:49:24.000Z
 categories:
   - geek
-
+slug: pycon-bofs
 ---
 Last night I engaged in a short of <span class="caps">BOF</span> marathon. For someone who was previously a <span class="caps">BOF</span> virgin, it was an interesting experience. BOFs, or Birds Of a Feather meetings, are opportunities for people with similar interests to meet and converse about a given subject in a casual environment. I attended three BOFs last night: distutils, Quixote and Chandler.
 
@@ -24,63 +15,4 @@ Finally, the Chandler <span class="caps">BOF</span> was the largest and most int
 
 Tonite I’m heading to the Python in Education <span class="caps">BOF</span>, which should be interesting.
 
-<table class="docutils field-list" frame="void" rules="none">
-  <col class="field-name" /> <col class="field-body" /> <tr class="field">
-    <th class="field-name">
-      date:
-    </th>
 
-    <td class="field-body">
-      2004-03-25 08:49:24
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      wordpress_id:
-    </th>
-
-    <td class="field-body">
-      101
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      layout:
-    </th>
-
-    <td class="field-body">
-      post
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      slug:
-    </th>
-
-    <td class="field-body">
-      pycon-bofs
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      comments:
-    </th>
-
-    <td class="field-body">
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      category:
-    </th>
-
-    <td class="field-body">
-      geek
-    </td>
-  </tr>
-</table>

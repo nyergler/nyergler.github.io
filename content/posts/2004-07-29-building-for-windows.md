@@ -1,21 +1,10 @@
 ---
-title: 'Building for Windows'
-author: Nathan Yergler
-type: post
-date: 2004-07-29T11:20:39+00:00
-excerpt: |
-  <p>It’s a little ironic that the best session I attended yesterday was
-  presented by a Microsoft employee, <a class="reference external" href="http://blogs.msdn.com/robmen/">Rob
-  Mensching</a>. Rob
-  <a class="reference external" href="http://conferences.oreillynet.com/cs/os2004/view/e_sess/5787">presented</a>
-  on <a class="reference external" href="http://wix.sourceforge.net"><span class="caps">WIX</span></a>, the Windows Installer Xml
-  toolkit. <span class="caps">WIX</span> is a set of tools which allow developers to “integrate
-  setup into the build process.” After Rob’s presentation, I ...</p>
-url: /2004/07/29/building-for-windows/
+title: Building for Windows
+date: 2004-07-29T11:20:39.000Z
 categories:
   - development
   - oscon2004
-
+slug: building-for-windows
 ---
 It’s a little ironic that the best session I attended yesterday was presented by a Microsoft employee, [Rob Mensching][1] . Rob [presented][2]  on [<span class="caps">WIX</span>][3] , the Windows Installer Xml toolkit. <span class="caps">WIX</span> is a set of tools which allow developers to “integrate setup into the build process.” After Rob’s presentation, I’m convinced that <span class="caps">WIX</span> is exactly what we need at <span class="caps">CC</span>.
 
@@ -23,66 +12,7 @@ At <span class="caps">CC</span>, we have two programmers on staff, and I’m the
 
 And I suppose it’s good to hear from someone whose ideas and beliefs place him in a different place on the Stallman-Gates Openness Scale.
 
-<table class="docutils field-list" frame="void" rules="none">
-  <col class="field-name" /> <col class="field-body" /> <tr class="field">
-    <th class="field-name">
-      date:
-    </th>
 
-    <td class="field-body">
-      2004-07-29 11:20:39
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      wordpress_id:
-    </th>
-
-    <td class="field-body">
-      167
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      layout:
-    </th>
-
-    <td class="field-body">
-      post
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      slug:
-    </th>
-
-    <td class="field-body">
-      building-for-windows
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      comments:
-    </th>
-
-    <td class="field-body">
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      category:
-    </th>
-
-    <td class="field-body">
-      development, oscon2004
-    </td>
-  </tr>
-</table>
 
  [1]: http://blogs.msdn.com/robmen/
  [2]: http://conferences.oreillynet.com/cs/os2004/view/e_sess/5787

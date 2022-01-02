@@ -1,17 +1,9 @@
 ---
-title: 'Zope Sprint Reflections'
-author: Nathan Yergler
-type: post
-date: 2006-03-07T08:18:23+00:00
-excerpt: |
-  <p>So I’m more than a little behind on my PyCon wrap up posts, so I’ll
-  start at the end, with the Zope Sprint. This year the sprints moved from
-  pre-conference to post-conference, the idea being that people might have
-  ideas during the conference that they would want to ...</p>
-url: /2006/03/07/zope-sprint-reflections/
+title: Zope Sprint Reflections
+date: 2006-03-07T08:18:23.000Z
 categories:
   - pycon2006
-
+slug: zope-sprint-reflections
 ---
 So I’m more than a little behind on my PyCon wrap up posts, so I’ll start at the end, with the Zope Sprint. This year the sprints moved from pre-conference to post-conference, the idea being that people might have ideas during the conference that they would want to work on at the sprints. I’m not sure that happened, although things said during the conference did spark my interest in certain areas that I was able to work on tangentially during the sprint, so in that respect, I suppose the move was successful. I’m not sure if this was the first year that the sprints were 4 days instead of 2 — I didn’t participate last year, so that change may be two years old. I like it. It really can take 2 days to do enough experimenting to start getting useful things done.
 
@@ -26,66 +18,7 @@ The last day of the sprint also was one of the most productive for me. Jim and I
 
 In my mind the sprint was well worth the time I spent there and the money [<span class="caps">CC</span>][8]  spent on me attending it. Zope 3 and Eggs are both technologies that are central to ccPublisher’s future: Zope 3 because it provides so much in the way of infrastructure, and Eggs because they’re the most logical choice for an extension packaging mechanism. And the knowledge gained at the sprint has already paid off — in about an hour yesterday I created a [branch of ccPublisher][9]  and hacked it to use eggs instead of svn:externals for the Zope dependencies.
 
-<table class="docutils field-list" frame="void" rules="none">
-  <col class="field-name" /> <col class="field-body" /> <tr class="field">
-    <th class="field-name">
-      date:
-    </th>
 
-    <td class="field-body">
-      2006-03-07 08:18:23
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      wordpress_id:
-    </th>
-
-    <td class="field-body">
-      400
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      layout:
-    </th>
-
-    <td class="field-body">
-      post
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      slug:
-    </th>
-
-    <td class="field-body">
-      zope-sprint-reflections
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      comments:
-    </th>
-
-    <td class="field-body">
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      category:
-    </th>
-
-    <td class="field-body">
-      pycon2006
-    </td>
-  </tr>
-</table>
 
  [1]: http://dev.zope.org/Zope3
  [2]: http://wiki.creativecommons.org/CcPublisher

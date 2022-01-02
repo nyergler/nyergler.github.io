@@ -1,21 +1,13 @@
 ---
 title: Ubuntu Netbook Remix on the Eee PC
-author: Nathan Yergler
-type: post
-date: 2008-07-13T20:39:53+00:00
-excerpt: |
-  <p>Last year when Asus released the original Eee <span class="caps">PC</span> 7xx series, a
-  colleage and I made a lunch-time trek to Central Computers down the
-  street and each picked up a 701 with 4 <span class="caps">GB</span> <span class="caps">SSD</span> and Linux. The stock
-  distribution is Xandros based. That’s great since Xandros is Debian ...</p>
-url: /2008/07/13/ubuntu-netbook-remix-on-the-eee-pc/
+date: 2008-07-13T20:39:53.000Z
 categories:
   - geek
 tags:
   - eee pc
   - netbook remix
   - ubuntu
-
+slug: ubuntu-netbook-remix-on-the-eee-pc
 ---
 Last year when Asus released the original Eee <span class="caps">PC</span> 7xx series, a colleage and I made a lunch-time trek to Central Computers down the street and each picked up a 701 with 4 <span class="caps">GB</span> <span class="caps">SSD</span> and Linux. The stock distribution is Xandros based. That’s great since Xandros is Debian based itself, but not so great since it seemed configured specifically to resemble Windows in many ways. Progress, right?
 
@@ -55,76 +47,7 @@ If these instructions seem a little thin it’s because I mostly just followed t
 
 I’m heading to <span class="caps">OSCON</span> next week so I’m going to play with the installation this week to determine whether I can use it as my sole machine for that trip.
 
-<table class="docutils field-list" frame="void" rules="none">
-  <col class="field-name" /> <col class="field-body" /> <tr class="field">
-    <th class="field-name">
-      date:
-    </th>
 
-    <td class="field-body">
-      2008-07-13 20:39:53
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      wordpress_id:
-    </th>
-
-    <td class="field-body">
-      559
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      layout:
-    </th>
-
-    <td class="field-body">
-      post
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      slug:
-    </th>
-
-    <td class="field-body">
-      ubuntu-netbook-remix-on-the-eee-pc
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      comments:
-    </th>
-
-    <td class="field-body">
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      category:
-    </th>
-
-    <td class="field-body">
-      geek
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      tags:
-    </th>
-
-    <td class="field-body">
-      eee pc, netbook remix, ubuntu
-    </td>
-  </tr>
-</table>
 
  [1]: http://wiki.eeeuser.com/ubuntu:eeexubuntu:home
  [2]: http://www.canonical.com/netbooks

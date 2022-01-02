@@ -1,24 +1,10 @@
 ---
-title: 'Scaling Python on the Web'
-author: Nathan Yergler
-type: post
-date: 2007-02-24T12:35:29+00:00
-excerpt: |
-  <p>First session of the day was on Scaling Python on the Web; rough notes
-  which I may clean up later:</p>
-  <ul class="simple">
-  <li>How fast is fast enough?<ul>
-  <li>Don’t prematurely optimize</li>
-  <li><strong>Know</strong> where the bottlenecks are, and optimize those specifically?</li>
-  </ul>
-  </li>
-  <li>Orders of magnitude: static (httpd), dynamic (python), db-queried</li>
-  <li>Even 40 req/s ...</li></ul>
-url: /2007/02/24/scaling-python-on-the-web/
+title: Scaling Python on the Web
+date: 2007-02-24T12:35:29.000Z
 categories:
   - pycon2007
   - python
-
+slug: scaling-python-on-the-web
 ---
 First session of the day was on Scaling Python on the Web; rough notes which I may clean up later:
 
@@ -196,63 +182,4 @@ First session of the day was on Scaling Python on the Web; rough notes which I m
 
 <http://www.polimetrix.com/pycon/demo.tar.gz>
 
-<table class="docutils field-list" frame="void" rules="none">
-  <col class="field-name" /> <col class="field-body" /> <tr class="field">
-    <th class="field-name">
-      date:
-    </th>
 
-    <td class="field-body">
-      2007-02-24 12:35:29
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      wordpress_id:
-    </th>
-
-    <td class="field-body">
-      490
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      layout:
-    </th>
-
-    <td class="field-body">
-      post
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      slug:
-    </th>
-
-    <td class="field-body">
-      scaling-python-on-the-web
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      comments:
-    </th>
-
-    <td class="field-body">
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      category:
-    </th>
-
-    <td class="field-body">
-      pycon2007, python
-    </td>
-  </tr>
-</table>

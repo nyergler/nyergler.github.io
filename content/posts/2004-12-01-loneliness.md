@@ -1,17 +1,9 @@
 ---
 title: Loneliness
-author: Nathan Yergler
-type: post
-date: 2004-12-01T17:24:00+00:00
-excerpt: |
-  <p>My birthday was a couple weeks ago. I’m 28 now. It sounds so… old. No
-  more hiding behind the “mid-20’s” moniker; it’s squarely late 20’s now.
-  As G. so adamantly puts it, “you’re half way to 56!” Thanks. I had a
-  birthday party this year ...</p>
-url: /2004/12/01/loneliness/
+date: 2004-12-01T17:24:00.000Z
 categories:
   - my life
-
+slug: loneliness
 ---
 My birthday was a couple weeks ago. I’m 28 now. It sounds so… old. No more hiding behind the “mid-20’s” moniker; it’s squarely late 20’s now. As G. so adamantly puts it, “you’re half way to 56!” Thanks. I had a birthday party this year, first time in, well, years. Actually since I moved out, I guess. I mean, my parents always have a cake and what-not, but my sisters were born three days before me (actually 2 years – 3 days later, but you understand), so it’s always been a cake with lots of candles and names. So this year I had a party. And while there wasn’t a piÃ±ata, there were tasty appetizers, wine and people.
 
@@ -25,63 +17,4 @@ Re-reading this post I can’t decide if it sounds needy or honest. I don’t kn
 
 Postscript: If you live in Fort Wayne, have more than a passing interest in the intersection of culture and technology, and are slightly misanthropic, drop me a line. We just might hit it off.
 
-<table class="docutils field-list" frame="void" rules="none">
-  <col class="field-name" /> <col class="field-body" /> <tr class="field">
-    <th class="field-name">
-      date:
-    </th>
 
-    <td class="field-body">
-      2004-12-01 17:24:00
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      wordpress_id:
-    </th>
-
-    <td class="field-body">
-      235
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      layout:
-    </th>
-
-    <td class="field-body">
-      post
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      slug:
-    </th>
-
-    <td class="field-body">
-      loneliness
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      comments:
-    </th>
-
-    <td class="field-body">
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      category:
-    </th>
-
-    <td class="field-body">
-      my life
-    </td>
-  </tr>
-</table>

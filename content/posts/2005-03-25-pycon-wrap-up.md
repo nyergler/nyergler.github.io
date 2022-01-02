@@ -1,17 +1,9 @@
 ---
-title: 'PyCon Wrap Up'
-author: Nathan Yergler
-type: post
-date: 2005-03-25T17:42:53+00:00
-excerpt: |
-  <p>PyCon is over, and I head back to balmy Indiana tomorrow. Overall PyCon
-  was once again an excellent conference. I will, however, remember this
-  as “The Year of Stairs.” For the first time ever the conference was
-  split between the 1st and 3rd floors of the Marvin Center at <span class="caps">GWU ...</span></p>
-url: /2005/03/25/pycon-wrap-up/
+title: PyCon Wrap Up
+date: 2005-03-25T17:42:53.000Z
 categories:
   - pycon2005
-
+slug: pycon-wrap-up
 ---
 PyCon is over, and I head back to balmy Indiana tomorrow. Overall PyCon was once again an excellent conference. I will, however, remember this as “The Year of Stairs.” For the first time ever the conference was split between the 1st and 3rd floors of the Marvin Center at <span class="caps">GWU</span>, and as a result I climbed lots of stairs. And my room is on the 8th floor of Hotel Lombardy, which has a slow, small elevator with an actual elevator operator. So as a result I’ve been using the stairs instead. Am I ever out of shape.
 
@@ -43,64 +35,4 @@ As with past years, there’s lots I want to look into post-PyCon. So in no part
 
 But first, ccPublisher maintenance release and catching up at work.
 
-<table class="docutils field-list" frame="void" rules="none">
-  <col class="field-name" /> <col class="field-body" /> <tr class="field">
-    <th class="field-name">
-      date:
-    </th>
 
-    <td class="field-body">
-      2005-03-25 17:42:53
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      wordpress_id:
-    </th>
-
-    <td class="field-body">
-      279
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      layout:
-    </th>
-
-    <td class="field-body">
-      post
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      slug:
-    </th>
-
-    <td class="field-body">
-      pycon-wrap-up
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      comments:
-    </th>
-
-    <td class="field-body">
-      False
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      category:
-    </th>
-
-    <td class="field-body">
-      pycon2005
-    </td>
-  </tr>
-</table>

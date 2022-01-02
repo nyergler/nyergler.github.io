@@ -1,16 +1,6 @@
 ---
-title: 'Unicode output from Zope 3'
-author: Nathan Yergler
-type: post
-date: 2008-07-19T12:57:33+00:00
-excerpt: |
-  <p>The Creative Commons licene engine has gone through several iterations,
-  the most recent being a Zope 3 / Grok application. This has actually
-  been a great implementation for
-  us[1]_, but since the
-  day it was deployed there’s been a warning in
-  <tt class="docutils literal">`<span class="caps">README</span>.txt</tt> &lt;<a class="reference external" href="http://code.creativecommons.org/svnroot/cc.engine/trunk/README.txt">http://code.creativecommons.org/svnroot ...</a></p>
-url: /2008/07/19/unicode-output-from-zope-3/
+title: Unicode output from Zope 3
+date: 2008-07-19T12:57:33.000Z
 categories:
   - CC
   - development
@@ -20,7 +10,7 @@ tags:
   - license engine
   - python
   - zope
-
+slug: unicode-output-from-zope-3
 ---
 The Creative Commons licene engine has gone through several iterations, the most recent being a Zope 3 / Grok application. This has actually been a great implementation for us[1]_, but since the day it was deployed there’s been a warning in <tt class="docutils literal">`<span class="caps">README</span>.txt</tt> <[http://code.creativecommons.org/svnroot/cc.engine/trunk/<span class="caps">README</span>.txt][1] >\`_:
 
@@ -49,112 +39,7 @@ I guess not[3]_.
 
 <hr class="docutils" />
 
-<table class="docutils footnote" frame="void" id="id1" rules="none">
-  <colgroup><col class="label" /><col /></colgroup> <tr>
-    <td class="label">
-      [1]
-    </td>
 
-    <td>
-      Yes, I may be a bit biased — I wrote the Zope3/Grok implementation. Of course, I wrote the previous implementation, too, and I can say without a doubt it was… <em>“sub-optimal”</em>.
-    </td>
-  </tr>
-</table>
-
-<table class="docutils footnote" frame="void" id="id2" rules="none">
-  <colgroup><col class="label" /><col /></colgroup> <tr>
-    <td class="label">
-      [2]
-    </td>
-
-    <td>
-      We’re doing a lot of shuffling lately to complete a 32 to 64 bit conversion; see the <a class="reference external" href="http://labs.creativecommons.org/2008/07/15/32-to-64bit-remotely/"><span class="caps">CC</span> Labs blog post</a> for the harrowing details.
-    </td>
-  </tr>
-</table>
-
-<table class="docutils footnote" frame="void" id="id3" rules="none">
-  <colgroup><col class="label" /><col /></colgroup> <tr>
-    <td class="label">
-      [3]
-    </td>
-
-    <td>
-      So the warning remains.
-    </td>
-  </tr>
-</table>
-
-<table class="docutils field-list" frame="void" rules="none">
-  <col class="field-name" /> <col class="field-body" /> <tr class="field">
-    <th class="field-name">
-      date:
-    </th>
-
-    <td class="field-body">
-      2008-07-19 12:57:33
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      wordpress_id:
-    </th>
-
-    <td class="field-body">
-      563
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      layout:
-    </th>
-
-    <td class="field-body">
-      post
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      slug:
-    </th>
-
-    <td class="field-body">
-      unicode-output-from-zope-3
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      comments:
-    </th>
-
-    <td class="field-body">
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      category:
-    </th>
-
-    <td class="field-body">
-      cc, development
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      tags:
-    </th>
-
-    <td class="field-body">
-      cc, development, license engine, python, zope
-    </td>
-  </tr>
-</table>
 
  [1]: http://code.creativecommons.org/svnroot/cc.engine/trunk/README.txt
  [2]: http://pypi.python.org/zc.buildout

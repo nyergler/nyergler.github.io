@@ -1,20 +1,6 @@
 ---
 title: “Open Source” is not a Verb; thoughts on Diaspora
-author: Nathan Yergler
-type: post
-date: 2010-09-23T21:58:23+00:00
-excerpt: |
-  <p>Lots has been written about <a class="reference external" href="http://www.joindiaspora.com/">Diaspora</a>
-  already, so I’ll try to keep this as brief as possible. Reading the
-  <a class="reference external" href="http://www.joindiaspora.com/2010/08/26/overdue-update.html">“overdue
-  update”</a>
-  last month, I saw a phrase that <a class="reference external" href="https://identi.ca/notice/48738964">made me a little
-  crazy</a>:</p>
-  <blockquote>
-  We have Diaspora working, we like it, and it will be open-sourced on
-  September 15th.</blockquote>
-  <p>Open ...</p>
-url: /2010/09/23/diaspora-community/
+date: 2010-09-23T21:58:23.000Z
 categories:
   - open source
 tags:
@@ -22,7 +8,7 @@ tags:
   - diaspora
   - free software
   - open source
-
+slug: diaspora-community
 ---
 Lots has been written about [Diaspora][1]  already, so I’ll try to keep this as brief as possible. Reading the [“overdue update”][2]  last month, I saw a phrase that [made me a little crazy][3] :
 
@@ -64,76 +50,7 @@ It remains to be seen whether the community comes (and stays). Calling it a comm
 
 <sup>†</sup> Where “right” means something like “having an engaged group of users and developers that support and champion your project.”
 
-<table class="docutils field-list" frame="void" rules="none">
-  <col class="field-name" /> <col class="field-body" /> <tr class="field">
-    <th class="field-name">
-      date:
-    </th>
 
-    <td class="field-body">
-      2010-09-23 21:58:23
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      wordpress_id:
-    </th>
-
-    <td class="field-body">
-      1783
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      layout:
-    </th>
-
-    <td class="field-body">
-      post
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      slug:
-    </th>
-
-    <td class="field-body">
-      diaspora-community
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      comments:
-    </th>
-
-    <td class="field-body">
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      category:
-    </th>
-
-    <td class="field-body">
-      open source
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      tags:
-    </th>
-
-    <td class="field-body">
-      community, diaspora, free software, open source
-    </td>
-  </tr>
-</table>
 
  [1]: http://www.joindiaspora.com/
  [2]: http://www.joindiaspora.com/2010/08/26/overdue-update.html

@@ -1,18 +1,9 @@
 ---
-title: 'Ahh… the holidays'
-author: Nathan Yergler
-type: post
-date: 2003-11-26T13:39:16+00:00
-excerpt: |
-  <p>I really detest the holidays. I don’t think I’m alone in this; just this
-  morning Frank DeFord led his piece on <a class="reference external" href="http://www.npr.org/programs/morning/index.html">Morning
-  Edition</a> with the
-  phrase “I just don’t care about Thanksgiving.” Here, here! It’s not that
-  I’m unthankful; I know I have a lot ...</p>
-url: /2003/11/26/ahh-the-holidays/
+title: Ahh… the holidays
+date: 2003-11-26T13:39:16.000Z
+slug: ahh-the-holidays
 categories:
   - my life
-
 ---
 I really detest the holidays. I don’t think I’m alone in this; just this morning Frank DeFord led his piece on [Morning Edition][1]  with the phrase “I just don’t care about Thanksgiving.” Here, here! It’s not that I’m unthankful; I know I have a lot to be thankful about. And it’s not just Thanksgiving; I’d be happy if Christmas were omitted as well (but can I keep the vacation?). I think the issue for me is acceptance. Oh, and hypocrisy.
 
@@ -40,66 +31,6 @@ I’ve struggled quite a bit with figuring out just how my family fits into my l
 
 I guess I should be thankful that my family hasn’t figured out unconditional love. If they had they’d be marching with [<span class="caps">PFLAG</span>][4] , handing out flyers and expecting me to do it with them. And I don’t have that sort of time. As it stands, my holidays breaks suddenly have a lot more free time. I can take a [pottery class][5] .
 
-<table class="docutils field-list" frame="void" rules="none">
-  <col class="field-name" /> <col class="field-body" /> <tr class="field">
-    <th class="field-name">
-      date:
-    </th>
-
-    <td class="field-body">
-      2003-11-26 13:39:16
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      wordpress_id:
-    </th>
-
-    <td class="field-body">
-      49
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      layout:
-    </th>
-
-    <td class="field-body">
-      post
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      slug:
-    </th>
-
-    <td class="field-body">
-      ahh-the-holidays
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      comments:
-    </th>
-
-    <td class="field-body">
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      category:
-    </th>
-
-    <td class="field-body">
-      my life
-    </td>
-  </tr>
-</table>
 
  [1]: http://www.npr.org/programs/morning/index.html
  [2]: http://www.yergler.net/averages/archives/2003/11/23/im_too_old_for_this

@@ -1,21 +1,13 @@
 ---
 title: “Effective Django” at PyCon 2013
-author: Nathan Yergler
-type: post
-date: 2013-01-28T00:00:00+00:00
-excerpt: |
-  <p><a class="reference external" href="http://us.pycon.org/2013/">PyCon</a> (the <span class="caps">US</span> <a class="reference external" href="http://pycon.org/">variation</a>, at least), is about a month and half away, and
-  once again I&#8217;m looking at the schedule of presentations and events and
-  wondering how it is the community pulls it off every year. I&#8217;m also
-  busy preparing my contribution to PyCon. This year I ...</p>
-url: /2013/01/28/effective_django/
+date: 2013-01-28T00:00:00.000Z
 categories:
   - pycon
 tags:
   - effective django
   - python
   - talks
-
+slug: effective_django
 ---
 [PyCon][1]  (the <span class="caps">US</span> [variation][2] , at least), is about a month and half away, and once again I&#8217;m looking at the schedule of presentations and events and wondering how it is the community pulls it off every year. I&#8217;m also busy preparing my contribution to PyCon. This year I&#8217;m happy to be presenting a tutorial, [Effective Django][3] .
 
@@ -25,46 +17,7 @@ I&#8217;m enjoying putting together the material for PyCon, and I hope that if y
 
 If you&#8217;re totally new to Django and want to get a complete introduction to web apps and Django, _Effective Django_ pairs well with Karen Rustad&#8217;s &#8220;[Going from web pages to web apps][4] &#8220;.
 
-<table class="docutils field-list" frame="void" rules="none">
-  <col class="field-name" /> <col class="field-body" /> <tr class="field">
-    <th class="field-name">
-      author:
-    </th>
 
-    <td class="field-body">
-      Nathan Yergler
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      category:
-    </th>
-
-    <td class="field-body">
-      pycon
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      tags:
-    </th>
-
-    <td class="field-body">
-      talks, effective django, python,
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      comments:
-    </th>
-
-    <td class="field-body">
-    </td>
-  </tr>
-</table>
 
  [1]: http://us.pycon.org/2013/
  [2]: http://pycon.org/

@@ -1,23 +1,12 @@
 ---
 title: The OOT Killer
-author: Nathan Yergler
-type: post
-date: 2011-12-04T21:43:00+00:00
-excerpt: |
-  <blockquote>
-  Recently I have been suffering from the delusion that making more
-  commitments will make me more able to achieve them.</blockquote>
-  <p>My first reaction to reading <a class="reference external" href="http://www.asheesh.org/note/debian/oot-killer.html">Asheeh’s reflections on
-  commitments</a>:
-  “Yes, and I wish I’d learned that about ten years earlier than I did.”
-  And then I remember that ...</p>
-url: /2011/12/04/the-oot-killer/
+date: 2011-12-04T21:43:00.000Z
 categories:
   - misc
 tags:
   - commitment
   - practice
-
+slug: the-oot-killer
 ---
 > Recently I have been suffering from the delusion that making more commitments will make me more able to achieve them.
 

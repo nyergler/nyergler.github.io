@@ -1,9 +1,6 @@
 ---
 title: 'Color Woodcut Printmaking: Day 3'
-author: Nathan Yergler
-type: post
-date: 2017-07-29T01:16:07+00:00
-url: /2017/07/28/color-woodcut-printmaking-day-3/
+date: 2017-07-29T01:16:07.000Z
 geo_latitude:
   - 40.825750041016
 geo_longitude:
@@ -17,7 +14,7 @@ tags:
   - reduction
   - relief
   - woodcut
-
+slug: color-woodcut-printmaking-day-3
 ---
 Today I finished my first reduction woodcut. I expected to be finished quickly this morning, but getting it right took the majority of my morning. I was adding some darker lines to ground the piece, and it took some experimenting to figure out where they needed to be to make me happy.
 

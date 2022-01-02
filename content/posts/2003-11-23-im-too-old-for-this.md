@@ -1,19 +1,8 @@
 ---
-title: 'I’m too old for this'
-author: Nathan Yergler
-type: post
-date: 2003-11-23T15:50:10+00:00
-excerpt: |
-  <p>This weekend my <a class="reference external" href="http://www.dlp.org/alphabeta">chapter</a> of <a class="reference external" href="http://www.dlp.org">Delta
-  Lambda Phi</a> held initiation in <a class="reference external" href="http://www.purdue.edu">West
-  Lafayette</a>. Initiation is my favorite ritual we
-  take part in as a brotherhood; it instills in the new brothers a sense
-  of shared experience, and reminds those of us who are, ehm, older why
-  the brotherhood is so ...</p>
-url: /2003/11/23/im-too-old-for-this/
+title: I’m too old for this
+date: 2003-11-23T15:50:10.000Z
 categories:
   - my life
-
 ---
 This weekend my [chapter][1]  of [Delta Lambda Phi][2]  held initiation in [West Lafayette][3] . Initiation is my favorite ritual we take part in as a brotherhood; it instills in the new brothers a sense of shared experience, and reminds those of us who are, ehm, older why the brotherhood is so important.
 
@@ -24,67 +13,7 @@ Finally, we partied like we just turned 21. <span class="caps">OK</span>, not ex
 I blame Patrick and Jeremy, really. The were bartending (maybe that’s too strong a word; all I know is they were pouring from large bottles and seemed to have some clue what they were doing), and even though I only had 3 drinks, when I crashed at 6 this morning I crashed hard. Or maybe it was the Tanqueray; Mark and I decided that, as “elder statesmen” (aka alumni), we needed to raise the booze bar; goodbye McCormick’s, hello Skyy (and Tanqueray #10).
 
 And of course, when you’re walking a block and a half from your car with a 1.75 liter bottle of booze in one hand and a 22 pound bag of ice in the other, you realize that it really is just the simple things.
-
-<table class="docutils field-list" frame="void" rules="none">
-  <col class="field-name" /> <col class="field-body" /> <tr class="field">
-    <th class="field-name">
-      date:
-    </th>
-
-    <td class="field-body">
-      2003-11-23 15:50:10
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      wordpress_id:
-    </th>
-
-    <td class="field-body">
-      48
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      layout:
-    </th>
-
-    <td class="field-body">
-      post
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      slug:
-    </th>
-
-    <td class="field-body">
-      im-too-old-for-this
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      comments:
-    </th>
-
-    <td class="field-body">
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      category:
-    </th>
-
-    <td class="field-body">
-      my life
-    </td>
-  </tr>
-</table>
+>
 
  [1]: http://www.dlp.org/alphabeta
  [2]: http://www.dlp.org

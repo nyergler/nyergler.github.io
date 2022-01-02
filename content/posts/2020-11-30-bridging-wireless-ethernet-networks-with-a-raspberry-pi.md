@@ -1,9 +1,6 @@
 ---
-title: 'Bridging Wireless & Ethernet networks with a Raspberry Pi'
-author: Nathan Yergler
-type: post
-date: 2020-12-01T04:10:25+00:00
-url: /2020/11/30/bridging-wireless-ethernet-networks-with-a-raspberry-pi/
+title: Bridging Wireless & Ethernet networks with a Raspberry Pi
+date: 2020-12-01T04:10:25.000Z
 categories:
   - linux
 tags:
@@ -12,7 +9,7 @@ tags:
   - raspberrypi
 kind:
   - Article
-
+slug: bridging-wireless-ethernet-networks-with-a-raspberry-pi
 ---
 We recently acquired a second hand Dell laser printer, which was timely: our
 inkjet printer is a little long in the tooth, and is starting to require more

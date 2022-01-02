@@ -1,19 +1,11 @@
 ---
-title: 'Perfection is not an option'
-author: Nathan Yergler
-type: post
-date: 2010-03-29T08:04:46+00:00
-excerpt: |
-  <p>My friend Andy, a successful organizational development consultant,
-  moved to Ohio last year to pursue an <span class="caps">MFA</span> in playwriting. I spoke to Andy
-  yesterday for the first time in about a month. We talked about his first
-  year play, and he told me about how he’s felt blocked for ...</p>
-url: /2010/03/29/perfection-is-not-an-option/
+title: Perfection is not an option
+date: 2010-03-29T08:04:46.000Z
 categories:
   - my life
 tags:
   - meta
-
+slug: perfection-is-not-an-option
 ---
 My friend Andy, a successful organizational development consultant, moved to Ohio last year to pursue an <span class="caps">MFA</span> in playwriting. I spoke to Andy yesterday for the first time in about a month. We talked about his first year play, and he told me about how he’s felt blocked for a few weeks. After an initial reading with actors, he received consistent feedback in one area: he had to decide if he was writing a farce with some serious undertones, or a serious piece with some moments of light. Andy told me that this weekend he finally gave up trying to have it both ways, made a decision, found himself unblocked creatively, and spent the entire weekend writing.
 
@@ -34,75 +26,6 @@ Just like I’ve tried to stop worrying about [having the perfect tools][1] , I 
 
 Perfection is not an option.
 
-<table class="docutils field-list" frame="void" rules="none">
-  <col class="field-name" /> <col class="field-body" /> <tr class="field">
-    <th class="field-name">
-      date:
-    </th>
 
-    <td class="field-body">
-      2010-03-29 08:04:46
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      wordpress_id:
-    </th>
-
-    <td class="field-body">
-      1610
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      layout:
-    </th>
-
-    <td class="field-body">
-      post
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      slug:
-    </th>
-
-    <td class="field-body">
-      perfection-is-not-an-option
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      comments:
-    </th>
-
-    <td class="field-body">
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      category:
-    </th>
-
-    <td class="field-body">
-      my life
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      tags:
-    </th>
-
-    <td class="field-body">
-      meta
-    </td>
-  </tr>
-</table>
 
  [1]: http://yergler.net/blog/2010/01/02/meta/

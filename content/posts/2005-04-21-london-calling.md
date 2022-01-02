@@ -1,18 +1,9 @@
 ---
-title: 'London Calling'
-author: Nathan Yergler
-type: post
-date: 2005-04-21T15:24:46+00:00
-excerpt: |
-  <p>So today was my first day at PyUK, which is being presented as part of
-  the <a class="reference external" href="https://www.accu.org/conference/index.html"><span class="caps">ACCU</span> Conference</a>. The
-  day opened with a keynote on improving generic programming from Bjarne
-  Stroustrup (of C++ fame). Bjarne’s presentation centered around the
-  development of a concept he referred to as “Concepts”. Concepts ...</p>
-url: /2005/04/21/london-calling/
+title: London Calling
+date: 2005-04-21T15:24:46.000Z
 categories:
   - pyuk2005
-
+slug: london-calling
 ---
 So today was my first day at PyUK, which is being presented as part of the [<span class="caps">ACCU</span> Conference][1] . The day opened with a keynote on improving generic programming from Bjarne Stroustrup (of C++ fame). Bjarne’s presentation centered around the development of a concept he referred to as “Concepts”. Concepts attempt to completely and perfectly separate the declaration and implementation of templated code. If effectively implemented, they allow programmers to make predicate declarations about the signatures of templated code as well as the parameters. For example, without knowing type you could make the assertion that a templated function requires an iterable paramter. A crappy example, but the jet lag is _still_ killing me.
 
@@ -30,67 +21,7 @@ Tomorrow’s talks look excellent as well, and I’m looking forward to reading 
 
 <span class="caps">PS</span>: Apologies for the cheesy title… I couldn’t resist.
 
-<table class="docutils field-list" frame="void" rules="none">
-  <col class="field-name" /> <col class="field-body" /> <tr class="field">
-    <th class="field-name">
-      date:
-    </th>
 
-    <td class="field-body">
-      2005-04-21 15:24:46
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      wordpress_id:
-    </th>
-
-    <td class="field-body">
-      290
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      layout:
-    </th>
-
-    <td class="field-body">
-      post
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      slug:
-    </th>
-
-    <td class="field-body">
-      london-calling
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      comments:
-    </th>
-
-    <td class="field-body">
-      False
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      category:
-    </th>
-
-    <td class="field-body">
-      pyuk2005
-    </td>
-  </tr>
-</table>
 
  [1]: https://www.accu.org/conference/index.html
  [2]: http://workspaces.gotdotnet.com/ironpython

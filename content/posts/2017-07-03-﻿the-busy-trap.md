@@ -1,15 +1,12 @@
 ---
-title: ﻿The Busy Trap
-author: Nathan Yergler
-type: post
-date: 2017-07-04T04:04:59+00:00
-url: /2017/07/03/﻿the-busy-trap/
+title: "\uFEFFThe Busy Trap"
+date: 2017-07-04T04:04:59.000Z
 LinkFormatURL:
-  - https://opinionator.blogs.nytimes.com/2012/06/30/the-busy-trap/
+  - 'https://opinionator.blogs.nytimes.com/2012/06/30/the-busy-trap/'
 categories:
   - status
 format: link
-
+slug: "\uFEFFthe-busy-trap"
 ---
 [Tim Kreider writes][1]:
 

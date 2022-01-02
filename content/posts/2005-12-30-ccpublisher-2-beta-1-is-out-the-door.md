@@ -1,21 +1,10 @@
 ---
-title: ccPublisher 2, Beta 1 is out the door
-author: Nathan Yergler
-type: post
-date: 2005-12-30T14:05:39+00:00
-excerpt: |
-  <p>It’s late, it’s delayed, and it doesn’t do everything I wanted it to.
-  But there comes a point when you just need to ship. As posted to the
-  <a class="reference external" href="http://lists.sourceforge.net/lists/listinfo/cctools-developer">cc-devel</a>
-  this afternoon:</p>
-  <blockquote>
-  <p>I’m pleased to announce the first beta of ccPublisher 2. This beta
-  represents the first ...</p></blockquote>
-url: /2005/12/30/ccpublisher-2-beta-1-is-out-the-door/
+title: 'ccPublisher 2, Beta 1 is out the door'
+date: 2005-12-30T14:05:39.000Z
 categories:
   - development
   - projects
-
+slug: ccpublisher-2-beta-1-is-out-the-door
 ---
 It’s late, it’s delayed, and it doesn’t do everything I wanted it to. But there comes a point when you just need to ship. As posted to the [cc-devel][1]  this afternoon:
 
@@ -31,66 +20,7 @@ It’s late, it’s delayed, and it doesn’t do everything I wanted it to. But 
 
 **<span class="caps">UPDATE</span>** Mac <span class="caps">OS</span> X builds now available for download at the link above.
 
-<table class="docutils field-list" frame="void" rules="none">
-  <col class="field-name" /> <col class="field-body" /> <tr class="field">
-    <th class="field-name">
-      date:
-    </th>
 
-    <td class="field-body">
-      2005-12-30 14:05:39
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      wordpress_id:
-    </th>
-
-    <td class="field-body">
-      372
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      layout:
-    </th>
-
-    <td class="field-body">
-      post
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      slug:
-    </th>
-
-    <td class="field-body">
-      ccpublisher-2-beta-1-is-out-the-door
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      comments:
-    </th>
-
-    <td class="field-body">
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      category:
-    </th>
-
-    <td class="field-body">
-      development, projects
-    </td>
-  </tr>
-</table>
 
  [1]: http://lists.sourceforge.net/lists/listinfo/cctools-developer
  [2]: http://developer.berlios.de/project/shownotes.php?release_id=8504

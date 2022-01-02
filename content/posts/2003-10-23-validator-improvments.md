@@ -1,19 +1,9 @@
 ---
-title: 'Validator Improvments'
-author: Nathan Yergler
-type: post
-date: 2003-10-23T16:40:18+00:00
-excerpt: |
-  <p>I’ve just moved an improved license validator into
-  <a class="reference external" href="http://www.yergler.net/projects/ccvalidator">place</a> . While I had
-  initially planned to migrate away from straight-<span class="caps">CGI</span> coding with this
-  update, the gods were against me. I started prototyping in
-  <a class="reference external" href="http://www.quixote.ca">Quixote</a> , and ran into problems with Unicode
-  encoding. So I decided to put the conversion on ...</p>
-url: /2003/10/23/validator-improvments/
+title: Validator Improvements
+slug: validator-improvments
+date: 2003-10-23T16:40:18.000Z
 categories:
   - ccValidator
-
 ---
 I’ve just moved an improved license validator into [place][1]  . While I had initially planned to migrate away from straight-<span class="caps">CGI</span> coding with this update, the gods were against me. I started prototyping in [Quixote][2]  , and ran into problems with Unicode encoding. So I decided to put the conversion on hold. If I figure out how to emit Unicode from Quixote, I’ll probably do this at some point in the future.
 
@@ -57,67 +47,6 @@ With such a large number of changes, the source code layout has also changed. In
 A note regarding validation: currently the validator only “validates” as much as RDFlib does; I’m working on that. Further, if you receive some weird traceback, or an “unknown error” message, **please** [e-mail me][4] .
 
 Thanks for all the suggestions and trouble reports; try it out and let me know what you think.
-
-<table class="docutils field-list" frame="void" rules="none">
-  <col class="field-name" /> <col class="field-body" /> <tr class="field">
-    <th class="field-name">
-      date:
-    </th>
-
-    <td class="field-body">
-      2003-10-23 16:40:18
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      wordpress_id:
-    </th>
-
-    <td class="field-body">
-      17
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      layout:
-    </th>
-
-    <td class="field-body">
-      post
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      slug:
-    </th>
-
-    <td class="field-body">
-      validator-improvments
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      comments:
-    </th>
-
-    <td class="field-body">
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      category:
-    </th>
-
-    <td class="field-body">
-      ccValidator
-    </td>
-  </tr>
-</table>
 
  [1]: http://www.yergler.net/projects/ccvalidator
  [2]: http://www.quixote.ca

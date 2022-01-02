@@ -1,22 +1,13 @@
 ---
 title: Tinkering
-author: Nathan Yergler
-type: post
-date: 2013-01-06T00:00:00+00:00
-excerpt: |
-  <p>I&#8217;ve been contemplating leaving WordPress for a while. Part of it was
-  a desire for something simpler, part of it was that as I worked on
-  <a class="reference external" href="http://yergler.net/project/hieroglyph/">Hieroglyph</a>, I found myself
-  really appreciating the Sphinx build pipeline. Older blog posts on my
-  site have also been in varying states of ...</p>
-url: /2013/01/06/tinkering/
+date: 2013-01-06T00:00:00.000Z
 categories:
   - yergler.net
 tags:
   - rst
   - sphinx
   - tinkerer
-
+slug: tinkering
 ---
 I&#8217;ve been contemplating leaving WordPress for a while. Part of it was a desire for something simpler, part of it was that as I worked on [Hieroglyph][1] , I found myself really appreciating the Sphinx build pipeline. Older blog posts on my site have also been in varying states of brokenness for the past few years: I used to use [Textile][2]  for writing posts, but at some point the WordPress plugin I was using stopped working, so I just let it serve them with the raw markup. It felt like it&#8217;d be easier to fix those up into something sane if I had flat files to work with, instead of a relational database.
 
@@ -43,46 +34,7 @@ I&#8217;ve [forked Tinkerer on Bitbucket][5]  and addressed those issues. Making
 
 As an aside, if you&#8217;re looking at migrating from WordPress to another platform, the [exitwp][7]  script is a pretty sane place to start. I used it, along with [pandoc][8] , to transform my WordPress export into more uniform Restructured Text.
 
-<table class="docutils field-list" frame="void" rules="none">
-  <col class="field-name" /> <col class="field-body" /> <tr class="field">
-    <th class="field-name">
-      author:
-    </th>
 
-    <td class="field-body">
-      Nathan Yergler
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      category:
-    </th>
-
-    <td class="field-body">
-      yergler.net
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      tags:
-    </th>
-
-    <td class="field-body">
-      sphinx, tinkerer, rst
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      comments:
-    </th>
-
-    <td class="field-body">
-    </td>
-  </tr>
-</table>
 
  [1]: http://yergler.net/project/hieroglyph/
  [2]: http://en.wikipedia.org/wiki/Textile_%28markup_language%29

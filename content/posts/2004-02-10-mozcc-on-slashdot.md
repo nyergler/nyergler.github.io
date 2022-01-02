@@ -1,21 +1,9 @@
 ---
-title: 'mozCC on Slashdot'
-author: Nathan Yergler
-type: post
-date: 2004-02-10T09:59:47+00:00
-excerpt: |
-  <p>I guess my 15 minutes are here.
-  <a class="reference external" href="http://yergler.net/projects/mozcc">mozCC</a> was mentioned in a
-  <a class="reference external" href="http://slashdot.org">Slashdot</a>
-  <a class="reference external" href="http://developers.slashdot.org/article.pl?sid=04/02/08/180230&amp;mode=thread&amp;tid=117&amp;tid=99">story</a>
-  this weekend. The effect has been a little overwhelming: a jump in
-  downloads and page views by an order of magnitude, and dozens of
-  e-mails. Unfortunately, the e-mails all read something like this:</p>
-  <p>Hey, mozCC is ...</p>
-url: /2004/02/10/mozcc-on-slashdot/
+title: mozCC on Slashdot
+date: 2004-02-10T09:59:47.000Z
 categories:
   - mozCC
-
+slug: mozcc-on-slashdot
 ---
 I guess my 15 minutes are here. [mozCC][1]  was mentioned in a [Slashdot][2]  [story][3]  this weekend. The effect has been a little overwhelming: a jump in downloads and page views by an order of magnitude, and dozens of e-mails. Unfortunately, the e-mails all read something like this:
 
@@ -27,66 +15,7 @@ On a final note, the [Mozilla Foundation][5]  released [Firefox 0.8][6]  this we
 
 Thanks for the encouragment, everyone; stay tuned for more updates.
 
-<table class="docutils field-list" frame="void" rules="none">
-  <col class="field-name" /> <col class="field-body" /> <tr class="field">
-    <th class="field-name">
-      date:
-    </th>
 
-    <td class="field-body">
-      2004-02-10 09:59:47
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      wordpress_id:
-    </th>
-
-    <td class="field-body">
-      83
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      layout:
-    </th>
-
-    <td class="field-body">
-      post
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      slug:
-    </th>
-
-    <td class="field-body">
-      mozcc-on-slashdot
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      comments:
-    </th>
-
-    <td class="field-body">
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      category:
-    </th>
-
-    <td class="field-body">
-      mozCC
-    </td>
-  </tr>
-</table>
 
  [1]: http://yergler.net/projects/mozcc
  [2]: http://slashdot.org

@@ -1,21 +1,9 @@
 ---
 title: 'Book Review: Java 5.0 Tiger: A Developer’s Notebook'
-author: Nathan Yergler
-type: post
-date: 2006-06-29T16:06:00+00:00
-excerpt: |
-  <p><strong>Java 5.0 Tiger: A Developer’s Notebook</strong> (<a class="reference external" href="http://www.oreilly.com/catalog/javaadn/">publisher
-  site</a>)
-  <em>Brett McLaughlin</em>
-  <em>David Flanagan</em></p>
-  <p><em>Java 5.0 Tiger: A Developer’s Notebook</em> (<span class="caps">J5T</span>) was one of two books I
-  requested from O’Reilly’s <a class="reference external" href="http://ug.oreilly.com/">User Group support
-  program</a> during my last semester of school. I
-  requested <span class="caps">J5T</span> because I was ...</p>
-url: /2006/06/29/book-review-java-50-tiger-a-developers-notebook/
+date: 2006-06-29T16:06:00.000Z
 categories:
   - reading
-
+slug: book-review-java-50-tiger-a-developers-notebook
 ---
 **Java 5.0 Tiger: A Developer’s Notebook** ([publisher site][1] ) _Brett McLaughlin_ _David Flanagan_
 
@@ -29,66 +17,7 @@ My complaints about the book are incredibly few and mostly echo my previous comp
 
 Overall <span class="caps">J5T</span> is an excellent utility book for people coming from a Java 1.4 background. This also implies that it’s lifetime is somewhat limited: these features are only going to be **new** for so long, and more and more developers are going to get their first taste of Java in a Java 5 world. Luckily for authors, there’s always new features being added, currently in the Java 6 (Mustang). And if you don’t want to write about language features, I’m _still_ waiting for **Java Version Numbering in a Nutshell**. Now that would be useful.
 
-<table class="docutils field-list" frame="void" rules="none">
-  <col class="field-name" /> <col class="field-body" /> <tr class="field">
-    <th class="field-name">
-      date:
-    </th>
 
-    <td class="field-body">
-      2006-06-29 16:06:00
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      wordpress_id:
-    </th>
-
-    <td class="field-body">
-      429
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      layout:
-    </th>
-
-    <td class="field-body">
-      post
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      slug:
-    </th>
-
-    <td class="field-body">
-      book-review-java-50-tiger-a-developers-notebook
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      comments:
-    </th>
-
-    <td class="field-body">
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      category:
-    </th>
-
-    <td class="field-body">
-      reading
-    </td>
-  </tr>
-</table>
 
  [1]: http://www.oreilly.com/catalog/javaadn/
  [2]: http://ug.oreilly.com/

@@ -1,22 +1,11 @@
 ---
-title: 'Anatomy of a Sherlock Channel; or, How I Learned to Stop Worrying and Love The Pain'
-author: Nathan Yergler
-type: post
-date: 2004-10-12T18:17:31+00:00
-excerpt: |
-  <p>With the release of the <a class="reference external" href="http://creativecommons.org">Creative Commons</a>
-  <a class="reference external" href="http://www.apple.com/macosx/features/sherlock/">Sherlock</a>
-  <a class="reference external" href="http://yergler.net/blog/archives/2004/10/12/get-your-cc-fix-here">channel</a>,
-  it seems prudent to document some of the development process. The
-  <a class="reference external" href="http://developer.apple.com/documentation/AppleApplications/Conceptual/Sherlock/">Sherlock Developer
-  Documentation</a>
-  implies that developing a channel is easy as pie. As a developer
-  unfamiliar with the tools, I found the process any but straightforward.
-  In retrospect certain things ...</p>
-url: /2004/10/12/anatomy-of-a-sherlock-channel/
+title: >-
+  Anatomy of a Sherlock Channel; or, How I Learned to Stop Worrying and Love The
+  Pain
+date: 2004-10-12T18:17:31.000Z
 categories:
   - development
-
+slug: anatomy-of-a-sherlock-channel
 ---
 With the release of the [Creative Commons][1]  [Sherlock][2]  [channel][3] , it seems prudent to document some of the development process. The [Sherlock Developer Documentation][4]  implies that developing a channel is easy as pie. As a developer unfamiliar with the tools, I found the process any but straightforward. In retrospect certain things make sense now that I have a working model, but I’m still no expert.
 
@@ -59,66 +48,7 @@ Additionally, the following resources may or may not be useful to you if you’r
 
 In conclusion, writing a Sherlock Channel was a lot more painful that it felt like it should have been. But I’ll be back; there’s work to be done in the <span class="caps">CC</span> Search Channel, and I’ll continue to post my experiences here.
 
-<table class="docutils field-list" frame="void" rules="none">
-  <col class="field-name" /> <col class="field-body" /> <tr class="field">
-    <th class="field-name">
-      date:
-    </th>
 
-    <td class="field-body">
-      2004-10-12 18:17:31
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      wordpress_id:
-    </th>
-
-    <td class="field-body">
-      211
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      layout:
-    </th>
-
-    <td class="field-body">
-      post
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      slug:
-    </th>
-
-    <td class="field-body">
-      anatomy-of-a-sherlock-channel
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      comments:
-    </th>
-
-    <td class="field-body">
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      category:
-    </th>
-
-    <td class="field-body">
-      development
-    </td>
-  </tr>
-</table>
 
  [1]: http://creativecommons.org
  [2]: http://www.apple.com/macosx/features/sherlock/

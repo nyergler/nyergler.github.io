@@ -1,19 +1,9 @@
 ---
-title: 'More platform-specific browser props'
-author: Nathan Yergler
-type: post
-date: 2004-09-10T09:13:21+00:00
-excerpt: |
-  <p>Last week I
-  <a class="reference external" href="http://yergler.net/blog/archives/2004/08/31/camino-081-out-and-boy-is-it-fast">mentioned</a>
-  that I had tried <a class="reference external" href="http://www.mozilla.org/products/camino/">Camino</a>
-  again, and that I was shocked at how fast it was. Since then, I’m a
-  little ashamed to admit it’s nearly become my primary browser on Mac <span class="caps">OS</span>
-  X. I’m ashamed because I feel like I should be ...</p>
-url: /2004/09/10/more-platform-specific-browser-props/
+title: More platform-specific browser props
+date: 2004-09-10T09:13:21.000Z
 categories:
   - geek
-
+slug: more-platform-specific-browser-props
 ---
 Last week I [mentioned][1]  that I had tried [Camino][2]  again, and that I was shocked at how fast it was. Since then, I’m a little ashamed to admit it’s nearly become my primary browser on Mac <span class="caps">OS</span> X. I’m ashamed because I feel like I should be supporting [Firefox][3] , not just because it’s Mozilla.org’s current darling, but because it’s cross platform and oh-so-extensible.
 
@@ -23,66 +13,7 @@ Those of you who’ve used [<span class="caps">STRIKEOUT</span>:Ximian] Novell [
 
 So what’s my single complaint? Using Firefox and Camino, I’ve become used to pressing Ctrl-L, Tab to get to the Google search box. Since Galeon implements it on a seperate toolbar, that pattern doesn’t work. A small frustration, but muscle memory and habit bring it up frequently. You can’t have it all, I guess.
 
-<table class="docutils field-list" frame="void" rules="none">
-  <col class="field-name" /> <col class="field-body" /> <tr class="field">
-    <th class="field-name">
-      date:
-    </th>
 
-    <td class="field-body">
-      2004-09-10 09:13:21
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      wordpress_id:
-    </th>
-
-    <td class="field-body">
-      186
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      layout:
-    </th>
-
-    <td class="field-body">
-      post
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      slug:
-    </th>
-
-    <td class="field-body">
-      more-platform-specific-browser-props
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      comments:
-    </th>
-
-    <td class="field-body">
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      category:
-    </th>
-
-    <td class="field-body">
-      geek
-    </td>
-  </tr>
-</table>
 
  [1]: http://yergler.net/blog/archives/2004/08/31/camino-081-out-and-boy-is-it-fast
  [2]: http://www.mozilla.org/products/camino/

@@ -1,18 +1,9 @@
 ---
 title: 'CherryPy: Silly Name, Cool Framework'
-author: Nathan Yergler
-type: post
-date: 2005-05-03T10:48:26+00:00
-excerpt: |
-  <p>I’ve been playing with CherryPy, one of many Python web frameworks, over
-  the past 12 hours, and have to admit I’m really impressed. I first ran
-  across <a class="reference external" href="http://cherrypy.org">CherryPy</a> a few years back, and was
-  thoroughly unimpressed. The details are hazy, but I seem to remember
-  that in it ...</p>
-url: /2005/05/03/cherrypy-silly-name-cool-framework/
+date: 2005-05-03T10:48:26.000Z
 categories:
   - development
-
+slug: cherrypy-silly-name-cool-framework
 ---
 I’ve been playing with CherryPy, one of many Python web frameworks, over the past 12 hours, and have to admit I’m really impressed. I first ran across [CherryPy][1]  a few years back, and was thoroughly unimpressed. The details are hazy, but I seem to remember that in it’s first incarnation, it involved embedding Python in templates, running some sort of compiler over them, and then serving them up. Like I said, the details are hazy, so I could be completely wrong on that. What I **do** remember is that I couldn’t get the [Warrant][2]  song out of my head for days, and that itself was enough to make me write it off. This may say more about my white trash background than anything, but that’s not a path I want to explore this morning.
 
@@ -48,67 +39,7 @@ The requirement which has kept me from using something like [TextDrive][5] , or 
 
 Anyway, in about 12 hours (of which 6 or 7 were spent sleeping), I’ve been able to put together a basic system that features through the web editting, rendering using Zope Page Templates, and basic security for the admin areas. Take that, [Rails][7] .
 
-<table class="docutils field-list" frame="void" rules="none">
-  <col class="field-name" /> <col class="field-body" /> <tr class="field">
-    <th class="field-name">
-      date:
-    </th>
 
-    <td class="field-body">
-      2005-05-03 10:48:26
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      wordpress_id:
-    </th>
-
-    <td class="field-body">
-      294
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      layout:
-    </th>
-
-    <td class="field-body">
-      post
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      slug:
-    </th>
-
-    <td class="field-body">
-      cherrypy-silly-name-cool-framework
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      comments:
-    </th>
-
-    <td class="field-body">
-      False
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      category:
-    </th>
-
-    <td class="field-body">
-      development
-    </td>
-  </tr>
-</table>
 
  [1]: http://cherrypy.org
  [2]: http://www.allmusic.com/cg/amg.dll?p=amg&sql=10:2d87gjqrj6ix

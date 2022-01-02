@@ -1,10 +1,9 @@
 ---
-title: 'Ahhh… Now I Understand'
+title: Ahhh… Now I Understand
 slug: ahhh-now-i-understand
-date: 2003-10-14T12:36:17+00:00
+date: 2003-10-14T12:36:17.000Z
 categories:
   - python
-
 ---
 Descriptors, like meta-classes, are a feature of Python that I didn’t really
 understand up until now. Raymond Hettinger has written an excellent [How-To

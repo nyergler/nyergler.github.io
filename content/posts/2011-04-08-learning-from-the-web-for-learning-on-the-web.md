@@ -1,21 +1,11 @@
 ---
-title: 'Learning from the Web for Learning on the Web'
-author: Nathan Yergler
-type: post
-date: 2011-04-08T15:45:10+00:00
-excerpt: |
-  <p>Earlier this year Steven Stapleton from University of Nottingham emailed
-  me and asked if I’d like to be a keynote speaker at
-  <a class="reference external" href="http://www.nottingham.ac.uk/open/opennottinghamseminar/opennottinghamseminar.aspx">OpenNottingham</a>.
-  I accepted, and was very excited to be part of the day. More recently,
-  an opportunity unexpectedly presented itself, and I decided that after
-  seven years ...</p>
-url: /2011/04/08/learning-from-the-web-for-learning-on-the-web/
+title: Learning from the Web for Learning on the Web
+date: 2011-04-08T15:45:10.000Z
 categories:
   - CC
 tags:
   - openn11
-
+slug: learning-from-the-web-for-learning-on-the-web
 ---
 Earlier this year Steven Stapleton from University of Nottingham emailed me and asked if I’d like to be a keynote speaker at [OpenNottingham][1] . I accepted, and was very excited to be part of the day. More recently, an opportunity unexpectedly presented itself, and I decided that after seven years, it was time to move on from Creative Commons. As a result of the timing of my departure, I was unable to travel to the <span class="caps">UK</span> this past week. What follows are the remarks I delivered via Skype for the event.
 
@@ -63,76 +53,7 @@ This high level, incredibly vague, and very, very selective history of the web s
 
 Thank you.
 
-<table class="docutils field-list" frame="void" rules="none">
-  <col class="field-name" /> <col class="field-body" /> <tr class="field">
-    <th class="field-name">
-      date:
-    </th>
 
-    <td class="field-body">
-      2011-04-08 15:45:10
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      wordpress_id:
-    </th>
-
-    <td class="field-body">
-      1895
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      layout:
-    </th>
-
-    <td class="field-body">
-      post
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      slug:
-    </th>
-
-    <td class="field-body">
-      learning-from-the-web-for-learning-on-the-web
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      comments:
-    </th>
-
-    <td class="field-body">
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      category:
-    </th>
-
-    <td class="field-body">
-      cc
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      tags:
-    </th>
-
-    <td class="field-body">
-      openn11
-    </td>
-  </tr>
-</table>
 
  [1]: http://www.nottingham.ac.uk/open/opennottinghamseminar/opennottinghamseminar.aspx
  [2]: http://www.youtube.com/watch?v=r47dFYm-nRA

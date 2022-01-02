@@ -1,11 +1,10 @@
 ---
-title: 'Creative Commons License Validator'
-date: 2003-10-15T09:00:00+00:00
-url: /2003/10/15/creative-commons-license-validator/
+title: Creative Commons License Validator
+date: 2003-10-15T09:00:00.000Z
 categories:
   - ccValidator
   - python
-
+slug: creative-commons-license-validator
 ---
 Well, what good is a weekend not spent coding? In this case, I managed to hack
 together a **very** rudimentary <span class="caps">RDF</span> parser/validator

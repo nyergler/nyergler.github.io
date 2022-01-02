@@ -1,19 +1,10 @@
 ---
-title: ccPublisher, Python and XML
-author: Nathan Yergler
-type: post
-date: 2005-09-08T16:56:35+00:00
-excerpt: |
-  <p>So two days ago I launched the first <a class="reference external" href="http://creativecommons.org/weblog/entry/5606">Developer Preview of ccPublisher
-  2</a> for Linux, promising
-  Windows and Mac <span class="caps">OS</span> X builds “within the day.” It’s been two days,
-  they’re not uploaded, what’s going on? Funny you should ask. It actually
-  has a lot to do with ...</p>
-url: /2005/09/08/ccpublisher-python-and-xml/
+title: 'ccPublisher, Python and XML'
+date: 2005-09-08T16:56:35.000Z
 categories:
   - development
   - python
-
+slug: ccpublisher-python-and-xml
 ---
 So two days ago I launched the first [Developer Preview of ccPublisher 2][1]  for Linux, promising Windows and Mac <span class="caps">OS</span> X builds “within the day.” It’s been two days, they’re not uploaded, what’s going on? Funny you should ask. It actually has a lot to do with something else that’s been generating a lot of discussion lately on Python blogs: <span class="caps">XML</span>.
 
@@ -31,66 +22,7 @@ So ccPublisher 2 Developer Preview is slightly delayed on Windows while we make 
 
 So interestly, <span class="caps">PJE</span> appears to have the ability to spark concern as well as solve weird edge-case problems.
 
-<table class="docutils field-list" frame="void" rules="none">
-  <col class="field-name" /> <col class="field-body" /> <tr class="field">
-    <th class="field-name">
-      date:
-    </th>
 
-    <td class="field-body">
-      2005-09-08 16:56:35
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      wordpress_id:
-    </th>
-
-    <td class="field-body">
-      326
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      layout:
-    </th>
-
-    <td class="field-body">
-      post
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      slug:
-    </th>
-
-    <td class="field-body">
-      ccpublisher-python-and-xml
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      comments:
-    </th>
-
-    <td class="field-body">
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      category:
-    </th>
-
-    <td class="field-body">
-      development, python
-    </td>
-  </tr>
-</table>
 
  [1]: http://creativecommons.org/weblog/entry/5606
  [2]: http://dirtsimple.org/

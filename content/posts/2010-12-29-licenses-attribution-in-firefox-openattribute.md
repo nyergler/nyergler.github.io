@@ -1,15 +1,6 @@
 ---
 title: 'Licenses & Attribution in Firefox: OpenAttribute'
-author: Nathan Yergler
-type: post
-date: 2010-12-29T16:00:52+00:00
-excerpt: |
-  <p>Seven years ago I started working on MozCC, an add-on for Firefox that
-  exposed Creative Commons license information embedded in web pages.
-  Little did I know that add-on would be the start of a career with <span class="caps">CC</span>,
-  eventually leading me to San Francisco, and subsequently around the
-  globe to talk ...</p>
-url: /2010/12/29/licenses-attribution-in-firefox-openattribute/
+date: 2010-12-29T16:00:52.000Z
 categories:
   - mozCC
 tags:
@@ -19,7 +10,7 @@ tags:
   - firefox
   - mozcc
   - OpenAttribute
-
+slug: licenses-attribution-in-firefox-openattribute
 ---
 Seven years ago I started working on MozCC, an add-on for Firefox that exposed Creative Commons license information embedded in web pages. Little did I know that add-on would be the start of a career with <span class="caps">CC</span>, eventually leading me to San Francisco, and subsequently around the globe to talk about <span class="caps">CC</span>’s technology. MozCC was dropped from active maintenance somewhere around Firefox 3, but of the tools I built during my first couple years at <span class="caps">CC</span>, it’s the one I still get the most questions about.
 
@@ -37,76 +28,7 @@ OpenAttribute is an add-on that displays a small “<span class="caps">CC</span>
 
 There’s still work to be done, but at this point I think it’s ready for broader testing. You can [download the add-on][10]  and find [the code][11]  on github. Feedback, questions, suggestions should all probably go to the [attrib-generator Google Group][12] .
 
-<table class="docutils field-list" frame="void" rules="none">
-  <col class="field-name" /> <col class="field-body" /> <tr class="field">
-    <th class="field-name">
-      date:
-    </th>
 
-    <td class="field-body">
-      2010-12-29 16:00:52
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      wordpress_id:
-    </th>
-
-    <td class="field-body">
-      1828
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      layout:
-    </th>
-
-    <td class="field-body">
-      post
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      slug:
-    </th>
-
-    <td class="field-body">
-      licenses-attribution-in-firefox-openattribute
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      comments:
-    </th>
-
-    <td class="field-body">
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      category:
-    </th>
-
-    <td class="field-body">
-      mozCC
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      tags:
-    </th>
-
-    <td class="field-body">
-      add-on, cc, drumbeat, firefox, mozcc, OpenAttribute
-    </td>
-  </tr>
-</table>
 
  [1]: http://labs.creativecommons.org/2010/07/11/gsoc-firefox-extension-status-report/
  [2]: http://learningfreedomandtheweb.org/folio/

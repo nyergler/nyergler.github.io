@@ -1,14 +1,6 @@
 ---
-title: 'Getting Things Zero’d'
-author: Nathan Yergler
-type: post
-date: 2008-06-11T23:18:16+00:00
-excerpt: |
-  <p>I really love task lists — especially the crossing off part — but lately
-  they haven’t really been helping me out. Between the day job, consulting
-  work, dating, and a more active social life than I had in Indiana, it
-  seems like I never quite get to the crossing off part ...</p>
-url: /2008/06/11/getting-things-zerod/
+title: Getting Things Zero’d
+date: 2008-06-11T23:18:16.000Z
 categories:
   - CC
   - General
@@ -17,7 +9,7 @@ tags:
   - gtd
   - inbox zero
   - rtm
-
+slug: getting-things-zerod
 ---
 I really love task lists — especially the crossing off part — but lately they haven’t really been helping me out. Between the day job, consulting work, dating, and a more active social life than I had in Indiana, it seems like I never quite get to the crossing off part. This has become particularly clear at work where I use two simple labels for email: <tt class="docutils literal">action</tt> and <tt class="docutils literal">reply</tt>. I’m a little ashamed to admit that the <tt class="docutils literal">action</tt> queue currently has 196 items in it, the oldest dating to August of last year. My <span class="caps">CC</span> inbox has 404 messages in it right now, of which 182 are starred. Starring is supposed to indicate something that needs my attention. Somehow this doesn’t seem productive. Mike, if you’re reading this, I’m sorry. Believe me, I’m sorry.
 
@@ -46,76 +38,7 @@ Finally, the piece that ties both sides together: their [Firefox extension][9] .
   </li>
 </ol>
 
-<table class="docutils field-list" frame="void" rules="none">
-  <col class="field-name" /> <col class="field-body" /> <tr class="field">
-    <th class="field-name">
-      date:
-    </th>
 
-    <td class="field-body">
-      2008-06-11 23:18:16
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      wordpress_id:
-    </th>
-
-    <td class="field-body">
-      553
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      layout:
-    </th>
-
-    <td class="field-body">
-      post
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      slug:
-    </th>
-
-    <td class="field-body">
-      getting-things-zerod
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      comments:
-    </th>
-
-    <td class="field-body">
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      category:
-    </th>
-
-    <td class="field-body">
-      cc, General
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      tags:
-    </th>
-
-    <td class="field-body">
-      cc, gtd, inbox zero, rtm
-    </td>
-  </tr>
-</table>
 
  [1]: http://video.google.com/videoplay?docid=973149761529535925&q=inbox+zero&ei=TcRQSKWXLqP6qwOxptSuDA
  [2]: http://inboxzero.com

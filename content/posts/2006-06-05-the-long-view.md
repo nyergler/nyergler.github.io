@@ -1,22 +1,10 @@
 ---
-title: 'The Long View'
-author: Nathan Yergler
-type: post
-date: 2006-06-05T15:51:41+00:00
-excerpt: |
-  <p>If you want a thorough <a class="reference external" href="http://en.wikipedia.org/wiki/Fisking">fisking</a>
-  of our esteemed President’s radio address yesterday (dedicated to the
-  <a class="reference external" href="http://en.wikipedia.org/wiki/Federal_Marriage_Amendment">Federal Marriage
-  Amendment</a>,
-  natch, because that’s the most pressing issue we face as a country), see
-  <a class="reference external" href="http://bible.gideonse.com/">Ted’s</a> <a class="reference external" href="http://bible.gideonse.com/2006/06/in-case-you-missed-bushs-gay-marriage.html">blog
-  entry</a>.
-  It seems to me that this issue only comes up when Bush ...</p>
-url: /2006/06/05/the-long-view/
+title: The Long View
+date: 2006-06-05T15:51:41.000Z
 categories:
   - my life
   - politics
-
+slug: the-long-view
 ---
 If you want a thorough [fisking][1]  of our esteemed President’s radio address yesterday (dedicated to the [Federal Marriage Amendment][2] , natch, because that’s the most pressing issue we face as a country), see [Ted’s][3]  [blog entry][4] . It seems to me that this issue only comes up when Bush needs to appeal to the [<span class="caps">STRIKEOUT</span>:facists] [<span class="caps">STRIKEOUT</span>:zealots] [<span class="caps">STRIKEOUT</span>:bigots] [<span class="caps">STRIKEOUT</span>:wackos] Republican base. But that would imply he was simply pandering, which we know he wouldn’t do — he’s a uniter, not a divider; a straight shooter, remember?
 
@@ -31,66 +19,7 @@ Wouldn’t that be deliciously ironic? In their desire to not look like **comple
 > “Look, civil unions are one thing; of course those faggots should be able to cry like queens in the hospital when one of them deservingly dies! Just don’t touch marriage. It’s special.”
 So what if civil unions are really the more subversive of the two options? What if people finally realize that marriage is a religious ceremony with no business in our government what-so-ever? Here’s hoping.
 
-<table class="docutils field-list" frame="void" rules="none">
-  <col class="field-name" /> <col class="field-body" /> <tr class="field">
-    <th class="field-name">
-      date:
-    </th>
 
-    <td class="field-body">
-      2006-06-05 15:51:41
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      wordpress_id:
-    </th>
-
-    <td class="field-body">
-      423
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      layout:
-    </th>
-
-    <td class="field-body">
-      post
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      slug:
-    </th>
-
-    <td class="field-body">
-      the-long-view
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      comments:
-    </th>
-
-    <td class="field-body">
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      category:
-    </th>
-
-    <td class="field-body">
-      my life, politics
-    </td>
-  </tr>
-</table>
 
  [1]: http://en.wikipedia.org/wiki/Fisking
  [2]: http://en.wikipedia.org/wiki/Federal_Marriage_Amendment

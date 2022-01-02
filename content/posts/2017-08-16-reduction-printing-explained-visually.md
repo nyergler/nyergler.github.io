@@ -1,9 +1,6 @@
 ---
 title: Reduction Printing Explained Visually
-author: Nathan Yergler
-type: post
-date: 2017-08-16T19:24:49+00:00
-url: /2017/08/16/reduction-printing-explained-visually/
+date: 2017-08-16T19:24:49.000Z
 categories:
   - printmaking
 tags:
@@ -11,7 +8,7 @@ tags:
 format: image
 kind:
   - Note
-
+slug: reduction-printing-explained-visually
 ---
 <figure id="attachment_2752" aria-describedby="caption-attachment-2752" style="width: 2048px" class="wp-caption aligncenter"><img data-attachment-id="2752" data-permalink="https://www.yergler.net/2017/08/16/reduction-printing-explained-visually/sketches-55/" data-orig-file="https://www.yergler.net/wp-content/uploads/2017/08/Sketches-55.png" data-orig-size="2048,1536" data-comments-opened="0" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="Reduction Printing 101" data-image-description="<p>In a reduction print, the same block is carved, inked, and printed multiple times. Each time, more of the block is carved away, reducing the amount that can print.</p>
 " data-image-caption="<p>Reduction Printmaking explained visually.</p>

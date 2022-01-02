@@ -1,19 +1,9 @@
 ---
 title: 'Giving <span class="caps">RSS</span> the Bird (er, Fox)'
-author: Nathan Yergler
-type: post
-date: 2004-09-15T08:09:27+00:00
-excerpt: |
-  <p>I’ve spent the past 24 hours playing with the new releases of
-  <a class="reference external" href="http://www.mozilla.org/products/firefox/">Firefox</a> (1.<span class="caps">0PR</span>) and
-  <a class="reference external" href="http://www.mozilla.org/products/thunderbird/">Thunderbird</a> (0.8),
-  available from mozilla.org. Overall, I’m very impressed. The respective
-  teams are obviously hard at work improving the software, and these
-  projects (indeed, <a class="reference external" href="http://mozilla.org">mozilla.org</a> in general, in my ...</p>
-url: /2004/09/15/giving-rss-the-bird/
+date: 2004-09-15T08:09:27.000Z
 categories:
   - geek
-
+slug: giving-rss-the-bird
 ---
 I’ve spent the past 24 hours playing with the new releases of [Firefox][1]  (1.<span class="caps">0PR</span>) and [Thunderbird][2]  (0.8), available from mozilla.org. Overall, I’m very impressed. The respective teams are obviously hard at work improving the software, and these projects (indeed, [mozilla.org][3]  in general, in my opinion) continue to serve as excellent examples of Open Source in action.
 
@@ -25,66 +15,7 @@ First, Firefox. Firefox’s Live Bookmarks create a folder-like view of a partic
 
 Thunderbird is a little better; each feed is it’s own “folder,” with posts showing up as messages and the contents showing up in the preview pane. And since it’s coming at things from the e-mail perspective, you can even flag posts as read or unread. Great! That’s what I want! Except, uh, well, I can’t actually **aggregate** things. That is, if I want to read the morning news, I have to look at each folder with new items, individually. This only points out the great usefulness of [Evolution’s][6]  vFolders. If Thunderbird supported vFolders, I could create a view of unread News items. Heck, I could create a view of unread items, including mail, news and feed items. Now **that** would be a killer feature.
 
-<table class="docutils field-list" frame="void" rules="none">
-  <col class="field-name" /> <col class="field-body" /> <tr class="field">
-    <th class="field-name">
-      date:
-    </th>
 
-    <td class="field-body">
-      2004-09-15 08:09:27
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      wordpress_id:
-    </th>
-
-    <td class="field-body">
-      193
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      layout:
-    </th>
-
-    <td class="field-body">
-      post
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      slug:
-    </th>
-
-    <td class="field-body">
-      giving-rss-the-bird
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      comments:
-    </th>
-
-    <td class="field-body">
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      category:
-    </th>
-
-    <td class="field-body">
-      geek
-    </td>
-  </tr>
-</table>
 
  [1]: http://www.mozilla.org/products/firefox/
  [2]: http://www.mozilla.org/products/thunderbird/

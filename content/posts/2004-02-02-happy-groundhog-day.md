@@ -1,11 +1,8 @@
 ---
-title: 'Happy Groundhog Day'
-author: Nathan Yergler
-type: post
-date: 2004-02-02T08:07:56+00:00
-url: /2004/02/02/happy-groundhog-day/
+title: Happy Groundhog Day
+date: 2004-02-02T08:07:56.000Z
 categories:
   - my life
-
+slug: happy-groundhog-day
 ---
 &#8230;and happy birthday, Ben Purkis; wherever you are.

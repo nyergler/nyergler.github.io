@@ -1,9 +1,6 @@
 ---
 title: Exactly Once Delivery
-author: Nathan Yergler
-type: post
-date: 2017-07-06T04:03:44+00:00
-url: /2017/07/05/exactly-once-delivery/
+date: 2017-07-06T04:03:44.000Z
 categories:
   - architecture
   - aside
@@ -12,7 +9,7 @@ tags:
   - distributed systems
   - remind
 format: aside
-
+slug: exactly-once-delivery
 ---
 At [Remind][1] I helped build the announcement and chat message delivery platform. With thousands of messages streaming through a system that bridged Heroku and our AWS VPC, network partition and other failures were real occurrences, which led to some creative work ensuring messages were only delivered once to each recipient. So I was interested to see [two][2] [articles][3] posted within a day of each other talking about &#8220;exactly once delivery&#8221;.
 

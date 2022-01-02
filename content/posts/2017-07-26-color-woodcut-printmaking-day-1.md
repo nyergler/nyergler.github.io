@@ -1,16 +1,13 @@
 ---
 title: 'Color Woodcut Printmaking: Day 1'
-author: Nathan Yergler
-type: post
-date: 2017-07-27T01:50:34+00:00
-url: /2017/07/26/color-woodcut-printmaking-day-1/
+date: 2017-07-27T01:50:34.000Z
 categories:
   - printmaking
 tags:
   - constellation studio
   - reduction
   - relief
-
+slug: color-woodcut-printmaking-day-1
 ---
 _A friend suggested I take notes and write them up after each day of class to make sure things stick. Also, she wanted to know what I learned. This is my write up from the first day of Color Woodcut Printmaking with Karen Kunc._
 

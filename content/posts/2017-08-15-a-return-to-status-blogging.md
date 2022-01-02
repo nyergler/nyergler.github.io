@@ -1,11 +1,9 @@
 ---
 title: A Return to Status Blogging
-author: Nathan Yergler
-type: post
-date: 2017-08-15T15:56:53+00:00
-url: /2017/08/15/a-return-to-status-blogging/
+date: 2017-08-15T15:56:53.000Z
 mf2_cite:
-  - 'a:4:{s:9:"published";s:25:"0000-01-01T00:00:00-07:00";s:7:"updated";s:25:"0000-01-01T00:00:00-07:00";s:8:"category";a:1:{i:0;s:0:"";}s:6:"author";a:0:{}}'
+  - >-
+    a:4:{s:9:"published";s:25:"0000-01-01T00:00:00-07:00";s:7:"updated";s:25:"0000-01-01T00:00:00-07:00";s:8:"category";a:1:{i:0;s:0:"";}s:6:"author";a:0:{}}
 categories:
   - blogging
 tags:
@@ -14,7 +12,7 @@ tags:
   - pubsub
 kind:
   - Note
-
+slug: a-return-to-status-blogging
 ---
 Facebook does that thing where it reminds you of what you posted on a given day. Sometimes I get to be reminded of a period from roughly 2007-2010, what I think of as the golden age of status blogging. I was a heavy [identi.ca][1] user, cross-posting to [Twitter][2] and Facebook &#8212; after all, I&#8217;m one person, not several &#8212; and engaging in conversations, community, and snark.
 

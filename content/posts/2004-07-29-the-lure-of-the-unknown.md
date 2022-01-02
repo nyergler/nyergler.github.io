@@ -1,17 +1,9 @@
 ---
-title: 'The Lure of the Unknown'
-author: Nathan Yergler
-type: post
-date: 2004-07-29T13:13:31+00:00
-excerpt: |
-  <p><strong>*Warning:</strong> I just re-read this post and it’s a little rambling…but
-  I’m too tired to re-write it, so take it for what it’s worth.*</p>
-  <p>I was killing some time Tuesday afternon at <span class="caps">OSCON</span> and wandered through
-  the on-site display of books provided by the good folks ...</p>
-url: /2004/07/29/the-lure-of-the-unknown/
+title: The Lure of the Unknown
+date: 2004-07-29T13:13:31.000Z
 categories:
   - oscon2004
-
+slug: the-lure-of-the-unknown
 ---
 ***Warning:** I just re-read this post and it’s a little rambling…but I’m too tired to re-write it, so take it for what it’s worth.*
 
@@ -39,66 +31,7 @@ Where am I going with this? Really, I have a point. Yesterday I attended [Miguel
 
 So now we have .Net/Mono, a cross-platform virtual machine which attempts to solve the same problem that Java attempts to: write once, run everywhere. I was already thinking that was something I should check out when I ran across an interesting [item][10]  in this morning’s [Daily Python <span class="caps">URL</span>][11] : [IronPython][12]  has been Open Sourced. IronPython is a <span class="caps">CLR</span>-targeted Python implementation, written by Jim Hugunin, who was also responsible for the early implementation of Jython. I first ran into IronPython at PyCon, and at the time it was interesting from a research point of view, but the code wasn’t available. With IronPython now available and working (albeit in an alpha state) on both Mono and .Net, I wonder how long it will be until I can create dot-Net (god I hate using that phrase) targeted bundles of <span class="caps">CC</span> apps that run on Linux and Win32 equally well?
 
-<table class="docutils field-list" frame="void" rules="none">
-  <col class="field-name" /> <col class="field-body" /> <tr class="field">
-    <th class="field-name">
-      date:
-    </th>
 
-    <td class="field-body">
-      2004-07-29 13:13:31
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      wordpress_id:
-    </th>
-
-    <td class="field-body">
-      163
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      layout:
-    </th>
-
-    <td class="field-body">
-      post
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      slug:
-    </th>
-
-    <td class="field-body">
-      the-lure-of-the-unknown
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      comments:
-    </th>
-
-    <td class="field-body">
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      category:
-    </th>
-
-    <td class="field-body">
-      oscon2004
-    </td>
-  </tr>
-</table>
 
  [1]: http://http://www.powells.com/technicalbooks
  [2]: http://www.oreilly.com/catalog/monoadn/

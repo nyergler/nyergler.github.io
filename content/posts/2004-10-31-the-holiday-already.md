@@ -1,17 +1,9 @@
 ---
-title: 'The Holidays… Already?'
-author: Nathan Yergler
-type: post
-date: 2004-10-31T15:25:19+00:00
-excerpt: |
-  <p>My 7 loyal readers may remember that the holidays are not my favorite
-  time of year. It’s not that I dislike, or hold any malice against,
-  Christmas, Thanksgiving, Hanuka, or Kwanza, but rather I would just like
-  to consider myself a little too pragmatic. It’s just another day ...</p>
-url: /2004/10/31/the-holiday-already/
+title: The Holidays… Already?
+date: 2004-10-31T15:25:19.000Z
 categories:
   - my life
-
+slug: the-holiday-already
 ---
 My 7 loyal readers may remember that the holidays are not my favorite time of year. It’s not that I dislike, or hold any malice against, Christmas, Thanksgiving, Hanuka, or Kwanza, but rather I would just like to consider myself a little too pragmatic. It’s just another day in one of twelve months, and just because Constantine decided to expand the reach of Christianity by overtaking Saturnalia doesn’t mean we have to propogate the change. Of course, it’s not quite that simple. The idea that we should take time to consider our place in society at large and the adage “it’s better to give that receive” are both ideas worthy of anyone’s time.
 
@@ -25,65 +17,6 @@ It’ll be interesting to see how my family responds; they tend to take the exch
 
 If you should, for some reason, want to participate in our Christmas exercise, go ahead, select a gift from [the list][1]  . I’ll email you shipping information, and our families (<span class="caps">AA</span>-1 and S-10) will appreciate it, I know. Happy holidays. Already.
 
-<table class="docutils field-list" frame="void" rules="none">
-  <col class="field-name" /> <col class="field-body" /> <tr class="field">
-    <th class="field-name">
-      date:
-    </th>
 
-    <td class="field-body">
-      2004-10-31 15:25:19
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      wordpress_id:
-    </th>
-
-    <td class="field-body">
-      225
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      layout:
-    </th>
-
-    <td class="field-body">
-      post
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      slug:
-    </th>
-
-    <td class="field-body">
-      the-holiday-already
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      comments:
-    </th>
-
-    <td class="field-body">
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      category:
-    </th>
-
-    <td class="field-body">
-      my life
-    </td>
-  </tr>
-</table>
 
  [1]: http://yergler.net/apps/christmas2004

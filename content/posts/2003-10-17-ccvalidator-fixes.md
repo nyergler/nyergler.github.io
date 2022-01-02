@@ -1,12 +1,9 @@
 ---
-title: 'ccValidator Fixes'
-author: Nathan Yergler
-type: post
-date: 2003-10-17T12:17:14+00:00
-url: /2003/10/17/ccvalidator-fixes/
+title: ccValidator Fixes
+date: 2003-10-17T12:17:14.000Z
 categories:
   - ccValidator
-
+slug: ccvalidator-fixes
 ---
 Based on yesterday’s excellent feedback, I’ve updated the [ccValidator][1] code
 to it’s new, improved version. Things fixed include:

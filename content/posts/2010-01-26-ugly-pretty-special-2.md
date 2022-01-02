@@ -1,16 +1,6 @@
 ---
 title: 'Ugly, Pretty, Special'
-author: Nathan Yergler
-type: post
-date: 2010-01-26T10:04:22+00:00
-excerpt: |
-  <p>Another example of the power of <a class="reference external" href="http://yergler.net/blog/2010/01/24/read-when-you-reach-me-and-first-light-by-rebecca-stead/">young adult
-  fiction</a>.</p>
-  <p>I visited my family in Indiana over Thanksgiving. On my flight back from
-  Chicago, I was upgraded to first class, seated next to a girl who
-  appeared to be about twelve or thirteen, traveling as an unattended
-  minor. As I sat ...</p>
-url: /2010/01/26/ugly-pretty-special-2/
+date: 2010-01-26T10:04:22.000Z
 categories:
   - my life
   - reading
@@ -18,7 +8,7 @@ tags:
   - fiction
   - reading
   - ya
-
+slug: ugly-pretty-special-2
 ---
 Another example of the power of [young adult fiction][1] .
 
@@ -48,76 +38,7 @@ I suggested [Octavia Butler][2] , thinking to myself, “kid, this shit is going
 
 I finished _Specials_ on the flight home, and it was a fun read. But on my traveling companion’s recommendation, I’ll be checking out the final book in the [series][3] , _\`Extras <http://en.wikipedia.org/wiki/Extras\_(novel)>\`\__, from the library — “it’s totally a let down.” So sayeth the good reader.
 
-<table class="docutils field-list" frame="void" rules="none">
-  <col class="field-name" /> <col class="field-body" /> <tr class="field">
-    <th class="field-name">
-      date:
-    </th>
 
-    <td class="field-body">
-      2010-01-26 10:04:22
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      wordpress_id:
-    </th>
-
-    <td class="field-body">
-      1360
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      layout:
-    </th>
-
-    <td class="field-body">
-      post
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      slug:
-    </th>
-
-    <td class="field-body">
-      ugly-pretty-special-2
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      comments:
-    </th>
-
-    <td class="field-body">
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      category:
-    </th>
-
-    <td class="field-body">
-      my life, reading
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      tags:
-    </th>
-
-    <td class="field-body">
-      fiction, reading, ya
-    </td>
-  </tr>
-</table>
 
  [1]: http://yergler.net/blog/2010/01/24/read-when-you-reach-me-and-first-light-by-rebecca-stead/
  [2]: http://en.wikipedia.org/wiki/Octavia_Butler

@@ -1,22 +1,13 @@
 ---
 title: 'San Francisco Habitation, Take Two'
-author: Nathan Yergler
-type: post
-date: 2010-01-21T21:29:51+00:00
-excerpt: |
-  <p>Last week I took two days off work and, combined with the three day
-  weekend, uprooted my San Francisco existence to date, relocating to the
-  <a class="reference external" href="http://en.wikipedia.org/wiki/Dogpatch,_San_Francisco,_California">Dogpatch</a>.
-  Not coincidentally, Richard did the same thing, on the same day.</p>
-  <p>It’s sort of hard to believe it was over two and a ...</p>
-url: /2010/01/21/san-francisco-habitation-take-two/
+date: 2010-01-21T21:29:51.000Z
 categories:
   - my life
 tags:
   - 400 duboce
   - dogpatch
   - move
-
+slug: san-francisco-habitation-take-two
 ---
 Last week I took two days off work and, combined with the three day weekend, uprooted my San Francisco existence to date, relocating to the [Dogpatch][1] . Not coincidentally, Richard did the same thing, on the same day.
 
@@ -34,76 +25,7 @@ I made a roast on Monday night for dinner. Richard and I sat at the table — as
 
 <sup>‡</sup> I think the last time I felt like I had a really adult residence was in [my house in Fort Wayne][2] . I don’t think I really appreciated that feeling until this week.
 
-<table class="docutils field-list" frame="void" rules="none">
-  <col class="field-name" /> <col class="field-body" /> <tr class="field">
-    <th class="field-name">
-      date:
-    </th>
 
-    <td class="field-body">
-      2010-01-21 21:29:51
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      wordpress_id:
-    </th>
-
-    <td class="field-body">
-      1374
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      layout:
-    </th>
-
-    <td class="field-body">
-      post
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      slug:
-    </th>
-
-    <td class="field-body">
-      san-francisco-habitation-take-two
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      comments:
-    </th>
-
-    <td class="field-body">
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      category:
-    </th>
-
-    <td class="field-body">
-      my life
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      tags:
-    </th>
-
-    <td class="field-body">
-      400 duboce, dogpatch, move
-    </td>
-  </tr>
-</table>
 
  [1]: http://en.wikipedia.org/wiki/Dogpatch,_San_Francisco,_California
  [2]: http://yergler.net/blog/2007/04/05/1132-westover/

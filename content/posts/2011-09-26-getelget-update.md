@@ -1,23 +1,12 @@
 ---
-title: 'Updating el-get and getelget.el'
-author: Nathan Yergler
-type: post
-date: 2011-09-26T09:59:24+00:00
-excerpt: |
-  <p>Last week one of my Emacs using colleagues asked me how I managed my
-  Emacs packages and configuration. Naturally I pointed him to
-  <a class="reference external" href="https://github.com/dimitri/el-get">el-get</a> and my <a class="reference external" href="http://yergler.net/blog/2011/04/19/managing-my-emacs-packages-with-el-get/">getelget.el
-  bootstrap
-  script</a>.
-  I’ve been happily managing my Emacs installation over the past five
-  months using el-get and a private git repository ...</p>
-url: /2011/09/26/getelget-update/
+title: Updating el-get and getelget.el
+date: 2011-09-26T09:59:24.000Z
 categories:
   - development
   - tools
 tags:
   - emacs el-get getelget
-
+slug: getelget-update
 ---
 Last week one of my Emacs using colleagues asked me how I managed my Emacs packages and configuration. Naturally I pointed him to [el-get][1]  and my [getelget.el bootstrap script][2] . I’ve been happily managing my Emacs installation over the past five months using el-get and a private git repository for my configuration. However when I tried to square my <tt class="docutils literal">.emacs.d/init.el</tt> with the current el-get documentation, I got a little confused; el-get is now better at bootstrapping itself from within your Emacs configuration. When my colleague read this and asked why he might want <tt class="docutils literal">getelget.el</tt>, my response was… well, lackluster; this is an attempt to document that a littler better.)
 
@@ -87,76 +76,7 @@ Everything listed in both lists will be installed.
 
 <span class="caps">YMMV</span>, <span class="caps">FWIW</span>, <span class="caps">ZOMG</span>, <span class="caps">BBQ</span>, etc.
 
-<table class="docutils field-list" frame="void" rules="none">
-  <col class="field-name" /> <col class="field-body" /> <tr class="field">
-    <th class="field-name">
-      date:
-    </th>
 
-    <td class="field-body">
-      2011-09-26 09:59:24
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      wordpress_id:
-    </th>
-
-    <td class="field-body">
-      1989
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      layout:
-    </th>
-
-    <td class="field-body">
-      post
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      slug:
-    </th>
-
-    <td class="field-body">
-      getelget-update
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      comments:
-    </th>
-
-    <td class="field-body">
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      category:
-    </th>
-
-    <td class="field-body">
-      development, tools
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      tags:
-    </th>
-
-    <td class="field-body">
-      emacs el-get getelget
-    </td>
-  </tr>
-</table>
 
  [1]: https://github.com/dimitri/el-get
  [2]: http://yergler.net/blog/2011/04/19/managing-my-emacs-packages-with-el-get/

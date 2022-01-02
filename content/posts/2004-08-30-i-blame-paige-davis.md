@@ -1,18 +1,9 @@
 ---
-title: 'I blame Paige Davis'
-author: Nathan Yergler
-type: post
-date: 2004-08-30T08:35:42+00:00
-excerpt: |
-  <p>One of the largely overrated joys of home ownership is home improvement
-  projects. I say that slightly tongue-in-cheeck, but the fact that my
-  fingers ache as I type makes the statement all the more believable to
-  me. Last week Garrett and I purchased new furniture for our basement
-  entertainment room ...</p>
-url: /2004/08/30/i-blame-paige-davis/
+title: I blame Paige Davis
+date: 2004-08-30T08:35:42.000Z
 categories:
   - my life
-
+slug: i-blame-paige-davis
 ---
 One of the largely overrated joys of home ownership is home improvement projects. I say that slightly tongue-in-cheeck, but the fact that my fingers ache as I type makes the statement all the more believable to me. Last week Garrett and I purchased new furniture for our basement entertainment room. Our television, one of the Tivo’s, <span class="caps">DVD</span> player, etc all live down there, but they’re largely underutilized because of the amazingly uncomfortable built-in bench seating. The plan was to tear out the bench, buy new furniture and lounge in comfort.
 
@@ -24,66 +15,7 @@ I blame [Paige Davis][1] , host of [<span class="caps">TLC</span>’s][2]  [Trad
 
 I’ll post pictures when feeling returns to my fingers and I find the digital camera.
 
-<table class="docutils field-list" frame="void" rules="none">
-  <col class="field-name" /> <col class="field-body" /> <tr class="field">
-    <th class="field-name">
-      date:
-    </th>
 
-    <td class="field-body">
-      2004-08-30 08:35:42
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      wordpress_id:
-    </th>
-
-    <td class="field-body">
-      177
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      layout:
-    </th>
-
-    <td class="field-body">
-      post
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      slug:
-    </th>
-
-    <td class="field-body">
-      i-blame-paige-davis
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      comments:
-    </th>
-
-    <td class="field-body">
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      category:
-    </th>
-
-    <td class="field-body">
-      my life
-    </td>
-  </tr>
-</table>
 
  [1]: http://tlc.discovery.com/fansites/tradingspaces/bio/bio_11.html
  [2]: http://tlc.com

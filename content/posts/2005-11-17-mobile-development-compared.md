@@ -1,18 +1,9 @@
 ---
-title: 'Mobile Development Compared'
-author: Nathan Yergler
-type: post
-date: 2005-11-17T09:15:30+00:00
-excerpt: |
-  <p>_*Update:* I’ve posted a follow up
-  <a class="reference external" href="http://yergler.net/blog/archives/2005/11/29/j2me-development-part-2">here</a> _</p>
-  <p>I’ve been doing a lot of work in the past week on mobile (more
-  specifically phone) platforms, some by choice and some by dictate. And
-  the two experiences are sort of telling, in my opinion. On one hand my ...</p>
-url: /2005/11/17/mobile-development-compared/
+title: Mobile Development Compared
+date: 2005-11-17T09:15:30.000Z
 categories:
   - development
-
+slug: mobile-development-compared
 ---
 _\*Update:\* I’ve posted a follow up [here][1]  _
 
@@ -30,66 +21,7 @@ I don’t want to make this a “Java is better than Python” argument. It’s 
 
 It would be interesting to re-implement my Sudoku game in <span class="caps">J2ME</span> for the Series 60, just to compare the two experiences more accurately. Oh, and yes, I’ll be releasing my Sudoku for Series 60 app just as soon as I get a final couple of features implemented.
 
-<table class="docutils field-list" frame="void" rules="none">
-  <col class="field-name" /> <col class="field-body" /> <tr class="field">
-    <th class="field-name">
-      date:
-    </th>
 
-    <td class="field-body">
-      2005-11-17 09:15:30
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      wordpress_id:
-    </th>
-
-    <td class="field-body">
-      350
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      layout:
-    </th>
-
-    <td class="field-body">
-      post
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      slug:
-    </th>
-
-    <td class="field-body">
-      mobile-development-compared
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      comments:
-    </th>
-
-    <td class="field-body">
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      category:
-    </th>
-
-    <td class="field-body">
-      development
-    </td>
-  </tr>
-</table>
 
  [1]: http://yergler.net/blog/archives/2005/11/29/j2me-development-part-2
  [2]: http://sudoku.com

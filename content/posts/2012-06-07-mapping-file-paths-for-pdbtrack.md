@@ -1,27 +1,13 @@
 ---
-title: 'Mapping file paths for pdbtrack'
-author: Nathan Yergler
-type: post
-date: 2012-06-07T07:04:03+00:00
-excerpt: |
-  <p>I saw <a class="reference external" href="http://llaunchpad.net/python-mode/">python-mode</a> 6.0.8 was
-  release two weeks ago, and that reminded me to look and see if <em>my</em>
-  change was included. Turns out it was <a class="reference external" href="https://launchpad.net/python-mode/+announcement/9948">included in
-  6.0.6</a>, released
-  in April:</p>
-  <blockquote>
-  – files inside a virtual machine made visible for pdbtrack</blockquote>
-  <p>That’s <a class="reference external" href="https://bazaar.launchpad.net/~python-mode-devs/python-mode/python-mode/revision/938">my
-  contribution</a>.</p>
-  <p>python-mode ...</p>
-url: /2012/06/07/mapping-file-paths-for-pdbtrack/
+title: Mapping file paths for pdbtrack
+date: 2012-06-07T07:04:03.000Z
 categories:
   - tools
 tags:
   - emacs
   - pdbtrack
   - python-mode
-
+slug: mapping-file-paths-for-pdbtrack
 ---
 I saw [python-mode][1]  6.0.8 was release two weeks ago, and that reminded me to look and see if _my_ change was included. Turns out it was [included in 6.0.6][2] , released in April:
 
@@ -41,76 +27,7 @@ Starting with python-mode 6.0.6, you can customize the <tt class="docutils liter
 
 Using Vagrant means we are able to develop on a configuration far closer to production than we would [easily] be able to otherwise. And starting with python-mode 6.0.6, I don’t have to give up pdbtrack to do that.
 
-<table class="docutils field-list" frame="void" rules="none">
-  <col class="field-name" /> <col class="field-body" /> <tr class="field">
-    <th class="field-name">
-      date:
-    </th>
 
-    <td class="field-body">
-      2012-06-07 07:04:03
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      wordpress_id:
-    </th>
-
-    <td class="field-body">
-      2130
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      layout:
-    </th>
-
-    <td class="field-body">
-      post
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      slug:
-    </th>
-
-    <td class="field-body">
-      mapping-file-paths-for-pdbtrack
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      comments:
-    </th>
-
-    <td class="field-body">
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      category:
-    </th>
-
-    <td class="field-body">
-      tools
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      tags:
-    </th>
-
-    <td class="field-body">
-      emacs, pdbtrack, python-mode
-    </td>
-  </tr>
-</table>
 
  [1]: http://llaunchpad.net/python-mode/
  [2]: https://launchpad.net/python-mode/+announcement/9948

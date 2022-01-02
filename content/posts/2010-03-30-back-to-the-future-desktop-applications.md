@@ -1,22 +1,13 @@
 ---
 title: 'Back to the Future: Desktop Applications'
-author: Nathan Yergler
-type: post
-date: 2010-03-30T09:04:03+00:00
-excerpt: |
-  <p>One of the best prepared talks I saw at PyCon this year was on
-  <a class="reference external" href="http://photobatch.stani.be/">Phatch</a>, a cross-platform photo
-  processing application written in Python. Stani Michiels and Nadia
-  Alramli gave a well rehearsed, compelling talk discussing the ins and
-  outs of developing their application for Linux, Mac <span class="caps">OS</span> X, and Windows ...</p>
-url: /2010/03/30/back-to-the-future-desktop-applications/
+date: 2010-03-30T09:04:03.000Z
 categories:
   - development
 tags:
   - cc
   - ccpublisher
   - python
-
+slug: back-to-the-future-desktop-applications
 ---
 One of the best prepared talks I saw at PyCon this year was on [Phatch][1] , a cross-platform photo processing application written in Python. Stani Michiels and Nadia Alramli gave a well rehearsed, compelling talk discussing the ins and outs of developing their application for Linux, Mac <span class="caps">OS</span> X, and Windows. The [video is available][2]  from the excellent Python MiroCommunity.
 
@@ -32,76 +23,7 @@ The really appealing thing about Atomic’s approach is that by using a single <
 
 For better or for worse, we [Creative Commons] decided <span class="caps">CC</span> Publisher wasn’t the best place to put our energy and time. This was probably the right decision, but it was a fun project to work on. (We do have [rebooting <span class="caps">CC</span> Publisher][15]  listed as a [suggested project][16]  for [Google Summer of Code][17] , if someone else is interested in helping out.) Given the maturity of Java’s desktop tool chain, and the vast improvements in [Jython][18]  over the past year or two, I can imagine considering an approach very much like Atomic’s were I working on it today. Even though it seems like the majority of people’s attention is on web applications these days, I like seeing examples of interesting desktop applications being built with dynamic languages.
 
-<table class="docutils field-list" frame="void" rules="none">
-  <col class="field-name" /> <col class="field-body" /> <tr class="field">
-    <th class="field-name">
-      date:
-    </th>
 
-    <td class="field-body">
-      2010-03-30 09:04:03
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      wordpress_id:
-    </th>
-
-    <td class="field-body">
-      1517
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      layout:
-    </th>
-
-    <td class="field-body">
-      post
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      slug:
-    </th>
-
-    <td class="field-body">
-      back-to-the-future-desktop-applications
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      comments:
-    </th>
-
-    <td class="field-body">
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      category:
-    </th>
-
-    <td class="field-body">
-      development
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      tags:
-    </th>
-
-    <td class="field-body">
-      cc, ccpublisher, python
-    </td>
-  </tr>
-</table>
 
  [1]: http://photobatch.stani.be/
  [2]: http://python.mirocommunity.org/video/1595/pycon-2010-cross-platform-appl

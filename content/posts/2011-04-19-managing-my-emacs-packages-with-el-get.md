@@ -1,22 +1,13 @@
 ---
-title: 'Managing my Emacs packages with el-get'
-author: Nathan Yergler
-type: post
-date: 2011-04-19T22:17:05+00:00
-excerpt: |
-  <p><strong>Update (20 April 2011):</strong> I’ve now tried this on my old MacBook
-  running <span class="caps">OS</span> X 10.5. The bootstrap script initially threw an error, which
-  I tracked down to an outdated version of <tt class="docutils literal">git</tt>. Once I upgraded
-  <tt class="docutils literal">git</tt> and installed <tt class="docutils literal">bzr</tt> (used by the <tt class="docutils literal"><span class="pre">python-mode</span></tt> recipe), I
-  started Emacs ...</p>
-url: /2011/04/19/managing-my-emacs-packages-with-el-get/
+title: Managing my Emacs packages with el-get
+date: 2011-04-19T22:17:05.000Z
 categories:
   - development
   - tools
 tags:
   - el-get
   - emacs
-
+slug: managing-my-emacs-packages-with-el-get
 ---
 **Update (20 April 2011):** I’ve now tried this on my old MacBook running <span class="caps">OS</span> X 10.5. The bootstrap script initially threw an error, which I tracked down to an outdated version of <tt class="docutils literal">git</tt>. Once I upgraded <tt class="docutils literal">git</tt> and installed <tt class="docutils literal">bzr</tt> (used by the <tt class="docutils literal"><span class="pre">python-mode</span></tt> recipe), I started Emacs and was rewarded with a fully functioning installation, complete with the extensions I want.
 
@@ -46,76 +37,7 @@ Then load **getelget** (the following assumes you have getelget.el in your user 
 
 **getelget** is pretty trivial; you can [download it here][5] , and I’ve waived any rights I may hold on the code using the [<span class="caps">CC0</span> Public Domain Dedication][6] .
 
-<table class="docutils field-list" frame="void" rules="none">
-  <col class="field-name" /> <col class="field-body" /> <tr class="field">
-    <th class="field-name">
-      date:
-    </th>
 
-    <td class="field-body">
-      2011-04-19 22:17:05
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      wordpress_id:
-    </th>
-
-    <td class="field-body">
-      1944
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      layout:
-    </th>
-
-    <td class="field-body">
-      post
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      slug:
-    </th>
-
-    <td class="field-body">
-      managing-my-emacs-packages-with-el-get
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      comments:
-    </th>
-
-    <td class="field-body">
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      category:
-    </th>
-
-    <td class="field-body">
-      development, tools
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      tags:
-    </th>
-
-    <td class="field-body">
-      el-get, emacs
-    </td>
-  </tr>
-</table>
 
  [1]: http://www.gnu.org/software/emacs/
  [2]: http://dustycloud.org/

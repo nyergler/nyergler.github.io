@@ -1,17 +1,9 @@
 ---
-title: 'Custom Log Formats with Squid'
-author: Nathan Yergler
-type: post
-date: 2005-11-08T09:53:54+00:00
-excerpt: |
-  <p><em>[The first in a series of posts to help me (and hopefully others)
-  remember how to get `Zope &lt;http://zope.org&gt;`_ running behind Squid.]</em></p>
-  <p>In a world where lots and lots of tools have been written to analyze
-  Apache httpd logs, it’s a little annoying we can’t ...</p>
-url: /2005/11/08/custom-log-formats-with-squid/
+title: Custom Log Formats with Squid
+date: 2005-11-08T09:53:54.000Z
 categories:
   - General
-
+slug: custom-log-formats-with-squid
 ---
 _[The first in a series of posts to help me (and hopefully others) remember how to get \`Zope <http://zope.org>\`_ running behind Squid.]_
 
@@ -46,65 +38,6 @@ For something so simple, its amazing how long you can flounder trying to figure 
 
 For those who want a different format, the complete list of fields available to the logformat directive is available at <http://devel.squid-cache.org/customlog/logformat.html> .
 
-<table class="docutils field-list" frame="void" rules="none">
-  <col class="field-name" /> <col class="field-body" /> <tr class="field">
-    <th class="field-name">
-      date:
-    </th>
 
-    <td class="field-body">
-      2005-11-08 09:53:54
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      wordpress_id:
-    </th>
-
-    <td class="field-body">
-      349
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      layout:
-    </th>
-
-    <td class="field-body">
-      post
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      slug:
-    </th>
-
-    <td class="field-body">
-      custom-log-formats-with-squid
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      comments:
-    </th>
-
-    <td class="field-body">
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      category:
-    </th>
-
-    <td class="field-body">
-      General
-    </td>
-  </tr>
-</table>
 
  [1]: http://zope.com

@@ -1,9 +1,6 @@
 ---
 title: reMarkable e-Ink Tablet Review
-author: Nathan Yergler
-type: post
-date: 2017-11-05T20:03:03+00:00
-url: /2017/11/05/remarkable-e-ink-tablet/
+date: 2017-11-05T20:03:03.000Z
 categories:
   - geek
 tags:
@@ -13,7 +10,7 @@ tags:
   - review
 kind:
   - Note
-
+slug: remarkable-e-ink-tablet
 ---
 I’ve long fantasized about an e-Ink tablet: something I could use for writing, sketching, and reading. The battery life, the “flat” appearance, etc all seemed perfect. Up until now I’ve settled for a Kindle for reading, chaffing against the Amazon ecosystem. I periodically look for Arduino or Raspberry Pi compatible e-ink displays (larger than 4”) that I might be able to hack into something larger, but always come to the conclusion that I don’t have the bandwidth for a project of that size. Back in December I came across the [reMarkable][1], which promised a “paper-like” e-ink experience. No app store, no browser, just a pad of paper and document viewer.
 

@@ -1,21 +1,9 @@
 ---
-title: 'From Incompetence to Negligence'
-author: Nathan Yergler
-type: post
-date: 2005-11-30T13:29:00+00:00
-excerpt: |
-  <p>I’ve been watching a lot of
-  <a class="reference external" href="http://www.pbs.org/wgbh/pages/frontline/">Frontline</a> lately on
-  <a class="reference external" href="http://pbs.org"><span class="caps">PBS</span></a>. I’ve Tivo’d it forever, but rarely watched. Two
-  nights ago I watched <a class="reference external" href="http://www.pbs.org/wgbh/pages/frontline/storm/">The
-  Storm</a>, their analysis
-  of Hurrican Katrina’s effect on New Orleans, and the government reponse
-  to it (at all levels). Go <a class="reference external" href="http://www.pbs.org/wgbh/pages/frontline/storm/view/">watch it
-  online ...</a></p>
-url: /2005/11/30/from-incompetence-to-negligence/
+title: From Incompetence to Negligence
+date: 2005-11-30T13:29:00.000Z
 categories:
   - politics
-
+slug: from-incompetence-to-negligence
 ---
 I’ve been watching a lot of [Frontline][1]  lately on [<span class="caps">PBS</span>][2] . I’ve Tivo’d it forever, but rarely watched. Two nights ago I watched [The Storm][3] , their analysis of Hurrican Katrina’s effect on New Orleans, and the government reponse to it (at all levels). Go [watch it online][4] , I’ll wait.
 
@@ -40,66 +28,7 @@ This is beyond the apparent disconnect post-Katrina. This is downright negligent
 
 You can debate whether or not <span class="caps">FEMA</span> should have been moved under the Department of Homeland Security all you want. You can debate whether or not Brown did a bad job (he did). What remains true is that the Bush administration ignored success and appointed a crony (a crony with a bad haircut at that!). And if this really is the “<span class="caps">CEO</span> Presidency”, then Bush should be taken to task for this blatantly negligent act.
 
-<table class="docutils field-list" frame="void" rules="none">
-  <col class="field-name" /> <col class="field-body" /> <tr class="field">
-    <th class="field-name">
-      date:
-    </th>
 
-    <td class="field-body">
-      2005-11-30 13:29:00
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      wordpress_id:
-    </th>
-
-    <td class="field-body">
-      356
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      layout:
-    </th>
-
-    <td class="field-body">
-      post
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      slug:
-    </th>
-
-    <td class="field-body">
-      from-incompetence-to-negligence
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      comments:
-    </th>
-
-    <td class="field-body">
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      category:
-    </th>
-
-    <td class="field-body">
-      politics
-    </td>
-  </tr>
-</table>
 
  [1]: http://www.pbs.org/wgbh/pages/frontline/
  [2]: http://pbs.org

@@ -1,18 +1,9 @@
 ---
-title: 'Making Music'
-author: Nathan Yergler
-type: post
-date: 2004-01-21T11:47:17+00:00
-excerpt: |
-  <p>Last weekend I finally upgraded my iMac to Mac <span class="caps">OS</span> X 10.3, or
-  <a class="reference external" href="http://www.apple.com/macosx/">Panther</a>. After using it for a few
-  days, I’d say it’s well worth the price. The changes I’ve noticed aren’t
-  as significant as <a class="reference external" href="http://www.apple.com/pr/bios/jobs.html">Steve</a>
-  would like you to believe, but combined they ...</p>
-url: /2004/01/21/making-music/
+title: Making Music
+date: 2004-01-21T11:47:17.000Z
 categories:
   - geek
-
+slug: making-music
 ---
 Last weekend I finally upgraded my iMac to Mac <span class="caps">OS</span> X 10.3, or [Panther][1] . After using it for a few days, I’d say it’s well worth the price. The changes I’ve noticed aren’t as significant as [Steve][2]  would like you to believe, but combined they improve on what was already an enjoyable user experience. But that’s not what I want to write about.
 
@@ -26,66 +17,7 @@ And then I thought: what about an application for remixing content using <span c
 
 I call it Remix.
 
-<table class="docutils field-list" frame="void" rules="none">
-  <col class="field-name" /> <col class="field-body" /> <tr class="field">
-    <th class="field-name">
-      date:
-    </th>
 
-    <td class="field-body">
-      2004-01-21 11:47:17
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      wordpress_id:
-    </th>
-
-    <td class="field-body">
-      75
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      layout:
-    </th>
-
-    <td class="field-body">
-      post
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      slug:
-    </th>
-
-    <td class="field-body">
-      making-music
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      comments:
-    </th>
-
-    <td class="field-body">
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      category:
-    </th>
-
-    <td class="field-body">
-      geek
-    </td>
-  </tr>
-</table>
 
  [1]: http://www.apple.com/macosx/
  [2]: http://www.apple.com/pr/bios/jobs.html

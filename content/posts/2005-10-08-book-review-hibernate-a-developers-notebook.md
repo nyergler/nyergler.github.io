@@ -1,20 +1,9 @@
 ---
 title: 'Book Review: Hibernate: A Developer’s Notebook'
-author: Nathan Yergler
-type: post
-date: 2005-10-08T21:10:43+00:00
-excerpt: |
-  <p><strong>Hibernate: A Developer’s Notebook</strong>
-  <em>James Elliot</em></p>
-  <p>I picked up <a class="reference external" href="http://www.oreilly.com/catalog/hibernate/">Hibernate: A Developer’s
-  Notebook</a> (H:<span class="caps">ADN</span>) as
-  someone who was famliar with Java, but doesn’t use it for day to day
-  development. I had heard good things about Hibernate, but didn’t really
-  have an immediate application for ...</p>
-url: /2005/10/08/book-review-hibernate-a-developers-notebook/
+date: 2005-10-08T21:10:43.000Z
 categories:
   - reading
-
+slug: book-review-hibernate-a-developers-notebook
 ---
 **Hibernate: A Developer’s Notebook** _James Elliot_
 
@@ -26,67 +15,7 @@ Elliot is nothing if not thorough in demonstrating examples and then walking thr
 
 Overall I found Elliotâ€™s writing to be clear and natural. Perhaps it is a characteristic of the Developer Notebook series, but the tone was far more conversational than many technology books Iâ€™ve read in the past. If I have any complaints about the format, itâ€™s that the side notes and faux drink circles only distract from the content.
 
-<table class="docutils field-list" frame="void" rules="none">
-  <col class="field-name" /> <col class="field-body" /> <tr class="field">
-    <th class="field-name">
-      date:
-    </th>
 
-    <td class="field-body">
-      2005-10-08 21:10:43
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      wordpress_id:
-    </th>
-
-    <td class="field-body">
-      340
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      layout:
-    </th>
-
-    <td class="field-body">
-      post
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      slug:
-    </th>
-
-    <td class="field-body">
-      book-review-hibernate-a-developers-notebook
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      comments:
-    </th>
-
-    <td class="field-body">
-      False
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      category:
-    </th>
-
-    <td class="field-body">
-      reading
-    </td>
-  </tr>
-</table>
 
  [1]: http://www.oreilly.com/catalog/hibernate/
  [2]: http://hibernate.org

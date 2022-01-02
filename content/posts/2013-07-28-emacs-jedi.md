@@ -1,22 +1,13 @@
 ---
-title: 'Emacs & Jedi'
-author: Nathan Yergler
-type: post
-date: 2013-07-28T00:00:00+00:00
-excerpt: |
-  <p><a class="reference external" href="http://rhodesmill.org/brandon/">Brandon Rhodes</a> delivered the <a class="reference external" href="http://pyvideo.org/video/2258/keynote-4">keynote</a> at PyOhio yesterday<a class="footnote-reference" href="#id2" id="id1">[1]</a>. He
-  talked about <em>sine qua nons</em>: features that without which, a language
-  is nothing to him. One of the things he mentioned was <a class="reference external" href="http://jedi.jedidjah.ch/en/latest/">Jedi</a>, a
-  framework for extending editors with Python autocompletion,
-  documentation lookup, and source navigation. I say &#8220;editors&#8221;, vaguely ...</p>
-url: /2013/07/28/emacs-jedi/
+title: Emacs & Jedi
+date: 2013-07-28T00:00:00.000Z
 categories:
   - emacs
 tags:
   - buildout
   - python
   - virtualenv
-
+slug: emacs-jedi
 ---
 [Brandon Rhodes][1]  delivered the [keynote][2]  at PyOhio yesterday[[1]][3]{#id1.footnote-reference}. He talked about _sine qua nons_: features that without which, a language is nothing to him. One of the things he mentioned was [Jedi][4] , a framework for extending editors with Python autocompletion, documentation lookup, and source navigation. I say &#8220;editors&#8221;, vaguely, because Jedi consists of a Python server that the editor communicates with via an [editor specific plugin][5] . I&#8217;d seen Jedi before, but hadn&#8217;t managed to get it working with Emacs. After hearing Brandon speak of it so glowingly, I decided to give it another try. The actual installation was easy: using the [master branch][6]  of [el-get][7] , the [recipe][8]  installed the [Jedi Emacs plugin][9]  and its dependencies seamlessly. And it seemed to just work for the standard library.
 
@@ -81,58 +72,7 @@ The Jedi documentation includes an [advanced example][10]  of customizing the se
     I&#8217;m sure that my Emacs Lisp could be improved upon, but it felt pretty good to figure out enough to integration Jedi into the way I use Emacs. I haven&#8217;t worked with Jedi extensively, but so far it seems to work pretty well. The autocomplete features seem to be minimally invasive, and the show docstring and jump to definition both work great.
   </p>
 
-  <table class="docutils footnote" frame="void" id="id2" rules="none">
-    <colgroup><col class="label" /><col /></colgroup> <tr>
-      <td class="label">
-        <a class="fn-backref" href="#id1">[1]</a>
-      </td>
 
-      <td>
-        The fact that the video is up less than 36 hours after the keynote is a testament to how great <a class="reference external" href="http://nextdayvideo.com/">Next Day Video</a> is. They do amazing work at Python (and other) conferences and make it possible to enjoy the hallway track without worrying about missing a presentation.
-      </td>
-    </tr>
-  </table>
-
-  <table class="docutils field-list" frame="void" rules="none">
-    <col class="field-name" /> <col class="field-body" /> <tr class="field">
-      <th class="field-name">
-        author:
-      </th>
-
-      <td class="field-body">
-        Nathan Yergler
-      </td>
-    </tr>
-
-    <tr class="field">
-      <th class="field-name">
-        category:
-      </th>
-
-      <td class="field-body">
-        emacs
-      </td>
-    </tr>
-
-    <tr class="field">
-      <th class="field-name">
-        tags:
-      </th>
-
-      <td class="field-body">
-        python, virtualenv, buildout
-      </td>
-    </tr>
-
-    <tr class="field">
-      <th class="field-name">
-        comments:
-      </th>
-
-      <td class="field-body">
-      </td>
-    </tr>
-  </table>
 </div>
 
  [1]: http://rhodesmill.org/brandon/

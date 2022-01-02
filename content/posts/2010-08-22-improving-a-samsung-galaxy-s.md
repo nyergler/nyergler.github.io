@@ -1,14 +1,6 @@
 ---
-title: 'Improving a Samsung Galaxy S'
-author: Nathan Yergler
-type: post
-date: 2010-08-22T14:45:51+00:00
-excerpt: |
-  <p>I stood in line almost two years ago for the G1. And earlier this year I
-  finally got around to rooting it and experimenting with custom ROMs. The
-  G1 served me well for a long time, but last month I decided it was time
-  for an upgrade, and picked up ...</p>
-url: /2010/08/22/improving-a-samsung-galaxy-s/
+title: Improving a Samsung Galaxy S
+date: 2010-08-22T14:45:51.000Z
 categories:
   - geek
 tags:
@@ -17,7 +9,7 @@ tags:
   - galaxy s
   - samsung
   - vibrant
-
+slug: improving-a-samsung-galaxy-s
 ---
 I stood in line almost two years ago for the G1. And earlier this year I finally got around to rooting it and experimenting with custom ROMs. The G1 served me well for a long time, but last month I decided it was time for an upgrade, and picked up the “Samsung Vibrant”, T-Mobile’s version of the Galaxy S.
 
@@ -53,76 +45,7 @@ Thanks to [&#64;GalaxySsupport][1]  for suggesting I wipe the phone: it was inde
 
 <sup>‡</sup> Samsung should be particularly embarrassed by the TouchWiz Dual Clock widget. Yes, you can show two clocks. And yes, even though you tell it what time zone to display (and it knows the date), you have to manually adjust for Daylight Saving Time. Do I have to wind it daily, too?
 
-<table class="docutils field-list" frame="void" rules="none">
-  <col class="field-name" /> <col class="field-body" /> <tr class="field">
-    <th class="field-name">
-      date:
-    </th>
 
-    <td class="field-body">
-      2010-08-22 14:45:51
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      wordpress_id:
-    </th>
-
-    <td class="field-body">
-      1747
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      layout:
-    </th>
-
-    <td class="field-body">
-      post
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      slug:
-    </th>
-
-    <td class="field-body">
-      improving-a-samsung-galaxy-s
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      comments:
-    </th>
-
-    <td class="field-body">
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      category:
-    </th>
-
-    <td class="field-body">
-      geek
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      tags:
-    </th>
-
-    <td class="field-body">
-      android, cyanogen, galaxy s, samsung, vibrant
-    </td>
-  </tr>
-</table>
 
  [1]: https://twitter.com/GalaxySsupport
  [2]: https://twitter.com/GalaxySsupport/status/21602689488

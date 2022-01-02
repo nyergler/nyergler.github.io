@@ -1,17 +1,9 @@
 ---
 title: 'Pixel Creek: When you absolutely want the very worst'
-author: Nathan Yergler
-type: post
-date: 2006-04-05T13:23:06+00:00
-excerpt: |
-  <p>So last week the new Mac Mini developed a problem. I put the new Keane
-  <span class="caps">CD</span> in, and it didn’t show up in iTunes. “Weird,” I thought, and
-  rebooted. Still nothing going on. After some poking around on my own, I
-  booted into Open Firmware and issued the eject ...</p>
-url: /2006/04/05/pixel-creek-we-you-absolutely-want-the-very-worst/
+date: 2006-04-05T13:23:06.000Z
 categories:
   - my life
-
+slug: pixel-creek-we-you-absolutely-want-the-very-worst
 ---
 So last week the new Mac Mini developed a problem. I put the new Keane <span class="caps">CD</span> in, and it didn’t show up in iTunes. “Weird,” I thought, and rebooted. Still nothing going on. After some poking around on my own, I booted into Open Firmware and issued the eject command from there (I don’t remember what it is now… ah, the wonder that is Google). “No device found.” Hmm… that doesn’t sound good.
 
@@ -25,66 +17,6 @@ Of course I get back across town and it’s not. A call back to Niki and a retur
 
 Overall the Pixel Creek experience has left a bad taste in my mouth. I don’t know what I expected, I’m just pissed that a warranty repair means I have to buy the <span class="caps">CD</span> again. Apple really needs to evaluate their authorized service centers more closely; people getting repair work done are the people you should be nicest to — they’ve already decided to buy something from you, so now you want to keep them and achieve the wonder that is **repeat business**. Pixel Creek: Doing their best to make me shop around.
 
-<table class="docutils field-list" frame="void" rules="none">
-  <col class="field-name" /> <col class="field-body" /> <tr class="field">
-    <th class="field-name">
-      date:
-    </th>
 
-    <td class="field-body">
-      2006-04-05 13:23:06
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      wordpress_id:
-    </th>
-
-    <td class="field-body">
-      410
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      layout:
-    </th>
-
-    <td class="field-body">
-      post
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      slug:
-    </th>
-
-    <td class="field-body">
-      pixel-creek-we-you-absolutely-want-the-very-worst
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      comments:
-    </th>
-
-    <td class="field-body">
-      False
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      category:
-    </th>
-
-    <td class="field-body">
-      my life
-    </td>
-  </tr>
-</table>
 
  [1]: http://www.pixelcreek.com/

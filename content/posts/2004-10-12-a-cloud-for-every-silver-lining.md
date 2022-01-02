@@ -1,20 +1,9 @@
 ---
-title: 'A Cloud for Every Silver Lining'
-author: Nathan Yergler
-type: post
-date: 2004-10-12T12:10:39+00:00
-excerpt: |
-  <p>This weekend was the 16th annual <a class="reference external" href="http://www.gayfortwayne.com/dinnerdance/default.htm">Lesbian and Gay Dinner
-  Dance</a> (whose
-  webpage hasn’t been updated in, well, a while, but you get the gist), a
-  local benefit for the <span class="caps">AIDS</span> Task Force.</p>
-  <img alt="Nathan &amp; Garrett, Dinner Dance 2004" src="http://yergler.net/blog/images/IMG_0899.jpg" />
-  <p>Usually a good time, and this year we had a table full of friends.
-  Rich and ...</p>
-url: /2004/10/12/a-cloud-for-every-silver-lining/
+title: A Cloud for Every Silver Lining
+date: 2004-10-12T12:10:39.000Z
 categories:
   - my life
-
+slug: a-cloud-for-every-silver-lining
 ---
 This weekend was the 16th annual [Lesbian and Gay Dinner Dance][1]  (whose webpage hasn’t been updated in, well, a while, but you get the gist), a local benefit for the <span class="caps">AIDS</span> Task Force.
 
@@ -34,66 +23,7 @@ Sunday Garrett and I went to Indianapolis to meet up with my friend Michelle and
 
 Of course, not all was wonderful this weekend. On Saturday afternoon, Melissa Minix ran into the side of my car with her lovely 87 Beretta (I’m guessing, but you get the idea). The experience turned a little surreal, though, over the past few days as her story went from “I don’t want a claim, I’ll pay for it myself,” to “You were so speeding, it’s not all my fault,” to “Well I was going to get rid of the car, so I was letting the insurance lapse, and don’t know if it has yet,” to “Maybe I could just pay your deductible and you could file it as a hit and run.” Right. So longer story short, I’ll probably end up getting fucked one way or another on this, but I’ve given up on “working it out” with her and will let my insurance company handle it from here on in. It’s just easier.
 
-<table class="docutils field-list" frame="void" rules="none">
-  <col class="field-name" /> <col class="field-body" /> <tr class="field">
-    <th class="field-name">
-      date:
-    </th>
 
-    <td class="field-body">
-      2004-10-12 12:10:39
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      wordpress_id:
-    </th>
-
-    <td class="field-body">
-      209
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      layout:
-    </th>
-
-    <td class="field-body">
-      post
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      slug:
-    </th>
-
-    <td class="field-body">
-      a-cloud-for-every-silver-lining
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      comments:
-    </th>
-
-    <td class="field-body">
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      category:
-    </th>
-
-    <td class="field-body">
-      my life
-    </td>
-  </tr>
-</table>
 
  [1]: http://www.gayfortwayne.com/dinnerdance/default.htm
  [2]: http://yergler.net/blog/images/IMG_0899.jpg

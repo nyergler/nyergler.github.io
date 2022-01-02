@@ -1,17 +1,9 @@
 ---
 title: 'PyCon Day 1, Morning Sessions'
-author: Nathan Yergler
-type: post
-date: 2007-02-23T13:36:19+00:00
-excerpt: |
-  <p>This morning following the “keynote”, I attended the “State fo Zope
-  Panel”. As Jim pointed out at the start (and as I remember from past
-  years), this is typically part one of the Jim Show (part two being
-  about Zope 3 or the Zope Component Architecture). This year the panel ...</p>
-url: /2007/02/23/pycon-day-1-morning-sessions/
+date: 2007-02-23T13:36:19.000Z
 categories:
   - development
-
+slug: pycon-day-1-morning-sessions
 ---
 This morning following the “keynote”, I attended the “State fo Zope Panel”. As Jim pointed out at the start (and as I remember from past years), this is typically part one of the Jim Show (part two being about Zope 3 or the Zope Component Architecture). This year the panel consists of four developers, with someone representing Zope 3, Zope 2, Plone and Zope writ large (including the Zope Foundation). After hearing about the state of Plone, Zope 2, and Zope 3, Jim spoke about the Zope Foundation. I was particularly suprised to that there are only 48 committer members in the foundation. Given that I’m one of them, well… wow [[1]][1]{#id1.footnote-reference}. I appreciated Jim’s frankess about the challenges the Foundation faces, as well as his thoughts on Zope as a Pluggable Application versus Zope as a Library.
 
@@ -44,114 +36,7 @@ Ed wrapped up his talk with a demonstration of creating a wxPython grid bound to
 
 <hr class="docutils" />
 
-<table class="docutils footnote" frame="void" id="id5" rules="none">
-  <colgroup><col class="label" /><col /></colgroup> <tr>
-    <td class="label">
-      <a class="fn-backref" href="#id1">[1]</a>
-    </td>
 
-    <td>
-      I say “wow” only because my contributions have been sparse and sporadic, to put it generously.
-    </td>
-  </tr>
-</table>
-
-<table class="docutils footnote" frame="void" id="id6" rules="none">
-  <colgroup><col class="label" /><col /></colgroup> <tr>
-    <td class="label">
-      <a class="fn-backref" href="#id2">[2]</a>
-    </td>
-
-    <td>
-      Zope 3 doesn’t need to replace Zope 2, maybe it never will, or maybe there should be something called Zope 5 that just builds Zope 2 as an application on the Zope 3 library… or something like that. It <strong>was</strong> a year ago, and I <strong>have</strong> been to Rio since then.
-    </td>
-  </tr>
-</table>
-
-<table class="docutils footnote" frame="void" id="id7" rules="none">
-  <colgroup><col class="label" /><col /></colgroup> <tr>
-    <td class="label">
-      <a class="fn-backref" href="#id3">[3]</a>
-    </td>
-
-    <td>
-      It was sort of the year of the desktop development talk, if I recall correctly.
-    </td>
-  </tr>
-</table>
-
-<table class="docutils footnote" frame="void" id="id8" rules="none">
-  <colgroup><col class="label" /><col /></colgroup> <tr>
-    <td class="label">
-      <a class="fn-backref" href="#id4">[4]</a>
-    </td>
-
-    <td>
-      Admittedly they show through to a much smaller degree now, but there are still moment
-    </td>
-  </tr>
-</table>
-
-<table class="docutils field-list" frame="void" rules="none">
-  <col class="field-name" /> <col class="field-body" /> <tr class="field">
-    <th class="field-name">
-      date:
-    </th>
-
-    <td class="field-body">
-      2007-02-23 13:36:19
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      wordpress_id:
-    </th>
-
-    <td class="field-body">
-      485
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      layout:
-    </th>
-
-    <td class="field-body">
-      post
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      slug:
-    </th>
-
-    <td class="field-body">
-      pycon-day-1-morning-sessions
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      comments:
-    </th>
-
-    <td class="field-body">
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      category:
-    </th>
-
-    <td class="field-body">
-      development
-    </td>
-  </tr>
-</table>
 
  [1]: #id5
  [2]: #id6

@@ -1,18 +1,9 @@
 ---
 title: 'PyCon Keynote: Ivan Krstic'
-author: Nathan Yergler
-type: post
-date: 2007-02-23T12:03:41+00:00
-excerpt: |
-  <p>I finally made it to the conference hotel this morning at <span class="caps">4AM</span>. I
-  expected to arrive around midnight. Five minutes before we started
-  boarding in San Francisco, our plane was pulled from service due to
-  infestation. Gross. So two hours later we finally boarded, and after
-  sitting on the tarmac ...</p>
-url: /2007/02/23/pycon-keynote-ivan-krstic/
+date: 2007-02-23T12:03:41.000Z
 categories:
   - pycon2007
-
+slug: pycon-keynote-ivan-krstic
 ---
 I finally made it to the conference hotel this morning at <span class="caps">4AM</span>. I expected to arrive around midnight. Five minutes before we started boarding in San Francisco, our plane was pulled from service due to infestation. Gross. So two hours later we finally boarded, and after sitting on the tarmac for another 40 minutes, we finally took off. Half an hour for luggage, and hour to get my rental car, and then the drive to the hotel (did I mention I had to blow a toll because I only had $20s, and the promised bill changer apparently only does $1s and $5s?). And its <span class="caps">4AM</span>.
 
@@ -40,90 +31,7 @@ Ivan’s solution to this epidemic of growth is something near and dear to my ow
 
 <hr class="docutils" />
 
-<table class="docutils footnote" frame="void" id="id1" rules="none">
-  <colgroup><col class="label" /><col /></colgroup> <tr>
-    <td class="label">
-      [1]
-    </td>
 
-    <td>
-      His last name has a diacritical mark on the final letter, but I can’t figure out how to do that on my MacBook.
-    </td>
-  </tr>
-</table>
-
-<table class="docutils footnote" frame="void" id="id2" rules="none">
-  <colgroup><col class="label" /><col /></colgroup> <tr>
-    <td class="label">
-      [2]
-    </td>
-
-    <td>
-      I’m definitely guilty of the “disk space is cheap” argument, and it is; part of Ivan’s point was with respect to memory usage in general, not just disk space.
-    </td>
-  </tr>
-</table>
-
-<table class="docutils field-list" frame="void" rules="none">
-  <col class="field-name" /> <col class="field-body" /> <tr class="field">
-    <th class="field-name">
-      date:
-    </th>
-
-    <td class="field-body">
-      2007-02-23 12:03:41
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      wordpress_id:
-    </th>
-
-    <td class="field-body">
-      484
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      layout:
-    </th>
-
-    <td class="field-body">
-      post
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      slug:
-    </th>
-
-    <td class="field-body">
-      pycon-keynote-ivan-krstic
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      comments:
-    </th>
-
-    <td class="field-body">
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      category:
-    </th>
-
-    <td class="field-body">
-      pycon2007
-    </td>
-  </tr>
-</table>
 
  [1]: http://laptop.org
  [2]: http://python.org

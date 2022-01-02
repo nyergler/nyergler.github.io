@@ -1,16 +1,6 @@
 ---
 title: 'PyCon 2010 CFP: Five Days Left'
-author: Nathan Yergler
-type: post
-date: 2009-09-25T15:07:50+00:00
-excerpt: |
-  <p>The <span class="caps">CFP</span> for <a class="reference external" href="http://us.pycon.org/2010/">PyCon 2010</a> closes in five
-  days. I’m on the program committee this year and it’s exciting to see
-  good proposals come in. From the <span class="caps">CFP</span>:</p>
-  <blockquote>
-  <p>Want to showcase your skills as a Python Hacker? Want to have
-  hundreds of people see your talk on the ...</p></blockquote>
-url: /2009/09/25/pycon-2010-cfp-five-days-left/
+date: 2009-09-25T15:07:50.000Z
 categories:
   - conf
 tags:
@@ -18,7 +8,7 @@ tags:
   - conference
   - pycon
   - python
-
+slug: pycon-2010-cfp-five-days-left
 ---
 The <span class="caps">CFP</span> for [PyCon 2010][1]  closes in five days. I’m on the program committee this year and it’s exciting to see good proposals come in. From the <span class="caps">CFP</span>:
 
@@ -40,75 +30,6 @@ The <span class="caps">CFP</span> for [PyCon 2010][1]  closes in five days. I’
 >
 > We look forward to seeing you in Atlanta!
 
-<table class="docutils field-list" frame="void" rules="none">
-  <col class="field-name" /> <col class="field-body" /> <tr class="field">
-    <th class="field-name">
-      date:
-    </th>
 
-    <td class="field-body">
-      2009-09-25 15:07:50
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      wordpress_id:
-    </th>
-
-    <td class="field-body">
-      1113
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      layout:
-    </th>
-
-    <td class="field-body">
-      post
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      slug:
-    </th>
-
-    <td class="field-body">
-      pycon-2010-cfp-five-days-left
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      comments:
-    </th>
-
-    <td class="field-body">
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      category:
-    </th>
-
-    <td class="field-body">
-      conf
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      tags:
-    </th>
-
-    <td class="field-body">
-      cfp, conference, pycon, python
-    </td>
-  </tr>
-</table>
 
  [1]: http://us.pycon.org/2010/

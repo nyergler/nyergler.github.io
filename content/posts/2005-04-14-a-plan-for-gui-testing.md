@@ -1,20 +1,10 @@
 ---
 title: A Plan for GUI Testing
-author: Nathan Yergler
-type: post
-date: 2005-04-14T19:00:39+00:00
-excerpt: |
-  <p>During my presentation on <a class="reference external" href="http://yergler.net/wiki/ynet/show/Desktop+Apps+with+Python">Developing Desktop Applications with
-  Python</a> at
-  PyCon last month, one question in particular intrigued me: “How do you
-  handle unit testing for user interfaces.” My answer, at the time, was
-  the paragon of short and accurate: “I don’t.” But I’ve been thinking
-  about it ...</p>
-url: /2005/04/14/a-plan-for-gui-testing/
+date: 2005-04-14T19:00:39.000Z
 categories:
   - development
   - pycon2005
-
+slug: a-plan-for-gui-testing
 ---
 During my presentation on [Developing Desktop Applications with Python][1]  at PyCon last month, one question in particular intrigued me: “How do you handle unit testing for user interfaces.” My answer, at the time, was the paragon of short and accurate: “I don’t.” But I’ve been thinking about it since then, and I think I have an answer. This post is my attempt to work out the details in my head before actually implementing anything. I ran across [Twill][2]  the other day. Twill is an application which allows you to execute scripts against web applications for the purposes of testing. You can find a sample script in the Twill <span class="caps">README</span>. This idea of scripts got me thinking about testing <span class="caps">GUI</span> applications. The thoughts went something like this:
 
@@ -60,67 +50,7 @@ Additionally, there will need to be some experimentation to figure out how to (e
 
 Finally, this will require the use of IPython for executing test scripts. This isn’t a deal killer, but doesn’t thrill me. A possible future improvement would be to use the IPython source to instantiate the threads and magic from within a standard Python interpreter. And while we’re on the subject of future improvements for vaporware, some sort of <span class="caps">GUI</span> toolkit abstraction would make the library useful for more than just wxPython applications. Someday.
 
-<table class="docutils field-list" frame="void" rules="none">
-  <col class="field-name" /> <col class="field-body" /> <tr class="field">
-    <th class="field-name">
-      date:
-    </th>
 
-    <td class="field-body">
-      2005-04-14 19:00:39
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      wordpress_id:
-    </th>
-
-    <td class="field-body">
-      289
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      layout:
-    </th>
-
-    <td class="field-body">
-      post
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      slug:
-    </th>
-
-    <td class="field-body">
-      a-plan-for-gui-testing
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      comments:
-    </th>
-
-    <td class="field-body">
-      False
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      category:
-    </th>
-
-    <td class="field-body">
-      development, pycon2005
-    </td>
-  </tr>
-</table>
 
  [1]: http://yergler.net/wiki/ynet/show/Desktop+Apps+with+Python
  [2]: http://darcs.idyll.org/~t/projects/twill/README.html

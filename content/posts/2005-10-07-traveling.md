@@ -1,17 +1,9 @@
 ---
 title: Traveling
-author: Nathan Yergler
-type: post
-date: 2005-10-07T21:58:10+00:00
-excerpt: |
-  <p>So it’s a testament to the complete insanity of my life lately that my
-  last post was over 10 days ago, and it was about the event I just
-  arrived at. I’m planning a future entry on what’s been going on at work
-  and at school, because ...</p>
-url: /2005/10/07/traveling/
+date: 2005-10-07T21:58:10.000Z
 categories:
   - gnome2005
-
+slug: traveling
 ---
 So it’s a testament to the complete insanity of my life lately that my last post was over 10 days ago, and it was about the event I just arrived at. I’m planning a future entry on what’s been going on at work and at school, because I think both are interesting, but here’s a preview: rolling out a new server platform the day you launch a fundraising campaign? Don’t. Really.
 
@@ -19,66 +11,7 @@ I finally made it to Boston just under an hour ago, and to my [hotel][1]  30 min
 
 So tomorrow is the start of the [Gnome Hacker Summit][3] , although why [Luis is looking forward to meeting me][4]  is quite a mystery. <span class="caps">OK</span>, sleep, then up early to fix lingering bugs in the website.
 
-<table class="docutils field-list" frame="void" rules="none">
-  <col class="field-name" /> <col class="field-body" /> <tr class="field">
-    <th class="field-name">
-      date:
-    </th>
 
-    <td class="field-body">
-      2005-10-07 21:58:10
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      wordpress_id:
-    </th>
-
-    <td class="field-body">
-      339
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      layout:
-    </th>
-
-    <td class="field-body">
-      post
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      slug:
-    </th>
-
-    <td class="field-body">
-      traveling
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      comments:
-    </th>
-
-    <td class="field-body">
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      category:
-    </th>
-
-    <td class="field-body">
-      gnome2005
-    </td>
-  </tr>
-</table>
 
  [1]: http://www.hotelatmit.com/
  [2]: http://in.today.reuters.com/news/newsArticle.aspx?type=businessNews&storyID=2005-10-07T153226Z_01_NOOTR_RTRJONC_0_India-218449-1.xml&archived=False

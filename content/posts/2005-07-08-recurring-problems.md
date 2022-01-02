@@ -1,19 +1,9 @@
 ---
-title: 'Recurring Problems'
-author: Nathan Yergler
-type: post
-date: 2005-07-08T13:10:55+00:00
-excerpt: |
-  <p>I wrote a
-  <a class="reference external" href="http://yergler.net/blog/archives/2004/12/01/loneliness">post</a> last
-  December about what I consider the mixed blessing of my work with <span class="caps">CC</span>:
-  that while I love what I’m doing, I hate that I do it by myself.
-  Apparently much like sex, working for free culture is best shared with
-  another person or five ...</p>
-url: /2005/07/08/recurring-problems/
+title: Recurring Problems
+date: 2005-07-08T13:10:55.000Z
 categories:
   - my life
-
+slug: recurring-problems
 ---
 I wrote a [post][1]  last December about what I consider the mixed blessing of my work with <span class="caps">CC</span>: that while I love what I’m doing, I hate that I do it by myself. Apparently much like sex, working for free culture is best shared with another person or five.
 
@@ -43,66 +33,7 @@ The question becomes what I’m going to do about it. The options, after 5 minut
 
 We’ll see which one actually pans out.
 
-<table class="docutils field-list" frame="void" rules="none">
-  <col class="field-name" /> <col class="field-body" /> <tr class="field">
-    <th class="field-name">
-      date:
-    </th>
 
-    <td class="field-body">
-      2005-07-08 13:10:55
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      wordpress_id:
-    </th>
-
-    <td class="field-body">
-      313
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      layout:
-    </th>
-
-    <td class="field-body">
-      post
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      slug:
-    </th>
-
-    <td class="field-body">
-      recurring-problems
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      comments:
-    </th>
-
-    <td class="field-body">
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      category:
-    </th>
-
-    <td class="field-body">
-      my life
-    </td>
-  </tr>
-</table>
 
  [1]: http://yergler.net/blog/archives/2004/12/01/loneliness
  [2]: http://oldcrown.com/

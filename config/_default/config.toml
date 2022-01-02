@@ -15,7 +15,7 @@ enableRobotsTXT = true
 summaryLength = 0
 
 [permalinks]
-  post = '/:year/:month/:day/:slug/'
+  posts = '/:year/:month/:day/:slug/'
   prints = '/prints/:year/:slug/'
 
 [indexes]

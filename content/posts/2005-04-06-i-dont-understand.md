@@ -1,19 +1,9 @@
 ---
-title: 'I Don’t Understand'
-author: Nathan Yergler
-type: post
-date: 2005-04-06T11:33:23+00:00
-excerpt: |
-  <p>So the citizens of Kansas decided that laws aren’t laws until their
-  enshrined in the constitution and voted to <a class="reference external" href="http://www.queerday.com/2005/apr/06/kansas_voters_approve_constitutional_ban_on_gay_unions.html">ban gay
-  marriage</a>.
-  Actually they voted to ban any status which would grant the privileges
-  associated with marriage, apparently afraid we’ll destroy civil unions
-  for the straights just like ...</p>
-url: /2005/04/06/i-dont-understand/
+title: I Don’t Understand
+date: 2005-04-06T11:33:23.000Z
 categories:
   - my life
-
+slug: i-dont-understand
 ---
 So the citizens of Kansas decided that laws aren’t laws until their enshrined in the constitution and voted to [ban gay marriage][1] . Actually they voted to ban any status which would grant the privileges associated with marriage, apparently afraid we’ll destroy civil unions for the straights just like we did marriage. Oh wait. This move mirrors fairly closely moves under way in Indiana. The State House voted to [approve a consitutional amendment to ban gay marriage][2]  last month, and the Senate is expected to approve a similar measure before the end of this session. That’s not the last word, exactly; in Indiana it still has to be approved again by another congress (theoretically in 2007), and then go to a public referendum. So there is hope, but not much.
 
@@ -35,67 +25,7 @@ In closing, I’ve been thinking about this issue quite a bit recently. And I re
 
 And if you disagree with my conclusion that legal and legislative decisions shouldn’t be made on the basis of one religion or another, how does this seemingly rabid desire to ban same sex marriage square with what seems like complete disregard or willful ignorance of other Biblical admonisions? I truly don’t understand.
 
-<table class="docutils field-list" frame="void" rules="none">
-  <col class="field-name" /> <col class="field-body" /> <tr class="field">
-    <th class="field-name">
-      date:
-    </th>
 
-    <td class="field-body">
-      2005-04-06 11:33:23
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      wordpress_id:
-    </th>
-
-    <td class="field-body">
-      285
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      layout:
-    </th>
-
-    <td class="field-body">
-      post
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      slug:
-    </th>
-
-    <td class="field-body">
-      i-dont-understand
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      comments:
-    </th>
-
-    <td class="field-body">
-      False
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      category:
-    </th>
-
-    <td class="field-body">
-      my life
-    </td>
-  </tr>
-</table>
 
  [1]: http://www.queerday.com/2005/apr/06/kansas_voters_approve_constitutional_ban_on_gay_unions.html
  [2]: http://capwiz.com/iclu/issues/alert/?alertid=7284606&type=CU

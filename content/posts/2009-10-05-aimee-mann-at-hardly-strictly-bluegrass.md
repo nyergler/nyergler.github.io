@@ -1,17 +1,6 @@
 ---
-title: 'Aimee Mann at Hardly Strictly Bluegrass'
-author: Nathan Yergler
-type: post
-date: 2009-10-05T21:28:34+00:00
-excerpt: |
-  <p>Sunday the weather in San Francisco shifted from San Francisco Autumn
-  back to, well, San Francisco Summer: cool, windy, and clear; sunshine
-  that imparts far less warmth than you might imagine. Richard and I
-  ventured to the <a class="reference external" href="http://hardlystrictlybluegrass.com/">Hardly Strictly
-  Bluegrass</a> music festival at
-  Golden Gate Park Sunday afternoon. <a class="reference external" href="http://en.wikipedia.org/wiki/Aimee_Mann">Aimee
-  Mann ...</a></p>
-url: /2009/10/05/aimee-mann-at-hardly-strictly-bluegrass/
+title: Aimee Mann at Hardly Strictly Bluegrass
+date: 2009-10-05T21:28:34.000Z
 categories:
   - my life
 tags:
@@ -19,7 +8,7 @@ tags:
   - concert
   - music
   - setlist
-
+slug: aimee-mann-at-hardly-strictly-bluegrass
 ---
 Sunday the weather in San Francisco shifted from San Francisco Autumn back to, well, San Francisco Summer: cool, windy, and clear; sunshine that imparts far less warmth than you might imagine. Richard and I ventured to the [Hardly Strictly Bluegrass][1]  music festival at Golden Gate Park Sunday afternoon. [Aimee Mann][2]  was playing the Arrow Stage and I’d managed to miss every other opportunity I’ve had to see her play live.
 
@@ -83,76 +72,7 @@ I thought it was interesting that she introduced the last two song as “from my
 
 I had hoped to stick around and see Neko Case and Emmylou Harris, but after walking over to the Star Stage, I decided it wasn’t worth dealing with the crowd. Another time. I’m not sure that I love the free festival musical experience, but I’m glad I finally got to see Aimee live.
 
-<table class="docutils field-list" frame="void" rules="none">
-  <col class="field-name" /> <col class="field-body" /> <tr class="field">
-    <th class="field-name">
-      date:
-    </th>
 
-    <td class="field-body">
-      2009-10-05 21:28:34
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      wordpress_id:
-    </th>
-
-    <td class="field-body">
-      1156
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      layout:
-    </th>
-
-    <td class="field-body">
-      post
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      slug:
-    </th>
-
-    <td class="field-body">
-      aimee-mann-at-hardly-strictly-bluegrass
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      comments:
-    </th>
-
-    <td class="field-body">
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      category:
-    </th>
-
-    <td class="field-body">
-      my life
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      tags:
-    </th>
-
-    <td class="field-body">
-      aimee mann, concert, music, setlist
-    </td>
-  </tr>
-</table>
 
  [1]: http://hardlystrictlybluegrass.com/
  [2]: http://en.wikipedia.org/wiki/Aimee_Mann

@@ -1,14 +1,6 @@
 ---
 title: 'i18n HTML: Bring the Pain'
-author: Nathan Yergler
-type: post
-date: 2010-03-01T23:21:20+00:00
-excerpt: |
-  <p>I have to stay up a little later this evening than I’d planned, so as a
-  result I’m finally going through all the tabs and browser windows I’ve
-  had open on my personal laptop. I think some of these have been “open”
-  for <em>months</em> (yes, there have ...</p>
-url: /2010/03/01/i18n-html-bring-the-pain/
+date: 2010-03-01T23:21:20.000Z
 categories:
   - CC
   - development
@@ -17,7 +9,7 @@ tags:
   - i18n
   - license engine
   - zope
-
+slug: i18n-html-bring-the-pain
 ---
 I have to stay up a little later this evening than I’d planned, so as a result I’m finally going through all the tabs and browser windows I’ve had open on my personal laptop. I think some of these have been “open” for _months_ (yes, there have been browser restarts, but they’re always there when the session restores). One that I’ve meant to blog is Wil Clouser’s [post on string substitution in .po files][1] . It’s actually [at least] his second post on the subject, recanting his [prior advice][2] , coming around to what others told him previously: **don’t use substitution strings in .po files.**
 
@@ -41,76 +33,7 @@ While we’ve gotten a lot better at this and have learned to live with this sys
 
 <sup>‡</sup> This works great in English, but in languages where gender is more strongly expressed in the word forms, uh, not so much.
 
-<table class="docutils field-list" frame="void" rules="none">
-  <col class="field-name" /> <col class="field-body" /> <tr class="field">
-    <th class="field-name">
-      date:
-    </th>
 
-    <td class="field-body">
-      2010-03-01 23:21:20
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      wordpress_id:
-    </th>
-
-    <td class="field-body">
-      1501
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      layout:
-    </th>
-
-    <td class="field-body">
-      post
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      slug:
-    </th>
-
-    <td class="field-body">
-      i18n-html-bring-the-pain
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      comments:
-    </th>
-
-    <td class="field-body">
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      category:
-    </th>
-
-    <td class="field-body">
-      cc, development
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      tags:
-    </th>
-
-    <td class="field-body">
-      cc, i18n, license engine, zope
-    </td>
-  </tr>
-</table>
 
  [1]: http://micropipes.com/blog/2009/09/01/using-substitution-strings-in-po-files/
  [2]: http://micropipes.com/blog/2007/07/26/ten-tips-for-website-localization/

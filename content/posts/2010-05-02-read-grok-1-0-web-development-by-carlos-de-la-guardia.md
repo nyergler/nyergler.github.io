@@ -1,16 +1,6 @@
 ---
 title: 'Read: “Grok 1.0 Web Development”, by Carlos de la Guardia'
-author: Nathan Yergler
-type: post
-date: 2010-05-02T15:36:19+00:00
-excerpt: |
-  <p>A month and a half ago I posted a
-  <a class="reference external" href="http://yergler.net/blog/2010/03/16/pre-read-grok-1-0-web-development/">pre-review</a>
-  of <em>`Grok 1.0 Web
-  Development &lt;http://www.packtpub.com/grok-1-0-web-development/book?utm_source=yergler.net&amp;utm_medium=bookrev&amp;utm_content=blog&amp;utm_campaign=mdb_002632&gt;`_</em>,
-  a new title from Packt Publishing (disclosure: I received a
-  complimentary copy of the book for review). I ...</p>
-url: /2010/05/02/read-grok-1-0-web-development-by-carlos-de-la-guardia/
+date: 2010-05-02T15:36:19.000Z
 categories:
   - reading
 tags:
@@ -18,7 +8,7 @@ tags:
   - nonfiction
   - read
   - review
-
+slug: read-grok-1-0-web-development-by-carlos-de-la-guardia
 ---
 A month and a half ago I posted a [pre-review][1]  of _\`Grok 1.0 Web Development <http://www.packtpub.com/grok-1-0-web-development/book?utm\_source=yergler.net&utm\_medium=bookrev&utm\_content=blog&utm\_campaign=mdb\_002632>\`\__, a new title from Packt Publishing (disclosure: I received a complimentary copy of the book for review). I recently completed a spate of travel that took me across the Atlantic and across North America (with another trip across the Atlantic aborted due to the [volcanic ash cloud][2] ), and have turned my attention back to the book. My initial impression remains: this is exactly the sort of documentation I wish I’d had when I ported the [Creative Commons license chooser][3]  from “pure” Zope 3 to Grok. _Grok 1.0 Web Development_ is a great introduction to [Grok][4] , Python web development, and the Zope Component Architecture.
 
@@ -28,76 +18,7 @@ _Grok 1.0 Web Development_ is not perfect. In particular I wish the chapter on t
 
 I think that the Zope derived frameworks such as Grok and [repoze.bfg][6]  are some of the most interesting in development today. _Grok 1.0 Web Development_ does a great job of introducing [Grok][4]  to developers who are new to web programming, or who already have some familiarity with another framework. I recommend it to anyone interested in building extensible web applications with a minimum of boilerplate.
 
-<table class="docutils field-list" frame="void" rules="none">
-  <col class="field-name" /> <col class="field-body" /> <tr class="field">
-    <th class="field-name">
-      date:
-    </th>
 
-    <td class="field-body">
-      2010-05-02 15:36:19
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      wordpress_id:
-    </th>
-
-    <td class="field-body">
-      1646
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      layout:
-    </th>
-
-    <td class="field-body">
-      post
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      slug:
-    </th>
-
-    <td class="field-body">
-      read-grok-1-0-web-development-by-carlos-de-la-guardia
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      comments:
-    </th>
-
-    <td class="field-body">
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      category:
-    </th>
-
-    <td class="field-body">
-      reading
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      tags:
-    </th>
-
-    <td class="field-body">
-      2010, nonfiction, read, review
-    </td>
-  </tr>
-</table>
 
  [1]: http://yergler.net/blog/2010/03/16/pre-read-grok-1-0-web-development/
  [2]: http://en.wikipedia.org/wiki/2010_eruptions_of_Eyjafjallaj%C3%B6kull

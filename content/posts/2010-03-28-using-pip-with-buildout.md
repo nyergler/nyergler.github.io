@@ -1,15 +1,6 @@
 ---
-title: 'Using pip with buildout'
-author: Nathan Yergler
-type: post
-date: 2010-03-28T13:05:22+00:00
-excerpt: |
-  <p>I’ve been asked to add a blog to <a class="reference external" href="http://koucou.com/">koucou</a>, and
-  this has turned out to be more of a learning experience than I expected.
-  My first instinct was to use <a class="reference external" href="http://wordpress.org/">WordPress</a> — I’m
-  familiar with it, like the way it works, and I’m not interested in
-  building my ...</p>
-url: /2010/03/28/using-pip-with-buildout/
+title: Using pip with buildout
+date: 2010-03-28T13:05:22.000Z
 categories:
   - development
 tags:
@@ -20,7 +11,7 @@ tags:
   - python
   - scm
   - zc.buildout
-
+slug: using-pip-with-buildout
 ---
 I’ve been asked to add a blog to [koucou][1] , and this has turned out to be more of a learning experience than I expected. My first instinct was to use [WordPress][2]  — I’m familiar with it, like the way it works, and I’m not interested in building my own. The one wrinkle was that we wanted to integrate the blog visually with the rest of the site, which is built on [Django][3] . I decided to give [Mingus][4]  a try. This post isn’t about Mingus — I’ll write about that shortly — but rather about [pip][5] , which Mingus uses to manage dependencies. Mingus includes a [requirements file][6]  with the stable dependencies for the application (one of its goals is application re-use, so there are a lot of them). As I [mentioned previously][7] , <tt class="docutils literal">pip</tt> is the Python packaging/installation tool I have the least experience with, so I decided to try converting my existing project to pip as a starting point — to gain experience with pip, and to try and ease integration woes with Mingus.
 
@@ -138,100 +129,7 @@ I’m not sure that we’ll end up using Mingus for koucou, but I think we’ll 
 
 <hr class="docutils" />
 
-<table class="docutils footnote" frame="void" id="id4" rules="none">
-  <colgroup><col class="label" /><col /></colgroup> <tr>
-    <td class="label">
-      <a class="fn-backref" href="#id2">[1]</a>
-    </td>
 
-    <td>
-      I suppose I could provide a <a class="reference external" href="http://pip.openplans.org/#bundles">bundle</a> for pip that includes the dependencies, but the documentation doesn’t make that seem very appealing.
-    </td>
-  </tr>
-</table>
-
-<table class="docutils footnote" frame="void" id="id5" rules="none">
-  <colgroup><col class="label" /><col /></colgroup> <tr>
-    <td class="label">
-      <a class="fn-backref" href="#id3">[2]</a>
-    </td>
-
-    <td>
-      Inability to install my Django application from an sdist isn’t really a big deal: the re-use story just isn’t good enough (in my opinion) to have it make sense. Generally, however, I like to be able to install a package and pull in the dependencies as well.
-    </td>
-  </tr>
-</table>
-
-<table class="docutils field-list" frame="void" rules="none">
-  <col class="field-name" /> <col class="field-body" /> <tr class="field">
-    <th class="field-name">
-      date:
-    </th>
-
-    <td class="field-body">
-      2010-03-28 13:05:22
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      wordpress_id:
-    </th>
-
-    <td class="field-body">
-      1586
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      layout:
-    </th>
-
-    <td class="field-body">
-      post
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      slug:
-    </th>
-
-    <td class="field-body">
-      using-pip-with-buildout
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      comments:
-    </th>
-
-    <td class="field-body">
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      category:
-    </th>
-
-    <td class="field-body">
-      development
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      tags:
-    </th>
-
-    <td class="field-body">
-      dependencies, django, koucou, pip, python, scm, zc.buildout
-    </td>
-  </tr>
-</table>
 
  [1]: http://koucou.com/
  [2]: http://wordpress.org/

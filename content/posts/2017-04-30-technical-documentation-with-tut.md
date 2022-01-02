@@ -1,9 +1,6 @@
 ---
 title: Technical documentation with Tut
-author: Nathan Yergler
-type: post
-date: 2017-04-30T17:12:38+00:00
-url: /2017/04/30/technical-documentation-with-tut/
+date: 2017-04-30T17:12:38.000Z
 categories:
   - tools
 tags:
@@ -11,7 +8,7 @@ tags:
   - rst
   - sphinx
   - tut
-
+slug: technical-documentation-with-tut
 ---
 Long running branches are a personal pet peeve of mine: I&#8217;d much rather put the effort into managing feature flags, etc than I would into merging a branch that&#8217;s diverged significantly. So it&#8217;s with a mixture of embarrassment and relief that today I merged a branch that&#8217;s been hanging out for 3 **years**.
 

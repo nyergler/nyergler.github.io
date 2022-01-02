@@ -1,16 +1,6 @@
 ---
 title: 'CiviCon Plenary: What Are We Paying For?'
-author: Nathan Yergler
-type: post
-date: 2010-04-22T11:41:29+00:00
-excerpt: |
-  <p>I’m spending part of my day today at the first ever
-  <a class="reference external" href="http://wiki.civicrm.org/confluence/display/CRM/CiviCon+April+2010">CiviCon</a>,
-  a one day conference for the <a class="reference external" href="http://civicrm.org/">CiviCRM</a> community.
-  I was honored (and a little surprised) to be asked to give the opening
-  plenary talk. My original travel schedule called for me to fly back from
-  Istanbul yesterday ...</p>
-url: /2010/04/22/civicon-plenary-what-are-we-paying-for/
+date: 2010-04-22T11:41:29.000Z
 categories:
   - talks
 tags:
@@ -18,7 +8,7 @@ tags:
   - civicon
   - civicrm
   - talks
-
+slug: civicon-plenary-what-are-we-paying-for
 ---
 I’m spending part of my day today at the first ever [CiviCon][1] , a one day conference for the [CiviCRM][2]  community. I was honored (and a little surprised) to be asked to give the opening plenary talk. My original travel schedule called for me to fly back from Istanbul yesterday, get up this morning and present (and then presumably crash from jet lag). Luckily (for me) the volcano derailed my trip to Istanbul, so I was able to present with a little more sleep. This is the text of the talk I prepared.
 
@@ -74,76 +64,7 @@ Finally, if you’re evaluating CiviCRM today, I have some advice for you. Do no
 
 Working at Creative Commons has been an amazing opportunity for me, and I’m proud of a lot that I’ve accomplished over the past six years. But I’m especially proud of how we’ve used and contributed to CiviCRM. I’m proud to be a user, and I feel good every time I talk to my team about Civi and hear, “Oh, yeah, I just jumped on <span class="caps">IRC</span> and got an answer from one of the core developers.” You can not buy that sort of dedication and support.
 
-<table class="docutils field-list" frame="void" rules="none">
-  <col class="field-name" /> <col class="field-body" /> <tr class="field">
-    <th class="field-name">
-      date:
-    </th>
 
-    <td class="field-body">
-      2010-04-22 11:41:29
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      wordpress_id:
-    </th>
-
-    <td class="field-body">
-      1656
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      layout:
-    </th>
-
-    <td class="field-body">
-      post
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      slug:
-    </th>
-
-    <td class="field-body">
-      civicon-plenary-what-are-we-paying-for
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      comments:
-    </th>
-
-    <td class="field-body">
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      category:
-    </th>
-
-    <td class="field-body">
-      talks
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      tags:
-    </th>
-
-    <td class="field-body">
-      cc, civicon, civicrm, talks
-    </td>
-  </tr>
-</table>
 
  [1]: http://wiki.civicrm.org/confluence/display/CRM/CiviCon+April+2010
  [2]: http://civicrm.org/

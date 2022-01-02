@@ -1,19 +1,9 @@
 ---
-title: 'I’m confused'
-author: Nathan Yergler
-type: post
-date: 2006-09-29T07:57:48+00:00
-excerpt: |
-  <p>I tried to submit an update for
-  <a class="reference external" href="http://wiki.creativecommons.org/MozCC">MozCC</a> to
-  <a class="reference external" href="https://addons.mozilla.org/firefox/363/">addons.mozilla.org</a>
-  yesterday so that Firefox 1.5 users would receive auto-magic upgrades
-  when they upgraded to Firefox 2.0. I received an email this morning
-  letting me know it’d been rejected; not because it didn’t work, but ...</p>
-url: /2006/09/29/im-confused/
+title: I’m confused
+date: 2006-09-29T07:57:48.000Z
 categories:
   - development
-
+slug: im-confused
 ---
 I tried to submit an update for [MozCC][1]  to [addons.mozilla.org][2]  yesterday so that Firefox 1.5 users would receive auto-magic upgrades when they upgraded to Firefox 2.0. I received an email this morning letting me know it’d been rejected; not because it didn’t work, but because of the specified version of the “maximum” supported version of Firefox wasn’t formatted properly.
 
@@ -38,66 +28,7 @@ All in all Firefox’s extension mechanism has been wildly successful, in my hum
 
 **<span class="caps">UPDATE</span>:** Let’s say, hypothetically, that the most recent release of your extension only works with Firefox 2.0 and later. So you mark it as such in install.rdf and submit it to <span class="caps">AMO</span>.Â  And then you receive an email from a reviewer saying that they couldn’t install it on 1.5.0.7.Â So you reply “yes, that’s right; it’s only >=2.0, as indicated in install.rdf”.Â  Hypothetically this reviewer replies saying “right, I saw that, but does it work on 1.5.0.7?“Â  “Uh, no.“Â  “<span class="caps">OK</span>, just checking.“Â  Wow, I’ve never been more confident in “officially” reviewed extensions.
 
-<table class="docutils field-list" frame="void" rules="none">
-  <col class="field-name" /> <col class="field-body" /> <tr class="field">
-    <th class="field-name">
-      date:
-    </th>
 
-    <td class="field-body">
-      2006-09-29 07:57:48
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      wordpress_id:
-    </th>
-
-    <td class="field-body">
-      446
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      layout:
-    </th>
-
-    <td class="field-body">
-      post
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      slug:
-    </th>
-
-    <td class="field-body">
-      im-confused
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      comments:
-    </th>
-
-    <td class="field-body">
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      category:
-    </th>
-
-    <td class="field-body">
-      development
-    </td>
-  </tr>
-</table>
 
  [1]: http://wiki.creativecommons.org/MozCC
  [2]: https://addons.mozilla.org/firefox/363/

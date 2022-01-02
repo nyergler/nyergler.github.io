@@ -1,18 +1,9 @@
 ---
 title: 'Rope: A New Python IDE'
-author: Nathan Yergler
-type: post
-date: 2006-10-02T08:17:45+00:00
-excerpt: |
-  <p>I’m not sure how I found it, but over the weekend I ran across
-  <a class="reference external" href="http://rope.sourceforge.net">Rope</a>, a Python <span class="caps">IDE</span> I hadn’t run into
-  before. Rope sets itself apart from other tools I’ve used lately
-  (including PyDev and Wing) by embracing a very functional approach to
-  development. This approach ...</p>
-url: /2006/10/02/rope-a-new-python-ide/
+date: 2006-10-02T08:17:45.000Z
 categories:
   - development
-
+slug: rope-a-new-python-ide
 ---
 I’m not sure how I found it, but over the weekend I ran across [Rope][1] , a Python <span class="caps">IDE</span> I hadn’t run into before. Rope sets itself apart from other tools I’ve used lately (including PyDev and Wing) by embracing a very functional approach to development. This approach is visible from the start when you visit their web page. There are **no** screenshots. Maybe they just haven’t had time to put them up, but after playing with Rope, I don’t think they should: it’s an editor with some advanced features, what do you need to see? Instead the web page lists some of the things Rope tries to do well: code-completion, type inference and refactoring. Especially refactoring.
 
@@ -22,66 +13,7 @@ One difference that I noticed immediately is Rope’s idea of a Project. Tools l
 
 So I really like Rope. I’m not sure it’ll replace Emacs as my tool of choice, but it doesn’t get in my way or gobble system resources, so I’ll keep it around. Is Rope a mature tool? No. To really call itself an <span class="caps">IDE</span> it needs some sort of debugging support, in my opinion. But it already makes one hell of an editor.
 
-<table class="docutils field-list" frame="void" rules="none">
-  <col class="field-name" /> <col class="field-body" /> <tr class="field">
-    <th class="field-name">
-      date:
-    </th>
 
-    <td class="field-body">
-      2006-10-02 08:17:45
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      wordpress_id:
-    </th>
-
-    <td class="field-body">
-      447
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      layout:
-    </th>
-
-    <td class="field-body">
-      post
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      slug:
-    </th>
-
-    <td class="field-body">
-      rope-a-new-python-ide
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      comments:
-    </th>
-
-    <td class="field-body">
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      category:
-    </th>
-
-    <td class="field-body">
-      development
-    </td>
-  </tr>
-</table>
 
  [1]: http://rope.sourceforge.net
  [2]: http://wiki.python.org/moin/TkInter

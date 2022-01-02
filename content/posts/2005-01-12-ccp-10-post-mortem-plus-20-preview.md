@@ -1,17 +1,9 @@
 ---
 title: 'ccP 1.0 Post Mortem, plus 2.0 Preview'
-author: Nathan Yergler
-type: post
-date: 2005-01-12T08:48:10+00:00
-excerpt: |
-  <p>So I spent the last week working from the <span class="caps">CC</span> San Francisco offices.
-  During that time I did some planning, and started hacking on what will
-  become ccPublisher 2.0. So it seems like as good a time as any to go
-  over the process that was 1.0, and ...</p>
-url: /2005/01/12/ccp-10-post-mortem-plus-20-preview/
+date: 2005-01-12T08:48:10.000Z
 categories:
   - development
-
+slug: ccp-10-post-mortem-plus-20-preview
 ---
 So I spent the last week working from the <span class="caps">CC</span> San Francisco offices. During that time I did some planning, and started hacking on what will become ccPublisher 2.0. So it seems like as good a time as any to go over the process that was 1.0, and look ahead to what will become 2.0.
 
@@ -35,66 +27,7 @@ A big focus on 2.0 is on correcting the problems I identified above. There are a
 
 In the meantime, if you have suggestions or features you’d like to see in ccPublisher, [write them down][6] . Seriously.
 
-<table class="docutils field-list" frame="void" rules="none">
-  <col class="field-name" /> <col class="field-body" /> <tr class="field">
-    <th class="field-name">
-      date:
-    </th>
 
-    <td class="field-body">
-      2005-01-12 08:48:10
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      wordpress_id:
-    </th>
-
-    <td class="field-body">
-      248
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      layout:
-    </th>
-
-    <td class="field-body">
-      post
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      slug:
-    </th>
-
-    <td class="field-body">
-      ccp-10-post-mortem-plus-20-preview
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      comments:
-    </th>
-
-    <td class="field-body">
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      category:
-    </th>
-
-    <td class="field-body">
-      development
-    </td>
-  </tr>
-</table>
 
  [1]: http://api.creativecommons.org
  [2]: http://archive.org

@@ -1,19 +1,9 @@
 ---
 title: ACCU Friday
-author: Nathan Yergler
-type: post
-date: 2005-04-24T11:37:10+00:00
-excerpt: |
-  <p>Well we made it back to Indiana last night after about 12 hours of
-  blissfully uneventful travel. Friday at <span class="caps">ACCU</span>/PyUK was fairly
-  interesting, although not as “darn cool” as the Nokia presentation
-  Thursday.
-  After the previously covered keynote, the morning session on the Python
-  track was John Pinner’s ...</p>
-url: /2005/04/24/accu-friday/
+date: 2005-04-24T11:37:10.000Z
 categories:
   - pyuk2005
-
+slug: accu-friday
 ---
 Well we made it back to Indiana last night after about 12 hours of blissfully uneventful travel. Friday at <span class="caps">ACCU</span>/PyUK was fairly interesting, although not as “darn cool” as the Nokia presentation Thursday. After the previously covered keynote, the morning session on the Python track was John Pinner’s presentation on [PayThyme][1] , an open source, Python based payroll system. Even though John chose my presentation on Thursday as his nap time (from the front row, I might add), his presentation was one I had missed at PyCon, and which Vern had indicated was slightly interesting.
 
@@ -33,67 +23,7 @@ For example, a LiveAudio object might have an outbox which consists of a raw <sp
 
 Overall I’d say PyUK was a success. I came away with several ideas I want to explore, and saw some new things I hadn’t run into before. It’s hard to make a direct comparison to PyCon, however. Due to its ascociation with the <span class="caps">ACCU</span>, PyUK definitely has a more of a computer science focus. PyCon, on the otherhand, embraces non-<span class="caps">CS</span> applications along side really geeky discussions of optimizing memory management which is rather refreshing. Both are interesting in their own right, and I hope that the organizers of PyUK (er, Andy) continue to increase the offerings of talks next year, both in terms of quantity and overall quality. Good job guys, maybe I’ll cross the pond again next year for another go round.
 
-<table class="docutils field-list" frame="void" rules="none">
-  <col class="field-name" /> <col class="field-body" /> <tr class="field">
-    <th class="field-name">
-      date:
-    </th>
 
-    <td class="field-body">
-      2005-04-24 11:37:10
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      wordpress_id:
-    </th>
-
-    <td class="field-body">
-      293
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      layout:
-    </th>
-
-    <td class="field-body">
-      post
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      slug:
-    </th>
-
-    <td class="field-body">
-      accu-friday
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      comments:
-    </th>
-
-    <td class="field-body">
-      False
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      category:
-    </th>
-
-    <td class="field-body">
-      pyuk2005
-    </td>
-  </tr>
-</table>
 
  [1]: http://www.paythyme.com/
  [2]: http://kamaelia.sourceforge.net/

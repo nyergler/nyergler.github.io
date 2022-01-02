@@ -1,25 +1,13 @@
 ---
 title: 'Batteries Included (or, Maildir to mbox, again)'
-author: Nathan Yergler
-type: post
-date: 2010-06-06T13:04:29+00:00
-excerpt: |
-  <p><strong><span class="caps">UPDATE</span> 7 June 2010:</strong> Added usage information to docstring.</p>
-  <p><strong><span class="caps">UPDATE</span> 30 January 2012:</strong> Frédéric Grosshans has provided an updated
-  version that supports nested maildirs; you can <a class="reference external" href="https://gist.github.com/1709069">find it at
-  github</a>. <span class="caps">YMMV</span>.</p>
-  <p>My <a class="reference external" href="http://yergler.net/projects/one-off/maildir-to-mbox/">script for converting maildir to
-  mbox</a>
-  <a class="reference external" href="http://yergler.net/blog/2010/02/03/most-popular-erroneous-post/">continues</a>
-  to be one of the most popular pages on yergler.net ...</p>
-url: /2010/06/06/batteries-included-or-maildir-to-mbox-again/
+date: 2010-06-06T13:04:29.000Z
 categories:
   - geek
 tags:
   - maildir
   - mbox
   - python
-
+slug: batteries-included-or-maildir-to-mbox-again
 ---
 **<span class="caps">UPDATE</span> 7 June 2010:** Added usage information to docstring.
 
@@ -74,76 +62,7 @@ mbox.add(msg)
 mbox.close()maildir.close()
 </pre>
 
-<table class="docutils field-list" frame="void" rules="none">
-  <col class="field-name" /> <col class="field-body" /> <tr class="field">
-    <th class="field-name">
-      date:
-    </th>
 
-    <td class="field-body">
-      2010-06-06 13:04:29
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      wordpress_id:
-    </th>
-
-    <td class="field-body">
-      1707
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      layout:
-    </th>
-
-    <td class="field-body">
-      post
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      slug:
-    </th>
-
-    <td class="field-body">
-      batteries-included-or-maildir-to-mbox-again
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      comments:
-    </th>
-
-    <td class="field-body">
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      category:
-    </th>
-
-    <td class="field-body">
-      geek
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      tags:
-    </th>
-
-    <td class="field-body">
-      maildir, mbox, python
-    </td>
-  </tr>
-</table>
 
  [1]: https://gist.github.com/1709069
  [2]: http://yergler.net/projects/one-off/maildir-to-mbox/

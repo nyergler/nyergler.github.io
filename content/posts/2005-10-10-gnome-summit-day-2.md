@@ -1,18 +1,9 @@
 ---
-title: 'Gnome Summit Day 2'
-author: Nathan Yergler
-type: post
-date: 2005-10-10T07:57:22+00:00
-excerpt: |
-  <p>Yesterday, the second day of <a class="reference external" href="http://live.gnome.org/Boston2005">the
-  summit</a>, was more hacking, less
-  talk. I did sit in on a few BOFs, and managed to get some hacking of my
-  own done. Most of the morning was occupied with hacking. Well, observing
-  others hack. I spent the morning trying to get my ...</p>
-url: /2005/10/10/gnome-summit-day-2/
+title: Gnome Summit Day 2
+date: 2005-10-10T07:57:22.000Z
 categories:
   - gnome2005
-
+slug: gnome-summit-day-2
 ---
 Yesterday, the second day of [the summit][1] , was more hacking, less talk. I did sit in on a few BOFs, and managed to get some hacking of my own done. Most of the morning was occupied with hacking. Well, observing others hack. I spent the morning trying to get my laptop’s WiFi connection to come back to life under Linux. <span class="caps">HP</span> helpfully supplies a little button on my <span class="caps">DV1040</span> for turning off the wireless radio. While in the Indianapolis airport and having booted into Windows <span class="caps">XP</span>, I turned it off to conserve power. This had the unfortunate side effect of having it off by default on boot up, and the button only working under Windows. Sigh. I eventually found some details about <tt class="docutils literal">iwconfig</tt> that claimed to let me adjust the radio power. When I tried the command, however, I was informed that it was unsuccessful. Expect that suddenly the wireless connection started working. I’m curious whether it was _really_ unsuccessful and the fact that it works now is just voodoo or if its just incorrect reporting in the software, but frankly I’m too chicken to try and test it — at least while I’m traveling.
 
@@ -26,66 +17,7 @@ Late in the day I caught up with Scott, or rather he caught up with me, with an 
 
 Today is supposed to be a hacking day, too. There is a libnotify <span class="caps">BOF</span> I want to attend this morning; not that I have a use for libnotify, I’m just interested in it. My goal is to dust off my [Nautilus-<span class="caps">CC</span> prototype][12]  and see if I can actually make it usable. I’ve mentioned it to several people this weekend and had uniformly positive responses, so I guess it’s up to me now to really make it happen.
 
-<table class="docutils field-list" frame="void" rules="none">
-  <col class="field-name" /> <col class="field-body" /> <tr class="field">
-    <th class="field-name">
-      date:
-    </th>
 
-    <td class="field-body">
-      2005-10-10 07:57:22
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      wordpress_id:
-    </th>
-
-    <td class="field-body">
-      344
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      layout:
-    </th>
-
-    <td class="field-body">
-      post
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      slug:
-    </th>
-
-    <td class="field-body">
-      gnome-summit-day-2
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      comments:
-    </th>
-
-    <td class="field-body">
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      category:
-    </th>
-
-    <td class="field-body">
-      gnome2005
-    </td>
-  </tr>
-</table>
 
  [1]: http://live.gnome.org/Boston2005
  [2]: http://aaronbock.net/journal/

@@ -1,18 +1,9 @@
 ---
-title: 'In Search of Better Bookmarks'
-author: Nathan Yergler
-type: post
-date: 2004-04-30T10:05:07+00:00
-excerpt: |
-  <p>Earlier this month while working on a research paper I became frustrated
-  with the tools available to me. I was conducting research in on-line,
-  web-based databases on campus, knowing full well I would need the
-  information I found later that day at home. After collecting my inch
-  thick stack of ...</p>
-url: /2004/04/30/in-search-of-better-bookmarks/
+title: In Search of Better Bookmarks
+date: 2004-04-30T10:05:07.000Z
 categories:
   - geek
-
+slug: in-search-of-better-bookmarks
 ---
 Earlier this month while working on a research paper I became frustrated with the tools available to me. I was conducting research in on-line, web-based databases on campus, knowing full well I would need the information I found later that day at home. After collecting my inch thick stack of output from the printer, I wrote [two][1]  [different][2]  posts in quick succession describing my frustration and expressing my desire for a better way to manage the information I found. This post is an attempt to clarify that vision and promote the idea of a better way to manage information found on the web. More simply put, a vision for better bookmarks. The Internet has fundamentally changed the way people communicate. You can debate whether we’ve seen the full extent of that change yet, but the fact is our lives have changed. And mostly for the better. Students today are more likely to use Internet based sources for research, as well as use Internet tools such as instant messaging and e-mail for communication. However, this change is not without it’s own problems. People are increasingly relying upon multiple sources of information to form aggregate opinions and stay informed. Additionally, people are faced with mentally organizing information from a vast array of sources. It seems that ten, twenty years ago, people obtained much of their information from books and periodicals. If they needed to recall a fact or story they had previously read, there was a limited number of sources they needed to search. Today, information workers may read dozens of news sites or blogs daily, in addition to any mailing lists they may participate in. This rise in volume means it’s much more difficult to recall and locate individual pieces of information on demand.
 
@@ -38,66 +29,7 @@ Finally, [TrailBlazer][7]  is a Mac <span class="caps">OS</span> X browser put t
 
 So now that I’ve recorded my opinion for posterity, what’s next? I’d like to know if I’m way off base or right on or somewhere in between. Is this really a problem, or just the perceptions of a psuedo-crack-pot? And if it is a problem, does anyone have any ideas that I’ve overlooked? “Must-have” features that will make life better? As far as implementation goes, I lean towards implementing this as a Mozilla extension. I have some experience with them, and it seems like the only way I know of to satisfy the “cross-platform” and “integrated” litmus tests. Even with the Gecko platform to build on, this may prove to be a larger task than I expect, but I’m willing to take that chance. Anyone else?
 
-<table class="docutils field-list" frame="void" rules="none">
-  <col class="field-name" /> <col class="field-body" /> <tr class="field">
-    <th class="field-name">
-      date:
-    </th>
 
-    <td class="field-body">
-      2004-04-30 10:05:07
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      wordpress_id:
-    </th>
-
-    <td class="field-body">
-      122
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      layout:
-    </th>
-
-    <td class="field-body">
-      post
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      slug:
-    </th>
-
-    <td class="field-body">
-      in-search-of-better-bookmarks
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      comments:
-    </th>
-
-    <td class="field-body">
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      category:
-    </th>
-
-    <td class="field-body">
-      geek
-    </td>
-  </tr>
-</table>
 
  [1]: http://www.yergler.net/averages/archives/2004/04/12/blogging_is_hard
  [2]: http://www.yergler.net/averages/archives/2004/04/12/better_blogging_or_its_more_than_just_a_blog_virginia

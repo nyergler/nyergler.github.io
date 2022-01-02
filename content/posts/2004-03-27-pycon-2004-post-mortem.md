@@ -1,18 +1,9 @@
 ---
-title: 'PyCon 2004 Post Mortem'
-author: Nathan Yergler
-type: post
-date: 2004-03-27T14:11:13+00:00
-excerpt: |
-  <p>We made it back to Fort Wayne last night around 9:<span class="caps">30PM</span>. If anything
-  sticks out from our weeklong it’s the relative pleasantness of our air
-  travel. Nearly every trip over the past year has been marred by delays,
-  unsympathetic agents and bitches manning the ticketing counters. This
-  trip ...</p>
-url: /2004/03/27/pycon-2004-post-mortem/
+title: PyCon 2004 Post Mortem
+date: 2004-03-27T14:11:13.000Z
 categories:
   - geek
-
+slug: pycon-2004-post-mortem
 ---
 We made it back to Fort Wayne last night around 9:<span class="caps">30PM</span>. If anything sticks out from our weeklong it’s the relative pleasantness of our air travel. Nearly every trip over the past year has been marred by delays, unsympathetic agents and bitches manning the ticketing counters. This trip, my first on Continental, came and went without a hitch and with no significant delays. Impressive.
 
@@ -26,63 +17,4 @@ So here it is; the highlights of the week (in no particular order):
 
 * the Chandler <span class="caps">BOF</span> with Mitch Kapor \* sprinting on Zope 3 with Stephan Richter and Jim Fulton \* IronPython: finally, a reason to screw around with Mono? \* Starkiller: “f’in A” \* Bruce Eckel’s keynote * presenting my work and getting positive feedback
 
-<table class="docutils field-list" frame="void" rules="none">
-  <col class="field-name" /> <col class="field-body" /> <tr class="field">
-    <th class="field-name">
-      date:
-    </th>
 
-    <td class="field-body">
-      2004-03-27 14:11:13
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      wordpress_id:
-    </th>
-
-    <td class="field-body">
-      107
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      layout:
-    </th>
-
-    <td class="field-body">
-      post
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      slug:
-    </th>
-
-    <td class="field-body">
-      pycon-2004-post-mortem
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      comments:
-    </th>
-
-    <td class="field-body">
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      category:
-    </th>
-
-    <td class="field-body">
-      geek
-    </td>
-  </tr>
-</table>

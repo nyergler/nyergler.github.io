@@ -1,21 +1,9 @@
 ---
-title: 'Office Plugin / Self-Examination / OOo follow-up'
-author: Nathan Yergler
-type: post
-date: 2006-10-08T11:37:07+00:00
-excerpt: |
-  <p>Tom posted an insightful
-  <a class="reference external" href="http://yergler.net/blog/2006/10/06/critical-self-examination/#comment-7926">comment</a>
-  to <a class="reference external" href="http://yergler.net/blog/2006/10/06/critical-self-examination">my
-  post</a>
-  from last week regarding the iSummit report. His point was basically
-  bringing me back from snarky-fun-land to reality-land: “<span class="caps">OK</span>, so Garton’s
-  an idiot, but what if he makes legitimate points?” (my words, not his)
-  My comments were the result of my ...</p>
-url: /2006/10/08/office-plugin-self-examination-ooo-follow-up/
+title: Office Plugin / Self-Examination / OOo follow-up
+date: 2006-10-08T11:37:07.000Z
 categories:
   - development
-
+slug: office-plugin-self-examination-ooo-follow-up
 ---
 Tom posted an insightful [comment][1]  to [my post][2]  from last week regarding the iSummit report. His point was basically bringing me back from snarky-fun-land to reality-land: “<span class="caps">OK</span>, so Garton’s an idiot, but what if he makes legitimate points?” (my words, not his) My comments were the result of my initial read-through which pushed some buttons (regarding the paper throwing, accusations that we “helped” Microsoft, etc). I had sort of decided not to publicly complain about the whole “Oh my god! You helped Microsoft!” attitude, but after reading Garton’s report, well, the soap box doth beckon. So a few further thoughts spurred by Tom’s comment:
 
@@ -37,66 +25,7 @@ Tom posted an insightful [comment][1]  to [my post][2]  from last week regarding
   </li>
 </ul>
 
-<table class="docutils field-list" frame="void" rules="none">
-  <col class="field-name" /> <col class="field-body" /> <tr class="field">
-    <th class="field-name">
-      date:
-    </th>
 
-    <td class="field-body">
-      2006-10-08 11:37:07
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      wordpress_id:
-    </th>
-
-    <td class="field-body">
-      450
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      layout:
-    </th>
-
-    <td class="field-body">
-      post
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      slug:
-    </th>
-
-    <td class="field-body">
-      office-plugin-self-examination-ooo-follow-up
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      comments:
-    </th>
-
-    <td class="field-body">
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      category:
-    </th>
-
-    <td class="field-body">
-      development
-    </td>
-  </tr>
-</table>
 
  [1]: http://yergler.net/blog/2006/10/06/critical-self-examination/#comment-7926
  [2]: http://yergler.net/blog/2006/10/06/critical-self-examination

@@ -1,9 +1,6 @@
 ---
 title: 'Color Woodcut Printmaking: Day 2'
-author: Nathan Yergler
-type: post
-date: 2017-07-27T23:28:06+00:00
-url: /2017/07/27/color-woodcut-printmaking-day-2/
+date: 2017-07-27T23:28:06.000Z
 categories:
   - printmaking
 tags:
@@ -11,7 +8,7 @@ tags:
   - reduction
   - relief
   - woodcut
-
+slug: color-woodcut-printmaking-day-2
 ---
 _I&#8217;m blogging about my experience taking Karen Kunc&#8217;s &#8220;Color Woodcut Printmaking&#8221; class at Constellation Studios._
 

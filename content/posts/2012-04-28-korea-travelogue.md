@@ -1,21 +1,13 @@
 ---
-title: 'Korea Travelogue'
-author: Nathan Yergler
-type: post
-date: 2012-04-28T19:55:02+00:00
-excerpt: |
-  <p>I arrived home in San Francisco five hours ago from my first ever trip
-  to Asia. Somehow with all the traveling I did while working for <span class="caps">CC</span>, I
-  never made it to Asia or Australia. So R and I decided to spend our
-  vacation this spring in Seoul. Because I ...</p>
-url: /2012/04/28/korea-travelogue/
+title: Korea Travelogue
+date: 2012-04-28T19:55:02.000Z
 categories:
   - travel
 tags:
   - korea
   - seoul
   - travel
-
+slug: korea-travelogue
 ---
 I arrived home in San Francisco five hours ago from my first ever trip to Asia. Somehow with all the traveling I did while working for <span class="caps">CC</span>, I never made it to Asia or Australia. So R and I decided to spend our vacation this spring in Seoul. Because I want to write some things down (and because I agreed to do this [Iron Blogger][1]  thing but haven’t yet, and because my alternative is replacing my blog software, which I’m definitely too jet-lagged to do), here are three highlights of the trip.
 
@@ -27,76 +19,7 @@ The last day we hit up [Dragon Hill Spa <span class="amp">&</span> Resort][10] .
 
 Other things we did, which I may write more about at a later date: Kimchi Field Museum (yes, really), Deoksugung Palace (to, ahem, further the “gung” discussion above, this one is really confusing: the ticket says “Deoksugung Palace”, which the brochure says “Deoksu Palace”), cat and dog cafes (cafes where you can play with cats or dogs while enjoying your beverage of choice), open air markets, random shopping, and great food.
 
-<table class="docutils field-list" frame="void" rules="none">
-  <col class="field-name" /> <col class="field-body" /> <tr class="field">
-    <th class="field-name">
-      date:
-    </th>
 
-    <td class="field-body">
-      2012-04-28 19:55:02
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      wordpress_id:
-    </th>
-
-    <td class="field-body">
-      2058
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      layout:
-    </th>
-
-    <td class="field-body">
-      post
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      slug:
-    </th>
-
-    <td class="field-body">
-      korea-travelogue
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      comments:
-    </th>
-
-    <td class="field-body">
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      category:
-    </th>
-
-    <td class="field-body">
-      travel
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      tags:
-    </th>
-
-    <td class="field-body">
-      korea, seoul, travel
-    </td>
-  </tr>
-</table>
 
  [1]: http://iron-blogger-sf.com/
  [2]: http://en.wikipedia.org/wiki/Korean_Demilitarized_Zone

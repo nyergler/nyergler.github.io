@@ -1,21 +1,9 @@
 ---
-title: 'mozCC 0.8.0 Now Available'
-author: Nathan Yergler
-type: post
-date: 2004-06-29T16:53:20+00:00
-excerpt: |
-  <p>(duplicated from <a class="reference external" href="http://yergler.net/projects/mozcc/news">mozCC News</a>)</p>
-  <p>After an interminable delay and over 60 days since the last
-  <a class="reference external" href="http://yergler.net/blog/archives/2004/04/19/mozcc-080-preview">preview</a>,
-  mozCC 0.8.0 is now available. This release represents a major upgrade to
-  the previous codebase, and will hopefully form the basis for the 1.0
-  release. Features include:</p>
-  <ul class="simple">
-  <li>Support for localization. While ...</li></ul>
-url: /2004/06/29/mozcc-080-now-available/
+title: mozCC 0.8.0 Now Available
+date: 2004-06-29T16:53:20.000Z
 categories:
   - mozCC
-
+slug: mozcc-080-now-available
 ---
 (duplicated from [mozCC News][1] )
 
@@ -56,66 +44,7 @@ While this is a major step forward for mozCC, there are a few known issues:
 
 I anticipate an 0.8.1 release within a week or so to correct these and other bugs. If you find any additional issues, please [contact me][6]  (good) or [file a bug][7]  (better). As always, suggestions, criticism and ideas are welcome.
 
-<table class="docutils field-list" frame="void" rules="none">
-  <col class="field-name" /> <col class="field-body" /> <tr class="field">
-    <th class="field-name">
-      date:
-    </th>
 
-    <td class="field-body">
-      2004-06-29 16:53:20
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      wordpress_id:
-    </th>
-
-    <td class="field-body">
-      146
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      layout:
-    </th>
-
-    <td class="field-body">
-      post
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      slug:
-    </th>
-
-    <td class="field-body">
-      mozcc-080-now-available
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      comments:
-    </th>
-
-    <td class="field-body">
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      category:
-    </th>
-
-    <td class="field-body">
-      mozCC
-    </td>
-  </tr>
-</table>
 
  [1]: http://yergler.net/projects/mozcc/news
  [2]: http://yergler.net/blog/archives/2004/04/19/mozcc-080-preview

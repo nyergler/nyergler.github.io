@@ -1,18 +1,9 @@
 ---
-title: 'PyCon Day 3 Wrap-Up'
-author: Nathan Yergler
-type: post
-date: 2004-03-26T14:30:20+00:00
-excerpt: |
-  <p>Bruce Eckel’s keynote this morning was excellent. Suprisingly enough, I
-  would almost say I found it the most interesting keynote of the
-  conference. It raised many issues that I think get glossed over
-  sometimes. His presentation did this by acknowledging that Python might
-  not be right for everything, and ...</p>
-url: /2004/03/26/pycon-day-3-wrap-up/
+title: PyCon Day 3 Wrap-Up
+date: 2004-03-26T14:30:20.000Z
 categories:
   - geek
-
+slug: pycon-day-3-wrap-up
 ---
 Bruce Eckel’s keynote this morning was excellent. Suprisingly enough, I would almost say I found it the most interesting keynote of the conference. It raised many issues that I think get glossed over sometimes. His presentation did this by acknowledging that Python might not be right for everything, and that sometimes good ideas come from other languages (and sometimes examples of bad ideas do, too).
 
@@ -28,66 +19,7 @@ After David’s presentation on Open Source and business, Bob Ippolito spoke on 
 
 Bob’s presentation was a good overview of the state of Python on Mac <span class="caps">OS</span> X. I won’t go into details that are probably better described at the [PythonMac][2]  website. At this point I’m off to the airport. I’ll post some wrap up thoughts this weekend.
 
-<table class="docutils field-list" frame="void" rules="none">
-  <col class="field-name" /> <col class="field-body" /> <tr class="field">
-    <th class="field-name">
-      date:
-    </th>
 
-    <td class="field-body">
-      2004-03-26 14:30:20
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      wordpress_id:
-    </th>
-
-    <td class="field-body">
-      105
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      layout:
-    </th>
-
-    <td class="field-body">
-      post
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      slug:
-    </th>
-
-    <td class="field-body">
-      pycon-day-3-wrap-up
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      comments:
-    </th>
-
-    <td class="field-body">
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      category:
-    </th>
-
-    <td class="field-body">
-      geek
-    </td>
-  </tr>
-</table>
 
  [1]: http://www.python.org/community/pycon/dc2004/papers/18/Setting_A_Context.pdf
  [2]: http://pythonmac.org

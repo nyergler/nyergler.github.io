@@ -1,18 +1,9 @@
 ---
 title: 'Great, I’m Gretchen’s Project Now'
-author: Nathan Yergler
-type: post
-date: 2004-08-31T10:46:02+00:00
-excerpt: |
-  <p>This semester I’m taking <em>Religion and Culture</em>, a 100 level Philosophy
-  class which fills in a required “humanistic thought” elective. During
-  the first day of class, we were asked to introduce ourselves and say
-  something regarding our religious background. My heart was pounding as I
-  told what should now ...</p>
-url: /2004/08/31/great-im-gretchens-project-now/
+date: 2004-08-31T10:46:02.000Z
 categories:
   - my life
-
+slug: great-im-gretchens-project-now
 ---
 This semester I’m taking _Religion and Culture_, a 100 level Philosophy class which fills in a required “humanistic thought” elective. During the first day of class, we were asked to introduce ourselves and say something regarding our religious background. My heart was pounding as I told what should now be a familiar story: I was raised in a conservative Christian home, and when I discovered I was gay, I was ex-communicated and shunned for a period of nearly two months. The class was appropriately shocked to hear that shunning is still practiced outside of the Amish community, and we actually had an interesting, albeit brief, discussion of primitivism and traditionalism in religion.
 
@@ -27,63 +18,4 @@ Today she sat next to me in class, and after class asked if I’d thought about 
 
 Really, Gretchen, let’s just leave it at that.
 
-<table class="docutils field-list" frame="void" rules="none">
-  <col class="field-name" /> <col class="field-body" /> <tr class="field">
-    <th class="field-name">
-      date:
-    </th>
 
-    <td class="field-body">
-      2004-08-31 10:46:02
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      wordpress_id:
-    </th>
-
-    <td class="field-body">
-      182
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      layout:
-    </th>
-
-    <td class="field-body">
-      post
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      slug:
-    </th>
-
-    <td class="field-body">
-      great-im-gretchens-project-now
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      comments:
-    </th>
-
-    <td class="field-body">
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      category:
-    </th>
-
-    <td class="field-body">
-      my life
-    </td>
-  </tr>
-</table>

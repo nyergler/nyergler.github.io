@@ -1,16 +1,6 @@
 ---
-title: 'For Some Definition of “Reusable”'
-author: Nathan Yergler
-type: post
-date: 2010-03-09T18:38:54+00:00
-excerpt: |
-  <p>I read <a class="reference external" href="http://www.mutualinformation.org/2010/03/why-i-switched-to-pylons-after-using-django-for-six-months/">“Why I switched to Pylons after using Django for six
-  months”</a>
-  yesterday, and it mirrors something I’ve been thinking about off and on
-  for the past year or so: what is the right level of abstraction for
-  reuse in web applications? I’ve worked on two
-  <a class="reference external" href="http://djangoproject.com/">Django ...</a></p>
-url: /2010/03/09/for-some-definition-of-reusable/
+title: For Some Definition of “Reusable”
+date: 2010-03-09T18:38:54.000Z
 categories:
   - development
 tags:
@@ -18,7 +8,7 @@ tags:
   - python
   - web
   - zope
-
+slug: for-some-definition-of-reusable
 ---
 I read [“Why I switched to Pylons after using Django for six months”][1]  yesterday, and it mirrors something I’ve been thinking about off and on for the past year or so: what is the right level of abstraction for reuse in web applications? I’ve worked on two [Django][2] -based projects over the past 12-18 months: [<span class="caps">CC</span> Network][3]  and [koucou][4] . Neither is what I’d call “huge”, but in both cases I wanted to re-use existing apps, and in both cases it felt… awkward.
 
@@ -42,76 +32,7 @@ Code reuse matters, and truth in advertising matters just as much or more. If we
 
 <sup>4</sup> At least when dealing with graph-based traversal; it could be true in other circumstances, I just haven’t thought about it enough.
 
-<table class="docutils field-list" frame="void" rules="none">
-  <col class="field-name" /> <col class="field-body" /> <tr class="field">
-    <th class="field-name">
-      date:
-    </th>
 
-    <td class="field-body">
-      2010-03-09 18:38:54
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      wordpress_id:
-    </th>
-
-    <td class="field-body">
-      1539
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      layout:
-    </th>
-
-    <td class="field-body">
-      post
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      slug:
-    </th>
-
-    <td class="field-body">
-      for-some-definition-of-reusable
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      comments:
-    </th>
-
-    <td class="field-body">
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      category:
-    </th>
-
-    <td class="field-body">
-      development
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      tags:
-    </th>
-
-    <td class="field-body">
-      django, python, web, zope
-    </td>
-  </tr>
-</table>
 
  [1]: http://www.mutualinformation.org/2010/03/why-i-switched-to-pylons-after-using-django-for-six-months/
  [2]: http://djangoproject.com/

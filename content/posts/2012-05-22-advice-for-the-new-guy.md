@@ -1,17 +1,9 @@
 ---
-title: 'Advice for the New Guy'
-author: Nathan Yergler
-type: post
-date: 2012-05-22T18:10:20+00:00
-excerpt: |
-  <p>We have three people joining the team at Eventbrite in the next month,
-  and we’ve been talking about how to “indoctrinate” them in the
-  Eventbrite Way. This isn’t “how to program” or “how to engineer”, it’s
-  “how to work well with the established team” and “where to ...</p>
-url: /2012/05/22/advice-for-the-new-guy/
+title: Advice for the New Guy
+date: 2012-05-22T18:10:20.000Z
 categories:
   - engineering
-
+slug: advice-for-the-new-guy
 ---
 We have three people joining the team at Eventbrite in the next month, and we’ve been talking about how to “indoctrinate” them in the Eventbrite Way. This isn’t “how to program” or “how to engineer”, it’s “how to work well with the established team” and “where to look for dragons, hang nails, paper cuts, and worse”.
 
@@ -55,66 +47,7 @@ And four, explore the poetry of Billy Collins, a former poet laureate. I suggest
 
 So there you have it, my advice for the new guy. If I had to sum it up, it’s “tools and skills, not technologies”. And poetry.
 
-<table class="docutils field-list" frame="void" rules="none">
-  <col class="field-name" /> <col class="field-body" /> <tr class="field">
-    <th class="field-name">
-      date:
-    </th>
 
-    <td class="field-body">
-      2012-05-22 18:10:20
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      wordpress_id:
-    </th>
-
-    <td class="field-body">
-      2118
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      layout:
-    </th>
-
-    <td class="field-body">
-      post
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      slug:
-    </th>
-
-    <td class="field-body">
-      advice-for-the-new-guy
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      comments:
-    </th>
-
-    <td class="field-body">
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      category:
-    </th>
-
-    <td class="field-body">
-      engineering
-    </td>
-  </tr>
-</table>
 
  [1]: https://en.wikipedia.org/wiki/The_Pragmatic_Programmer
  [2]: http://git-scm.com/book

@@ -5,25 +5,21 @@ type: page
 date: 2016-07-08T09:20:52+00:00
 
 ---
-Hi, my name is Nathan, and I’m a writer and [printmaker][1] . Some days I [write code][2], and some days [I ][3] [write][4]  [words][5] . Some days I write words [about][6]  [writing][7]  [code][8] . Occasionally I write about [free][9]  [software][10] .
+Hi, my name is Nathan, and I’m a writer and [printmaker][1] . Some days I [write code][2], and some days [I][3] [write][4] [words][5] . Some days I write words [about][6] [writing][7]  [code][8] . Occasionally I write about [free][9] [software][10] .
 
-I previously worked at [Creative Commons][11] , serving as Chief Technology Officer from 2007-2011. While there I was responsible for [CC Publisher][12], the [web services for integrating licensing][13], and architecting and building [the license infrastructure][14]. In 2008, I co-authored the [<span class="caps">CC</span>][15] [Rights Expression Language specification][15] (CC REL), which provides a technical model for describing licenses. I also developed the technical and metadata architecture for Creative Commons’ [public domain tools][16], and a digital copyright registry, [CC Network][17], based on [linked data][18]. I was the primary architect of Creative Commons’ search and discovery work, developing [prototype search tools][19] for open educational resources based on linked data and aggregation.
+I previously worked at [Creative Commons][11] , serving as Chief Technology Officer from 2007-2011. While there I was responsible for [CC Publisher][12], the [web services for integrating licensing][13], and architecting and building [the license infrastructure][14]. In 2008, I co-authored the [<span class="caps">CC</span>][15] [Rights Expression Language specification][15] (CC REL), which provides a technical model for describing licenses. I also developed the technical and metadata architecture for Creative Commons’ [public domain tools][16], and a digital copyright registry, [CC Network][17], based on [linked data][18]. I was the primary architect of Creative Commons’ search and discovery work, developing [prototype search tools][19] for open educational resources based on linked data and aggregation.
 
-<div class="figure align-center">
-  <p>
-    <img src="/media/2011/04/marten-more-to-love.jpg" alt="More to Love" />
-  </p>
-</div>
+{{< figure
+    src="more-to-love.jpg"
+    title="More to Love"
+    caption="(Yergler, 2011)"
+    >}}
 
-<div class="figure align-center">
-  <p class="caption">
-    <span class="dquo">“</span>More to Love” (Yergler, 2011)
-  </p>
-</div>
+I was introduced to [monotype][20] and [linocut][21] print making by [Katie
+Gilmartin][22] in 2011.
 
-I was introduced to [monotype][20] and [linocut][21] print making by [Katie Gilmartin][22] in 2011.
-
-My monotype work often involves exploring how stencils can be used to combine very graphical qualities with the one-off nature of monotype.
+My monotype work often involves exploring how stencils can be used to combine
+very graphical qualities with the one-off nature of monotype.
 
 Some of my work is [available here][1].
 

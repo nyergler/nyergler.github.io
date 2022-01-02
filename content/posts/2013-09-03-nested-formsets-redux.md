@@ -1,15 +1,6 @@
 ---
-title: 'Revisiting Nested Formsets'
-author: Nathan Yergler
-type: post
-date: 2013-09-03T00:00:00+00:00
-excerpt: |
-  <p>It&#8217;s been nearly four years since I first wrote about <a class="reference external" href="http://yergler.net/blog/2009/09/27/nested-formsets-with-django/">nested
-  formsets</a>. When I wrote about nested formsets, I must have been using
-  Django 1.1 (based on correlating dates in the <a class="reference external" href="https://docs.djangoproject.com/en/1.5/releases/">release notes</a> and the
-  original blog post), which means what I wrote has had four major
-  releases ...</p>
-url: /2013/09/03/nested-formsets-redux/
+title: Revisiting Nested Formsets
+date: 2013-09-03T00:00:00.000Z
 categories:
   - development
 tags:
@@ -17,7 +8,7 @@ tags:
   - forms
   - formsets
   - python
-
+slug: nested-formsets-redux
 ---
 It&#8217;s been nearly four years since I first wrote about [nested formsets][1] . When I wrote about nested formsets, I must have been using Django 1.1 (based on correlating dates in the [release notes][2]  and the original blog post), which means what I wrote has had four major releases of Django to drift out of date. And yet it&#8217;s still one of the most frequently visited posts on my blog, and one of the few that I receive email questions about. Four years later, it seemed like the time to revisit the original post to see if nested formsets still make sense and if so, what they look like now.
 
@@ -126,46 +117,7 @@ You can find a functional, albeit ugly, demo application in the <tt class="docut
 
 So that&#8217;s it: a general purpose, updated implementation of nested formsets. I advise using them sparingly :).
 
-<table class="docutils field-list" frame="void" rules="none">
-  <col class="field-name" /> <col class="field-body" /> <tr class="field">
-    <th class="field-name">
-      author:
-    </th>
 
-    <td class="field-body">
-      Nathan Yergler
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      category:
-    </th>
-
-    <td class="field-body">
-      development
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      tags:
-    </th>
-
-    <td class="field-body">
-      django, formsets, forms, python
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      comments:
-    </th>
-
-    <td class="field-body">
-    </td>
-  </tr>
-</table>
 
  [1]: http://yergler.net/blog/2009/09/27/nested-formsets-with-django/
  [2]: https://docs.djangoproject.com/en/1.5/releases/

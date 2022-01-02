@@ -1,20 +1,11 @@
 ---
 title: 'Web, Web Afternoon'
-author: Nathan Yergler
-type: post
-date: 2007-02-23T17:10:01+00:00
-excerpt: |
-  <p>Lunch: tasty “Mexican” food, including those tasty cinnamon-sugar coated
-  crunchy-chewy desserty things. Lots of those.</p>
-  <p>And after lunch, it’s fun with Python on the Web. The first afternoon
-  talk was <a class="reference external" href="http://ianbicking.org/">Ian Bicking’s</a> <em>Everything You
-  Wanted to Know About <span class="caps">WSGI</span> but were Afraid to Ask</em>. <span class="caps">OK</span>, that’s just ...</p>
-url: /2007/02/23/web-web-afternoon/
+date: 2007-02-23T17:10:01.000Z
 categories:
   - pycon2007
   - python
   - wsgi
-
+slug: web-web-afternoon
 ---
 Lunch: tasty “Mexican” food, including those tasty cinnamon-sugar coated crunchy-chewy desserty things. Lots of those.
 
@@ -26,78 +17,7 @@ Following the <span class="caps">WSGI</span> talk was the Python Web Framework P
 
 Now, off to my friend Vern’s talk about teaching with Python (and dumping that tired hag “hello, world”), then a nap, lightning talks and finally Shawn and I make our annual pilgrimage to Fry’s.
 
-<table class="docutils footnote" frame="void" id="id1" rules="none">
-  <colgroup><col class="label" /><col /></colgroup> <tr>
-    <td class="label">
-      [1]
-    </td>
 
-    <td>
-      Apologies if I missed one; this is from memory.
-    </td>
-  </tr>
-</table>
-
-<table class="docutils field-list" frame="void" rules="none">
-  <col class="field-name" /> <col class="field-body" /> <tr class="field">
-    <th class="field-name">
-      date:
-    </th>
-
-    <td class="field-body">
-      2007-02-23 17:10:01
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      wordpress_id:
-    </th>
-
-    <td class="field-body">
-      487
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      layout:
-    </th>
-
-    <td class="field-body">
-      post
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      slug:
-    </th>
-
-    <td class="field-body">
-      web-web-afternoon
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      comments:
-    </th>
-
-    <td class="field-body">
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      category:
-    </th>
-
-    <td class="field-body">
-      pycon2007, python, wsgi
-    </td>
-  </tr>
-</table>
 
  [1]: http://ianbicking.org/
  [2]: http://blog.ianbicking.org/going-to-pycon-2007.html

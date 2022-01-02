@@ -1,17 +1,9 @@
 ---
 title: Give Me an SDK or Give Your Product Death
-author: Nathan Yergler
-type: post
-date: 2007-01-12T09:10:49+00:00
-excerpt: |
-  <p>Yeah, I know it’s not nearly as catchy as the Patrick Henry original,
-  but then what is? That Patty knew how to turn a phrase.</p>
-  <p>But what I’m referring to is the Apple iPhone, announced this week at
-  MacWorld in San Francisco. Does it look cool? Absolutely. Will ...</p>
-url: /2007/01/12/give-me-an-sdk-or-give-your-product-death/
+date: 2007-01-12T09:10:49.000Z
 categories:
   - geek
-
+slug: give-me-an-sdk-or-give-your-product-death
 ---
 Yeah, I know it’s not nearly as catchy as the Patrick Henry original, but then what is? That Patty knew how to turn a phrase.
 
@@ -30,90 +22,7 @@ And finally, yes, I do want an open platform. And I don’t intend to purchase a
 
 <hr class="docutils" />
 
-<table class="docutils footnote" frame="void" id="id1" rules="none">
-  <colgroup><col class="label" /><col /></colgroup> <tr>
-    <td class="label">
-      [1]
-    </td>
 
-    <td>
-      I think I’ve seen some reports that there will be no 3rd party applications what-so-ever. However, in <a class="reference external" href="http://www.nytimes.com/2007/01/11/technology/11cnd-apple.html?_r=2&oref=slogin&oref=slogin">this</a> New York Times article, Jobs says, “It doesn’t mean we have to write it all, but it means it has to be more of a controlled environment,” which leads me to believe that there will be some sort of “Works with iPhone” certification program. A program that probably won’t be free.
-    </td>
-  </tr>
-</table>
-
-<table class="docutils footnote" frame="void" id="id2" rules="none">
-  <colgroup><col class="label" /><col /></colgroup> <tr>
-    <td class="label">
-      [2]
-    </td>
-
-    <td>
-      Or at least a stripped down <span class="caps">OS</span> X stack.
-    </td>
-  </tr>
-</table>
-
-<table class="docutils field-list" frame="void" rules="none">
-  <col class="field-name" /> <col class="field-body" /> <tr class="field">
-    <th class="field-name">
-      date:
-    </th>
-
-    <td class="field-body">
-      2007-01-12 09:10:49
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      wordpress_id:
-    </th>
-
-    <td class="field-body">
-      470
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      layout:
-    </th>
-
-    <td class="field-body">
-      post
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      slug:
-    </th>
-
-    <td class="field-body">
-      give-me-an-sdk-or-give-your-product-death
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      comments:
-    </th>
-
-    <td class="field-body">
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      category:
-    </th>
-
-    <td class="field-body">
-      geek
-    </td>
-  </tr>
-</table>
 
  [1]: https://phoneme.dev.java.net/
  [2]: http://en.wikipedia.org/wiki/Network_effect

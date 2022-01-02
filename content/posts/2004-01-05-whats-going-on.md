@@ -1,17 +1,8 @@
 ---
-title: 'What’s Going On'
-author: Nathan Yergler
-type: post
-date: 2004-01-05T08:27:03+00:00
-excerpt: |
-  <p>Today is my first day back after a two week winter break from work and
-  school. I had planned to spend the two weeks much like I spend most
-  breaks: coding. But you know what they say about the best laid plans.</p>
-  <p>A few months ago I decided that my ...</p>
-url: /2004/01/05/whats-going-on/
+title: Whats Going On
+date: 2004-01-05T08:27:03.000Z
 categories:
   - my life
-
 ---
 Today is my first day back after a two week winter break from work and school. I had planned to spend the two weeks much like I spend most breaks: coding. But you know what they say about the best laid plans.
 
@@ -25,65 +16,5 @@ Now if this were where the story ended, I might still have gotten some coding do
 
 So after two weeks of break, I’m ready to be back to coding and my day job. And even though I’m glad to be back, there’s something satisfying about the fact that I now know how to refinish wood floors and install new breakers in my house. I don’t know how often I’ll use my newly acquired basement wood shop, but those should be some damn nice picture frames. When I get around to making them.
 
-<table class="docutils field-list" frame="void" rules="none">
-  <col class="field-name" /> <col class="field-body" /> <tr class="field">
-    <th class="field-name">
-      date:
-    </th>
-
-    <td class="field-body">
-      2004-01-05 08:27:03
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      wordpress_id:
-    </th>
-
-    <td class="field-body">
-      69
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      layout:
-    </th>
-
-    <td class="field-body">
-      post
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      slug:
-    </th>
-
-    <td class="field-body">
-      whats-going-on
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      comments:
-    </th>
-
-    <td class="field-body">
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      category:
-    </th>
-
-    <td class="field-body">
-      my life
-    </td>
-  </tr>
-</table>
 
  [1]: http://ikea.com

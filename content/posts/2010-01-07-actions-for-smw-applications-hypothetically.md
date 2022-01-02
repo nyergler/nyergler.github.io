@@ -1,17 +1,6 @@
 ---
 title: “Actions” for SMW Applications (Hypothetically)
-author: Nathan Yergler
-type: post
-date: 2010-01-07T22:13:41+00:00
-excerpt: |
-  <p><a class="reference external" href="http://yergler.net/blog/2010/01/04/acawiki-on-building-emerging-applications/">Talking about
-  AcaWiki</a>
-  has me thinking some more about our experiences over the past couple
-  years with <a class="reference external" href="http://sematic-mediawiki.org/">Semantic MediaWiki</a>,
-  particularly about building “applications” with it. I suppose that
-  something like AcaWiki could be considered an application of sorts — I
-  certainly wrote about it as such earlier this week — but in ...</p>
-url: /2010/01/07/actions-for-smw-applications-hypothetically/
+date: 2010-01-07T22:13:41.000Z
 categories:
   - CC
   - development
@@ -21,7 +10,7 @@ tags:
   - semantic mediawiki
   - smw
   - teamspace
-
+slug: actions-for-smw-applications-hypothetically
 ---
 [Talking about AcaWiki][1]  has me thinking some more about our experiences over the past couple years with [Semantic MediaWiki][2] , particularly about building “applications” with it. I suppose that something like AcaWiki could be considered an application of sorts — I certainly wrote about it as such earlier this week — but in this case I’m talking about applications as reusable, customizable pieces of software that do a little more than just <span class="caps">CRUD</span> data.
 
@@ -49,88 +38,7 @@ Next time: Thoughts on Installation and Deployment.
 
 <hr class="docutils" />
 
-<table class="docutils footnote" frame="void" id="id1" rules="none">
-  <colgroup><col class="label" /><col /></colgroup> <tr>
-    <td class="label">
-      [1]
-    </td>
 
-    <td>
-      The difference between Semantic Tasks and our hypothetical Semantic Actions is that the latter was concerned solely with making some change to the relevant wiki page.
-    </td>
-  </tr>
-</table>
-
-<table class="docutils field-list" frame="void" rules="none">
-  <col class="field-name" /> <col class="field-body" /> <tr class="field">
-    <th class="field-name">
-      date:
-    </th>
-
-    <td class="field-body">
-      2010-01-07 22:13:41
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      wordpress_id:
-    </th>
-
-    <td class="field-body">
-      1346
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      layout:
-    </th>
-
-    <td class="field-body">
-      post
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      slug:
-    </th>
-
-    <td class="field-body">
-      actions-for-smw-applications-hypothetically
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      comments:
-    </th>
-
-    <td class="field-body">
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      category:
-    </th>
-
-    <td class="field-body">
-      cc, development
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      tags:
-    </th>
-
-    <td class="field-body">
-      cc, mediawiki, semantic mediawiki, smw, teamspace
-    </td>
-  </tr>
-</table>
 
  [1]: http://yergler.net/blog/2010/01/04/acawiki-on-building-emerging-applications/
  [2]: http://sematic-mediawiki.org/

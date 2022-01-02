@@ -1,20 +1,9 @@
 ---
-title: '<span class="caps">OSCON</span> Day 1 Keynotes'
-author: Nathan Yergler
-type: post
-date: 2004-07-28T15:18:30+00:00
-excerpt: |
-  <p>Today is the opening day of the Open Source Conference. After two good
-  days of tutorials, I’m ready for diverse sessions on new and emerging topics.</p>
-  <p>This morning’s keynotes were presented by <a class="reference external" href="http://conferences.oreillynet.com/cs/os2004/view/e_sess/5515">Tim
-  O’Reilly</a>
-  and <a class="reference external" href="http://conferences.oreillynet.com/cs/os2004/view/e_sess/5513">Robert
-  Lefkowitz</a>.
-  I went into Tim’s keynote from a somewhat cynical ...</p>
-url: /2004/07/28/oscon-day1-keynotes/
+title: <span class="caps">OSCON</span> Day 1 Keynotes
+date: 2004-07-28T15:18:30.000Z
 categories:
   - oscon2004
-
+slug: oscon-day1-keynotes
 ---
 Today is the opening day of the Open Source Conference. After two good days of tutorials, I’m ready for diverse sessions on new and emerging topics.
 
@@ -22,66 +11,7 @@ This morning’s keynotes were presented by [Tim O’Reilly][1]  and [Robert Lef
 
 And the question I was asking myself when I saw this slide was, “is this [Chandler][3] ?” Doesn’t Chandler promise to provide “peer-to-peer” shared calendars and contacts? Doesn’t Chandler promise to define open standards for interoperation? And doesn’t Chandler intend to be a platform, not “just” an application? As far as I can tell, yes, yes, and, er, yes. It’s reassuring to see smart people coming up with the same ideas independently.
 
-<table class="docutils field-list" frame="void" rules="none">
-  <col class="field-name" /> <col class="field-body" /> <tr class="field">
-    <th class="field-name">
-      date:
-    </th>
 
-    <td class="field-body">
-      2004-07-28 15:18:30
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      wordpress_id:
-    </th>
-
-    <td class="field-body">
-      166
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      layout:
-    </th>
-
-    <td class="field-body">
-      post
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      slug:
-    </th>
-
-    <td class="field-body">
-      oscon-day1-keynotes
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      comments:
-    </th>
-
-    <td class="field-body">
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      category:
-    </th>
-
-    <td class="field-body">
-      oscon2004
-    </td>
-  </tr>
-</table>
 
  [1]: http://conferences.oreillynet.com/cs/os2004/view/e_sess/5515
  [2]: http://conferences.oreillynet.com/cs/os2004/view/e_sess/5513

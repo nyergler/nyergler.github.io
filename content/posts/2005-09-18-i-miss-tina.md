@@ -1,20 +1,9 @@
 ---
-title: 'I Miss Tina'
-author: Nathan Yergler
-type: post
-date: 2005-09-18T16:30:27+00:00
-excerpt: |
-  <p>It’s hard to know how to begin an entry like this. I just received an
-  email from Curtis informing me that <a class="reference external" href="http://www.legacy.com/posttribune/LegacySubPage2.asp?Page=LifeStory&amp;PersonId=15101719">Tina Marie
-  Weitbrock</a>
-  passed away Thursday night.</p>
-  <blockquote>
-  It is my deepest regret to inform all of you that my dearest friend
-  Tina passed away Thursday night. After spending ...</blockquote>
-url: /2005/09/18/i-miss-tina/
+title: I Miss Tina
+date: 2005-09-18T16:30:27.000Z
 categories:
   - my life
-
+slug: i-miss-tina
 ---
 It’s hard to know how to begin an entry like this. I just received an email from Curtis informing me that [Tina Marie Weitbrock][1]  passed away Thursday night.
 
@@ -33,66 +22,7 @@ Tina and Curtis started a tradition amongst our friends of hosting a “Leather 
 
 I miss Tina.
 
-<table class="docutils field-list" frame="void" rules="none">
-  <col class="field-name" /> <col class="field-body" /> <tr class="field">
-    <th class="field-name">
-      date:
-    </th>
 
-    <td class="field-body">
-      2005-09-18 16:30:27
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      wordpress_id:
-    </th>
-
-    <td class="field-body">
-      334
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      layout:
-    </th>
-
-    <td class="field-body">
-      post
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      slug:
-    </th>
-
-    <td class="field-body">
-      i-miss-tina
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      comments:
-    </th>
-
-    <td class="field-body">
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      category:
-    </th>
-
-    <td class="field-body">
-      my life
-    </td>
-  </tr>
-</table>
 
  [1]: http://www.legacy.com/posttribune/LegacySubPage2.asp?Page=LifeStory&PersonId=15101719
  [2]: http://purdue.edu

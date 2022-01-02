@@ -1,17 +1,9 @@
 ---
 title: 'Not a Diva, in a good way'
-author: Nathan Yergler
-type: post
-date: 2004-05-15T11:46:58+00:00
-excerpt: |
-  <p>Last night Garrett and I saw Shania Twain in concert at the Memorial
-  Coliseum here in Fort Wayne. First, an explanation about why. I had a
-  country music “phase” five or six years ago; it lasted about 9 months,
-  and was brought on by a religious conviction that “rock” music ...</p>
-url: /2004/05/15/not-a-diva-in-a-good-way/
+date: 2004-05-15T11:46:58.000Z
 categories:
   - my life
-
+slug: not-a-diva-in-a-good-way
 ---
 Last night Garrett and I saw Shania Twain in concert at the Memorial Coliseum here in Fort Wayne. First, an explanation about why. I had a country music “phase” five or six years ago; it lasted about 9 months, and was brought on by a religious conviction that “rock” music was Satanically inspired, and country music, well, wasn’t (really, I can’t make this up). The phase ended when I began to question religion in general, and arbitrary rules in particular. So while I wouldn’t call myself a fan of country music, it’s not totally abhorent to me. Garrett, on the other hand, is a fan.
 
@@ -27,66 +19,7 @@ The more impressive part, though, is how she interacted with her fans. As she ci
 
 Contrast this to Cher, who was the previous show I saw at the Coliseum. Cher didn’t sign autographs, didn’t shake hands with fans, and didn’t invite people on stage with her. And she didn’t support the community. And I didn’t think anything was wrong with that until the Shania show. As I think about it, it comes down to a single distinction: Cher seemed to perform so that fans had the privilege of seeing her; Shania seemed to perform so that _she_ had the privilege of seeing her fans. Regardless of what <span class="caps">VH1</span> says, that makes her not a diva, but in a good way.
 
-<table class="docutils field-list" frame="void" rules="none">
-  <col class="field-name" /> <col class="field-body" /> <tr class="field">
-    <th class="field-name">
-      date:
-    </th>
 
-    <td class="field-body">
-      2004-05-15 11:46:58
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      wordpress_id:
-    </th>
-
-    <td class="field-body">
-      129
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      layout:
-    </th>
-
-    <td class="field-body">
-      post
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      slug:
-    </th>
-
-    <td class="field-body">
-      not-a-diva-in-a-good-way
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      comments:
-    </th>
-
-    <td class="field-body">
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      category:
-    </th>
-
-    <td class="field-body">
-      my life
-    </td>
-  </tr>
-</table>
 
  [1]: http://www.communityharvest.org/
  [2]: http://www.secondharvest.org/

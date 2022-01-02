@@ -1,24 +1,11 @@
 ---
 title: 'Living With Technical Debt, Part One'
-author: Nathan Yergler
-type: post
-date: 2012-05-14T21:29:05+00:00
-excerpt: |
-  <p>I’m speaking at <a class="reference external" href="http://velocityconf.com/velocity2012">Velocity</a> next
-  month on <a class="reference external" href="http://velocityconf.com/velocity2012/public/schedule/detail/23703">“Living with Technical
-  Debt”</a>.
-  Like any mature codebase, our software at
-  <a class="reference external" href="http://www.eventbrite.com/">Eventbrite</a> has technical debt. Like any
-  project with rapidly shifting priorities, the
-  <a class="reference external" href="http://code.creativecommons.org/">code</a> we built at <a class="reference external" href="http://creativecommons.org/">Creative
-  Commons</a> had technical debt. It’s only in
-  the last year or so that ...</p>
-url: /2012/05/14/living-with-technical-debt-part-one/
+date: 2012-05-14T21:29:05.000Z
 categories:
   - engineering
   - process
   - talks
-
+slug: living-with-technical-debt-part-one
 ---
 I’m speaking at [Velocity][1]  next month on [“Living with Technical Debt”][2] . Like any mature codebase, our software at [Eventbrite][3]  has technical debt. Like any project with rapidly shifting priorities, the [code][4]  we built at [Creative Commons][5]  had technical debt. It’s only in the last year or so that I’ve really come to see that and start to think about how one navigates technical debt. So there are a lot of ideas floating around in my head about what I want to talk about. This post (probably the first of several) is me trying to get those ideas out of my head and into text, so I can go about organizing my talk. Not everything in here is going to make it into the final talk, and I expect that whatever does will be re-organized and re-synthesized.
 
@@ -30,66 +17,7 @@ By speaking about technical debt in terms of cognitive overhead, we can start to
 
 So what are some ways your system can add to the cognitive overhead needed to understand it? I can think of a few: inconsistency, duplication, and lack of cohesion all immediately come to mind. These all make it difficult for an engineer to understand, maintain, and improve a system. More on that later.
 
-<table class="docutils field-list" frame="void" rules="none">
-  <col class="field-name" /> <col class="field-body" /> <tr class="field">
-    <th class="field-name">
-      date:
-    </th>
 
-    <td class="field-body">
-      2012-05-14 21:29:05
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      wordpress_id:
-    </th>
-
-    <td class="field-body">
-      2080
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      layout:
-    </th>
-
-    <td class="field-body">
-      post
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      slug:
-    </th>
-
-    <td class="field-body">
-      living-with-technical-debt-part-one
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      comments:
-    </th>
-
-    <td class="field-body">
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      category:
-    </th>
-
-    <td class="field-body">
-      engineering, process, talks
-    </td>
-  </tr>
-</table>
 
  [1]: http://velocityconf.com/velocity2012
  [2]: http://velocityconf.com/velocity2012/public/schedule/detail/23703

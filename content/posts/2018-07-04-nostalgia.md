@@ -1,9 +1,6 @@
 ---
 title: Nostalgia
-author: Nathan Yergler
-type: post
-date: 2018-07-05T01:44:57+00:00
-url: /2018/07/04/nostalgia/
+date: 2018-07-05T01:44:57.000Z
 categories:
   - blogging
 tags:
@@ -13,7 +10,6 @@ tags:
   - talks
 kind:
   - Article
-
 ---
 I read that 2018 was [the final year of Open Source Bridge][1]. Reading that I felt sadness, as well as gratitude the organizers were able to choose that. I spoke at the inaugural Open Source Bridge, and my memory of that is that it was such a refreshing vibe compared to the other conferences I was attending at the time (OSCON, Semantic World). There was space for self care (yoga), for weird ideas, and for community in a way I didn&#8217;t experience at other conferences. I started to write this as a status update, and realized that these feelings about Open Source Bridge are part of a larger wave of nostalgia for the late aughts I&#8217;ve been feeling lately.
 

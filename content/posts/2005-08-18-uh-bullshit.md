@@ -1,20 +1,9 @@
 ---
 title: 'Uh, Bullshit'
-author: Nathan Yergler
-type: post
-date: 2005-08-18T14:41:29+00:00
-excerpt: |
-  <p>Hilary Rosen is guest-blogging for <a class="reference external" href="http://lessig.org/blog">our esteemed
-  chairman</a>, and while it makes perfect sense in
-  theory — <span class="caps">CC</span> is not about tearing down copyright, but about building a
-  better system within it’s confines — I call bullshit.</p>
-  <p>Ms. Rosen posits:</p>
-  <blockquote>
-  I love the Warhol Campbell Soup example. I wonder if Campbell ...</blockquote>
-url: /2005/08/18/uh-bullshit/
+date: 2005-08-18T14:41:29.000Z
 categories:
   - culture
-
+slug: uh-bullshit
 ---
 Hilary Rosen is guest-blogging for [our esteemed chairman][1] , and while it makes perfect sense in theory — <span class="caps">CC</span> is not about tearing down copyright, but about building a better system within it’s confines — I call bullshit.
 
@@ -28,66 +17,7 @@ Oh, right, I forgot — the Copyright Office and Commerce Department studied it,
 
 <span class="caps">PS</span>: Tell &#8216;Liz to get you a keyboard with a shift-key that works — you work hard for the money.
 
-<table class="docutils field-list" frame="void" rules="none">
-  <col class="field-name" /> <col class="field-body" /> <tr class="field">
-    <th class="field-name">
-      date:
-    </th>
 
-    <td class="field-body">
-      2005-08-18 14:41:29
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      wordpress_id:
-    </th>
-
-    <td class="field-body">
-      322
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      layout:
-    </th>
-
-    <td class="field-body">
-      post
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      slug:
-    </th>
-
-    <td class="field-body">
-      uh-bullshit
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      comments:
-    </th>
-
-    <td class="field-body">
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      category:
-    </th>
-
-    <td class="field-body">
-      culture
-    </td>
-  </tr>
-</table>
 
  [1]: http://lessig.org/blog
  [2]: http://chillingeffects.org

@@ -1,17 +1,9 @@
 ---
-title: '“This means something”'
-author: Nathan Yergler
-type: post
-date: 2005-01-14T08:00:00+00:00
-excerpt: |
-  <p>Last night in my Computer Language Design class I tuned out the
-  professor after the first 5 minutes. It’s not that the class doesn’t
-  interest me, it’s just that an involved discussion of the taxonomy of
-  languages (presented by a man I can only describe as the ...</p>
-url: /2005/01/14/this-means-something/
+title: “This means something”
+date: 2005-01-14T08:00:00.000Z
 categories:
   - geek
-
+slug: this-means-something
 ---
 Last night in my Computer Language Design class I tuned out the professor after the first 5 minutes. It’s not that the class doesn’t interest me, it’s just that an involved discussion of the taxonomy of languages (presented by a man I can only describe as the stereotypical aging <span class="caps">CPA</span>) puts me to sleep. So instead I read ahead in the textbook. Actually I read the end of the textbook, the section on functional and logical languages.
 
@@ -30,66 +22,7 @@ Haskell also has cool pattern matching and lazy evaluation. For example, you can
 
 I’m not sure what the “Pythonic” version of Haskell guards looks like, but the simplicity and elegance really appeals to me. And it seems sorta weird (in a cool way) that less than 12 hours after reading about functional languages, guards and generics, I find others talking about the same thing.
 
-<table class="docutils field-list" frame="void" rules="none">
-  <col class="field-name" /> <col class="field-body" /> <tr class="field">
-    <th class="field-name">
-      date:
-    </th>
 
-    <td class="field-body">
-      2005-01-14 08:00:00
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      wordpress_id:
-    </th>
-
-    <td class="field-body">
-      249
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      layout:
-    </th>
-
-    <td class="field-body">
-      post
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      slug:
-    </th>
-
-    <td class="field-body">
-      this-means-something
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      comments:
-    </th>
-
-    <td class="field-body">
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      category:
-    </th>
-
-    <td class="field-body">
-      geek
-    </td>
-  </tr>
-</table>
 
  [1]: http://www.pythonware.com/daily
  [2]: http://llimllib.f2o.org/blog

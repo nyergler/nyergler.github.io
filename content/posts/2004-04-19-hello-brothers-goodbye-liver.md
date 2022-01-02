@@ -1,18 +1,9 @@
 ---
 title: 'Hello, Brothers; Goodbye, Liver'
-author: Nathan Yergler
-type: post
-date: 2004-04-19T09:12:59+00:00
-excerpt: |
-  <p>I spent the majority of the weekend in Lafayette with my fraternity
-  brothers. Friday night the chapter held an alumni appreciation dinner.
-  It was a casual, informal affair, and a nice opportunity to reconnect
-  with the active brothers and find out what’s going on in our lives.
-  Stephen, the ...</p>
-url: /2004/04/19/hello-brothers-goodbye-liver/
+date: 2004-04-19T09:12:59.000Z
 categories:
   - my life
-
+slug: hello-brothers-goodbye-liver
 ---
 I spent the majority of the weekend in Lafayette with my fraternity brothers. Friday night the chapter held an alumni appreciation dinner. It was a casual, informal affair, and a nice opportunity to reconnect with the active brothers and find out what’s going on in our lives. Stephen, the chapter alumni liaison (proposed re-election platform: “I’m the one that can spell liaison properly!”), is to be commended for his work; as jaded as it may sound, I feel better opening my checkbook when I know I’m appreciated.
 
@@ -24,65 +15,6 @@ Saturday evening was intiation, and then the after party. Luckily it was held at
 
 Yes, we burned a bush. Who knew cigarette butts could light brush on fire? And yes, Steven’s bed was covered in beer by an alumnus who shall remain nameless (**cough** Randy **cough**). And to quote Steven’s neighbor: “I’m progressive! I’m open-minded! It’s just a cock!” Right.
 
-<table class="docutils field-list" frame="void" rules="none">
-  <col class="field-name" /> <col class="field-body" /> <tr class="field">
-    <th class="field-name">
-      date:
-    </th>
 
-    <td class="field-body">
-      2004-04-19 09:12:59
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      wordpress_id:
-    </th>
-
-    <td class="field-body">
-      116
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      layout:
-    </th>
-
-    <td class="field-body">
-      post
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      slug:
-    </th>
-
-    <td class="field-body">
-      hello-brothers-goodbye-liver
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      comments:
-    </th>
-
-    <td class="field-body">
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      category:
-    </th>
-
-    <td class="field-body">
-      my life
-    </td>
-  </tr>
-</table>
 
  [1]: http://www.outpost-daria.com/ch_brittany.html

@@ -1,13 +1,12 @@
 ---
 title: Continuous Integration with CodeBuild and CodePipeline
-date: 2019-10-17T15:08:36+00:00
+date: 2019-10-17T15:08:36.000Z
 categories:
   - startup
 tags:
   - aws
   - CI
   - testing
-
 ---
 Last week I started on a new project &#8212; venture, perhaps &#8212; which means I&#8217;m in the thick of figuring out all the things you take for granted when you join an established project. I&#8217;m trying to balance pragmatism and perfectionism: for example, I don&#8217;t need to scale to 1MM users yet (I probably don&#8217;t need to scale to 10 yet), so spinning up a Kubernetes cluster doesn&#8217;t make sense. _And_, I&#8217;m not an animal, so it&#8217;s not like I&#8217;m going to SSH into a machine and build it by hand. So I&#8217;m trying to look at it from the perspective of &#8220;what do we need for the next 3 months?&#8221;
 

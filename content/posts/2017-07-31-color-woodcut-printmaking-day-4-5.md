@@ -1,16 +1,13 @@
 ---
 title: 'Color Woodcut Printmaking: Day 4 & 5'
-author: Nathan Yergler
-type: post
-date: 2017-07-31T15:49:19+00:00
-url: /2017/07/31/color-woodcut-printmaking-day-4-5/
+date: 2017-07-31T15:49:19.000Z
 categories:
   - printmaking
 tags:
   - constellation studio
   - relief
   - woodcut
-
+slug: color-woodcut-printmaking-day-4-5
 ---
 The last two days of the workshop were work days. After introducing the two block reduction process on Friday (day 3), we had two full days to either continue working on a single block reduction or do second project. I spent both days working to finish my second print before the workshop ended, and I&#8217;m pretty happy with the result.
 

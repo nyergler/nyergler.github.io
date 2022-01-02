@@ -1,17 +1,9 @@
 ---
-title: 'A Feisty MacBook'
-author: Nathan Yergler
-type: post
-date: 2007-02-19T17:55:46+00:00
-excerpt: |
-  <p>After the <span class="caps">HP</span> woes (which are incidentally ongoing, and if they didn’t
-  make me so persistently pissed and angry I might actually write about
-  them) and a nice tax refund check have caused me to go notebook
-  shopping. After some looking I decided on a Black Macbook. After picking ...</p>
-url: /2007/02/19/a-feisty-macbook/
+title: A Feisty MacBook
+date: 2007-02-19T17:55:46.000Z
 categories:
   - geek
-
+slug: a-feisty-macbook
 ---
 After the <span class="caps">HP</span> woes (which are incidentally ongoing, and if they didn’t make me so persistently pissed and angry I might actually write about them) and a nice tax refund check have caused me to go notebook shopping. After some looking I decided on a Black Macbook. After picking it up from [Sweetwater][1] , I promptly set about getting Linux loaded on it. I had done some looking before purchase, and knew the process wouldn’t be exactly seamless. It ended up being easier than expected in some areas and harder in others.
 
@@ -41,78 +33,7 @@ Overall it makes a great Linux notebook: sleep and hibernate work out of the box
 
 <hr class="docutils" />
 
-<table class="docutils footnote" frame="void" id="id1" rules="none">
-  <colgroup><col class="label" /><col /></colgroup> <tr>
-    <td class="label">
-      [1]
-    </td>
 
-    <td>
-      This is going on my blog and not my site because I imagine this is something of a moving target. Ubuntu 7.04 <a class="reference external" href="http://cdimage.ubuntu.com/releases/feisty/herd-4/">Herd 4</a> is already out, and I imagine lots of work will be done in the next 6 months. Your mileage may vary.
-    </td>
-  </tr>
-</table>
-
-<table class="docutils field-list" frame="void" rules="none">
-  <col class="field-name" /> <col class="field-body" /> <tr class="field">
-    <th class="field-name">
-      date:
-    </th>
-
-    <td class="field-body">
-      2007-02-19 17:55:46
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      wordpress_id:
-    </th>
-
-    <td class="field-body">
-      480
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      layout:
-    </th>
-
-    <td class="field-body">
-      post
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      slug:
-    </th>
-
-    <td class="field-body">
-      a-feisty-macbook
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      comments:
-    </th>
-
-    <td class="field-body">
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      category:
-    </th>
-
-    <td class="field-body">
-      geek
-    </td>
-  </tr>
-</table>
 
  [1]: http://sweetwater.com
  [2]: https://help.ubuntu.com/community/MacBook

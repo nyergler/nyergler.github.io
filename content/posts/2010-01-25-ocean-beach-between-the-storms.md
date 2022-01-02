@@ -1,18 +1,6 @@
 ---
-title: 'Ocean Beach Between the Storms'
-author: Nathan Yergler
-type: post
-date: 2010-01-25T09:04:20+00:00
-excerpt: |
-  <p>I spent an hour or so Saturday morning at <a class="reference external" href="http://en.wikipedia.org/wiki/Ocean_Beach,_San_Francisco,_California">Ocean
-  Beach</a>
-  with my friend <a class="reference external" href="http://scottinguito.com/">Scott</a>, taking some
-  pictures. Scott is a painter and was taking some reference shots. I was
-  playing with the <a class="reference external" href="http://www.camerapedia.org/wiki/Blackbird,_fly">blackbird,
-  fly</a> Richard gave me
-  for Christmas and taking some digital shots as well.</p>
-  <p>When we got ...</p>
-url: /2010/01/25/ocean-beach-between-the-storms/
+title: Ocean Beach Between the Storms
+date: 2010-01-25T09:04:20.000Z
 categories:
   - my life
   - photo
@@ -22,7 +10,7 @@ tags:
   - rain
   - san francisco
   - storm
-
+slug: ocean-beach-between-the-storms
 ---
 I spent an hour or so Saturday morning at [Ocean Beach][1]  with my friend [Scott][2] , taking some pictures. Scott is a painter and was taking some reference shots. I was playing with the [blackbird, fly][3]  Richard gave me for Christmas and taking some digital shots as well.
 
@@ -72,76 +60,7 @@ By the time we were close to the Cliff House, it started to rain again. Scott an
 
 See the full set of Ocean Beach [photos on Flickr][5] ; those taken with the _blackbird, fly_ will be uploaded when I get them processed.
 
-<table class="docutils field-list" frame="void" rules="none">
-  <col class="field-name" /> <col class="field-body" /> <tr class="field">
-    <th class="field-name">
-      date:
-    </th>
 
-    <td class="field-body">
-      2010-01-25 09:04:20
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      wordpress_id:
-    </th>
-
-    <td class="field-body">
-      1398
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      layout:
-    </th>
-
-    <td class="field-body">
-      post
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      slug:
-    </th>
-
-    <td class="field-body">
-      ocean-beach-between-the-storms
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      comments:
-    </th>
-
-    <td class="field-body">
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      category:
-    </th>
-
-    <td class="field-body">
-      my life, photo
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      tags:
-    </th>
-
-    <td class="field-body">
-      ocean beach, photos, rain, san francisco, storm
-    </td>
-  </tr>
-</table>
 
  [1]: http://en.wikipedia.org/wiki/Ocean_Beach,_San_Francisco,_California
  [2]: http://scottinguito.com/

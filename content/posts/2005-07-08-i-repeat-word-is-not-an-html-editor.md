@@ -1,18 +1,9 @@
 ---
 title: 'I Repeat: Word is Not an HTML Editor'
-author: Nathan Yergler
-type: post
-date: 2005-07-08T10:03:17+00:00
-excerpt: |
-  <p>Gay Pride in Fort Wayne has been something of an oxymoron since it’s
-  inception. It’s not bad, but it usually consists of a day of vendors,
-  and occasional dunk tank, and local karaoke “champions” crooning from
-  the “stage”. The vendors are either gay-owned (cool) or gay-pandering
-  (not), and ...</p>
-url: /2005/07/08/i-repeat-word-is-not-an-html-editor/
+date: 2005-07-08T10:03:17.000Z
 categories:
   - my life
-
+slug: i-repeat-word-is-not-an-html-editor
 ---
 Gay Pride in Fort Wayne has been something of an oxymoron since it’s inception. It’s not bad, but it usually consists of a day of vendors, and occasional dunk tank, and local karaoke “champions” crooning from the “stage”. The vendors are either gay-owned (cool) or gay-pandering (not), and we even get the occasional protestor. Add to the mix the fact the committee has been historically obsessed with scheduling against Chicago Pride or other larger events, and you have an idea why 30 minutes is about all it takes to fully take in our civic, homosexual Pride.
 
@@ -32,65 +23,6 @@ In case anyone thinks that I should volunteer to help rather than bitching, ther
 
 That is all, I’m done bitching. And I will go to Pride, and I will check the website for the schedule again, because I do want it to succeed.
 
-<table class="docutils field-list" frame="void" rules="none">
-  <col class="field-name" /> <col class="field-body" /> <tr class="field">
-    <th class="field-name">
-      date:
-    </th>
 
-    <td class="field-body">
-      2005-07-08 10:03:17
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      wordpress_id:
-    </th>
-
-    <td class="field-body">
-      311
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      layout:
-    </th>
-
-    <td class="field-body">
-      post
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      slug:
-    </th>
-
-    <td class="field-body">
-      i-repeat-word-is-not-an-html-editor
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      comments:
-    </th>
-
-    <td class="field-body">
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      category:
-    </th>
-
-    <td class="field-body">
-      my life
-    </td>
-  </tr>
-</table>
 
  [1]: http://fwpride.com

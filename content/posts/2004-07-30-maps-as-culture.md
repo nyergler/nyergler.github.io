@@ -1,19 +1,9 @@
 ---
 title: '<span class="caps">OSCON</span> Day 5: Maps as Culture'
-author: Nathan Yergler
-type: post
-date: 2004-07-30T12:14:40+00:00
-excerpt: |
-  <p>Today is the last day of <span class="caps">OSCON</span>, and the conference will be over at noon
-  today. It’s been an amazing week, and I have tons of notes to write up,
-  but I’m ready to be home.</p>
-  <p>This morning’s <a class="reference external" href="http://conferences.oreillynet.com/cs/os2004/view/e_sess/5758">first
-  keynote</a>
-  was entitled “Open Content: How Online Digital ...</p>
-url: /2004/07/30/maps-as-culture/
+date: 2004-07-30T12:14:40.000Z
 categories:
   - oscon2004
-
+slug: maps-as-culture
 ---
 Today is the last day of <span class="caps">OSCON</span>, and the conference will be over at noon today. It’s been an amazing week, and I have tons of notes to write up, but I’m ready to be home.
 
@@ -40,66 +30,7 @@ And finally, “the 19th century was really into documentation.” It seems to m
 
 The second keynote, [David Patrick][3]  of [Novell][4]  (nay, Ximian), was a real snooze comparitively. I wouldn’t have wanted to follow Rumsey, but Patrick showed himself to be incredibily incapable at capturing the crowd’s imagination. Maybe I’m too focused on aesthetics and imagination, but a talk on “The Business of Linux” wasn’t that interesting. Maybe I’m just having flashbacks to hearing a Novell exec pitch Netware back when I worked for a <span class="caps">VAR</span>.
 
-<table class="docutils field-list" frame="void" rules="none">
-  <col class="field-name" /> <col class="field-body" /> <tr class="field">
-    <th class="field-name">
-      date:
-    </th>
 
-    <td class="field-body">
-      2004-07-30 12:14:40
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      wordpress_id:
-    </th>
-
-    <td class="field-body">
-      169
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      layout:
-    </th>
-
-    <td class="field-body">
-      post
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      slug:
-    </th>
-
-    <td class="field-body">
-      maps-as-culture
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      comments:
-    </th>
-
-    <td class="field-body">
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      category:
-    </th>
-
-    <td class="field-body">
-      oscon2004
-    </td>
-  </tr>
-</table>
 
  [1]: http://conferences.oreillynet.com/cs/os2004/view/e_sess/5758
  [2]: http://davidrumsey.com

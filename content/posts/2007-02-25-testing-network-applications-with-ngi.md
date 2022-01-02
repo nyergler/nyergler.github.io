@@ -1,20 +1,11 @@
 ---
 title: Testing Network Applications with NGI
-author: Nathan Yergler
-type: post
-date: 2007-02-25T12:48:06+00:00
-excerpt: |
-  <p>Following the keynote this morning, I attended Jim Fulton’s talk on
-  testing network applications with the Network Gateway Interface. Jim
-  advocates the use of doctests, in particular doctests which allow you to
-  mix the documentation and narrative together (note to self: write a post
-  about why this is compelling ...</p>
-url: /2007/02/25/testing-network-applications-with-ngi/
+date: 2007-02-25T12:48:06.000Z
 categories:
   - pycon2007
   - python
   - testing
-
+slug: testing-network-applications-with-ngi
 ---
 Following the keynote this morning, I attended Jim Fulton’s talk on testing network applications with the Network Gateway Interface. Jim advocates the use of doctests, in particular doctests which allow you to mix the documentation and narrative together (note to self: write a post about why this is compelling). When programming network applications, writing tests can be really, really hard: there can be sockets, time.sleep(), threads, etc.
 
@@ -28,63 +19,4 @@ Jim spent a short part of his talk discussing about the benefits of non-determin
 
 <span class="caps">NGI</span> 1.0 was released just before PyCon, and this will probably be the last release. [Un]fortunately, Jim recently found that Twisted provides facilities for this style of programming and testing. Given this, zc.ngi will probably only live on (if at all) as a simplified facade over Twisted’s facilities.
 
-<table class="docutils field-list" frame="void" rules="none">
-  <col class="field-name" /> <col class="field-body" /> <tr class="field">
-    <th class="field-name">
-      date:
-    </th>
 
-    <td class="field-body">
-      2007-02-25 12:48:06
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      wordpress_id:
-    </th>
-
-    <td class="field-body">
-      497
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      layout:
-    </th>
-
-    <td class="field-body">
-      post
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      slug:
-    </th>
-
-    <td class="field-body">
-      testing-network-applications-with-ngi
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      comments:
-    </th>
-
-    <td class="field-body">
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      category:
-    </th>
-
-    <td class="field-body">
-      pycon2007, python, testing
-    </td>
-  </tr>
-</table>

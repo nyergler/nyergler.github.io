@@ -1,20 +1,6 @@
 ---
-title: 'Houston Connexions'
-author: Nathan Yergler
-type: post
-date: 2010-02-04T22:15:06+00:00
-excerpt: |
-  <p>I spent the first half of this week in Houston, Texas for the Connexions
-  Consortium Meeting and <a class="reference external" href="http://conference.cnx.org/">Conference</a>. What
-  follows are my personal reflections.</p>
-  <hr class="docutils" />
-  <p><a class="reference external" href="http://en.wikipedia.org/wiki/Connexions">Connexions</a>
-  (<a class="reference external" href="http://cnx.org/">http://cnx.org</a>) is an online repository of
-  learning materials — <a class="reference external" href="http://en.wikipedia.org/wiki/Open_educational_resources">open educational
-  resources</a>
-  (<span class="caps">OER</span>). Unlike many other <span class="caps">OER</span> repositories, Connexions has a few
-  characteristics that ...</p>
-url: /2010/02/04/houston-connexions/
+title: Houston Connexions
+date: 2010-02-04T22:15:06.000Z
 categories:
   - CC
 tags:
@@ -23,7 +9,7 @@ tags:
   - IAH
   - oer
   - travel
-
+slug: houston-connexions
 ---
 I spent the first half of this week in Houston, Texas for the Connexions Consortium Meeting and [Conference][1] . What follows are my personal reflections.
 
@@ -49,76 +35,7 @@ Overall it was a great trip; I got to hear about interesting projects and see a 
 
 <sup>‡</sup> This is an area that’s aligned with work we’re doing at <span class="caps">CC</span> right now, so it’s something I’ll be paying attention to.
 
-<table class="docutils field-list" frame="void" rules="none">
-  <col class="field-name" /> <col class="field-body" /> <tr class="field">
-    <th class="field-name">
-      date:
-    </th>
 
-    <td class="field-body">
-      2010-02-04 22:15:06
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      wordpress_id:
-    </th>
-
-    <td class="field-body">
-      1457
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      layout:
-    </th>
-
-    <td class="field-body">
-      post
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      slug:
-    </th>
-
-    <td class="field-body">
-      houston-connexions
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      comments:
-    </th>
-
-    <td class="field-body">
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      category:
-    </th>
-
-    <td class="field-body">
-      cc
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      tags:
-    </th>
-
-    <td class="field-body">
-      cc, cnx, <span class="caps">IAH</span>, oer, travel
-    </td>
-  </tr>
-</table>
 
  [1]: http://conference.cnx.org/
  [2]: http://en.wikipedia.org/wiki/Connexions

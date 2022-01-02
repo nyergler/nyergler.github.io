@@ -1,21 +1,11 @@
 ---
-title: 'Done with Citi-First-Greg-Apartments'
-author: Nathan Yergler
-type: post
-date: 2010-02-15T15:50:50+00:00
-excerpt: |
-  <p>A few days ago I published <a class="reference external" href="http://yergler.net/blog/2010/01/05/400-duboce-113-now-from-greg-apartments/">a post about CitiApartments and 400
-  Duboce</a>
-  that’s been flagged “private” since January 5. Why did I wait? I wanted
-  my deposit back, and given their track record, didn’t want to give them
-  any reason to hold onto it.</p>
-  <p>California law states ...</p>
-url: /2010/02/15/done-with-citi-first-greg-apartments/
+title: Done with Citi-First-Greg-Apartments
+date: 2010-02-15T15:50:50.000Z
 categories:
   - my life
 tags:
   - 400duboce
-
+slug: done-with-citi-first-greg-apartments
 ---
 A few days ago I published [a post about CitiApartments and 400 Duboce][1]  that’s been flagged “private” since January 5. Why did I wait? I wanted my deposit back, and given their track record, didn’t want to give them any reason to hold onto it.
 
@@ -31,76 +21,7 @@ Take away lesson: renting from CitiApartments, First Apartments, or Greg Apartme
 
 <sup>1</sup> There were [reports on <span class="caps">SF</span> Appeal of checks bouncing][5] ; the last thing I wanted to do was add a returned check fee to the tally.
 
-<table class="docutils field-list" frame="void" rules="none">
-  <col class="field-name" /> <col class="field-body" /> <tr class="field">
-    <th class="field-name">
-      date:
-    </th>
 
-    <td class="field-body">
-      2010-02-15 15:50:50
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      wordpress_id:
-    </th>
-
-    <td class="field-body">
-      1476
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      layout:
-    </th>
-
-    <td class="field-body">
-      post
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      slug:
-    </th>
-
-    <td class="field-body">
-      done-with-citi-first-greg-apartments
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      comments:
-    </th>
-
-    <td class="field-body">
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      category:
-    </th>
-
-    <td class="field-body">
-      my life
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      tags:
-    </th>
-
-    <td class="field-body">
-      400duboce
-    </td>
-  </tr>
-</table>
 
  [1]: http://yergler.net/blog/2010/01/05/400-duboce-113-now-from-greg-apartments/
  [2]: http://www.courtinfo.ca.gov/selfhelp/smallclaims/checklist.htm

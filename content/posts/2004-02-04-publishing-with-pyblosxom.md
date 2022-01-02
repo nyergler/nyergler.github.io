@@ -1,21 +1,9 @@
 ---
-title: 'Publishing with PyBlosxom'
-author: Nathan Yergler
-type: post
-date: 2004-02-04T13:34:00+00:00
-excerpt: |
-  <p>I’ve now managed to convert the majority of yergler.net over to
-  <a class="reference external" href="http://roughingit.subtlehints.net/pyblosxom/">PyBlosxom</a>. Maybe not
-  the majority… but the non-<a class="reference external" href="/averages">blog</a>,
-  non-<a class="reference external" href="http://pixels.yergler.net">pixelated</a> content. I’m still
-  impressed with it’s flexibility, and even more impressed with the
-  <a class="reference external" href="http://roughingit.subtlehints.net/docs/public/ReadMeForPlugins-module.html">plugin
-  <span class="caps">API</span></a>.</p>
-  <p>I knew going into the conversion that I didn ...</p>
-url: /2004/02/04/publishing-with-pyblosxom/
+title: Publishing with PyBlosxom
+date: 2004-02-04T13:34:00.000Z
 categories:
   - yergler.net
-
+slug: publishing-with-pyblosxom
 ---
 I’ve now managed to convert the majority of yergler.net over to [PyBlosxom][1] . Maybe not the majority… but the non-[blog][2] , non-[pixelated][3]  content. I’m still impressed with it’s flexibility, and even more impressed with the [plugin <span class="caps">API</span>][4] .
 
@@ -25,66 +13,7 @@ To get the <span class="caps">README</span> file served, each entry as a page, a
 
 I order to get the mix of dynamic and static content served the right way, I had to do some serious mod_rewrite hacking. If you find a link that doesn’t work, please, [let me know][6]  .
 
-<table class="docutils field-list" frame="void" rules="none">
-  <col class="field-name" /> <col class="field-body" /> <tr class="field">
-    <th class="field-name">
-      date:
-    </th>
 
-    <td class="field-body">
-      2004-02-04 13:34:00
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      wordpress_id:
-    </th>
-
-    <td class="field-body">
-      81
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      layout:
-    </th>
-
-    <td class="field-body">
-      post
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      slug:
-    </th>
-
-    <td class="field-body">
-      publishing-with-pyblosxom
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      comments:
-    </th>
-
-    <td class="field-body">
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      category:
-    </th>
-
-    <td class="field-body">
-      yergler.net
-    </td>
-  </tr>
-</table>
 
  [1]: http://roughingit.subtlehints.net/pyblosxom/
  [2]: /averages

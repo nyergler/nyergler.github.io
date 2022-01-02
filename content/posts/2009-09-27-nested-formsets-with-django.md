@@ -1,17 +1,6 @@
 ---
-title: 'Nested Formsets with Django'
-author: Nathan Yergler
-type: post
-date: 2009-09-27T19:42:42+00:00
-excerpt: |
-  <p class="update">I&#8217;ve published an <a class="reference external" href="http://yergler.net/blog/2013/09/03/nested-formsets-redux/">updated post</a> about
-  nested formsets, along with an generic implementation and demo
-  application on <a class="reference external" href="https://github.com/nyergler/nested-formset">GitHub</a>.</p>
-  <p>I spent Labor Day weekend in New York City working on a side project
-  with <a class="reference external" href="http://www.alexrobertsontextor.com/">Alex</a>. The project is
-  coming together (albeit slowly, sometimes), and there have been a few
-  interesting ...</p>
-url: /2009/09/27/nested-formsets-with-django/
+title: Nested Formsets with Django
+date: 2009-09-27T19:42:42.000Z
 categories:
   - development
   - koucou
@@ -21,7 +10,7 @@ tags:
   - howto
   - orm
   - python
-
+slug: nested-formsets-with-django
 ---
 <p class="update">
   I&#8217;ve published an <a class="reference external" href="http://yergler.net/blog/2013/09/03/nested-formsets-redux/">updated post</a> about nested formsets, along with an generic implementation and demo application on <a class="reference external" href="https://github.com/nyergler/nested-formset">GitHub</a>.
@@ -261,76 +250,7 @@ The <tt class="docutils literal">save_all</tt> method is responsible for saving 
 
 There are certainly places this code could be improved, tightened up or generalized (for example, the nested formset prefix calculation and possibly <tt class="docutils literal">save_all</tt>). It’s also entirely plausible that you could wrap much of this into a factory function. But this gets nested editing working and once you wrap your head around what needs to be done, it’s actually fairly straight forward.
 
-<table class="docutils field-list" frame="void" rules="none">
-  <col class="field-name" /> <col class="field-body" /> <tr class="field">
-    <th class="field-name">
-      date:
-    </th>
 
-    <td class="field-body">
-      2009-09-27 19:42:42
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      wordpress_id:
-    </th>
-
-    <td class="field-body">
-      1093
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      layout:
-    </th>
-
-    <td class="field-body">
-      post
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      slug:
-    </th>
-
-    <td class="field-body">
-      nested-formsets-with-django
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      comments:
-    </th>
-
-    <td class="field-body">
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      category:
-    </th>
-
-    <td class="field-body">
-      development, koucou
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      tags:
-    </th>
-
-    <td class="field-body">
-      django, formsets, howto, orm, python
-    </td>
-  </tr>
-</table>
 
  [1]: http://www.alexrobertsontextor.com/
  [2]: http://djangoproject.com

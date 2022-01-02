@@ -1,17 +1,9 @@
 ---
-title: '24 Hours with the Sony Reader'
-author: Nathan Yergler
-type: post
-date: 2006-11-11T12:26:51+00:00
-excerpt: |
-  <p>Right, I know I promised I would tell a story about deploying software
-  based on Django. It’ll have to wait <a class="footnote-reference" href="#id6" id="id1">[1]</a>. Yesterday I wandered into
-  the local Border’s to kill some time after lunch. Nothing to look for,
-  just like the books. And there it was, a lone ...</p>
-url: /2006/11/11/24-hours-with-the-sony-reader/
+title: 24 Hours with the Sony Reader
+date: 2006-11-11T12:26:51.000Z
 categories:
   - geek
-
+slug: 24-hours-with-the-sony-reader
 ---
 Right, I know I promised I would tell a story about deploying software based on Django. It’ll have to wait [[1]][1]{#id1.footnote-reference}. Yesterday I wandered into the local Border’s to kill some time after lunch. Nothing to look for, just like the books. And there it was, a lone Sony end-cap display with (gasp) live, in-the-flesh [Readers][2] .
 
@@ -46,126 +38,7 @@ We can fix it, we can make it better. We have the technology.
 
 <hr class="docutils" />
 
-<table class="docutils footnote" frame="void" id="id6" rules="none">
-  <colgroup><col class="label" /><col /></colgroup> <tr>
-    <td class="label">
-      <a class="fn-backref" href="#id1">[1]</a>
-    </td>
 
-    <td>
-      <span class="caps">OK</span>, I’m actually still trying to work out whether there’s really a story there, or if everything’s looking like a nail lately. Stay tuned…
-    </td>
-  </tr>
-</table>
-
-<table class="docutils footnote" frame="void" id="id7" rules="none">
-  <colgroup><col class="label" /><col /></colgroup> <tr>
-    <td class="label">
-      <a class="fn-backref" href="#id2">[2]</a>
-    </td>
-
-    <td>
-      Maybe a cross between paper and the old-school monochrome Palm Pilot displays… and yes, that’s a compliment.
-    </td>
-  </tr>
-</table>
-
-<table class="docutils footnote" frame="void" id="id8" rules="none">
-  <colgroup><col class="label" /><col /></colgroup> <tr>
-    <td class="label">
-      <a class="fn-backref" href="#id3">[3]</a>
-    </td>
-
-    <td>
-      Yes, the Sony Connect software is Windows-only right now.
-    </td>
-  </tr>
-</table>
-
-<table class="docutils footnote" frame="void" id="id9" rules="none">
-  <colgroup><col class="label" /><col /></colgroup> <tr>
-    <td class="label">
-      <a class="fn-backref" href="#id4">[4]</a>
-    </td>
-
-    <td>
-      <span class="caps">OK</span>, so maybe they think people will attain <em>massive</em> etext libraries on their computers which won’t all fit on the Reader. Fair enough, but there should <em>really</em> be a way to “sync all until I run out of space, and then make me choose” option. Don’t make me think, damn it!
-    </td>
-  </tr>
-</table>
-
-<table class="docutils footnote" frame="void" id="id10" rules="none">
-  <colgroup><col class="label" /><col /></colgroup> <tr>
-    <td class="label">
-      <a class="fn-backref" href="#id5">[5]</a>
-    </td>
-
-    <td>
-      That is, plugged into the Reader, tethered to your <span class="caps">USB</span> port, not plugged directly into your integrated card reader.
-    </td>
-  </tr>
-</table>
-
-<table class="docutils field-list" frame="void" rules="none">
-  <col class="field-name" /> <col class="field-body" /> <tr class="field">
-    <th class="field-name">
-      date:
-    </th>
-
-    <td class="field-body">
-      2006-11-11 12:26:51
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      wordpress_id:
-    </th>
-
-    <td class="field-body">
-      463
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      layout:
-    </th>
-
-    <td class="field-body">
-      post
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      slug:
-    </th>
-
-    <td class="field-body">
-      24-hours-with-the-sony-reader
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      comments:
-    </th>
-
-    <td class="field-body">
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      category:
-    </th>
-
-    <td class="field-body">
-      geek
-    </td>
-  </tr>
-</table>
 
  [1]: #id6
  [2]: http://en.wikipedia.org/wiki/Sony_Reader

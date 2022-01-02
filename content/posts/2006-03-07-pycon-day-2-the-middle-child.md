@@ -1,18 +1,9 @@
 ---
 title: 'PyCon Day 2: The Middle Child'
-author: Nathan Yergler
-type: post
-date: 2006-03-07T09:48:03+00:00
-excerpt: |
-  <p>The second day of PyCon started with Guido’s annual <strong>State of Python</strong>
-  keynote, during which he described some new developments in the Python
-  universe, and things that will be going into Python 2.5. The most
-  interesting new feature to me is the new conditional expression, which
-  will take ...</p>
-url: /2006/03/07/pycon-day-2-the-middle-child/
+date: 2006-03-07T09:48:03.000Z
 categories:
   - pycon2006
-
+slug: pycon-day-2-the-middle-child
 ---
 The second day of PyCon started with Guido’s annual **State of Python** keynote, during which he described some new developments in the Python universe, and things that will be going into Python 2.5. The most interesting new feature to me is the new conditional expression, which will take the format
 
@@ -38,66 +29,7 @@ So my talk fell during the last slot of the day. I was really proud of myself th
 
 After the conference day ended on Saturday Shawn and I went to Fry’s. I heart Fry’s. It’s massive [yes, I know that I sound like a size queen]. I bought a [Nokia 770][5] . It’s pretty.
 
-<table class="docutils field-list" frame="void" rules="none">
-  <col class="field-name" /> <col class="field-body" /> <tr class="field">
-    <th class="field-name">
-      date:
-    </th>
 
-    <td class="field-body">
-      2006-03-07 09:48:03
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      wordpress_id:
-    </th>
-
-    <td class="field-body">
-      402
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      layout:
-    </th>
-
-    <td class="field-body">
-      post
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      slug:
-    </th>
-
-    <td class="field-body">
-      pycon-day-2-the-middle-child
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      comments:
-    </th>
-
-    <td class="field-body">
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      category:
-    </th>
-
-    <td class="field-body">
-      pycon2006
-    </td>
-  </tr>
-</table>
 
  [1]: http://osafoundation.org
  [2]: http://pyicu.osafoundation.org/

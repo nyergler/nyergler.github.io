@@ -1,12 +1,9 @@
 ---
-title: 'Updated ccLicense.py Available'
-author: Nathan Yergler
-type: post
-date: 2003-10-17T12:13:01+00:00
-url: /2003/10/17/updated-cclicensepy-available/
+title: Updated ccLicense.py Available
+date: 2003-10-17T12:13:01.000Z
 categories:
   - ccRdf
-
+slug: updated-cclicensepy-available
 ---
 I’ve just posted an updated version of ccLicense.py, which I’ve dubbed 0.2. You
 can find it [here][1]. Changes are largely related to the way it extracts work

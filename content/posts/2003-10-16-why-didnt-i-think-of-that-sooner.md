@@ -1,13 +1,10 @@
 ---
-title: 'Why didn’t I think of that sooner?'
-author: Nathan Yergler
-type: post
-date: 2003-10-16T15:42:36+00:00
-url: /2003/10/16/why-didnt-i-think-of-that-sooner/
+title: Why didn’t I think of that sooner?
+date: 2003-10-16T15:42:36.000Z
 categories:
   - ccRdf
   - ccValidator
-
+slug: why-didnt-i-think-of-that-sooner
 ---
 Shortly after announcing the validator to the [cc-metadata list][1] this
 morning, I had my first bug report. In my defense, it’s not even a bug in my

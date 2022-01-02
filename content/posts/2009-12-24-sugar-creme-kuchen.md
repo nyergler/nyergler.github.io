@@ -1,14 +1,6 @@
 ---
-title: 'Sugar Crème Küchen'
-author: Nathan Yergler
-type: post
-date: 2009-12-24T17:14:08+00:00
-excerpt: |
-  <p>I think this may be the first year ever that I’m not going to be in
-  Indiana on Christmas Day. I think there were a few years that I split
-  Christmas Day between my family and G’s family, or my family and
-  traveling, but I’m usually in ...</p>
-url: /2009/12/24/sugar-creme-kuchen/
+title: Sugar Crème Küchen
+date: 2009-12-24T17:14:08.000Z
 categories:
   - my life
 tags:
@@ -17,7 +9,7 @@ tags:
   - cream kuchen
   - memories
   - nom
-
+slug: sugar-creme-kuchen
 ---
 I think this may be the first year ever that I’m not going to be in Indiana on Christmas Day. I think there were a few years that I split Christmas Day between my family and G’s family, or my family and traveling, but I’m usually in the midwest for this time of year. I went back to Indiana over Thanksgiving this year, and tomorrow I’ll celebrate Christmas with Richard, his sister, and later in the day, some friends.
 
@@ -94,75 +86,6 @@ The recipe we use today is obviously, uh, “modernized”. It starts with a Pil
       So this afternoon I baked, and hopefully it turned out; my track record with this recipe is a little spotty. It’s never really bombed, but it’s also rarely been as good as my grandma’s. Of course, she has had a few extra decades of practice, so I guess Richard and my friends are doomed to duty in my test kitchen until I get it right.
     </p>
 
-    <table class="docutils field-list" frame="void" rules="none">
-      <col class="field-name" /> <col class="field-body" /> <tr class="field">
-        <th class="field-name">
-          date:
-        </th>
 
-        <td class="field-body">
-          2009-12-24 17:14:08
-        </td>
-      </tr>
-
-      <tr class="field">
-        <th class="field-name">
-          wordpress_id:
-        </th>
-
-        <td class="field-body">
-          1220
-        </td>
-      </tr>
-
-      <tr class="field">
-        <th class="field-name">
-          layout:
-        </th>
-
-        <td class="field-body">
-          post
-        </td>
-      </tr>
-
-      <tr class="field">
-        <th class="field-name">
-          slug:
-        </th>
-
-        <td class="field-body">
-          sugar-creme-kuchen
-        </td>
-      </tr>
-
-      <tr class="field">
-        <th class="field-name">
-          comments:
-        </th>
-
-        <td class="field-body">
-        </td>
-      </tr>
-
-      <tr class="field">
-        <th class="field-name">
-          category:
-        </th>
-
-        <td class="field-body">
-          my life
-        </td>
-      </tr>
-
-      <tr class="field">
-        <th class="field-name">
-          tags:
-        </th>
-
-        <td class="field-body">
-          baking, christmas, cream kuchen, memories, nom
-        </td>
-      </tr>
-    </table>
   </div>
 </div>

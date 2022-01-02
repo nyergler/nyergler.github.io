@@ -1,12 +1,9 @@
 ---
-title: 'ccLicense.py 0.1'
-author: Nathan Yergler
-type: post
-date: 2003-10-16T10:37:40+00:00
-url: /2003/10/16/cclicensepy-01/
+title: ccLicense.py 0.1
+date: 2003-10-16T10:37:40.000Z
 categories:
   - ccRdf
-
+slug: cclicensepy-01
 ---
 As part of my effort to complete the Creative Commons web validation service, I
 inadvertently addressed another of their challenges: creating a language (in
@@ -23,10 +20,9 @@ that’s not exactly perfect yet.
 * either replace or just accept the way it handles work information (which I’m
   not currently a huge fan of)
 
-In order to use it you’ll need [RDFlib][2]  and Aaron Swartz’s [<span
-class="caps">TRAMP</span>][3]. I’ll make a distutils package once I get the
-rest of the methods fleshed out. As always, suggestions, comments and feedback
-welcome.
+In order to use it you’ll need [RDFlib][2]  and Aaron Swartz’s [TRAMP][3]. I’ll
+make a distutils package once I get the rest of the methods fleshed out. As
+always, suggestions, comments and feedback welcome.
 
  [1]: http://www.yergler.net/projects/cclicense/cclicense.01.txt
  [2]: http://www.rdflib.net

@@ -1,18 +1,8 @@
 ---
-title: 'What’s so great about Word?'
-author: Nathan Yergler
-type: post
-date: 2004-01-06T09:50:08+00:00
-excerpt: |
-  <p>Windows drives me nuts. I count myself fortunate that I only have to use
-  it at work, and even then not on my own desktop. Until September I used
-  <a class="reference external" href="http://gentoo.org">Linux</a> at home and work. Then I broke down and
-  purchased an <a class="reference external" href="http://www.apple.com/imac/">iMac</a>. And I love it. Except
-  for the fact ...</p>
-url: /2004/01/06/whats-so-great-about-word/
+title: What’s so great about Word?
+date: 2004-01-06T09:50:08.000Z
 categories:
   - geek
-
 ---
 Windows drives me nuts. I count myself fortunate that I only have to use it at work, and even then not on my own desktop. Until September I used [Linux][1]  at home and work. Then I broke down and purchased an [iMac][2] . And I love it. Except for the fact that I’ve ended up using Microsoft Word on it.
 
@@ -22,66 +12,6 @@ And this leads to my quandry: what’s so great about Word? I know that I don’
 
 By “pretty” I mean that it has enough fit and finish to appear like it belongs on Mac <span class="caps">OS</span> X. I’ve used [AbiWord][4] , [OpenOffice][5]  and [Lyx][6]  under X11 on my Mac, and while I like certain things about them all, it’s a jarring experience going back and forth between Aqua-land and Motif/<span class="caps">GTK</span>/etc-land. So I am on a quest. I want a basic, stable, Aqua word processor. I know that basic is a vague term, but for me it means “more features than TextEdit, fewer than Word.” AbiWord’s feature set definitly fills the bill; OpenOffice may be a little heavier than I’d like. It’s like porn; I’ll know it when I see it. Open Source would be nice, but just slightly less evil than Word would be acceptable. Ideas?
 
-<table class="docutils field-list" frame="void" rules="none">
-  <col class="field-name" /> <col class="field-body" /> <tr class="field">
-    <th class="field-name">
-      date:
-    </th>
-
-    <td class="field-body">
-      2004-01-06 09:50:08
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      wordpress_id:
-    </th>
-
-    <td class="field-body">
-      70
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      layout:
-    </th>
-
-    <td class="field-body">
-      post
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      slug:
-    </th>
-
-    <td class="field-body">
-      whats-so-great-about-word
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      comments:
-    </th>
-
-    <td class="field-body">
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      category:
-    </th>
-
-    <td class="field-body">
-      geek
-    </td>
-  </tr>
-</table>
 
  [1]: http://gentoo.org
  [2]: http://www.apple.com/imac/

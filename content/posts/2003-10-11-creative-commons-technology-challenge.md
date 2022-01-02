@@ -1,9 +1,8 @@
 ---
 title: Creative Commons Technology Challenge
-date: 2003-10-11T10:57:05+00:00
+date: 2003-10-11T10:57:05.000Z
 categories:
   - General
-
 ---
 The [Creative Commons][1] posted some [“technology challenges”][2] yesterday.
 Seems like a great application of the LazyWeb principle, and definitly for a

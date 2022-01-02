@@ -1,19 +1,6 @@
 ---
-title: 'This is the best we can do?'
-author: Nathan Yergler
-type: post
-date: 2008-02-09T14:19:38+00:00
-excerpt: |
-  <p>Still working on my slides for
-  <a class="reference external" href="http://www.socallinuxexpo.org/scale6x/"><span class="caps">SCALE</span></a>, decided to further
-  delay productivity by putting together a brief set of steps on how to
-  use <a class="reference external" href="http://openoffice.org">OpenOffice.org</a>
-  <a class="reference external" href="http://www.openoffice.org/product/impress.html">Impress</a> to get
-  <strong>really</strong> pissed off.</p>
-  <ol class="arabic simple">
-  <li>Start up OOo Impress and create a new presentation.</li>
-  <li>Open up the master slide view and create two ...</li></ol>
-url: /2008/02/09/this-is-the-best-we-can-do/
+title: This is the best we can do?
+date: 2008-02-09T14:19:38.000Z
 categories:
   - open source
   - Software
@@ -22,7 +9,7 @@ tags:
   - openoffice.org
   - Software
   - suck
-
+slug: this-is-the-best-we-can-do
 ---
 Still working on my slides for [<span class="caps">SCALE</span>][1] , decided to further delay productivity by putting together a brief set of steps on how to use [OpenOffice.org][2]  [Impress][3]  to get **really** pissed off.
 
@@ -57,76 +44,7 @@ Is it any surprise that you see a proliferation of Macs and Keynote at tech conf
 
 I _think_ this is the same as [Issue #43354][4] , reported in **February, 2005**. Sigh.
 
-<table class="docutils field-list" frame="void" rules="none">
-  <col class="field-name" /> <col class="field-body" /> <tr class="field">
-    <th class="field-name">
-      date:
-    </th>
 
-    <td class="field-body">
-      2008-02-09 14:19:38
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      wordpress_id:
-    </th>
-
-    <td class="field-body">
-      539
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      layout:
-    </th>
-
-    <td class="field-body">
-      post
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      slug:
-    </th>
-
-    <td class="field-body">
-      this-is-the-best-we-can-do
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      comments:
-    </th>
-
-    <td class="field-body">
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      category:
-    </th>
-
-    <td class="field-body">
-      open source, Software
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      tags:
-    </th>
-
-    <td class="field-body">
-      impress, openoffice.org, Software, suck
-    </td>
-  </tr>
-</table>
 
  [1]: http://www.socallinuxexpo.org/scale6x/
  [2]: http://openoffice.org

@@ -1,18 +1,9 @@
 ---
 title: 'Better Blogging, or, “It’s more than just a blog, Virginia”'
-author: Nathan Yergler
-type: post
-date: 2004-04-12T16:28:06+00:00
-excerpt: |
-  <p>This morning I finally found (took?) the time to record <a class="reference external" href="http://www.yergler.net/averages/archives/2004/04/12/blogging_is_hard">my
-  thoughts</a>
-  on how I blog and what’s wrong with how I blog. My general conclusion,
-  for the sake of brevity, is that current blogging tools are difficult to
-  use because they don’t fit with my typical workflow ...</p>
-url: /2004/04/12/better_blogging_or_its_more_than_just_a_blog_virginia/
+date: 2004-04-12T16:28:06.000Z
 categories:
   - geek
-
+slug: better_blogging_or_its_more_than_just_a_blog_virginia
 ---
 This morning I finally found (took?) the time to record [my thoughts][1]  on how I blog and what’s wrong with how I blog. My general conclusion, for the sake of brevity, is that current blogging tools are difficult to use because they don’t fit with my typical workflow. Blogging is, for me, a way of recording thoughts, ideas and notes and sharing those in a psuedo-collaborative way. The requirement of an additional tool (in my case the excellent [Movable Type][2]  web interface) is really a huge barrier to the actual act of writing and blogging. In short, blogging should be an extension of what I already do, and should integrate seamlessly with my current tools.
 
@@ -26,66 +17,7 @@ Sure, the online database has a “feature” which allows you to log in and cre
 
 Bookmarks? Ha! Those are so 2003.
 
-<table class="docutils field-list" frame="void" rules="none">
-  <col class="field-name" /> <col class="field-body" /> <tr class="field">
-    <th class="field-name">
-      date:
-    </th>
 
-    <td class="field-body">
-      2004-04-12 16:28:06
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      wordpress_id:
-    </th>
-
-    <td class="field-body">
-      113
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      layout:
-    </th>
-
-    <td class="field-body">
-      post
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      slug:
-    </th>
-
-    <td class="field-body">
-      better_blogging_or_its_more_than_just_a_blog_virginia
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      comments:
-    </th>
-
-    <td class="field-body">
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      category:
-    </th>
-
-    <td class="field-body">
-      geek
-    </td>
-  </tr>
-</table>
 
  [1]: http://www.yergler.net/averages/archives/2004/04/12/blogging_is_hard
  [2]: http://movabletype.org

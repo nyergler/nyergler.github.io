@@ -1,22 +1,13 @@
 ---
-title: 'flymake with Sphinx'
-author: Nathan Yergler
-type: post
-date: 2013-03-06T00:00:00+00:00
-excerpt: |
-  <p>Working on my <a class="reference external" href="https://us.pycon.org/2013/schedule/presentation/9/">PyCon tutorial</a> (next week!), I&#8217;ve been spending a
-  <em>lot</em> of time in Emacs editing <a class="reference external" href="http://docutils.sf.net">reStructured Text</a> documents. I use
-  <a class="reference external" href="http://sphinx-doc.org">Sphinx</a> and <a class="reference external" href="http://hieroglyph.io/">Hieroglyph</a> to generate the <span class="caps">HTML</span>, the slides, and the <span class="caps">PDF</span>
-  from a single source, which make it easy for me to keep everything in
-  sync ...</p>
-url: /2013/03/06/flymake_with_sphinx/
+title: flymake with Sphinx
+date: 2013-03-06T00:00:00.000Z
 categories:
   - emacs
   - python
   - sphinx
 tags:
   - none
-
+slug: flymake_with_sphinx
 ---
 Working on my [PyCon tutorial][1]  (next week!), I&#8217;ve been spending a _lot_ of time in Emacs editing [reStructured Text][2]  documents. I use [Sphinx][3]  and [Hieroglyph][4]  to generate the <span class="caps">HTML</span>, the slides, and the <span class="caps">PDF</span> from a single source, which make it easy for me to keep everything in sync. [flymake][5]  is an Emacs mode that&#8217;s designed to do syntax or spell checking as you work. The name reveals its roots: in its simplest form, it just runs <tt class="docutils literal">make</tt> for your project.
 
@@ -38,46 +29,7 @@ Now all I _wanted_ was automagic execution of <tt class="docutils literal">make<
 
 There you have it: Sphinx just works with Emacs and flymake, you just need to turn it on.
 
-<table class="docutils field-list" frame="void" rules="none">
-  <col class="field-name" /> <col class="field-body" /> <tr class="field">
-    <th class="field-name">
-      author:
-    </th>
 
-    <td class="field-body">
-      Nathan Yergler
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      category:
-    </th>
-
-    <td class="field-body">
-      python, sphinx, emacs
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      tags:
-    </th>
-
-    <td class="field-body">
-      none
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      comments:
-    </th>
-
-    <td class="field-body">
-    </td>
-  </tr>
-</table>
 
  [1]: https://us.pycon.org/2013/schedule/presentation/9/
  [2]: http://docutils.sf.net

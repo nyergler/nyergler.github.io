@@ -1,18 +1,9 @@
 ---
 title: 'Goodbye, Linux Journal'
-author: Nathan Yergler
-type: post
-date: 2006-08-04T18:57:40+00:00
-excerpt: |
-  <p>So my subscription to <a class="reference external" href="http://linuxjournal.com">Linux Journal</a> has
-  lapsed, and I’m not remotely disappointed. Which is a little sad, since
-  <span class="caps">LJ</span> used to be one of my favorite technology periodicals. For quite a
-  while <span class="caps">LJ</span> and Dr. Dobbs were the only two journals I’d pay to receive:
-  and now ...</p>
-url: /2006/08/04/goodbye-linux-journal/
+date: 2006-08-04T18:57:40.000Z
 categories:
   - geek
-
+slug: goodbye-linux-journal
 ---
 So my subscription to [Linux Journal][1]  has lapsed, and I’m not remotely disappointed. Which is a little sad, since <span class="caps">LJ</span> used to be one of my favorite technology periodicals. For quite a while <span class="caps">LJ</span> and Dr. Dobbs were the only two journals I’d pay to receive: and now there is one. So what brought about this change? The new editor, Nicholas Petreley. Well, new may not be the right word — he’s been there for over six months now. But his column, **/etc/rant**, has driven me (and [others][2] ) away.
 
@@ -27,67 +18,7 @@ Petreley also draws <span class="caps">QT</span> into his argument, accusing “
 
 So my subscription has lapsed, and I’m <span class="caps">OK</span> with that. It actually took me a bit to realize it had happened. I was in Border’s and noticed a new issue on the newstand. And I was about to reach for it and I remembered “oh yeah, I think editor’s sort of a flake…” and put it back down. So maybe I’ll check it out in the future, maybe another periodical will catch my interest. Regardless, thanks for everything Linux Journal; have a good life.
 
-<table class="docutils field-list" frame="void" rules="none">
-  <col class="field-name" /> <col class="field-body" /> <tr class="field">
-    <th class="field-name">
-      date:
-    </th>
 
-    <td class="field-body">
-      2006-08-04 18:57:40
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      wordpress_id:
-    </th>
-
-    <td class="field-body">
-      406
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      layout:
-    </th>
-
-    <td class="field-body">
-      post
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      slug:
-    </th>
-
-    <td class="field-body">
-      goodbye-linux-journal
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      comments:
-    </th>
-
-    <td class="field-body">
-      False
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      category:
-    </th>
-
-    <td class="field-body">
-      geek
-    </td>
-  </tr>
-</table>
 
  [1]: http://linuxjournal.com
  [2]: http://perkypants.org/blog/2006/03/15/requiem-for-linux-journal/

@@ -1,20 +1,8 @@
 ---
-title: 'cascading problems'
-author: Nathan Yergler
-type: post
-date: 2004-01-15T09:29:34+00:00
-excerpt: |
-  <p>After a 3 week hiatus I’ve begun working on
-  <a class="reference external" href="http://yergler.net/projects/mozcc">mozCC</a>
-  <a class="reference external" href="http://mozcc.mozdev.org/bugs.html">bugs</a> again. There’s a handful
-  outstanding, and a few of them are fairly important. <span class="caps">OK</span>, they’re all
-  important, but a few are readily visible to most users. These relate to
-  the toolbar button.</p>
-  <p>Making a toolbar button ...</p>
-url: /2004/01/15/cascading-problems/
+title: cascading problems
+date: 2004-01-15T09:29:34.000Z
 categories:
   - mozCC
-
 ---
 After a 3 week hiatus I’ve begun working on [mozCC][1]  [bugs][2]  again. There’s a handful outstanding, and a few of them are fairly important. <span class="caps">OK</span>, they’re all important, but a few are readily visible to most users. These relate to the toolbar button.
 
@@ -26,66 +14,6 @@ So how do I plan to solve these problems? In the tried and true way: by ignoring
 
 That’s where I’m at. I’m still hacking away on mozCC, and hope to make some serious progress in the next couple weeks. And if anyone knows how to make themes magically work, I’d love to hear it.
 
-<table class="docutils field-list" frame="void" rules="none">
-  <col class="field-name" /> <col class="field-body" /> <tr class="field">
-    <th class="field-name">
-      date:
-    </th>
-
-    <td class="field-body">
-      2004-01-15 09:29:34
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      wordpress_id:
-    </th>
-
-    <td class="field-body">
-      72
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      layout:
-    </th>
-
-    <td class="field-body">
-      post
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      slug:
-    </th>
-
-    <td class="field-body">
-      cascading-problems
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      comments:
-    </th>
-
-    <td class="field-body">
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      category:
-    </th>
-
-    <td class="field-body">
-      mozCC
-    </td>
-  </tr>
-</table>
 
  [1]: http://yergler.net/projects/mozcc
  [2]: http://mozcc.mozdev.org/bugs.html

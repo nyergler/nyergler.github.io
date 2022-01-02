@@ -1,13 +1,12 @@
 ---
 title: How to Make Fun of Nazis
-author: Nathan Yergler
-type: post
-date: 2017-08-18T16:28:30+00:00
-url: /2017/08/18/how-to-make-fun-of-nazis/
+date: 2017-08-18T16:28:30.000Z
 LinkFormatURL:
-  - https://mobile.nytimes.com/2017/08/17/opinion/how-to-make-fun-of-nazis.htmlhttps://mobile.nytimes.com/2017/08/17/opinion/how-to-make-fun-of-nazis.html
+  - >-
+    https://mobile.nytimes.com/2017/08/17/opinion/how-to-make-fun-of-nazis.htmlhttps://mobile.nytimes.com/2017/08/17/opinion/how-to-make-fun-of-nazis.html
 mf2_cite:
-  - 'a:4:{s:9:"published";s:25:"0000-01-01T00:00:00-07:00";s:7:"updated";s:25:"0000-01-01T00:00:00-07:00";s:8:"category";a:1:{i:0;s:0:"";}s:6:"author";a:0:{}}'
+  - >-
+    a:4:{s:9:"published";s:25:"0000-01-01T00:00:00-07:00";s:7:"updated";s:25:"0000-01-01T00:00:00-07:00";s:8:"category";a:1:{i:0;s:0:"";}s:6:"author";a:0:{}}
 categories:
   - Links
 tags:
@@ -17,7 +16,7 @@ tags:
 format: link
 kind:
   - Note
-
+slug: how-to-make-fun-of-nazis
 ---
 > <p class="p-block">
 >   In 2012, a “white power” march in Charlotte, N.C., was met with counterprotesters dressed as clowns. They held signs reading “wife power” and threw “white flour” into the air.

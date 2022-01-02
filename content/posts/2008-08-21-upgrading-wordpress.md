@@ -1,17 +1,6 @@
 ---
-title: 'Upgrading WordPress'
-author: Nathan Yergler
-type: post
-date: 2008-08-21T17:33:19+00:00
-excerpt: |
-  <p><a class="reference external" href="http://wordpress.org/development/2008/08/wordpress-261/">WordPress
-  2.6.1</a> is
-  out. Reading feeds on my flight from <span class="caps">IND</span> to <span class="caps">PHX</span> this afternoon I ran
-  across the <a class="reference external" href="http://techie-buzz.com/wordpress-plugins/wordpress-automatic-upgrade-12-release.html">WordPress Automatic Upgrade
-  Plugin</a>
-  (shouldn’t that be the <em>Automattic</em>?). Nice, but I’d like to plug my
-  approach to managing WordPress upgrades, which I think is even easier ...</p>
-url: /2008/08/21/upgrading-wordpress/
+title: Upgrading WordPress
+date: 2008-08-21T17:33:19.000Z
 categories:
   - geek
 tags:
@@ -20,7 +9,7 @@ tags:
   - upgrade
   - version control
   - wordpres
-
+slug: upgrading-wordpress
 ---
 [WordPress 2.6.1][1]  is out. Reading feeds on my flight from <span class="caps">IND</span> to <span class="caps">PHX</span> this afternoon I ran across the [WordPress Automatic Upgrade Plugin][2]  (shouldn’t that be the _Automattic_?). Nice, but I’d like to plug my approach to managing WordPress upgrades, which I think is even easier, assuming you’re <span class="caps">OK</span> with minimal command-line interaction.
 
@@ -32,76 +21,7 @@ Done.
 
 Note that you can also do something similar (but an order of magnitude more complex, at least for my brain) using [git][3]  and [git-svn][4]  if you want to version your local settings as well. Perhaps one day [Asheesh][5]  or I will get that written up.
 
-<table class="docutils field-list" frame="void" rules="none">
-  <col class="field-name" /> <col class="field-body" /> <tr class="field">
-    <th class="field-name">
-      date:
-    </th>
 
-    <td class="field-body">
-      2008-08-21 17:33:19
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      wordpress_id:
-    </th>
-
-    <td class="field-body">
-      630
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      layout:
-    </th>
-
-    <td class="field-body">
-      post
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      slug:
-    </th>
-
-    <td class="field-body">
-      upgrading-wordpress
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      comments:
-    </th>
-
-    <td class="field-body">
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      category:
-    </th>
-
-    <td class="field-body">
-      geek
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      tags:
-    </th>
-
-    <td class="field-body">
-      git, subversion, upgrade, version control, wordpres
-    </td>
-  </tr>
-</table>
 
  [1]: http://wordpress.org/development/2008/08/wordpress-261/
  [2]: http://techie-buzz.com/wordpress-plugins/wordpress-automatic-upgrade-12-release.html

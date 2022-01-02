@@ -1,9 +1,6 @@
 ---
 title: On Product Engineering
-author: Nathan Yergler
-type: post
-date: 2017-09-11T16:28:05+00:00
-url: /2017/09/11/on-product-engineering/
+date: 2017-09-11T16:28:05.000Z
 categories:
   - engineering
 tags:
@@ -14,7 +11,7 @@ tags:
   - organization
 kind:
   - Note
-
+slug: on-product-engineering
 ---
 I’ve been writing software and working in teams for well over a decade now. The places I’ve worked have been varied: schools, non-profits, consumer startups, education software, and B2B SAAS companies. And despite that diversity, in every case there was this question: **_how do engineers maximize the amount of meaningful work they do?_**
 

@@ -1,23 +1,6 @@
 ---
 title: 'Pet Shop Boys at The Warfield, San Francisco'
-author: Nathan Yergler
-type: post
-date: 2009-09-25T16:05:12+00:00
-excerpt: |
-  <p>Wednesday evening I continued my <a class="reference external" href="http://yergler.net/blog/2009/07/19/tori-amos-at-the-paramount-oakland/">ten year concert
-  reunion</a>
-  with the <a class="reference external" href="http://en.wikipedia.org/Pet_Shop_Boys">Pet Shop Boys</a>.
-  Currently performing on their Pandemonium Tour (supporting
-  <a class="reference external" href="http://en.wikipedia.org/wiki/Yes_%28Pet_Shop_Boys_album%29">Yes</a>),
-  James and I (along with several other friends) caught their second night
-  at The Warfield in downtown San Francisco.</p>
-  <div class="figure">
-  <img alt="" src="http://farm4.static.flickr.com/3448/3949243621_f53c1195b1.jpg" />
-  <p class="caption">Pet Shop Boys
-  (<a class="reference external" href="http://www.flickr.com/photos/nathan_y/3949243621/">flickr</a>)</p>
-  </div>
-  <p>Wednesday’s show exceeded my ...</p>
-url: /2009/09/25/pet-shop-boys-at-the-warfield-san-francisco/
+date: 2009-09-25T16:05:12.000Z
 categories:
   - my life
 tags:
@@ -25,7 +8,7 @@ tags:
   - music
   - pet shop boys
   - psb
-
+slug: pet-shop-boys-at-the-warfield-san-francisco
 ---
 Wednesday evening I continued my [ten year concert reunion][1]  with the [Pet Shop Boys][2] . Currently performing on their Pandemonium Tour (supporting [Yes][3] ), James and I (along with several other friends) caught their second night at The Warfield in downtown San Francisco.
 
@@ -121,100 +104,7 @@ I somehow see the change in distance as metaphorical for how I’ve moved in my 
 
 <hr class="docutils" />
 
-<table class="docutils footnote" frame="void" id="id1" rules="none">
-  <colgroup><col class="label" /><col /></colgroup> <tr>
-    <td class="label">
-      [1]
-    </td>
 
-    <td>
-      Yes, the deer hit me. I was at a dead stop. No, the insurance agent didn’t really believe me, either.
-    </td>
-  </tr>
-</table>
-
-<table class="docutils footnote" frame="void" id="id2" rules="none">
-  <colgroup><col class="label" /><col /></colgroup> <tr>
-    <td class="label">
-      [2]
-    </td>
-
-    <td>
-      Sure, I wanted some things to be different, but I was out, I had my own place, and I had my friends.
-    </td>
-  </tr>
-</table>
-
-<table class="docutils field-list" frame="void" rules="none">
-  <col class="field-name" /> <col class="field-body" /> <tr class="field">
-    <th class="field-name">
-      date:
-    </th>
-
-    <td class="field-body">
-      2009-09-25 16:05:12
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      wordpress_id:
-    </th>
-
-    <td class="field-body">
-      1120
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      layout:
-    </th>
-
-    <td class="field-body">
-      post
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      slug:
-    </th>
-
-    <td class="field-body">
-      pet-shop-boys-at-the-warfield-san-francisco
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      comments:
-    </th>
-
-    <td class="field-body">
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      category:
-    </th>
-
-    <td class="field-body">
-      my life
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      tags:
-    </th>
-
-    <td class="field-body">
-      concerts, music, pet shop boys, psb
-    </td>
-  </tr>
-</table>
 
  [1]: http://yergler.net/blog/2009/07/19/tori-amos-at-the-paramount-oakland/
  [2]: http://en.wikipedia.org/Pet_Shop_Boys

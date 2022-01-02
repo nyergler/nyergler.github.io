@@ -1,18 +1,10 @@
 ---
-title: 'Because I Need Another T-Shirt'
-author: Nathan Yergler
-type: post
-date: 2004-06-11T15:09:33+00:00
-excerpt: |
-  <p>I don’t usually like Java. In fact, I found myself dreading projects for
-  my Data Structures class last semester, which was taught in Java. Wasn’t
-  Java supposed to free us from that sort of mundane effort? Never mind.
-  And while I “just know” that Python is better, I ...</p>
-url: /2004/06/11/because-i-need-another-t-shirt/
+title: Because I Need Another T-Shirt
+date: 2004-06-11T15:09:33.000Z
 categories:
   - ccSaver
   - development
-
+slug: because-i-need-another-t-shirt
 ---
 I don’t usually like Java. In fact, I found myself dreading projects for my Data Structures class last semester, which was taught in Java. Wasn’t Java supposed to free us from that sort of mundane effort? Never mind. And while I “just know” that Python is better, I can’t help but feel I should like Java on some level. I mean, two of Python’s great strengths, in my opinion, is the large standard library and vocally supportive developer community. By that standard, I should like Java as well. But I’ve never really warmed to it.
 
@@ -26,66 +18,7 @@ So with three reasons it was fun, what’s the result? An oddly voyeuristic look
 
 Between writing the screensaver and seeing my own, standard screen saver, [Electric Sheep][11] , I’ve begun thinking about other possible “features”. What about a screensaver that “creates” derivative works from <span class="caps">CC</span> licensed images? Or distributed derivative works? Or some sort of distributed feedback mechanism for choosing the derivative algorithms? I don’t have time to devote to exploring these questions now, but in the meantime, download ccSaver and let me know what you think (Win32 and Linux only; sorry).
 
-<table class="docutils field-list" frame="void" rules="none">
-  <col class="field-name" /> <col class="field-body" /> <tr class="field">
-    <th class="field-name">
-      date:
-    </th>
 
-    <td class="field-body">
-      2004-06-11 15:09:33
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      wordpress_id:
-    </th>
-
-    <td class="field-body">
-      136
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      layout:
-    </th>
-
-    <td class="field-body">
-      post
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      slug:
-    </th>
-
-    <td class="field-body">
-      because-i-need-another-t-shirt
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      comments:
-    </th>
-
-    <td class="field-body">
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      category:
-    </th>
-
-    <td class="field-body">
-      ccSaver, development
-    </td>
-  </tr>
-</table>
 
  [1]: https://jdic.dev.java.net/
  [2]: http://www.gnu.org/licenses/licenses.html#LGPL

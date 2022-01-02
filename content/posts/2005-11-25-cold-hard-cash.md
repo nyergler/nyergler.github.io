@@ -1,18 +1,9 @@
 ---
 title: 'Cold, Hard Cash'
-author: Nathan Yergler
-type: post
-date: 2005-11-25T08:13:04+00:00
-excerpt: |
-  <p>So I saw two movies over the past two days, both “bio-pics” and both
-  quite good in their own way. It seems that
-  <a class="reference external" href="http://us.imdb.com/title/tt0350258/">Ray</a> is what biographical films
-  get compared to of late, probably due to Foxx’s Oscar win. I haven’t
-  seen Ray, so I can’t make ...</p>
-url: /2005/11/25/cold-hard-cash/
+date: 2005-11-25T08:13:04.000Z
 categories:
   - General
-
+slug: cold-hard-cash
 ---
 So I saw two movies over the past two days, both “bio-pics” and both quite good in their own way. It seems that [Ray][1]  is what biographical films get compared to of late, probably due to Foxx’s Oscar win. I haven’t seen Ray, so I can’t make that comparison. What I can say of both [Capote][2]  and [Walk The Line][3]  is that it’s been a long time since I saw acting so compelling, so convincing in a film. Capote was incredibly good — Philip Seymour Hoffman does an amazing job with Capote’s voice, ticks and mannerisms, and as such I found him completely believable. I’ve loved Hoffman since his performance opposite De Niro in [Flawless][4] , and he did not disappoint.
 
@@ -24,66 +15,7 @@ So I love Johnny Cash, so either this film had a high bar or I was pre-disposed 
 
 I had the good fortune of catching the re-air of [Johnny Cash and June Carter Cash interviews][5]  on [Fresh Air][6]  yesterday afternoon after seeing the film. I don’t much care for country music these days, but hearing his voice on the radio reminded me just how sad it was when he died in 2003. Hopefully _Walk The Line_ will expose his life and especially his music to a whole new audience who hasn’t heard it before.
 
-<table class="docutils field-list" frame="void" rules="none">
-  <col class="field-name" /> <col class="field-body" /> <tr class="field">
-    <th class="field-name">
-      date:
-    </th>
 
-    <td class="field-body">
-      2005-11-25 08:13:04
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      wordpress_id:
-    </th>
-
-    <td class="field-body">
-      353
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      layout:
-    </th>
-
-    <td class="field-body">
-      post
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      slug:
-    </th>
-
-    <td class="field-body">
-      cold-hard-cash
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      comments:
-    </th>
-
-    <td class="field-body">
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      category:
-    </th>
-
-    <td class="field-body">
-      General
-    </td>
-  </tr>
-</table>
 
  [1]: http://us.imdb.com/title/tt0350258/
  [2]: http://us.imdb.com/title/tt0379725/

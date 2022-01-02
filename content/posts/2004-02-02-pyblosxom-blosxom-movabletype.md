@@ -1,18 +1,9 @@
 ---
-title: 'PyBlosxom > Blosxom > MovableType'
-author: Nathan Yergler
-type: post
-date: 2004-02-02T09:04:36+00:00
-excerpt: |
-  <p>I’ve been working on find/developing/adapting a content management
-  solution for my employer, and along the way decided to try out
-  <a class="reference external" href="http://blosxom.com">Blosxom</a>. Blosxom is unique among blogging
-  systems (well, maybe not…) for it’s use of the filesystem as the
-  database. That is, every file with a given ...</p>
-url: /2004/02/02/pyblosxom-blosxom-movabletype/
+title: PyBlosxom > Blosxom > MovableType
+date: 2004-02-02T09:04:36.000Z
 categories:
   - geek
-
+slug: pyblosxom-blosxom-movabletype
 ---
 I’ve been working on find/developing/adapting a content management solution for my employer, and along the way decided to try out [Blosxom][1] . Blosxom is unique among blogging systems (well, maybe not…) for it’s use of the filesystem as the database. That is, every file with a given extension is an entry. This makes posting ridiculously easy, and also lends itself well to all sorts of manipulations. After playing with it for an hour, I was hooked.
 
@@ -24,66 +15,7 @@ The discovery of PyBlosxom has led to a couple of decisions. First, I’m going 
 
 So will PyBlosxom be used for my corporate project? Not as it stands. One of the requirements is that it needs to support multiple contributors. Multiple non-geek contributors. This is an area where MovableType shines: easy to use, through the web publishing. So maybe I’ll graft a web interface onto PyBlosxom. Maybe I’ll find something different to use. The bottom line, however, is that publishing yergler.net just got a little more interesting.
 
-<table class="docutils field-list" frame="void" rules="none">
-  <col class="field-name" /> <col class="field-body" /> <tr class="field">
-    <th class="field-name">
-      date:
-    </th>
 
-    <td class="field-body">
-      2004-02-02 09:04:36
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      wordpress_id:
-    </th>
-
-    <td class="field-body">
-      79
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      layout:
-    </th>
-
-    <td class="field-body">
-      post
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      slug:
-    </th>
-
-    <td class="field-body">
-      pyblosxom-blosxom-movabletype
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      comments:
-    </th>
-
-    <td class="field-body">
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      category:
-    </th>
-
-    <td class="field-body">
-      geek
-    </td>
-  </tr>
-</table>
 
  [1]: http://blosxom.com
  [2]: http://perl.org

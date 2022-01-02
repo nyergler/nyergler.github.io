@@ -1,17 +1,6 @@
 ---
 title: 'Read: “Spooner”, by Pete Dexter'
-author: Nathan Yergler
-type: post
-date: 2010-03-06T10:04:46+00:00
-excerpt: |
-  <p><em>Spooner</em>, <a class="reference external" href="http://en.wikipedia.org/wiki/Pete_Dexter">Pete Dexter’s</a>
-  latest novel, is not as consistent as <a class="reference external" href="http://yergler.net/blog/2010/02/28/read-the-paperboy-by-pete-dexter/">The
-  Paperboy</a>,
-  but that does not make it inferior. <em>Spooner</em> tells the story of a boy,
-  Spooner, and his step-father, Calmer. Spooner is not smart, is not
-  handsome, and is primarily talented at causing trouble for others.
-  Pissing in ...</p>
-url: /2010/03/06/read-spooner-by-pete-dexter/
+date: 2010-03-06T10:04:46.000Z
 categories:
   - reading
 tags:
@@ -19,7 +8,7 @@ tags:
   - fiction
   - reading
   - sfpl
-
+slug: read-spooner-by-pete-dexter
 ---
 _Spooner_, [Pete Dexter’s][1]  latest novel, is not as consistent as [The Paperboy][2] , but that does not make it inferior. _Spooner_ tells the story of a boy, Spooner, and his step-father, Calmer. Spooner is not smart, is not handsome, and is primarily talented at causing trouble for others. Pissing in the shoes of others, rolling cars down the hill, and throwing eggs at cars: these are the things Spooner is good at. Calmer, a former Navy man, is good at just about everything, and is particularly good at being patient and trying to rescue those in need of redemption. Like Spooner’s mother, Lily, who sees the world first as a personal affront to her.
 
@@ -32,76 +21,7 @@ _Spooner_ is told in the third person, but Dexter manages to convey the mental c
 
 _Spooner_ is not perfect; one section, in particular, doesn’t feel like it “fits” with the rest. As a whole it’s a great story about two characters who care a great deal for each other, an original, expansive rendering of the father-son relationship.
 
-<table class="docutils field-list" frame="void" rules="none">
-  <col class="field-name" /> <col class="field-body" /> <tr class="field">
-    <th class="field-name">
-      date:
-    </th>
 
-    <td class="field-body">
-      2010-03-06 10:04:46
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      wordpress_id:
-    </th>
-
-    <td class="field-body">
-      1525
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      layout:
-    </th>
-
-    <td class="field-body">
-      post
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      slug:
-    </th>
-
-    <td class="field-body">
-      read-spooner-by-pete-dexter
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      comments:
-    </th>
-
-    <td class="field-body">
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      category:
-    </th>
-
-    <td class="field-body">
-      reading
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      tags:
-    </th>
-
-    <td class="field-body">
-      2009, fiction, reading, sfpl
-    </td>
-  </tr>
-</table>
 
  [1]: http://en.wikipedia.org/wiki/Pete_Dexter
  [2]: http://yergler.net/blog/2010/02/28/read-the-paperboy-by-pete-dexter/

@@ -1,19 +1,11 @@
 ---
-title: 'Living With It'
-author: Nathan Yergler
-type: post
-date: 2012-05-15T21:32:00+00:00
-excerpt: |
-  <p>So now that I’ve talked about what I think of when I say “technical
-  debt”, I want to dig in on the other half of the title, “Living With
-  It”. What does it mean to <strong>live</strong> with technical debt? I want to be
-  clear: it does not mean simply ...</p>
-url: /2012/05/15/living-with-it/
+title: Living With It
+date: 2012-05-15T21:32:00.000Z
 categories:
   - engineering
   - process
   - talks
-
+slug: living-with-it
 ---
 So now that I’ve talked about what I think of when I say “technical debt”, I want to dig in on the other half of the title, “Living With It”. What does it mean to **live** with technical debt? I want to be clear: it does not mean simply accepting or ignoring it. I’m certain that’s the wrong way to build long-lived, robust software. When we encounter technical debt, or something that feels hard, I think there are a few common, understandable, and dangerous reactions. These roughly fall into the categories of “I can do better”, “One more won’t hurt”, and “I can’t go on.”
 
@@ -25,63 +17,4 @@ Finally, sometimes we look at code and think, “I can’t go on”. I find that
 
 In “Good to Great”, Jim Collins writes about characteristics that separate good companies from great ones. One of the principles he identifies is “Confront the brutal facts, but never lose faith.” In other words, it does no good to pretend that your code (company in his case) is something that it isn’t. Collins talks about meeting Admiral Stockdale, and asking him, “Who didn’t make it out?” “Oh, that’s easy — the optimists.” Stockdale explains that the optimists were routinely disappointed, and eventually lost faith. “I can’t go on.” Collins quotes Stockdale as saying, “You must never confuse faith that you will prevail in the end — which you can never afford to lose — with the discipline to confront the most brutal facts of your current reality, whatever they might be.” Technical debt may be a far cry from Stockdale’s situation, but the principle holds as the heart of truly living with technical debt: we must confront things as they are, not as we wish they were. And we must believe that we can make things better, that we know where we’re going.
 
-<table class="docutils field-list" frame="void" rules="none">
-  <col class="field-name" /> <col class="field-body" /> <tr class="field">
-    <th class="field-name">
-      date:
-    </th>
 
-    <td class="field-body">
-      2012-05-15 21:32:00
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      wordpress_id:
-    </th>
-
-    <td class="field-body">
-      2085
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      layout:
-    </th>
-
-    <td class="field-body">
-      post
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      slug:
-    </th>
-
-    <td class="field-body">
-      living-with-it
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      comments:
-    </th>
-
-    <td class="field-body">
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      category:
-    </th>
-
-    <td class="field-body">
-      engineering, process, talks
-    </td>
-  </tr>
-</table>

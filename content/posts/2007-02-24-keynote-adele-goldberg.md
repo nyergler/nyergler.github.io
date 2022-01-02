@@ -1,21 +1,11 @@
 ---
 title: 'Keynote: Adele Goldberg'
-author: Nathan Yergler
-type: post
-date: 2007-02-24T11:52:25+00:00
-excerpt: |
-  <p>The morning keynote for day 2 of PyCon was given by <a class="reference external" href="http://en.wikipedia.org/wiki/Adele_Goldberg_%28computer_scientist%29">Adele
-  Goldberg</a>.
-  Unfortunately I overslept this morning and missed the first half of the
-  talk[1]_. Goldberg’s
-  topic was eLearning, and the state of computing in education today. My
-  background working in education is very different from ...</p>
-url: /2007/02/24/keynote-adele-goldberg/
+date: 2007-02-24T11:52:25.000Z
 categories:
   - education
   - pycon2007
   - python
-
+slug: keynote-adele-goldberg
 ---
 The morning keynote for day 2 of PyCon was given by [Adele Goldberg][1] . Unfortunately I overslept this morning and missed the first half of the talk[1]_. Goldberg’s topic was eLearning, and the state of computing in education today. My background working in education is very different from the schools she was talking about: she’s apparently been working with computer-based learning in public schools, and studying the aggregate information about the results. My experience was working for a private, K-12, well-funded (regardless of what administrators ever said, the truism was that if they wanted money to be there, money would be there) school. So a lot of the statistics about teachers complaining about computers being out of date didn’t apply.
 
@@ -27,78 +17,7 @@ It was also interesting to hear that Goldberg had built a course/school system o
 
 <hr class="docutils" />
 
-<table class="docutils footnote" frame="void" id="id1" rules="none">
-  <colgroup><col class="label" /><col /></colgroup> <tr>
-    <td class="label">
-      [1]
-    </td>
 
-    <td>
-      What? I had two hours of sleep the night before, and wound up buying Age of Empires <span class="caps">III</span> for my MacBook at Fry’s and stayed up, well, later than planned.
-    </td>
-  </tr>
-</table>
-
-<table class="docutils field-list" frame="void" rules="none">
-  <col class="field-name" /> <col class="field-body" /> <tr class="field">
-    <th class="field-name">
-      date:
-    </th>
-
-    <td class="field-body">
-      2007-02-24 11:52:25
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      wordpress_id:
-    </th>
-
-    <td class="field-body">
-      489
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      layout:
-    </th>
-
-    <td class="field-body">
-      post
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      slug:
-    </th>
-
-    <td class="field-body">
-      keynote-adele-goldberg
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      comments:
-    </th>
-
-    <td class="field-body">
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      category:
-    </th>
-
-    <td class="field-body">
-      education, pycon2007, python
-    </td>
-  </tr>
-</table>
 
  [1]: http://en.wikipedia.org/wiki/Adele_Goldberg_%28computer_scientist%29
  [2]: http://ipfw.edu

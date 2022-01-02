@@ -1,11 +1,6 @@
 ---
 title: “Art is Work”
-author: Nathan Yergler
-type: post
 date: 2020-06-27T15:21:25+00:00
-url: /2020/06/27/art-is-work/
-categories:
-  - Uncategorized
 format: image
 
 ---
@@ -17,5 +12,3 @@ format: image
     caption="“Milton Glaser’s Studio”, CC BY-NC-SA, Jeffrey Zeldman"
     >}}
 
-
- [1]: https://flic.kr/p/6VQAeS

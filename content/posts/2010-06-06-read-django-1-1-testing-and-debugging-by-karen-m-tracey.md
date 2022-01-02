@@ -1,16 +1,6 @@
 ---
 title: 'Read: “Django 1.1 Testing and Debugging”, by Karen M. Tracey'
-author: Nathan Yergler
-type: post
-date: 2010-06-06T17:42:47+00:00
-excerpt: |
-  <p>Packt Publishing
-  <a class="reference external" href="http://yergler.net/blog/2010/05/16/preread-django-1-1-testing-and-debugging-by-karen-m-tracey/">sent</a>
-  me a copy of <em>`Django 1.1 Testing and
-  Debugging &lt;http://www.packtpub.com/django-1-1-testing-and-debugging/book?utm_source=yergler.net&amp;utm_medium=bookrev&amp;utm_content=blog&amp;utm_campaign=mdb_003267&gt;`_</em>
-  for review. I was particularly interested in reading this title, as
-  testing is something I know makes my code better, but ...</p>
-url: /2010/06/06/read-django-1-1-testing-and-debugging-by-karen-m-tracey/
+date: 2010-06-06T17:42:47.000Z
 categories:
   - reading
 tags:
@@ -18,7 +8,7 @@ tags:
   - nonfiction
   - read
   - review
-
+slug: read-django-1-1-testing-and-debugging-by-karen-m-tracey
 ---
 Packt Publishing [sent][1]  me a copy of _\`Django 1.1 Testing and Debugging <http://www.packtpub.com/django-1-1-testing-and-debugging/book?utm\_source=yergler.net&utm\_medium=bookrev&utm\_content=blog&utm\_campaign=mdb\_003267>\`\__ for review. I was particularly interested in reading this title, as testing is something I know makes my code better, but don’t feel like I do enough of, and because I work on a couple of [Django][2] -based projects in my spare time, with varying degrees of test coverage. While I consider myself comfortable with Python’s stock <tt class="docutils literal">`unittest</tt> <<http://docs.python.org/library/unittest.html> >\`_ and <tt class="docutils literal">`doctest</tt> <<http://docs.python.org/library/doctest.html> >\`_ modules, I was curious to learn about how you can integrate Django with other Python testing tools.
 
@@ -34,76 +24,7 @@ Chapter 9 was my favorite part of the book. It gives a good overview of using [p
 
 Overall _\`Django 1.1 Testing and Debugging <http://www.packtpub.com/django-1-1-testing-and-debugging/book?utm\_source=yergler.net&utm\_medium=bookrev&utm\_content=blog&utm\_campaign=mdb\_003267>\`\__ seems like a good introductory book for Django developers who are new to testing (or Django). While many of the debugging examples seemed obvious to me, I suspect that someone new to Django could use this book as an introduction to development and debugging.
 
-<table class="docutils field-list" frame="void" rules="none">
-  <col class="field-name" /> <col class="field-body" /> <tr class="field">
-    <th class="field-name">
-      date:
-    </th>
 
-    <td class="field-body">
-      2010-06-06 17:42:47
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      wordpress_id:
-    </th>
-
-    <td class="field-body">
-      1715
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      layout:
-    </th>
-
-    <td class="field-body">
-      post
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      slug:
-    </th>
-
-    <td class="field-body">
-      read-django-1-1-testing-and-debugging%e2%80%9d-by-karen-m-tracey
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      comments:
-    </th>
-
-    <td class="field-body">
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      category:
-    </th>
-
-    <td class="field-body">
-      reading
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      tags:
-    </th>
-
-    <td class="field-body">
-      2010, nonfiction, read, review
-    </td>
-  </tr>
-</table>
 
  [1]: http://yergler.net/blog/2010/05/16/preread-django-1-1-testing-and-debugging-by-karen-m-tracey/
  [2]: http://djangoproject.com

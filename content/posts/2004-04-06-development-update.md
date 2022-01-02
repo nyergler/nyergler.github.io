@@ -1,19 +1,9 @@
 ---
-title: 'Development Update'
-author: Nathan Yergler
-type: post
-date: 2004-04-06T10:19:29+00:00
-excerpt: |
-  <p>As I mentioned
-  <a class="reference external" href="http://www.yergler.net/averages/archives/2004/03/30/ccvalidator_refactoring">before</a>,
-  I’ve been hacking on an update of ccValidator. Well, more than an
-  update: a complete refactoring, really. The small item that prompted
-  this was the ability to validate pages whose <span class="caps">RDF</span> is specified in a
-  <tt class="docutils literal">&amp;lt;link&amp;gt;</tt> tag instead of an <span class="caps">HTML</span> comment. I ...</p>
-url: /2004/04/06/development-update/
+title: Development Update
+date: 2004-04-06T10:19:29.000Z
 categories:
   - ccValidator
-
+slug: development-update
 ---
 As I mentioned [before][1] , I’ve been hacking on an update of ccValidator. Well, more than an update: a complete refactoring, really. The small item that prompted this was the ability to validate pages whose <span class="caps">RDF</span> is specified in a <tt class="docutils literal"><link></tt> tag instead of an <span class="caps">HTML</span> comment. I haven’t even addressed that yet :). But I will; real soon now.
 
@@ -21,66 +11,7 @@ So what’s changed? A lot. First, I’m now using the [Quixote][2]  framework. 
 
 The plan is to have a test instance up by the end of the week, and a long period of coexistance with the existing stable instance. Eventually, though, the new validator will replace the existing one. I haven’t cut a release yet, but the code is available in [<span class="caps">CVS</span>][4]  (the module is now ccvalidator2).
 
-<table class="docutils field-list" frame="void" rules="none">
-  <col class="field-name" /> <col class="field-body" /> <tr class="field">
-    <th class="field-name">
-      date:
-    </th>
 
-    <td class="field-body">
-      2004-04-06 10:19:29
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      wordpress_id:
-    </th>
-
-    <td class="field-body">
-      110
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      layout:
-    </th>
-
-    <td class="field-body">
-      post
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      slug:
-    </th>
-
-    <td class="field-body">
-      development-update
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      comments:
-    </th>
-
-    <td class="field-body">
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      category:
-    </th>
-
-    <td class="field-body">
-      ccValidator
-    </td>
-  </tr>
-</table>
 
  [1]: http://www.yergler.net/averages/archives/2004/03/30/ccvalidator_refactoring
  [2]: http://mems-exchange.org/software/quixote

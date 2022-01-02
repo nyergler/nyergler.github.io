@@ -1,20 +1,9 @@
 ---
-title: 'mozCC 1.1.3 for Firefox 1.5 Beta 2'
-author: Nathan Yergler
-type: post
-date: 2005-10-09T13:53:52+00:00
-excerpt: |
-  <p>Maybe it’s just the hacking environment here at the Summit, but I’ve
-  been hella productive today. In regards to my <a class="reference external" href="http://yergler.net/blog/archives/2005/10/09/mozcc-with-firefox-15-beta-2">last
-  post</a>,
-  there’s an update for <a class="reference external" href="http://yergler.net/projects/mozcc">MozCC</a>
-  available. A couple of details:</p>
-  <ul class="simple">
-  <li>The new release, 1.1.3, adds compatibility for Firefox 1.5 Beta 2 and ...</li></ul>
-url: /2005/10/09/mozcc-113-for-firefox-15-beta-2/
+title: mozCC 1.1.3 for Firefox 1.5 Beta 2
+date: 2005-10-09T13:53:52.000Z
 categories:
   - mozCC
-
+slug: mozcc-113-for-firefox-15-beta-2
 ---
 Maybe it’s just the hacking environment here at the Summit, but I’ve been hella productive today. In regards to my [last post][1] , there’s an update for [MozCC][2]  available. A couple of details:
 
@@ -35,66 +24,7 @@ Maybe it’s just the hacking environment here at the Summit, but I’ve been he
 
 If you want to download the new release directly, you can find it [here][3] .
 
-<table class="docutils field-list" frame="void" rules="none">
-  <col class="field-name" /> <col class="field-body" /> <tr class="field">
-    <th class="field-name">
-      date:
-    </th>
 
-    <td class="field-body">
-      2005-10-09 13:53:52
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      wordpress_id:
-    </th>
-
-    <td class="field-body">
-      343
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      layout:
-    </th>
-
-    <td class="field-body">
-      post
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      slug:
-    </th>
-
-    <td class="field-body">
-      mozcc-113-for-firefox-15-beta-2
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      comments:
-    </th>
-
-    <td class="field-body">
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      category:
-    </th>
-
-    <td class="field-body">
-      mozCC
-    </td>
-  </tr>
-</table>
 
  [1]: http://yergler.net/blog/archives/2005/10/09/mozcc-with-firefox-15-beta-2
  [2]: http://yergler.net/projects/mozcc

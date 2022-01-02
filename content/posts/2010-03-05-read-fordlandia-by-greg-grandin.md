@@ -1,15 +1,6 @@
 ---
 title: 'Read: “Fordlandia”, by Greg Grandin'
-author: Nathan Yergler
-type: post
-date: 2010-03-05T15:15:41+00:00
-excerpt: |
-  <p><em>Fordlandia</em> chronicles the rise and fall of <a class="reference external" href="http://en.wikipedia.org/wiki/Fordl%C3%A2ndia">eponymous rubber
-  plantation</a> established
-  by Henry Ford in Brazil in 1927. I don’t think it’s giving too much away
-  to say that it would be more accurate to say, “attempted to establish”.
-  The book is a chronicle of the money spent ...</p>
-url: /2010/03/05/read-fordlandia-by-greg-grandin/
+date: 2010-03-05T15:15:41.000Z
 categories:
   - reading
 tags:
@@ -17,7 +8,7 @@ tags:
   - nonfiction
   - reading
   - sfpl
-
+slug: read-fordlandia-by-greg-grandin
 ---
 _Fordlandia_ chronicles the rise and fall of [eponymous rubber plantation][1]  established by Henry Ford in Brazil in 1927. I don’t think it’s giving too much away to say that it would be more accurate to say, “attempted to establish”. The book is a chronicle of the money spent, initiatives undertaken, and schemes hatched, all in an effort to wring profit from the Amazon and, at least in some cases, bring better living conditions to its inhabitants<sup>†</sup>.
 
@@ -33,76 +24,7 @@ Grandin concludes with an epilogue, “Still Waiting for Henry Ford.” In it he
 
 <sup>†</sup> While Grandin wisely does not attempt sweeping moral interpretation, it does seem that Ford truly believed he was helping the residents of the Brazilian Amazon. Unfortunately a complete disinterest in understanding their social and economic structure led to sub-optimal results.
 
-<table class="docutils field-list" frame="void" rules="none">
-  <col class="field-name" /> <col class="field-body" /> <tr class="field">
-    <th class="field-name">
-      date:
-    </th>
 
-    <td class="field-body">
-      2010-03-05 15:15:41
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      wordpress_id:
-    </th>
-
-    <td class="field-body">
-      1519
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      layout:
-    </th>
-
-    <td class="field-body">
-      post
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      slug:
-    </th>
-
-    <td class="field-body">
-      read-fordlandia-by-greg-grandin
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      comments:
-    </th>
-
-    <td class="field-body">
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      category:
-    </th>
-
-    <td class="field-body">
-      reading
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      tags:
-    </th>
-
-    <td class="field-body">
-      2009, nonfiction, reading, sfpl
-    </td>
-  </tr>
-</table>
 
  [1]: http://en.wikipedia.org/wiki/Fordl%C3%A2ndia
  [2]: http://en.wikipedia.org/wiki/Fordism

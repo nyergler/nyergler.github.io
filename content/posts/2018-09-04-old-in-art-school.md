@@ -1,14 +1,11 @@
 ---
 title: Old in Art School
-author: Nathan Yergler
-type: post
-date: 2018-09-05T03:43:39+00:00
-url: /2018/09/04/old-in-art-school/
+date: 2018-09-05T03:43:39.000Z
 categories:
   - reading
 kind:
   - Read
-
+slug: old-in-art-school
 ---
 <section class="response p-read-of h-cite"> <header>  <span class="p-name"></span> _( <span class="p-publication"></span>)_</header>
 

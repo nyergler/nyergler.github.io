@@ -1,16 +1,6 @@
 ---
-title: 'Communication and Trust'
-author: Nathan Yergler
-type: post
-date: 2009-10-06T15:16:17+00:00
-excerpt: |
-  <p>This afternoon I left work early to visit my
-  <a class="reference external" href="http://en.wikipedia.org/wiki/CitiApartments">landlord</a> and try to
-  iron out an issue that I’ve been dealing with for over two weeks. The
-  issue, ironically, is that I want to give them money. Some would even
-  call it rent.</p>
-  <p>The issue boils down to this ...</p>
-url: /2009/10/06/communication-and-trust/
+title: Communication and Trust
+date: 2009-10-06T15:16:17.000Z
 categories:
   - my life
 tags:
@@ -18,7 +8,7 @@ tags:
   - citiapartments
   - landlord
   - rental
-
+slug: communication-and-trust
 ---
 This afternoon I left work early to visit my [landlord][1]  and try to iron out an issue that I’ve been dealing with for over two weeks. The issue, ironically, is that I want to give them money. Some would even call it rent.
 
@@ -32,76 +22,7 @@ This incident, though, is the first time that my _direct experience_ has been un
 
 Sorry, Citi; I won’t be too sad when you finally implode.
 
-<table class="docutils field-list" frame="void" rules="none">
-  <col class="field-name" /> <col class="field-body" /> <tr class="field">
-    <th class="field-name">
-      date:
-    </th>
 
-    <td class="field-body">
-      2009-10-06 15:16:17
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      wordpress_id:
-    </th>
-
-    <td class="field-body">
-      1174
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      layout:
-    </th>
-
-    <td class="field-body">
-      post
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      slug:
-    </th>
-
-    <td class="field-body">
-      communication-and-trust
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      comments:
-    </th>
-
-    <td class="field-body">
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      category:
-    </th>
-
-    <td class="field-body">
-      my life
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      tags:
-    </th>
-
-    <td class="field-body">
-      400 duboce, citiapartments, landlord, rental
-    </td>
-  </tr>
-</table>
 
  [1]: http://en.wikipedia.org/wiki/CitiApartments
  [2]: http://74.125.155.132/search?q=cache:92tEqP1s11cJ:www.aprinvestmentgroup.com/400-Duboce-Avenue+400+duboce&cd=7&hl=en&ct=clnk&gl=us

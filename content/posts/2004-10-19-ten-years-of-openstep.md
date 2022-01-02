@@ -1,21 +1,9 @@
 ---
-title: 'Ten Years of OpenStep'
-author: Nathan Yergler
-type: post
-date: 2004-10-19T11:04:45+00:00
-excerpt: |
-  <p><a class="reference external" href="http://slashdot.org">Slashdot</a>
-  <a class="reference external" href="http://developers.slashdot.org/developers/04/10/19/130243.shtml?tid=117&amp;tid=156&amp;tid=8">reports</a>
-  that today is the 10th anniversary of OpenStep, the <span class="caps">NEXT</span>/Sun <span class="caps">API</span> that
-  now forms the basis of Apple’s Cocoa and
-  <a class="reference external" href="http://gnustep.org">GnuStep</a>. Over the past couple of weeks I’ve
-  poked around at Cocoa,
-  <a class="reference external" href="http://developer.apple.com/tools/xcode/">XCode</a> and Objective C, even
-  breaking down and buying Aaron Hillegass’s book ...</p>
-url: /2004/10/19/ten-years-of-openstep/
+title: Ten Years of OpenStep
+date: 2004-10-19T11:04:45.000Z
 categories:
   - geek
-
+slug: ten-years-of-openstep
 ---
 [Slashdot][1]  [reports][2]  that today is the 10th anniversary of OpenStep, the <span class="caps">NEXT</span>/Sun <span class="caps">API</span> that now forms the basis of Apple’s Cocoa and [GnuStep][3] . Over the past couple of weeks I’ve poked around at Cocoa, [XCode][4]  and Objective C, even breaking down and buying Aaron Hillegass’s book [Cocoa Programming for Mac <span class="caps">OS</span> X][5] . I’m actually quite impressed with Objective C and Apple’s developer tools. While [Interface Builder][6]  was a bit of a mystery to me initially (“outlets? actions? what the fuck?”), reading the [Cocoa tutorials][7]  on Apple’s developer site cleared up some of the confusion. But I’m not sold (what follows is my own opinion, and as such should be taken with a large crystaline solid composed of sodium chloride molecules).
 
@@ -29,66 +17,7 @@ Today GNUStep is the best hope for reviving this portable vision. Their <span cl
 
 Increasing the number of cross-platform development tools, toolkits and languages is in everyone’s best interest. [Eclipse][13]  has demonstrated the usefulness of cross-platform Java development tools and native-look widget toolkits. [wxPython][14]  continues to lead the way on the Python platform. Increased competition not only gives developers more choices, it exposes different ways of thinking about problems and the solutions. And ultimately, the freedom to choose the correct solution platform for the problem is the developer’s “Freedom Zero.”
 
-<table class="docutils field-list" frame="void" rules="none">
-  <col class="field-name" /> <col class="field-body" /> <tr class="field">
-    <th class="field-name">
-      date:
-    </th>
 
-    <td class="field-body">
-      2004-10-19 11:04:45
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      wordpress_id:
-    </th>
-
-    <td class="field-body">
-      219
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      layout:
-    </th>
-
-    <td class="field-body">
-      post
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      slug:
-    </th>
-
-    <td class="field-body">
-      ten-years-of-openstep
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      comments:
-    </th>
-
-    <td class="field-body">
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      category:
-    </th>
-
-    <td class="field-body">
-      geek
-    </td>
-  </tr>
-</table>
 
  [1]: http://slashdot.org
  [2]: http://developers.slashdot.org/developers/04/10/19/130243.shtml?tid=117&tid=156&tid=8

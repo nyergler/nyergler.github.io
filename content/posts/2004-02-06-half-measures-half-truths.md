@@ -1,17 +1,9 @@
 ---
-title: 'Half-Measures <span class="amp">&</span> Half-Truths'
-author: Nathan Yergler
-type: post
-date: 2004-02-06T13:56:39+00:00
-excerpt: |
-  <p>My birthday falls about 45 days before New Year’s Eve, and as such I
-  tend to spend the last month-point-five thinking about resolutions.
-  Birthdays for me have always been a time to consider where my life is
-  at, where I want it to go, and how to get there ...</p>
-url: /2004/02/06/half-measures-half-truths/
+title: Half-Measures <span class="amp">&</span> Half-Truths
+date: 2004-02-06T13:56:39.000Z
 categories:
   - my life
-
+slug: half-measures-half-truths
 ---
 My birthday falls about 45 days before New Year’s Eve, and as such I tend to spend the last month-point-five thinking about resolutions. Birthdays for me have always been a time to consider where my life is at, where I want it to go, and how to get there. New Year’s Eve seems to have the same effect on people, so it’s only natural that I tend to lump them together. Mix in my love of lists (nothing better than marking through the last item), and you’ll understand why I put so much effort into resolutions. My track record isn’t perfect, but it’s good enough to keep me in practice each year. This year I’ve put a little more time and effort into thinking about things. In fact, I’m just now deciding on a plan for 2004, 37 days into it. Part of developing resolutions is considering where I’ve been in the last year, and 2003 had a lot to consider.
 
@@ -33,63 +25,4 @@ In 2004, I don’t want to tell others or myself half-truths in order to make pe
 
 No more half-measures; no more half-truths.
 
-<table class="docutils field-list" frame="void" rules="none">
-  <col class="field-name" /> <col class="field-body" /> <tr class="field">
-    <th class="field-name">
-      date:
-    </th>
 
-    <td class="field-body">
-      2004-02-06 13:56:39
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      wordpress_id:
-    </th>
-
-    <td class="field-body">
-      82
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      layout:
-    </th>
-
-    <td class="field-body">
-      post
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      slug:
-    </th>
-
-    <td class="field-body">
-      half-measures-half-truths
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      comments:
-    </th>
-
-    <td class="field-body">
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      category:
-    </th>
-
-    <td class="field-body">
-      my life
-    </td>
-  </tr>
-</table>

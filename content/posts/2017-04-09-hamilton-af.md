@@ -1,16 +1,13 @@
 ---
 title: Hamilton AF.
-author: Nathan Yergler
-type: post
-date: 2017-04-10T04:08:42+00:00
-url: /2017/04/09/hamilton-af/
+date: 2017-04-10T04:08:42.000Z
 categories:
   - Uncategorized
 tags:
   - IFTTT
   - Instagram
 format: image
-
+slug: hamilton-af
 ---
 <div>
   <p>

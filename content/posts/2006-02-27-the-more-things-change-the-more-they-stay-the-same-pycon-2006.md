@@ -1,18 +1,9 @@
 ---
 title: 'The More Things Change, the More They Stay The Same (PyCon 2006)'
-author: Nathan Yergler
-type: post
-date: 2006-02-27T09:41:55+00:00
-excerpt: |
-  <p>I arrived in [<span class="caps">STRIKEOUT</span>:Dallas]Addison, <span class="caps">TX</span> Thursday night for <a class="reference external" href="http://us.pycon.org/TX2006/HomePage">PyCon
-  2006</a>. As I’ve mentioned before,
-  this is the first year PyCon moves from Washington, <span class="caps">DC</span>, and by and large
-  its a good change. Addison is a lovely town, if you’re into strip malls
-  and big hair. I ...</p>
-url: /2006/02/27/the-more-things-change-the-more-they-stay-the-same-pycon-2006/
+date: 2006-02-27T09:41:55.000Z
 categories:
   - pycon2006
-
+slug: the-more-things-change-the-more-they-stay-the-same-pycon-2006
 ---
 I arrived in [<span class="caps">STRIKEOUT</span>:Dallas]Addison, <span class="caps">TX</span> Thursday night for [PyCon 2006][1] . As I’ve mentioned before, this is the first year PyCon moves from Washington, <span class="caps">DC</span>, and by and large its a good change. Addison is a lovely town, if you’re into strip malls and big hair. I kid, but not much. Having the conference at a hotel does have the advantage that you can easily drop things back at your room, and we have lots more space for tracks. And the food isn’t bad, either. <span class="caps">OK</span>, the wireless still sucks, and it’s not free in the rooms, but that’s no different than before. I had intended to blog the event as it happened, but you know what they say about the best laid plans. So here are my thoughts on PyCon 2006 as a whole; a series of shorter posts will follow as I work through my notes on particular talks.
 
@@ -22,66 +13,7 @@ I was also generally impressed with the quality of talks this year. In past year
 
 So today begin the sprints. I’m working on the Zope3 sprint again, after skipping it last year (why was that again?) so I’m looking forward to getting back into that mode. More on PyCon to come over the next few days.
 
-<table class="docutils field-list" frame="void" rules="none">
-  <col class="field-name" /> <col class="field-body" /> <tr class="field">
-    <th class="field-name">
-      date:
-    </th>
 
-    <td class="field-body">
-      2006-02-27 09:41:55
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      wordpress_id:
-    </th>
-
-    <td class="field-body">
-      396
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      layout:
-    </th>
-
-    <td class="field-body">
-      post
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      slug:
-    </th>
-
-    <td class="field-body">
-      the-more-things-change-the-more-they-stay-the-same-pycon-2006
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      comments:
-    </th>
-
-    <td class="field-body">
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      category:
-    </th>
-
-    <td class="field-body">
-      pycon2006
-    </td>
-  </tr>
-</table>
 
  [1]: http://us.pycon.org/TX2006/HomePage
  [2]: http://yergler.net/blog/2006/01/02/to-san-francisco-by-way-of-dallas-and-lovely-amarillo/

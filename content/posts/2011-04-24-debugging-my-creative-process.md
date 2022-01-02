@@ -1,15 +1,6 @@
 ---
-title: 'Debugging my Creative Process'
-author: Nathan Yergler
-type: post
-date: 2011-04-24T10:22:00+00:00
-excerpt: |
-  <p>I’ve been taking print making classes this year, and have really enjoyed
-  exploring something new. What’s been particularly interesting for me is
-  seeing parallels between what I think of as a creative hobby – print
-  making – and what I think of as creative work – writing software.</p>
-  <p>I showed my ...</p>
-url: /2011/04/24/debugging-my-creative-process/
+title: Debugging my Creative Process
+date: 2011-04-24T10:22:00.000Z
 categories:
   - printing
   - process
@@ -17,7 +8,7 @@ tags:
   - iteration
   - linocut
   - meta
-
+slug: debugging-my-creative-process
 ---
 I’ve been taking print making classes this year, and have really enjoyed exploring something new. What’s been particularly interesting for me is seeing parallels between what I think of as a creative hobby – print making – and what I think of as creative work – writing software.
 
@@ -39,75 +30,6 @@ I had my first linocut class Wednesday evening. Linocut involves carving a linol
 
 Yes, it’s the same cat that I’ve been working with for the past couple months. But that doesn’t mean I’m not expanding my skill set, trying different techniques, and iterating. I have plenty of time to try new images out, and if I spend the time now, debugging my technique and learning how to iterate (just like I do with software), I think my ability to tackle more complex and involved work will grow, just like it has with software.
 
-<table class="docutils field-list" frame="void" rules="none">
-  <col class="field-name" /> <col class="field-body" /> <tr class="field">
-    <th class="field-name">
-      date:
-    </th>
 
-    <td class="field-body">
-      2011-04-24 10:22:00
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      wordpress_id:
-    </th>
-
-    <td class="field-body">
-      1985
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      layout:
-    </th>
-
-    <td class="field-body">
-      post
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      slug:
-    </th>
-
-    <td class="field-body">
-      debugging-my-creative-process
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      comments:
-    </th>
-
-    <td class="field-body">
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      category:
-    </th>
-
-    <td class="field-body">
-      printing, process
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      tags:
-    </th>
-
-    <td class="field-body">
-      iteration, linocut, meta
-    </td>
-  </tr>
-</table>
 
  [1]: http://www.flickr.com/photos/nathan_y/sets/72157626087471661/

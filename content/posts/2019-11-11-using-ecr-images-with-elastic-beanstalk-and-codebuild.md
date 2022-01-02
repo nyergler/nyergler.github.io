@@ -1,13 +1,12 @@
 ---
 title: Using ECR images with Elastic Beanstalk and CodeBuild
-date: 2019-11-11T17:11:11+00:00
+date: 2019-11-11T17:11:11.000Z
 categories:
   - startup
 tags:
   - aws
   - CI
   - startup
-
 ---
 As I mentioned [previously][1], I&#8217;ve been using CodePipeline and CodeBuild for continuous integration and delivery on a new project. For the most part I&#8217;ve been happy with it, but ran into an issue last week that took some experimenting to figure out.
 

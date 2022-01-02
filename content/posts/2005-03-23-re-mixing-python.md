@@ -1,18 +1,9 @@
 ---
-title: '(re) Mixing Python'
-author: Nathan Yergler
-type: post
-date: 2005-03-23T11:48:51+00:00
-excerpt: |
-  <p>This morning’s keynote at PyCon was given by Jim Huginin, formerly of
-  Jython fame, now of IronPython fame. Jim joined Microsoft [<span class="caps">STRIKEOUT</span>:8]
-  2 months ago, and was able to announce the release of IronPython 0.7
-  (<a class="reference external" href="http://workspaces.gotdotnet.com/ironpython">website</a>) today. Jim’s
-  talk was interesting for a number of reasons ...</p>
-url: /2005/03/23/re-mixing-python/
+title: (re) Mixing Python
+date: 2005-03-23T11:48:51.000Z
 categories:
   - pycon2005
-
+slug: re-mixing-python
 ---
 This morning’s keynote at PyCon was given by Jim Huginin, formerly of Jython fame, now of IronPython fame. Jim joined Microsoft [<span class="caps">STRIKEOUT</span>:8] 2 months ago, and was able to announce the release of IronPython 0.7 ([website][1] ) today. Jim’s talk was interesting for a number of reasons, in no particular order:
 
@@ -30,66 +21,6 @@ This morning’s keynote at PyCon was given by Jim Huginin, formerly of Jython f
 
 The only other impression I got from his talk is that Jim has had some less-than-savory run-ins with the Microsoft Legal Department, one of which led to his talk title “Implementation Running On .Net of Python” instead of just “IronPython”. Whatever.
 
-<table class="docutils field-list" frame="void" rules="none">
-  <col class="field-name" /> <col class="field-body" /> <tr class="field">
-    <th class="field-name">
-      date:
-    </th>
 
-    <td class="field-body">
-      2005-03-23 11:48:51
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      wordpress_id:
-    </th>
-
-    <td class="field-body">
-      272
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      layout:
-    </th>
-
-    <td class="field-body">
-      post
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      slug:
-    </th>
-
-    <td class="field-body">
-      re-mixing-python
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      comments:
-    </th>
-
-    <td class="field-body">
-      False
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      category:
-    </th>
-
-    <td class="field-body">
-      pycon2005
-    </td>
-  </tr>
-</table>
 
  [1]: http://workspaces.gotdotnet.com/ironpython

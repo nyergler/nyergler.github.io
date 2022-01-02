@@ -1,22 +1,9 @@
 ---
-title: 'Google induced Myopia'
-author: Nathan Yergler
-type: post
-date: 2004-05-22T09:34:46+00:00
-excerpt: |
-  <p>I’ve been
-  <a class="reference external" href="http://yergler.net/blog/archives/2004/04/29/license-tagging">working</a>
-  on an application which provides a graphical interface for embedding
-  <a class="reference external" href="http://creativecommons.org">Creative Commons</a> licenses in audio
-  files, specifically <span class="caps">MP3</span> right now. The previous iteration, a
-  command-line application, used the
-  <a class="reference external" href="http://freshmeat.net/projects/eyed3/">eyeD3</a> library for handling the
-  <span class="caps">ID3</span> metadata embedded in the files. Unfortunately, we wanted to add the
-  ability ...</p>
-url: /2004/05/22/google-induced-myopia/
+title: Google induced Myopia
+date: 2004-05-22T09:34:46.000Z
 categories:
   - development
-
+slug: google-induced-myopia
 ---
 I’ve been [working][1]  on an application which provides a graphical interface for embedding [Creative Commons][2]  licenses in audio files, specifically <span class="caps">MP3</span> right now. The previous iteration, a command-line application, used the [eyeD3][3]  library for handling the <span class="caps">ID3</span> metadata embedded in the files. Unfortunately, we wanted to add the ability to handle ID3v2.2 in addition to 2.3 and 2.4 to the application, and eyeD3 doesn’t support ID3v2.2.
 
@@ -26,66 +13,7 @@ Distutils, for all of it’s warts and flaws, does a passable job at packaging P
 
 Google had suggested PyId3, but the “original” version doesn’t support ID3v2.3 or 2.4. The whole incident has reminded me of one thing: the best tool overall is not always the best for a specific need. And while Google will remain one of my oft-used tools for Internet searching, I’ll remember PyPI now when I’m looking for a specific type of Python module.
 
-<table class="docutils field-list" frame="void" rules="none">
-  <col class="field-name" /> <col class="field-body" /> <tr class="field">
-    <th class="field-name">
-      date:
-    </th>
 
-    <td class="field-body">
-      2004-05-22 09:34:46
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      wordpress_id:
-    </th>
-
-    <td class="field-body">
-      133
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      layout:
-    </th>
-
-    <td class="field-body">
-      post
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      slug:
-    </th>
-
-    <td class="field-body">
-      google-induced-myopia
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      comments:
-    </th>
-
-    <td class="field-body">
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      category:
-    </th>
-
-    <td class="field-body">
-      development
-    </td>
-  </tr>
-</table>
 
  [1]: http://yergler.net/blog/archives/2004/04/29/license-tagging
  [2]: http://creativecommons.org

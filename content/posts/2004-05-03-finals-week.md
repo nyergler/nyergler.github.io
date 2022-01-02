@@ -1,18 +1,9 @@
 ---
-title: 'Finals Week'
-author: Nathan Yergler
-type: post
-date: 2004-05-03T10:52:44+00:00
-excerpt: |
-  <p>So I’ve made it through to finals week, once again taking 9 hours of
-  classes on top of working full time. I think I
-  <a class="reference external" href="http://www.yergler.net/averages/archives/2003/12/17/im_glad_thats_over">said</a>
-  I’d never do that again, but it really wasn’t so bad this semester. I
-  e-mailed in my take home final in Computer ...</p>
-url: /2004/05/03/finals-week/
+title: Finals Week
+date: 2004-05-03T10:52:44.000Z
 categories:
   - my life
-
+slug: finals-week
 ---
 So I’ve made it through to finals week, once again taking 9 hours of classes on top of working full time. I think I [said][1]  I’d never do that again, but it really wasn’t so bad this semester. I e-mailed in my take home final in Computer Organization and Architecture last night, and I take my Politics of the European Union final on Wednesday evening, so I have plenty of opportunity to prepare.
 
@@ -20,66 +11,7 @@ My third class, Visual Communication, has been one of the most enjoyable I’ve 
 
 So what started out as a requirement filler has turned into something I’ve really enjoyed and want to continue working with. I’ve gone from an [unfulfilled desire][5]  to capture images to learning to look through the camera and see what I’ll get. And I’ve gone from complete ignorance to an addiction to [photo.net][6]  and talk of F-stops and aperture. This is what an education should do: it should inspire us to think about things differently and notice what’s going on in our lives. Needless to say, I’m glad I took this class. Now where am I gonna put my darkroom?
 
-<table class="docutils field-list" frame="void" rules="none">
-  <col class="field-name" /> <col class="field-body" /> <tr class="field">
-    <th class="field-name">
-      date:
-    </th>
 
-    <td class="field-body">
-      2004-05-03 10:52:44
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      wordpress_id:
-    </th>
-
-    <td class="field-body">
-      123
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      layout:
-    </th>
-
-    <td class="field-body">
-      post
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      slug:
-    </th>
-
-    <td class="field-body">
-      finals-week
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      comments:
-    </th>
-
-    <td class="field-body">
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      category:
-    </th>
-
-    <td class="field-body">
-      my life
-    </td>
-  </tr>
-</table>
 
  [1]: http://www.yergler.net/averages/archives/2003/12/17/im_glad_thats_over
  [2]: http://www.kodak.com/global/en/professional/products/films/bw/triX.jhtml?id=0.1.18.14.21.16&lc=en

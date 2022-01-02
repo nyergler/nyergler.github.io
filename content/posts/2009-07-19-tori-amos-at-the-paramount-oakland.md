@@ -1,17 +1,6 @@
 ---
 title: 'Tori Amos at The Paramount, Oakland'
-author: Nathan Yergler
-type: post
-date: 2009-07-19T20:28:48+00:00
-excerpt: |
-  <p>Monday I saw <a class="reference external" href="http://en.wikipedia.org/wiki/Tori_Amos">Tori Amos</a> at
-  The Paramount, Oakland
-  (<a class="reference external" href="http://www.setlist.fm/setlist/tori-amos/2009/paramount-theatre-oakland-6bd65ef2.html">setlist</a>).
-  This was the third time I saw her in concert. The first two times were
-  both on her Choirgirl Hotel tour, in 1998.</p>
-  <p>In 1998 I was <em>that guy</em>, one of the dozen or two that spent Halloween
-  afternoon in ...</p>
-url: /2009/07/19/tori-amos-at-the-paramount-oakland/
+date: 2009-07-19T20:28:48.000Z
 categories:
   - my life
 tags:
@@ -22,7 +11,7 @@ tags:
   - oakland
   - paramount
   - tori amos
-
+slug: tori-amos-at-the-paramount-oakland
 ---
 Monday I saw [Tori Amos][1]  at The Paramount, Oakland ([setlist][2] ). This was the third time I saw her in concert. The first two times were both on her Choirgirl Hotel tour, in 1998.
 
@@ -36,76 +25,7 @@ It’s hard not to compare Monday with my previous experiences seeing Tori. The 
 
 Sitting there in the dark, I also found myself comparing where I’m at in life now and where I was the first time. Ten years have past and have brought a lot of change in my life. Five jobs, two major relationships, a dozen addresses, and a cross-country move. I sat there in the dark of the theater Monday contemplating where I was ten years ago, five years ago. And I found myself grateful that I’ve had this music to accompany me and to grow with me.
 
-<table class="docutils field-list" frame="void" rules="none">
-  <col class="field-name" /> <col class="field-body" /> <tr class="field">
-    <th class="field-name">
-      date:
-    </th>
 
-    <td class="field-body">
-      2009-07-19 20:28:48
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      wordpress_id:
-    </th>
-
-    <td class="field-body">
-      1066
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      layout:
-    </th>
-
-    <td class="field-body">
-      post
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      slug:
-    </th>
-
-    <td class="field-body">
-      tori-amos-at-the-paramount-oakland
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      comments:
-    </th>
-
-    <td class="field-body">
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      category:
-    </th>
-
-    <td class="field-body">
-      my life
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      tags:
-    </th>
-
-    <td class="field-body">
-      calidfornia, concert, east bay, music, oakland, paramount, tori amos
-    </td>
-  </tr>
-</table>
 
  [1]: http://en.wikipedia.org/wiki/Tori_Amos
  [2]: http://www.setlist.fm/setlist/tori-amos/2009/paramount-theatre-oakland-6bd65ef2.html

@@ -1,18 +1,9 @@
 ---
-title: 'Wrapping Static Text in wxPython'
-author: Nathan Yergler
-type: post
-date: 2004-09-17T11:35:35+00:00
-excerpt: |
-  <p>In addition to packing for <span class="caps">NYC</span> this morning, I’m working on getting a
-  new release of ccTag out the door. I’m working on lots of <span class="caps">UI</span> issues at
-  the moment, and part of that relates to
-  <a class="reference external" href="http://wxpython.org">wxPython’s</a> StaticText widget (“Label” to you
-  recovering Win32 programmers). Unfortunately, the ...</p>
-url: /2004/09/17/wrapping-static-text-in-wxpython/
+title: Wrapping Static Text in wxPython
+date: 2004-09-17T11:35:35.000Z
 categories:
   - development
-
+slug: wrapping-static-text-in-wxpython
 ---
 In addition to packing for <span class="caps">NYC</span> this morning, I’m working on getting a new release of ccTag out the door. I’m working on lots of <span class="caps">UI</span> issues at the moment, and part of that relates to [wxPython’s][1]  StaticText widget (“Label” to you recovering Win32 programmers). Unfortunately, the StaticText widget doesn’t support automagic word-wrapping, so I’ve derived a new class which may be of interest to others.
 
@@ -22,66 +13,7 @@ There are a couple areas that could use improvement. Currently the resize is onl
 
 Second, the word wrap algorithm I wrote is, well, stupid. But it was quick and dirty, so I ran with it. I’m open to suggestions and improvements.
 
-<table class="docutils field-list" frame="void" rules="none">
-  <col class="field-name" /> <col class="field-body" /> <tr class="field">
-    <th class="field-name">
-      date:
-    </th>
 
-    <td class="field-body">
-      2004-09-17 11:35:35
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      wordpress_id:
-    </th>
-
-    <td class="field-body">
-      198
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      layout:
-    </th>
-
-    <td class="field-body">
-      post
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      slug:
-    </th>
-
-    <td class="field-body">
-      wrapping-static-text-in-wxpython
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      comments:
-    </th>
-
-    <td class="field-body">
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      category:
-    </th>
-
-    <td class="field-body">
-      development
-    </td>
-  </tr>
-</table>
 
  [1]: http://wxpython.org
  [2]: http://yergler.net/projects/stext/stext_py.txt

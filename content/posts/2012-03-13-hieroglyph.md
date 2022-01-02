@@ -1,16 +1,6 @@
 ---
 title: 'hieroglyph: Easy, Beautiful Slides with Restructured Text'
-author: Nathan Yergler
-type: post
-date: 2012-03-13T22:31:16+00:00
-excerpt: |
-  <p>I was happy to have my talk proposal accepted for
-  <a class="reference external" href="https://us.pycon.org/2012/">PyCon</a> this year, and happy with the
-  feedback I received on my talk (<a class="reference external" href="https://us.pycon.org/2012/schedule/presentation/420/">Django Forms Deep
-  Dive</a>). But as I
-  was putting my talk together the distracting question was not, “what
-  should I say”, but “what should I say it ...</p>
-url: /2012/03/13/hieroglyph/
+date: 2012-03-13T22:31:16.000Z
 categories:
   - hieroglyph
   - projects
@@ -19,7 +9,7 @@ tags:
   - rst
   - slides
   - sphinx
-
+slug: hieroglyph
 ---
 I was happy to have my talk proposal accepted for [PyCon][1]  this year, and happy with the feedback I received on my talk ([Django Forms Deep Dive][2] ). But as I was putting my talk together the distracting question was not, “what should I say”, but “what should I say it with”. As a mentor once pointed out, “it’s more fun to write programs to help you write programs than it is to write programs.” The corollary I found over the past couple weeks: “it’s more fun to write programs to help you write slides than it is to write slides.”
 
@@ -45,76 +35,7 @@ So I wrote a [Hieroglyph][6] , a [Sphinx][7]  builder for generating <span class
 
 I’m really happy with the output — it looks great in the browser, projects well, and because I’m using the html5slides <span class="caps">CSS</span>, looks great on mobile devices, too. I’m even happier that I’m able to work on my content in plain text. You can find the source [on github][10] .
 
-<table class="docutils field-list" frame="void" rules="none">
-  <col class="field-name" /> <col class="field-body" /> <tr class="field">
-    <th class="field-name">
-      date:
-    </th>
 
-    <td class="field-body">
-      2012-03-13 22:31:16
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      wordpress_id:
-    </th>
-
-    <td class="field-body">
-      2028
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      layout:
-    </th>
-
-    <td class="field-body">
-      post
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      slug:
-    </th>
-
-    <td class="field-body">
-      hieroglyph
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      comments:
-    </th>
-
-    <td class="field-body">
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      category:
-    </th>
-
-    <td class="field-body">
-      projects, hieroglyph
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      tags:
-    </th>
-
-    <td class="field-body">
-      python, rst, slides, sphinx
-    </td>
-  </tr>
-</table>
 
  [1]: https://us.pycon.org/2012/
  [2]: https://us.pycon.org/2012/schedule/presentation/420/

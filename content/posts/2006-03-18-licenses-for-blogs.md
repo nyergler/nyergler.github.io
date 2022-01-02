@@ -1,20 +1,9 @@
 ---
-title: 'Licenses for Blogs'
-author: Nathan Yergler
-type: post
-date: 2006-03-18T07:50:32+00:00
-excerpt: |
-  <p><a class="reference external" href="http://blogs.law.harvard.edu/palfrey/">John Palfrey</a> of the <a class="reference external" href="http://cyber.law.harvard.edu/">Berkman
-  Center</a> wrote <a class="reference external" href="http://blogs.law.harvard.edu/palfrey/2006/03/12#a1074">a
-  post</a> proposing
-  licenses specifically for blogs and feeds, based on Creative Commons
-  licenses. I completely agree on one hand — more explicit licensing and
-  discussion of rights and responsibilities is always a good thing. On the
-  other, I don’t think we don ...</p>
-url: /2006/03/18/licenses-for-blogs/
+title: Licenses for Blogs
+date: 2006-03-18T07:50:32.000Z
 categories:
   - General
-
+slug: licenses-for-blogs
 ---
 [John Palfrey][1]  of the [Berkman Center][2]  wrote [a post][3]  proposing licenses specifically for blogs and feeds, based on Creative Commons licenses. I completely agree on one hand — more explicit licensing and discussion of rights and responsibilities is always a good thing. On the other, I don’t think we don’t need more licenses in this case. His suggestions and my comments (with props and attribution to [Mike][4] ):
 
@@ -37,66 +26,7 @@ This shouldn’t be intepreted as a slight to Palfrey; I think its good that peo
 
 _(Disclaimer: I do not represent my employer in these comments)_
 
-<table class="docutils field-list" frame="void" rules="none">
-  <col class="field-name" /> <col class="field-body" /> <tr class="field">
-    <th class="field-name">
-      date:
-    </th>
 
-    <td class="field-body">
-      2006-03-18 07:50:32
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      wordpress_id:
-    </th>
-
-    <td class="field-body">
-      407
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      layout:
-    </th>
-
-    <td class="field-body">
-      post
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      slug:
-    </th>
-
-    <td class="field-body">
-      licenses-for-blogs
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      comments:
-    </th>
-
-    <td class="field-body">
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      category:
-    </th>
-
-    <td class="field-body">
-      General
-    </td>
-  </tr>
-</table>
 
  [1]: http://blogs.law.harvard.edu/palfrey/
  [2]: http://cyber.law.harvard.edu/

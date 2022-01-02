@@ -1,22 +1,11 @@
 ---
 title: 'Reading Update: Short Reviews'
-author: Nathan Yergler
-type: post
-date: 2010-06-06T18:14:22+00:00
-excerpt: |
-  <p>I’ve been delinquent in posting about what I’ve been reading. Rather
-  than continue with the charade that I’ll eventually write full reviews
-  for each book, I present a set of short reviews that should get me more
-  or less caught up.</p>
-  <p><a class="reference external" href="http://www.amazon.com/gp/product/1416972196?ie=UTF8&amp;tag=yergler.net-20&amp;linkCode=as2&amp;camp=1789&amp;creative=390957&amp;creativeASIN=1416972196">Tweak: Growing Up on
-  Methamphetamines</a><img alt="image0" src="http://www.assoc-amazon.com/e/ir?t=yergler.net-20&amp;l=as2&amp;o=1&amp;a=1416972196" />
-  by ...</p>
-url: /2010/06/06/reading-update-short-reviews/
+date: 2010-06-06T18:14:22.000Z
 categories:
   - reading
 tags:
   - read
-
+slug: reading-update-short-reviews
 ---
 I’ve been delinquent in posting about what I’ve been reading. Rather than continue with the charade that I’ll eventually write full reviews for each book, I present a set of short reviews that should get me more or less caught up.
 
@@ -36,76 +25,7 @@ If _The Liar’s Club_ let me peer into Mary Karr’s east Texas childhood, _Lit
 
 A massive tome at 800 pages, Gormley’s account of Clinton’s legal troubles, beginning with Paula Jones and morphing into the Office of the Independent Council investigation, reads like a novel. Contrary to what I believed in high school, when it was all going on (and I was a Young Republican), as well as what I hear today from some more left-ist friends (that Starr was a rapid attack dog out for blood), Gormley tells a very human story. That is, a story where everyone is flawed, imperfect, and probably underestimating their own flaws. Was Clinton an incorrigible womanizer who caused massive wreckage to his life and the lives of those around him by lying? Yes. Did Starr and his office operate at the edge of their charter, with little oversight or control? Yes. Should you read this? Yes.
 
-<table class="docutils field-list" frame="void" rules="none">
-  <col class="field-name" /> <col class="field-body" /> <tr class="field">
-    <th class="field-name">
-      date:
-    </th>
 
-    <td class="field-body">
-      2010-06-06 18:14:22
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      wordpress_id:
-    </th>
-
-    <td class="field-body">
-      1726
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      layout:
-    </th>
-
-    <td class="field-body">
-      post
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      slug:
-    </th>
-
-    <td class="field-body">
-      reading-update-short-reviews
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      comments:
-    </th>
-
-    <td class="field-body">
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      category:
-    </th>
-
-    <td class="field-body">
-      reading
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      tags:
-    </th>
-
-    <td class="field-body">
-      read
-    </td>
-  </tr>
-</table>
 
  [1]: http://www.amazon.com/gp/product/1416972196?ie=UTF8&tag=yergler.net-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=1416972196
  [2]: http://www.assoc-amazon.com/e/ir?t=yergler.net-20&l=as2&o=1&a=1416972196

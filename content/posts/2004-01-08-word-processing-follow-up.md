@@ -1,21 +1,8 @@
 ---
-title: 'Word Processing follow-up'
-author: Nathan Yergler
-type: post
-date: 2004-01-08T13:43:14+00:00
-excerpt: |
-  <p>After writing my
-  <a class="reference external" href="http://www.yergler.net/averages/archives/2004/01/06/whats_so_great_about_word">complaint</a>
-  about Word and word processing on Mac <span class="caps">OS</span> X, I decided to do “yet
-  another” search for something to quell my angst. What I found suprised
-  me. Pleasantly.</p>
-  <p>First, LyX has been Aqua-fied. Sort of. I found a <a class="reference external" href="http://www.18james.com/lyx_on_aqua.html">non-X11
-  distribution</a> of
-  <a class="reference external" href="http://lyx.org">LyX</a> which apparently uses Qt-Mac ...</p>
-url: /2004/01/08/word-processing-follow-up/
+title: Word Processing follow-up
+date: 2004-01-08T13:43:14.000Z
 categories:
   - geek
-
 ---
 After writing my [complaint][1]  about Word and word processing on Mac <span class="caps">OS</span> X, I decided to do “yet another” search for something to quell my angst. What I found suprised me. Pleasantly.
 
@@ -25,66 +12,6 @@ My other find is what really knocked my socks off. [Mellel][4]  is a shareware w
 
 To anyone looking for a real alternative for your personal word processing, I can’t recommend Mellel enough. It’s right there with [OmniGraffle][5]  and [OmniOutliner][6]  now in my “must-have” pile.
 
-<table class="docutils field-list" frame="void" rules="none">
-  <col class="field-name" /> <col class="field-body" /> <tr class="field">
-    <th class="field-name">
-      date:
-    </th>
-
-    <td class="field-body">
-      2004-01-08 13:43:14
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      wordpress_id:
-    </th>
-
-    <td class="field-body">
-      71
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      layout:
-    </th>
-
-    <td class="field-body">
-      post
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      slug:
-    </th>
-
-    <td class="field-body">
-      word-processing-follow-up
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      comments:
-    </th>
-
-    <td class="field-body">
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      category:
-    </th>
-
-    <td class="field-body">
-      geek
-    </td>
-  </tr>
-</table>
 
  [1]: http://www.yergler.net/averages/archives/2004/01/06/whats_so_great_about_word
  [2]: http://www.18james.com/lyx_on_aqua.html

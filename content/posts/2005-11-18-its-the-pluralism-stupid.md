@@ -1,17 +1,9 @@
 ---
 title: 'It’s the Pluralism, Stupid'
-author: Nathan Yergler
-type: post
-date: 2005-11-18T09:24:32+00:00
-excerpt: |
-  <p>It’s no secret or suprise that I disagree with much of what the current
-  presidential administration puts forward as policy. My family, on the
-  other hand, is “Bush/Cheney” all the way. So I frequently get email
-  missives forwarded to me as part of a large forwarding group, and ...</p>
-url: /2005/11/18/its-the-pluralism-stupid/
+date: 2005-11-18T09:24:32.000Z
 categories:
   - politics
-
+slug: its-the-pluralism-stupid
 ---
 It’s no secret or suprise that I disagree with much of what the current presidential administration puts forward as policy. My family, on the other hand, is “Bush/Cheney” all the way. So I frequently get email missives forwarded to me as part of a large forwarding group, and they’re uniformly pro-Bush, pro-war. It’s not that my family has these opinions that bugs me — it’s the tone of the messages in that they don’t allow for discussion or debate. They don’t allow that people may have valid, differing opinions and still want what’s best for the country. In short, they don’t get that [pluralism][1]  is a good and necessary thing in a modern society. I’m not saying that Democrats or liberals get it any more than they do — there’s plenty of blame to play the game.
 
@@ -72,66 +64,7 @@ But that just means that more people are wrong, not that going to war was the ri
 
 If people want to move the country forward, they’ll engage in serious discussion and debate, and not throw done ultimatums and “us v. them” missives. To paraphrase Carville, [it’s the pluralism, stupid.][3]
 
-<table class="docutils field-list" frame="void" rules="none">
-  <col class="field-name" /> <col class="field-body" /> <tr class="field">
-    <th class="field-name">
-      date:
-    </th>
 
-    <td class="field-body">
-      2005-11-18 09:24:32
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      wordpress_id:
-    </th>
-
-    <td class="field-body">
-      351
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      layout:
-    </th>
-
-    <td class="field-body">
-      post
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      slug:
-    </th>
-
-    <td class="field-body">
-      its-the-pluralism-stupid
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      comments:
-    </th>
-
-    <td class="field-body">
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      category:
-    </th>
-
-    <td class="field-body">
-      politics
-    </td>
-  </tr>
-</table>
 
  [1]: http://en.wikipedia.org/wiki/Pluralism
  [2]: http://www.iraqbodycount.net

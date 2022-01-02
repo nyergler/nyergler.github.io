@@ -1,14 +1,6 @@
 ---
 title: “Effective Django” at OSCON
-author: Nathan Yergler
-type: post
-date: 2013-07-07T00:00:00+00:00
-excerpt: |
-  <p>I&#8217;m going to be presenting my introductory Django tutorial, <a class="reference external" href="http://effectivedjango.com/">Effective
-  Django</a> at <span class="caps">OSCON</span> later this month. If you&#8217;re going to be at <a class="reference external" href="http://www.oscon.com/"><span class="caps">OSCON</span></a>
-  and haven&#8217;t selected your tutorials yet, or just think a trip to
-  Portland, Oregon sounds nifty, there&#8217;s still time to sign up. You ...</p>
-url: /2013/07/07/effective-django-oscon/
+date: 2013-07-07T00:00:00.000Z
 categories:
   - Effective Django
 tags:
@@ -16,7 +8,7 @@ tags:
   - python
   - talks
   - tut
-
+slug: effective-django-oscon
 ---
 I&#8217;m going to be presenting my introductory Django tutorial, [Effective Django][1]  at <span class="caps">OSCON</span> later this month. If you&#8217;re going to be at [<span class="caps">OSCON</span>][2]  and haven&#8217;t selected your tutorials yet, or just think a trip to Portland, Oregon sounds nifty, there&#8217;s still time to sign up. You can find the details on [the <span class="caps">OSCON</span> tutorial page][3] .
 
@@ -34,58 +26,7 @@ The _correct_ order here (last step first) is <tt class="docutils literal">maste
 
 I&#8217;m really excited about presenting Effective Django at <span class="caps">OSCON</span>, and appreciate the feedback and suggestions from everyone.
 
-<table class="docutils footnote" frame="void" id="id2" rules="none">
-  <colgroup><col class="label" /><col /></colgroup> <tr>
-    <td class="label">
-      <a class="fn-backref" href="#id1">[1]</a>
-    </td>
 
-    <td>
-      I contemplated just using a text file in the repo as the solution, but realized that this has its own issues: if it&#8217;s under version control as well, then what&#8217;s the &#8220;right&#8221; version to look at when you&#8217;re in a branch? That branch&#8217;s? Master&#8217;s? It&#8217;s not clear to me.
-    </td>
-  </tr>
-</table>
-
-<table class="docutils field-list" frame="void" rules="none">
-  <col class="field-name" /> <col class="field-body" /> <tr class="field">
-    <th class="field-name">
-      author:
-    </th>
-
-    <td class="field-body">
-      Nathan Yergler
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      category:
-    </th>
-
-    <td class="field-body">
-      Effective Django
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      tags:
-    </th>
-
-    <td class="field-body">
-      talks, effective django, python, tut,
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      comments:
-    </th>
-
-    <td class="field-body">
-    </td>
-  </tr>
-</table>
 
  [1]: http://effectivedjango.com/
  [2]: http://www.oscon.com/

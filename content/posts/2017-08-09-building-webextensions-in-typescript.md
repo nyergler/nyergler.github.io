@@ -1,16 +1,13 @@
 ---
 title: Building WebExtensions in Typescript
-author: Nathan Yergler
-type: post
-date: 2017-08-10T02:27:14+00:00
-url: /2017/08/09/building-webextensions-in-typescript/
+date: 2017-08-10T02:27:14.000Z
 categories:
   - mozCC
 tags:
   - mozcc
   - mozilla
   - webextensions
-
+slug: building-webextensions-in-typescript
 ---
 I spent yesterday evening doing something I haven&#8217;t done in a while: tinkering. You may have seen the news that there’s a [big change coming in Firefox][1]. The short version is that later this year, the old extension model is going to be retired permanently, and extensions using it will no longer work. As someone with an extension on [addons.mozilla.org][2], I&#8217;ve received more than a few emails warning me that they&#8217;re about to go dark. This isn’t the first time Mozilla has tried to entice folks to move on from [XUL Overlays][3]: [Jetpack][4] was a similar effort to allow extensions to play better within a sandbox. This time I think it’s going to stick: the performance benefits seems undeniable, and as a developer the prospect of writing a single extension to support multiple browsers is pretty appealing.
 

@@ -1,16 +1,6 @@
 ---
 title: '400 Duboce #113, Now from “Greg Apartments”'
-author: Nathan Yergler
-type: post
-date: 2010-01-05T22:01:31+00:00
-excerpt: |
-  <p>So things are continuing to get a little weird at my current building.
-  First, management was
-  “<a class="reference external" href="http://sfappeal.com/news/2009/10/citiapartments-is-now-first-apartments.php">transferred</a>“
-  to FirstApts. I put transferred in quotes because, really, it’s the more
-  of the same: same phone numbers, same people, same lackluster
-  management. Apparently an exercise in branding, trying to excise the ...</p>
-url: /2010/01/05/400-duboce-113-now-from-greg-apartments/
+date: 2010-01-05T22:01:31.000Z
 categories:
   - my life
 tags:
@@ -18,7 +8,7 @@ tags:
   - citiapartments
   - firstapts
   - gregapartments
-
+slug: 400-duboce-113-now-from-greg-apartments
 ---
 So things are continuing to get a little weird at my current building. First, management was “[transferred][1] “ to FirstApts. I put transferred in quotes because, really, it’s the more of the same: same phone numbers, same people, same lackluster management. Apparently an exercise in branding, trying to excise the CitiApartments name from people’s memory (for _some_ [reason][2] ). You could write a case study about how not to rebrand yourself in the 21st century based on this. Their old email addresses start bouncing, their old domain doesn’t even redirect. Hell, even some of the email addresses they put on the letter to residents bounce as non-existent. (When calling to let them know, the receptionist is hardly interested, telling me, “someone ought to update that sign.” Yes, someone indeed.)
 
@@ -40,76 +30,7 @@ All these shells, and they’re still trying to raise the rent.
 
 Updated 2012-10-24: Removed Greg’s contact information.
 
-<table class="docutils field-list" frame="void" rules="none">
-  <col class="field-name" /> <col class="field-body" /> <tr class="field">
-    <th class="field-name">
-      date:
-    </th>
 
-    <td class="field-body">
-      2010-01-05 22:01:31
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      wordpress_id:
-    </th>
-
-    <td class="field-body">
-      1290
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      layout:
-    </th>
-
-    <td class="field-body">
-      post
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      slug:
-    </th>
-
-    <td class="field-body">
-      400-duboce-113-now-from-greg-apartments
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      comments:
-    </th>
-
-    <td class="field-body">
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      category:
-    </th>
-
-    <td class="field-body">
-      my life
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      tags:
-    </th>
-
-    <td class="field-body">
-      400 duboce, citiapartments, firstapts, gregapartments
-    </td>
-  </tr>
-</table>
 
  [1]: http://sfappeal.com/news/2009/10/citiapartments-is-now-first-apartments.php
  [2]: http://sfappeal.com/citiapartments.php

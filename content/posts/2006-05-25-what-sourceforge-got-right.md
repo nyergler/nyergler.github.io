@@ -1,19 +1,9 @@
 ---
-title: 'What SourceForge got right'
-author: Nathan Yergler
-type: post
-date: 2006-05-25T07:58:06+00:00
-excerpt: |
-  <p>A few months before SourceForge launched their Subversion support, I
-  decided that I was spending far too many cycles managing external
-  dependencies for
-  <a class="reference external" href="http://wiki.creativecommons.org/CcPublisher">ccPublisher</a>. We use
-  significant chunks of code from the Zope 3 project, among others, and
-  managing those dependencies (and keeping them in sync) is a pain in ...</p>
-url: /2006/05/25/what-sourceforge-got-right/
+title: What SourceForge got right
+date: 2006-05-25T07:58:06.000Z
 categories:
   - development
-
+slug: what-sourceforge-got-right
 ---
 A few months before SourceForge launched their Subversion support, I decided that I was spending far too many cycles managing external dependencies for [ccPublisher][1] . We use significant chunks of code from the Zope 3 project, among others, and managing those dependencies (and keeping them in sync) is a pain in the ass with <span class="caps">CVS</span> (yes, I know about vendor branches; still a pain). So we moved ccPublisher to [Berlios.de][2]  in order to gain Subversion support. Subversion has a construct called **svn:externals** which allow you to stitch together pieces of a repository to form a composite tree. Not just pieces of your own repository, though: pieces of _any_ repository.
 
@@ -29,66 +19,7 @@ So when Source Forge rolled out their Subversion support earlier this year, it w
 
 There may be reasons not to use https as an access protocol that I’m not aware of. I’ve never administered a large scale (or even medium-scale) repository. What I do know is this: SourceForge has been so lackluster for so long that getting this simple thing right has left me impressed and hopeful about the future of the service. Now if they’d only fix that damn mailing list interface.
 
-<table class="docutils field-list" frame="void" rules="none">
-  <col class="field-name" /> <col class="field-body" /> <tr class="field">
-    <th class="field-name">
-      date:
-    </th>
 
-    <td class="field-body">
-      2006-05-25 07:58:06
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      wordpress_id:
-    </th>
-
-    <td class="field-body">
-      419
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      layout:
-    </th>
-
-    <td class="field-body">
-      post
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      slug:
-    </th>
-
-    <td class="field-body">
-      what-sourceforge-got-right
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      comments:
-    </th>
-
-    <td class="field-body">
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      category:
-    </th>
-
-    <td class="field-body">
-      development
-    </td>
-  </tr>
-</table>
 
  [1]: http://wiki.creativecommons.org/CcPublisher
  [2]: http://developer.berlios.de/projects/cctools

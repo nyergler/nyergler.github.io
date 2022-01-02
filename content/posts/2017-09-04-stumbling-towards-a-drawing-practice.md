@@ -1,9 +1,6 @@
 ---
 title: Stumbling towards a drawing practice
-author: Nathan Yergler
-type: post
-date: 2017-09-04T19:33:56+00:00
-url: /2017/09/04/stumbling-towards-a-drawing-practice/
+date: 2017-09-04T19:33:56.000Z
 categories:
   - practice
 tags:
@@ -13,7 +10,7 @@ tags:
 format: image
 kind:
   - Note
-
+slug: stumbling-towards-a-drawing-practice
 ---
 I&#8217;ve been aware for some time that improving my drawing skills would probably have a big impact on all parts of my artistic practice. I did a short course based on [Drawing on the Right Side of the Brain][1] a few years ago that helped, but I&#8217;ve lacked a real _practice_ around it.
 

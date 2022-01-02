@@ -1,20 +1,9 @@
 ---
-title: 'Readonly Attachments'
-author: Nathan Yergler
-type: post
-date: 2006-03-12T20:46:02+00:00
-excerpt: |
-  <p>I suppose I should have blogged about it a while ago, but a while back I
-  hacked together a <a class="reference external" href="http://www.mozilla.com/thunderbird/">Thunderbird</a>
-  extension at the request of a friend, and I went ahead and made it
-  available through addons.mozilla.org.</p>
-  <p><a class="reference external" href="https://addons.mozilla.org/extensions/moreinfo.php?id=1846&amp;application=thunderbird">Readonly
-  Attachments</a>
-  does just what it sounds like — makes attachments saved ...</p>
-url: /2006/03/12/readonly-attachments/
+title: Readonly Attachments
+date: 2006-03-12T20:46:02.000Z
 categories:
   - development
-
+slug: readonly-attachments
 ---
 I suppose I should have blogged about it a while ago, but a while back I hacked together a [Thunderbird][1]  extension at the request of a friend, and I went ahead and made it available through addons.mozilla.org.
 
@@ -24,66 +13,7 @@ I’ve tested it personally with Mac <span class="caps">OS</span> X, Windows and
 
 You can find some more info [in the yiki][3] , and source is available in [darcs][4] . If you run into any problems or have any suggestions, record them [here][5] .
 
-<table class="docutils field-list" frame="void" rules="none">
-  <col class="field-name" /> <col class="field-body" /> <tr class="field">
-    <th class="field-name">
-      date:
-    </th>
 
-    <td class="field-body">
-      2006-03-12 20:46:02
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      wordpress_id:
-    </th>
-
-    <td class="field-body">
-      395
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      layout:
-    </th>
-
-    <td class="field-body">
-      post
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      slug:
-    </th>
-
-    <td class="field-body">
-      readonly-attachments
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      comments:
-    </th>
-
-    <td class="field-body">
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      category:
-    </th>
-
-    <td class="field-body">
-      development
-    </td>
-  </tr>
-</table>
 
  [1]: http://www.mozilla.com/thunderbird/
  [2]: https://addons.mozilla.org/extensions/moreinfo.php?id=1846&application=thunderbird

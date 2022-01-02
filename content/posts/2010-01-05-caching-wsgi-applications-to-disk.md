@@ -1,18 +1,6 @@
 ---
 title: Caching WSGI Applications to Disk
-author: Nathan Yergler
-type: post
-date: 2010-01-05T23:37:29+00:00
-excerpt: |
-  <p>This morning I pushed the first release of
-  <a class="reference external" href="http://pypi.python.org/pypi/wsgi_cache">wsgi_cache</a> to the PyPI,
-  laying the groundwork for increasing sanity in our deployment story at
-  <a class="reference external" href="http://creativecommons.org"><span class="caps">CC</span></a>. wsgi_cache is disk caching
-  middleware for
-  <a class="reference external" href="http://en.wikipedia.org/wiki/Web_Server_Gateway_Interface"><span class="caps">WSGI</span></a>
-  applications. It’s written with our needs specifically in mind, but it
-  may be useful to others, as well ...</p>
-url: /2010/01/05/caching-wsgi-applications-to-disk/
+date: 2010-01-05T23:37:29.000Z
 categories:
   - CC
   - development
@@ -23,7 +11,7 @@ tags:
   - python
   - wsgi
   - wsgi_cache
-
+slug: caching-wsgi-applications-to-disk
 ---
 This morning I pushed the first release of [wsgi_cache][1]  to the PyPI, laying the groundwork for increasing sanity in our deployment story at [<span class="caps">CC</span>][2] . wsgi_cache is disk caching middleware for [<span class="caps">WSGI</span>][3]  applications. It’s written with our needs specifically in mind, but it may be useful to others, as well.
 
@@ -37,76 +25,7 @@ There are some limitation which might make this a poor choice for other applicat
 
 We’re not quite ready to roll it out yet, and I expect we’ll find some things that need to be tweaked, but a test suite with 100% coverage makes that a challenge I’m up for. If you’re interested in taking a look (and adapting it for your own use), you can find the code in Creative Commons’ [git repository][8] .
 
-<table class="docutils field-list" frame="void" rules="none">
-  <col class="field-name" /> <col class="field-body" /> <tr class="field">
-    <th class="field-name">
-      date:
-    </th>
 
-    <td class="field-body">
-      2010-01-05 23:37:29
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      wordpress_id:
-    </th>
-
-    <td class="field-body">
-      1309
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      layout:
-    </th>
-
-    <td class="field-body">
-      post
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      slug:
-    </th>
-
-    <td class="field-body">
-      caching-wsgi-applications-to-disk
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      comments:
-    </th>
-
-    <td class="field-body">
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      category:
-    </th>
-
-    <td class="field-body">
-      cc, development
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      tags:
-    </th>
-
-    <td class="field-body">
-      cache, cc, middleware, python, wsgi, wsgi_cache
-    </td>
-  </tr>
-</table>
 
  [1]: http://pypi.python.org/pypi/wsgi_cache
  [2]: http://creativecommons.org

@@ -1,20 +1,6 @@
 ---
 title: 'git-svn and svn:externals'
-author: Nathan Yergler
-type: post
-date: 2009-07-21T09:47:17+00:00
-excerpt: |
-  <p><strong><span class="caps">UPDATE</span></strong> I’ve pushed a few bug fixes; see <a class="reference external" href="http://yergler.net/blog/2009/07/25/gsc-bug-fixes/">this
-  entry</a> for details.</p>
-  <p>At <a class="reference external" href="http://labs.creativecommons.org">Creative Commons</a> we’re a
-  <a class="reference external" href="http://code.creativecommons.org">dual-[D]<span class="caps">VCS</span></a> shop. Since we started
-  <a class="reference external" href="http://labs.creativecommons.org/2008/04/01/version-control-changes/">self-hosting our
-  repositories</a>
-  last year we’ve been using both
-  <a class="reference external" href="http://en.wikipedia.org/wiki/Subversion_%28software%29">Subversion</a>
-  and <a class="reference external" href="http://en.wikipedia.org/wiki/Git_%28software%29">git</a>. The
-  rationale was pragmatic more than anything else: we have lots ...</p>
-url: /2009/07/21/git-svn-and-svnexternals/
+date: 2009-07-21T09:47:17.000Z
 categories:
   - development
 tags:
@@ -23,8 +9,8 @@ tags:
   - git-svn
   - gsc
   - svn
-  - svn:externals
-
+  - 'svn:externals'
+slug: git-svn-and-svnexternals
 ---
 **<span class="caps">UPDATE</span>** I’ve pushed a few bug fixes; see [this entry][1]  for details.
 
@@ -38,112 +24,7 @@ Last week I decided that tools like [magit][8]  make git too useful not to use w
 
 You can grab [gsc from gitorious][10] . There are also installation instructions and basic usage information in the [<span class="caps">README</span>][12] .
 
-<table class="docutils footnote" frame="void" id="id1" rules="none">
-  <colgroup><col class="label" /><col /></colgroup> <tr>
-    <td class="label">
-      [1]
-    </td>
 
-    <td>
-      It’s also led to some sub-optimal software release practices, but that’s probably a different post.
-    </td>
-  </tr>
-</table>
-
-<table class="docutils footnote" frame="void" id="id2" rules="none">
-  <colgroup><col class="label" /><col /></colgroup> <tr>
-    <td class="label">
-      [2]
-    </td>
-
-    <td>
-      Yes, I’ve actually encountered the “airplane” scenario; this either means <span class="caps">DVCS</span> advocates are prescient or I’ve been traveling way too much lately.
-    </td>
-  </tr>
-</table>
-
-<table class="docutils footnote" frame="void" id="id3" rules="none">
-  <colgroup><col class="label" /><col /></colgroup> <tr>
-    <td class="label">
-      [3]
-    </td>
-
-    <td>
-      This is true because some repositories spell read-only and read-write access differently; both <a class="reference external" href="http://code.creativecommons.org"><span class="caps">CC</span></a> and <a class="reference external" href="http://www.zope.org/DevHome/">Zope</a> do this, so the <tt class="docutils literal">svn:externals</tt> definitions are often written using the read-only syntax to make sure everyone can make a complete checkout.
-    </td>
-  </tr>
-</table>
-
-<table class="docutils field-list" frame="void" rules="none">
-  <col class="field-name" /> <col class="field-body" /> <tr class="field">
-    <th class="field-name">
-      date:
-    </th>
-
-    <td class="field-body">
-      2009-07-21 09:47:17
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      wordpress_id:
-    </th>
-
-    <td class="field-body">
-      1073
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      layout:
-    </th>
-
-    <td class="field-body">
-      post
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      slug:
-    </th>
-
-    <td class="field-body">
-      git-svn-and-svnexternals
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      comments:
-    </th>
-
-    <td class="field-body">
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      category:
-    </th>
-
-    <td class="field-body">
-      development
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      tags:
-    </th>
-
-    <td class="field-body">
-      cc, git, git-svn, gsc, svn, svn:externals
-    </td>
-  </tr>
-</table>
 
  [1]: http://yergler.net/blog/2009/07/25/gsc-bug-fixes/
  [2]: http://labs.creativecommons.org

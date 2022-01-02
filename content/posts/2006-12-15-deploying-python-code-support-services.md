@@ -1,21 +1,9 @@
 ---
 title: 'Deploying Python Code: Support Services'
-author: Nathan Yergler
-type: post
-date: 2006-12-15T17:00:12+00:00
-excerpt: |
-  <p>Just over a month ago I
-  <a class="reference external" href="http://yergler.net/blog/2006/11/07/deploying-python-applications/">blogged</a>
-  about my first experience with
-  <a class="reference external" href="http://cheeseshop.python.org/pypi/zc.buildout/">zc.buildout</a>. For
-  those that don’t remember (shame on you!), zc.buildout is a Python tool
-  developed by Jim Fulton of Zope fame for constructing software
-  installations. “Buildouts”, if you will. The attraction to this over,
-  say ...</p>
-url: /2006/12/15/deploying-python-code-support-services/
+date: 2006-12-15T17:00:12.000Z
 categories:
   - development
-
+slug: deploying-python-code-support-services
 ---
 Just over a month ago I [blogged][1]  about my first experience with [zc.buildout][2] . For those that don’t remember (shame on you!), zc.buildout is a Python tool developed by Jim Fulton of Zope fame for constructing software installations. “Buildouts”, if you will. The attraction to this over, say, just [distutils][3]  or just [setuptools][4]  is that you can go from a bare-bones [Python][5]  installation and source code checkout (or tar-ball) to a fully functional application, with dependencies and the trimmings, in a predictable, sane way. The fact that dependencies are installed in a local folder makes this especially appealing for deploying code on hosts where you don’t have write access to <tt class="docutils literal"><span class="pre">site-packages</span></tt>. But enough re-hashing my last zc.buildout post.
 
@@ -31,66 +19,7 @@ Suggestions, comments, questions all welcome, as are additional templates that m
 
 <sup>1</sup>I’m sure there’s a better, more robust way to do this, but this is where we’re comfortable on the down time v. implementation time continuum. That said, if someone knows of an easy, more robust way, of course I’d like to hear about it.
 
-<table class="docutils field-list" frame="void" rules="none">
-  <col class="field-name" /> <col class="field-body" /> <tr class="field">
-    <th class="field-name">
-      date:
-    </th>
 
-    <td class="field-body">
-      2006-12-15 17:00:12
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      wordpress_id:
-    </th>
-
-    <td class="field-body">
-      464
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      layout:
-    </th>
-
-    <td class="field-body">
-      post
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      slug:
-    </th>
-
-    <td class="field-body">
-      deploying-python-code-support-services
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      comments:
-    </th>
-
-    <td class="field-body">
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      category:
-    </th>
-
-    <td class="field-body">
-      development
-    </td>
-  </tr>
-</table>
 
  [1]: http://yergler.net/blog/2006/11/07/deploying-python-applications/
  [2]: http://cheeseshop.python.org/pypi/zc.buildout/

@@ -1,18 +1,10 @@
 ---
-title: 'Reading about Writing'
-author: Nathan Yergler
-type: post
-date: 2005-01-28T15:55:55+00:00
-excerpt: |
-  <p>I think it was as shocking to me as it was to Garrett when I confessed
-  “I really want to be a writer,” on our second date. It was one of those
-  thoughts that you’re not really aware of until it leaves your mouth. The
-  really suprising part is ...</p>
-url: /2005/01/28/reading-about-writing/
+title: Reading about Writing
+date: 2005-01-28T15:55:55.000Z
 categories:
   - my life
   - reading
-
+slug: reading-about-writing
 ---
 I think it was as shocking to me as it was to Garrett when I confessed “I really want to be a writer,” on our second date. It was one of those thoughts that you’re not really aware of until it leaves your mouth. The really suprising part is that after it was out there, and I realized what I’d just said, I did nothing to back pedal. It was just out there, and Garrett accepted it as one of my dreams, one that he’s supported, quietly, ever since.
 
@@ -30,67 +22,7 @@ I don’t remember how, but shortly after finishing <span class="caps">NP</span>
 
 So there you have it. What I’ve been reading the last 30 days. The theme has been writing, but it’s got me thinking about creativity and creation more generally. And yes, I’ve started some writing and plan to do National Novel Writing Month this year. It’s November, by the way, although I’m a little more anxious, so I may make an early attempt. I’ll be sure to let you know.
 
-<table class="docutils field-list" frame="void" rules="none">
-  <col class="field-name" /> <col class="field-body" /> <tr class="field">
-    <th class="field-name">
-      date:
-    </th>
 
-    <td class="field-body">
-      2005-01-28 15:55:55
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      wordpress_id:
-    </th>
-
-    <td class="field-body">
-      257
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      layout:
-    </th>
-
-    <td class="field-body">
-      post
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      slug:
-    </th>
-
-    <td class="field-body">
-      reading-about-writing
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      comments:
-    </th>
-
-    <td class="field-body">
-      False
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      category:
-    </th>
-
-    <td class="field-body">
-      my life, reading
-    </td>
-  </tr>
-</table>
 
  [1]: http://www.npr.org/templates/story/story.php?storyId=1112273
  [2]: http://www.npr.org/templates/rundowns/rundown.php?prgId=13

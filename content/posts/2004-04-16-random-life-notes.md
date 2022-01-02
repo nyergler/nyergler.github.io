@@ -1,18 +1,9 @@
 ---
-title: 'Random Life Notes'
-author: Nathan Yergler
-type: post
-date: 2004-04-16T14:56:06+00:00
-excerpt: |
-  <p>Just a couple of things I’ve been thinking about lately that haven’t
-  been serious enough to warrant their own entry.</p>
-  <p>First, Garrett and I are playing volleyball in a city league right now.
-  For those who know me, this committment to a sporting activity is
-  probably suprising, and ...</p>
-url: /2004/04/16/random-life-notes/
+title: Random Life Notes
+date: 2004-04-16T14:56:06.000Z
 categories:
   - my life
-
+slug: random-life-notes
 ---
 Just a couple of things I’ve been thinking about lately that haven’t been serious enough to warrant their own entry.
 
@@ -22,66 +13,7 @@ On a completely unrelated note, the past week has been rather fun for me, since 
 
 Finally, this weekend my [home chapter][4]  is hosting initiation. We’re initiating the Rho-Glassburn class, named for my big brother and mentor, Jason D. Glassburn. I had a good time at initiation [last semester][5] , and hopefully this weekend will be the same (although I’m trying to cut down on the binge drinking). In addition to the standard ritual and after party, the active brothers have organized an alumni appreciation dinner this evening. I already feel appreciated.
 
-<table class="docutils field-list" frame="void" rules="none">
-  <col class="field-name" /> <col class="field-body" /> <tr class="field">
-    <th class="field-name">
-      date:
-    </th>
 
-    <td class="field-body">
-      2004-04-16 14:56:06
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      wordpress_id:
-    </th>
-
-    <td class="field-body">
-      115
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      layout:
-    </th>
-
-    <td class="field-body">
-      post
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      slug:
-    </th>
-
-    <td class="field-body">
-      random-life-notes
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      comments:
-    </th>
-
-    <td class="field-body">
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      category:
-    </th>
-
-    <td class="field-body">
-      my life
-    </td>
-  </tr>
-</table>
 
  [1]: http://creativecommons.org
  [2]: http://creativecommons.org/technology/challenges#challenge_entry_3846

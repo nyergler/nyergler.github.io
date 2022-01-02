@@ -1,17 +1,6 @@
 ---
 title: 'AcaWiki: On Building Emerging Applications'
-author: Nathan Yergler
-type: post
-date: 2010-01-04T22:44:17+00:00
-excerpt: |
-  <p>I’m woefully late in noting the
-  <a class="reference external" href="http://acawiki.org/AcaWiki:PressRelease-2009-10-07">launch</a> of
-  <a class="reference external" href="http://acawiki.org/">AcaWiki</a>. Mike does a good job <a class="reference external" href="http://gondwanaland.com/mlog/2009/10/06/acawiki/">exploring the
-  sweet spot</a> AcaWiki
-  may fill between research blogging and open access journals, and where
-  AcaWiki fits into the wiki landscape. AcaWiki is interesting to me for
-  two reasons; first, I was the technical ...</p>
-url: /2010/01/04/acawiki-on-building-emerging-applications/
+date: 2010-01-04T22:44:17.000Z
 categories:
   - development
 tags:
@@ -22,7 +11,7 @@ tags:
   - semantic mediawiki
   - smw
   - wiki
-
+slug: acawiki-on-building-emerging-applications
 ---
 I’m woefully late in noting the [launch][1]  of [AcaWiki][2] . Mike does a good job [exploring the sweet spot][3]  AcaWiki may fill between research blogging and open access journals, and where AcaWiki fits into the wiki landscape. AcaWiki is interesting to me for two reasons; first, I was the technical lead on the project<sup>†</sup>, and second, it’s another recent example of building a site using [MediaWiki][4]  as a platform. More specifically, we used MediaWiki along with [Semantic MediaWiki][5] , [Semantic Forms][6] , and several [other related extensions][7]  as the platform for the site.
 
@@ -42,76 +31,7 @@ AcaWiki is an exciting experiment in building community around academic research
 
 <sup>†</sup> AcaWiki’s founder, Neeru Paharia, was one of <span class="caps">CC</span>’s earliest employees, and she turned to the [<span class="caps">CC</span> technology team][16]  for help with this project.
 
-<table class="docutils field-list" frame="void" rules="none">
-  <col class="field-name" /> <col class="field-body" /> <tr class="field">
-    <th class="field-name">
-      date:
-    </th>
 
-    <td class="field-body">
-      2010-01-04 22:44:17
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      wordpress_id:
-    </th>
-
-    <td class="field-body">
-      1209
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      layout:
-    </th>
-
-    <td class="field-body">
-      post
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      slug:
-    </th>
-
-    <td class="field-body">
-      acawiki-on-building-emerging-applications
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      comments:
-    </th>
-
-    <td class="field-body">
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      category:
-    </th>
-
-    <td class="field-body">
-      development
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      tags:
-    </th>
-
-    <td class="field-body">
-      acawiki, cc, mediawiki, platforms, semantic mediawiki, smw, wiki
-    </td>
-  </tr>
-</table>
 
  [1]: http://acawiki.org/AcaWiki:PressRelease-2009-10-07
  [2]: http://acawiki.org/

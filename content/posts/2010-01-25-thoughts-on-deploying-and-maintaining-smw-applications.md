@@ -1,15 +1,8 @@
 ---
-title: 'Thoughts on Deploying and Maintaining <span class="caps">SMW</span> Applications'
-author: Nathan Yergler
-type: post
-date: 2010-01-25T21:24:51+00:00
-excerpt: |
-  <p>In September or October of last year, I received an email from someone
-  who had come across <a class="reference external" href="http://wiki.creativecommons.org/CcTeamspace"><span class="caps">CC</span>
-  Teamspace</a> and was
-  wondering if there was a demo site available they could use to evaluate
-  it. I told them, “No, but I can probably throw one up for you.” A month ...</p>
-url: /2010/01/25/thoughts-on-deploying-and-maintaining-smw-applications/
+title: >-
+  Thoughts on Deploying and Maintaining <span class="caps">SMW</span>
+  Applications
+date: 2010-01-25T21:24:51.000Z
 categories:
   - CC
   - development
@@ -18,7 +11,7 @@ tags:
   - mediawiki
   - semantic mediawiki
   - smw
-
+slug: thoughts-on-deploying-and-maintaining-smw-applications
 ---
 In September or October of last year, I received an email from someone who had come across [<span class="caps">CC</span> Teamspace][1]  and was wondering if there was a demo site available they could use to evaluate it. I told them, “No, but I can probably throw one up for you.” A month later I had to email them and say, “Sorry, but I haven’t found the time to do this, and I don’t see that changing.” This is clearly _not_ the message you want to send to possible adopters of your software — “Sorry, even I can’t install it quickly.” Now part of the issue was my own [meta/perfectionism][2] : I wanted to figure out a <span class="caps">DVCS</span> driven upgrade and maintenance mechanism at the same time. But even when I faced the fact that I didn’t really _need_ to solve both problems at the same time, I quickly became frustrated by the installation process. The <span class="caps">XML</span> file I needed to import seemed to contain extraneous pages, and things seemed to have changed between MediaWiki and/or extension versions since the export was created. I kept staring at cryptic errors, struggling to figure out if I had all the dependencies installed. This is not _just_ a documentation problem.
 
@@ -93,76 +86,7 @@ to release to the larger world. -->
 versioning: what does it mean to *version* an application that
 primarily exists as a bunch of wiki pages? -->
 
-<table class="docutils field-list" frame="void" rules="none">
-  <col class="field-name" /> <col class="field-body" /> <tr class="field">
-    <th class="field-name">
-      date:
-    </th>
 
-    <td class="field-body">
-      2010-01-25 21:24:51
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      wordpress_id:
-    </th>
-
-    <td class="field-body">
-      1353
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      layout:
-    </th>
-
-    <td class="field-body">
-      post
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      slug:
-    </th>
-
-    <td class="field-body">
-      thoughts-on-deploying-and-maintaining-smw-applications
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      comments:
-    </th>
-
-    <td class="field-body">
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      category:
-    </th>
-
-    <td class="field-body">
-      cc, development
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      tags:
-    </th>
-
-    <td class="field-body">
-      cc, mediawiki, semantic mediawiki, smw
-    </td>
-  </tr>
-</table>
 
  [1]: http://wiki.creativecommons.org/CcTeamspace
  [2]: http://yergler.net/blog/2010/01/02/meta/

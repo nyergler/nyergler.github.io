@@ -1,15 +1,6 @@
 ---
-title: 'The Day After'
-author: Nathan Yergler
-type: post
-date: 2008-11-05T19:52:45+00:00
-excerpt: |
-  <p>Last week I attended a meeting at Yale and had planned to spend the
-  weekend with Matt and <a class="reference external" href="http://www.alexrobertsontextor.com">Alex</a> in
-  New York, flying back on Monday (the 3rd). When the opportunity to
-  attend a relevant meeting at <span class="caps">MIT</span> today and tomorrow came up, I knew I
-  had two options: vote ...</p>
-url: /2008/11/05/the-day-after/
+title: The Day After
+date: 2008-11-05T19:52:45.000Z
 categories:
   - gay
   - my life
@@ -18,7 +9,7 @@ tags:
   - obama
   - prop 8
   - voting
-
+slug: the-day-after
 ---
 Last week I attended a meeting at Yale and had planned to spend the weekend with Matt and [Alex][1]  in New York, flying back on Monday (the 3rd). When the opportunity to attend a relevant meeting at <span class="caps">MIT</span> today and tomorrow came up, I knew I had two options: vote early or fly back as planned on Monday, vote Tuesday morning and fly back to the east coast Tuesday night. I hate flying, but I’d endure two extra trans-continental flights to make sure my vote was cast. Voting for Obama was important to me because he seemed to offer a significant change from the past eight years, a change I and (apparently) many others are hungry for. But far more important to me was voting No on California Proposition 8.
 
@@ -40,76 +31,7 @@ From Cambridge it appears there’s a lot of anger, but I really think this mask
 
 Right now R is on his way to join a candle light vigil at City Hall. I’m very frustrated to be so far away and unable to participate. As I think about it this just demonstrates why what I have in San Francisco is so important, so special. I have a family of choice that loves and supports me without condition or constraint. It’s important for me to remember this as I grieve yet another rejection, yet another hurt. I guess I can also work on having compassion; it must be terrifying and depressing to live with a world view that believes someone else’s relationship has the power the destroy society. But above all I need to remember that the “Yes on 8” people don’t get to decide who I love or how I express that.
 
-<table class="docutils field-list" frame="void" rules="none">
-  <col class="field-name" /> <col class="field-body" /> <tr class="field">
-    <th class="field-name">
-      date:
-    </th>
 
-    <td class="field-body">
-      2008-11-05 19:52:45
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      wordpress_id:
-    </th>
-
-    <td class="field-body">
-      643
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      layout:
-    </th>
-
-    <td class="field-body">
-      post
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      slug:
-    </th>
-
-    <td class="field-body">
-      the-day-after
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      comments:
-    </th>
-
-    <td class="field-body">
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      category:
-    </th>
-
-    <td class="field-body">
-      gay, my life, politics
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      tags:
-    </th>
-
-    <td class="field-body">
-      obama, prop 8, voting
-    </td>
-  </tr>
-</table>
 
  [1]: http://www.alexrobertsontextor.com
  [2]: http://en.wikipedia.org/wiki/California_Proposition_8_(2008)

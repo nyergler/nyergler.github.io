@@ -1,17 +1,9 @@
 ---
-title: 'A Few (Musical) Notes'
-author: Nathan Yergler
-type: post
-date: 2003-12-11T09:07:42+00:00
-excerpt: |
-  <p>I’ve been busy with papers and exams for school the past few days, but
-  am happy that I turned in my final research paper last night. Now it’s
-  just finals, and then a break. The nice thing about working at a school
-  as well as attending school is ...</p>
-url: /2003/12/11/a-few-musical-notes/
+title: A Few (Musical) Notes
+date: 2003-12-11T09:07:42.000Z
+slug: a-few-musical-notes
 categories:
   - my life
-
 ---
 I’ve been busy with papers and exams for school the past few days, but am happy that I turned in my final research paper last night. Now it’s just finals, and then a break. The nice thing about working at a school as well as attending school is that I actually get a Winter Break. I can’t wait.
 
@@ -23,66 +15,6 @@ As an [iTunes][6]  and [Movable Type][7]  devotee, the [iTunes Trackback Script]
 
 And on the subject of iTunes; wouldn’t it be cool to add Creative Commons licensing verification? Maybe display the attribute icons in the “<span class="caps">LCD</span>” area? Just an idea at this point; anyone know if iTunes provides hooks to draw things differently, or display different “tags” there?
 
-<table class="docutils field-list" frame="void" rules="none">
-  <col class="field-name" /> <col class="field-body" /> <tr class="field">
-    <th class="field-name">
-      date:
-    </th>
-
-    <td class="field-body">
-      2003-12-11 09:07:42
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      wordpress_id:
-    </th>
-
-    <td class="field-body">
-      59
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      layout:
-    </th>
-
-    <td class="field-body">
-      post
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      slug:
-    </th>
-
-    <td class="field-body">
-      a-few-musical-notes
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      comments:
-    </th>
-
-    <td class="field-body">
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      category:
-    </th>
-
-    <td class="field-body">
-      my life
-    </td>
-  </tr>
-</table>
 
  [1]: http://www.amazon.com/exec/obidos/ASIN/B00007BH3Y/qid=1071151246/sr=2-1/ref=sr_2_1/002-1895226-0536828
  [2]: http://www.markotic.net

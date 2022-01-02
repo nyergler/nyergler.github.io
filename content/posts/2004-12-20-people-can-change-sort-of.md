@@ -1,20 +1,9 @@
 ---
-title: 'People Can Change.  Sort of.'
-author: Nathan Yergler
-type: post
-date: 2004-12-20T08:14:50+00:00
-excerpt: |
-  <p>My family’s evolving reaction to my sexuality is a continual source of
-  learning and frustration. Like many people, I was raised in an
-  incredibly fundamentalist environment, and have since declared, “I’m
-  Gay! Really, really gay!” So it was frustrating, but not that suprising,
-  when I was
-  <a class="reference external" href="http://yergler.net/blog/archives/2003/11/26/ahh-the-holidays">de-invited</a>
-  from ...</p>
-url: /2004/12/20/people-can-change-sort-of/
+title: People Can Change.  Sort of.
+date: 2004-12-20T08:14:50.000Z
 categories:
   - my life
-
+slug: people-can-change-sort-of
 ---
 My family’s evolving reaction to my sexuality is a continual source of learning and frustration. Like many people, I was raised in an incredibly fundamentalist environment, and have since declared, “I’m Gay! Really, really gay!” So it was frustrating, but not that suprising, when I was [de-invited][1]  from my aunt’s Thanksgiving and Christmas parties last year. Well, **I** wasn’t exactly deinvited: only the parts of me they found objectionable.
 
@@ -24,65 +13,6 @@ Last night was said Christmas party, and we managed to escape without any confro
 
 Of course, it’s not all well: no one can seem to remember what Garrett does or where he works. My dad, my mom, my siblings and their husbands. No one. Every month or so when we see them, they ask, “now what do you do?” Please, if you must be polite, at least remember what you’re being polite about! It was suprising (pleasantly) last night, then, when Aaron, my cousin’s husband, asked Garrett about work. And knew what he did. And knew where he worked. And did I mention that Aaron and Bobby live in Florida? And that we haven’t seen them in over a year? Yeah.
 
-<table class="docutils field-list" frame="void" rules="none">
-  <col class="field-name" /> <col class="field-body" /> <tr class="field">
-    <th class="field-name">
-      date:
-    </th>
 
-    <td class="field-body">
-      2004-12-20 08:14:50
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      wordpress_id:
-    </th>
-
-    <td class="field-body">
-      240
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      layout:
-    </th>
-
-    <td class="field-body">
-      post
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      slug:
-    </th>
-
-    <td class="field-body">
-      people-can-change-sort-of
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      comments:
-    </th>
-
-    <td class="field-body">
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      category:
-    </th>
-
-    <td class="field-body">
-      my life
-    </td>
-  </tr>
-</table>
 
  [1]: http://yergler.net/blog/archives/2003/11/26/ahh-the-holidays

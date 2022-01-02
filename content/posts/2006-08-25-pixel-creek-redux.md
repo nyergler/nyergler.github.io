@@ -1,20 +1,9 @@
 ---
 title: 'Pixel Creek, redux'
-author: Nathan Yergler
-type: post
-date: 2006-08-25T12:31:19+00:00
-excerpt: |
-  <p>A while back I
-  <a class="reference external" href="http://yergler.net/blog/2006/04/05/pixel-creek-we-you-absolutely-want-the-very-worst/">blogged</a>
-  about my crappy, crappy experience with a local company <a class="reference external" href="http://www.pixelcreek.com/">Pixel
-  Creek</a>, who happens to be an authorized
-  Apple Service Provider. I didn’t claim that my experience was universal
-  or canonical, simply that the level of service provided was so low I
-  could not imagine ...</p>
-url: /2006/08/25/pixel-creek-redux/
+date: 2006-08-25T12:31:19.000Z
 categories:
   - my life
-
+slug: pixel-creek-redux
 ---
 A while back I [blogged][1]  about my crappy, crappy experience with a local company [Pixel Creek][2] , who happens to be an authorized Apple Service Provider. I didn’t claim that my experience was universal or canonical, simply that the level of service provided was so low I could not imagine them having return business. Apparently I was wrong. Recently a couple of positive comments have showed up on that post, including this from “Terry”.
 
@@ -23,66 +12,7 @@ Wow, “Terry” sounds like a satisfied customer. Of course, his comment was po
 
 Now I’m sure that someone from Pixel Creek wouldn’t _actually_ pretend to be a customer just to defend themselves. Of course, nothing in the comment actually says Terry is a customer; his comments could be equally valid regarding his co-workers. I don’t know and ultimately it doesn’t really matter. I’m just enjoying showing up right below their corporate site in Google search results.
 
-<table class="docutils field-list" frame="void" rules="none">
-  <col class="field-name" /> <col class="field-body" /> <tr class="field">
-    <th class="field-name">
-      date:
-    </th>
 
-    <td class="field-body">
-      2006-08-25 12:31:19
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      wordpress_id:
-    </th>
-
-    <td class="field-body">
-      440
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      layout:
-    </th>
-
-    <td class="field-body">
-      post
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      slug:
-    </th>
-
-    <td class="field-body">
-      pixel-creek-redux
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      comments:
-    </th>
-
-    <td class="field-body">
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      category:
-    </th>
-
-    <td class="field-body">
-      my life
-    </td>
-  </tr>
-</table>
 
  [1]: http://yergler.net/blog/2006/04/05/pixel-creek-we-you-absolutely-want-the-very-worst/
  [2]: http://www.pixelcreek.com/

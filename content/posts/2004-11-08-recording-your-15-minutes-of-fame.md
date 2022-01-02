@@ -1,19 +1,9 @@
 ---
-title: 'Recording Your 15 Minutes of Fame'
-author: Nathan Yergler
-type: post
-date: 2004-11-08T16:46:16+00:00
-excerpt: |
-  <p>I don’t know about anyone else, but <a class="reference external" href="http://news.google.com">Google
-  News</a> has become an important source of news
-  in my daily surfing. Even more useful has been the <a class="reference external" href="http://www.google.com/alerts?q=&amp;hl=en">Google News
-  Alerts</a>, which allow you to
-  receive email notifications of news stories containing specific
-  keywords. Now an <span class="caps">RSS</span> or Atom feed of ...</p>
-url: /2004/11/08/recording-your-15-minutes-of-fame/
+title: Recording Your 15 Minutes of Fame
+date: 2004-11-08T16:46:16.000Z
 categories:
   - development
-
+slug: recording-your-15-minutes-of-fame
 ---
 I don’t know about anyone else, but [Google News][1]  has become an important source of news in my daily surfing. Even more useful has been the [Google News Alerts][2] , which allow you to receive email notifications of news stories containing specific keywords. Now an <span class="caps">RSS</span> or Atom feed of said stories would be even better, but News Alerts are a start.
 
@@ -23,66 +13,7 @@ You can find the source to GNAimport.py, along with the code for the SimpleBlog 
 
 Let me know if you find it useful or find bugs; enjoy.
 
-<table class="docutils field-list" frame="void" rules="none">
-  <col class="field-name" /> <col class="field-body" /> <tr class="field">
-    <th class="field-name">
-      date:
-    </th>
 
-    <td class="field-body">
-      2004-11-08 16:46:16
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      wordpress_id:
-    </th>
-
-    <td class="field-body">
-      230
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      layout:
-    </th>
-
-    <td class="field-body">
-      post
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      slug:
-    </th>
-
-    <td class="field-body">
-      recording-your-15-minutes-of-fame
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      comments:
-    </th>
-
-    <td class="field-body">
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      category:
-    </th>
-
-    <td class="field-body">
-      development
-    </td>
-  </tr>
-</table>
 
  [1]: http://news.google.com
  [2]: http://www.google.com/alerts?q=&hl=en

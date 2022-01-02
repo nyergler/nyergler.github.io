@@ -1,19 +1,9 @@
 ---
-title: 'Friend Devaluation'
-author: Nathan Yergler
-type: post
-date: 2008-05-05T10:23:09+00:00
-excerpt: |
-  <p>I can’t take credit for finding it — that goes to
-  <a class="reference external" href="http://netmonkey.net">Matt</a> — but this video is a hilarious take on
-  Facebook in real life.</p>
-  <p>Seeing this reminded me of something I’ve thought for quite a while:
-  sites like Facebook, MySpace, etc all devalue the label of “friend”.</p>
-  <p>Some context ...</p>
-url: /2008/05/05/friend-devaluation/
+title: Friend Devaluation
+date: 2008-05-05T10:23:09.000Z
 categories:
   - General
-
+slug: friend-devaluation
 ---
 I can’t take credit for finding it — that goes to [Matt][1]  — but this video is a hilarious take on Facebook in real life.
 
@@ -23,65 +13,6 @@ Some context: Facebook and Linked In are the only social networks I use with any
 
 So if you _don’t_ want your mom (or co-workers, or boss, etc) to see pictures of you covered in “puke and piss”, do two things: learn about the privacy settings in Facebook and only add friends who are your, well, friends. Alternately don’t put yourself in situations where you can be photographed covered in puke and/or piss, but really, let’s focus on achievable goals.
 
-<table class="docutils field-list" frame="void" rules="none">
-  <col class="field-name" /> <col class="field-body" /> <tr class="field">
-    <th class="field-name">
-      date:
-    </th>
 
-    <td class="field-body">
-      2008-05-05 10:23:09
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      wordpress_id:
-    </th>
-
-    <td class="field-body">
-      551
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      layout:
-    </th>
-
-    <td class="field-body">
-      post
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      slug:
-    </th>
-
-    <td class="field-body">
-      friend-devaluation
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      comments:
-    </th>
-
-    <td class="field-body">
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      category:
-    </th>
-
-    <td class="field-body">
-      General
-    </td>
-  </tr>
-</table>
 
  [1]: http://netmonkey.net

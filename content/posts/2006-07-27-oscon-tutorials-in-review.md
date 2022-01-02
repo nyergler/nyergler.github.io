@@ -1,20 +1,9 @@
 ---
 title: OSCON Tutorials in Review
-author: Nathan Yergler
-type: post
-date: 2006-07-27T10:25:56+00:00
-excerpt: |
-  <p>So I’m speaking at <a class="reference external" href="http://conferences.oreillynet.com/os2006/"><span class="caps">OSCON</span></a>
-  this year on how we’re using the <a class="reference external" href="http://conferences.oreillynet.com/cs/os2006/view/e_sess/8752">Zope 3 component model and
-  infrastructure</a>
-  to make <a class="reference external" href="http://wiki.creativecommons.org/CcPublisher">ccPublisher</a>
-  extensible. I flew into Portland Sunday evening, and spent the past
-  Monday and Tuesday attending some tutorials, and today was the first day
-  of sessions proper. Read ...</p>
-url: /2006/07/27/oscon-tutorials-in-review/
+date: 2006-07-27T10:25:56.000Z
 categories:
   - oscon2006
-
+slug: oscon-tutorials-in-review
 ---
 So I’m speaking at [<span class="caps">OSCON</span>][1]  this year on how we’re using the [Zope 3 component model and infrastructure][2]  to make [ccPublisher][3]  extensible. I flew into Portland Sunday evening, and spent the past Monday and Tuesday attending some tutorials, and today was the first day of sessions proper. Read on for some review of the tutorials I attended.
 
@@ -32,66 +21,7 @@ So out of two days of tutorials, there were two sessions that were really good (
 
 Yesterday was the first full day of sessions, which I’ll write up shortly. However, this morning is my talk at 10:30, so if you’re at <span class="caps">OSCON</span> and interested in compenent based software construction under Python, stop by D136 at 10:30 this morning.
 
-<table class="docutils field-list" frame="void" rules="none">
-  <col class="field-name" /> <col class="field-body" /> <tr class="field">
-    <th class="field-name">
-      date:
-    </th>
 
-    <td class="field-body">
-      2006-07-27 10:25:56
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      wordpress_id:
-    </th>
-
-    <td class="field-body">
-      432
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      layout:
-    </th>
-
-    <td class="field-body">
-      post
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      slug:
-    </th>
-
-    <td class="field-body">
-      oscon-tutorials-in-review
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      comments:
-    </th>
-
-    <td class="field-body">
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      category:
-    </th>
-
-    <td class="field-body">
-      oscon2006
-    </td>
-  </tr>
-</table>
 
  [1]: http://conferences.oreillynet.com/os2006/
  [2]: http://conferences.oreillynet.com/cs/os2006/view/e_sess/8752

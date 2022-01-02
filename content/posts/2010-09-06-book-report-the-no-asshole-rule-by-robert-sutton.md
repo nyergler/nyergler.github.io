@@ -1,21 +1,12 @@
 ---
 title: 'Book Report: “The No Asshole Rule”, by Robert Sutton'
-author: Nathan Yergler
-type: post
-date: 2010-09-06T14:50:46+00:00
-excerpt: |
-  <p>My annual review at <a class="reference external" href="http://creativecommons.org/">Creative Commons</a>
-  took place at the end of July, and like last year, the emphasis was on
-  the growing area of focus for me: management. I consider myself an
-  accidental manager, but the anecdotal evidence is that I’m not terrible
-  at it. The conversation during ...</p>
-url: /2010/09/06/book-report-the-no-asshole-rule-by-robert-sutton/
+date: 2010-09-06T14:50:46.000Z
 categories:
   - reading
 tags:
   - business
   - reading
-
+slug: book-report-the-no-asshole-rule-by-robert-sutton
 ---
 My annual review at [Creative Commons][1]  took place at the end of July, and like last year, the emphasis was on the growing area of focus for me: management. I consider myself an accidental manager, but the anecdotal evidence is that I’m not terrible at it. The conversation during my review, and a prior conversation with a consultant from [Teleos][2] , led me to believe that I could improve my performance by learning more about “best practices” or “first principles”. So I’m trying to read some of the “literature”. While it’s not all directly applicable (or interesting), I think of it sort of like x86 assembler: I don’t want to write software in assembler, but I’m convinced that having some understanding of it helps me do better a better job at the work I do want to do.
 
@@ -37,76 +28,7 @@ Overall “The No Asshole Rule” helped me think about what kind of environment
 
 <sup>†</sup> As Sutton points out, most of us are assholes every now and then. Reading this helped me identify things I have done in the past and think about how I might approach the situation differently today.
 
-<table class="docutils field-list" frame="void" rules="none">
-  <col class="field-name" /> <col class="field-body" /> <tr class="field">
-    <th class="field-name">
-      date:
-    </th>
 
-    <td class="field-body">
-      2010-09-06 14:50:46
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      wordpress_id:
-    </th>
-
-    <td class="field-body">
-      1771
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      layout:
-    </th>
-
-    <td class="field-body">
-      post
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      slug:
-    </th>
-
-    <td class="field-body">
-      book-report-the-no-asshole-rule-by-robert-sutton
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      comments:
-    </th>
-
-    <td class="field-body">
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      category:
-    </th>
-
-    <td class="field-body">
-      reading
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      tags:
-    </th>
-
-    <td class="field-body">
-      business, reading
-    </td>
-  </tr>
-</table>
 
  [1]: http://creativecommons.org/
  [2]: http://www.teleosleaders.com/

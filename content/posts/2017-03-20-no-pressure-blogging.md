@@ -1,13 +1,10 @@
 ---
 title: “No Pressure Blogging”
-author: Nathan Yergler
-type: post
-date: 2017-03-20T04:45:50+00:00
-url: /2017/03/20/no-pressure-blogging/
+date: 2017-03-20T04:45:50.000Z
 categories:
   - Uncategorized
 format: aside
-
+slug: no-pressure-blogging
 ---
 If I had [something in the works that I felt I could label an &#8220;essay&#8221;][1], I think I&#8217;d feel pressure. And that&#8217;s at least part of the reason for a three year hiatus on the blog.
 

@@ -1,14 +1,6 @@
 ---
-title: 'Six Word Memoir'
-author: Nathan Yergler
-type: post
-date: 2010-02-24T20:58:26+00:00
-excerpt: |
-  <p>I received an email from my ninth grade English teacher a few days ago.
-  She emailed the alumni list, asking for help with a project they’re
-  doing: six word memoirs. Of high school. I suppose this is where I make
-  a joke about that being the appropriate length for ...</p>
-url: /2010/02/24/six-word-memoir/
+title: Six Word Memoir
+date: 2010-02-24T20:58:26.000Z
 categories:
   - my life
 tags:
@@ -16,7 +8,7 @@ tags:
   - high school
   - memoir
   - writing
-
+slug: six-word-memoir
 ---
 I received an email from my ninth grade English teacher a few days ago. She emailed the alumni list, asking for help with a project they’re doing: six word memoirs. Of high school. I suppose this is where I make a joke about that being the appropriate length for a memoir about something like high school, something that seems so important at the time, and turns out (for me, at least) unimportant in the scheme of things. I was interested at first, but the guidelines fixed that:
 
@@ -25,73 +17,4 @@ It seems to me that the _point_ of a memoir is to get personal, contemplate reve
 
 Alleged wish frustratingly fulfilled: left alone.
 
-<table class="docutils field-list" frame="void" rules="none">
-  <col class="field-name" /> <col class="field-body" /> <tr class="field">
-    <th class="field-name">
-      date:
-    </th>
 
-    <td class="field-body">
-      2010-02-24 20:58:26
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      wordpress_id:
-    </th>
-
-    <td class="field-body">
-      1489
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      layout:
-    </th>
-
-    <td class="field-body">
-      post
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      slug:
-    </th>
-
-    <td class="field-body">
-      six-word-memoir
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      comments:
-    </th>
-
-    <td class="field-body">
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      category:
-    </th>
-
-    <td class="field-body">
-      my life
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      tags:
-    </th>
-
-    <td class="field-body">
-      Canterbury, high school, memoir, writing
-    </td>
-  </tr>
-</table>

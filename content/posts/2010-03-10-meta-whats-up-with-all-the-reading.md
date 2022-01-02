@@ -1,22 +1,13 @@
 ---
 title: 'Meta: What’s up with all the Reading?'
-author: Nathan Yergler
-type: post
-date: 2010-03-10T07:04:26+00:00
-excerpt: |
-  <p>So far this year, I’ve published seven posts with the tag
-  “<a class="reference external" href="http://yergler.net/blog/tag/reading/">reading</a>“. Of 24 posts
-  this year (already more than all of 2009!), that’s almost a third of my
-  blogging. Put another way, in the first five years of blogging I wrote
-  four book-related posts; I’ve almost ...</p>
-url: /2010/03/10/meta-whats-up-with-all-the-reading/
+date: 2010-03-10T07:04:26.000Z
 categories:
   - reading
   - yergler.net
 tags:
   - meta
   - reading
-
+slug: meta-whats-up-with-all-the-reading
 ---
 So far this year, I’ve published seven posts with the tag “[reading][1] “. Of 24 posts this year (already more than all of 2009!), that’s almost a third of my blogging. Put another way, in the first five years of blogging I wrote four book-related posts; I’ve almost doubled that in the first quarter of 2010.
 
@@ -28,76 +19,7 @@ And that’s why my blog seems like a book report lately.
 
 <sup>1</sup> I see blogging as a practice: something that I do with regularity, which has immediate and cumulative benefits.
 
-<table class="docutils field-list" frame="void" rules="none">
-  <col class="field-name" /> <col class="field-body" /> <tr class="field">
-    <th class="field-name">
-      date:
-    </th>
 
-    <td class="field-body">
-      2010-03-10 07:04:26
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      wordpress_id:
-    </th>
-
-    <td class="field-body">
-      1559
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      layout:
-    </th>
-
-    <td class="field-body">
-      post
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      slug:
-    </th>
-
-    <td class="field-body">
-      meta-whats-up-with-all-the-reading
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      comments:
-    </th>
-
-    <td class="field-body">
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      category:
-    </th>
-
-    <td class="field-body">
-      reading, yergler.net
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      tags:
-    </th>
-
-    <td class="field-body">
-      meta, reading
-    </td>
-  </tr>
-</table>
 
  [1]: http://yergler.net/blog/tag/reading/
  [2]: http://yergler.net/blog/2010/01/02/meta/

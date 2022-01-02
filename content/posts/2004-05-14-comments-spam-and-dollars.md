@@ -1,17 +1,9 @@
 ---
 title: 'Comments, Spam and Dollars'
-author: Nathan Yergler
-type: post
-date: 2004-05-14T14:05:06+00:00
-excerpt: |
-  <p>So I’ve been busy with work and yard work lately, so not much time to
-  blog. That said, there’s big news comin’&#8230;. just you wait. Until then,
-  I’ve been battling annoying comment spammers who want to promote their
-  “wonder pill” in the obscure entries of my blog ...</p>
-url: /2004/05/14/comments-spam-and-dollars/
+date: 2004-05-14T14:05:06.000Z
 categories:
   - yergler.net
-
+slug: comments-spam-and-dollars
 ---
 So I’ve been busy with work and yard work lately, so not much time to blog. That said, there’s big news comin’&#8230;. just you wait. Until then, I’ve been battling annoying comment spammers who want to promote their “wonder pill” in the obscure entries of my blog. I’ve grown tired of banning <span class="caps">IP</span> addresses, so I went and looked at [MovableType.org][1]  to see if they had anything new I might use to remedy the situation. Boy, was I in for a suprise.
 
@@ -25,66 +17,7 @@ Will I be shelling out for <span class="caps">MT3</span>? Um, no. First, my usag
 
 Whatever I do, it has to be soon: I can’t stand much more of the comment spam.
 
-<table class="docutils field-list" frame="void" rules="none">
-  <col class="field-name" /> <col class="field-body" /> <tr class="field">
-    <th class="field-name">
-      date:
-    </th>
 
-    <td class="field-body">
-      2004-05-14 14:05:06
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      wordpress_id:
-    </th>
-
-    <td class="field-body">
-      128
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      layout:
-    </th>
-
-    <td class="field-body">
-      post
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      slug:
-    </th>
-
-    <td class="field-body">
-      comments-spam-and-dollars
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      comments:
-    </th>
-
-    <td class="field-body">
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      category:
-    </th>
-
-    <td class="field-body">
-      yergler.net
-    </td>
-  </tr>
-</table>
 
  [1]: http://movabletype.org
  [2]: http://roughingit.subtlehints.net/pyblosxom/

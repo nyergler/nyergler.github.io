@@ -1,22 +1,9 @@
 ---
-title: 'mozCC Update'
-author: Nathan Yergler
-type: post
-date: 2004-10-11T15:45:36+00:00
-excerpt: |
-  <p>From the <a class="reference external" href="http://yergler.net/projects/mozcc/news">mozCC News</a> page:</p>
-  <blockquote>
-  mozCC 0.9.0 has been released. This upgrade includes support for the
-  new <a class="reference external" href="http://creativecommons.org/license/devnations">Developing
-  Nations</a> license,
-  as well as improved detection and support of the <a class="reference external" href="http://creativecommons.org/license/sampling">Sampling and
-  Sampling+</a> licenses.</blockquote>
-  <p>It’s not a huge upgrade, but more of a maintenance release; <a class="reference external" href="http://yergler.net/projects/mozcc/install">check it
-  out ...</a></p>
-url: /2004/10/11/mozcc-update/
+title: mozCC Update
+date: 2004-10-11T15:45:36.000Z
 categories:
   - mozCC
-
+slug: mozcc-update
 ---
 From the [mozCC News][1]  page:
 
@@ -25,66 +12,7 @@ It’s not a huge upgrade, but more of a maintenance release; [check it out][4] 
 
 I also just realized that the screenshots on the site are horribly out of date, displaying a details dialog that’s be gone for half a dozen releases. [Here’s][6]  a new screenshot, showing off the new details dialog. And by “new” I mean “added in the last 9 months.”
 
-<table class="docutils field-list" frame="void" rules="none">
-  <col class="field-name" /> <col class="field-body" /> <tr class="field">
-    <th class="field-name">
-      date:
-    </th>
 
-    <td class="field-body">
-      2004-10-11 15:45:36
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      wordpress_id:
-    </th>
-
-    <td class="field-body">
-      208
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      layout:
-    </th>
-
-    <td class="field-body">
-      post
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      slug:
-    </th>
-
-    <td class="field-body">
-      mozcc-update
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      comments:
-    </th>
-
-    <td class="field-body">
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      category:
-    </th>
-
-    <td class="field-body">
-      mozCC
-    </td>
-  </tr>
-</table>
 
  [1]: http://yergler.net/projects/mozcc/news
  [2]: http://creativecommons.org/license/devnations

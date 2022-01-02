@@ -1,20 +1,10 @@
 ---
 title: Relocated
-author: Nathan Yergler
-type: post
-date: 2007-06-10T16:47:03+00:00
-excerpt: |
-  <p>Months sooner than I initially expected, I find myself living in San
-  Francisco. Things on here have been mostly silent since my <a class="reference external" href="http://yergler.net/blog/2007/05/10/pending-changes/">last
-  post</a>, but
-  extremely busy in meatspace. As I mentioned in my last post, I ended up
-  with an apartment in Duboce Triangle, near enough to <a class="reference external" href="http://dubocepark.com/">Duboce
-  Park ...</a></p>
-url: /2007/06/10/relocated/
+date: 2007-06-10T16:47:03.000Z
 categories:
   - my life
   - san francisco
-
+slug: relocated
 ---
 Months sooner than I initially expected, I find myself living in San Francisco. Things on here have been mostly silent since my [last post][1] , but extremely busy in meatspace. As I mentioned in my last post, I ended up with an apartment in Duboce Triangle, near enough to [Duboce Park][2]  that I can easily walk [Maddie][3]  there.
 
@@ -42,66 +32,7 @@ Wednesday evening my Mom flew in from Indiana, and we spent the rest of the week
 
 It is a little surreal; for the past three years I frequently thought about moving to the city, but mostly as an escapist fantasy. Now here I am, actually _here_. After a week off (and two previous weeks really preoccupied with the move) I go back to work tomorrow. I’m really excited about being in the office on a daily basis and what the next year will hold.
 
-<table class="docutils field-list" frame="void" rules="none">
-  <col class="field-name" /> <col class="field-body" /> <tr class="field">
-    <th class="field-name">
-      date:
-    </th>
 
-    <td class="field-body">
-      2007-06-10 16:47:03
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      wordpress_id:
-    </th>
-
-    <td class="field-body">
-      526
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      layout:
-    </th>
-
-    <td class="field-body">
-      post
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      slug:
-    </th>
-
-    <td class="field-body">
-      relocated
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      comments:
-    </th>
-
-    <td class="field-body">
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      category:
-    </th>
-
-    <td class="field-body">
-      my life, san francisco
-    </td>
-  </tr>
-</table>
 
  [1]: http://yergler.net/blog/2007/05/10/pending-changes/
  [2]: http://dubocepark.com/

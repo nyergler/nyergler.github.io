@@ -1,17 +1,6 @@
 ---
-title: 'Brief thoughts on Microsoft + Apache Foundation'
-author: Nathan Yergler
-type: post
-date: 2008-08-09T20:23:44+00:00
-excerpt: |
-  <p>I’m late with this (typical these days), but at <span class="caps">OSCON</span> a couple weeks ago
-  Microsoft announced <a class="reference external" href="http://arstechnica.com/news.ars/post/20080725-microsoft-to-sponsor-of-the-apache-software-foundation.html">they’re supporting the Apache
-  Foundation</a>.
-  <a class="reference external" href="http://en.wikipedia.org/wiki/Bruce_perens">Bruce Perens</a> has <a class="reference external" href="http://itmanagement.earthweb.com/osrc/article.php/3762786/Bruce+Perens:+Microsoft+and+Apache+-+Whats+the+Angle?.htm">an
-  editorial</a>
-  in Datamation about what the angle may be. Bruce posits that the primary
-  motivation is publicity. That Microsoft has realized open source ...</p>
-url: /2008/08/09/brief-thoughts-on-microsoft-apache-foundation/
+title: Brief thoughts on Microsoft + Apache Foundation
+date: 2008-08-09T20:23:44.000Z
 categories:
   - geek
 tags:
@@ -19,7 +8,7 @@ tags:
   - license
   - microsoft
   - open source
-
+slug: brief-thoughts-on-microsoft-apache-foundation
 ---
 I’m late with this (typical these days), but at <span class="caps">OSCON</span> a couple weeks ago Microsoft announced [they’re supporting the Apache Foundation][1] . [Bruce Perens][2]  has [an editorial][3]  in Datamation about what the angle may be. Bruce posits that the primary motivation is publicity. That Microsoft has realized open source is here to stay and sees the Apache license as the lesser of a crowd of evils. That all makes perfect sense to me.
 
@@ -31,88 +20,7 @@ So while I’d like to think I’m right and that this is just a corporate behem
 
 <hr class="docutils" />
 
-<table class="docutils footnote" frame="void" id="id1" rules="none">
-  <colgroup><col class="label" /><col /></colgroup> <tr>
-    <td class="label">
-      [1]
-    </td>
 
-    <td>
-      Well, not completely; shopping for a new laptop I still have to consider how willing I am to pay for an operating system I won’t use.
-    </td>
-  </tr>
-</table>
-
-<table class="docutils field-list" frame="void" rules="none">
-  <col class="field-name" /> <col class="field-body" /> <tr class="field">
-    <th class="field-name">
-      date:
-    </th>
-
-    <td class="field-body">
-      2008-08-09 20:23:44
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      wordpress_id:
-    </th>
-
-    <td class="field-body">
-      621
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      layout:
-    </th>
-
-    <td class="field-body">
-      post
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      slug:
-    </th>
-
-    <td class="field-body">
-      brief-thoughts-on-microsoft-apache-foundation
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      comments:
-    </th>
-
-    <td class="field-body">
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      category:
-    </th>
-
-    <td class="field-body">
-      geek
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      tags:
-    </th>
-
-    <td class="field-body">
-      apache, license, microsoft, open source
-    </td>
-  </tr>
-</table>
 
  [1]: http://arstechnica.com/news.ars/post/20080725-microsoft-to-sponsor-of-the-apache-software-foundation.html
  [2]: http://en.wikipedia.org/wiki/Bruce_perens

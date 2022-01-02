@@ -1,19 +1,9 @@
 ---
-title: 'Becoming Common'
-author: Nathan Yergler
-type: post
-date: 2004-06-08T11:37:30+00:00
-excerpt: |
-  <p>In a
-  <a class="reference external" href="http://yergler.net/blog/archives/2004/05/14/comments-spam-and-dollars">recent</a>
-  post I alluded to changes that were coming soon. I say recent because it
-  still shows up on the front page of my blog, not because it was really
-  that recent. Geesh, almost a month. Anyway, now that the contract is
-  signed and the important people know ...</p>
-url: /2004/06/08/becoming-common/
+title: Becoming Common
+date: 2004-06-08T11:37:30.000Z
 categories:
   - my life
-
+slug: becoming-common
 ---
 In a [recent][1]  post I alluded to changes that were coming soon. I say recent because it still shows up on the front page of my blog, not because it was really that recent. Geesh, almost a month. Anyway, now that the contract is signed and the important people know, I can finally talk about those changes.
 
@@ -23,66 +13,7 @@ Canterbury has been very good to me, so it’s not without some bittersweet feel
 
 I’m sure I’ll be posting more about <span class="caps">CC</span> topics here in the near future. In the meantime, support me in my new job by trying out the [latest builds][9]  of the <span class="caps">GUI</span> version of ccTag, and let me know what you think.
 
-<table class="docutils field-list" frame="void" rules="none">
-  <col class="field-name" /> <col class="field-body" /> <tr class="field">
-    <th class="field-name">
-      date:
-    </th>
 
-    <td class="field-body">
-      2004-06-08 11:37:30
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      wordpress_id:
-    </th>
-
-    <td class="field-body">
-      135
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      layout:
-    </th>
-
-    <td class="field-body">
-      post
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      slug:
-    </th>
-
-    <td class="field-body">
-      becoming-common
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      comments:
-    </th>
-
-    <td class="field-body">
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      category:
-    </th>
-
-    <td class="field-body">
-      my life
-    </td>
-  </tr>
-</table>
 
  [1]: http://yergler.net/blog/archives/2004/05/14/comments-spam-and-dollars
  [2]: http://canterburyschool.org

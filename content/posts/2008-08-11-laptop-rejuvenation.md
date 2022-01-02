@@ -1,22 +1,13 @@
 ---
-title: 'Laptop Rejuvenation'
-author: Nathan Yergler
-type: post
-date: 2008-08-11T09:49:42+00:00
-excerpt: |
-  <p>I’ve owned my <a class="reference external" href="http://en.wikipedia.org/wiki/MacBook">MacBook</a> for
-  about 18 months now, which is coming close to a record for me. I was
-  looking at replacing it with a new laptop — preferably something running
-  <a class="reference external" href="http://ubuntu.com">Ubuntu</a> that doesn’t totally look like ass. I
-  started looking and saw things I liked from both ...</p>
-url: /2008/08/11/laptop-rejuvenation/
+title: Laptop Rejuvenation
+date: 2008-08-11T09:49:42.000Z
 categories:
   - geek
 tags:
   - apple
   - macbook
   - service
-
+slug: laptop-rejuvenation
 ---
 I’ve owned my [MacBook][1]  for about 18 months now, which is coming close to a record for me. I was looking at replacing it with a new laptop — preferably something running [Ubuntu][2]  that doesn’t totally look like ass. I started looking and saw things I liked from both Dell and [System 76][3]  (I really wanted to like [Zareason][4] , especially given that they’re local, but System 76 kills them on pricing).
 
@@ -30,88 +21,7 @@ Brian was actually really nice and helpful about the whole situation (almost mak
 
 <hr class="docutils" />
 
-<table class="docutils footnote" frame="void" id="id1" rules="none">
-  <colgroup><col class="label" /><col /></colgroup> <tr>
-    <td class="label">
-      [1]
-    </td>
 
-    <td>
-      I had one <span class="caps">2GB</span> <span class="caps">SO</span>&#8211;<span class="caps">DIMM</span> already lying around in my Eee <span class="caps">PC</span>.
-    </td>
-  </tr>
-</table>
-
-<table class="docutils field-list" frame="void" rules="none">
-  <col class="field-name" /> <col class="field-body" /> <tr class="field">
-    <th class="field-name">
-      date:
-    </th>
-
-    <td class="field-body">
-      2008-08-11 09:49:42
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      wordpress_id:
-    </th>
-
-    <td class="field-body">
-      627
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      layout:
-    </th>
-
-    <td class="field-body">
-      post
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      slug:
-    </th>
-
-    <td class="field-body">
-      laptop-rejuvenation
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      comments:
-    </th>
-
-    <td class="field-body">
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      category:
-    </th>
-
-    <td class="field-body">
-      geek
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      tags:
-    </th>
-
-    <td class="field-body">
-      apple, macbook, service
-    </td>
-  </tr>
-</table>
 
  [1]: http://en.wikipedia.org/wiki/MacBook
  [2]: http://ubuntu.com

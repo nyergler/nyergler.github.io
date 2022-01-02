@@ -1,17 +1,9 @@
 ---
-title: 'Blogging is Hard'
-author: Nathan Yergler
-type: post
-date: 2004-04-12T11:50:04+00:00
-excerpt: |
-  <p>Blogging is hard, but it shouldn’t be. “How hard can it be to write your
-  rants, thoughts and ideas?” I hear you protesting. But it is hard, or at
-  least harder than it should be. Many times during the day I think, “this
-  is cool; I should blog this ...</p>
-url: /2004/04/12/blogging-is-hard/
+title: Blogging is Hard
+date: 2004-04-12T11:50:04.000Z
 categories:
   - geek
-
+slug: blogging-is-hard
 ---
 Blogging is hard, but it shouldn’t be. “How hard can it be to write your rants, thoughts and ideas?” I hear you protesting. But it is hard, or at least harder than it should be. Many times during the day I think, “this is cool; I should blog this.” But when I sit down at my computer, or complete the task I’m working on, I don’t have the time or motivation to open a browser, navigate to the Movable Type interface, and type the events, ideas,and/or commentary in a coherent fashion. This entry? Been thinking about it for a good 48 hours. The result is that I blog less, although possibly each entry receives more thought before being posted. Somehow, though, I’m not convinced that the extra thought is really such a good thing. In fact, I am convinced that there are lots of good ideas in my head that never make it onto the web because of this barrier. In examining this issue, I think of two things: first, why do I blog, and second, how can it be any easier? So first, why do I blog. I blog for selfish reasons: I want a permanent record of my thoughts, actions and ideas. I also want feedback, criticism and suggestions. In short, I blog because my voice matters, and because blogging is a way for me to collaborate with people I’ve never seen or met. It helps connect me to a larger community that I enjoy being part of.
 
@@ -40,65 +32,6 @@ So what can be done to make blogging easier? I don’t believe I’m the only on
 
 Wow. I figured there’d be a lot more items in that list, but the primary one is the first: integrate blogging with a tool I already use. Whether that’s my web browser or e-mail client, if posting to my blog were a first-class software citizen, I think I’d do it more. What about you?
 
-<table class="docutils field-list" frame="void" rules="none">
-  <col class="field-name" /> <col class="field-body" /> <tr class="field">
-    <th class="field-name">
-      date:
-    </th>
 
-    <td class="field-body">
-      2004-04-12 11:50:04
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      wordpress_id:
-    </th>
-
-    <td class="field-body">
-      112
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      layout:
-    </th>
-
-    <td class="field-body">
-      post
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      slug:
-    </th>
-
-    <td class="field-body">
-      blogging-is-hard
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      comments:
-    </th>
-
-    <td class="field-body">
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      category:
-    </th>
-
-    <td class="field-body">
-      geek
-    </td>
-  </tr>
-</table>
 
  [1]: http://yergler.net/projects/mozcc

@@ -1,22 +1,13 @@
 ---
 title: 'Read: “Invisible”, by Paul Auster'
-author: Nathan Yergler
-type: post
-date: 2010-03-28T20:04:26+00:00
-excerpt: |
-  <p>There are a few authors who I’ll follow just about anywhere; <a class="reference external" href="http://en.wikipedia.org/wiki/Paul_Auster">Paul
-  Auster</a> is one of them. Over
-  the past couple years as I’ve read his catalog, I’ve enjoyed his
-  description of even the darkest and bleakest situations. Leah described
-  his work as “primarily meta-fiction” when she ...</p>
-url: /2010/03/28/read-invisible-by-paul-auster/
+date: 2010-03-28T20:04:26.000Z
 categories:
   - reading
 tags:
   - 2009
   - fiction
   - read
-
+slug: read-invisible-by-paul-auster
 ---
 There are a few authors who I’ll follow just about anywhere; [Paul Auster][1]  is one of them. Over the past couple years as I’ve read his catalog, I’ve enjoyed his description of even the darkest and bleakest situations. Leah described his work as “primarily meta-fiction” when she first introduced me to Auster — and he definitely excels at that — but that’s only part of the appeal. In works like _\`Invisible <http://en.wikipedia.org/wiki/Invisible\_(2009\_novel)>\`__, Auster uses creates a fictional world that he then uses to explore how we think about identity, shared experience, and stories.
 
@@ -28,76 +19,7 @@ _Invisible_ depicts a progression, both mechanically and for its characters. The
 
 _Invisible_ works for me on many levels: as a story, as moralistic exposition, as a demonstration of using the mechanics of writing to further a story. Most importantly, it was enjoyable to read and drew me into a world where the line of what I know and what I think I know is never quite clear.
 
-<table class="docutils field-list" frame="void" rules="none">
-  <col class="field-name" /> <col class="field-body" /> <tr class="field">
-    <th class="field-name">
-      date:
-    </th>
 
-    <td class="field-body">
-      2010-03-28 20:04:26
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      wordpress_id:
-    </th>
-
-    <td class="field-body">
-      1622
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      layout:
-    </th>
-
-    <td class="field-body">
-      post
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      slug:
-    </th>
-
-    <td class="field-body">
-      read-invisible-by-paul-auster
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      comments:
-    </th>
-
-    <td class="field-body">
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      category:
-    </th>
-
-    <td class="field-body">
-      reading
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      tags:
-    </th>
-
-    <td class="field-body">
-      2009, fiction, read
-    </td>
-  </tr>
-</table>
 
  [1]: http://en.wikipedia.org/wiki/Paul_Auster
  [2]: http://en.wikipedia.org/wiki/The_New_York_Trilogy

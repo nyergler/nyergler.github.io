@@ -1,20 +1,9 @@
 ---
-title: 'A Few Quick Notes'
-author: Nathan Yergler
-type: post
-date: 2004-02-19T16:05:27+00:00
-excerpt: |
-  <p><span class="caps">OK</span>, I’m sort of busy with school right now, but I’ve had some questions
-  and wanted to post a brief update.</p>
-  <ul class="simple">
-  <li><strong>ccValidator</strong>: New release, coming soon: better (more) error
-  reporting, with more informative error messages (hopefully).</li>
-  <li><strong>mozCC</strong>: oh-eight-oh development is well under way; stay tuned for
-  a reworked ...</li></ul>
-url: /2004/02/19/a-few-quick-notes/
+title: A Few Quick Notes
+date: 2004-02-19T16:05:27.000Z
 categories:
   - development
-
+slug: a-few-quick-notes
 ---
 <span class="caps">OK</span>, I’m sort of busy with school right now, but I’ve had some questions and wanted to post a brief update.
 
@@ -33,63 +22,4 @@ categories:
   </li>
 </ul>
 
-<table class="docutils field-list" frame="void" rules="none">
-  <col class="field-name" /> <col class="field-body" /> <tr class="field">
-    <th class="field-name">
-      date:
-    </th>
 
-    <td class="field-body">
-      2004-02-19 16:05:27
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      wordpress_id:
-    </th>
-
-    <td class="field-body">
-      85
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      layout:
-    </th>
-
-    <td class="field-body">
-      post
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      slug:
-    </th>
-
-    <td class="field-body">
-      a-few-quick-notes
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      comments:
-    </th>
-
-    <td class="field-body">
-    </td>
-  </tr>
-
-  <tr class="field">
-    <th class="field-name">
-      category:
-    </th>
-
-    <td class="field-body">
-      development
-    </td>
-  </tr>
-</table>
