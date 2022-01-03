@@ -17,9 +17,7 @@ summaryLength = 0
 [permalinks]
   posts = '/:year/:month/:day/:slug/'
   prints = '/prints/:year/:slug/'
-
-[indexes]
-  post = '/posts'
+  weeknotes = '/weeknotes/:year/:slug/'
 
 [author]
     name = "Nathan Yergler"
