@@ -5,7 +5,7 @@ categories:
   - geek
 slug: staff-talk-slides
 ---
-Tuesday I gave two talks at <span class="caps">CC</span> in San Francisco. The first, [Software for the Commons][1]  is an overview of the software I’ve developed in my year at <span class="caps">CC</span>, and was presented to most of the staff. The second was presented to Mike and our tech interns, Brian and Will, and covered the new [ccPublisher 2 Architecture][2] . Links are to slides.
+Tuesday I gave two talks at CC in San Francisco. The first, [Software for the Commons][1]  is an overview of the software I’ve developed in my year at CC, and was presented to most of the staff. The second was presented to Mike and our tech interns, Brian and Will, and covered the new [ccPublisher 2 Architecture][2] . Links are to slides.
 
 
 

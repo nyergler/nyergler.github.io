@@ -11,7 +11,7 @@ You may have seen this elsewhere, but Google has integrated satellite imagery in
   <img alt="Home to IPFW" src="http://yergler.net/blog/images/map.jpg" />
 
   <p class="caption">
-    Home to <span class="caps">IPFW</span>
+    Home to IPFW
   </p>
 </div>
 

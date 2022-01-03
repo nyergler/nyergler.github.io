@@ -53,7 +53,7 @@ The recipe we use today is obviously, uh, “modernized”. It starts with a Pil
 
     <ul class="simple">
       <li>
-        12 T Flour (measured) <em>[<span class="caps">NB</span>: why does my aunt specify “measured”; is 12 tablespoons of flour something you’d normally just eyeball?]</em>
+        12 T Flour (measured) <em>[NB: why does my aunt specify “measured”; is 12 tablespoons of flour something you’d normally just eyeball?]</em>
       </li>
       <li>
         1 ¼ cup white sugar
@@ -67,7 +67,7 @@ The recipe we use today is obviously, uh, “modernized”. It starts with a Pil
     </ul>
 
     <p>
-      Pour onto dough. [<span class="caps">NB</span>: My aunt has the following note: “I usually remove about 1/3 cup of filling to prevent overspill”; later she notes: “I no longer remove any filling; it is only necessary if you don’t get the dough rolled out thin enough.” Your mileage may vary, apparently.] Sprinkle with cinnamon and bake 375 for 25 minutes. After baking for the 1st 5 – 10 minutes, check to make sure no air bubbles in the crust. If so, poke with a toothpick.
+      Pour onto dough. [NB: My aunt has the following note: “I usually remove about 1/3 cup of filling to prevent overspill”; later she notes: “I no longer remove any filling; it is only necessary if you don’t get the dough rolled out thin enough.” Your mileage may vary, apparently.] Sprinkle with cinnamon and bake 375 for 25 minutes. After baking for the 1st 5 – 10 minutes, check to make sure no air bubbles in the crust. If so, poke with a toothpick.
     </p>
 
     <p>

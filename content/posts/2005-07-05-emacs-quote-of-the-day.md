@@ -5,6 +5,6 @@ categories:
   - geek
 slug: emacs-quote-of-the-day
 ---
-> “Emacs is like a laser guided missile. It only has to be slight mis-configured to ruin your whole day.” [Sean McGrath, <span class="caps">CTO</span>, Propylon][1]
+> “Emacs is like a laser guided missile. It only has to be slight mis-configured to ruin your whole day.” [Sean McGrath, CTO, Propylon][1]
 
  [1]: http://seanmcgrath.blogspot.com/archives/2005_07_03_seanmcgrath_archive.html#112048659638989494

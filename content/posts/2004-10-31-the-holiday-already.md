@@ -15,7 +15,7 @@ All of the above is a really long-winded lead in to the fact that this year, Gar
 
 It’ll be interesting to see how my family responds; they tend to take the exchange of dollar values very seriously, and when we announced our intentions at dinner a few weeks ago, we were greeted by complete silence.
 
-If you should, for some reason, want to participate in our Christmas exercise, go ahead, select a gift from [the list][1]  . I’ll email you shipping information, and our families (<span class="caps">AA</span>-1 and S-10) will appreciate it, I know. Happy holidays. Already.
+If you should, for some reason, want to participate in our Christmas exercise, go ahead, select a gift from [the list][1]  . I’ll email you shipping information, and our families (AA-1 and S-10) will appreciate it, I know. Happy holidays. Already.
 
 
 

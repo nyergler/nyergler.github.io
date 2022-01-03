@@ -9,17 +9,17 @@ This morning following the “keynote”, I attended the “State fo Zope Panel�
 
 Based on the questions to the panel, there still seems to be lots of angst over the future of Zope 2 with respect to Zope 3. Jim made some deceptively sane comments about Zope 2 and Zope 3 last year [[2]][2]{#id2.footnote-reference}, and it seems like people still want to know “when will Zope 3 be the **real** Zope” which implies the corollary, “when will Zope 2 die?” I think this agnst stems from the desire not to invest in a “dead” technology, or to invest too early in an immature one. But the answer just doesn’t matter. Zope 2 is appropriate for use cases which Zope 3 is not, and vice versa.
 
-<hr class="docutils" />
+---
 
-Following the Zope Panel I attended Ernesto Posse’s talk on writing parsers using grammar transformation. Posse set out to implement the [<span class="caps">LL</span>(1) parsing algorithm][3]  based on its simplicity and speed. However, given the limited expressiveness of an <span class="caps">LL</span>(1) grammar, his solution (called [aperiot][4] ) was to writer a parser grammar transformation which transforms a non-<span class="caps">LL</span>(1) grammar to an <span class="caps">LL</span>(1) grammar. Aperiot allows you to generate a parser as a Python module from a give grammar definition.
+Following the Zope Panel I attended Ernesto Posse’s talk on writing parsers using grammar transformation. Posse set out to implement the [LL(1) parsing algorithm][3]  based on its simplicity and speed. However, given the limited expressiveness of an LL(1) grammar, his solution (called [aperiot][4] ) was to writer a parser grammar transformation which transforms a non-LL(1) grammar to an LL(1) grammar. Aperiot allows you to generate a parser as a Python module from a give grammar definition.
 
 Grammar parsing is one of those topics which I find academically interesting, but which I have a real problem following in the course of a talk. Especially with 2 hours of sleep. But from what I was able to absorb, I think aperiot is something I’d investigate if I needed to write a parser.
 
-<hr class="docutils" />
+---
 
-The final morning talk I attended was an overview of developing desktop applications with Dabo. Ed presented on [Dabo][5]  two years ago at PyCon is <span class="caps">DC</span>; I remember it well because I was in the same track as him [[3]][6]{#id3.footnote-reference}, presenting about cross-platform development with [wxPython][7] . If I recall correctly, Ed’s talk in <span class="caps">DC</span> talked a lot about the automated database to <span class="caps">UI</span> development. Today’s talk focused on how Dabo wraps the wxPython <span class="caps">API</span> to make it more “Python-ic”. Ed has a really good point: wxPython is powerful, and it looks great on each platform, because it uses native widgets. But when it comes to the <span class="caps">API</span>, knowing how C++ works is unfortunately a benefit, because it’s C++ roots show through [[4]][8]{#id4.footnote-reference}.
+The final morning talk I attended was an overview of developing desktop applications with Dabo. Ed presented on [Dabo][5]  two years ago at PyCon is DC; I remember it well because I was in the same track as him [[3]][6]{#id3.footnote-reference}, presenting about cross-platform development with [wxPython][7] . If I recall correctly, Ed’s talk in DC talked a lot about the automated database to UI development. Today’s talk focused on how Dabo wraps the wxPython API to make it more “Python-ic”. Ed has a really good point: wxPython is powerful, and it looks great on each platform, because it uses native widgets. But when it comes to the API, knowing how C++ works is unfortunately a benefit, because it’s C++ roots show through [[4]][8]{#id4.footnote-reference}.
 
-After some slides presenting an overview of Dabo’s <span class="caps">API</span>, Ed presented a deceptively simple example program. The example loads an image, and allows the user to rotate, resize, stretch, clip, etc. Image handling is a particular token of pain in wxPython, so the demo really resonated with me. Particularly cool points:
+After some slides presenting an overview of Dabo’s API, Ed presented a deceptively simple example program. The example loads an image, and allows the user to rotate, resize, stretch, clip, etc. Image handling is a particular token of pain in wxPython, so the demo really resonated with me. Particularly cool points:
 
 <ul class="simple">
   <li>
@@ -34,7 +34,7 @@ For his final image demo, Ed demonstrated adding drag and drop support to the im
 
 Ed wrapped up his talk with a demonstration of creating a wxPython grid bound to a database. Holy crap. I’m not sure exactly when I’ll use Dabo, but the next time I’m doing cross-platform desktop development, [dabodev.com][9]  will be one of my first stops.
 
-<hr class="docutils" />
+---
 
 
 

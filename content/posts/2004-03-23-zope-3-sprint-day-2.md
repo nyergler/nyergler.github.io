@@ -7,7 +7,7 @@ slug: zope-3-sprint-day-2
 ---
 Yesterday’s sprinting wasn’t quite a visceraly satisfying as the previous two days, but progress was still made. Mark McEahern and myself formed one half of a four man team working on the event subscription and publication system. In particular we began work on Type Based subscriptions, per [the proposal][1] .
 
-Our first task was to implement a new <span class="caps">ZCML</span> directive, <tt class="docutils literal">subscriber</tt>. The subscriber directive registers an event “listener” (to abuse Java terminology) for a particular event and class. So you can, for example, listen for removal events for all objects implementing IFooBar. Powerful stuff, and of course it requires some refactoring of existing work.
+Our first task was to implement a new ZCML directive, `subscriber`. The subscriber directive registers an event “listener” (to abuse Java terminology) for a particular event and class. So you can, for example, listen for removal events for all objects implementing IFooBar. Powerful stuff, and of course it requires some refactoring of existing work.
 
 IAddNotifiable and IRemoveNotifiable are two legacy interfaces that were developed before the event system was fully developed. So our second task was to begin refactoring existing code which used these interfaces to use the new subscriber framework. And that’s where we pick up this morning.
 

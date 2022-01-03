@@ -1,5 +1,5 @@
 ---
-title: Lessig on <span class="caps">NPR</span>
+title: Lessig on NPR
 date: 2005-01-04T18:20:45.000Z
 categories:
   - culture
@@ -7,7 +7,7 @@ categories:
   - listening
 slug: lessig-on-npr
 ---
-Lessig [appeared][1]  on the <span class="caps">NPR</span> show [The Connection][2]  (originating from [<span class="caps">WBUR</span>][3]  in Boston) to discuss the future of Free Culture. You can listen [here][1] .
+Lessig [appeared][1]  on the NPR show [The Connection][2]  (originating from [WBUR][3]  in Boston) to discuss the future of Free Culture. You can listen [here][1] .
 
 
 

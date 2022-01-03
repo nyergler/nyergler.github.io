@@ -1,11 +1,11 @@
 ---
-title: Get Your <span class="caps">CC</span> Fix Here
+title: Get Your CC Fix Here
 date: 2004-10-12T12:19:45.000Z
 categories:
   - projects
 slug: get-your-cc-fix-here
 ---
-For all you Mac <span class="caps">OS</span> X users who can’t get enough [Creative Commons][1]  licensed content, your fix has arrived: a [<span class="caps">CC</span> search][2]  plugin for [Sherlock][3] .
+For all you Mac OS X users who can’t get enough [Creative Commons][1]  licensed content, your fix has arrived: a [CC search][2]  plugin for [Sherlock][3] .
 
 <div class="figure">
   <img alt="" src="http://yergler.net/blog/images/ccsherlock_thumb.png" />

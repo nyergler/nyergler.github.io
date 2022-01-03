@@ -11,7 +11,7 @@ tags:
   - wordpres
 slug: upgrading-wordpress
 ---
-[WordPress 2.6.1][1]  is out. Reading feeds on my flight from <span class="caps">IND</span> to <span class="caps">PHX</span> this afternoon I ran across the [WordPress Automatic Upgrade Plugin][2]  (shouldn’t that be the _Automattic_?). Nice, but I’d like to plug my approach to managing WordPress upgrades, which I think is even easier, assuming you’re <span class="caps">OK</span> with minimal command-line interaction.
+[WordPress 2.6.1][1]  is out. Reading feeds on my flight from IND to PHX this afternoon I ran across the [WordPress Automatic Upgrade Plugin][2]  (shouldn’t that be the _Automattic_?). Nice, but I’d like to plug my approach to managing WordPress upgrades, which I think is even easier, assuming you’re OK with minimal command-line interaction.
 
 First, install WordPress from a Subversion checkout; do: &#8220; $ svn co <http://svn.automattic.com/wordpress/tags/2.6> /&#8220; instead of downloading the .zip or .tar.gz file. Configure as directed.
 

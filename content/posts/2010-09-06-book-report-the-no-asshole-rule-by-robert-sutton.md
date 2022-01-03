@@ -24,7 +24,7 @@ Sutton also includes suggestions on how to deal with assholes, if you’re not a
 
 Overall “The No Asshole Rule” helped me think about what kind of environment I want to be working in, what sort of people I like to work with, and how I can be a better co-worker and manager.
 
-<hr class="docutils" />
+---
 
 <sup>†</sup> As Sutton points out, most of us are assholes every now and then. Reading this helped me identify things I have done in the past and think about how I might approach the situation differently today.
 

@@ -7,7 +7,7 @@ categories:
 format: aside
 slug: debugging-xul-and-javascript
 ---
-[Firebug][1]  is a wicked cool extension for Firefox which rolls the Javascript console, <span class="caps">DOM</span> Inspector and logging console all into one. I can see this will be an essential tool for any Gecko development I do in the future.
+[Firebug][1]  is a wicked cool extension for Firefox which rolls the Javascript console, DOM Inspector and logging console all into one. I can see this will be an essential tool for any Gecko development I do in the future.
 
 
 

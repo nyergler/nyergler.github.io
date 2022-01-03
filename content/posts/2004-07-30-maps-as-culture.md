@@ -1,11 +1,11 @@
 ---
-title: '<span class="caps">OSCON</span> Day 5: Maps as Culture'
+title: 'OSCON Day 5: Maps as Culture'
 date: 2004-07-30T12:14:40.000Z
 categories:
   - oscon2004
 slug: maps-as-culture
 ---
-Today is the last day of <span class="caps">OSCON</span>, and the conference will be over at noon today. It’s been an amazing week, and I have tons of notes to write up, but I’m ready to be home.
+Today is the last day of OSCON, and the conference will be over at noon today. It’s been an amazing week, and I have tons of notes to write up, but I’m ready to be home.
 
 This morning’s [first keynote][1]  was entitled “Open Content: How Online Digital Libraries will Provide Access to Cultural Information in the 21st Century” and presented by David Rumsey. David Rumsey presented an amazing talk on the online map and culture collection he [maintains][2] . David presented an overview of how he believes libraries will evolve in the world of the Internet, and how the Internet can help libraries present collections.
 
@@ -26,9 +26,9 @@ Starting from a position of a private, comprehensive collection of cartographic 
   </li>
 </ul>
 
-And finally, “the 19th century was really into documentation.” It seems to me that what Rumsey is doing and what <span class="caps">CC</span> is doing are really trying to regenerate that fascination with documentation and documenting culture.
+And finally, “the 19th century was really into documentation.” It seems to me that what Rumsey is doing and what CC is doing are really trying to regenerate that fascination with documentation and documenting culture.
 
-The second keynote, [David Patrick][3]  of [Novell][4]  (nay, Ximian), was a real snooze comparitively. I wouldn’t have wanted to follow Rumsey, but Patrick showed himself to be incredibily incapable at capturing the crowd’s imagination. Maybe I’m too focused on aesthetics and imagination, but a talk on “The Business of Linux” wasn’t that interesting. Maybe I’m just having flashbacks to hearing a Novell exec pitch Netware back when I worked for a <span class="caps">VAR</span>.
+The second keynote, [David Patrick][3]  of [Novell][4]  (nay, Ximian), was a real snooze comparitively. I wouldn’t have wanted to follow Rumsey, but Patrick showed himself to be incredibily incapable at capturing the crowd’s imagination. Maybe I’m too focused on aesthetics and imagination, but a talk on “The Business of Linux” wasn’t that interesting. Maybe I’m just having flashbacks to hearing a Novell exec pitch Netware back when I worked for a VAR.
 
 
 

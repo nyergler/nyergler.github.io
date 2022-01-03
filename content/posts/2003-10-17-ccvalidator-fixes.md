@@ -8,7 +8,7 @@ slug: ccvalidator-fixes
 Based on yesterday’s excellent feedback, I’ve updated the [ccValidator][1] code
 to it’s new, improved version. Things fixed include:
 
-* handling of large <span class="caps">RDF</span> blocks
+* handling of large RDF blocks
 * handling of work information is largely improved (multiple works are
   supported, sub-segments render properly, etc)
 * tweaks to handle changes made in ccLicense.py

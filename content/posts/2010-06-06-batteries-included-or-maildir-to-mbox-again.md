@@ -9,13 +9,13 @@ tags:
   - python
 slug: batteries-included-or-maildir-to-mbox-again
 ---
-**<span class="caps">UPDATE</span> 7 June 2010:** Added usage information to docstring.
+**UPDATE 7 June 2010:** Added usage information to docstring.
 
-**<span class="caps">UPDATE</span> 30 January 2012:** Frédéric Grosshans has provided an updated version that supports nested maildirs; you can [find it at github][1] . <span class="caps">YMMV</span>.
+**UPDATE 30 January 2012:** Frédéric Grosshans has provided an updated version that supports nested maildirs; you can [find it at github][1] . YMMV.
 
 My [script for converting maildir to mbox][2]  [continues][3]  to be one of the most popular pages on yergler.net (according to Google Analytics). Of course, even after I [updated][3]  it slightly in February, it still had a couple of bugs, likely introduced when I converted the page from MoinMoin to WordPress. This afternoon I finally decided to clear out the pending comments about those bugs, and update it.
 
-While looking at the Python documentation for the <tt class="docutils literal">`mailbox</tt> <<http://docs.python.org/library/mailbox.html> >\`_ package included in the standard library, I realized it could probably be simplified even further by using the library’s native <tt class="docutils literal">`mbox</tt> <<http://docs.python.org/library/mailbox.html#mbox> >\`_ support. I’m also more comfortable using the standard library’s implementation of <tt class="docutils literal">mbox</tt> rather than my hacked up raw file implementation (who knows, the standard library may do exactly what my script did: I’m not an <tt class="docutils literal">mbox</tt> expert by any stretch of the imagination).
+While looking at the Python documentation for the ``mailbox` <<http://docs.python.org/library/mailbox.html> >\`_ package included in the standard library, I realized it could probably be simplified even further by using the library’s native ``mbox` <<http://docs.python.org/library/mailbox.html#mbox> >\`_ support. I’m also more comfortable using the standard library’s implementation of `mbox` rather than my hacked up raw file implementation (who knows, the standard library may do exactly what my script did: I’m not an `mbox` expert by any stretch of the imagination).
 
 The new script is below. I should note that it’s received very little testing, and I make no guarantees. I also should note that there is nothing creative or original about this. It just uses Python’s excellent standard library. As they say, “batteries included”.
 

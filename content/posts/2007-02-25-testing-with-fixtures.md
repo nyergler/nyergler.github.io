@@ -9,7 +9,7 @@ slug: testing-with-fixtures
 ---
 Following Jim’s talk on zc.ngi, I attended Kumar McMillan talk on using Fixtures to test your programs. According to McMillan, fixtures differ from mock objects in one important way: they use real objects with real data. I haven’t used fixtures or mock objects much, so that was a useful distinction.
 
-McMillan is the developer of the [fixture][1]  package, which provides a way of loading and referencing test data for your application. <tt class="docutils literal">fixture</tt> also allows you to write tests against fixture objects using either a mixin or a decorator[1]_. Fixture supports loading data into SQLAlchemy and SQLObject; <span class="caps">CSV</span> and possible Django support are also under consideration.
+McMillan is the developer of the [fixture][1]  package, which provides a way of loading and referencing test data for your application. `fixture` also allows you to write tests against fixture objects using either a mixin or a decorator[1]_. Fixture supports loading data into SQLAlchemy and SQLObject; CSV and possible Django support are also under consideration.
 
 Fixture is a relatively young project, but it does appear to be useful for testing data-driven applications.
 

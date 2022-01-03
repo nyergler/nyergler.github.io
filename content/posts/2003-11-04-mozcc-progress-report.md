@@ -8,10 +8,10 @@ So, a status report on mozCC. This is what works:
 
 <ul class="simple">
   <li>
-    <span class="caps">RDF</span> extraction (for real this time)
+    RDF extraction (for real this time)
   </li>
   <li>
-    <span class="caps">RDF</span> parsing (again, for real)
+    RDF parsing (again, for real)
   </li>
   <li>
     interpretation of License permissions (mostly)
@@ -25,7 +25,7 @@ Things left to do (fix):
     display the parsed license and work information in a dialog when the user clicks the toolbar button (ala <a class="reference external" href="http://www.yergler.net/projects/ccvalidator">ccValidator</a>)
   </li>
   <li>
-    properly handle some of the license attributes (i.e., “no derivatives” is signaled by the <em>absence</em> rather than presence of some <span class="caps">RDF</span>)
+    properly handle some of the license attributes (i.e., “no derivatives” is signaled by the <em>absence</em> rather than presence of some RDF)
   </li>
   <li>
     some graphical cleanup

@@ -5,7 +5,7 @@ categories:
   - geek
 slug: upcoming-event-gnome-boston-summit
 ---
-I’m going to be traveling to Boston for the first time in October for the [Gnome Boston Summit 2005][1] . Looks like a really interesting [group of people][2]  are planning to attend, most (<span class="caps">OK</span>, all) of whom have way more Gnome-street-cred (if there is such a thing) than I. I’m working on cooking up some ideas to bat around with the geeks — I’ll post them here as they become demo-worthy.
+I’m going to be traveling to Boston for the first time in October for the [Gnome Boston Summit 2005][1] . Looks like a really interesting [group of people][2]  are planning to attend, most (OK, all) of whom have way more Gnome-street-cred (if there is such a thing) than I. I’m working on cooking up some ideas to bat around with the geeks — I’ll post them here as they become demo-worthy.
 
 So here’s what I want to talk to other developers about:
 
@@ -17,7 +17,7 @@ So here’s what I want to talk to other developers about:
     and once you discover content, how do you remix it? what can we do to make Gnome a killer remix platform?
   </li>
   <li>
-    beyond remix, what about “original” creation that uses parts or influences from other works — what does a <span class="caps">UI</span> for that look like?
+    beyond remix, what about “original” creation that uses parts or influences from other works — what does a UI for that look like?
   </li>
   <li>
     we’ve got this embedded metadata, what should we be doing to leverage it?

@@ -5,7 +5,7 @@ categories:
   - General
 slug: ccv-150-available
 ---
-If anyone wants to hack on the validator source code, I’ve just released a new distribution, reflecting the changes now in place at [validator.cc.org][1] . The primary improvement in this release is support for <span class="caps">RDF</span> specified with a <tt class="docutils literal"><link></tt> tag. The release is available [here][2] .
+If anyone wants to hack on the validator source code, I’ve just released a new distribution, reflecting the changes now in place at [validator.cc.org][1] . The primary improvement in this release is support for RDF specified with a `<link>` tag. The release is available [here][2] .
 
 
 

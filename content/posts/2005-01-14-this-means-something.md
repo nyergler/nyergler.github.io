@@ -5,11 +5,11 @@ categories:
   - geek
 slug: this-means-something
 ---
-Last night in my Computer Language Design class I tuned out the professor after the first 5 minutes. It’s not that the class doesn’t interest me, it’s just that an involved discussion of the taxonomy of languages (presented by a man I can only describe as the stereotypical aging <span class="caps">CPA</span>) puts me to sleep. So instead I read ahead in the textbook. Actually I read the end of the textbook, the section on functional and logical languages.
+Last night in my Computer Language Design class I tuned out the professor after the first 5 minutes. It’s not that the class doesn’t interest me, it’s just that an involved discussion of the taxonomy of languages (presented by a man I can only describe as the stereotypical aging CPA) puts me to sleep. So instead I read ahead in the textbook. Actually I read the end of the textbook, the section on functional and logical languages.
 
-So it suprised me this morning when reading the [Python Daily <span class="caps">URL</span>][1]  to see [Bill][2]  talking [about guards][3]  .
+So it suprised me this morning when reading the [Python Daily URL][1]  to see [Bill][2]  talking [about guards][3]  .
 
-Bill points to [Erlang][4]  as a model for guards and generics. I have to confess complete ignorance regarding erlang. But I like what I saw in [Haskell][5] . A brief example, defining the <tt class="docutils literal">fact</tt> (factorial) function:
+Bill points to [Erlang][4]  as a model for guards and generics. I have to confess complete ignorance regarding erlang. But I like what I saw in [Haskell][5] . A brief example, defining the `fact` (factorial) function:
 
 <pre class="literal-block">fact 0 = 1 -- zero step
 fact n = n * fact (n-1) -- induction step

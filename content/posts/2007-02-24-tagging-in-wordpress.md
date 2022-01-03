@@ -7,7 +7,7 @@ slug: tagging-in-wordpress
 ---
 Dear LazyWeb,
 
-<span class="caps">OK</span>, I’m convinced. Heirarchical categories for blogging are a pain in the ass. I’d rather tag things, and like that [WordPress][1]  automagically add <tt class="docutils literal"><span class="pre">rel="tag"</span></tt> to my category links. But I hate the check box selector, since I can type faster than I can mouse. Is there a plugin that will give me a single text field in the editor which:
+OK, I’m convinced. Heirarchical categories for blogging are a pain in the ass. I’d rather tag things, and like that [WordPress][1]  automagically add `<span class="pre">rel="tag"` to my category links. But I hate the check box selector, since I can type faster than I can mouse. Is there a plugin that will give me a single text field in the editor which:
 
 <ul class="simple">
   <li>
@@ -22,7 +22,7 @@ Eternally grateful,
 
 Nathan
 
-**<span class="caps">UPDATE</span>** Apparently I really _am_ “that lazy”; check out [cat2tag][2]  which does 99% of what I want (it doesn’t do tab-completion, but I can live with that).
+**UPDATE** Apparently I really _am_ “that lazy”; check out [cat2tag][2]  which does 99% of what I want (it doesn’t do tab-completion, but I can live with that).
 
 
 

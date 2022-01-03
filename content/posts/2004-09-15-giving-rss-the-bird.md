@@ -1,13 +1,13 @@
 ---
-title: 'Giving <span class="caps">RSS</span> the Bird (er, Fox)'
+title: 'Giving RSS the Bird (er, Fox)'
 date: 2004-09-15T08:09:27.000Z
 categories:
   - geek
 slug: giving-rss-the-bird
 ---
-I’ve spent the past 24 hours playing with the new releases of [Firefox][1]  (1.<span class="caps">0PR</span>) and [Thunderbird][2]  (0.8), available from mozilla.org. Overall, I’m very impressed. The respective teams are obviously hard at work improving the software, and these projects (indeed, [mozilla.org][3]  in general, in my opinion) continue to serve as excellent examples of Open Source in action.
+I’ve spent the past 24 hours playing with the new releases of [Firefox][1]  (1.0PR) and [Thunderbird][2]  (0.8), available from mozilla.org. Overall, I’m very impressed. The respective teams are obviously hard at work improving the software, and these projects (indeed, [mozilla.org][3]  in general, in my opinion) continue to serve as excellent examples of Open Source in action.
 
-Both Firefox and Thunderbird now have some sort of <span class="caps">RSS</span>/Atom support built in. In Firefox, they’re calling it [Live Bookmarks][4] . In Thunderbird, it’s a new account type, <span class="caps">RSS</span> News <span class="amp">&</span> Blogs. I’ve recently come to the conclusion that I’m going to have to break down and start using an aggregator to get my news and updates, so I was excited to hear about both features. One of the things that’s prevented me from really embracing a feed aggregator in the past has been the need to run an additional application: can’t it be integrated into my existing work pattern?
+Both Firefox and Thunderbird now have some sort of RSS/Atom support built in. In Firefox, they’re calling it [Live Bookmarks][4] . In Thunderbird, it’s a new account type, RSS News <span class="amp">& Blogs. I’ve recently come to the conclusion that I’m going to have to break down and start using an aggregator to get my news and updates, so I was excited to hear about both features. One of the things that’s prevented me from really embracing a feed aggregator in the past has been the need to run an additional application: can’t it be integrated into my existing work pattern?
 
 Unfortunately, neither Firefox or Thunderbird is going to become my full-time aggregator for a very simple reason: [Galeon][5] . Well, not Galeon, exactly, but rather features and ideas that Galeon has introduced that I think Firefox and Thunderbird could benefit from. Let’s take the apps one at a time.
 

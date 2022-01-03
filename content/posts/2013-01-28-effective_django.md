@@ -9,7 +9,7 @@ tags:
   - talks
 slug: effective_django
 ---
-[PyCon][1]  (the <span class="caps">US</span> [variation][2] , at least), is about a month and half away, and once again I&#8217;m looking at the schedule of presentations and events and wondering how it is the community pulls it off every year. I&#8217;m also busy preparing my contribution to PyCon. This year I&#8217;m happy to be presenting a tutorial, [Effective Django][3] .
+[PyCon][1]  (the US [variation][2] , at least), is about a month and half away, and once again I&#8217;m looking at the schedule of presentations and events and wondering how it is the community pulls it off every year. I&#8217;m also busy preparing my contribution to PyCon. This year I&#8217;m happy to be presenting a tutorial, [Effective Django][3] .
 
 You may wonder what I mean by _&#8220;Effective Django&#8221;_. It&#8217;s an introduction to Django with a focus on good engineering practices. What I&#8217;ve noticed from my own experience over the years is that with all of its features and flexibility, Django makes it easy to get up and going really quickly. It also lets you write code that&#8217;s difficult to test, scale, and maintain. I have written plenty of code like that over the years, and the problem is that the real pain may come long after the initial implementation. From talking to engineers at Eventbrite and elsewhere I have learned that I&#8217;m not alone in this, so I&#8217;ve been working on documenting how to do leverage Django _effectively_. My goal is that attendees of the tutorial will leave feeling like they&#8217;re able to work on a Django application and identify things to do (and avoid) that will help them write code that&#8217;s cohesive, testable, and scalable.
 

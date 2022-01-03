@@ -23,7 +23,7 @@ _When You Reach Me_ takes place in 1970’s New York City, and tells the story o
 
 [When You Reach Me][4]  won the [Newberry Medal][5]  this year, but I actually enjoyed Stead’s first novel, _First Light_, even more. _First Light_ has one of my favorite structures: multiple, seemingly independent plot lines. You’re sure they’re related some how, and seeing how the author brings them together — as well as how seamlessly — is part of the fun. In the case of _First Light_, we have the story of Thea, a girl living under the ice, and Peter, a boy from New York City whose father is studying glacial movement and whose mother is prone to “headaches” which take her away from reality for hours or days on end. Just as with _When You Reach Me_, Stead manages to create a cast of three dimensional, compelling characters, human and canine alike.
 
-<hr class="docutils" />
+---
 
 
 

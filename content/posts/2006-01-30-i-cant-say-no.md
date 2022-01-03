@@ -5,9 +5,9 @@ categories:
   - geek
 slug: i-cant-say-no
 ---
-So it looks like I’ll be reprising my [Purdue <span class="caps">LUG</span> talk][1]  at least two more times — once for the [Canterbury High School][2]  student body (March 8 — email me for time and details if you’re in the area), and again for the [Fort Wayne <span class="caps">LUG</span>][3]  for their March meeting (March 16, 7:00pm).
+So it looks like I’ll be reprising my [Purdue LUG talk][1]  at least two more times — once for the [Canterbury High School][2]  student body (March 8 — email me for time and details if you’re in the area), and again for the [Fort Wayne LUG][3]  for their March meeting (March 16, 7:00pm).
 
-Obviously the content will be slightly different each time. The entire discussion of metadata and <span class="caps">RDF</span> will be excised for the high school presentation, and the copyright background and context beefed up. The goal is to leave students with a better understanding of what copyright is and why they should be outraged.
+Obviously the content will be slightly different each time. The entire discussion of metadata and RDF will be excised for the high school presentation, and the copyright background and context beefed up. The goal is to leave students with a better understanding of what copyright is and why they should be outraged.
 
 Slides as usual will be forthcoming.
 

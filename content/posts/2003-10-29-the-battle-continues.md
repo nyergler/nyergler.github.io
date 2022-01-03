@@ -17,11 +17,11 @@ So the battle to create a Gecko extension continues. I’m actually making progr
     catch navigation events
   </li>
   <li>
-    extract <span class="caps">RDF</span> from web pages
+    extract RDF from web pages
   </li>
   <li>
-    parse the extracted <span class="caps">RDF</span> into a series of Triples (thanks to Jim Ley’s excellent all-javascript <a class="reference external" href="http://jibbering.com/rdf-parser/"><span class="caps">RDF</span> parser</a>)
+    parse the extracted RDF into a series of Triples (thanks to Jim Ley’s excellent all-javascript <a class="reference external" href="http://jibbering.com/rdf-parser/">RDF parser</a>)
   </li>
 </ul>
 
-So all that’s left to do is perform some queries on the <span class="caps">RDF</span> (which the parser also allows) and put the pieces together. Of course, I also need to figure out how to hack enough <span class="caps">XUL</span> together to make a dialog, but hey; how hard can it be?
+So all that’s left to do is perform some queries on the RDF (which the parser also allows) and put the pieces together. Of course, I also need to figure out how to hack enough XUL together to make a dialog, but hey; how hard can it be?

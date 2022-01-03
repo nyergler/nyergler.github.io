@@ -5,7 +5,7 @@ categories:
   - culture
 slug: coolness-smackdown
 ---
-Apparently [I’m cooler than][1]  [Mike][2]  — more accurately my domain is: yergler.net’s <span class="caps">FCR</span> of 2.86 easily best’s gondwanaland.com’s measly 0.95. Personally, well, not as cool as Mike (more accurately the set containing all Yerglers is less cool than the set containing all Linksvayers): 2.66 for Yerglers, stomped by 4.57 for Linksvayers.
+Apparently [I’m cooler than][1]  [Mike][2]  — more accurately my domain is: yergler.net’s FCR of 2.86 easily best’s gondwanaland.com’s measly 0.95. Personally, well, not as cool as Mike (more accurately the set containing all Yerglers is less cool than the set containing all Linksvayers): 2.66 for Yerglers, stomped by 4.57 for Linksvayers.
 
 
 

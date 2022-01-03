@@ -4,7 +4,7 @@ date: 2003-12-02T15:14:03.000Z
 categories:
   - ccRdf
 ---
-I’m very happy to announce that ccLicense.py is now ccRdf. And this is more than a name change. Previously ccLicense.py existed only to serve the needs of [ccValidator][1] . While it was initially intended to stand on it’s own, I destroyed that objective in my haste to get the validator working. After some friendly prodding from [Mike][2]  and [Ben][3] , and some good discussions about what the <span class="caps">API</span> should look like, I’ve rewritten the code as it’s own Python module. And because it handles more than just licenses (works, for one), it’s now ccRdf.
+I’m very happy to announce that ccLicense.py is now ccRdf. And this is more than a name change. Previously ccLicense.py existed only to serve the needs of [ccValidator][1] . While it was initially intended to stand on it’s own, I destroyed that objective in my haste to get the validator working. After some friendly prodding from [Mike][2]  and [Ben][3] , and some good discussions about what the API should look like, I’ve rewritten the code as it’s own Python module. And because it handles more than just licenses (works, for one), it’s now ccRdf.
 
 First, where to find it. I’ve put up a very simple page for it [here][4] . You can find download and documentation links there, along with a brief description.
 

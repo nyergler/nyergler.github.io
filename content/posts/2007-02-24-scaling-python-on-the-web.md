@@ -32,7 +32,7 @@ First session of the day was on Scaling Python on the Web; rough notes which I m
   <li>
     Scaling isn’t about the language, it’s about:<ul>
       <li>
-        <span class="caps">DRY</span>: cache!
+        DRY: cache!
       </li>
       <li>
         share nothing
@@ -49,7 +49,7 @@ First session of the day was on Scaling Python on the Web; rough notes which I m
   </li>
 
   <li>
-    first iteration: <span class="caps">CGI</span><ul>
+    first iteration: CGI<ul>
       <li>
         roughly 23 requests/second
       </li>
@@ -110,7 +110,7 @@ First session of the day was on Scaling Python on the Web; rough notes which I m
       <li>
         remedies:<ul>
           <li>
-            run multiple instances of CherryPy (overcode <span class="caps">GIL</span>)
+            run multiple instances of CherryPy (overcode GIL)
           </li>
           <li>
             but then we need to balance with something like nginx

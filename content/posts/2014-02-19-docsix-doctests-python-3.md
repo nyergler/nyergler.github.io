@@ -21,7 +21,7 @@ Last week [stvs2fork][2]  helpfully opened [a pull request][3]  for [Rebar][4] ,
 {'age': [u'An integer is required.']}
 </pre>
 
-This example works _exactly_ the same in Python 2 and 3: in both cases the error messages are returned as a list of Unicode strings. But in Python 2 the output has the leading <tt class="docutils literal">u</tt> indicator. Not so in Python 3.
+This example works _exactly_ the same in Python 2 and 3: in both cases the error messages are returned as a list of Unicode strings. But in Python 2 the output has the leading `u` indicator. Not so in Python 3.
 
 What I needed to do is strip the Unicode indicator from the output strings before executing the test; then I&#8217;d have the Python 3 doctest I needed. So I wrote a tool that lets me do that.
 

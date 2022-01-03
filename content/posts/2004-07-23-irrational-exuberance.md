@@ -11,7 +11,7 @@ You may have heard that [Apple][1]  released a new version of the [iPod][2]  thi
 
 ![Irrational exuberance over new iPod &#64; Apple Store][4]
 
-I was walking from my hotel to work Wednesday and passed San Francisco’s Apple Store. The <span class="caps">UPS</span> truck was unloading a stack of boxes at the back door. Store emloyees, clad in their Bondi-blue t-shirts, were rabidly tearing into a box. A woman pulled out what I surmise to be the new iPod box (also Bondi blue), held it in the air, jumping up and down, practically giggling.
+I was walking from my hotel to work Wednesday and passed San Francisco’s Apple Store. The UPS truck was unloading a stack of boxes at the back door. Store emloyees, clad in their Bondi-blue t-shirts, were rabidly tearing into a box. A woman pulled out what I surmise to be the new iPod box (also Bondi blue), held it in the air, jumping up and down, practically giggling.
 
 
 

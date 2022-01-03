@@ -9,7 +9,7 @@ Looking in the archive, I see that I haven’t blogged about ccValidator in over
 
 In addition to the bug fixes, the most visible change is that [validator.creativecommons.org][1]  now uses the same style sheet and layout as the [creativecommons.org][2] . A minor (and some would argue irrelevant) change, to be sure, but the difference has been bothering me for a while, so I took great pleasure in crossing that particular task off my list.
 
-If you do find a bug in ccValidator, you can [email][3]  me, just be sure to include the <span class="caps">RDF</span> or <span class="caps">URI</span> you’re trying to validate.
+If you do find a bug in ccValidator, you can [email][3]  me, just be sure to include the RDF or URI you’re trying to validate.
 
 
 

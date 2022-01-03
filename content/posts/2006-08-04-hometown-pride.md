@@ -7,7 +7,7 @@ categories:
 format: aside
 slug: hometown-pride
 ---
-My hometown, [Bluffton, Indiana][1] , is featured in [today’s <span class="caps">USA</span> Today][2] .Â Apparently Bluffton is one of the first communities to implement a National League of Cities program on diversity and inclusion.Â  They’ll be placing signs stating “Welcome.Â  We are building an inclusive community.“Â  I don’t dislike Bluffton in general, but have chosen not to live there for a reason.Â  But I definitely like it when I can feel proud about something going on there.
+My hometown, [Bluffton, Indiana][1] , is featured in [today’s USA Today][2] .Â Apparently Bluffton is one of the first communities to implement a National League of Cities program on diversity and inclusion.Â  They’ll be placing signs stating “Welcome.Â  We are building an inclusive community.“Â  I don’t dislike Bluffton in general, but have chosen not to live there for a reason.Â  But I definitely like it when I can feel proud about something going on there.
 
 
 

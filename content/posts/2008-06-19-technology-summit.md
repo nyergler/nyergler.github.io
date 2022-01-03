@@ -16,7 +16,7 @@ Yesterday was the first ever [Creative Commons][1]  [Technology Summit][2] , hos
 
 I drove the Nerd Van (myself, [Asheesh][6]  and the interns) to Google.
 
-I’m still recovering (and inflicting pain — <span class="caps">CC</span> board meeting today) and collecting feedback, but I think it was a really successful day. We learned some things we’ll do differently next time (yes, there will be a next time). Anyway, special recognition to the <span class="caps">CC</span> interns for [live blogging][7]  the event and for generally doing anything asked of them. I feel like I should write more about the event, but I’m feeling pretty brain dead at the moment.
+I’m still recovering (and inflicting pain — CC board meeting today) and collecting feedback, but I think it was a really successful day. We learned some things we’ll do differently next time (yes, there will be a next time). Anyway, special recognition to the CC interns for [live blogging][7]  the event and for generally doing anything asked of them. I feel like I should write more about the event, but I’m feeling pretty brain dead at the moment.
 
 
 

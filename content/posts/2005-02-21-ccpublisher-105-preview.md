@@ -5,20 +5,20 @@ categories:
   - development
 slug: ccpublisher-105-preview
 ---
-First, thanks to everyone who’s tried [ccPublisher][1]  recently. We do have a couple of bugs in the “stable” version, and I’ve spent the past few days tracking those down and fixing them in <span class="caps">CVS</span>. I’m hoping to make a maintenance release later this week once we have a few other things tracked down. In the mean time, I’ve prepared a preview for any brave souls out there. This release is completely unofficial, but it does contain a few important bug fixes. In no particular order:
+First, thanks to everyone who’s tried [ccPublisher][1]  recently. We do have a couple of bugs in the “stable” version, and I’ve spent the past few days tracking those down and fixing them in CVS. I’m hoping to make a maintenance release later this week once we have a few other things tracked down. In the mean time, I’ve prepared a preview for any brave souls out there. This release is completely unofficial, but it does contain a few important bug fixes. In no particular order:
 
 <ul class="simple">
   <li>
     ccPublisher no longer chokes on filenames containing Unicode on Windows.
   </li>
   <li>
-    ccPublisher now correctly reads <span class="caps">ID3</span> metadata from files containing Unicode characters on Mac <span class="caps">OS</span> X.
+    ccPublisher now correctly reads ID3 metadata from files containing Unicode characters on Mac OS X.
   </li>
   <li>
     Permission errors that occur when uploading to the Internet Archive are now displayed; previously they were all reported as “invalid username or password”, which wasn’t really correct at all.
   </li>
   <li>
-    The <span class="caps">OS</span> X build system has been reworked to use Bob’s incredibly cool <a class="reference external" href="http://undefined.org/python/#py2app">py2app</a> resulting in a 400% decrease in download size.
+    The OS X build system has been reworked to use Bob’s incredibly cool <a class="reference external" href="http://undefined.org/python/#py2app">py2app</a> resulting in a 400% decrease in download size.
   </li>
   <li>
     A problem with determining whether an identifier is available at the Archive has been corrected.

@@ -13,15 +13,15 @@ slug: houston-connexions
 ---
 I spent the first half of this week in Houston, Texas for the Connexions Consortium Meeting and [Conference][1] . What follows are my personal reflections.
 
-<hr class="docutils" />
+---
 
-[Connexions][2]  ([http://cnx.org][3] ) is an online repository of learning materials — [open educational resources][4]  (<span class="caps">OER</span>). Unlike many other <span class="caps">OER</span> repositories, Connexions has a few characteristics that work together to expand it’s reach and utility.
+[Connexions][2]  ([http://cnx.org][3] ) is an online repository of learning materials — [open educational resources][4]  (OER). Unlike many other OER repositories, Connexions has a few characteristics that work together to expand it’s reach and utility.
 
-While it was founded by (and continues to be supported by) Rice University, the content in Connexions is larger in scope than a single university, and isn’t tied to a particular course the way, say, [<span class="caps">MIT</span> <span class="caps">OCW</span>][5]  is. Attendees of the conference came from as far away as the Netherlands and Vietnam.
+While it was founded by (and continues to be supported by) Rice University, the content in Connexions is larger in scope than a single university, and isn’t tied to a particular course the way, say, [MIT OCW][5]  is. Attendees of the conference came from as far away as the Netherlands and Vietnam.
 
-In addition to acting as a repository, Connexions is an authoring platform: content is organized into modules, which can then be re-arranged, re-purposed, and re-assembled into larger collections and works. This enables people to take content from many sources and assemble it into a single work that suits their particular needs; that derivative is also available for further remixing. At the authors’ panel at the conference, we heard about how some authors have used this to update or customize a work for the class they were teaching. [**<span class="caps">UPDATE</span> 5 Feb 2010:** See the [Creative Commons blog][6]  for information on this, and [thoughts from the author][7]  “[Dr. Chuck][8] “ (Charles Severance), who was on the authors panel. ]
+In addition to acting as a repository, Connexions is an authoring platform: content is organized into modules, which can then be re-arranged, re-purposed, and re-assembled into larger collections and works. This enables people to take content from many sources and assemble it into a single work that suits their particular needs; that derivative is also available for further remixing. At the authors’ panel at the conference, we heard about how some authors have used this to update or customize a work for the class they were teaching. [**UPDATE 5 Feb 2010:** See the [Creative Commons blog][6]  for information on this, and [thoughts from the author][7]  “[Dr. Chuck][8] “ (Charles Severance), who was on the authors panel. ]
 
-Finally, Connexions is an exemplar when it comes to licensing: if you want your material to be part of Connexions, the license is [<span class="caps">CC</span> Attribution 3.0][9] . While <span class="caps">OER</span> is enabled by <span class="caps">CC</span> licenses generally, this choice provides a lot of leverage to users. The remixing, re-organizing, and re-purposing enabled by the authoring platform is far simpler with no license compatibility to worry about. Certainly you can imagine a platform that handled some of the compatibility questions for you — and the idea of developing such a system based on linked data is intriguing to me personally — but the use of a single, extremely liberal license means that when it comes to being combined and re-purposed, all authors are equal, all content is equal.
+Finally, Connexions is an exemplar when it comes to licensing: if you want your material to be part of Connexions, the license is [CC Attribution 3.0][9] . While OER is enabled by CC licenses generally, this choice provides a lot of leverage to users. The remixing, re-organizing, and re-purposing enabled by the authoring platform is far simpler with no license compatibility to worry about. Certainly you can imagine a platform that handled some of the compatibility questions for you — and the idea of developing such a system based on linked data is intriguing to me personally — but the use of a single, extremely liberal license means that when it comes to being combined and re-purposed, all authors are equal, all content is equal.
 
 This year was the second Connexions Conference, and from my perspective there were two themes: the consortium, and Rhaptos. The consortium is actually why I was in Houston. The [Connexions Consortium][10]  is an, uh, _consortium_ of organizations with a vested interest in Connexions: universities and colleges that are using it and companies that are using the content. And [Creative Commons][11] , who I was representing at the meeting. I’ve also been elected to the [Technology Committee][12] , a group of people representing consortium members who will provide guidance on technical issues<sup>†</sup> to Connexions. During our meeting on Monday afternoon there was discussion of a variety of areas. One that we didn’t get to, but which is interesting to me, is how content in Rhaptos repositories can be made more discoverable, and how we can enable federated or aggregated search<sup>‡</sup>.
 
@@ -29,11 +29,11 @@ Rhaptos was the other prominent theme at the conference. [Rhaptos][13]  is the c
 
 Overall it was a great trip; I got to hear about interesting projects and see a lot of people I don’t get to see that often. I’m looking forward to seeing how both the consortium and Rhaptos develop over the next year.
 
-<hr class="docutils" />
+---
 
 <sup>†</sup> If needed, and the evidence to date is that the staff is more than competent. I expect we’ll act more as a sounding board, at least initially.
 
-<sup>‡</sup> This is an area that’s aligned with work we’re doing at <span class="caps">CC</span> right now, so it’s something I’ll be paying attention to.
+<sup>‡</sup> This is an area that’s aligned with work we’re doing at CC right now, so it’s something I’ll be paying attention to.
 
 
 

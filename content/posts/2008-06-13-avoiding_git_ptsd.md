@@ -10,7 +10,7 @@ tags:
   - ptsd
 slug: avoiding_git_ptsd
 ---
-In an attempt to prevent additional [git][1]  (or maybe just git-svn?) induced [<span class="caps">PTSD</span>][2] , [Asheesh][3]  kindly created a [git phrasebook][4] . If you, too, are a [Subversion][5]  deserter and want to figure out how the whole branching thing works in git, this may be useful to you.
+In an attempt to prevent additional [git][1]  (or maybe just git-svn?) induced [PTSD][2] , [Asheesh][3]  kindly created a [git phrasebook][4] . If you, too, are a [Subversion][5]  deserter and want to figure out how the whole branching thing works in git, this may be useful to you.
 
 Someday I’ll write up my thoughts on distributed version control and “convention versus configuration”, which seem to overlap in this deployment. But not today.
 

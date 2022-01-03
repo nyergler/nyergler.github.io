@@ -12,7 +12,7 @@ Of course, when you look at the status on the web, the estimated return date is 
 
 Four days later you call. Two days after that. And finally you’re told that they’re waiting on a backlight, and that no, they don’t have one in, and that it won’t be in until the end of the month. This, of course, stretches your repair window from “3-5 days” to 30-40 days. And of course, they understand how frustrating it is, but really, what are they supposed to do? But miracle of miracles, you receive an email two weeks early saying “your laptop has shipped.”
 
-Of course, in <span class="caps">HP</span> Mind-Fuck-Your-Customer Land, “shipped” doesn’t mean “shipped” exactly. It means “we told FedEx to pick it up but they didn’t. So it’ll be there in a few days. Hopefully.” This is essentially what I was told tonite when I called again. Let’s think about the logic:
+Of course, in HP Mind-Fuck-Your-Customer Land, “shipped” doesn’t mean “shipped” exactly. It means “we told FedEx to pick it up but they didn’t. So it’ll be there in a few days. Hopefully.” This is essentially what I was told tonite when I called again. Let’s think about the logic:
 
 <ul class="simple">
   <li>
@@ -29,7 +29,7 @@ Of course, in <span class="caps">HP</span> Mind-Fuck-Your-Customer Land, “ship
   </li>
 </ul>
 
-And when I had the temerity to suggest to my helpful customer service rep that FedEx not picking up something was actually <span class="caps">HP</span>’s problem[3]_, he said “No, sir, we told FedEx to pick it up. You should call them to complain.” Seriously?
+And when I had the temerity to suggest to my helpful customer service rep that FedEx not picking up something was actually HP’s problem[3]_, he said “No, sir, we told FedEx to pick it up. You should call them to complain.” Seriously?
 
 Hey Carly, wasn’t that merger supposed to make the company **better** at serving customers?
 

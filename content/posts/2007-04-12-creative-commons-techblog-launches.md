@@ -6,7 +6,7 @@ categories:
   - writing
 slug: creative-commons-techblog-launches
 ---
-So we (Creative Commons) just launched our new [TechBlog][1] . Posts about what I’m doing at <span class="caps">CC</span>, and <span class="caps">CC</span>-related tech/geek info will appear there.
+So we (Creative Commons) just launched our new [TechBlog][1] . Posts about what I’m doing at CC, and CC-related tech/geek info will appear there.
 
 
 

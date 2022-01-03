@@ -17,7 +17,7 @@ Open source is not a verb in my book.
 
 I thought of this again last night, while reading the excellent [Security Lessons Learned from the Diaspora Launch][4] . The errors described therein are truly horrifying, and I shudder to think how often I’ve made them myself. It was a comment in the final paragraph that really resonated for me, though.
 
-> You might believe in the powers of <span class="caps">OSS</span> to gather experts (or at least folks who have shipped a Rails app, like myself) to Diaspora’s banner and ferret out all the issues. You might also believe in magic code-fixing fairies. Personally, I’d be praying for the fairies because if Diaspora is dependent on the <span class="caps">OSS</span> community their users are screwed.
+> You might believe in the powers of OSS to gather experts (or at least folks who have shipped a Rails app, like myself) to Diaspora’s banner and ferret out all the issues. You might also believe in magic code-fixing fairies. Personally, I’d be praying for the fairies because if Diaspora is dependent on the OSS community their users are screwed.
 Diaspora isn’t screwed because the open source community is unreliable or unknowledgable. Diaspora is screwed because there isn’t just one open source community: communities develop around individual projects. And Diaspora blew the best chance they had to have an engaged, active community, today.
 
 Diaspora did not “open-source” their software on the 15th. They licensed it. Perhaps I think about this pedantically due to six years working with public licenses, but I think it’s important to be clear about what change was actually affected: a licensing change. When we talk about open source software (or free software), we’re often talking as much about the environment that software grows up in as we are the license of the code. That environment includes the [tools][5] , the license (and/or contributor agreement, although why those are a bad idea is another topic altogether), and the _community_. Making choices for all three can be as important as any commit you make to your code base, and the three are often inter-related (for example, the choice of license may attract or repel individuals from a project, thus shaping community).
@@ -32,7 +32,7 @@ So why don’t people do this? The times I’ve been tempted to do this, pride a
 
 When I start thinking this way, I need to get over myself.
 
-[Ben Collins-Sussman][7]  and [Brian Fitzpatrick][8]  gave a great [talk at <span class="caps">OSCON</span> 2009][9] , “Programmer Insecurity and the Genius Myth”. And they quoted [Tyler Durden][10] .
+[Ben Collins-Sussman][7]  and [Brian Fitzpatrick][8]  gave a great [talk at OSCON 2009][9] , “Programmer Insecurity and the Genius Myth”. And they quoted [Tyler Durden][10] .
 
 > “You are not a beautiful or unique snowflake. You’re the same decaying organic matter as everything else.
 When discussing how to overcome the idea that your work is special, your use case is different, or that you’re “not ready”, one of the points they made is that it’s better to be a small fish in a big pond than a big fish in a small pond. That is, to get over your ego, get yourself a big fucking pond. Like a public repository that anyone can see.
@@ -46,7 +46,7 @@ When Diaspora dropped their code on the 15th, they [indicated][11]  that they wa
 > Today, we are releasing the source code for Diaspora. This is now a community project and development is open to anyone with the technical expertise who shares the vision of a social network that puts users in control. From now on, we will be working closely with the community on improving and solidifying Diaspora.
 It remains to be seen whether the community comes (and stays). Calling it a community project doesn’t make it so, but starting with community greatly increases the odds of successfully building one.
 
-<hr class="docutils" />
+---
 
 <sup>†</sup> Where “right” means something like “having an engaged group of users and developers that support and champion your project.”
 

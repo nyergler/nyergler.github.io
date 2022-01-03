@@ -5,7 +5,7 @@ categories:
   - quickfile
 slug: quickfile-002-now-available
 ---
-I’ve just updated the QuickFile <span class="caps">XPI</span> with a handful of bug fixes and improvements. QuickFile is an extension for [Mozilla Thunderbird][1]  which enables keyboard-only message filing.
+I’ve just updated the QuickFile XPI with a handful of bug fixes and improvements. QuickFile is an extension for [Mozilla Thunderbird][1]  which enables keyboard-only message filing.
 
 The most notable improvment in this release is the ability to assign the hot-key which begins the filing process. You can find more about [QuickFile here][2]  and download and [installation information is here][3] .
 

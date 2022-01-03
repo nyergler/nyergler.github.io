@@ -5,25 +5,25 @@ date: 2003-10-23T16:40:18.000Z
 categories:
   - ccValidator
 ---
-I’ve just moved an improved license validator into [place][1]  . While I had initially planned to migrate away from straight-<span class="caps">CGI</span> coding with this update, the gods were against me. I started prototyping in [Quixote][2]  , and ran into problems with Unicode encoding. So I decided to put the conversion on hold. If I figure out how to emit Unicode from Quixote, I’ll probably do this at some point in the future.
+I’ve just moved an improved license validator into [place][1]  . While I had initially planned to migrate away from straight-CGI coding with this update, the gods were against me. I started prototyping in [Quixote][2]  , and ran into problems with Unicode encoding. So I decided to put the conversion on hold. If I figure out how to emit Unicode from Quixote, I’ll probably do this at some point in the future.
 
 This update does, however, have some real improvements, all of which were suggested by the excellent testers on the [cc-metadata mailing list][3] . These include:
 
 <ul class="simple">
   <li>
-    Seperate forms for <span class="caps">URL</span> or paste-in validation; previously the <span class="caps">URL</span> always overrode the text area, which could be frustrating
+    Seperate forms for URL or paste-in validation; previously the URL always overrode the text area, which could be frustrating
   </li>
   <li>
-    The addition of some sample <span class="caps">RDF</span>, as well as convenience buttons on the form
+    The addition of some sample RDF, as well as convenience buttons on the form
   </li>
   <li>
-    Better error reporting. If your <span class="caps">RDF</span> (<span class="caps">XML</span>) is not well-formed, the validator will now tell you where the error occurs (if it knows); more on this in a moment
+    Better error reporting. If your RDF (XML) is not well-formed, the validator will now tell you where the error occurs (if it knows); more on this in a moment
   </li>
   <li>
-    When parsing a web page, problems in one <span class="caps">RDF</span> segment won’t affect validation of other segments
+    When parsing a web page, problems in one RDF segment won’t affect validation of other segments
   </li>
   <li>
-    You can now view the raw <span class="caps">RDF</span> from the results page by clicking the <strong>show raw <span class="caps">RDF</span></strong> links
+    You can now view the raw RDF from the results page by clicking the <strong>show raw RDF</strong> links
   </li>
   <li>
     Things that look like links, are
@@ -32,10 +32,10 @@ This update does, however, have some real improvements, all of which were sugges
     <a class="reference external" href="http://magnet-uri.sourceforge.net">Magnets</a> are properly magnetized
   </li>
   <li>
-    <tt class="docutils literal">rdf:about</tt> is displayed
+    `rdf:about` is displayed
   </li>
   <li>
-    If a <span class="caps">RDF</span> segment does not contain a license, the validator says so, and then tells you what it might contain
+    If a RDF segment does not contain a license, the validator says so, and then tells you what it might contain
   </li>
   <li>
     Various cosmetic changes

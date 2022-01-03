@@ -5,14 +5,14 @@ categories:
   - development
 slug: a-few-quick-notes
 ---
-<span class="caps">OK</span>, I’m sort of busy with school right now, but I’ve had some questions and wanted to post a brief update.
+OK, I’m sort of busy with school right now, but I’ve had some questions and wanted to post a brief update.
 
 <ul class="simple">
   <li>
     <strong>ccValidator</strong>: New release, coming soon: better (more) error reporting, with more informative error messages (hopefully).
   </li>
   <li>
-    <strong>mozCC</strong>: oh-eight-oh development is well under way; stay tuned for a reworked details <span class="caps">UI</span>, preliminary support for foaf:tipjar and much more. Note to all you <span class="caps">HIG</span> fanatics out there: yes, I’ve been properly thrashed; yes, I’m fixing things. Move along.
+    <strong>mozCC</strong>: oh-eight-oh development is well under way; stay tuned for a reworked details UI, preliminary support for foaf:tipjar and much more. Note to all you HIG fanatics out there: yes, I’ve been properly thrashed; yes, I’m fixing things. Move along.
   </li>
   <li>
     <strong>quickFile</strong>: no, <a class="reference external" href="http://www.yergler.net/averages/archives/2003/12/14/filing_mail_in_thunderbird">it’s</a> not dead yet; in fact, a release that actually works should be rolling out within the week.

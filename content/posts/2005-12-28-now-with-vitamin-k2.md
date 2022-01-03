@@ -7,7 +7,7 @@ categories:
 format: aside
 slug: now-with-vitamin-k2
 ---
-So I’m using [K2][1]  on <span class="caps">TLOA</span> now… we’ll see how it goes.
+So I’m using [K2][1]  on TLOA now… we’ll see how it goes.
 
 
 

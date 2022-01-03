@@ -6,7 +6,7 @@ categories:
   - politics
 slug: debate-watch
 ---
-I listened to the Presidential debate last night on [<span class="caps">NPR</span>][1] , and just like the [vice-presidential debate][2] , the question I found most interesting regarded gay marriage.
+I listened to the Presidential debate last night on [NPR][1] , and just like the [vice-presidential debate][2] , the question I found most interesting regarded gay marriage.
 
 I was pleasantly suprised when Mr. Schieffer asked the President directly, “Do you believe homosexuality is a choice?” Of course, the president said “I just don’t know.” Way to dodge! The president went on to say “I believe in the sanctity of marriage. I think it’s very important that we protect marriage as an institution between a man and a woman.” Really? With a greater than 50% divorce rate (between men and women, no less!), you really believe that? How does that work? Citing reasons the constitutional amendment is necessary, President Bush said he wanted to protect against “activist judges.” Right, like the 5 who installed our current President. Oh, not those 5? Huh.
 

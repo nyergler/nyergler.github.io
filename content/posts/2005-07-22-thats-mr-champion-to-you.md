@@ -15,7 +15,7 @@ So Wednesday night the previously unthinkable happened. My volleyball team, the 
   </p>
 </div>
 
-There were other highlights, course. I managed to hit Stephanie squarely in the ass not once but twice while trying to return a serve. The song [Rock Lobster][1]  was played during our final game, so of course I did the lobster dance between serves. And Andy nearly went apoplectic during the first game of the night while we were goofing around trying to get our act together. I think his exact quote during time out was “<span class="caps">OK</span>, are you guys done? Are you done fucking around?” Yes, sir (giggle, giggle).
+There were other highlights, course. I managed to hit Stephanie squarely in the ass not once but twice while trying to return a serve. The song [Rock Lobster][1]  was played during our final game, so of course I did the lobster dance between serves. And Andy nearly went apoplectic during the first game of the night while we were goofing around trying to get our act together. I think his exact quote during time out was “OK, are you guys done? Are you done fucking around?” Yes, sir (giggle, giggle).
 
 <div class="figure">
   <img alt="" src="http://photos22.flickr.com/27598923_ac7ca1c83d_m.jpg" />

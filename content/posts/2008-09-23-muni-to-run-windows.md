@@ -8,7 +8,7 @@ tags:
   - wtf
 slug: muni-to-run-windows
 ---
-As seen on [SFist][1] , [<span class="caps">SF</span> <span class="caps">MTA</span>][2]  is asking for $300,000 to update the [<span class="caps">ATCS</span>][3]  (Advanced Train Control System) — the software which runs **the subway** — to Windows. Great. There may be carnage, but at least we’ll have [Aero][4] .
+As seen on [SFist][1] , [SF MTA][2]  is asking for $300,000 to update the [ATCS][3]  (Advanced Train Control System) — the software which runs **the subway** — to Windows. Great. There may be carnage, but at least we’ll have [Aero][4] .
 
 
 

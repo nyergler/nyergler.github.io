@@ -20,7 +20,7 @@ As we started to unpack it became clear that the truck I rented was about 4’ t
   </p>
 </div>
 
-Wednesday evening my Mom flew in from Indiana, and we spent the rest of the week working on the apartment. A trip to <span class="caps">IKEA</span>, two trips to the Container Store and several trips across the street to the thrift store (carrying things I didn’t have room for), and the apartment is finally feeling like a home.
+Wednesday evening my Mom flew in from Indiana, and we spent the rest of the week working on the apartment. A trip to IKEA, two trips to the Container Store and several trips across the street to the thrift store (carrying things I didn’t have room for), and the apartment is finally feeling like a home.
 
 <div class="figure">
   <img alt="" src="http://farm2.static.flickr.com/1013/539225362_9ed1880776.jpg" />

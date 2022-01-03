@@ -34,7 +34,7 @@ access_log /usr/local/squid/var/logs/combined.log httpd
   </li>
 </ol>
 
-For something so simple, its amazing how long you can flounder trying to figure out what needs to be quoted, which direction the greater than or less than signs need to go, etc. Note that in this case we’ve defined an entirely new <tt class="docutils literal">access_log</tt>. Once you’re convinced that the new log is what you want, you can disable the standard one by setting <tt class="docutils literal">cache_access_log none</tt>.
+For something so simple, its amazing how long you can flounder trying to figure out what needs to be quoted, which direction the greater than or less than signs need to go, etc. Note that in this case we’ve defined an entirely new `access_log`. Once you’re convinced that the new log is what you want, you can disable the standard one by setting `cache_access_log none`.
 
 For those who want a different format, the complete list of fields available to the logformat directive is available at <http://devel.squid-cache.org/customlog/logformat.html> .
 

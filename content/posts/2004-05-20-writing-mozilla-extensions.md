@@ -11,7 +11,7 @@ With that and the coming [Firefox 1.0 extension format change][3] , I decided to
 
 <ul class="simple">
   <li>
-    overlays the browser window, adding an item to the status bar (this seemed like the simplest example of modifying the browser <span class="caps">UI</span>)
+    overlays the browser window, adding an item to the status bar (this seemed like the simplest example of modifying the browser UI)
   </li>
   <li>
     provides a simple preferences/options dialog, both in Firefox and Mozilla Suite
@@ -25,22 +25,22 @@ That’s it! In addition to these “features”, the DemoExt package has a few 
 
 <ul class="simple">
   <li>
-    a <tt class="docutils literal">build.sh</tt> script which generates an <span class="caps">XPI</span> in the new 1.0 format
+    a `build.sh` script which generates an XPI in the new 1.0 format
   </li>
   <li>
-    an <tt class="docutils literal">install.js</tt> script which installs the DemoExt into the users’ profile, mimicking the 1.0 Firefox approach
+    an `install.js` script which installs the DemoExt into the users’ profile, mimicking the 1.0 Firefox approach
   </li>
   <li>
-    an <tt class="docutils literal">extension.rdf</tt> which provides the Firefox 1.0 format metadata
+    an `extension.rdf` which provides the Firefox 1.0 format metadata
   </li>
   <li>
-    <tt class="docutils literal">newext.py</tt>, a Python script which generates a new source tree from the demo tree, with the appropriate files/directories renamed; hopefully this will allow people to get started writing extension faster, without worrying about how to install them or how to lay out their directory structure
+    `newext.py`, a Python script which generates a new source tree from the demo tree, with the appropriate files/directories renamed; hopefully this will allow people to get started writing extension faster, without worrying about how to install them or how to lay out their directory structure
   </li>
 </ul>
 
 There are still a couple of things I’m working on. First, I need to make the preferences code load the defaults from the demoext_prefs.js file. I want to make newext.py a little smarter about how it generates the new tree. Finally, I’d like to create a similar package for Thunderbird, since the current code is very browser-oriented.
 
-You can download DemoExt [here][4] , or browse the [<span class="caps">CVS</span> tree][5]  . As always suggestions, feedback and corrections are welcome. Enjoy!
+You can download DemoExt [here][4] , or browse the [CVS tree][5]  . As always suggestions, feedback and corrections are welcome. Enjoy!
 
 
 

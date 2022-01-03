@@ -9,7 +9,7 @@ ccPublisher 1.0 [is out][1] . It’s not a perfect release, but I’m fairly ple
 
 As promised to some users, I’ve been working on Linux builds of ccPublisher. You can get them now at [SourceForge.net][3] , although I haven’t done much testing on them. All I can really say right now is that they have all the necessary files, but there may be lingering path problems. Additionally, they don’t create any sort of desktop icon right, so that’d be a nice improvement.
 
-So what can you look forward to in the near future? A 1.0 post-mortem (what I did right, what I totally fucked), “official” Linux builds (including Gnome desktop support, at least), and last but not least, a more detailed roadmap with my future plans. I’ll be working from <span class="caps">CC</span>’s San Francisco office the first week of next year, so I’m hoping that will help firm up the latter.
+So what can you look forward to in the near future? A 1.0 post-mortem (what I did right, what I totally fucked), “official” Linux builds (including Gnome desktop support, at least), and last but not least, a more detailed roadmap with my future plans. I’ll be working from CC’s San Francisco office the first week of next year, so I’m hoping that will help firm up the latter.
 
 
 

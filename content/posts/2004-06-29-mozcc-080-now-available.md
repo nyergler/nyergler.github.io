@@ -14,20 +14,20 @@ After an interminable delay and over 60 days since the last [preview][2] , mozCC
     Support for localization. While mozCC still only support English, this opens the door for the addition of new translations. If you’re interested in translating mozCC, <a class="reference external" href="http://yergler.net/projects/mozcc/contact">contact me</a>.
   </li>
   <li>
-    Better <span class="caps">RDF</span> extraction: mozCC now supports metadata specified as <tt class="docutils literal"><a <span class="pre">rel="license"</span> <span class="pre">...></span></tt>.
+    Better RDF extraction: mozCC now supports metadata specified as `<a rel="license" <span class="pre">...>`.
   </li>
   <li>
-    Performance improvements: mozCC parses and retrieves metadata only once, and allows the browser to continue rendering during retrieval of <tt class="docutils literal"><link></tt>&#8216;d metadata.
+    Performance improvements: mozCC parses and retrieves metadata only once, and allows the browser to continue rendering during retrieval of `<link>`&#8216;d metadata.
   </li>
   <li>
-    New, improved details <span class="caps">UI</span>. License and work metadata is shown as human-readable strings, as opposed to a semi-mangled tree representation.
+    New, improved details UI. License and work metadata is shown as human-readable strings, as opposed to a semi-mangled tree representation.
   </li>
   <li>
     Support for the new extension manager in Firefox 0.9.
   </li>
 </ul>
 
-Installation instructions are available [here][3] . Note that <span class="caps">CVS</span> is currently down at [MozDev][4] , so you should only install from yergler.net until that comes back up and the download network is updated. I’ll post a notice here when that happens.
+Installation instructions are available [here][3] . Note that CVS is currently down at [MozDev][4] , so you should only install from yergler.net until that comes back up and the download network is updated. I’ll post a notice here when that happens.
 
 If you are upgrading from a previous version of mozCC, it is **strongly** recommended that you uninstall and restart your browser before installing 0.8.0. Changes to the internal layout of mozCC have made upgrades, well, dicey. For that reason, I&#8217;m not enabling the &#8220;upgrade&#8221; button that appears in the preferences. Sorry, but I can&#8217;t find a way to make upgrades work consistently well. If you have any questions about this, [drop me a line][5]  .
 

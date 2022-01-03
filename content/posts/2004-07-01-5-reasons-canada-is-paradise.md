@@ -20,7 +20,7 @@ Garrett and I spent last weekend in Toronto for Toronto Pride. A “quick” 7 h
     No smoking in bars and restaurants
   </li>
   <li>
-    They say “line up” instead of “queue” or “line” (<span class="caps">OK</span>, so it may not be paradise, but it is cute)
+    They say “line up” instead of “queue” or “line” (OK, so it may not be paradise, but it is cute)
   </li>
   <li>
     No George W. Bush (and seemingly no one who really likes him, but it may have been the company we were keeping)

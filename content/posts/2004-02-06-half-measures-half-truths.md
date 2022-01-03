@@ -1,5 +1,5 @@
 ---
-title: Half-Measures <span class="amp">&</span> Half-Truths
+title: Half-Measures & Half-Truths
 date: 2004-02-06T13:56:39.000Z
 categories:
   - my life
@@ -17,7 +17,7 @@ But then towards the end of the year, something happened. We were celebrating Ch
 
 “I’d really appreciate it if you didn’t put your arm around Garrett; it makes Grandma and Grandpa uncomfortable.”
 
-I was taken completely off guard. My dad has been my biggest ally lately, and I thought my family really accepted me and Garrett (even if they didn’t approve; I’m smart enough to know there’s a difference). All I could say was, “sure, <span class="caps">OK</span>.” Sure, <span class="caps">OK</span>? Hardly. I’ve been kicking myself for that response ever since. Why didn’t I say, “I’d really love to talk to Grandma and Grandpa about this since I don’t want to offend them, but do want to feel comfortable in their home.” Why didn’t I say, “I didn’t really have my arm around him; they should come to me directly.” Or why didn’t I at least say, “hell no, fuck off.” Because sometimes I just want them to like me. I have my doubts about whether it was really my grandparents who had a problem with things, but that’s another story. What’s important here is that my instinct, the first thing I thought of, was appeasment: don’t make them upset, agree to what they say, sell yourself out for a little more of that warm feeling.
+I was taken completely off guard. My dad has been my biggest ally lately, and I thought my family really accepted me and Garrett (even if they didn’t approve; I’m smart enough to know there’s a difference). All I could say was, “sure, OK.” Sure, OK? Hardly. I’ve been kicking myself for that response ever since. Why didn’t I say, “I’d really love to talk to Grandma and Grandpa about this since I don’t want to offend them, but do want to feel comfortable in their home.” Why didn’t I say, “I didn’t really have my arm around him; they should come to me directly.” Or why didn’t I at least say, “hell no, fuck off.” Because sometimes I just want them to like me. I have my doubts about whether it was really my grandparents who had a problem with things, but that’s another story. What’s important here is that my instinct, the first thing I thought of, was appeasment: don’t make them upset, agree to what they say, sell yourself out for a little more of that warm feeling.
 
 I think I can be forgiven for wanting more of that warm feeling, but I don’t want to ask myself for forgiveness as often this year. So what is my Resolution for 2004, my 28th year? No more half measures, no more half truths. I want to say it again, like a mantra: **No more half measures, No more half truths**.
 

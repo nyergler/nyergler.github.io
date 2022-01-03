@@ -7,10 +7,10 @@ slug: cclicensepy-01
 ---
 As part of my effort to complete the Creative Commons web validation service, I
 inadvertently addressed another of their challenges: creating a language (in
-this case Python, of course) <span class="caps">API</span> for manipulating
+this case Python, of course) API for manipulating
 licenses. So with muted fanfare, here’s [version 0.1 of cclicense.py][1] . It
 currently supports parsing a license and extracting of permissions,
-restrictions, etc. It also will emit <span class="caps">RDF</span>, although
+restrictions, etc. It also will emit RDF, although
 that’s not exactly perfect yet.
 
 **Future plans:**

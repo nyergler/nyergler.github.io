@@ -9,7 +9,7 @@ I just noticed that [Ted Leung][1]  is [once again hosting][2]  PyCon [SubEthaEd
 
 In other social editting software news, there was an open space session on “SubEmacsEdit: Developing Social Editting for Emacs” yesterday (seriously, I can’t make this shit up). I wonder what the outcome was.
 
-**<span class="caps">UPDATE</span>**: [Here][5]  are the notes from my desktop apps talk. From the looks of things, I guess it went <span class="caps">OK</span>.
+**UPDATE**: [Here][5]  are the notes from my desktop apps talk. From the looks of things, I guess it went OK.
 
 
 

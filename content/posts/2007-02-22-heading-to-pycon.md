@@ -11,7 +11,7 @@ I’ve spent the first part of this week in San Francisco for some face time wit
 
 My goal is to blog the sessions I attend, but that’s been my goal every year and I usually end up doing about 25%. We’ll see just how well it works this time around.
 
-<hr class="docutils" />
+---
 
 
 

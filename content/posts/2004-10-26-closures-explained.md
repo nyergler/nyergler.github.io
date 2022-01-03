@@ -5,7 +5,7 @@ categories:
   - development
 slug: closures-explained
 ---
-Closures have been tossed about for a while now as _the_ test of coolness for an interpreted language. Frankly, I’ve never understood exactly what they were, assuming that if I needed them, I’d figure it out. I only knew that Python’s support for them was limited to use of <tt class="docutils literal">lambda</tt> constructs, which tend to be a little frightening (in my humble opinion).
+Closures have been tossed about for a while now as _the_ test of coolness for an interpreted language. Frankly, I’ve never understood exactly what they were, assuming that if I needed them, I’d figure it out. I only knew that Python’s support for them was limited to use of `lambda` constructs, which tend to be a little frightening (in my humble opinion).
 
 Well Martin Fowler has [posted][1]  a write-up on closures in Ruby, and along the way he actually explains what they are and why they’re cool in an understandable way. [Ivan Moore][2]  has gone one further and [translated][3]  the examples into Python. I actually came across Ivan’s translation first, and my initial thought after reading through the examples was “yeah, so what?” After reading Martin’s explanation of closures, though, there’s definitly something lost in the translation.
 

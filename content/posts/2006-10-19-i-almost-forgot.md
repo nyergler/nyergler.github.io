@@ -11,7 +11,7 @@ slug: i-almost-forgot
   <img alt="" src="http://static.flickr.com/119/272639281_4f74663b63.jpg" />
 
   <p class="caption">
-    <a class="reference external" href="http://www.flickr.com/photos/nathan_y/272639281/">Nathan <span class="amp">&</span> Avery</a>
+    <a class="reference external" href="http://www.flickr.com/photos/nathan_y/272639281/">Nathan & Avery</a>
   </p>
 </div>
 

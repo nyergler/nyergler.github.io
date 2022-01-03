@@ -22,7 +22,7 @@ I must have telegraphed more confidence in my answer than I felt: “Thanks,” 
 
 “Oh my god. You’re reading _Specials_. That’s so awesome.”
 
-“Yeah, I know, it sort of is,” I replied, reverting to a tone more appropriate for gum snapping and borrowing the car than for grown men. “Yeah, like, I read _Uglies_, and _Pretties_, and now I’m on _Specials_; _Uglies_ was great, and _Pretties_ was <span class="caps">OK</span> — a bit of a slow down— but _Specials_ is great so far.” Capsule review.
+“Yeah, I know, it sort of is,” I replied, reverting to a tone more appropriate for gum snapping and borrowing the car than for grown men. “Yeah, like, I read _Uglies_, and _Pretties_, and now I’m on _Specials_; _Uglies_ was great, and _Pretties_ was OK — a bit of a slow down— but _Specials_ is great so far.” Capsule review.
 
 “Totally. I totally agree. Oh my god. So cool.” I seemed to have made a friend, making up for any issues with my vocabulary performance earlier. “Do you have any other authors you recommend?” she asked.
 
@@ -32,7 +32,7 @@ I suggested [Octavia Butler][2] , thinking to myself, “kid, this shit is going
 
 “Are you a good reader?” How does a thirty-three year old man answer such a question?
 
-“Uh, yeah, I think I’m <span class="caps">OK</span>; I like to read,” I answered.
+“Uh, yeah, I think I’m OK; I like to read,” I answered.
 
 “You know how you can tell a good reader?” She didn’t wait for my reply. “They write down the recommendations from other good readers.” She proceeded to give me some recommendations, which I made sure to write down, not wanting to sully my good reader image.
 

@@ -9,7 +9,7 @@ Just a quick note to head off the stream of email I’ve been receiving (yes, bo
 
 Actually if you tried to install it, you’d be told it’s not compatible, since mozCC 1.1.2 claims it’s only compatible with Firefox 1.4 (the internal version for Beta 1). At first I thought this was gratuitous version incrementing, and then I discovered that after incrementing the supported version in mozCC, it doesn’t work. At all. I’ve tracked down the problem and hope to have a release out later today or tomorrow that fixes both this compatibility issue as well as a rather embarassing issue pointed out by Jeff yesterday. Stay tuned.
 
-**<span class="caps">UPDATE</span>**: Just to be clear, it’s not really _gratuitious_ per say to increment the version from 1.4 to 1.4.1 — I just assumed it had gone to 1.5; mea culpa. Also, the update is [now available][3] .
+**UPDATE**: Just to be clear, it’s not really _gratuitious_ per say to increment the version from 1.4 to 1.4.1 — I just assumed it had gone to 1.5; mea culpa. Also, the update is [now available][3] .
 
 
 

@@ -19,7 +19,7 @@ So I moved to a loft in the Dogpatch on Saturday. I love it, whole heartedly, in
 
 I made a roast on Monday night for dinner. Richard and I sat at the table — as opposed to on the sofa — with Maddie sitting next to us, patiently waiting to be rewarded for her inherent, obvious goodness. Sitting down to that meal, sitting at that table, I had this feeling of belonging and of home. This is exactly where I want to be right now, and I’m looking forward to seeing San Francisco in a whole new way this year.
 
-<hr class="docutils" />
+---
 
 <sup>†</sup> Although now I don’t have a desk, so I guess there was an obvious trade off there. But I do have room for both, now, which is a change.
 

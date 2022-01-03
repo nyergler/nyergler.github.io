@@ -13,7 +13,7 @@ slug: sign-in-the-yard
   </p>
 </div>
 
-So the realtor sign showed up in the yard yesterday while I was gone, and we had two showings last night. <span class="caps">MLS</span> information available [here][1] .
+So the realtor sign showed up in the yard yesterday while I was gone, and we had two showings last night. MLS information available [here][1] .
 
 
 

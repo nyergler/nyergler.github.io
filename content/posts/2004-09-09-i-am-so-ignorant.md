@@ -5,7 +5,7 @@ categories:
   - my life
 slug: i-am-so-ignorant
 ---
-I’m taking “Religion <span class="amp">&</span> Culture” this semester, which is turning out to be the most informative and simultaneously humbling class I’ve ever had the privilege to take. We’re discussing the creation of culture (is it constructed or pervasive?), which is incredibly interesting.
+I’m taking “Religion & Culture” this semester, which is turning out to be the most informative and simultaneously humbling class I’ve ever had the privilege to take. We’re discussing the creation of culture (is it constructed or pervasive?), which is incredibly interesting.
 
 Prof. Dixie starts class with “religion in the news,” an opportunity for anyone to bring up the expression of religion in everyday life. Today someone brought up something involving the Arab-Israeli tensions and Prof. Dixie asked “what does jihad mean?” Awakened from my reverie, I confidently responded “holy war.” “Wrong! It means _the struggle_, more precisely, a spiritual struggle; only through modern media have we identified it as a literal war!” And suddenly things take on an entirely different context.
 

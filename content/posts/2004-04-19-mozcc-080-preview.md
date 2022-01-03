@@ -12,7 +12,7 @@ I’ve been working on a much-need update to [mozCC][1] , and wanted to give use
     localization support (done)
   </li>
   <li>
-    better <span class="caps">RDF</span> extraction (done)
+    better RDF extraction (done)
   </li>
   <li>
     improved details interface (in progress)

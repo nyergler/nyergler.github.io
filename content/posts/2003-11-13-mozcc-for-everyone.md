@@ -8,7 +8,7 @@ Since announcing mozCC on [Freshmeat][1]  yesterday the response has been amazin
 
 [mozCC 0.6.1][3]  is out, with improved support for Mozilla Suite and Netscape, some minor cosmetic fixes and new psuedo-autolinking in the details tree. Things that look like links are now underlined in red; double-clicking them will open a new browser window with the link.
 
-Also, the text-only website is gone. [mozCC][3]  has a new home, now with fancy <span class="caps">CSS</span> and real graphics all around. Of course, this means my website looks even worse when compared to this supposedly side-line project. Oh well. Download the new release and let me know what you think.
+Also, the text-only website is gone. [mozCC][3]  has a new home, now with fancy CSS and real graphics all around. Of course, this means my website looks even worse when compared to this supposedly side-line project. Oh well. Download the new release and let me know what you think.
 
  [1]: http://www.freshmeat.net
  [2]: http://www.yergler.net/cvs

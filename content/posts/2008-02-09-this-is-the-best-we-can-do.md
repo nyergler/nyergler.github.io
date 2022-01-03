@@ -11,7 +11,7 @@ tags:
   - suck
 slug: this-is-the-best-we-can-do
 ---
-Still working on my slides for [<span class="caps">SCALE</span>][1] , decided to further delay productivity by putting together a brief set of steps on how to use [OpenOffice.org][2]  [Impress][3]  to get **really** pissed off.
+Still working on my slides for [SCALE][1] , decided to further delay productivity by putting together a brief set of steps on how to use [OpenOffice.org][2]  [Impress][3]  to get **really** pissed off.
 
 <ol class="arabic simple">
   <li>

@@ -5,7 +5,7 @@ categories:
   - mozCC
 slug: updating-mozcc
 ---
-I [recently announced][1]  the release of mozCC 0.9.0, promising that existing users could simply use the Extension Manager to update. Apparently I was wrong. The <tt class="docutils literal">update.rdf</tt> format changed from Firefox 0.9 to 1.<span class="caps">0PR</span>, but thanks to Jed Brown’s [excellent resource][2] , that problem has been fixed. Update away!
+I [recently announced][1]  the release of mozCC 0.9.0, promising that existing users could simply use the Extension Manager to update. Apparently I was wrong. The `update.rdf` format changed from Firefox 0.9 to 1.0PR, but thanks to Jed Brown’s [excellent resource][2] , that problem has been fixed. Update away!
 
 
 

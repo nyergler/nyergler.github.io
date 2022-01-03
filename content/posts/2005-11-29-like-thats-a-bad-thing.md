@@ -5,12 +5,12 @@ categories:
   - politics
 slug: like-thats-a-bad-thing
 ---
-<span class="caps">OK</span>, so let’s ignore for a moment the fact that I just don’t understand [Log Cabin Republicans][1]  (rel=nofollow, of course). More to the point, I understand them even less than straight Republicans. But have they forgotten **they’re gay!?** Via [QueerDay][2] , STLtoday.com [reports][3]  that the <span class="caps">LCR</span> has asked the University of Missouri St. Louis to investigate a drag show because the performers:
+OK, so let’s ignore for a moment the fact that I just don’t understand [Log Cabin Republicans][1]  (rel=nofollow, of course). More to the point, I understand them even less than straight Republicans. But have they forgotten **they’re gay!?** Via [QueerDay][2] , STLtoday.com [reports][3]  that the LCR has asked the University of Missouri St. Louis to investigate a drag show because the performers:
 
 > &#8230;mocked heterosexual people in the audience, wore revealing outfits, used inappropriate language and simulated sex acts.
 Uh, so what exactly is the problem? That describes the more _respectable_ drag shows I’ve attended. Sounds like a down right wholesome evening.
 
-**<span class="caps">UPDATE</span>** [Good as You][4]  has more additoinal [coverage][5]  .
+**UPDATE** [Good as You][4]  has more additoinal [coverage][5]  .
 
 
 

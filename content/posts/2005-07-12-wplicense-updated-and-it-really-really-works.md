@@ -11,10 +11,10 @@ In the bug-fix category:
 
 <ul class="simple">
   <li>
-    Unbeknownst to me, my web host uses <span class="caps">PHP</span> 5 by default, so I happily used <span class="caps">PHP</span> 5-specific features such as SimpleXML without knowing it. Unfortunately, lots of people still use <span class="caps">PHP</span> 4, so some refactoring was in order. This release supports <span class="caps">PHP</span> 4 (> 4.3 for sure, possibly older although I won’t guarantee it).
+    Unbeknownst to me, my web host uses PHP 5 by default, so I happily used PHP 5-specific features such as SimpleXML without knowing it. Unfortunately, lots of people still use PHP 4, so some refactoring was in order. This release supports PHP 4 (> 4.3 for sure, possibly older although I won’t guarantee it).
   </li>
   <li>
-    I had also used libcurl in the previous version, which while it existed in <span class="caps">PHP</span> 4 wasn’t always turned on. We’re using a little more braindead way of calling the webservice now that should work with non-libcurl-enabled installations of <span class="caps">PHP</span>.
+    I had also used libcurl in the previous version, which while it existed in PHP 4 wasn’t always turned on. We’re using a little more braindead way of calling the webservice now that should work with non-libcurl-enabled installations of PHP.
   </li>
   <li>
     Finally, we fixed a rather annoying bug that caused Attribution licenses to be issues as 2.0, even though 2.5 is the current version. Feh.
@@ -31,7 +31,7 @@ In the bug-fix category:
 
 This release also adds a new configuration option: “Include license badge in default footer”. If you use the default WordPress theme (or probably 90% of the other themes out there that call wpfooter(); ), checking this saves you the hassle of manually editting your template. The [template functions][3]  are still available for manipulating and displaying the license information in other ways, this just seemed like a logical addition to make life easier.
 
-All this combined with some (but not lots, mind you) <span class="caps">UI</span>-lovin’ means that anyone using an old version (yes, both of you) should go ahead and upgrade.
+All this combined with some (but not lots, mind you) UI-lovin’ means that anyone using an old version (yes, both of you) should go ahead and upgrade.
 
 
 

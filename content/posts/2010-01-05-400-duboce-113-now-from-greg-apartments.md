@@ -22,11 +22,11 @@ Huh, that looks like 400 Duboce. But “Greg Apartments”?
 
 Yup, that’s unit 113, the first one I looked at when I was looking at the building (it was leased to someone else before I got my application in two and a half years ago).
 
-Greg Apartments [website][6]  also has [contact information][7] ; that’s a different phone number than Citi, er, FirstApts uses, but 2099 Market sounds awful familiar. Oh, right — that’s the same address at Citi and FirstApts. Digging a little (but not much) deeper, we find that <tt class="docutils literal">gregapartments.com</tt> is [registered][8]  to none other than FirstApts, with Greg listed as the technical and administrative contacts.
+Greg Apartments [website][6]  also has [contact information][7] ; that’s a different phone number than Citi, er, FirstApts uses, but 2099 Market sounds awful familiar. Oh, right — that’s the same address at Citi and FirstApts. Digging a little (but not much) deeper, we find that `gregapartments.com` is [registered][8]  to none other than FirstApts, with Greg listed as the technical and administrative contacts.
 
 All these shells, and they’re still trying to raise the rent.
 
-<hr class="docutils" />
+---
 
 Updated 2012-10-24: Removed Greg’s contact information.
 

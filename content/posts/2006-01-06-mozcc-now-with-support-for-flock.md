@@ -7,7 +7,7 @@ categories:
 format: aside
 slug: mozcc-now-with-support-for-flock
 ---
-Yeah, an upgrade for [mozCC][1] . Now it should work more consistently on Windows <span class="caps">XP</span> and (more interestingly) support [Flock][2] .
+Yeah, an upgrade for [mozCC][1] . Now it should work more consistently on Windows XP and (more interestingly) support [Flock][2] .
 
 
 

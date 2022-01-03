@@ -7,7 +7,7 @@ slug: mit-weblog-survey
 ---
 ![][1]
 
-[Take the <span class="caps">MIT</span> Weblog Survey][2]
+[Take the MIT Weblog Survey][2]
 
 
 

@@ -5,9 +5,9 @@ categories:
   - oscon2004
 slug: its-just-buttons-and-stickers-people
 ---
-Those of us at <span class="caps">CC</span> are encouraged to [blog][1]  our public (or semi-public) appearances, and I so I [dutifully posted][2]  my attendance at [<span class="caps">OSCON</span>][3]  this week. In an effort to lighten my baggage and meet with other developers, I offered <span class="caps">CC</span> schwag to anyone who tells me why they love <span class="caps">CC</span>. Who knew people would take me seriously?
+Those of us at CC are encouraged to [blog][1]  our public (or semi-public) appearances, and I so I [dutifully posted][2]  my attendance at [OSCON][3]  this week. In an effort to lighten my baggage and meet with other developers, I offered CC schwag to anyone who tells me why they love CC. Who knew people would take me seriously?
 
-[<span class="caps">PJ</span> and Kevin][4]  posted [comments][5]  in the <span class="caps">CC</span> blog, as well as [posted][6]  in their own blog about my offer, and now I’m a hunted man. They even tracked down the <span class="caps">CC</span> team picture, just for reference. Of course, I like [this picture][7]  better, but the one they used does look more like a line up.
+[PJ and Kevin][4]  posted [comments][5]  in the CC blog, as well as [posted][6]  in their own blog about my offer, and now I’m a hunted man. They even tracked down the CC team picture, just for reference. Of course, I like [this picture][7]  better, but the one they used does look more like a line up.
 
 
 

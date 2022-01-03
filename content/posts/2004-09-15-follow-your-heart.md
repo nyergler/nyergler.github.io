@@ -1,5 +1,5 @@
 ---
-title: <span class="dquo">“</span>follow your heart”
+title: “follow your heart”
 date: 2004-09-15T15:08:03.000Z
 categories:
   - my life

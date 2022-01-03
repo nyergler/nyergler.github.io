@@ -22,7 +22,7 @@ Speedway Meadow was far more crowded than I imagined and I think Richard was amu
   </p>
 </div>
 
-I’ve heard several live recordings of Aimee and she was just as warm and engaging Sunday as she is on those recordings. She opened saying, “Holy shit! There’re way more people here than I expected! This is awesome!” and interspersed generous helpings of “oh, thanks” and “you guys are so great” between songs. It may be an act but it works for me. On some level I’m able to forget the crowds, the pushing, the pot, the sorority girls behind me (“Oh my god guys! She drank my fifth of vodka! <span class="caps">MY</span> <span class="caps">FIFTH</span>!” “Damn! No!” “Yeah!”) and imagine that Aimee and I are hanging out and she’s just picking and playing a few songs, just for me.
+I’ve heard several live recordings of Aimee and she was just as warm and engaging Sunday as she is on those recordings. She opened saying, “Holy shit! There’re way more people here than I expected! This is awesome!” and interspersed generous helpings of “oh, thanks” and “you guys are so great” between songs. It may be an act but it works for me. On some level I’m able to forget the crowds, the pushing, the pot, the sorority girls behind me (“Oh my god guys! She drank my fifth of vodka! MY FIFTH!” “Damn! No!” “Yeah!”) and imagine that Aimee and I are hanging out and she’s just picking and playing a few songs, just for me.
 
 The set was [“Magnolia”][3]  heavy. I’m not sure if that’s because her more recent work on [“&#64;#%&*! Smilers”][4]  is even less “bluegrass” or if she’s playing what she thinks people know and want to hear. The set list went something like this:
 

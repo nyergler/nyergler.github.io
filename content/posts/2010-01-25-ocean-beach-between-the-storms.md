@@ -56,7 +56,7 @@ Even with the crashing waves, though, the dogs were still running around and lov
 
 By the time we were close to the Cliff House, it started to rain again. Scott and I hurried off the beach, walking quickly along the sidewalk towards the car. We were soaked when we got there, and the next storm had started.
 
-<hr class="docutils" />
+---
 
 See the full set of Ocean Beach [photos on Flickr][5] ; those taken with the _blackbird, fly_ will be uploaded when I get them processed.
 

@@ -11,7 +11,7 @@ So during some of the time I should have been studying for finals this weekend I
 
 QuickFile is an extension for Mozilla Thunderbird which is aimed at making it easier to file messages. Right now the operation is pretty simple: select the message you want to file and press meta-Q (currently hard-coded; sorry). This opens the QuickFile dialog, which shows a list of your mail folders. You can start typing, and it will match as you type. Pressing Tab will expand the currently selected item (if possible), and pressing Enter will move the messages to the selected folder.
 
-You can install it by first saving [quickfile.xpi][6]  to your computer. Then in Thunderbird, go to Preferences/Options, select Extensions and click “Install New Extension.” Select the <span class="caps">XPI</span> file, and it will prompt you to confirm installation. Note that this has only been tested with Thunderbird 0.4 on Mac <span class="caps">OS</span> X and Linux, so if it eats your profile/mail/puppy, that’ll really suck.
+You can install it by first saving [quickfile.xpi][6]  to your computer. Then in Thunderbird, go to Preferences/Options, select Extensions and click “Install New Extension.” Select the XPI file, and it will prompt you to confirm installation. Note that this has only been tested with Thunderbird 0.4 on Mac OS X and Linux, so if it eats your profile/mail/puppy, that’ll really suck.
 
 While this is just a “first draft” I think I can build onto it in some interesting ways. I want to add a customizable hot key, the ability to assign hot keys to specific folders, and “predictive” (Bayesian) folder selection, as Mark describes.
 

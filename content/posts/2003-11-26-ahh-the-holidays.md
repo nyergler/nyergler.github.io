@@ -17,7 +17,7 @@ Some might say that wasn’t the most mature thing to do, and they’d be right.
 
 And so I’ve just made it a policy of not attending events at her home. And that was fine with me; her food is always nearly inedible anyway. She’s hosting Christmas this year, and that’s just another day I have to enjoy my break. This year my other aunt, Fonda, is hosting Thanksgiving. She also left me a message saying “you’re invited to Thanksgiving.” Why can’t people just be direct and say “you’re invited, but your good-for-nothing homo lover isn’t” ? Things would be so much clearer. So again, I called, and this time left a message saying, “Thanks for the invite, Fonda; Garrett and I would love to come. See you Saturday!”
 
-As you might expect, Fonda just called. I don’t think she was expecting anyone to answer, which made the conversation just a little bit gratifying for me. She started with the classic “I think there’s been a misunderstanding.” Yes, she’s right; I understood that her and her family loved me. And I also understood that love should be unconditional. Afterall, that’s what I learned in [Sunday School][3] . Fonda was really doing <span class="caps">OK</span> with her statement to me when she said, “we have to think of our children.” And I laughed. On the inside, of course. When I asked what she meant by this, she expounded.
+As you might expect, Fonda just called. I don’t think she was expecting anyone to answer, which made the conversation just a little bit gratifying for me. She started with the classic “I think there’s been a misunderstanding.” Yes, she’s right; I understood that her and her family loved me. And I also understood that love should be unconditional. Afterall, that’s what I learned in [Sunday School][3] . Fonda was really doing OK with her statement to me when she said, “we have to think of our children.” And I laughed. On the inside, of course. When I asked what she meant by this, she expounded.
 
 “Well Andy and Austin [my two homophobic, red-neck, uneducated sons] about had a fit at grandma’s funeral this summer when they thought they heard you say &#8216;this is my partner, Garrett.’”.
 
@@ -29,7 +29,7 @@ First, some background. My grandmother died this summer. While not unexpected, i
 
 I’ve struggled quite a bit with figuring out just how my family fits into my life, and how to respect their beliefs even when I don’t agree with them. I think I strike a pretty good balance; when I have questions about how to act, I look at my siblings and married cousins and observe their behavior. And then I dial down the public affection and pet names a few notches and try that.
 
-I guess I should be thankful that my family hasn’t figured out unconditional love. If they had they’d be marching with [<span class="caps">PFLAG</span>][4] , handing out flyers and expecting me to do it with them. And I don’t have that sort of time. As it stands, my holidays breaks suddenly have a lot more free time. I can take a [pottery class][5] .
+I guess I should be thankful that my family hasn’t figured out unconditional love. If they had they’d be marching with [PFLAG][4] , handing out flyers and expecting me to do it with them. And I don’t have that sort of time. As it stands, my holidays breaks suddenly have a lot more free time. I can take a [pottery class][5] .
 
 
  [1]: http://www.npr.org/programs/morning/index.html

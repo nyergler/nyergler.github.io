@@ -5,7 +5,7 @@ categories:
   - development
 slug: embedding-the-commons
 ---
-I’ve put up a new project page, [cc-oasis][1] , to document some new <span class="caps">CC</span> work I’ve been doing. I’ve come to realize (and I know I’m not alone here) that to effectively promote the Commons, we need to make licensing second nature. If not second nature, then at least easibly accessible.
+I’ve put up a new project page, [cc-oasis][1] , to document some new CC work I’ve been doing. I’ve come to realize (and I know I’m not alone here) that to effectively promote the Commons, we need to make licensing second nature. If not second nature, then at least easibly accessible.
 
 To that end, I’ve begun working on embedding Creative Commons licensing in [OpenOffice.org][2] . The first step towards that is coming up with a specification for embedding license information into OOo files. I’ve posted a [first draft][3]  of that specification, and I’m looking for comments and suggestions.
 

@@ -7,7 +7,7 @@ categories:
 format: aside
 slug: helping-myself
 ---
-I was looking at what it’s going to take to do i18n for ccPublisher this morning, so I searched for _wxPython i18n xrc_. Result 3: [my presentation][1]  to the <span class="caps">ACCU</span> conference last year. Oh yeah, I did work on that.
+I was looking at what it’s going to take to do i18n for ccPublisher this morning, so I searched for _wxPython i18n xrc_. Result 3: [my presentation][1]  to the ACCU conference last year. Oh yeah, I did work on that.
 
 
 

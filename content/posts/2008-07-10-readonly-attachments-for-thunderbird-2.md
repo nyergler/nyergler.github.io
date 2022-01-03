@@ -11,9 +11,9 @@ slug: readonly-attachments-for-thunderbird-2
 ---
 Last seen here [two years ago][1] , I’ve just updated [Readonly Attachments][2]  for [Thunderbird 2][3] . It still does pretty much exactly what the [last post][1]  describes, bugs and all.
 
-Right now I’m just releasing a [preview][4] . At this point I’ve only tested it with Thunderbird 2.0.0.14 on Mac <span class="caps">OS</span> X 10.5.3; I’ll test with Linux tomorrow[1]_ and if all goes well I’ll update [addons.mozilla.org][5]  at that point.
+Right now I’m just releasing a [preview][4] . At this point I’ve only tested it with Thunderbird 2.0.0.14 on Mac OS X 10.5.3; I’ll test with Linux tomorrow[1]_ and if all goes well I’ll update [addons.mozilla.org][5]  at that point.
 
-**<span class="caps">UPDATE</span>:** (2008-07-13) Things seem to work fine on Linux, so we’re just waiting for it to clear the review queue at [<span class="caps">AMO</span>][5] .
+**UPDATE:** (2008-07-13) Things seem to work fine on Linux, so we’re just waiting for it to clear the review queue at [AMO][5] .
 
 
 

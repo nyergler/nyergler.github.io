@@ -17,13 +17,13 @@ So what can be done to make blogging easier? I don’t believe I’m the only on
 
 <ul class="simple">
   <li>
-    a blog manager/posting side-bar for Mozilla and Firefox; if it were right in my browser, it might be easier to work with. I think someone suggested this for Movable Type at one point, but I haven’t seen it implemented. Ideally it would use something like the Atom <span class="caps">API</span> so it would work with more than just a single tool.
+    a blog manager/posting side-bar for Mozilla and Firefox; if it were right in my browser, it might be easier to work with. I think someone suggested this for Movable Type at one point, but I haven’t seen it implemented. Ideally it would use something like the Atom API so it would work with more than just a single tool.
   </li>
   <li>
     a way to quickly +1 a page and have it reflected in my blog; maybe a “hey, this is cool” mini-blog sidebar like <a class="reference external" href="http://littleyellowdifferent.com">Ernie</a> has?
   </li>
   <li>
-    a way to easily post status reports, work logs, etc, similar to .plan files back in the day; or maybe .plan meets <span class="caps">IM</span> status messages
+    a way to easily post status reports, work logs, etc, similar to .plan files back in the day; or maybe .plan meets IM status messages
   </li>
   <li>
     a better way to collaborate on documents. This doesn’t fall completely into this category, but I’ve been thinking about it a lot since reading the <a class="reference external" href="http://www.blueoxen.org/papers/0000D/">A Manifesto for Collaborative Tools</a> in Dr. Dobb’s this month.

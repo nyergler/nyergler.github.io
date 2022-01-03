@@ -5,17 +5,17 @@ categories:
   - geek
 slug: zope-3-sprint-day-0
 ---
-Yesterday was the first day of the [Zope 3 Sprint][1]  at [PyCon 2004][2] . While not officially started, Stephan Richter and I worked on several [<span class="caps">TODO</span>][3]  tasks for Zope X3.0. In particular, we wrapped up:
+Yesterday was the first day of the [Zope 3 Sprint][1]  at [PyCon 2004][2] . While not officially started, Stephan Richter and I worked on several [TODO][3]  tasks for Zope X3.0. In particular, we wrapped up:
 
 <ul class="simple">
   <li>
-    <a class="reference external" href="http://dev.zope.org/Wikis/DevSite/Projects/ComponentArchitecture/Use303RedirectsByDefault">303 redirects for <span class="caps">HTTP</span>/1.1 clients</a>
+    <a class="reference external" href="http://dev.zope.org/Wikis/DevSite/Projects/ComponentArchitecture/Use303RedirectsByDefault">303 redirects for HTTP/1.1 clients</a>
   </li>
   <li>
     stripped defaultView down to it’s <a class="reference external" href="http://dev.zope.org/Wikis/DevSite/Projects/ComponentArchitecture/MinimalDefaultViewDirectives">minimal, correct form</a>
   </li>
   <li>
-    implemented <a class="reference external" href="http://dev.zope.org/Wikis/DevSite/Projects/ComponentArchitecture/ZCMLEnhancements">permission redefinition <span class="caps">ZCML</span> enhancements</a>
+    implemented <a class="reference external" href="http://dev.zope.org/Wikis/DevSite/Projects/ComponentArchitecture/ZCMLEnhancements">permission redefinition ZCML enhancements</a>
   </li>
   <li>
     began work on the <a class="reference external" href="http://dev.zope.org/Wikis/DevSite/Projects/ComponentArchitecture/TheBrowserToolDirective">browser:tool directive</a>, which we hope to finish today

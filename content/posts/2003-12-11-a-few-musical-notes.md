@@ -13,7 +13,7 @@ There’s a well-trodden adage comparing programmers to musicians, and while I h
 
 As an [iTunes][6]  and [Movable Type][7]  devotee, the [iTunes Trackback Script][8]  is cool; it queries iTunes and posts trackbacks with the artist and title of what’s currently playing. But I want something better. What I really want is something which queries iTunes, sees what’s playing, gets cover art from either iTunes or Amazon, and then creates a post for the album in a particular blog category. I know all the pieces are available to make this an accessible task; maybe during break. Maybe using [PyObj-C][9] .
 
-And on the subject of iTunes; wouldn’t it be cool to add Creative Commons licensing verification? Maybe display the attribute icons in the “<span class="caps">LCD</span>” area? Just an idea at this point; anyone know if iTunes provides hooks to draw things differently, or display different “tags” there?
+And on the subject of iTunes; wouldn’t it be cool to add Creative Commons licensing verification? Maybe display the attribute icons in the “LCD” area? Just an idea at this point; anyone know if iTunes provides hooks to draw things differently, or display different “tags” there?
 
 
  [1]: http://www.amazon.com/exec/obidos/ASIN/B00007BH3Y/qid=1071151246/sr=2-1/ref=sr_2_1/002-1895226-0536828

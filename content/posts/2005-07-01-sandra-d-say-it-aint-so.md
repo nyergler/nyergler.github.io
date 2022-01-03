@@ -5,7 +5,7 @@ categories:
   - culture
 slug: sandra-d-say-it-aint-so
 ---
-[<span class="caps">SCOTUS</span> Blog][1]  has the [report][2]  ; [Sandra Day O’Conner][3]  is resigning. So I don’t necessarily agree with her on every case (hmm… Grokster), but she did defend the right of blue-blooded homos everywhere to [take it up the ass][4] , so she’s coo’ in my book. More importantly, though, I worry about a moderate, swing-vote being replaced by a far-right conservative. Say it with me: [Bork][5] .
+[SCOTUS Blog][1]  has the [report][2]  ; [Sandra Day O’Conner][3]  is resigning. So I don’t necessarily agree with her on every case (hmm… Grokster), but she did defend the right of blue-blooded homos everywhere to [take it up the ass][4] , so she’s coo’ in my book. More importantly, though, I worry about a moderate, swing-vote being replaced by a far-right conservative. Say it with me: [Bork][5] .
 
 
 

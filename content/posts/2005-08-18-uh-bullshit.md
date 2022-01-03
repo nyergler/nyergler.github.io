@@ -5,7 +5,7 @@ categories:
   - culture
 slug: uh-bullshit
 ---
-Hilary Rosen is guest-blogging for [our esteemed chairman][1] , and while it makes perfect sense in theory — <span class="caps">CC</span> is not about tearing down copyright, but about building a better system within it’s confines — I call bullshit.
+Hilary Rosen is guest-blogging for [our esteemed chairman][1] , and while it makes perfect sense in theory — CC is not about tearing down copyright, but about building a better system within it’s confines — I call bullshit.
 
 Ms. Rosen posits:
 
@@ -15,7 +15,7 @@ First, I wonder why she thinks Campbell’s Soup wouldn’t sue Warhol today, es
 > And we were hung up. Hung up on the very issue you raised. What would happen when legitimate fair use needs arose and the required content wasn’t available in upprotected formats? While we knew it wasn’t a “dreamers” issue and that technology was moving rapidly enough that protected content could be a reality quite soon, it wasn’t yet at the time. And several of us, including most importantly by that time, the Committee Chairman who had heretofore been opposed to the Bill, wanted to get it done. So, I pulled out a long used legislative tactic and suggested we put a “study” in the statute.
 Oh, right, I forgot — the Copyright Office and Commerce Department studied it, and found out [its not a real issue][2] . Thanks for that legislative gem, Hil — you’re a doll.
 
-<span class="caps">PS</span>: Tell &#8216;Liz to get you a keyboard with a shift-key that works — you work hard for the money.
+PS: Tell &#8216;Liz to get you a keyboard with a shift-key that works — you work hard for the money.
 
 
 

@@ -15,9 +15,9 @@ slug: slides-for-all-audiences
 
 [Slidecasting 101][5]
 
-Slidecasting involves taking an audio track and syncing it with your slides, giving you the best of both worlds. Right now it requires uploading an separate <span class="caps">MP3</span> file and manually syncing it with your slides. Extra effort on the presenter’s part, but arguably worth it if you’re trying to reach the broadest possible audience with the greatest efficacy.
+Slidecasting involves taking an audio track and syncing it with your slides, giving you the best of both worlds. Right now it requires uploading an separate MP3 file and manually syncing it with your slides. Extra effort on the presenter’s part, but arguably worth it if you’re trying to reach the broadest possible audience with the greatest efficacy.
 
-It’d be great if Slideshare supported some standard [“<span class="caps">SMIL</span>?” he asks with no real insight into the specification] that allowed you to upload the synchronization information without using their web-based tool. You can imagine an application or plugin that records during a presentation, noting timestamps for slide changes, and generates a set of files immediately suitable for upload.
+It’d be great if Slideshare supported some standard [“SMIL?” he asks with no real insight into the specification] that allowed you to upload the synchronization information without using their web-based tool. You can imagine an application or plugin that records during a presentation, noting timestamps for slide changes, and generates a set of files immediately suitable for upload.
 
 
 

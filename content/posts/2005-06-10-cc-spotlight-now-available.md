@@ -5,7 +5,7 @@ categories:
   - CC + Spotlight
 slug: cc-spotlight-now-available
 ---
-I managed to get the code into shape and have released the first release of the [<span class="caps">CC</span> Metadata Importer for Spotlight][1] . You can download a disk image from [this page][1]  or find the source in the [<span class="caps">CC</span> Tools][2]  [SourceForge repository][3] . Let me know if you have any suggestions or comments, as I hope to have an updated release out soon.
+I managed to get the code into shape and have released the first release of the [CC Metadata Importer for Spotlight][1] . You can download a disk image from [this page][1]  or find the source in the [CC Tools][2]  [SourceForge repository][3] . Let me know if you have any suggestions or comments, as I hope to have an updated release out soon.
 
 
 

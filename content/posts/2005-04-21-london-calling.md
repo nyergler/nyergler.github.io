@@ -5,9 +5,9 @@ categories:
   - pyuk2005
 slug: london-calling
 ---
-So today was my first day at PyUK, which is being presented as part of the [<span class="caps">ACCU</span> Conference][1] . The day opened with a keynote on improving generic programming from Bjarne Stroustrup (of C++ fame). Bjarne’s presentation centered around the development of a concept he referred to as “Concepts”. Concepts attempt to completely and perfectly separate the declaration and implementation of templated code. If effectively implemented, they allow programmers to make predicate declarations about the signatures of templated code as well as the parameters. For example, without knowing type you could make the assertion that a templated function requires an iterable paramter. A crappy example, but the jet lag is _still_ killing me.
+So today was my first day at PyUK, which is being presented as part of the [ACCU Conference][1] . The day opened with a keynote on improving generic programming from Bjarne Stroustrup (of C++ fame). Bjarne’s presentation centered around the development of a concept he referred to as “Concepts”. Concepts attempt to completely and perfectly separate the declaration and implementation of templated code. If effectively implemented, they allow programmers to make predicate declarations about the signatures of templated code as well as the parameters. For example, without knowing type you could make the assertion that a templated function requires an iterable paramter. A crappy example, but the jet lag is _still_ killing me.
 
-After the keynote the Python track proper started. The remainder of the morning was consumed by Andy Robinson’s brief presentation on PyUK and the <span class="caps">ACCU</span>, a repeat of Greg Stein’s PyCon Google keynote, and an unscheduled appearance by a developer evangelist from Microsoft on [IronPython][2] . While the IronPython presentation was mostly a rehashing of Jim’s PyCon keynote, it was interesting for a couple of reasons.
+After the keynote the Python track proper started. The remainder of the morning was consumed by Andy Robinson’s brief presentation on PyUK and the ACCU, a repeat of Greg Stein’s PyCon Google keynote, and an unscheduled appearance by a developer evangelist from Microsoft on [IronPython][2] . While the IronPython presentation was mostly a rehashing of Jim’s PyCon keynote, it was interesting for a couple of reasons.
 
 First, the presenter (I really wish I could remember his name) went from zero to implementing a C# delegate in Python and calling it from Python in under 24 hours. Admittedly this was with the help of Jim’s slides, but it’s impressive none the less. It lends credence to Greg Stein’s 2-2-2 rule: You can understand Python in 2 hours, write Python in 2 days, and be proficient in 2 months. Second, it helps to allay my fears (somewhat) that IronPython is going to be given the short end of the stick by Microsoft. I can’t give any justification for my fears, it’s just a feeling. Hopefully I’ll be proven wrong.
 
@@ -19,7 +19,7 @@ The final talk of the day was originally to be presented by Kevin Altis. Alex Tw
 
 Tomorrow’s talks look excellent as well, and I’m looking forward to reading the new Knuth fascicles I picked up at the Blackwell’s display today.
 
-<span class="caps">PS</span>: Apologies for the cheesy title… I couldn’t resist.
+PS: Apologies for the cheesy title… I couldn’t resist.
 
 
 

@@ -6,9 +6,9 @@ categories:
   - geek
 slug: finding-cc
 ---
-We break from our continuing PyCon coverage to bring you this bulletin. [Yahoo!][1]  has launched a [Creative Commons search engine][2] . You can search the Yahoo! catalog for <span class="caps">CC</span> licensed content, optionally restricting for either commercial use, or derivative permission.
+We break from our continuing PyCon coverage to bring you this bulletin. [Yahoo!][1]  has launched a [Creative Commons search engine][2] . You can search the Yahoo! catalog for CC licensed content, optionally restricting for either commercial use, or derivative permission.
 
-I should note it was pointed out on [Boing Boing][3]  that you can also restrict [A9][4]  search results for <span class="caps">CC</span> licensed results as well. For example, [this search for eiffel tower][5] .
+I should note it was pointed out on [Boing Boing][3]  that you can also restrict [A9][4]  search results for CC licensed results as well. For example, [this search for eiffel tower][5] .
 
 
 

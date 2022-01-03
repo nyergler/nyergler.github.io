@@ -9,7 +9,7 @@ tags:
   - summer
 slug: technology-internships-at-creative-commons
 ---
-If you don’t read the [Creative Commons][1]  blog, you missed [the announcement][2]  that the deadline for applying to be a <span class="caps">CC</span> intern this summer has been extended until March 21 (a week from Friday). On the tech side we’re looking for computer science/software engineering students who want to help us build tools to support the <span class="caps">CC</span> license ecology. Questions? I’m happy to [answer them][3] .
+If you don’t read the [Creative Commons][1]  blog, you missed [the announcement][2]  that the deadline for applying to be a CC intern this summer has been extended until March 21 (a week from Friday). On the tech side we’re looking for computer science/software engineering students who want to help us build tools to support the CC license ecology. Questions? I’m happy to [answer them][3] .
 
 
 

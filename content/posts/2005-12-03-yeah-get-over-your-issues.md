@@ -5,9 +5,9 @@ categories:
   - politics
 slug: yeah-get-over-your-issues
 ---
-So [Good As You][1]  [pointed out][2]  an [article][3]  on the American Family Associations website which highlights the work of (and I can’t make this up) **Jews Against Anti-Christian Defamation** (<span class="caps">JAACD</span>). Apparently the <span class="caps">JAACD</span> is fed up with people trying to take Christ out of Christmas and persecute those poor, underpriveleged Christians. Now I happen to agree on one level; the word Christmas implies an association with Christ. But I’m not sure it’s the “non-believers” that bear the responsibility here, especially since they keep reminding us that those believers are in the alledged majority.Â Maybe someone from the <span class="caps">AFA</span> can explain to me how shopping for low-cost, low-class garments at <span class="caps">J.C.</span> Penny reminds us that “Jesus is the reason for the season.”
+So [Good As You][1]  [pointed out][2]  an [article][3]  on the American Family Associations website which highlights the work of (and I can’t make this up) **Jews Against Anti-Christian Defamation** (JAACD). Apparently the JAACD is fed up with people trying to take Christ out of Christmas and persecute those poor, underpriveleged Christians. Now I happen to agree on one level; the word Christmas implies an association with Christ. But I’m not sure it’s the “non-believers” that bear the responsibility here, especially since they keep reminding us that those believers are in the alledged majority.Â Maybe someone from the AFA can explain to me how shopping for low-cost, low-class garments at J.C. Penny reminds us that “Jesus is the reason for the season.”
 
-So a quote from the representative of the <span class="caps">JAACD</span>:
+So a quote from the representative of the JAACD:
 
 > “Why would a group of Jews who don’t celebrate Christmas care about the disappearance of Christmas?” Feder asked, anticipating the question from his listeners. “Because Christmas is disappearing,” he proceeded to explain.
 Uh, I hate to tell you this, but that doesn’t explain why you care (and just saying it’s disappearing doesn’t make it so). But things get really good at the end of the article:

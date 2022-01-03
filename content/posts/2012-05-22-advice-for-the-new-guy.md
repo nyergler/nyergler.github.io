@@ -15,11 +15,11 @@ When you wake up from your nap, if you still feel like doing preparatory work, h
 
 One: Know what text editor you love and make sure your skills at using it are well honed.
 
-You’ll be spending a lot of time in your editor, knowing it back and forth is a good thing. When I came to Eventbrite, I got to stop managing and write more code. And I realized that all the things that had been merely Emacs annoyances were suddenly really important to fix. I took the tutorial (<tt class="docutils literal"><span class="pre">M-x</span> tutorial</tt>, natch), which actually was super helpful even though I’d been using it for years.
+You’ll be spending a lot of time in your editor, knowing it back and forth is a good thing. When I came to Eventbrite, I got to stop managing and write more code. And I realized that all the things that had been merely Emacs annoyances were suddenly really important to fix. I took the tutorial (`M-x tutorial`, natch), which actually was super helpful even though I’d been using it for years.
 
-In particular, if you’re coming straight out of college, you’ll be working with more files at one time than you probably have in the past. Knowing how to find something in a file (and not necessarily knowing what file it’s in) will be useful. (And again, if you’re using Emacs, <tt class="docutils literal"><span class="pre">grep-find</span></tt> is your friend.)
+In particular, if you’re coming straight out of college, you’ll be working with more files at one time than you probably have in the past. Knowing how to find something in a file (and not necessarily knowing what file it’s in) will be useful. (And again, if you’re using Emacs, `grep-find` is your friend.)
 
-[<span class="caps">NB</span>: If you want a longer treatise of why your editor matters, read [The Pragmatic Programmer][1] .]
+[NB: If you want a longer treatise of why your editor matters, read [The Pragmatic Programmer][1] .]
 
 Two: git.
 
@@ -31,19 +31,19 @@ You’ll spend as much time reading code as you do writing it, if not more. Find
 
 <ul class="simple">
   <li>
-    <a class="reference external" href="https://github.com/nyergler/hieroglyph">Hieroglyph</a> (Follow your nose down into Sphinx and figure out how <tt class="docutils literal">.. noslides:</tt> works.)
+    <a class="reference external" href="https://github.com/nyergler/hieroglyph">Hieroglyph</a> (Follow your nose down into Sphinx and figure out how `.. noslides:` works.)
   </li>
   <li>
     <a class="reference external" href="http://mediagoblin.org/">MediaGoblin</a> (How is meddleware used? How’s it different than Django’s middleware?)
   </li>
   <li>
-    <a class="reference external" href="http://openhatch.org">OpenHatch</a> (How would you take the new mission framework and make it work for things like the <span class="caps">SVN</span> mission?)
+    <a class="reference external" href="http://openhatch.org">OpenHatch</a> (How would you take the new mission framework and make it work for things like the SVN mission?)
   </li>
 </ul>
 
 Really, just practice reading code.
 
-And four, explore the poetry of Billy Collins, a former poet laureate. I suggest the <span class="caps">CC</span>-licensed album of him reading his own work, [The Best Cigarette][3] . Specifically “Another Reason I Don’t Keep a Gun In The House”, “Marginalia”, and “The Best Cigarette”. Maybe it’s just me, but listening to Collins calms me down and puts me in that space where I can be calm, creative, and make great software.
+And four, explore the poetry of Billy Collins, a former poet laureate. I suggest the CC-licensed album of him reading his own work, [The Best Cigarette][3] . Specifically “Another Reason I Don’t Keep a Gun In The House”, “Marginalia”, and “The Best Cigarette”. Maybe it’s just me, but listening to Collins calms me down and puts me in that space where I can be calm, creative, and make great software.
 
 So there you have it, my advice for the new guy. If I had to sum it up, it’s “tools and skills, not technologies”. And poetry.
 

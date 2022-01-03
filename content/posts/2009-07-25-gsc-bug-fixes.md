@@ -12,16 +12,16 @@ tags:
   - 'svn:externals'
 slug: gsc-bug-fixes
 ---
-I [announced][1]  **gsc** earlier this week because it worked for me. If you were brave and cloned the [repository][2]  to try it out, you undoubtedly found that, well, it _didn’t_ work for you. Thanks to Rob for reporting the problem with <tt class="docutils literal">setup.py</tt>, as well as a few other bugs.
+I [announced][1]  **gsc** earlier this week because it worked for me. If you were brave and cloned the [repository][2]  to try it out, you undoubtedly found that, well, it _didn’t_ work for you. Thanks to Rob for reporting the problem with `setup.py`, as well as a few other bugs.
 
-I’ve pushed an update to [the repository on gitorious][2]  which includes fixes for the <tt class="docutils literal">setup.py</tt> issue, support for some [likely] common Subversion configurations and a test suite. In addition to the installation issue Rob also reported that wasn’t able to clone his svn repository with gsc. Some investigation led me to realize the following cases weren’t supported:
+I’ve pushed an update to [the repository on gitorious][2]  which includes fixes for the `setup.py` issue, support for some [likely] common Subversion configurations and a test suite. In addition to the installation issue Rob also reported that wasn’t able to clone his svn repository with gsc. Some investigation led me to realize the following cases weren’t supported:
 
 <ul class="simple">
   <li>
-    <tt class="docutils literal">svn:externals</tt> specified with nested local paths (ie, “vendor/product”)
+    `svn:externals` specified with nested local paths (ie, “vendor/product”)
   </li>
   <li>
-    empty directories in the Subversion repository with nothing but <tt class="docutils literal">svn:externals</tt> set on them
+    empty directories in the Subversion repository with nothing but `svn:externals` set on them
   </li>
 </ul>
 

@@ -17,20 +17,20 @@ Moving from my WordPress backend, I wanted keep the URLs as stable as possible. 
 
 <ul class="simple">
   <li>
-    uses the Sphinx <span class="caps">HTML</span> builder, which adds <tt class="docutils literal">.html</tt> extensions to the output pages
+    uses the Sphinx HTML builder, which adds `.html` extensions to the output pages
   </li>
   <li>
-    assumes that the blog&#8217;s root is the root of the domain (on my site it&#8217;s in the <tt class="docutils literal">/blog/</tt> path)
+    assumes that the blog&#8217;s root is the root of the domain (on my site it&#8217;s in the `/blog/` path)
   </li>
   <li>
-    places <em>every</em> post in your <span class="caps">RSS</span> feed
+    places <em>every</em> post in your RSS feed
   </li>
   <li>
     doesn&#8217;t allow you to configure the output path for the feed or archives
   </li>
 </ul>
 
-I&#8217;ve [forked Tinkerer on Bitbucket][5]  and addressed those issues. Making Tinkerer work with the <tt class="docutils literal">dirhtml</tt> builder was most of the work, as there were several places that assumed you were dealing with <span class="caps">HTML</span> files (instead of directories with an <tt class="docutils literal">index.html</tt> inside them). My experience with Sphinx from [Hieroglyph][1]  came in handy here: the Sphinx <span class="caps">HTML</span> builders all have a <tt class="docutils literal">.get_target_uri()</tt> method, which does the right thing. I&#8217;m sure there are some things I&#8217;ve missed or broken in the process, but my hope is that I can get my changes into shape and merged upstream. I&#8217;ve also added several configuration directives for customizing how Tinkerer works. I still need to update the documentation in my fork, but you can see those [in the source][6] .
+I&#8217;ve [forked Tinkerer on Bitbucket][5]  and addressed those issues. Making Tinkerer work with the `dirhtml` builder was most of the work, as there were several places that assumed you were dealing with HTML files (instead of directories with an `index.html` inside them). My experience with Sphinx from [Hieroglyph][1]  came in handy here: the Sphinx HTML builders all have a `.get_target_uri()` method, which does the right thing. I&#8217;m sure there are some things I&#8217;ve missed or broken in the process, but my hope is that I can get my changes into shape and merged upstream. I&#8217;ve also added several configuration directives for customizing how Tinkerer works. I still need to update the documentation in my fork, but you can see those [in the source][6] .
 
 As an aside, if you&#8217;re looking at migrating from WordPress to another platform, the [exitwp][7]  script is a pretty sane place to start. I used it, along with [pandoc][8] , to transform my WordPress export into more uniform Restructured Text.
 

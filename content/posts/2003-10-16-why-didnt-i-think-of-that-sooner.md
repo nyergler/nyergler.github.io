@@ -12,11 +12,11 @@ code, per say, but some invalid metadata. However, there were several
 discoveries I made that I’m working to roll into both ccValidator and
 ccLicense.py. In no particular order:
 
-* Python 2.2 seems to have a broken <tt class="docutils literal">re</tt> module
+* Python 2.2 seems to have a broken `re` module
   which barfs on really long matches. 2.2.3 and all the 2.3 series seem to have
   this fixed (note: this is just my observation, if anyone can confirm/correct
   this, feel free)
-* ccLicense.py returns incorrect results if the <span class="caps">RDF</span>
+* ccLicense.py returns incorrect results if the RDF
   block defines more than one work and…
 * &#8230;I was trying <strong>way</strong> too hard to parse the work meta-data;
   some simple <a class="reference external"

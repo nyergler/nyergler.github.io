@@ -9,6 +9,6 @@ I go into every summer (actually every “break,” be it summer, christmas, etc
 
 \* “We the Media”, Dan Gillmor (in progress) \* “The Anarchist in the Library”, Siva Vaidhyanathan (in progress) \* “Copyright in Historical Perspective”, Lyman Ray Patterson \* “Godel, Escher, Bach: an Eternal Golden Braid”, Douglas R. Hofstadter \* “A Hope in the Unseen”, Ron Suskind \* “Fast Food Nation”, Eric Scholsser \* “Personal History”, Katharine Graham \* “The Rise of the Creative Class”, Richard Florida
 
-Last night we were killing time in Barnes <span class="amp">&</span> Noble before our movie began, and I had to resist the temptation to add to the pile. Is this an addiction?
+Last night we were killing time in Barnes & Noble before our movie began, and I had to resist the temptation to add to the pile. Is this an addiction?
 
 

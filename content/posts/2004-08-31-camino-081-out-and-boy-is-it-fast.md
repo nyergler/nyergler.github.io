@@ -13,7 +13,7 @@ Second, it’s fast. Really, really fast. Up to this point, Firefox has been my 
 
 Finally, Camino puts a close button for every tab on the tab label, exactly where it should be.
 
-Of course, you can’t have it all. [MozCC][3]  doesn’t work with Camino, since Camino replaces the <span class="caps">XUL</span> front end with a native, Cocoa front end. So even though it’s a great performer, there doesn’t seem to be any analogous extension mechanism. Even so, it’s enough of a difference to make me change my behavior. Until Firefox catches up, that is.
+Of course, you can’t have it all. [MozCC][3]  doesn’t work with Camino, since Camino replaces the XUL front end with a native, Cocoa front end. So even though it’s a great performer, there doesn’t seem to be any analogous extension mechanism. Even so, it’s enough of a difference to make me change my behavior. Until Firefox catches up, that is.
 
 
 

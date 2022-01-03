@@ -15,7 +15,7 @@ I ran across a few new sites today (mostly via [Mozillazine][1] ), which I’ll 
     <a class="reference external" href="http://weblogs.mozillazine.org/rumblingedge/">The Rumbling Edge</a> similar to The Burning Edge, but focused on Thunderbird
   </li>
   <li>
-    <a class="reference external" href="http://aom.nachbaur.com/">Mozilla <span class="caps">AOM</span> Reference</a> a quick reference to the largely undocumented Application Object Model
+    <a class="reference external" href="http://aom.nachbaur.com/">Mozilla AOM Reference</a> a quick reference to the largely undocumented Application Object Model
   </li>
 </ul>
 

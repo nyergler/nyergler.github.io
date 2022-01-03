@@ -5,6 +5,6 @@ slug: mozcc-070-released
 categories:
   - mozCC
 ---
-<span class="caps">OK</span>, mozCC 0.7.0 is out. You can read all about it [here][1] . Not perfect, but a step forward.
+OK, mozCC 0.7.0 is out. You can read all about it [here][1] . Not perfect, but a step forward.
 
  [1]: http://yergler.net/projects/mozcc/news.html#001117

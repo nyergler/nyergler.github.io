@@ -10,7 +10,7 @@ tags:
   - python
 slug: pycon-2010-cfp-five-days-left
 ---
-The <span class="caps">CFP</span> for [PyCon 2010][1]  closes in five days. I’m on the program committee this year and it’s exciting to see good proposals come in. From the <span class="caps">CFP</span>:
+The CFP for [PyCon 2010][1]  closes in five days. I’m on the program committee this year and it’s exciting to see good proposals come in. From the CFP:
 
 > Want to showcase your skills as a Python Hacker? Want to have hundreds of people see your talk on the subject of your choice? Have some hot button issue you think the community needs to address, or have some package, code or project you simply love talking about? Want to launch your master plan to take over the world with python?
 >

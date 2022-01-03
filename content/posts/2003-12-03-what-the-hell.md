@@ -5,7 +5,7 @@ categories:
   - geek
 slug: what-the-hell
 ---
-Ok, I love <span class="caps">MIT</span>’s [OpenCourseware][1]  initiative. I think it’s a cool idea and a great contribution to the commons (my words, not theirs). But [this post][2]  to Phillip Greenspun’s blog just pisses me off. In the words of Jill Sobule, “why are all our heros so imperfect?”
+Ok, I love MIT’s [OpenCourseware][1]  initiative. I think it’s a cool idea and a great contribution to the commons (my words, not theirs). But [this post][2]  to Phillip Greenspun’s blog just pisses me off. In the words of Jill Sobule, “why are all our heros so imperfect?”
 
 For your enjoyment, and apologies to [Nina Totenberg][3]:
 

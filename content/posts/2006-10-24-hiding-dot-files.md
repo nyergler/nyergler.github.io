@@ -11,7 +11,7 @@ Ever since upgrading to Ubuntu Edgy Eft (which I admittedly did before it hit of
 
 [|image0|][1]
 
-**<span class="caps">UPDATE</span>**: Uh, never mind… I discovered right-clicking the file list displays a menu with a helpful option: _Show hidden files_. Sigh.
+**UPDATE**: Uh, never mind… I discovered right-clicking the file list displays a menu with a helpful option: _Show hidden files_. Sigh.
 
 
 

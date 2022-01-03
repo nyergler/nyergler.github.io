@@ -6,7 +6,7 @@ categories:
 format: aside
 slug: cc-internships
 ---
-As promised to some readers, here’s your official notice: the call for <span class="caps">CC</span> Summer Interns is [now up][1] .
+As promised to some readers, here’s your official notice: the call for CC Summer Interns is [now up][1] .
 
 
 

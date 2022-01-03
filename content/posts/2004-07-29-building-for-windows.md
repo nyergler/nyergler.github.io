@@ -6,9 +6,9 @@ categories:
   - oscon2004
 slug: building-for-windows
 ---
-It’s a little ironic that the best session I attended yesterday was presented by a Microsoft employee, [Rob Mensching][1] . Rob [presented][2]  on [<span class="caps">WIX</span>][3] , the Windows Installer Xml toolkit. <span class="caps">WIX</span> is a set of tools which allow developers to “integrate setup into the build process.” After Rob’s presentation, I’m convinced that <span class="caps">WIX</span> is exactly what we need at <span class="caps">CC</span>.
+It’s a little ironic that the best session I attended yesterday was presented by a Microsoft employee, [Rob Mensching][1] . Rob [presented][2]  on [WIX][3] , the Windows Installer Xml toolkit. WIX is a set of tools which allow developers to “integrate setup into the build process.” After Rob’s presentation, I’m convinced that WIX is exactly what we need at CC.
 
-At <span class="caps">CC</span>, we have two programmers on staff, and I’m the only one who has the luxury of coding full time. So when it comes to developing software, I’d much rather spend my time developing new features than writing setup.exe. So <span class="caps">WIX</span> will allow us to define our setup process in an <span class="caps">XML</span> file and then generate the installer in the same process we use to “compile” (in quotes, since we use lots of Python and it’s really just [setup.py][4] ).
+At CC, we have two programmers on staff, and I’m the only one who has the luxury of coding full time. So when it comes to developing software, I’d much rather spend my time developing new features than writing setup.exe. So WIX will allow us to define our setup process in an XML file and then generate the installer in the same process we use to “compile” (in quotes, since we use lots of Python and it’s really just [setup.py][4] ).
 
 And I suppose it’s good to hear from someone whose ideas and beliefs place him in a different place on the Stallman-Gates Openness Scale.
 

@@ -15,7 +15,7 @@ I’ve always loved reading. In middle school, I’d sit with a novel in my lap,
 
 And that’s why my blog seems like a book report lately.
 
-<hr class="docutils" />
+---
 
 <sup>1</sup> I see blogging as a practice: something that I do with regularity, which has immediate and cumulative benefits.
 

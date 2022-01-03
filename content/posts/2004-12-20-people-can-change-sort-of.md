@@ -7,7 +7,7 @@ slug: people-can-change-sort-of
 ---
 My family’s evolving reaction to my sexuality is a continual source of learning and frustration. Like many people, I was raised in an incredibly fundamentalist environment, and have since declared, “I’m Gay! Really, really gay!” So it was frustrating, but not that suprising, when I was [de-invited][1]  from my aunt’s Thanksgiving and Christmas parties last year. Well, **I** wasn’t exactly deinvited: only the parts of me they found objectionable.
 
-So this year, when my Aunt Fonda called to tell me about Christmas, I was prepared to politely decline. I raised the issue of Garrett last year, and they’d made their feelings abundantly clear. Imagine my suprise (and, admittedly, suspicion) after declining the invitation when Fonda asked, “um, well, uh, would it make a difference if we invited Garrett, too?” <span class="caps">OK</span>, so not exactly the warm, welcoming acceptance we’d like to feel, but it’s a baby step, none the less.
+So this year, when my Aunt Fonda called to tell me about Christmas, I was prepared to politely decline. I raised the issue of Garrett last year, and they’d made their feelings abundantly clear. Imagine my suprise (and, admittedly, suspicion) after declining the invitation when Fonda asked, “um, well, uh, would it make a difference if we invited Garrett, too?” OK, so not exactly the warm, welcoming acceptance we’d like to feel, but it’s a baby step, none the less.
 
 Last night was said Christmas party, and we managed to escape without any confrontations or incidents. I got to hold Isabelle, my cousin’s new baby, and my other cousin and her husband were in town from Florida. Overall, not a bad night.
 

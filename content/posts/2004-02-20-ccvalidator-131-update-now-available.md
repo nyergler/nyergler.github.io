@@ -5,7 +5,7 @@ categories:
   - ccValidator
 slug: ccvalidator-131-update-now-available
 ---
-As promised yesterday, I’ve updated [ccValidator][1]  with a minor update. The source, as always, is available in the [release archive][2] . This release exposes some validation errors which were previously masked as _“unknown errors”_. These updates provide more verbose error reporting in instances where the <span class="caps">RDF</span> is well-formed <span class="caps">XML</span>, but not properly structured <span class="caps">RDF</span>.
+As promised yesterday, I’ve updated [ccValidator][1]  with a minor update. The source, as always, is available in the [release archive][2] . This release exposes some validation errors which were previously masked as _“unknown errors”_. These updates provide more verbose error reporting in instances where the RDF is well-formed XML, but not properly structured RDF.
 
 Comments, criticism and suggestions are [welcome][3] , as always.
 

@@ -9,7 +9,7 @@ slug: mozcc-083-released
 
 mozCC 0.8.3 has been released, and all users of mozCC are encouraged to upgrade. mozCC 0.8.3 is a bug fix release which corrects conditions which caused Mozilla and Firefox to lock-up when certain license combinations were encountered. Pages impacted by this bug include the [Creative Commons][2]  [license selection][3]  process.
 
-Firefox users can seamlessly upgrade by going to the Extension Manager, clicking on mozCC, and then clicking the Check for Updates button. The <span class="caps">XPI</span> can be found in the [release archive][4] .
+Firefox users can seamlessly upgrade by going to the Extension Manager, clicking on mozCC, and then clicking the Check for Updates button. The XPI can be found in the [release archive][4] .
 
 As always, comments, feedback and bug reports are welcome. Send them to <mozcc&#64;yergler.net> .
 

@@ -16,7 +16,7 @@ And then you scroll down and find the truth:
 
 ![][4]
 
-So can someone explain to me how “completely inaccessible due to a massive <span class="caps">DDOS</span> attack” (my words) is in any way equivalent to “online”?
+So can someone explain to me how “completely inaccessible due to a massive DDOS attack” (my words) is in any way equivalent to “online”?
 
 
 

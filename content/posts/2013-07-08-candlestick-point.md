@@ -11,7 +11,7 @@ slug: candlestick-point
   <img alt="" src="/media/2013/2013-candlestick-point-650.png" />
 
   <p class="caption">
-    <span class="dquo">&#8220;</span>Candlestick Point&#8221;, copyright 2013 Nathan Yergler
+    &#8220;Candlestick Point&#8221;, copyright 2013 Nathan Yergler
   </p>
 
   <div class="legend">
@@ -25,7 +25,7 @@ A dear friend sent me a photograph she took from [Candlestick Point][1]  shortly
   <img alt="" src="/media/2013/2013-candlestick-point-plate-650.png" />
 
   <p class="caption">
-    <span class="dquo">&#8220;</span>Candlestick Point&#8221; plate, midway through carving
+    &#8220;Candlestick Point&#8221; plate, midway through carving
   </p>
 </div>
 

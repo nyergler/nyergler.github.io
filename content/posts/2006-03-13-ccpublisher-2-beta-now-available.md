@@ -7,7 +7,7 @@ categories:
 format: aside
 slug: ccpublisher-2-beta-now-available
 ---
-ccPublisher 2 Beta 2 is [now available][1] . Follow the link for download links (Windows, Mac <span class="caps">OS</span> X, and Linux), some release notes and installation instructions. And don’t forget to check out the new [tracker][2]  for all your bug-filing, feature-suggesting urges.
+ccPublisher 2 Beta 2 is [now available][1] . Follow the link for download links (Windows, Mac OS X, and Linux), some release notes and installation instructions. And don’t forget to check out the new [tracker][2]  for all your bug-filing, feature-suggesting urges.
 
 
 

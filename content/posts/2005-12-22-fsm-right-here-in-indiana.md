@@ -5,7 +5,7 @@ categories:
   - General
 slug: fsm-right-here-in-indiana
 ---
-I was just looking at the [Church of the Flying Spaghetti Monster][1] , and imagine my surprise (or lack there of, in retrospect) when I saw my childhood school on the list of <span class="caps">CC</span>’d school boards: [Bluffton-Harrison Metropolitan Schools][2] .Â  Wow.
+I was just looking at the [Church of the Flying Spaghetti Monster][1] , and imagine my surprise (or lack there of, in retrospect) when I saw my childhood school on the list of CC’d school boards: [Bluffton-Harrison Metropolitan Schools][2] .Â  Wow.
 
 
 

@@ -1,11 +1,11 @@
 ---
-title: Peaches <span class="amp">&</span> Cream
+title: Peaches & Cream
 date: 2004-10-15T09:25:55.000Z
 categories:
   - my life
 slug: peaches-cream
 ---
-[Dogpoet][1]  (whom I have envied from afar for picking up and moving to <span class="caps">NYC</span>) [makes an interesting comment][2]  about his new life in <span class="caps">NYC</span>.
+[Dogpoet][1]  (whom I have envied from afar for picking up and moving to NYC) [makes an interesting comment][2]  about his new life in NYC.
 
 > In some ways it was a relief to finally admit this to myself, to stop pretending that my “new life” was one exciting thing after another, rather than admitting the truth; that my new life was an exhausting, overwhelming, homesick-inducing series of days and that, for as seldom as I left campus, I might as well be in Houston.
 Some days I feel the same way about the changes going on in my life. Admittedly, leaving [Canterbury][3]  to work for [Creative Commons][4]  isn’t the change that moving from the west to east coasts is, but it was a big deal to me. And while I appreciate everyone who expresses how happy and excited they are for me, if I have to hear one more person say “You’re so _lucky_ you get to work from home! Must be _so_ tough!”

@@ -5,7 +5,7 @@ categories:
   - culture
 ---
 Simply amazing. Living in the mid-west, I love visiting modern art museums when
-I travel. My visit to San Francisco’s <span class="caps">MOMA</span> was the
+I travel. My visit to San Francisco’s MOMA was the
 highlight of my trip to Oracle World last year. Now the Guggenheim has placed
 large amounts of their collection [online][1] . How cool. (via [megnut][2])
 

@@ -14,7 +14,7 @@ Great idea; see [Attribution 2.5][5] .
 So this one is a little different, but I’m not convinced it requires an entirely new license. This is basically applying [Attribution 2.5][5]  to the first 200 words of your work. Why not just publish two feeds: one with full posts under something more restrictive, another with the first 200 words, under Attribution 2.5?
 
 > Option 3: Personal aggregation only: I consent to the republication of the copyrighted works that I publish via my source, but only for strictly personal, non-commercial use.
-Is a license needed for this? Earlier in his piece Palfrey states: “What I think I’ve heard is that every blogger expects that other people will, at a minimum, be able to render your works in an aggregator for personal use, or else they would not be offering an <span class="caps">XML</span> feed.” I suppose being explicit is better than implicit, but why not [Attribute-NonCommercial][6]  (or one of it’s ShareAlike or NoDerivatives cousins)?
+Is a license needed for this? Earlier in his piece Palfrey states: “What I think I’ve heard is that every blogger expects that other people will, at a minimum, be able to render your works in an aggregator for personal use, or else they would not be offering an XML feed.” I suppose being explicit is better than implicit, but why not [Attribute-NonCommercial][6]  (or one of it’s ShareAlike or NoDerivatives cousins)?
 
 > Option 4: No aggregation except with permission: I do not consent to the use of my source for any purpose, except with prior written permission or as required by law.
 See: fully copyright; no license required.

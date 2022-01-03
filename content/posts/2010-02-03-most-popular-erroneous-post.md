@@ -9,7 +9,7 @@ tags:
 format: aside
 slug: most-popular-erroneous-post
 ---
-There are a few posts on my site that get the lion’s share of traffic. One of those is a one-off project I did to convert [Maildir to Mbox][1] . Today someone left a comment, saying that it didn’t work. And then I realized that somewhere along the line <tt class="docutils literal"><span class="pre">sys.argv[-1]</span></tt> had been converted to <tt class="docutils literal">sys.argv[1]</tt>. Not really the same thing.
+There are a few posts on my site that get the lion’s share of traffic. One of those is a one-off project I did to convert [Maildir to Mbox][1] . Today someone left a comment, saying that it didn’t work. And then I realized that somewhere along the line `sys.argv[-1]` had been converted to `sys.argv[1]`. Not really the same thing.
 
 I’ve update the page, but it’s a little embarrassing to only realize 18 months (or more) after originally posting it that you’ve been giving out bum advice.
 

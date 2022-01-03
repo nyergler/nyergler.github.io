@@ -5,11 +5,11 @@ categories:
   - geek
 slug: liberal-licensing-yahoo-gets-it-right
 ---
-Via the [O’Reilly Radar][1]  I saw that Yahoo (excuse me, _“Yahoo!”_) has released two new assets for developers: a <span class="caps">UI</span> library and a design pattern library. So the [<span class="caps">UI</span> library][2]  isn’t that interesting to me — I haven’t done enough [<span class="caps">STRIKEOUT</span>:<span class="caps">DHTML</span>]<span class="caps">AJAX</span> programming to really figure out what to look for in a toolkit. And the [Design Patterns][3]  are probably only interesting if you’re doing dynamic web stuff.
+Via the [O’Reilly Radar][1]  I saw that Yahoo (excuse me, _“Yahoo!”_) has released two new assets for developers: a UI library and a design pattern library. So the [UI library][2]  isn’t that interesting to me — I haven’t done enough [STRIKEOUT:DHTML]AJAX programming to really figure out what to look for in a toolkit. And the [Design Patterns][3]  are probably only interesting if you’re doing dynamic web stuff.
 
 But there are couple of things that really impress me. First, the design patterns all provide information on how accessibility issues should be handled. Sure, its prescriptive rather than descriptive, but even formalizing what _should_ happen is a good thing — a sign of a maturing technology is stabilized idioms, right?
 
-Second, both are liberally licensed; the <span class="caps">UI</span> library under a [<span class="caps">BSD</span> License][4]  and the design patterns under the most liberal [<span class="caps">CC</span>][5]  license — [Attribution 2.5][6] . My opinions on software licensing are evolving, but lately I really appreciate it when authors give **me** more rights to reuse their work in a manner I wish. Bravo, Yahoo!.
+Second, both are liberally licensed; the UI library under a [BSD License][4]  and the design patterns under the most liberal [CC][5]  license — [Attribution 2.5][6] . My opinions on software licensing are evolving, but lately I really appreciate it when authors give **me** more rights to reuse their work in a manner I wish. Bravo, Yahoo!.
 
 
 
