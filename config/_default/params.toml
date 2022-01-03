@@ -12,6 +12,7 @@ colorScheme = "ocean"
 # description = "My awesome website"
 # mainSections = ["section1", "section2"]
 # robots = ""
+attribution=false
 
 [homepage]
   layout = "page" # valid options: page, profile, custom
