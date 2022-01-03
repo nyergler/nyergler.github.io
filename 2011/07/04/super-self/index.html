@@ -94,7 +94,7 @@ enter `A.__init__()`
 call `super` on `self.__class__` and call `__init__` on the proxy object
 </li>
 </ol> The problem is that when we get to step four,
-<p><code>self</code> still refers to our instance of <code>B</code>, so calling <code>super</code> points back to <code>A</code> again. In technical terms: Ka-bloom. <strong>TL</span>;<span class=caps>DR:</strong> <code>super(self.__class__, self)</code> may look like a neat trick, but it’s the end of the line for sub-classing. <strong>Further reading:</strong> Raymond Hettinger’s excellent <a href=http://rhettinger.wordpress.com/2011/05/26/super-considered-super/>blog post on super</a> provides a great overview of <code>super</code> and shows off the improved Python 3 syntax, which removes the need to write the class name as part of the <code>super</code> statement. I was really pleased to find the Python standard library documentation links directly to it.</p>
+<p><code>self</code> still refers to our instance of <code>B</code>, so calling <code>super</code> points back to <code>A</code> again. In technical terms: Ka-bloom. <strong>TL;DR:</strong> <code>super(self.__class__, self)</code> may look like a neat trick, but it’s the end of the line for sub-classing. <strong>Further reading:</strong> Raymond Hettinger’s excellent <a href=http://rhettinger.wordpress.com/2011/05/26/super-considered-super/>blog post on super</a> provides a great overview of <code>super</code> and shows off the improved Python 3 syntax, which removes the need to write the class name as part of the <code>super</code> statement. I was really pleased to find the Python standard library documentation links directly to it.</p>
 </section>
 <footer class=pt-8>
 <div class="pt-8 article-pagination">

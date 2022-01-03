@@ -71,7 +71,7 @@ ccRdf 0.4.0
 </header>
 <section class="prose dark:prose-light">
 <p><a href=http://yergler.net/projects/ccrdf>ccRdf</a> is now available for <a href=http://yergler.net/projects/ccrdf/releases>download</a> . This release fixes several bugs related to the getAll and getFirst methods of the rdfDict class. There have also been minor internal implementation changes made.</p>
-<p>In addition to bug fixes, I want to note a change in functionality. In previous versions, casting a rdfDict to a string returned it’s RDF</span> subject. This is <strong>no longer the case</strong>. <em>str</em> now returns a contrived string representation of the current instance, based (very) loosely on the <a href=http://dublincore.org/documents/dcq-rdf-xml/#sec3>Dublin Core Dumb-down Algorithm</a> . If someone has a suggestion or better implementation, I welcome it. You can still access the <span class=caps>RDF subject using the subject attribute or the new about method.</p>
+<p>In addition to bug fixes, I want to note a change in functionality. In previous versions, casting a rdfDict to a string returned it’s RDF subject. This is <strong>no longer the case</strong>. <em>str</em> now returns a contrived string representation of the current instance, based (very) loosely on the <a href=http://dublincore.org/documents/dcq-rdf-xml/#sec3>Dublin Core Dumb-down Algorithm</a> . If someone has a suggestion or better implementation, I welcome it. You can still access the RDF subject using the subject attribute or the new about method.</p>
 </section>
 <footer class=pt-8>
 <div class="pt-8 article-pagination">

@@ -23,7 +23,7 @@
 <meta name=twitter:card content="summary">
 <meta name=twitter:title content="Using wpLicense">
 <meta name=twitter:description content="Ted is trying to use the wpLicense WordPress plugin and ran into some problems.">
-<script type=application/ld+json>{"@context":"https://schema.org","@type":"BlogPosting","articleSection":"Posts","name":"Using wpLicense","headline":"Using wpLicense","description":"Ted is trying to use the wpLicense WordPress plugin and ran into some problems.","inLanguage":"en","author":{"@type":"Person","name":"Nathan Yergler"},"creator":{"@type":"Person","name":"Nathan Yergler"},"copyrightHolder":"Nathan Yergler","copyrightYear":"2005","dateCreated":"2005-08-22T06:49:26\u002b00:00","datePublished":"2005-08-22T06:49:26\u002b00:00","dateModified":"2005-08-22T06:49:26\u002b00:00","url":"https:\/\/nyergler.github.io\/2005\/08\/22\/using-wplicense\/","wordCount":"203","keywords":[]}</script>
+<script type=application/ld+json>{"@context":"https://schema.org","@type":"BlogPosting","articleSection":"Posts","name":"Using wpLicense","headline":"Using wpLicense","description":"Ted is trying to use the wpLicense WordPress plugin and ran into some problems.","inLanguage":"en","author":{"@type":"Person","name":"Nathan Yergler"},"creator":{"@type":"Person","name":"Nathan Yergler"},"copyrightHolder":"Nathan Yergler","copyrightYear":"2005","dateCreated":"2005-08-22T06:49:26\u002b00:00","datePublished":"2005-08-22T06:49:26\u002b00:00","dateModified":"2005-08-22T06:49:26\u002b00:00","url":"https:\/\/nyergler.github.io\/2005\/08\/22\/using-wplicense\/","wordCount":"202","keywords":[]}</script>
 <meta name=author content="Nathan Yergler">
 <link href=https://github.com/nyergler rel=me>
 <link href=https://instagram.com/nyergler rel=me>
@@ -72,7 +72,7 @@ Using wpLicense
 <section class="prose dark:prose-light">
 <p>Ted is trying to use the <a href=http://yergler.net/projects/wplicense>wpLicense</a> WordPress plugin and ran into some problems. So he <a href="http://tedernst.com/wp/?p=265">wrote a little blog entry</a> and when it showed up in my Trackback queue, I went to leave a comment, but can’t — you must be registered, and it appears registration is turned off (at least the link is, and I’m too lazy to try and find the URL). So here’s my reply; I’m dropping it here because classes start today, so I don’t know how long it’ll be before I get around to updating the actual documentation:</p>
 <blockquote>
-<p>Hi Ted, thanks for trying the plugin. The most common reason the plugin doesn’t display the license icon and link has to do with themes. WordPress provides a “footer” hook which wpLicense uses, but in order for it to be called, your template must include a call to <code>&lt;span class="pre">wp_footer();&lt;/span></code>, probably in footer.php. The default theme, Kubrick, does that, so you might look at it’s footer.php for a sample.</p>
+<p>Hi Ted, thanks for trying the plugin. The most common reason the plugin doesn’t display the license icon and link has to do with themes. WordPress provides a “footer” hook which wpLicense uses, but in order for it to be called, your template must include a call to <code>wp_footer();</code>, probably in footer.php. The default theme, Kubrick, does that, so you might look at it’s footer.php for a sample.</p>
 <p>I just looked at the documentation again, and that’s not clear, so I’ll try to get that updated. In the meantime, if you still have problems, feel free to email me directly (nathan at yergler dot net).</p>
 <p>Thanks again,</p>
 <p>Nathan</p>

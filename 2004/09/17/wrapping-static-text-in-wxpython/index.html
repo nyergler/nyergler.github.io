@@ -70,8 +70,8 @@ Wrapping Static Text in wxPython
 </div>
 </header>
 <section class="prose dark:prose-light">
-<p>In addition to packing for NYC</span> this morning, I’m working on getting a new release of ccTag out the door. I’m working on lots of <span class=caps>UI issues at the moment, and part of that relates to <a href=http://wxpython.org>wxPython’s</a> StaticText widget (“Label” to you recovering Win32 programmers). Unfortunately, the StaticText widget doesn’t support automagic word-wrapping, so I’ve derived a new class which may be of interest to others.</p>
-<p>StaticWrapText acts like a regular StaticText widget, with the exception that it will attempt to word wrap it’s contents as it’s resized. This makes it much easier to use a single XRC</span> across platforms where font sizes, etc may impact line breaks in a normal StaticText widget. You can find the source in <a href=http://yergler.net/projects/stext/stext_py.txt>stext.py</a> . The source includes the widget class, an <span class=caps>XRC</span> resource handler, and a very simple sample which will execute when you run stext.py directly. The sample demonstrates how to use the <span class=caps>XRC resource handler.</p>
+<p>In addition to packing for NYC this morning, I’m working on getting a new release of ccTag out the door. I’m working on lots of UI issues at the moment, and part of that relates to <a href=http://wxpython.org>wxPython’s</a> StaticText widget (“Label” to you recovering Win32 programmers). Unfortunately, the StaticText widget doesn’t support automagic word-wrapping, so I’ve derived a new class which may be of interest to others.</p>
+<p>StaticWrapText acts like a regular StaticText widget, with the exception that it will attempt to word wrap it’s contents as it’s resized. This makes it much easier to use a single XRC across platforms where font sizes, etc may impact line breaks in a normal StaticText widget. You can find the source in <a href=http://yergler.net/projects/stext/stext_py.txt>stext.py</a> . The source includes the widget class, an XRC resource handler, and a very simple sample which will execute when you run stext.py directly. The sample demonstrates how to use the XRC resource handler.</p>
 <p>There are a couple areas that could use improvement. Currently the resize is only called when the widget receives an EVT_SIZE event, so it’s possible that your app could start with the text unwrapped. I’ve worked around this by manually calling OnSize on the widget when I create it. Not an ideal solution, but one that works for now.</p>
 <p>Second, the word wrap algorithm I wrote is, well, stupid. But it was quick and dirty, so I ran with it. I’m open to suggestions and improvements.</p>
 </section>
@@ -84,7 +84,7 @@ Wrapping Static Text in wxPython
 <span class="mr-3 article-pagination-direction">&larr;</span>
 <span class="flex flex-col">
 <span class="article-pagination-title mt-[0.1rem] leading-6">
-<span class=dquo>“</span>Rip. Sample. Mash. Share.”</span>
+“Rip. Sample. Mash. Share.”</span>
 <span class="mt-[0.1rem] text-xs text-neutral-400 dark:text-neutral-500">
 <time datetime="2004-09-20 10:50:52 +0000 UTC">20 September 2004</time>
 </span>

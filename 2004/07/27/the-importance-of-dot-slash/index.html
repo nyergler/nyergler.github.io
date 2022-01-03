@@ -71,9 +71,9 @@ The Importance of dot-slash
 </header>
 <section class="prose dark:prose-light">
 <p>Sometimes it’s the little things. Often it’s the little things, I guess. I like to write cross-platform software. The less I need to worry about whether I’m building on Mac OS X, Win 32 or Linux, the happier I am. <a href=http://yergler.net/projects/mozcc>mozCC</a> was one of the first projects I developed that <strong>had</strong> to run on all three platforms, and as such, I wrote a set of scripts and tools for building and testing the code base.</p>
-<p>During the development of 0.8.0 I transitioned from my original build script, <a href="http://yergler.net/cvs/viewcvs.cgi/mozcc/make_jar?rev=1.3&content-type=text/vnd.viewcvs-markup">make_jar</a> to a more generic version I developed for <a href=http://yergler.net/blog/archives/2004/05/20/writing-mozilla-extensions>DemoExt</a> , <a href="http://yergler.net/cvs/viewcvs.cgi/demoext/browser/build.sh?rev=HEAD&content-type=text/vnd.viewcvs-markup">build.sh</a> , which was generally a “good thing.” Around the same time I noticed that building mozCC on Mac OS</span> X didn’t work quite right. <span class=caps>OK</span>, it didn’t work at all. It would appear to build, but installing that build just didn’t work. Nothing. Nada. No acknowledgment that mozCC was installed at all. Of course, I was in a hurry to get 0.8.0 out the door, so I turned my chair, turned on my Linux box, and proceeded to build there. And funny thing, the builds from Linux worked just fine on Mac <span class=caps>OS X.</p>
+<p>During the development of 0.8.0 I transitioned from my original build script, <a href="http://yergler.net/cvs/viewcvs.cgi/mozcc/make_jar?rev=1.3&content-type=text/vnd.viewcvs-markup">make_jar</a> to a more generic version I developed for <a href=http://yergler.net/blog/archives/2004/05/20/writing-mozilla-extensions>DemoExt</a> , <a href="http://yergler.net/cvs/viewcvs.cgi/demoext/browser/build.sh?rev=HEAD&content-type=text/vnd.viewcvs-markup">build.sh</a> , which was generally a “good thing.” Around the same time I noticed that building mozCC on Mac OS X didn’t work quite right. OK, it didn’t work at all. It would appear to build, but installing that build just didn’t work. Nothing. Nada. No acknowledgment that mozCC was installed at all. Of course, I was in a hurry to get 0.8.0 out the door, so I turned my chair, turned on my Linux box, and proceeded to build there. And funny thing, the builds from Linux worked just fine on Mac OS X.</p>
 <p>Today I’m working on fixing a serious bug in mozCC. I’m at OSCON, and only have my iBook. And I had completely forgotten about the build problems from 0.8.0. After beating my head against the wall for an hour yesterday and about an hour this morning, I finally figured it out: it’s all about the ./ (dot-slash).</p>
-<p>Build.sh is a simple shell script that assembles the necessary files for a Mozilla extension in the appropriate relative locations for the JAR</span>. To pull out the list of files to zip up into the <span class=caps>JAR</span>, it uses the <span class=caps>UNIX utility <code>find</code>. In particular,</p>
+<p>Build.sh is a simple shell script that assembles the necessary files for a Mozilla extension in the appropriate relative locations for the JAR. To pull out the list of files to zip up into the JAR, it uses the UNIX utility <code>find</code>. In particular,</p>
 <pre class=literal-block>find ./content -path './*CVS*' -prune -o -type f -print | grep -v ~
 </pre>
 <p>What I found was that on Linux, find returns a list of files with relative paths and no leading dot-slash. For example,</p>
@@ -84,7 +84,7 @@ The Importance of dot-slash
 .
 .
 </pre>
-<p>Mac OS</span> X (and maybe <span class=caps>BSD, I don’t know how deep this goes), on the other hand, returns files with a leading dot-slash:</p>
+<p>Mac OS X (and maybe BSD, I don’t know how deep this goes), on the other hand, returns files with a leading dot-slash:</p>
 <pre class=literal-block>1926  06-25-104  12:47   ./content/mozcc/prefs.xul
  1560  06-25-104  08:25   ./content/mozcc/prefsOverlay.xul
  2708  06-25-104  12:47   ./content/mozcc/seamonkey-prefs.xul
