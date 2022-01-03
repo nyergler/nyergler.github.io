@@ -1,0 +1,142 @@
+<!doctype html><html lang=en><head>
+<meta charset=utf-8>
+<meta http-equiv=content-language content="en">
+<meta name=viewport content="width=device-width,initial-scale=1">
+<meta http-equiv=x-ua-compatible content="ie=edge">
+<title>Visualizing CC Licenses with CSS3 Transitions & Transforms &#183; Nathan R. Yergler</title>
+<meta name=title content="Visualizing CC Licenses with CSS3 Transitions & Transforms &#183; Nathan R. Yergler">
+<meta name=description content>
+<link rel=canonical href=https://nyergler.github.io/2011/01/07/css3-license-layers/>
+<link type=text/css rel=stylesheet href=/css/schemes/ocean.min.ff17c50528c7a4a8a8bb8ec41272d63eb936ecefb9ccfa6db45cd1f5cd8b1becf8606745f751ee0d322ac80c9cb96e58aa699b38aa44cff9d2a8b3ff4f05a7b5.css integrity="sha512-/xfFBSjHpKiou47EEnLWPrk27O+5zPpttFzR9c2LG+z4YGdF91HuDTIqyAycuW5YqmmbOKpEz/nSqLP/TwWntQ==">
+<link type=text/css rel=stylesheet href=/css/compiled/main.min.84c4218572228cacf6182dc59fe08b5e1bcd599bb583bc56976aa0070f4cd8a4ff130ee2313074359bf6dba03b211e8c50df743d84ad551575fd0b9f849ec802.css integrity="sha512-hMQhhXIijKz2GC3Fn+CLXhvNWZu1g7xWl2qgBw9M2KT/Ew7iMTB0NZv226A7IR6MUN90PYStVRV1/QufhJ7IAg==">
+<script>function loadPreferredAppearance(){localStorage.preferredAppearance==="dark"||!("preferredAppearance"in localStorage)&&window.matchMedia("(prefers-color-scheme: dark)").matches?document.documentElement.classList.add("dark"):document.documentElement.classList.remove("dark")}function setPreferredAppearance(a){a=="default"?localStorage.removeItem("preferredAppearance"):localStorage.preferredAppearance=a,loadPreferredAppearance()}loadPreferredAppearance(),window.matchMedia("(prefers-color-scheme: dark)").addListener(loadPreferredAppearance)</script>
+<link rel=apple-touch-icon sizes=180x180 href=/apple-touch-icon.png>
+<link rel=icon type=image/png sizes=32x32 href=/favicon-32x32.png>
+<link rel=icon type=image/png sizes=16x16 href=/favicon-16x16.png>
+<link rel=manifest href=/site.webmanifest>
+<meta property="og:title" content="Visualizing CC Licenses with CSS3 Transitions & Transforms">
+<meta property="og:description" content="TL;DR: Go check out the CSS3-based visualization of the CC license model (Chrome, Safari, or Firefox 4).">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://nyergler.github.io/2011/01/07/css3-license-layers/"><meta property="article:section" content="posts">
+<meta property="article:published_time" content="2011-01-07T22:54:20+00:00">
+<meta property="article:modified_time" content="2011-01-07T22:54:20+00:00">
+<meta name=twitter:card content="summary">
+<meta name=twitter:title content="Visualizing CC Licenses with CSS3 Transitions & Transforms">
+<meta name=twitter:description content="TL;DR: Go check out the CSS3-based visualization of the CC license model (Chrome, Safari, or Firefox 4).">
+<script type=application/ld+json>{"@context":"https://schema.org","@type":"BlogPosting","articleSection":"Posts","name":"Visualizing CC Licenses with CSS3 Transitions \u0026 Transforms","headline":"Visualizing CC Licenses with CSS3 Transitions \u0026 Transforms","description":"TL;DR: Go check out the CSS3-based visualization of the CC license model (Chrome, Safari, or Firefox 4).","inLanguage":"en","author":{"@type":"Person","name":"Nathan Yergler"},"creator":{"@type":"Person","name":"Nathan Yergler"},"copyrightHolder":"Nathan Yergler","copyrightYear":"2011","dateCreated":"2011-01-07T22:54:20\u002b00:00","datePublished":"2011-01-07T22:54:20\u002b00:00","dateModified":"2011-01-07T22:54:20\u002b00:00","url":"https:\/\/nyergler.github.io\/2011\/01\/07\/css3-license-layers\/","wordCount":"689","keywords":["css3","experiment","javascript","jquery"]}</script>
+<meta name=author content="Nathan Yergler">
+<link href=https://github.com/nyergler rel=me>
+<link href=https://instagram.com/nyergler rel=me>
+</head>
+<body class="flex flex-col h-screen px-6 m-auto text-lg leading-7 bg-neutral text-neutral-900 sm:px-14 md:px-24 lg:px-32 dark:bg-neutral-800 dark:text-neutral max-w-7xl"><header class="flex justify-between py-6 font-semibold sm:items-center sm:py-10 text-neutral-900 dark:text-neutral">
+<div>
+<a class="hover:underline hover:underline-primary-500 hover:underline-thickness-bold hover:underline-offset-small" rel=me href=/>Nathan R. Yergler</a>
+</div>
+<nav>
+<ul class="flex flex-col list-none sm:flex-row">
+<li class="mb-1 text-right sm:mb-0 sm:mr-7 sm:last:mr-0">
+<a class="hover:underline hover:underline-primary-500 hover:underline-thickness-bold hover:underline-offset-small" href=/about/ title="Oh hai.">Bio</a>
+</li>
+<li class="mb-1 text-right sm:mb-0 sm:mr-7 sm:last:mr-0">
+<a class="hover:underline hover:underline-primary-500 hover:underline-thickness-bold hover:underline-offset-small" href=/posts/ title=Posts>Blog</a>
+</li>
+<li class="mb-1 text-right sm:mb-0 sm:mr-7 sm:last:mr-0">
+<a class="hover:underline hover:underline-primary-500 hover:underline-thickness-bold hover:underline-offset-small" href=/prints/ title=Prints>Prints</a>
+</li>
+</ul>
+</nav>
+</header>
+<main class=flex-grow>
+<article class=max-w-prose>
+<header>
+<ol class="text-sm text-neutral-500 dark:text-neutral-400">
+<li class="inline hidden">
+<a class="hover:underline hover:underline-neutral-300 dark:underline-neutral-600" href=/>Nathan R. Yergler</a><span class="px-1 text-primary-500">/</span>
+</li>
+<li class=inline>
+<a class="hover:underline hover:underline-neutral-300 dark:underline-neutral-600" href=/posts/>Posts</a><span class="px-1 text-primary-500">/</span>
+</li>
+<li class="inline hidden">
+<a class="hover:underline hover:underline-neutral-300 dark:underline-neutral-600" href=/2011/01/07/css3-license-layers/>Visualizing CC Licenses with CSS3 Transitions & Transforms</a><span class="px-1 text-primary-500">/</span>
+</li>
+</ol>
+<h1 class="mt-0 text-4xl font-extrabold text-neutral-900 dark:text-neutral">
+Visualizing CC Licenses with CSS3 Transitions & Transforms
+      </h1>
+<div class="mt-8 mb-12 text-base text-neutral-500 dark:text-neutral-400">
+<div class="flex flex-row items-center">
+<time datetime="2011-01-07 22:54:20 +0000 UTC">7 January 2011</time>
+</div>
+</div>
+</header>
+<section class="prose dark:prose-light">
+<p><strong><span class=caps>TL</span>;<span class=caps>DR</span>:</strong> Go check out the <a href=http://labs.creativecommons.org/2011/demos/license-layers/><span class=caps>CSS3</span>-based visualization of the <span class=caps>CC</span> license model</a> (Chrome, Safari, or Firefox 4). Read below for details of why and how I built it.</p>
+<p>We launched a refresh of the Creative Commons’ site design on Thursday. Part of that refresh was updating the content of some key pages, based on user feedback. We heard from users that the pages could be clearer, and could give better examples of what Creative Commons licensees are, how they’re used, and who’s using them. One of the pages we updated was the <a href=http://creativecommons.org/licenses/>Licenses</a> page, which provides an overview of the <span class=caps>CC</span> licenses.</p>
+<p><img src=/media/2011/01/license-layers.png alt=image0> When I was looking at the page on Thursday, I was particularly taken by the graphic <a href=http://redprocess.com/>Alex</a> put together to show the three conceptual layers of a <span class=caps>CC</span> license: machine readable, human readable, and legal code. This concept is part of <span class=caps>CC</span>’s unique approach to public licenses since day one, but it’s something I’ve always struggled to describe in a way other than a lawyer joke (“get it? lawyers aren’t humans!”). Alex’s graphic seemed like a great, simple illustration of how the layers stack and complement one another. It also seemed like it was begging for an interaction implementation.</p>
+<p>I was immediately reminded of the <a href=http://hacks.mozilla.org/>Mozilla Hacks</a> <a href=http://hacks.mozilla.org/2010/07/firefox4-beta2/>columns</a> about using <a href=http://www.w3.org/TR/css3-transitions/><span class=caps>CSS3</span> Transitions</a> to add interactivity to <span class=caps>HTML</span> content. Transitions effectively let you say, “when this <span class=caps>CSS</span> property changes, don’t make the change immediately; apply this function from the previous value to the new one, and make the change take this long.” The result is the ability make elements fade in or out, move, etc, without the use of Javascript (except, perhaps, applying the new <span class=caps>CSS</span> class). <span class=caps>CSS</span> Transitions are still in development, so you wind up using the vendor prefixed versions: <tt class="docutils literal"><span class=pre>-moz-transition</span></tt>, <tt class="docutils literal"><span class=pre>-webkit-transition</span></tt>, and <tt class="docutils literal"><span class=pre>-o-transition</span></tt>. Coupled with <a href=http://www.w3.org/TR/css3-2d-transforms/><span class=caps>CSS3</span> Transformations</a> (which let you move, skew, and rotate objects), you can achieve some really interesting effects.</p>
+<p>Thursday afternoon at the end of the work day I sat down to read up on Transitions and Transformations, and to see if I could make three isometric squares stack on top of one another, like Alex’s graphic. (I found <a href=http://robertnyman.com/2010/04/27/using-css3-transitions-to-create-rich-effects/>this article</a> particularly helpful in its clarity and directness.) Within about 30 minutes I had a working transformation and transition, using <a href=http://jquery.com/>jQuery</a> to listen for click events, and applying a different <span class=caps>CSS</span> class on click. Alex converted the graphic elements to an <span class=caps>SVG</span> I could pull apart, and Thursday evening I started hacking, applying the <span class=caps>SVG</span> elements as the background on <tt class="docutils literal"><div></tt>s, and writing additional <span class=caps>CSS</span> classes to show details about each layer.</p>
+<div class=figure>
+<img alt src=/media/2011/01/3layers-300x164.png>
+<p class=caption>
+<a class="reference external" href=/media/2011/01/3layers.png>(full size)</a>
+</p>
+</div>
+<p>After a couple hours Thursday night, and a little more tweaking this morning, I had a functioning <a href=http://labs.creativecommons.org/2011/demos/license-layers/>interactive layer visualization</a> . It’s about 100 lines of Javascript, and roughly twice that many lines of <span class=caps>CSS</span>. The source and assets are in the <a href=http://code.creativecommons.org/viewgit/labs/license-layers.git/>labs/license-layers</a> git repository on <a href=http://code.creativecommons.org/>code.creativecommons.org</a> . I’m sure there are ways that both the Javascript and <span class=caps>CSS</span> could be improved, but am pretty proud of this as a first outing.</p>
+<p>One of the interesting challenges of putting this together was how to chain transitions. In particular, when you first click the <span class=caps>CC</span> logo, we wanted it to shift to an isometric projection, and then expand. While it was clear that we needed to apply two different classes in sequence with a delay, we found the jQuery’s <a href=http://api.jquery.com/delay/>.delay()</a> call didn’t seem to work. In fact, using <tt class="docutils literal">.delay()</tt> seemed to cause the browser to skip the transition, and apply the new class right away. <tt class="docutils literal">window.setTimeout</tt> did work.</p>
+<p>I also ran into some issues with my <span class=caps>SVG</span> graphics. The first iteration apparently had some issues in the <span class=caps>SVG</span> exported from Illustrator. While they worked adequately in Firefox 4.0 beta 8, Chrome rendered them in a pixelated fashion, and Opera rendered them in a spectacularly broken manner. Removing the offending elements from the <span class=caps>SVG</span> and regenerating the individual images made them render smoothly in Firefox and Chome, and Opera also improved from broken to pixelated.</p>
+<p>Overall this was a really fun experiment, and it was gratifying to see how support for these new specifications makes visually engaging pages really straightforward.</p>
+</section>
+<footer class=pt-8>
+<div class="pt-8 article-pagination">
+<hr class="border-dotted border-neutral-300 dark:border-neutral-600">
+<div class="flex justify-between pt-3">
+<span>
+<a class=flex href=/2011/04/03/unexpected-attribution/>
+<span class="mr-3 article-pagination-direction">&larr;</span>
+<span class="flex flex-col">
+<span class="article-pagination-title mt-[0.1rem] leading-6">
+Unexpected Attribution</span>
+<span class="mt-[0.1rem] text-xs text-neutral-400 dark:text-neutral-500">
+<time datetime="2011-04-03 10:53:00 +0000 UTC">3 April 2011</time>
+</span>
+</span>
+</a>
+</span>
+<span>
+<a class="flex text-right" href=/2010/12/31/minor-update-for-openattribute/>
+<span class="flex flex-col">
+<span class="article-pagination-title mt-[0.1rem] leading-6">Minor update for OpenAttribute</span>
+<span class="mt-[0.1rem] text-xs text-neutral-400 dark:text-neutral-500">
+<time datetime="2010-12-31 13:02:03 +0000 UTC">31 December 2010</time>
+</span>
+</span>
+<span class="ml-3 article-pagination-direction">&rarr;</span>
+</a>
+</span>
+</div>
+</div>
+</footer>
+</article>
+</main><footer class=py-10>
+<nav class="pb-4 text-base font-medium text-neutral-500 dark:text-neutral-400">
+<ul class="flex flex-col list-none sm:flex-row">
+<li class="mb-1 sm:mb-0 sm:mr-7 sm:last:mr-0">
+<a class="hover:underline hover:underline-primary-500 hover:underline-thickness-bold hover:underline-offset-small" href=/tags/ title=Tags>Tags</a>
+</li>
+<li class="mb-1 sm:mb-0 sm:mr-7 sm:last:mr-0">
+<a class="hover:underline hover:underline-primary-500 hover:underline-thickness-bold hover:underline-offset-small" href=/categories/ title=Categories>Categories</a>
+</li>
+</ul>
+</nav>
+<div class="flex justify-between">
+<div>
+<p class="text-sm text-neutral-500 dark:text-neutral-400">
+&copy;
+2022
+Nathan Yergler
+</p>
+</div>
+</div>
+</footer>
+</body>
+</html>

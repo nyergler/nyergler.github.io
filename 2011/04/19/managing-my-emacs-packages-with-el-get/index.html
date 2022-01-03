@@ -1,0 +1,145 @@
+<!doctype html><html lang=en><head>
+<meta charset=utf-8>
+<meta http-equiv=content-language content="en">
+<meta name=viewport content="width=device-width,initial-scale=1">
+<meta http-equiv=x-ua-compatible content="ie=edge">
+<title>Managing my Emacs packages with el-get &#183; Nathan R. Yergler</title>
+<meta name=title content="Managing my Emacs packages with el-get &#183; Nathan R. Yergler">
+<meta name=description content>
+<link rel=canonical href=https://nyergler.github.io/2011/04/19/managing-my-emacs-packages-with-el-get/>
+<link type=text/css rel=stylesheet href=/css/schemes/ocean.min.ff17c50528c7a4a8a8bb8ec41272d63eb936ecefb9ccfa6db45cd1f5cd8b1becf8606745f751ee0d322ac80c9cb96e58aa699b38aa44cff9d2a8b3ff4f05a7b5.css integrity="sha512-/xfFBSjHpKiou47EEnLWPrk27O+5zPpttFzR9c2LG+z4YGdF91HuDTIqyAycuW5YqmmbOKpEz/nSqLP/TwWntQ==">
+<link type=text/css rel=stylesheet href=/css/compiled/main.min.84c4218572228cacf6182dc59fe08b5e1bcd599bb583bc56976aa0070f4cd8a4ff130ee2313074359bf6dba03b211e8c50df743d84ad551575fd0b9f849ec802.css integrity="sha512-hMQhhXIijKz2GC3Fn+CLXhvNWZu1g7xWl2qgBw9M2KT/Ew7iMTB0NZv226A7IR6MUN90PYStVRV1/QufhJ7IAg==">
+<script>function loadPreferredAppearance(){localStorage.preferredAppearance==="dark"||!("preferredAppearance"in localStorage)&&window.matchMedia("(prefers-color-scheme: dark)").matches?document.documentElement.classList.add("dark"):document.documentElement.classList.remove("dark")}function setPreferredAppearance(a){a=="default"?localStorage.removeItem("preferredAppearance"):localStorage.preferredAppearance=a,loadPreferredAppearance()}loadPreferredAppearance(),window.matchMedia("(prefers-color-scheme: dark)").addListener(loadPreferredAppearance)</script>
+<link rel=apple-touch-icon sizes=180x180 href=/apple-touch-icon.png>
+<link rel=icon type=image/png sizes=32x32 href=/favicon-32x32.png>
+<link rel=icon type=image/png sizes=16x16 href=/favicon-16x16.png>
+<link rel=manifest href=/site.webmanifest>
+<meta property="og:title" content="Managing my Emacs packages with el-get">
+<meta property="og:description" content="Update (20 April 2011): I’ve now tried this on my old MacBook running OS X 10.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://nyergler.github.io/2011/04/19/managing-my-emacs-packages-with-el-get/"><meta property="article:section" content="posts">
+<meta property="article:published_time" content="2011-04-19T22:17:05+00:00">
+<meta property="article:modified_time" content="2011-04-19T22:17:05+00:00">
+<meta name=twitter:card content="summary">
+<meta name=twitter:title content="Managing my Emacs packages with el-get">
+<meta name=twitter:description content="Update (20 April 2011): I’ve now tried this on my old MacBook running OS X 10.">
+<script type=application/ld+json>{"@context":"https://schema.org","@type":"BlogPosting","articleSection":"Posts","name":"Managing my Emacs packages with el-get","headline":"Managing my Emacs packages with el-get","description":"Update (20 April 2011): I’ve now tried this on my old MacBook running OS X 10.","inLanguage":"en","author":{"@type":"Person","name":"Nathan Yergler"},"creator":{"@type":"Person","name":"Nathan Yergler"},"copyrightHolder":"Nathan Yergler","copyrightYear":"2011","dateCreated":"2011-04-19T22:17:05\u002b00:00","datePublished":"2011-04-19T22:17:05\u002b00:00","dateModified":"2011-04-19T22:17:05\u002b00:00","url":"https:\/\/nyergler.github.io\/2011\/04\/19\/managing-my-emacs-packages-with-el-get\/","wordCount":"407","keywords":["el-get","emacs"]}</script>
+<meta name=author content="Nathan Yergler">
+<link href=https://github.com/nyergler rel=me>
+<link href=https://instagram.com/nyergler rel=me>
+</head>
+<body class="flex flex-col h-screen px-6 m-auto text-lg leading-7 bg-neutral text-neutral-900 sm:px-14 md:px-24 lg:px-32 dark:bg-neutral-800 dark:text-neutral max-w-7xl"><header class="flex justify-between py-6 font-semibold sm:items-center sm:py-10 text-neutral-900 dark:text-neutral">
+<div>
+<a class="hover:underline hover:underline-primary-500 hover:underline-thickness-bold hover:underline-offset-small" rel=me href=/>Nathan R. Yergler</a>
+</div>
+<nav>
+<ul class="flex flex-col list-none sm:flex-row">
+<li class="mb-1 text-right sm:mb-0 sm:mr-7 sm:last:mr-0">
+<a class="hover:underline hover:underline-primary-500 hover:underline-thickness-bold hover:underline-offset-small" href=/about/ title="Oh hai.">Bio</a>
+</li>
+<li class="mb-1 text-right sm:mb-0 sm:mr-7 sm:last:mr-0">
+<a class="hover:underline hover:underline-primary-500 hover:underline-thickness-bold hover:underline-offset-small" href=/posts/ title=Posts>Blog</a>
+</li>
+<li class="mb-1 text-right sm:mb-0 sm:mr-7 sm:last:mr-0">
+<a class="hover:underline hover:underline-primary-500 hover:underline-thickness-bold hover:underline-offset-small" href=/prints/ title=Prints>Prints</a>
+</li>
+</ul>
+</nav>
+</header>
+<main class=flex-grow>
+<article class=max-w-prose>
+<header>
+<ol class="text-sm text-neutral-500 dark:text-neutral-400">
+<li class="inline hidden">
+<a class="hover:underline hover:underline-neutral-300 dark:underline-neutral-600" href=/>Nathan R. Yergler</a><span class="px-1 text-primary-500">/</span>
+</li>
+<li class=inline>
+<a class="hover:underline hover:underline-neutral-300 dark:underline-neutral-600" href=/posts/>Posts</a><span class="px-1 text-primary-500">/</span>
+</li>
+<li class="inline hidden">
+<a class="hover:underline hover:underline-neutral-300 dark:underline-neutral-600" href=/2011/04/19/managing-my-emacs-packages-with-el-get/>Managing my Emacs packages with el-get</a><span class="px-1 text-primary-500">/</span>
+</li>
+</ol>
+<h1 class="mt-0 text-4xl font-extrabold text-neutral-900 dark:text-neutral">
+Managing my Emacs packages with el-get
+</h1>
+<div class="mt-8 mb-12 text-base text-neutral-500 dark:text-neutral-400">
+<div class="flex flex-row items-center">
+<time datetime="2011-04-19 22:17:05 +0000 UTC">19 April 2011</time>
+</div>
+</div>
+</header>
+<section class="prose dark:prose-light">
+<p><strong>Update (20 April 2011):</strong> I’ve now tried this on my old MacBook running <span class=caps>OS</span> X 10.5. The bootstrap script initially threw an error, which I tracked down to an outdated version of <tt class="docutils literal">git</tt>. Once I upgraded <tt class="docutils literal">git</tt> and installed <tt class="docutils literal">bzr</tt> (used by the <tt class="docutils literal"><span class=pre>python-mode</span></tt> recipe), I started Emacs and was rewarded with a fully functioning installation, complete with the extensions I want.</p>
+<p>I’m on vacation for two weeks between jobs, so of course this means it’s time to sharpen the tools (because writing programs to help you write programs is almost always more fun than actually writing programs). I’ve been an <a href=http://www.gnu.org/software/emacs/>Emacs</a> user for many years, and of course I’ve customized my installation with additional modes and extensions. Previously I would check out code that I needed into a <tt class="docutils literal">vendor</tt> directory, and then load it manually in <tt class="docutils literal">init.el</tt>. And this worked fine, but that doesn’t mean I [<span class=caps>STRIKEOUT</span>:can’t] won’t spend a chunk of my day making it better.</p>
+<p>A <a href=http://dustycloud.org/>friend</a> mentioned <a href=https://github.com/dimitri/el-get>el-get</a> to me, and I decided to give it a try. I like the combination of <a href=https://github.com/dimitri/el-get/tree/master/recipes>recipes</a> for installing common things, and the fact that your list of packages is very explicit in <tt class="docutils literal">init.el</tt> (so if I need to dig into one of them, I know exactly where to begin). Additionally, since I’ll have a new computer issued for the new job, I also wanted to get things into shape so that I could easily replicate my preferred editing environment. I wound up creating a small bootstrap file to help things along, <strong>getelget.el</strong>.</p>
+<p><strong>getelget.el</strong> checks to see if el-get has been previously bootstrapped, and if not, performs the lazy installation procedure. After it makes sure el-get is available, it loads and executes el-get. So if you need to get a new machine up and going with Emacs and any extensions, you can drop in your <tt class="docutils literal">init.el</tt> and <strong>getelget.el</strong>, and Emacs will take care of the rest.</p>
+<p>To use <strong>getelget</strong>, define your <tt class="docutils literal"><span class=pre>el-get-sources</span></tt> like you normally would in <tt class="docutils literal">init.el</tt>:</p>
+<pre class=literal-block>(setq el-get-sources
+       '(el-get
+          python-mode
+         ;; etc...
+       )  )
+</pre>
+<p>Then load <strong>getelget</strong> (the following assumes you have getelget.el in your user emacs directory along with <tt class="docutils literal">init.el</tt>):</p>
+<pre class=literal-block>;; getelget -- bootstrap el-get if necessary and load the specified packages
+(load-file
+   (concat (file-name-as-directory user-emacs-directory) "getelget.el"))
+</pre>
+<p><strong>getelget</strong> will handle bootstrapping, loading, and executing el-get.</p>
+<p><strong>getelget</strong> is pretty trivial; you can <a href=http://yergler.net/projects/2011/getelget.el>download it here</a> , and I’ve waived any rights I may hold on the code using the <a href=http://creativecommons.org/publicdomain/zero/1.0/><span class=caps>CC0</span> Public Domain Dedication</a> .</p>
+</section>
+<footer class=pt-8>
+<div class="pt-8 article-pagination">
+<hr class="border-dotted border-neutral-300 dark:border-neutral-600">
+<div class="flex justify-between pt-3">
+<span>
+<a class=flex href=/2011/04/24/debugging-my-creative-process/>
+<span class="mr-3 article-pagination-direction">&larr;</span>
+<span class="flex flex-col">
+<span class="article-pagination-title mt-[0.1rem] leading-6">
+Debugging my Creative Process</span>
+<span class="mt-[0.1rem] text-xs text-neutral-400 dark:text-neutral-500">
+<time datetime="2011-04-24 10:22:00 +0000 UTC">24 April 2011</time>
+</span>
+</span>
+</a>
+</span>
+<span>
+<a class="flex text-right" href=/2011/04/18/the-new-thing/>
+<span class="flex flex-col">
+<span class="article-pagination-title mt-[0.1rem] leading-6">The New Thing</span>
+<span class="mt-[0.1rem] text-xs text-neutral-400 dark:text-neutral-500">
+<time datetime="2011-04-18 22:44:05 +0000 UTC">18 April 2011</time>
+</span>
+</span>
+<span class="ml-3 article-pagination-direction">&rarr;</span>
+</a>
+</span>
+</div>
+</div>
+</footer>
+</article>
+</main><footer class=py-10>
+<nav class="pb-4 text-base font-medium text-neutral-500 dark:text-neutral-400">
+<ul class="flex flex-col list-none sm:flex-row">
+<li class="mb-1 sm:mb-0 sm:mr-7 sm:last:mr-0">
+<a class="hover:underline hover:underline-primary-500 hover:underline-thickness-bold hover:underline-offset-small" href=/tags/ title=Tags>Tags</a>
+</li>
+<li class="mb-1 sm:mb-0 sm:mr-7 sm:last:mr-0">
+<a class="hover:underline hover:underline-primary-500 hover:underline-thickness-bold hover:underline-offset-small" href=/categories/ title=Categories>Categories</a>
+</li>
+</ul>
+</nav>
+<div class="flex justify-between">
+<div>
+<p class="text-sm text-neutral-500 dark:text-neutral-400">
+&copy;
+2022
+Nathan Yergler
+</p>
+</div>
+</div>
+</footer>
+</body>
+</html>

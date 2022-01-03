@@ -1,0 +1,184 @@
+<!doctype html><html lang=en><head>
+<meta charset=utf-8>
+<meta http-equiv=content-language content="en">
+<meta name=viewport content="width=device-width,initial-scale=1">
+<meta http-equiv=x-ua-compatible content="ie=edge">
+<title>On Product Engineering &#183; Nathan R. Yergler</title>
+<meta name=title content="On Product Engineering &#183; Nathan R. Yergler">
+<meta name=description content>
+<link rel=canonical href=https://nyergler.github.io/2017/09/11/on-product-engineering/>
+<link type=text/css rel=stylesheet href=/css/schemes/ocean.min.ff17c50528c7a4a8a8bb8ec41272d63eb936ecefb9ccfa6db45cd1f5cd8b1becf8606745f751ee0d322ac80c9cb96e58aa699b38aa44cff9d2a8b3ff4f05a7b5.css integrity="sha512-/xfFBSjHpKiou47EEnLWPrk27O+5zPpttFzR9c2LG+z4YGdF91HuDTIqyAycuW5YqmmbOKpEz/nSqLP/TwWntQ==">
+<link type=text/css rel=stylesheet href=/css/compiled/main.min.84c4218572228cacf6182dc59fe08b5e1bcd599bb583bc56976aa0070f4cd8a4ff130ee2313074359bf6dba03b211e8c50df743d84ad551575fd0b9f849ec802.css integrity="sha512-hMQhhXIijKz2GC3Fn+CLXhvNWZu1g7xWl2qgBw9M2KT/Ew7iMTB0NZv226A7IR6MUN90PYStVRV1/QufhJ7IAg==">
+<script>function loadPreferredAppearance(){localStorage.preferredAppearance==="dark"||!("preferredAppearance"in localStorage)&&window.matchMedia("(prefers-color-scheme: dark)").matches?document.documentElement.classList.add("dark"):document.documentElement.classList.remove("dark")}function setPreferredAppearance(a){a=="default"?localStorage.removeItem("preferredAppearance"):localStorage.preferredAppearance=a,loadPreferredAppearance()}loadPreferredAppearance(),window.matchMedia("(prefers-color-scheme: dark)").addListener(loadPreferredAppearance)</script>
+<link rel=apple-touch-icon sizes=180x180 href=/apple-touch-icon.png>
+<link rel=icon type=image/png sizes=32x32 href=/favicon-32x32.png>
+<link rel=icon type=image/png sizes=16x16 href=/favicon-16x16.png>
+<link rel=manifest href=/site.webmanifest>
+<meta property="og:title" content="On Product Engineering">
+<meta property="og:description" content="I’ve been writing software and working in teams for well over a decade now.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://nyergler.github.io/2017/09/11/on-product-engineering/"><meta property="article:section" content="posts">
+<meta property="article:published_time" content="2017-09-11T16:28:05+00:00">
+<meta property="article:modified_time" content="2017-09-11T16:28:05+00:00">
+<meta name=twitter:card content="summary">
+<meta name=twitter:title content="On Product Engineering">
+<meta name=twitter:description content="I’ve been writing software and working in teams for well over a decade now.">
+<script type=application/ld+json>{"@context":"https://schema.org","@type":"BlogPosting","articleSection":"Posts","name":"On Product Engineering","headline":"On Product Engineering","description":"I’ve been writing software and working in teams for well over a decade now.","inLanguage":"en","author":{"@type":"Person","name":"Nathan Yergler"},"creator":{"@type":"Person","name":"Nathan Yergler"},"copyrightHolder":"Nathan Yergler","copyrightYear":"2017","dateCreated":"2017-09-11T16:28:05\u002b00:00","datePublished":"2017-09-11T16:28:05\u002b00:00","dateModified":"2017-09-11T16:28:05\u002b00:00","url":"https:\/\/nyergler.github.io\/2017\/09\/11\/on-product-engineering\/","wordCount":"1820","keywords":["agile","culture","engineering","iteration","organization"]}</script>
+<meta name=author content="Nathan Yergler">
+<link href=https://github.com/nyergler rel=me>
+<link href=https://instagram.com/nyergler rel=me>
+</head>
+<body class="flex flex-col h-screen px-6 m-auto text-lg leading-7 bg-neutral text-neutral-900 sm:px-14 md:px-24 lg:px-32 dark:bg-neutral-800 dark:text-neutral max-w-7xl"><header class="flex justify-between py-6 font-semibold sm:items-center sm:py-10 text-neutral-900 dark:text-neutral">
+<div>
+<a class="hover:underline hover:underline-primary-500 hover:underline-thickness-bold hover:underline-offset-small" rel=me href=/>Nathan R. Yergler</a>
+</div>
+<nav>
+<ul class="flex flex-col list-none sm:flex-row">
+<li class="mb-1 text-right sm:mb-0 sm:mr-7 sm:last:mr-0">
+<a class="hover:underline hover:underline-primary-500 hover:underline-thickness-bold hover:underline-offset-small" href=/about/ title="Oh hai.">Bio</a>
+</li>
+<li class="mb-1 text-right sm:mb-0 sm:mr-7 sm:last:mr-0">
+<a class="hover:underline hover:underline-primary-500 hover:underline-thickness-bold hover:underline-offset-small" href=/posts/ title=Posts>Blog</a>
+</li>
+<li class="mb-1 text-right sm:mb-0 sm:mr-7 sm:last:mr-0">
+<a class="hover:underline hover:underline-primary-500 hover:underline-thickness-bold hover:underline-offset-small" href=/prints/ title=Prints>Prints</a>
+</li>
+</ul>
+</nav>
+</header>
+<main class=flex-grow>
+<article class=max-w-prose>
+<header>
+<ol class="text-sm text-neutral-500 dark:text-neutral-400">
+<li class="inline hidden">
+<a class="hover:underline hover:underline-neutral-300 dark:underline-neutral-600" href=/>Nathan R. Yergler</a><span class="px-1 text-primary-500">/</span>
+</li>
+<li class=inline>
+<a class="hover:underline hover:underline-neutral-300 dark:underline-neutral-600" href=/posts/>Posts</a><span class="px-1 text-primary-500">/</span>
+</li>
+<li class="inline hidden">
+<a class="hover:underline hover:underline-neutral-300 dark:underline-neutral-600" href=/2017/09/11/on-product-engineering/>On Product Engineering</a><span class="px-1 text-primary-500">/</span>
+</li>
+</ol>
+<h1 class="mt-0 text-4xl font-extrabold text-neutral-900 dark:text-neutral">
+On Product Engineering
+</h1>
+<div class="mt-8 mb-12 text-base text-neutral-500 dark:text-neutral-400">
+<div class="flex flex-row items-center">
+<time datetime="2017-09-11 16:28:05 +0000 UTC">11 September 2017</time>
+</div>
+</div>
+</header>
+<section class="prose dark:prose-light">
+<p>I’ve been writing software and working in teams for well over a decade now. The places I’ve worked have been varied: schools, non-profits, consumer startups, education software, and B2B SAAS companies. And despite that diversity, in every case there was this question: <strong><em>how do engineers maximize the amount of meaningful work they do?</em></strong></p>
+<p>I was fortunate to work at Remind at an inflection point in the organization’s development. We were moving from reporting to a single individual (the VP of Engineering) to a structure with engineering management. That shift wasn’t one we took lightly; the stakes felt high, so we approached it with some trepidation. The structure we decided to try was based in part on Spotify’s model, and kept that question squarely in mind: how do we help engineers maximize their meaningful work while minimizing the bullshit. </p>
+<p>The structure we landed on was optimized for engineer productivity and happiness. It helped us focus on what we wanted to spend our time on: building a great product.</p>
+<hr>
+<p>During my time there, Remind was growing fast (and still is). Our goal was to connect every parent, student, and teacher, and in doing so improve the educational experience and outcomes. The core product — secure, one-way messaging — had demonstrated that those relationships were powerful and could be amplified with a great product, but we were still trying to figure out what the next step was. Was it parent-to-parent chat? Students organizing their own groups? Hierarchical message boards? </p>
+<p>**As engineers, the most leveraged thing we could do to help figure that out was to ship something that worked, as quickly as possible. **</p>
+<p><em>“Something that works”</em> is a feature that users can see and use. It doesn’t have to be complete, it just has to be sufficiently useful to give us feedback about whether we’re on the right track.</p>
+<p>Shipping <em>quickly</em> is important so we can shorten the time between hypothesis and validation; for example, we think parents chatting with each other will help engage parents, is that actually true?</p>
+<p>Shipping quickly also means we have more opportunities to iterate. Thinking in iterations forces us to think about what the smallest useful feature is, and build from there.</p>
+<p>As we looked around, it was obvious that there were things getting in the way of our individual contributors. So we set out to minimize those obstacles. </p>
+<hr>
+<h2 id=contention>Contention <a class=heading-anchor href=#contention aria-label=Anchor>#</a></h2>
+<h3 id=we-avoid-contention-by-working-in-cross-functional-teams>We avoid contention by working in cross-functional teams. <a class=heading-anchor href=#we-avoid-contention-by-working-in-cross-functional-teams aria-label=Anchor>#</a></h3>
+<p>Contention occurs when teams are dependent on a single resource, often another team. For example, if an Android team and an iOS team are working on different parts of the application and both need help from the backend team, they’re both blocked from progressing until backend addresses their issue. By organizing into cross-functional teams we can limit that contention: each team has dedicated engineers with expertise in backend, native clients, and web.</p>
+<h2 id=interrupts>Interrupts <a class=heading-anchor href=#interrupts aria-label=Anchor>#</a></h2>
+<h3 id=we-avoid-interrupts-by-working-from-abacklog>We avoid interrupts by working from a backlog. <a class=heading-anchor href=#we-avoid-interrupts-by-working-from-abacklog aria-label=Anchor>#</a></h3>
+<p><em>Interrupts</em> — both externally and internally triggered — are costly. They force a context change, usually for more than one individual, and it make it easy to lose sight of what we’re trying to build.</p>
+<p>Interrupts are triggered “internally” when an engineer needs more information to complete a task. In those situations, she’s forced to go looking for someone who has the information or can make the decision. If she can’t find that individual, or if the answer isn’t immediately available, she has to find something else to work on until she can continue with the first task.</p>
+<p>Interrupts are triggered “externally” when someone interrupts work to ask an engineer to look at something. This can be a product manager, support, or another team.</p>
+<p>Working from a backlog helps us avoid both of these: work only goes onto the backlog if it’s actionable, and others — product managers, support, etc — know where to put work to make sure it gets looked at. At Remind this was the “ice box”, which we committed to reviewing weekly.</p>
+<h2 id=uncertainty>Uncertainty <a class=heading-anchor href=#uncertainty aria-label=Anchor>#</a></h2>
+<h3 id=we-avoid-uncertainty-by-reviewing-the-backlog-together>We avoid uncertainty by reviewing the backlog together. <a class=heading-anchor href=#we-avoid-uncertainty-by-reviewing-the-backlog-together aria-label=Anchor>#</a></h3>
+<p><em>Uncertainty</em> about what we’re building or why leads to a variety of other issues: it causes interrupts when questions need to be answered, and can lead to re-work if individuals aren’t in sync. We avoid uncertainty by reviewing the backlog together during a weekly planning meeting. During that meeting the team does a few things:</p>
+<ul>
+<li>Review what’s still in the backlog from the previous week: does it still apply? Is it still important?</li>
+<li>Review what’s in the “next” bucket (which we called the ice box). If items there have enough detail and specificity, they’re moved to the backlog and prioritized by the team and product manager.</li>
+<li>New Feature work is assigned a point value based on complexity. The entire team participates in assigning the point value to work, even individuals who don’t have expertise in that area. Involving everyone helps uncover unspoken assumptions, or details that exist in a single person’s head.</li>
+</ul>
+<p>When we develop a new feature, it’s up to the Project Lead to break it down into stories ahead of the planning meeting. The Project Lead is an engineer who works with the product manager to figure out what the smallest iteration is, and what needs to be built.</p>
+<p>If during planning something doesn’t have enough information for an engineer to start work <em>immediately</em>, it doesn’t go in the backlog.</p>
+<h2 id=blocking>Blocking <a class=heading-anchor href=#blocking aria-label=Anchor>#</a></h2>
+<h3 id=we-avoid-blocking-by-specifying-work-as-a-user-facing-unit-of-workfeatures>We avoid blocking by specifying work as a user facing unit of work: features <a class=heading-anchor href=#we-avoid-blocking-by-specifying-work-as-a-user-facing-unit-of-workfeatures aria-label=Anchor>#</a></h3>
+<p><em>Blocking</em> is like contention: it slows the team down and often forces context switches. Blocking occurs when team members are waiting on one another. When we started thinking about process, it wasn’t uncommon for an Android engineer to defer landing work because an endpoint wasn’t ready. Co-locating the expertise in a cross-functional team helps, but it’s not sufficient to avoid blocking. We avoid blocking between tasks by specifying them as user-facing units of work: features. As much as possible, items in the backlog should be something that is user facing and shippable. This bears some unpacking.</p>
+<p>A user facing story will be visible and useful to the user when it is complete. The user in this context is who we’re building for; it could be the end user, another team (product, support), or a new constituency. We require that the work be “visible” because this gives us incremental signal about whether we’re on the right track. Remind relied on product managers to verify work, so requiring that the task be “visible” also meant it could be easily verified.</p>
+<p>A story is shippable if we can merge it to the main branch when it is complete. Long lived branches are a major source of blocking; stories should be constructed such that at the completion of each, the code can be merged.</p>
+<p>Note that saying we work on user facing, shippable stories does not mean that when the story is complete, the entire feature is complete, or that we’ll send it to the customer. When we release is a separate question, and something that the product manager and project lead decide.</p>
+<p>When we were adding support for group chat to Remind, we needed to show the user a list of other people they could potentially chat with. Instead of breaking that down into two tasks — “implement an endpoint to return the list of potential chat partners” and “when you tap the New Chat button, show the list of potential chat partners” — we’d specify it as a single task: “when you tap the New Chat button, show the list of potential chat partners”. If a new endpoint is necessary, that’s an implementation detail, and ideally it’s all handled by the same individual.</p>
+<p>When we do wind up in a blocking situation, engineers should take the opportunity to pair in a cross functional manner: this helps reinforce cross-training and reduces future blocking.</p>
+<h2 id=what-else-is-important-tous>What else is important to us? <a class=heading-anchor href=#what-else-is-important-tous aria-label=Anchor>#</a></h2>
+<p>Our team organized to minimize contention, interrupts, uncertainty, and blocking. In support of that, we adopted some additional supporting practices.</p>
+<h3 id=we-work-as-a-singleunit>We work as a single unit <a class=heading-anchor href=#we-work-as-a-singleunit aria-label=Anchor>#</a></h3>
+<p>Teams are a single unit that works on a feature together. We’re measured as a team, and we support one another. When it comes to what we work on next, we pull the next thing at the top of the backlog, not the next thing we are expert on. This, along with pairing, helps us build up institutional knowledge about how things work, and means individuals can take the time they need without jeopardizing the rest of the team’s work.</p>
+<h3 id=we-evaluate-our-progress-andhealth>We evaluate our progress and health <a class=heading-anchor href=#we-evaluate-our-progress-andhealth aria-label=Anchor>#</a></h3>
+<p>We review our progress weekly to make sure we’re on the right track and moving forward. During our evaluation we ask ourselves questions:</p>
+<ul>
+<li>What got in the way?</li>
+<li>What supported our work?</li>
+<li>Did I do as much as I thought? Why or why not?</li>
+</ul>
+<p>Our goal is to get better at estimation at the team level, and understand what supports and impedes shipping.</p>
+<h3 id=we-own-our-ownprocess>We own our own process <a class=heading-anchor href=#we-own-our-ownprocess aria-label=Anchor>#</a></h3>
+<p>Providing understanding of what goes into building a feature and what impedes our progress are the two of the most important contributions a product engineer can make. Answering these questions helps product prioritize better. Identifying impediments helps engineering management understand where the process isn’t working, and how to best support their teams. We should all feel ownership of the process and of the product that we’re working on. If the process wasn’t working, it was our job to fix it.</p>
+<h2 id=how-did-wedo>How did we do? <a class=heading-anchor href=#how-did-wedo aria-label=Anchor>#</a></h2>
+<p>The result of adopting this structure and process had benefits across the board. The time we spent integrating work from multiple teams for a release dropped from a week or two to a day or two. We developed a release cadence that allowed us to be more confident in our projections <em>and</em> in the code we were shipping. Knowing that the next release train was leaving in two weeks instead of six weeks removed much of the penalty — real and imagined — for slipping to the next release. All of that was good for Remind.</p>
+<p>The process was good for engineers, too. Engineers who paired to work in new areas felt like they were growing and stretching their expertise. When I spent time working on the iOS app, I suddenly understood why we sent things in certain formats. My level of empathy went way up. </p>
+<p>Engineers felt more empowered. Whether or not it’s true, engineers sometimes perceive their relationship with Product as parental or hierarchical. In this structure, engineers felt like they were peers with product and had the ability to impact the product in significant ways.</p>
+<p>In short, the team jelled. _<strong>This is a framework for building software, but it’s also a framework for building empathy and vulnerability.</strong> _</p>
+<hr>
+<p>Thanks to Jason Fischl for reading draft versions of this post and providing valuable feedback. Mistakes and misrepresentations are solely mine.</p>
+</section>
+<footer class=pt-8>
+<div class="pt-8 article-pagination">
+<hr class="border-dotted border-neutral-300 dark:border-neutral-600">
+<div class="flex justify-between pt-3">
+<span>
+<a class=flex href=/2017/09/19/2810/>
+<span class="mr-3 article-pagination-direction">&larr;</span>
+<span class="flex flex-col">
+<span class="article-pagination-title mt-[0.1rem] leading-6">
+19 September 2017</span>
+<span class="mt-[0.1rem] text-xs text-neutral-400 dark:text-neutral-500">
+</span>
+</span>
+</a>
+</span>
+<span>
+<a class="flex text-right" href=/2017/09/11/2803/>
+<span class="flex flex-col">
+<span class="article-pagination-title mt-[0.1rem] leading-6">11 September 2017</span>
+<span class="mt-[0.1rem] text-xs text-neutral-400 dark:text-neutral-500">
+</span>
+</span>
+<span class="ml-3 article-pagination-direction">&rarr;</span>
+</a>
+</span>
+</div>
+</div>
+</footer>
+</article>
+</main><footer class=py-10>
+<nav class="pb-4 text-base font-medium text-neutral-500 dark:text-neutral-400">
+<ul class="flex flex-col list-none sm:flex-row">
+<li class="mb-1 sm:mb-0 sm:mr-7 sm:last:mr-0">
+<a class="hover:underline hover:underline-primary-500 hover:underline-thickness-bold hover:underline-offset-small" href=/tags/ title=Tags>Tags</a>
+</li>
+<li class="mb-1 sm:mb-0 sm:mr-7 sm:last:mr-0">
+<a class="hover:underline hover:underline-primary-500 hover:underline-thickness-bold hover:underline-offset-small" href=/categories/ title=Categories>Categories</a>
+</li>
+</ul>
+</nav>
+<div class="flex justify-between">
+<div>
+<p class="text-sm text-neutral-500 dark:text-neutral-400">
+&copy;
+2022
+Nathan Yergler
+</p>
+</div>
+</div>
+</footer>
+</body>
+</html>

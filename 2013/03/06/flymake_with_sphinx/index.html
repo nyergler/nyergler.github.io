@@ -1,0 +1,139 @@
+<!doctype html><html lang=en><head>
+<meta charset=utf-8>
+<meta http-equiv=content-language content="en">
+<meta name=viewport content="width=device-width,initial-scale=1">
+<meta http-equiv=x-ua-compatible content="ie=edge">
+<title>flymake with Sphinx &#183; Nathan R. Yergler</title>
+<meta name=title content="flymake with Sphinx &#183; Nathan R. Yergler">
+<meta name=description content>
+<link rel=canonical href=https://nyergler.github.io/2013/03/06/flymake_with_sphinx/>
+<link type=text/css rel=stylesheet href=/css/schemes/ocean.min.ff17c50528c7a4a8a8bb8ec41272d63eb936ecefb9ccfa6db45cd1f5cd8b1becf8606745f751ee0d322ac80c9cb96e58aa699b38aa44cff9d2a8b3ff4f05a7b5.css integrity="sha512-/xfFBSjHpKiou47EEnLWPrk27O+5zPpttFzR9c2LG+z4YGdF91HuDTIqyAycuW5YqmmbOKpEz/nSqLP/TwWntQ==">
+<link type=text/css rel=stylesheet href=/css/compiled/main.min.84c4218572228cacf6182dc59fe08b5e1bcd599bb583bc56976aa0070f4cd8a4ff130ee2313074359bf6dba03b211e8c50df743d84ad551575fd0b9f849ec802.css integrity="sha512-hMQhhXIijKz2GC3Fn+CLXhvNWZu1g7xWl2qgBw9M2KT/Ew7iMTB0NZv226A7IR6MUN90PYStVRV1/QufhJ7IAg==">
+<script>function loadPreferredAppearance(){localStorage.preferredAppearance==="dark"||!("preferredAppearance"in localStorage)&&window.matchMedia("(prefers-color-scheme: dark)").matches?document.documentElement.classList.add("dark"):document.documentElement.classList.remove("dark")}function setPreferredAppearance(a){a=="default"?localStorage.removeItem("preferredAppearance"):localStorage.preferredAppearance=a,loadPreferredAppearance()}loadPreferredAppearance(),window.matchMedia("(prefers-color-scheme: dark)").addListener(loadPreferredAppearance)</script>
+<link rel=apple-touch-icon sizes=180x180 href=/apple-touch-icon.png>
+<link rel=icon type=image/png sizes=32x32 href=/favicon-32x32.png>
+<link rel=icon type=image/png sizes=16x16 href=/favicon-16x16.png>
+<link rel=manifest href=/site.webmanifest>
+<meta property="og:title" content="flymake with Sphinx">
+<meta property="og:description" content="Working on my PyCon tutorial (next week!">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://nyergler.github.io/2013/03/06/flymake_with_sphinx/"><meta property="article:section" content="posts">
+<meta property="article:published_time" content="2013-03-06T00:00:00+00:00">
+<meta property="article:modified_time" content="2013-03-06T00:00:00+00:00">
+<meta name=twitter:card content="summary">
+<meta name=twitter:title content="flymake with Sphinx">
+<meta name=twitter:description content="Working on my PyCon tutorial (next week!">
+<script type=application/ld+json>{"@context":"https://schema.org","@type":"BlogPosting","articleSection":"Posts","name":"flymake with Sphinx","headline":"flymake with Sphinx","description":"Working on my PyCon tutorial (next week!","inLanguage":"en","author":{"@type":"Person","name":"Nathan Yergler"},"creator":{"@type":"Person","name":"Nathan Yergler"},"copyrightHolder":"Nathan Yergler","copyrightYear":"2013","dateCreated":"2013-03-06T00:00:00\u002b00:00","datePublished":"2013-03-06T00:00:00\u002b00:00","dateModified":"2013-03-06T00:00:00\u002b00:00","url":"https:\/\/nyergler.github.io\/2013\/03\/06\/flymake_with_sphinx\/","wordCount":"286","keywords":["none"]}</script>
+<meta name=author content="Nathan Yergler">
+<link href=https://github.com/nyergler rel=me>
+<link href=https://instagram.com/nyergler rel=me>
+</head>
+<body class="flex flex-col h-screen px-6 m-auto text-lg leading-7 bg-neutral text-neutral-900 sm:px-14 md:px-24 lg:px-32 dark:bg-neutral-800 dark:text-neutral max-w-7xl"><header class="flex justify-between py-6 font-semibold sm:items-center sm:py-10 text-neutral-900 dark:text-neutral">
+<div>
+<a class="hover:underline hover:underline-primary-500 hover:underline-thickness-bold hover:underline-offset-small" rel=me href=/>Nathan R. Yergler</a>
+</div>
+<nav>
+<ul class="flex flex-col list-none sm:flex-row">
+<li class="mb-1 text-right sm:mb-0 sm:mr-7 sm:last:mr-0">
+<a class="hover:underline hover:underline-primary-500 hover:underline-thickness-bold hover:underline-offset-small" href=/about/ title="Oh hai.">Bio</a>
+</li>
+<li class="mb-1 text-right sm:mb-0 sm:mr-7 sm:last:mr-0">
+<a class="hover:underline hover:underline-primary-500 hover:underline-thickness-bold hover:underline-offset-small" href=/posts/ title=Posts>Blog</a>
+</li>
+<li class="mb-1 text-right sm:mb-0 sm:mr-7 sm:last:mr-0">
+<a class="hover:underline hover:underline-primary-500 hover:underline-thickness-bold hover:underline-offset-small" href=/prints/ title=Prints>Prints</a>
+</li>
+</ul>
+</nav>
+</header>
+<main class=flex-grow>
+<article class=max-w-prose>
+<header>
+<ol class="text-sm text-neutral-500 dark:text-neutral-400">
+<li class="inline hidden">
+<a class="hover:underline hover:underline-neutral-300 dark:underline-neutral-600" href=/>Nathan R. Yergler</a><span class="px-1 text-primary-500">/</span>
+</li>
+<li class=inline>
+<a class="hover:underline hover:underline-neutral-300 dark:underline-neutral-600" href=/posts/>Posts</a><span class="px-1 text-primary-500">/</span>
+</li>
+<li class="inline hidden">
+<a class="hover:underline hover:underline-neutral-300 dark:underline-neutral-600" href=/2013/03/06/flymake_with_sphinx/>flymake with Sphinx</a><span class="px-1 text-primary-500">/</span>
+</li>
+</ol>
+<h1 class="mt-0 text-4xl font-extrabold text-neutral-900 dark:text-neutral">
+flymake with Sphinx
+</h1>
+<div class="mt-8 mb-12 text-base text-neutral-500 dark:text-neutral-400">
+<div class="flex flex-row items-center">
+<time datetime="2013-03-06 00:00:00 +0000 UTC">6 March 2013</time>
+</div>
+</div>
+</header>
+<section class="prose dark:prose-light">
+<p>Working on my <a href=https://us.pycon.org/2013/schedule/presentation/9/>PyCon tutorial</a> (next week!), I’ve been spending a <em>lot</em> of time in Emacs editing <a href=http://docutils.sf.net>reStructured Text</a> documents. I use <a href=http://sphinx-doc.org>Sphinx</a> and <a href=http://hieroglyph.io/>Hieroglyph</a> to generate the <span class=caps>HTML</span>, the slides, and the <span class=caps>PDF</span> from a single source, which make it easy for me to keep everything in sync. <a href=http://flymake.sourceforge.net/>flymake</a> is an Emacs mode that’s designed to do syntax or spell checking as you work. The name reveals its roots: in its simplest form, it just runs <tt class="docutils literal">make</tt> for your project.</p>
+<p>I was tired of flipping over to the shell to re-build the Sphinx project, so I decided to enable flymake for <tt class="docutils literal">.rst</tt> files and see what happened. The <tt class="docutils literal"><span class=pre>flymake-allowed-file-name-masks</span></tt> variable has a list of regular expressions to flymake commands, so I added the following element to the list:</p>
+<pre class=literal-block>("\\.rst\\'" flymake-simple-make-init)
+</pre>
+<p>That was enough to get flymake to invoke the Makefile, and then I just needed to add the target it looks for: <tt class="docutils literal"><span class=pre>check-syntax</span></tt>. I added the following target to my Sphinx project Makefile:</p>
+<pre class=literal-block>check-syntax:
+        $(SPHINXBUILD) -n -N -q -b html $(ALLSPHINXOPTS) $(BUILDDIR)/
+        $(SPHINXBUILD) -n -N -q -b slides $(ALLSPHINXOPTS) $(BUILDDIR)/slides
+</pre>
+<p>In my case I’m building both <span class=caps>HTML</span> and Slides from the Sphinx project, and I wanted both to be updated when I changed a file in Emacs. That did it.</p>
+<p>Now all I <em>wanted</em> was automagic execution of <tt class="docutils literal">make</tt>, but to my pleasant surprise, Sphinx’s warning and error output is compatible with flymake by default. Suddenly Emacs highlighted missing <a href=http://docutils.sourceforge.net/docs/user/rst/quickref.html#hyperlink-targets>targets</a> and directives with missing arguments in red. With <a href=http://www.emacswiki.org/emacs/flymake-cursor.el>flymake-cursor</a> enabled, moving my cursor over one of those red lines showed me the Sphinx error below the mode-line.</p>
+<p>There you have it: Sphinx just works with Emacs and flymake, you just need to turn it on.</p>
+</section>
+<footer class=pt-8>
+<div class="pt-8 article-pagination">
+<hr class="border-dotted border-neutral-300 dark:border-neutral-600">
+<div class="flex justify-between pt-3">
+<span>
+<a class=flex href=/2013/03/17/tut/>
+<span class="mr-3 article-pagination-direction">&larr;</span>
+<span class="flex flex-col">
+<span class="article-pagination-title mt-[0.1rem] leading-6">
+Tut: Easier Tutorial Documentation with Sphinx</span>
+<span class="mt-[0.1rem] text-xs text-neutral-400 dark:text-neutral-500">
+<time datetime="2013-03-17 00:00:00 +0000 UTC">17 March 2013</time>
+</span>
+</span>
+</a>
+</span>
+<span>
+<a class="flex text-right" href=/2013/02/11/hieroglyph_improvements/>
+<span class="flex flex-col">
+<span class="article-pagination-title mt-[0.1rem] leading-6">Hieroglyph Improvements</span>
+<span class="mt-[0.1rem] text-xs text-neutral-400 dark:text-neutral-500">
+<time datetime="2013-02-11 00:00:00 +0000 UTC">11 February 2013</time>
+</span>
+</span>
+<span class="ml-3 article-pagination-direction">&rarr;</span>
+</a>
+</span>
+</div>
+</div>
+</footer>
+</article>
+</main><footer class=py-10>
+<nav class="pb-4 text-base font-medium text-neutral-500 dark:text-neutral-400">
+<ul class="flex flex-col list-none sm:flex-row">
+<li class="mb-1 sm:mb-0 sm:mr-7 sm:last:mr-0">
+<a class="hover:underline hover:underline-primary-500 hover:underline-thickness-bold hover:underline-offset-small" href=/tags/ title=Tags>Tags</a>
+</li>
+<li class="mb-1 sm:mb-0 sm:mr-7 sm:last:mr-0">
+<a class="hover:underline hover:underline-primary-500 hover:underline-thickness-bold hover:underline-offset-small" href=/categories/ title=Categories>Categories</a>
+</li>
+</ul>
+</nav>
+<div class="flex justify-between">
+<div>
+<p class="text-sm text-neutral-500 dark:text-neutral-400">
+&copy;
+2022
+Nathan Yergler
+</p>
+</div>
+</div>
+</footer>
+</body>
+</html>

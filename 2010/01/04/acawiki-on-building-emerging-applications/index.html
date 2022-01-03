@@ -1,0 +1,136 @@
+<!doctype html><html lang=en><head>
+<meta charset=utf-8>
+<meta http-equiv=content-language content="en">
+<meta name=viewport content="width=device-width,initial-scale=1">
+<meta http-equiv=x-ua-compatible content="ie=edge">
+<title>AcaWiki: On Building Emerging Applications &#183; Nathan R. Yergler</title>
+<meta name=title content="AcaWiki: On Building Emerging Applications &#183; Nathan R. Yergler">
+<meta name=description content>
+<link rel=canonical href=https://nyergler.github.io/2010/01/04/acawiki-on-building-emerging-applications/>
+<link type=text/css rel=stylesheet href=/css/schemes/ocean.min.ff17c50528c7a4a8a8bb8ec41272d63eb936ecefb9ccfa6db45cd1f5cd8b1becf8606745f751ee0d322ac80c9cb96e58aa699b38aa44cff9d2a8b3ff4f05a7b5.css integrity="sha512-/xfFBSjHpKiou47EEnLWPrk27O+5zPpttFzR9c2LG+z4YGdF91HuDTIqyAycuW5YqmmbOKpEz/nSqLP/TwWntQ==">
+<link type=text/css rel=stylesheet href=/css/compiled/main.min.84c4218572228cacf6182dc59fe08b5e1bcd599bb583bc56976aa0070f4cd8a4ff130ee2313074359bf6dba03b211e8c50df743d84ad551575fd0b9f849ec802.css integrity="sha512-hMQhhXIijKz2GC3Fn+CLXhvNWZu1g7xWl2qgBw9M2KT/Ew7iMTB0NZv226A7IR6MUN90PYStVRV1/QufhJ7IAg==">
+<script>function loadPreferredAppearance(){localStorage.preferredAppearance==="dark"||!("preferredAppearance"in localStorage)&&window.matchMedia("(prefers-color-scheme: dark)").matches?document.documentElement.classList.add("dark"):document.documentElement.classList.remove("dark")}function setPreferredAppearance(a){a=="default"?localStorage.removeItem("preferredAppearance"):localStorage.preferredAppearance=a,loadPreferredAppearance()}loadPreferredAppearance(),window.matchMedia("(prefers-color-scheme: dark)").addListener(loadPreferredAppearance)</script>
+<link rel=apple-touch-icon sizes=180x180 href=/apple-touch-icon.png>
+<link rel=icon type=image/png sizes=32x32 href=/favicon-32x32.png>
+<link rel=icon type=image/png sizes=16x16 href=/favicon-16x16.png>
+<link rel=manifest href=/site.webmanifest>
+<meta property="og:title" content="AcaWiki: On Building Emerging Applications">
+<meta property="og:description" content="I’m woefully late in noting the launch of AcaWiki .">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://nyergler.github.io/2010/01/04/acawiki-on-building-emerging-applications/"><meta property="article:section" content="posts">
+<meta property="article:published_time" content="2010-01-04T22:44:17+00:00">
+<meta property="article:modified_time" content="2010-01-04T22:44:17+00:00">
+<meta name=twitter:card content="summary">
+<meta name=twitter:title content="AcaWiki: On Building Emerging Applications">
+<meta name=twitter:description content="I’m woefully late in noting the launch of AcaWiki .">
+<script type=application/ld+json>{"@context":"https://schema.org","@type":"BlogPosting","articleSection":"Posts","name":"AcaWiki: On Building Emerging Applications","headline":"AcaWiki: On Building Emerging Applications","description":"I’m woefully late in noting the launch of AcaWiki .","inLanguage":"en","author":{"@type":"Person","name":"Nathan Yergler"},"creator":{"@type":"Person","name":"Nathan Yergler"},"copyrightHolder":"Nathan Yergler","copyrightYear":"2010","dateCreated":"2010-01-04T22:44:17\u002b00:00","datePublished":"2010-01-04T22:44:17\u002b00:00","dateModified":"2010-01-04T22:44:17\u002b00:00","url":"https:\/\/nyergler.github.io\/2010\/01\/04\/acawiki-on-building-emerging-applications\/","wordCount":"755","keywords":["acawiki","cc","mediawiki","platforms","semantic mediawiki","smw","wiki"]}</script>
+<meta name=author content="Nathan Yergler">
+<link href=https://github.com/nyergler rel=me>
+<link href=https://instagram.com/nyergler rel=me>
+</head>
+<body class="flex flex-col h-screen px-6 m-auto text-lg leading-7 bg-neutral text-neutral-900 sm:px-14 md:px-24 lg:px-32 dark:bg-neutral-800 dark:text-neutral max-w-7xl"><header class="flex justify-between py-6 font-semibold sm:items-center sm:py-10 text-neutral-900 dark:text-neutral">
+<div>
+<a class="hover:underline hover:underline-primary-500 hover:underline-thickness-bold hover:underline-offset-small" rel=me href=/>Nathan R. Yergler</a>
+</div>
+<nav>
+<ul class="flex flex-col list-none sm:flex-row">
+<li class="mb-1 text-right sm:mb-0 sm:mr-7 sm:last:mr-0">
+<a class="hover:underline hover:underline-primary-500 hover:underline-thickness-bold hover:underline-offset-small" href=/about/ title="Oh hai.">Bio</a>
+</li>
+<li class="mb-1 text-right sm:mb-0 sm:mr-7 sm:last:mr-0">
+<a class="hover:underline hover:underline-primary-500 hover:underline-thickness-bold hover:underline-offset-small" href=/posts/ title=Posts>Blog</a>
+</li>
+<li class="mb-1 text-right sm:mb-0 sm:mr-7 sm:last:mr-0">
+<a class="hover:underline hover:underline-primary-500 hover:underline-thickness-bold hover:underline-offset-small" href=/prints/ title=Prints>Prints</a>
+</li>
+</ul>
+</nav>
+</header>
+<main class=flex-grow>
+<article class=max-w-prose>
+<header>
+<ol class="text-sm text-neutral-500 dark:text-neutral-400">
+<li class="inline hidden">
+<a class="hover:underline hover:underline-neutral-300 dark:underline-neutral-600" href=/>Nathan R. Yergler</a><span class="px-1 text-primary-500">/</span>
+</li>
+<li class=inline>
+<a class="hover:underline hover:underline-neutral-300 dark:underline-neutral-600" href=/posts/>Posts</a><span class="px-1 text-primary-500">/</span>
+</li>
+<li class="inline hidden">
+<a class="hover:underline hover:underline-neutral-300 dark:underline-neutral-600" href=/2010/01/04/acawiki-on-building-emerging-applications/>AcaWiki: On Building Emerging Applications</a><span class="px-1 text-primary-500">/</span>
+</li>
+</ol>
+<h1 class="mt-0 text-4xl font-extrabold text-neutral-900 dark:text-neutral">
+AcaWiki: On Building Emerging Applications
+</h1>
+<div class="mt-8 mb-12 text-base text-neutral-500 dark:text-neutral-400">
+<div class="flex flex-row items-center">
+<time datetime="2010-01-04 22:44:17 +0000 UTC">4 January 2010</time>
+</div>
+</div>
+</header>
+<section class="prose dark:prose-light">
+<p>I’m woefully late in noting the <a href=http://acawiki.org/AcaWiki:PressRelease-2009-10-07>launch</a> of <a href=http://acawiki.org/>AcaWiki</a> . Mike does a good job <a href=http://gondwanaland.com/mlog/2009/10/06/acawiki/>exploring the sweet spot</a> AcaWiki may fill between research blogging and open access journals, and where AcaWiki fits into the wiki landscape. AcaWiki is interesting to me for two reasons; first, I was the technical lead on the project<sup>†</sup>, and second, it’s another recent example of building a site using <a href=http://www.mediawiki.org/>MediaWiki</a> as a platform. More specifically, we used MediaWiki along with <a href=http://semantic-mediawiki.org>Semantic MediaWiki</a> , <a href=http://www.mediawiki.org/wiki/Extension:Semantic_Forms>Semantic Forms</a> , and several <a href=http://acawiki.org/Special:Version>other related extensions</a> as the platform for the site.</p>
+<p>The idea of using a wiki for a community oriented site is far from new. The difference here is that Neeru came to us talking about specific ways people could interact with the site — specific structured data she wanted to organize and capture about academic articles. For anyone familiar with MediaWiki and Wikipedia, the obvious answer is<a href=http://www.mediawiki.org/wiki/Help:Templates>templates</a> ; Wikipedia uses them extensively to provide a consistent presentation for parts of an articles (messages about the article, citations, etc). The catch is that for someone coming to a site for the first time, who perhaps has not edited a wiki previously, templates are a bit of <a href=http://en.wikipedia.org/wiki/Inside_baseball#As_a_Metaphor>inside baseball</a> — you need to know which one to use, and you need to know how to format them in your article. Of course these are trainable skills, but I suspect for many users they’re non-obvious. Semantic Forms lets us provide a form for entering these fields, which is then translated to a template.</p>
+<p>The question that comes up when discussing this approach with non-wiki-philes is, “why use a wiki at all? if all you need are <a href=http://en.wikipedia.org/wiki/Create,_read,_update_and_delete><span class=caps>CRUD</span></a> forms, why not just whip it up in Rails, Django, etc?” The question is a good one — a specialized tool almost always has the potential to look fantastic compared to an off the shelf one. And who wants to learn that weird markup syntax, anyway? The thing is, at the end of the day, AcaWiki isn’t a software project, it’s a community project. There isn’t a team of engineers available to help move the toolset forward. There isn’t staff available to fix bugs and write migration scripts. So using off the shelf tools with active communities is essential to achieving any amount of scalability.</p>
+<p>As Mike points out, there are some niches AcaWiki seems primed to fill. While working on the site, however, it was clear there are lots of unanswered questions about how that will actually happen. AcaWiki, like many sites that seek to serve a community of interest in a given area, is an emerging application. The data schema isn’t well defined, and we don’t necessarily know how users are going to interact with the site. The goal is to get something that users can use in place; something that provides just enough structure to encourage newcomers, while retaining the plasticity and flexibility needed to grow and evolve.</p>
+<p>As I mentioned before, this is not the first “application” we’ve built using this tool chain; we use MediaWiki and Semantic MediaWiki at <a href=http://creativecommons.org>Creative Commons</a> in many places. We use it to track <a href=http://wiki.creativecommons.org/Events>Events</a> our community puts together, and we use it to track things we’d like <a href=http://wiki.creativecommons.org/Developers>developers to work on</a> (<span class=caps>NB</span>: the latter is woefully out of date and stagnated; perhaps a negative use case for this sort of tool). We even built a system for <a href=http://wiki.creativecommons.org/CcTeamspace>tracking grants and projects</a> using it.</p>
+<p>Using MediaWiki and Semantic MediaWiki as an application platform isn’t appropriate for every project and it isn’t a cure all; there are real limitations, like any off the shelf system. In some cases these issues are magnified due to the fact that it’s <em>not</em> explicitly designed as a platform. For applications that rely on community involvement and that are only partially defined, it usually either gets the job done, or brings us far enough along with minimal effort that we can see what the real problem we’re trying to solve is.</p>
+<p>AcaWiki is an exciting experiment in building community around academic research and knowledge. It’s also another in a line of interesting experiments with building applications in a different, organic manner. There’s some interesting work in the pipeline for AcaWiki, including data dumps, a shiny <a href=http://en.wikipedia.org/wiki/Wikipedia:Vector>Vector</a> -based skin, and improvements to the forms and templates used. The most interesting work, however, will be the work done by the community.</p>
+<hr class=docutils>
+<p><sup>†</sup> AcaWiki’s founder, Neeru Paharia, was one of <span class=caps>CC</span>’s earliest employees, and she turned to the <a href=http://labs.creativecommons.org><span class=caps>CC</span> technology team</a> for help with this project.</p>
+</section>
+<footer class=pt-8>
+<div class="pt-8 article-pagination">
+<hr class="border-dotted border-neutral-300 dark:border-neutral-600">
+<div class="flex justify-between pt-3">
+<span>
+<a class=flex href=/2010/01/05/400-duboce-113-now-from-greg-apartments/>
+<span class="mr-3 article-pagination-direction">&larr;</span>
+<span class="flex flex-col">
+<span class="article-pagination-title mt-[0.1rem] leading-6">
+400 Duboce #113, Now from “Greg Apartments”</span>
+<span class="mt-[0.1rem] text-xs text-neutral-400 dark:text-neutral-500">
+<time datetime="2010-01-05 22:01:31 +0000 UTC">5 January 2010</time>
+</span>
+</span>
+</a>
+</span>
+<span>
+<a class="flex text-right" href=/2010/01/03/read-the-cactus-eaters-by-dan-white/>
+<span class="flex flex-col">
+<span class="article-pagination-title mt-[0.1rem] leading-6">Read: The Cactus Eaters, by Dan White</span>
+<span class="mt-[0.1rem] text-xs text-neutral-400 dark:text-neutral-500">
+<time datetime="2010-01-03 20:42:59 +0000 UTC">3 January 2010</time>
+</span>
+</span>
+<span class="ml-3 article-pagination-direction">&rarr;</span>
+</a>
+</span>
+</div>
+</div>
+</footer>
+</article>
+</main><footer class=py-10>
+<nav class="pb-4 text-base font-medium text-neutral-500 dark:text-neutral-400">
+<ul class="flex flex-col list-none sm:flex-row">
+<li class="mb-1 sm:mb-0 sm:mr-7 sm:last:mr-0">
+<a class="hover:underline hover:underline-primary-500 hover:underline-thickness-bold hover:underline-offset-small" href=/tags/ title=Tags>Tags</a>
+</li>
+<li class="mb-1 sm:mb-0 sm:mr-7 sm:last:mr-0">
+<a class="hover:underline hover:underline-primary-500 hover:underline-thickness-bold hover:underline-offset-small" href=/categories/ title=Categories>Categories</a>
+</li>
+</ul>
+</nav>
+<div class="flex justify-between">
+<div>
+<p class="text-sm text-neutral-500 dark:text-neutral-400">
+&copy;
+2022
+Nathan Yergler
+</p>
+</div>
+</div>
+</footer>
+</body>
+</html>

@@ -1,0 +1,133 @@
+<!doctype html><html lang=en><head>
+<meta charset=utf-8>
+<meta http-equiv=content-language content="en">
+<meta name=viewport content="width=device-width,initial-scale=1">
+<meta http-equiv=x-ua-compatible content="ie=edge">
+<title>Tut: Easier Tutorial Documentation with Sphinx &#183; Nathan R. Yergler</title>
+<meta name=title content="Tut: Easier Tutorial Documentation with Sphinx &#183; Nathan R. Yergler">
+<meta name=description content>
+<link rel=canonical href=https://nyergler.github.io/2013/03/17/tut/>
+<link type=text/css rel=stylesheet href=/css/schemes/ocean.min.ff17c50528c7a4a8a8bb8ec41272d63eb936ecefb9ccfa6db45cd1f5cd8b1becf8606745f751ee0d322ac80c9cb96e58aa699b38aa44cff9d2a8b3ff4f05a7b5.css integrity="sha512-/xfFBSjHpKiou47EEnLWPrk27O+5zPpttFzR9c2LG+z4YGdF91HuDTIqyAycuW5YqmmbOKpEz/nSqLP/TwWntQ==">
+<link type=text/css rel=stylesheet href=/css/compiled/main.min.84c4218572228cacf6182dc59fe08b5e1bcd599bb583bc56976aa0070f4cd8a4ff130ee2313074359bf6dba03b211e8c50df743d84ad551575fd0b9f849ec802.css integrity="sha512-hMQhhXIijKz2GC3Fn+CLXhvNWZu1g7xWl2qgBw9M2KT/Ew7iMTB0NZv226A7IR6MUN90PYStVRV1/QufhJ7IAg==">
+<script>function loadPreferredAppearance(){localStorage.preferredAppearance==="dark"||!("preferredAppearance"in localStorage)&&window.matchMedia("(prefers-color-scheme: dark)").matches?document.documentElement.classList.add("dark"):document.documentElement.classList.remove("dark")}function setPreferredAppearance(a){a=="default"?localStorage.removeItem("preferredAppearance"):localStorage.preferredAppearance=a,loadPreferredAppearance()}loadPreferredAppearance(),window.matchMedia("(prefers-color-scheme: dark)").addListener(loadPreferredAppearance)</script>
+<link rel=apple-touch-icon sizes=180x180 href=/apple-touch-icon.png>
+<link rel=icon type=image/png sizes=32x32 href=/favicon-32x32.png>
+<link rel=icon type=image/png sizes=16x16 href=/favicon-16x16.png>
+<link rel=manifest href=/site.webmanifest>
+<meta property="og:title" content="Tut: Easier Tutorial Documentation with Sphinx">
+<meta property="og:description" content="The PyCon sessions wound down today, so I’m finally coming up for air.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://nyergler.github.io/2013/03/17/tut/"><meta property="article:section" content="posts">
+<meta property="article:published_time" content="2013-03-17T00:00:00+00:00">
+<meta property="article:modified_time" content="2013-03-17T00:00:00+00:00">
+<meta name=twitter:card content="summary">
+<meta name=twitter:title content="Tut: Easier Tutorial Documentation with Sphinx">
+<meta name=twitter:description content="The PyCon sessions wound down today, so I’m finally coming up for air.">
+<script type=application/ld+json>{"@context":"https://schema.org","@type":"BlogPosting","articleSection":"Posts","name":"Tut: Easier Tutorial Documentation with Sphinx","headline":"Tut: Easier Tutorial Documentation with Sphinx","description":"The PyCon sessions wound down today, so I’m finally coming up for air.","inLanguage":"en","author":{"@type":"Person","name":"Nathan Yergler"},"creator":{"@type":"Person","name":"Nathan Yergler"},"copyrightHolder":"Nathan Yergler","copyrightYear":"2013","dateCreated":"2013-03-17T00:00:00\u002b00:00","datePublished":"2013-03-17T00:00:00\u002b00:00","dateModified":"2013-03-17T00:00:00\u002b00:00","url":"https:\/\/nyergler.github.io\/2013\/03\/17\/tut\/","wordCount":"403","keywords":["hieroglyph","rst","sphinx","tut"]}</script>
+<meta name=author content="Nathan Yergler">
+<link href=https://github.com/nyergler rel=me>
+<link href=https://instagram.com/nyergler rel=me>
+</head>
+<body class="flex flex-col h-screen px-6 m-auto text-lg leading-7 bg-neutral text-neutral-900 sm:px-14 md:px-24 lg:px-32 dark:bg-neutral-800 dark:text-neutral max-w-7xl"><header class="flex justify-between py-6 font-semibold sm:items-center sm:py-10 text-neutral-900 dark:text-neutral">
+<div>
+<a class="hover:underline hover:underline-primary-500 hover:underline-thickness-bold hover:underline-offset-small" rel=me href=/>Nathan R. Yergler</a>
+</div>
+<nav>
+<ul class="flex flex-col list-none sm:flex-row">
+<li class="mb-1 text-right sm:mb-0 sm:mr-7 sm:last:mr-0">
+<a class="hover:underline hover:underline-primary-500 hover:underline-thickness-bold hover:underline-offset-small" href=/about/ title="Oh hai.">Bio</a>
+</li>
+<li class="mb-1 text-right sm:mb-0 sm:mr-7 sm:last:mr-0">
+<a class="hover:underline hover:underline-primary-500 hover:underline-thickness-bold hover:underline-offset-small" href=/posts/ title=Posts>Blog</a>
+</li>
+<li class="mb-1 text-right sm:mb-0 sm:mr-7 sm:last:mr-0">
+<a class="hover:underline hover:underline-primary-500 hover:underline-thickness-bold hover:underline-offset-small" href=/prints/ title=Prints>Prints</a>
+</li>
+</ul>
+</nav>
+</header>
+<main class=flex-grow>
+<article class=max-w-prose>
+<header>
+<ol class="text-sm text-neutral-500 dark:text-neutral-400">
+<li class="inline hidden">
+<a class="hover:underline hover:underline-neutral-300 dark:underline-neutral-600" href=/>Nathan R. Yergler</a><span class="px-1 text-primary-500">/</span>
+</li>
+<li class=inline>
+<a class="hover:underline hover:underline-neutral-300 dark:underline-neutral-600" href=/posts/>Posts</a><span class="px-1 text-primary-500">/</span>
+</li>
+<li class="inline hidden">
+<a class="hover:underline hover:underline-neutral-300 dark:underline-neutral-600" href=/2013/03/17/tut/>Tut: Easier Tutorial Documentation with Sphinx</a><span class="px-1 text-primary-500">/</span>
+</li>
+</ol>
+<h1 class="mt-0 text-4xl font-extrabold text-neutral-900 dark:text-neutral">
+Tut: Easier Tutorial Documentation with Sphinx
+</h1>
+<div class="mt-8 mb-12 text-base text-neutral-500 dark:text-neutral-400">
+<div class="flex flex-row items-center">
+<time datetime="2013-03-17 00:00:00 +0000 UTC">17 March 2013</time>
+</div>
+</div>
+</header>
+<section class="prose dark:prose-light">
+<p>The <a href=https://us.pycon.org/2013/>PyCon</a> sessions wound down today, so I’m finally coming up for air. This year I presented <a href=https://us.pycon.org/2013/schedule/presentation/9/>Effective Django</a> , which evolved out of <a href=https://us.pycon.org/2012/schedule/presentation/420/>last year’s PyCon presentation</a> and my <a href=http://pyvideo.org/video/1376/effective-django>PyOhio 2012</a> talk. As I prepared my PyCon talk last year, I started building <a href=http://hieroglyph.io/>Hieroglyph</a> , which makes it easy to build <span class=caps>HTML</span>-based slides using <a href=http://sphinx-doc.org/>Sphinx</a> . This year I was preparing a different kind of presentation: a <em>tutorial</em>. As I started putting it together, I realized that tutorial-style documents differ from the previous presentations and documentation I’ve written.</p>
+<p>In the past I used Sphinx code blocks in my documents, and then used the <a href=http://sphinx-doc.org/ext/doctest.html>doctest builder</a> to verify that they were written correctly. With a tutorial, however, I was putting together a demo application, and wanted to include code directly from that. Sphinx has the <a href=http://sphinx-doc.org/markup/code.html#directive-literalinclude>literalinclude</a> directive, but that wasn’t quite enough: I was using git to manage the <a href=https://github.com/nyergler/effective-django-tutorial>sample source repository</a> , so what I really wanted to do was include code from that repository <strong>at a particular point in time</strong>.</p>
+<p>I didn’t want to just copy and paste the code from the Python source into the ReStructured Text files: I did that briefly, and found it difficult to keep in sync as my thinking about the code evolved. I’d copy and paste, write some more text, realize I needed to make a change to the sample code, and then need to go back and change it in two places.</p>
+<p>To solve this problem, I wrote <strong>Tut</strong>. <a href=https://pypi.python.org/pypi/tut>Tut</a> is a Sphinx extension that provides a simple directive, <tt class="docutils literal">checkpoint</tt>. The <tt class="docutils literal">checkpoint</tt> directive switches a git repository to a particular point in time: a branch, tag, or <span class=caps>SHA</span>; basically anything you can <tt class="docutils literal">git checkout</tt>.</p>
+<p>I used tags for <a href=https://us.pycon.org/2013/schedule/presentation/9/>Effective Django</a> , so Tut also includes a script to help manage those. The script installs a post-rewrite hook in your git repository, so that if you need to reorder your commits your tags will be moved to the new SHAs. This can be useful if you find a bug and want to change it (“back in time”), or decide to reorder parts of your tutorial source.</p>
+<p>I think Tut is a pretty handy little extension: it allowed me to use Sphinx’s built in inclusion directives in my documents, and eliminated work that took my focus off of actually creating content. You can find it on <a href=https://pypi.python.org/pypi/tut>PyPI</a> , and the source is available on <a href=https://github.com/nyergler/tut>github</a> .</p>
+</section>
+<footer class=pt-8>
+<div class="pt-8 article-pagination">
+<hr class="border-dotted border-neutral-300 dark:border-neutral-600">
+<div class="flex justify-between pt-3">
+<span>
+<a class=flex href=/2013/03/19/hieroglyph_0_5_5/>
+<span class="mr-3 article-pagination-direction">&larr;</span>
+<span class="flex flex-col">
+<span class="article-pagination-title mt-[0.1rem] leading-6">
+Hieroglyph 0.5.5</span>
+<span class="mt-[0.1rem] text-xs text-neutral-400 dark:text-neutral-500">
+<time datetime="2013-03-19 00:00:00 +0000 UTC">19 March 2013</time>
+</span>
+</span>
+</a>
+</span>
+<span>
+<a class="flex text-right" href=/2013/03/06/flymake_with_sphinx/>
+<span class="flex flex-col">
+<span class="article-pagination-title mt-[0.1rem] leading-6">flymake with Sphinx</span>
+<span class="mt-[0.1rem] text-xs text-neutral-400 dark:text-neutral-500">
+<time datetime="2013-03-06 00:00:00 +0000 UTC">6 March 2013</time>
+</span>
+</span>
+<span class="ml-3 article-pagination-direction">&rarr;</span>
+</a>
+</span>
+</div>
+</div>
+</footer>
+</article>
+</main><footer class=py-10>
+<nav class="pb-4 text-base font-medium text-neutral-500 dark:text-neutral-400">
+<ul class="flex flex-col list-none sm:flex-row">
+<li class="mb-1 sm:mb-0 sm:mr-7 sm:last:mr-0">
+<a class="hover:underline hover:underline-primary-500 hover:underline-thickness-bold hover:underline-offset-small" href=/tags/ title=Tags>Tags</a>
+</li>
+<li class="mb-1 sm:mb-0 sm:mr-7 sm:last:mr-0">
+<a class="hover:underline hover:underline-primary-500 hover:underline-thickness-bold hover:underline-offset-small" href=/categories/ title=Categories>Categories</a>
+</li>
+</ul>
+</nav>
+<div class="flex justify-between">
+<div>
+<p class="text-sm text-neutral-500 dark:text-neutral-400">
+&copy;
+2022
+Nathan Yergler
+</p>
+</div>
+</div>
+</footer>
+</body>
+</html>

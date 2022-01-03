@@ -1,0 +1,174 @@
+<!doctype html><html lang=en><head>
+<meta charset=utf-8>
+<meta http-equiv=content-language content="en">
+<meta name=viewport content="width=device-width,initial-scale=1">
+<meta http-equiv=x-ua-compatible content="ie=edge">
+<title>Batteries Included (or, Maildir to mbox, again) &#183; Nathan R. Yergler</title>
+<meta name=title content="Batteries Included (or, Maildir to mbox, again) &#183; Nathan R. Yergler">
+<meta name=description content>
+<link rel=canonical href=https://nyergler.github.io/2010/06/06/batteries-included-or-maildir-to-mbox-again/>
+<link type=text/css rel=stylesheet href=/css/schemes/ocean.min.ff17c50528c7a4a8a8bb8ec41272d63eb936ecefb9ccfa6db45cd1f5cd8b1becf8606745f751ee0d322ac80c9cb96e58aa699b38aa44cff9d2a8b3ff4f05a7b5.css integrity="sha512-/xfFBSjHpKiou47EEnLWPrk27O+5zPpttFzR9c2LG+z4YGdF91HuDTIqyAycuW5YqmmbOKpEz/nSqLP/TwWntQ==">
+<link type=text/css rel=stylesheet href=/css/compiled/main.min.84c4218572228cacf6182dc59fe08b5e1bcd599bb583bc56976aa0070f4cd8a4ff130ee2313074359bf6dba03b211e8c50df743d84ad551575fd0b9f849ec802.css integrity="sha512-hMQhhXIijKz2GC3Fn+CLXhvNWZu1g7xWl2qgBw9M2KT/Ew7iMTB0NZv226A7IR6MUN90PYStVRV1/QufhJ7IAg==">
+<script>function loadPreferredAppearance(){localStorage.preferredAppearance==="dark"||!("preferredAppearance"in localStorage)&&window.matchMedia("(prefers-color-scheme: dark)").matches?document.documentElement.classList.add("dark"):document.documentElement.classList.remove("dark")}function setPreferredAppearance(a){a=="default"?localStorage.removeItem("preferredAppearance"):localStorage.preferredAppearance=a,loadPreferredAppearance()}loadPreferredAppearance(),window.matchMedia("(prefers-color-scheme: dark)").addListener(loadPreferredAppearance)</script>
+<link rel=apple-touch-icon sizes=180x180 href=/apple-touch-icon.png>
+<link rel=icon type=image/png sizes=32x32 href=/favicon-32x32.png>
+<link rel=icon type=image/png sizes=16x16 href=/favicon-16x16.png>
+<link rel=manifest href=/site.webmanifest>
+<meta property="og:title" content="Batteries Included (or, Maildir to mbox, again)">
+<meta property="og:description" content="UPDATE 7 June 2010: Added usage information to docstring.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://nyergler.github.io/2010/06/06/batteries-included-or-maildir-to-mbox-again/"><meta property="article:section" content="posts">
+<meta property="article:published_time" content="2010-06-06T13:04:29+00:00">
+<meta property="article:modified_time" content="2010-06-06T13:04:29+00:00">
+<meta name=twitter:card content="summary">
+<meta name=twitter:title content="Batteries Included (or, Maildir to mbox, again)">
+<meta name=twitter:description content="UPDATE 7 June 2010: Added usage information to docstring.">
+<script type=application/ld+json>{"@context":"https://schema.org","@type":"BlogPosting","articleSection":"Posts","name":"Batteries Included (or, Maildir to mbox, again)","headline":"Batteries Included (or, Maildir to mbox, again)","description":"UPDATE 7 June 2010: Added usage information to docstring.","inLanguage":"en","author":{"@type":"Person","name":"Nathan Yergler"},"creator":{"@type":"Person","name":"Nathan Yergler"},"copyrightHolder":"Nathan Yergler","copyrightYear":"2010","dateCreated":"2010-06-06T13:04:29\u002b00:00","datePublished":"2010-06-06T13:04:29\u002b00:00","dateModified":"2010-06-06T13:04:29\u002b00:00","url":"https:\/\/nyergler.github.io\/2010\/06\/06\/batteries-included-or-maildir-to-mbox-again\/","wordCount":"351","keywords":["maildir","mbox","python"]}</script>
+<meta name=author content="Nathan Yergler">
+<link href=https://github.com/nyergler rel=me>
+<link href=https://instagram.com/nyergler rel=me>
+</head>
+<body class="flex flex-col h-screen px-6 m-auto text-lg leading-7 bg-neutral text-neutral-900 sm:px-14 md:px-24 lg:px-32 dark:bg-neutral-800 dark:text-neutral max-w-7xl"><header class="flex justify-between py-6 font-semibold sm:items-center sm:py-10 text-neutral-900 dark:text-neutral">
+<div>
+<a class="hover:underline hover:underline-primary-500 hover:underline-thickness-bold hover:underline-offset-small" rel=me href=/>Nathan R. Yergler</a>
+</div>
+<nav>
+<ul class="flex flex-col list-none sm:flex-row">
+<li class="mb-1 text-right sm:mb-0 sm:mr-7 sm:last:mr-0">
+<a class="hover:underline hover:underline-primary-500 hover:underline-thickness-bold hover:underline-offset-small" href=/about/ title="Oh hai.">Bio</a>
+</li>
+<li class="mb-1 text-right sm:mb-0 sm:mr-7 sm:last:mr-0">
+<a class="hover:underline hover:underline-primary-500 hover:underline-thickness-bold hover:underline-offset-small" href=/posts/ title=Posts>Blog</a>
+</li>
+<li class="mb-1 text-right sm:mb-0 sm:mr-7 sm:last:mr-0">
+<a class="hover:underline hover:underline-primary-500 hover:underline-thickness-bold hover:underline-offset-small" href=/prints/ title=Prints>Prints</a>
+</li>
+</ul>
+</nav>
+</header>
+<main class=flex-grow>
+<article class=max-w-prose>
+<header>
+<ol class="text-sm text-neutral-500 dark:text-neutral-400">
+<li class="inline hidden">
+<a class="hover:underline hover:underline-neutral-300 dark:underline-neutral-600" href=/>Nathan R. Yergler</a><span class="px-1 text-primary-500">/</span>
+</li>
+<li class=inline>
+<a class="hover:underline hover:underline-neutral-300 dark:underline-neutral-600" href=/posts/>Posts</a><span class="px-1 text-primary-500">/</span>
+</li>
+<li class="inline hidden">
+<a class="hover:underline hover:underline-neutral-300 dark:underline-neutral-600" href=/2010/06/06/batteries-included-or-maildir-to-mbox-again/>Batteries Included (or, Maildir to mbox, again)</a><span class="px-1 text-primary-500">/</span>
+</li>
+</ol>
+<h1 class="mt-0 text-4xl font-extrabold text-neutral-900 dark:text-neutral">
+Batteries Included (or, Maildir to mbox, again)
+</h1>
+<div class="mt-8 mb-12 text-base text-neutral-500 dark:text-neutral-400">
+<div class="flex flex-row items-center">
+<time datetime="2010-06-06 13:04:29 +0000 UTC">6 June 2010</time>
+</div>
+</div>
+</header>
+<section class="prose dark:prose-light">
+<p><strong><span class=caps>UPDATE</span> 7 June 2010:</strong> Added usage information to docstring.</p>
+<p><strong><span class=caps>UPDATE</span> 30 January 2012:</strong> Frédéric Grosshans has provided an updated version that supports nested maildirs; you can <a href=https://gist.github.com/1709069>find it at github</a> . <span class=caps>YMMV</span>.</p>
+<p>My <a href=http://yergler.net/projects/one-off/maildir-to-mbox/>script for converting maildir to mbox</a> <a href=http://yergler.net/blog/2010/02/03/most-popular-erroneous-post/>continues</a> to be one of the most popular pages on yergler.net (according to Google Analytics). Of course, even after I <a href=http://yergler.net/blog/2010/02/03/most-popular-erroneous-post/>updated</a> it slightly in February, it still had a couple of bugs, likely introduced when I converted the page from MoinMoin to WordPress. This afternoon I finally decided to clear out the pending comments about those bugs, and update it.</p>
+<p>While looking at the Python documentation for the <tt class="docutils literal"><code>mailbox&lt;/tt> &lt;&lt;http://docs.python.org/library/mailbox.html> >\</code>_ package included in the standard library, I realized it could probably be simplified even further by using the library’s native <tt class="docutils literal"><code>mbox&lt;/tt> &lt;&lt;http://docs.python.org/library/mailbox.html#mbox> >\</code>_ support. I’m also more comfortable using the standard library’s implementation of <tt class="docutils literal">mbox</tt> rather than my hacked up raw file implementation (who knows, the standard library may do exactly what my script did: I’m not an <tt class="docutils literal">mbox</tt> expert by any stretch of the imagination).</p>
+<p>The new script is below. I should note that it’s received very little testing, and I make no guarantees. I also should note that there is nothing creative or original about this. It just uses Python’s excellent standard library. As they say, “batteries included”.</p>
+<pre class=literal-block>/del&gt; coding: utf-8
+
+
+“”“maildir2mbox.pyNathan R. Yergler, 6 June 2010
+
+This file does not contain sufficient creative expression to invokeassertion of copyright.  No warranty is expressed or implied; use atyour own risk.
+
+—-
+
+Uses Python’s included mailbox library to convert mail archives frommaildir [http://en.wikipedia.org/wiki/Maildir] to mbox [http://en.wikipedia.org/wiki/Mbox] format.
+
+See http://docs.python.org/library/mailbox.html#mailbox.Mailbox for full documentation on this library.
+
+—-
+
+To run, save as maildir2mbox.py and run:
+
+$ python maildir2mbox.py [maildir_path] [mbox_filename]
+
+[maildir_path] should be the the path to the actual maildir (containing new, cur, tmp);
+
+[mbox_filename] will be newly created.“”“
+
+import mailboximport sysimport email
+
+
+    open the existing maildir and the target mbox file
+maildir = mailbox.Maildir(sys.argv [-2], email.message_from_file)mbox = mailbox.mbox(sys.argv[-1])
+
+
+    lock the mbox
+mbox.lock()
+
+
+    iterate over messages in the maildir and add to the mbox
+for msg in maildir:
+mbox.add(msg)
+
+
+    close and unlock
+mbox.close()maildir.close()
+</pre>
+</section>
+<footer class=pt-8>
+<div class="pt-8 article-pagination">
+<hr class="border-dotted border-neutral-300 dark:border-neutral-600">
+<div class="flex justify-between pt-3">
+<span>
+<a class=flex href=/2010/06/06/read-django-1-1-testing-and-debugging-by-karen-m-tracey/>
+<span class="mr-3 article-pagination-direction">&larr;</span>
+<span class="flex flex-col">
+<span class="article-pagination-title mt-[0.1rem] leading-6">
+Read: “Django 1.1 Testing and Debugging”, by Karen M. Tracey</span>
+<span class="mt-[0.1rem] text-xs text-neutral-400 dark:text-neutral-500">
+<time datetime="2010-06-06 17:42:47 +0000 UTC">6 June 2010</time>
+</span>
+</span>
+</a>
+</span>
+<span>
+<a class="flex text-right" href=/2010/05/16/preread-django-1-1-testing-and-debugging-by-karen-m-tracey/>
+<span class="flex flex-col">
+<span class="article-pagination-title mt-[0.1rem] leading-6">Preread: “Django 1.1 Testing and Debugging”, by Karen M. Tracey</span>
+<span class="mt-[0.1rem] text-xs text-neutral-400 dark:text-neutral-500">
+<time datetime="2010-05-16 21:39:04 +0000 UTC">16 May 2010</time>
+</span>
+</span>
+<span class="ml-3 article-pagination-direction">&rarr;</span>
+</a>
+</span>
+</div>
+</div>
+</footer>
+</article>
+</main><footer class=py-10>
+<nav class="pb-4 text-base font-medium text-neutral-500 dark:text-neutral-400">
+<ul class="flex flex-col list-none sm:flex-row">
+<li class="mb-1 sm:mb-0 sm:mr-7 sm:last:mr-0">
+<a class="hover:underline hover:underline-primary-500 hover:underline-thickness-bold hover:underline-offset-small" href=/tags/ title=Tags>Tags</a>
+</li>
+<li class="mb-1 sm:mb-0 sm:mr-7 sm:last:mr-0">
+<a class="hover:underline hover:underline-primary-500 hover:underline-thickness-bold hover:underline-offset-small" href=/categories/ title=Categories>Categories</a>
+</li>
+</ul>
+</nav>
+<div class="flex justify-between">
+<div>
+<p class="text-sm text-neutral-500 dark:text-neutral-400">
+&copy;
+2022
+Nathan Yergler
+</p>
+</div>
+</div>
+</footer>
+</body>
+</html>

@@ -1,0 +1,156 @@
+<!doctype html><html lang=en><head>
+<meta charset=utf-8>
+<meta http-equiv=content-language content="en">
+<meta name=viewport content="width=device-width,initial-scale=1">
+<meta http-equiv=x-ua-compatible content="ie=edge">
+<title>Using ECR images with Elastic Beanstalk and CodeBuild &#183; Nathan R. Yergler</title>
+<meta name=title content="Using ECR images with Elastic Beanstalk and CodeBuild &#183; Nathan R. Yergler">
+<meta name=description content>
+<link rel=canonical href=https://nyergler.github.io/2019/11/11/using-ecr-images-with-elastic-beanstalk-and-codebuild/>
+<link type=text/css rel=stylesheet href=/css/schemes/ocean.min.ff17c50528c7a4a8a8bb8ec41272d63eb936ecefb9ccfa6db45cd1f5cd8b1becf8606745f751ee0d322ac80c9cb96e58aa699b38aa44cff9d2a8b3ff4f05a7b5.css integrity="sha512-/xfFBSjHpKiou47EEnLWPrk27O+5zPpttFzR9c2LG+z4YGdF91HuDTIqyAycuW5YqmmbOKpEz/nSqLP/TwWntQ==">
+<link type=text/css rel=stylesheet href=/css/compiled/main.min.84c4218572228cacf6182dc59fe08b5e1bcd599bb583bc56976aa0070f4cd8a4ff130ee2313074359bf6dba03b211e8c50df743d84ad551575fd0b9f849ec802.css integrity="sha512-hMQhhXIijKz2GC3Fn+CLXhvNWZu1g7xWl2qgBw9M2KT/Ew7iMTB0NZv226A7IR6MUN90PYStVRV1/QufhJ7IAg==">
+<script>function loadPreferredAppearance(){localStorage.preferredAppearance==="dark"||!("preferredAppearance"in localStorage)&&window.matchMedia("(prefers-color-scheme: dark)").matches?document.documentElement.classList.add("dark"):document.documentElement.classList.remove("dark")}function setPreferredAppearance(a){a=="default"?localStorage.removeItem("preferredAppearance"):localStorage.preferredAppearance=a,loadPreferredAppearance()}loadPreferredAppearance(),window.matchMedia("(prefers-color-scheme: dark)").addListener(loadPreferredAppearance)</script>
+<link rel=apple-touch-icon sizes=180x180 href=/apple-touch-icon.png>
+<link rel=icon type=image/png sizes=32x32 href=/favicon-32x32.png>
+<link rel=icon type=image/png sizes=16x16 href=/favicon-16x16.png>
+<link rel=manifest href=/site.webmanifest>
+<meta property="og:title" content="Using ECR images with Elastic Beanstalk and CodeBuild">
+<meta property="og:description" content="As I mentioned previously, I’ve been using CodePipeline and CodeBuild for continuous integration and delivery on a new project.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://nyergler.github.io/2019/11/11/using-ecr-images-with-elastic-beanstalk-and-codebuild/"><meta property="article:section" content="posts">
+<meta property="article:published_time" content="2019-11-11T17:11:11+00:00">
+<meta property="article:modified_time" content="2019-11-11T17:11:11+00:00">
+<meta name=twitter:card content="summary">
+<meta name=twitter:title content="Using ECR images with Elastic Beanstalk and CodeBuild">
+<meta name=twitter:description content="As I mentioned previously, I’ve been using CodePipeline and CodeBuild for continuous integration and delivery on a new project.">
+<script type=application/ld+json>{"@context":"https://schema.org","@type":"BlogPosting","articleSection":"Posts","name":"Using ECR images with Elastic Beanstalk and CodeBuild","headline":"Using ECR images with Elastic Beanstalk and CodeBuild","description":"As I mentioned previously, I’ve been using CodePipeline and CodeBuild for continuous integration and delivery on a new project.","inLanguage":"en","author":{"@type":"Person","name":"Nathan Yergler"},"creator":{"@type":"Person","name":"Nathan Yergler"},"copyrightHolder":"Nathan Yergler","copyrightYear":"2019","dateCreated":"2019-11-11T17:11:11\u002b00:00","datePublished":"2019-11-11T17:11:11\u002b00:00","dateModified":"2019-11-11T17:11:11\u002b00:00","url":"https:\/\/nyergler.github.io\/2019\/11\/11\/using-ecr-images-with-elastic-beanstalk-and-codebuild\/","wordCount":"445","keywords":["aws","CI","startup"]}</script>
+<meta name=author content="Nathan Yergler">
+<link href=https://github.com/nyergler rel=me>
+<link href=https://instagram.com/nyergler rel=me>
+</head>
+<body class="flex flex-col h-screen px-6 m-auto text-lg leading-7 bg-neutral text-neutral-900 sm:px-14 md:px-24 lg:px-32 dark:bg-neutral-800 dark:text-neutral max-w-7xl"><header class="flex justify-between py-6 font-semibold sm:items-center sm:py-10 text-neutral-900 dark:text-neutral">
+<div>
+<a class="hover:underline hover:underline-primary-500 hover:underline-thickness-bold hover:underline-offset-small" rel=me href=/>Nathan R. Yergler</a>
+</div>
+<nav>
+<ul class="flex flex-col list-none sm:flex-row">
+<li class="mb-1 text-right sm:mb-0 sm:mr-7 sm:last:mr-0">
+<a class="hover:underline hover:underline-primary-500 hover:underline-thickness-bold hover:underline-offset-small" href=/about/ title="Oh hai.">Bio</a>
+</li>
+<li class="mb-1 text-right sm:mb-0 sm:mr-7 sm:last:mr-0">
+<a class="hover:underline hover:underline-primary-500 hover:underline-thickness-bold hover:underline-offset-small" href=/posts/ title=Posts>Blog</a>
+</li>
+<li class="mb-1 text-right sm:mb-0 sm:mr-7 sm:last:mr-0">
+<a class="hover:underline hover:underline-primary-500 hover:underline-thickness-bold hover:underline-offset-small" href=/prints/ title=Prints>Prints</a>
+</li>
+</ul>
+</nav>
+</header>
+<main class=flex-grow>
+<article class=max-w-prose>
+<header>
+<ol class="text-sm text-neutral-500 dark:text-neutral-400">
+<li class="inline hidden">
+<a class="hover:underline hover:underline-neutral-300 dark:underline-neutral-600" href=/>Nathan R. Yergler</a><span class="px-1 text-primary-500">/</span>
+</li>
+<li class=inline>
+<a class="hover:underline hover:underline-neutral-300 dark:underline-neutral-600" href=/posts/>Posts</a><span class="px-1 text-primary-500">/</span>
+</li>
+<li class="inline hidden">
+<a class="hover:underline hover:underline-neutral-300 dark:underline-neutral-600" href=/2019/11/11/using-ecr-images-with-elastic-beanstalk-and-codebuild/>Using ECR images with Elastic Beanstalk and CodeBuild</a><span class="px-1 text-primary-500">/</span>
+</li>
+</ol>
+<h1 class="mt-0 text-4xl font-extrabold text-neutral-900 dark:text-neutral">
+Using ECR images with Elastic Beanstalk and CodeBuild
+</h1>
+<div class="mt-8 mb-12 text-base text-neutral-500 dark:text-neutral-400">
+<div class="flex flex-row items-center">
+<time datetime="2019-11-11 17:11:11 +0000 UTC">11 November 2019</time>
+</div>
+</div>
+</header>
+<section class="prose dark:prose-light">
+<p>As I mentioned <a href=https://www.yergler.net/2019/10/17/continuous-integration-with-codebuild-and-codepipeline/>previously</a>, I’ve been using CodePipeline and CodeBuild for continuous integration and delivery on a new project. For the most part I’ve been happy with it, but ran into an issue last week that took some experimenting to figure out.</p>
+<p>In addition to CodePipeline and CodeBuild, we’re also using <a href=https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/Welcome.html>Elastic Beanstalk</a> for deploying our application. I first experimented with Elastic Beanstalk when it was released, and at the time it had quite a few opinions about how to build an application. When I took another look a few months ago, though, I found that it has grown up considerably. The default model is still dumping your code on an EC2 host and managing the autoscaling group, but it also supports deploying arbitrary Docker images — both single images and ECS clusters. The <a href=https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/eb-cli-codebuild.html>ability to use CodeBuild with Elastic Beanstalk</a> means you can utilize the same CI pipeline regardless of whether you’re deploying as the result of a web hook or as a one off from the command line.</p>
+<p>This was working great until we started using a custom Docker image, hosted in the Elastic Container Registry (ECR), for our CodeBuild jobs. When we moved to that image, one-off builds broke with an error indicating CodeBuild couldn’t pull the Docker image from ECR (“Perhaps you need to login?” The error message helpfully suggested. Yes, perhaps.) This was pretty confusing, since I was able to confirm that both one-off and pipeline builds were using the same IAM Role, which had permission to fetch images from ECR (and was working from the pipeline). The AWS documentation iterates <a href=https://docs.aws.amazon.com/codebuild/latest/userguide/sample-ecr.html>the permissions you need in order to use ECR with CodeBuild</a>, and indeed, that role had the proper permissions assigned.</p>
+<p>As I experimented, though, I discovered that the issue was not the CodeBuild role, but rather the <a href=https://docs.aws.amazon.com/AmazonECR/latest/userguide/security_iam_service-with-iam.html>ECR Repository Policy</a>. When executing CodeBuild as the result of <code>eb deploy</code>, the ECR repository must be configured to allow image pulls from the CodeBuild service. I suspect this is because <code>eb deploy</code> doesn’t execute as your existing CodeBuild project: it creates a new one with the source and output set to S3, runs the build, and tears it down after collecting the artifacts.</p>
+<p>I was able to apply the policy with the following Terraform fragment:</p>
+<pre><code>data &quot;aws_iam_policy_document&quot; &quot;ecr_policy&quot; {
+  statement {
+    sid    = &quot;CodebuildPullPolicy&quot;
+    effect = &quot;Allow&quot;
+    actions = [
+      &quot;ecr:GetDownloadUrlForLayer&quot;,
+      &quot;ecr:BatchGetImage&quot;,
+      &quot;ecr:BatchCheckLayerAvailability&quot;,
+    ]
+
+    principals {
+      type = &quot;Service&quot;
+      identifiers = [
+        &quot;codebuild.amazonaws.com&quot;,
+      ]
+    }
+  }
+}
+
+resource &quot;aws_ecr_repository_policy&quot; &quot;build&quot; {
+  repository = &quot;${aws_ecr_repository.build.name}&quot; # the name of your ECR repository
+  policy = &quot;${data.aws_iam_policy_document.ecr_policy.json}&quot;
+}
+</code></pre>
+<p>Once this was applied, Pipeline and command line builds both were able to pull the image.</p>
+</section>
+<footer class=pt-8>
+<div class="pt-8 article-pagination">
+<hr class="border-dotted border-neutral-300 dark:border-neutral-600">
+<div class="flex justify-between pt-3">
+<span>
+<a class=flex href=/2019/12/06/>
+<span class="mr-3 article-pagination-direction">&larr;</span>
+<span class="flex flex-col">
+<span class="article-pagination-title mt-[0.1rem] leading-6">
+6 December 2019</span>
+<span class="mt-[0.1rem] text-xs text-neutral-400 dark:text-neutral-500">
+</span>
+</span>
+</a>
+</span>
+<span>
+<a class="flex text-right" href=/2019/10/17/continuous-integration-with-codebuild-and-codepipeline/>
+<span class="flex flex-col">
+<span class="article-pagination-title mt-[0.1rem] leading-6">Continuous Integration with CodeBuild and CodePipeline</span>
+<span class="mt-[0.1rem] text-xs text-neutral-400 dark:text-neutral-500">
+<time datetime="2019-10-17 15:08:36 +0000 UTC">17 October 2019</time>
+</span>
+</span>
+<span class="ml-3 article-pagination-direction">&rarr;</span>
+</a>
+</span>
+</div>
+</div>
+</footer>
+</article>
+</main><footer class=py-10>
+<nav class="pb-4 text-base font-medium text-neutral-500 dark:text-neutral-400">
+<ul class="flex flex-col list-none sm:flex-row">
+<li class="mb-1 sm:mb-0 sm:mr-7 sm:last:mr-0">
+<a class="hover:underline hover:underline-primary-500 hover:underline-thickness-bold hover:underline-offset-small" href=/tags/ title=Tags>Tags</a>
+</li>
+<li class="mb-1 sm:mb-0 sm:mr-7 sm:last:mr-0">
+<a class="hover:underline hover:underline-primary-500 hover:underline-thickness-bold hover:underline-offset-small" href=/categories/ title=Categories>Categories</a>
+</li>
+</ul>
+</nav>
+<div class="flex justify-between">
+<div>
+<p class="text-sm text-neutral-500 dark:text-neutral-400">
+&copy;
+2022
+Nathan Yergler
+</p>
+</div>
+</div>
+</footer>
+</body>
+</html>

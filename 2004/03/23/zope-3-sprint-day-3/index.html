@@ -1,0 +1,130 @@
+<!doctype html><html lang=en><head>
+<meta charset=utf-8>
+<meta http-equiv=content-language content="en">
+<meta name=viewport content="width=device-width,initial-scale=1">
+<meta http-equiv=x-ua-compatible content="ie=edge">
+<title>Zope 3 Sprint, Day 3 &#183; Nathan R. Yergler</title>
+<meta name=title content="Zope 3 Sprint, Day 3 &#183; Nathan R. Yergler">
+<meta name=description content>
+<link rel=canonical href=https://nyergler.github.io/2004/03/23/zope-3-sprint-day-3/>
+<link type=text/css rel=stylesheet href=/css/schemes/ocean.min.ff17c50528c7a4a8a8bb8ec41272d63eb936ecefb9ccfa6db45cd1f5cd8b1becf8606745f751ee0d322ac80c9cb96e58aa699b38aa44cff9d2a8b3ff4f05a7b5.css integrity="sha512-/xfFBSjHpKiou47EEnLWPrk27O+5zPpttFzR9c2LG+z4YGdF91HuDTIqyAycuW5YqmmbOKpEz/nSqLP/TwWntQ==">
+<link type=text/css rel=stylesheet href=/css/compiled/main.min.84c4218572228cacf6182dc59fe08b5e1bcd599bb583bc56976aa0070f4cd8a4ff130ee2313074359bf6dba03b211e8c50df743d84ad551575fd0b9f849ec802.css integrity="sha512-hMQhhXIijKz2GC3Fn+CLXhvNWZu1g7xWl2qgBw9M2KT/Ew7iMTB0NZv226A7IR6MUN90PYStVRV1/QufhJ7IAg==">
+<script>function loadPreferredAppearance(){localStorage.preferredAppearance==="dark"||!("preferredAppearance"in localStorage)&&window.matchMedia("(prefers-color-scheme: dark)").matches?document.documentElement.classList.add("dark"):document.documentElement.classList.remove("dark")}function setPreferredAppearance(a){a=="default"?localStorage.removeItem("preferredAppearance"):localStorage.preferredAppearance=a,loadPreferredAppearance()}loadPreferredAppearance(),window.matchMedia("(prefers-color-scheme: dark)").addListener(loadPreferredAppearance)</script>
+<link rel=apple-touch-icon sizes=180x180 href=/apple-touch-icon.png>
+<link rel=icon type=image/png sizes=32x32 href=/favicon-32x32.png>
+<link rel=icon type=image/png sizes=16x16 href=/favicon-16x16.png>
+<link rel=manifest href=/site.webmanifest>
+<meta property="og:title" content="Zope 3 Sprint, Day 3">
+<meta property="og:description" content="Today was the final day of the Zope 3 sprint, and overall I’d call it a success.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://nyergler.github.io/2004/03/23/zope-3-sprint-day-3/"><meta property="article:section" content="posts">
+<meta property="article:published_time" content="2004-03-23T21:10:31+00:00">
+<meta property="article:modified_time" content="2004-03-23T21:10:31+00:00">
+<meta name=twitter:card content="summary">
+<meta name=twitter:title content="Zope 3 Sprint, Day 3">
+<meta name=twitter:description content="Today was the final day of the Zope 3 sprint, and overall I’d call it a success.">
+<script type=application/ld+json>{"@context":"https://schema.org","@type":"BlogPosting","articleSection":"Posts","name":"Zope 3 Sprint, Day 3","headline":"Zope 3 Sprint, Day 3","description":"Today was the final day of the Zope 3 sprint, and overall I’d call it a success.","inLanguage":"en","author":{"@type":"Person","name":"Nathan Yergler"},"creator":{"@type":"Person","name":"Nathan Yergler"},"copyrightHolder":"Nathan Yergler","copyrightYear":"2004","dateCreated":"2004-03-23T21:10:31\u002b00:00","datePublished":"2004-03-23T21:10:31\u002b00:00","dateModified":"2004-03-23T21:10:31\u002b00:00","url":"https:\/\/nyergler.github.io\/2004\/03\/23\/zope-3-sprint-day-3\/","wordCount":"410","keywords":[]}</script>
+<meta name=author content="Nathan Yergler">
+<link href=https://github.com/nyergler rel=me>
+<link href=https://instagram.com/nyergler rel=me>
+</head>
+<body class="flex flex-col h-screen px-6 m-auto text-lg leading-7 bg-neutral text-neutral-900 sm:px-14 md:px-24 lg:px-32 dark:bg-neutral-800 dark:text-neutral max-w-7xl"><header class="flex justify-between py-6 font-semibold sm:items-center sm:py-10 text-neutral-900 dark:text-neutral">
+<div>
+<a class="hover:underline hover:underline-primary-500 hover:underline-thickness-bold hover:underline-offset-small" rel=me href=/>Nathan R. Yergler</a>
+</div>
+<nav>
+<ul class="flex flex-col list-none sm:flex-row">
+<li class="mb-1 text-right sm:mb-0 sm:mr-7 sm:last:mr-0">
+<a class="hover:underline hover:underline-primary-500 hover:underline-thickness-bold hover:underline-offset-small" href=/about/ title="Oh hai.">Bio</a>
+</li>
+<li class="mb-1 text-right sm:mb-0 sm:mr-7 sm:last:mr-0">
+<a class="hover:underline hover:underline-primary-500 hover:underline-thickness-bold hover:underline-offset-small" href=/posts/ title=Posts>Blog</a>
+</li>
+<li class="mb-1 text-right sm:mb-0 sm:mr-7 sm:last:mr-0">
+<a class="hover:underline hover:underline-primary-500 hover:underline-thickness-bold hover:underline-offset-small" href=/prints/ title=Prints>Prints</a>
+</li>
+</ul>
+</nav>
+</header>
+<main class=flex-grow>
+<article class=max-w-prose>
+<header>
+<ol class="text-sm text-neutral-500 dark:text-neutral-400">
+<li class="inline hidden">
+<a class="hover:underline hover:underline-neutral-300 dark:underline-neutral-600" href=/>Nathan R. Yergler</a><span class="px-1 text-primary-500">/</span>
+</li>
+<li class=inline>
+<a class="hover:underline hover:underline-neutral-300 dark:underline-neutral-600" href=/posts/>Posts</a><span class="px-1 text-primary-500">/</span>
+</li>
+<li class="inline hidden">
+<a class="hover:underline hover:underline-neutral-300 dark:underline-neutral-600" href=/2004/03/23/zope-3-sprint-day-3/>Zope 3 Sprint, Day 3</a><span class="px-1 text-primary-500">/</span>
+</li>
+</ol>
+<h1 class="mt-0 text-4xl font-extrabold text-neutral-900 dark:text-neutral">
+Zope 3 Sprint, Day 3
+</h1>
+<div class="mt-8 mb-12 text-base text-neutral-500 dark:text-neutral-400">
+<div class="flex flex-row items-center">
+<time datetime="2004-03-23 21:10:31 +0000 UTC">23 March 2004</time>
+</div>
+</div>
+</header>
+<section class="prose dark:prose-light">
+<p>Today was the final day of the Zope 3 sprint, and overall I’d call it a success. We started the day finishing up the implementation of <a href=http://dev.zope.org/Wikis/DevSite/Projects/ComponentArchitecture/InstanceAndTypeBasedSubscriptions>type-based subscriptions</a> we started <a href=http://www.yergler.net/averages/archives/2004/03/23/zope_3_sprint_day_2>yesterday</a> . It’s amazing what a little distance can do: we came back, merged the work our two teams did yesterday and were able to write tests and commit the remainder of the task before lunch.</p>
+<p>After lunch we began work on the second half of the proposal, instance event subscriptions. While we made quite a bit of progress, a few details in how to register the events kept us from merging the branch back to the <span class=caps>HEAD</span> of Zope 3 before the end of the day. Jim spent a bit of his time explaining the motivation behind the proposal and what he envisioned as the implementation details. Jim is an excellent teacher, but I’ll admit my head was swimming a bit when we returned from lunch and began work. As Jim guided me through the implementation of a Zope3 Adapter, it was as if the clouds parted and the geeky sun shone down on me. All I could think was “this is too damn easy to actually work.” As Mark pointed out to me yesterday, that feeling is the sign of a well designed framework.</p>
+<p>What was most exciting for me today was hearing about what’s coming yet in the Zope 3 event architecture. Currently events can be published or registered, and “listened” for. So you can receive notification that Object A has been deleted, but you can’t do anything to stop it. A proposed improvment to this is the implementation of “TentativeSubscribers”, objects which want to know about “tentative” events. Objects subscribing to tentative events can decide if they have issues with the event occuring and either veto it or return some issue(s) for the software to resolve before going ahead with the event. While still completely in the talking phase, this sort of framework would allow for powerful and rich semantics to be developed into software. An example from Stoa: student A is scheduled for Art 2nd period; when you try to schedule the student for Biology 1st period, you’re told that Biology is a double period class, and as such you’ll need to remove Art from the 2nd period schedule; is that <span class=caps>OK</span>? Now checking like this is presently possible, but the Zope 3 framework will allow it to be implemented much more directly and cleanly.</p>
+</section>
+<footer class=pt-8>
+<div class="pt-8 article-pagination">
+<hr class="border-dotted border-neutral-300 dark:border-neutral-600">
+<div class="flex justify-between pt-3">
+<span>
+<a class=flex href=/2004/03/24/pycon-day-1/>
+<span class="mr-3 article-pagination-direction">&larr;</span>
+<span class="flex flex-col">
+<span class="article-pagination-title mt-[0.1rem] leading-6">
+PyCon Day 1</span>
+<span class="mt-[0.1rem] text-xs text-neutral-400 dark:text-neutral-500">
+<time datetime="2004-03-24 15:57:53 +0000 UTC">24 March 2004</time>
+</span>
+</span>
+</a>
+</span>
+<span>
+<a class="flex text-right" href=/2004/03/23/zope-3-sprint-day-2/>
+<span class="flex flex-col">
+<span class="article-pagination-title mt-[0.1rem] leading-6">Zope 3 Sprint, Day 2</span>
+<span class="mt-[0.1rem] text-xs text-neutral-400 dark:text-neutral-500">
+<time datetime="2004-03-23 09:12:52 +0000 UTC">23 March 2004</time>
+</span>
+</span>
+<span class="ml-3 article-pagination-direction">&rarr;</span>
+</a>
+</span>
+</div>
+</div>
+</footer>
+</article>
+</main><footer class=py-10>
+<nav class="pb-4 text-base font-medium text-neutral-500 dark:text-neutral-400">
+<ul class="flex flex-col list-none sm:flex-row">
+<li class="mb-1 sm:mb-0 sm:mr-7 sm:last:mr-0">
+<a class="hover:underline hover:underline-primary-500 hover:underline-thickness-bold hover:underline-offset-small" href=/tags/ title=Tags>Tags</a>
+</li>
+<li class="mb-1 sm:mb-0 sm:mr-7 sm:last:mr-0">
+<a class="hover:underline hover:underline-primary-500 hover:underline-thickness-bold hover:underline-offset-small" href=/categories/ title=Categories>Categories</a>
+</li>
+</ul>
+</nav>
+<div class="flex justify-between">
+<div>
+<p class="text-sm text-neutral-500 dark:text-neutral-400">
+&copy;
+2022
+Nathan Yergler
+</p>
+</div>
+</div>
+</footer>
+</body>
+</html>

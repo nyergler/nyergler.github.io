@@ -1,0 +1,136 @@
+<!doctype html><html lang=en><head>
+<meta charset=utf-8>
+<meta http-equiv=content-language content="en">
+<meta name=viewport content="width=device-width,initial-scale=1">
+<meta http-equiv=x-ua-compatible content="ie=edge">
+<title>Zope Sprint Reflections &#183; Nathan R. Yergler</title>
+<meta name=title content="Zope Sprint Reflections &#183; Nathan R. Yergler">
+<meta name=description content>
+<link rel=canonical href=https://nyergler.github.io/2006/03/07/zope-sprint-reflections/>
+<link type=text/css rel=stylesheet href=/css/schemes/ocean.min.ff17c50528c7a4a8a8bb8ec41272d63eb936ecefb9ccfa6db45cd1f5cd8b1becf8606745f751ee0d322ac80c9cb96e58aa699b38aa44cff9d2a8b3ff4f05a7b5.css integrity="sha512-/xfFBSjHpKiou47EEnLWPrk27O+5zPpttFzR9c2LG+z4YGdF91HuDTIqyAycuW5YqmmbOKpEz/nSqLP/TwWntQ==">
+<link type=text/css rel=stylesheet href=/css/compiled/main.min.84c4218572228cacf6182dc59fe08b5e1bcd599bb583bc56976aa0070f4cd8a4ff130ee2313074359bf6dba03b211e8c50df743d84ad551575fd0b9f849ec802.css integrity="sha512-hMQhhXIijKz2GC3Fn+CLXhvNWZu1g7xWl2qgBw9M2KT/Ew7iMTB0NZv226A7IR6MUN90PYStVRV1/QufhJ7IAg==">
+<script>function loadPreferredAppearance(){localStorage.preferredAppearance==="dark"||!("preferredAppearance"in localStorage)&&window.matchMedia("(prefers-color-scheme: dark)").matches?document.documentElement.classList.add("dark"):document.documentElement.classList.remove("dark")}function setPreferredAppearance(a){a=="default"?localStorage.removeItem("preferredAppearance"):localStorage.preferredAppearance=a,loadPreferredAppearance()}loadPreferredAppearance(),window.matchMedia("(prefers-color-scheme: dark)").addListener(loadPreferredAppearance)</script>
+<link rel=apple-touch-icon sizes=180x180 href=/apple-touch-icon.png>
+<link rel=icon type=image/png sizes=32x32 href=/favicon-32x32.png>
+<link rel=icon type=image/png sizes=16x16 href=/favicon-16x16.png>
+<link rel=manifest href=/site.webmanifest>
+<meta property="og:title" content="Zope Sprint Reflections">
+<meta property="og:description" content="So I’m more than a little behind on my PyCon wrap up posts, so I’ll start at the end, with the Zope Sprint.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://nyergler.github.io/2006/03/07/zope-sprint-reflections/"><meta property="article:section" content="posts">
+<meta property="article:published_time" content="2006-03-07T08:18:23+00:00">
+<meta property="article:modified_time" content="2006-03-07T08:18:23+00:00">
+<meta name=twitter:card content="summary">
+<meta name=twitter:title content="Zope Sprint Reflections">
+<meta name=twitter:description content="So I’m more than a little behind on my PyCon wrap up posts, so I’ll start at the end, with the Zope Sprint.">
+<script type=application/ld+json>{"@context":"https://schema.org","@type":"BlogPosting","articleSection":"Posts","name":"Zope Sprint Reflections","headline":"Zope Sprint Reflections","description":"So I’m more than a little behind on my PyCon wrap up posts, so I’ll start at the end, with the Zope Sprint.","inLanguage":"en","author":{"@type":"Person","name":"Nathan Yergler"},"creator":{"@type":"Person","name":"Nathan Yergler"},"copyrightHolder":"Nathan Yergler","copyrightYear":"2006","dateCreated":"2006-03-07T08:18:23\u002b00:00","datePublished":"2006-03-07T08:18:23\u002b00:00","dateModified":"2006-03-07T08:18:23\u002b00:00","url":"https:\/\/nyergler.github.io\/2006\/03\/07\/zope-sprint-reflections\/","wordCount":"806","keywords":[]}</script>
+<meta name=author content="Nathan Yergler">
+<link href=https://github.com/nyergler rel=me>
+<link href=https://instagram.com/nyergler rel=me>
+</head>
+<body class="flex flex-col h-screen px-6 m-auto text-lg leading-7 bg-neutral text-neutral-900 sm:px-14 md:px-24 lg:px-32 dark:bg-neutral-800 dark:text-neutral max-w-7xl"><header class="flex justify-between py-6 font-semibold sm:items-center sm:py-10 text-neutral-900 dark:text-neutral">
+<div>
+<a class="hover:underline hover:underline-primary-500 hover:underline-thickness-bold hover:underline-offset-small" rel=me href=/>Nathan R. Yergler</a>
+</div>
+<nav>
+<ul class="flex flex-col list-none sm:flex-row">
+<li class="mb-1 text-right sm:mb-0 sm:mr-7 sm:last:mr-0">
+<a class="hover:underline hover:underline-primary-500 hover:underline-thickness-bold hover:underline-offset-small" href=/about/ title="Oh hai.">Bio</a>
+</li>
+<li class="mb-1 text-right sm:mb-0 sm:mr-7 sm:last:mr-0">
+<a class="hover:underline hover:underline-primary-500 hover:underline-thickness-bold hover:underline-offset-small" href=/posts/ title=Posts>Blog</a>
+</li>
+<li class="mb-1 text-right sm:mb-0 sm:mr-7 sm:last:mr-0">
+<a class="hover:underline hover:underline-primary-500 hover:underline-thickness-bold hover:underline-offset-small" href=/prints/ title=Prints>Prints</a>
+</li>
+</ul>
+</nav>
+</header>
+<main class=flex-grow>
+<article class=max-w-prose>
+<header>
+<ol class="text-sm text-neutral-500 dark:text-neutral-400">
+<li class="inline hidden">
+<a class="hover:underline hover:underline-neutral-300 dark:underline-neutral-600" href=/>Nathan R. Yergler</a><span class="px-1 text-primary-500">/</span>
+</li>
+<li class=inline>
+<a class="hover:underline hover:underline-neutral-300 dark:underline-neutral-600" href=/posts/>Posts</a><span class="px-1 text-primary-500">/</span>
+</li>
+<li class="inline hidden">
+<a class="hover:underline hover:underline-neutral-300 dark:underline-neutral-600" href=/2006/03/07/zope-sprint-reflections/>Zope Sprint Reflections</a><span class="px-1 text-primary-500">/</span>
+</li>
+</ol>
+<h1 class="mt-0 text-4xl font-extrabold text-neutral-900 dark:text-neutral">
+Zope Sprint Reflections
+</h1>
+<div class="mt-8 mb-12 text-base text-neutral-500 dark:text-neutral-400">
+<div class="flex flex-row items-center">
+<time datetime="2006-03-07 08:18:23 +0000 UTC">7 March 2006</time>
+</div>
+</div>
+</header>
+<section class="prose dark:prose-light">
+<p>So I’m more than a little behind on my PyCon wrap up posts, so I’ll start at the end, with the Zope Sprint. This year the sprints moved from pre-conference to post-conference, the idea being that people might have ideas during the conference that they would want to work on at the sprints. I’m not sure that happened, although things said during the conference did spark my interest in certain areas that I was able to work on tangentially during the sprint, so in that respect, I suppose the move was successful. I’m not sure if this was the first year that the sprints were 4 days instead of 2 — I didn’t participate last year, so that change may be two years old. I like it. It really can take 2 days to do enough experimenting to start getting useful things done.</p>
+<p>This year (as in the past, save last year), I participated in the Zope sprint. Specifically I was working with the <a href=http://dev.zope.org/Zope3>Zope 3</a> project, as we’re using bits and pieces of it in <a href=http://wiki.creativecommons.org/CcPublisher>ccPublisher 2</a> . I spent the 4 days of the sprint working with <a href=http://peak.telecommunity.com/DevCenter/PythonEggs>Python Eggs</a> and <a href=http://peak.telecommunity.com/DevCenter/setuptools>Setuptools</a> . Eggs are like Java <span class=caps>JAR</span> files, only better — they encapsulate dependency information as well as code. So my task, along with Paul Winkler and others, was to experiment with how Zope 3 could use eggs for packaging and distribution. The idea is sort of two fold: first, lots of pieces of Zope 3 are usable with the “zope” piece — the application server — so it would be good to have an easy way for people to use those pieces easily. The second idea was that because Zope 3 is so flexible, you often don’t need all the different pieces it provides. Maybe you don’t need persistance support (this is probably a bad example, but nothing better comes to mind), so there’s no point in installing and loading it into memory. Since eggs encapsulate dependency information, it’d be nice to be able to do a minimal install, and then use some tool to install additional functionality as you needed it.</p>
+<p>Our initial work focused on writing a <tt class="docutils literal">setup.py</tt> for individual projects (zope.interface, zope.deprecation, zope.i18nmessageid) which knew about dependencies and could generate eggs. From there we went on to explore how developers might work on these individual projects. After some work, we came up with a story:</p>
+<blockquote>
+<p>A developer needs to work with Zope page templates. They start out by checking out the pagetemplates project from Zope Subversion onto their local computer. After checking out the project, they have a directory containing setup.py, a src directory, and other documentation. They run a [waving hands] developer script, which creates a local sandbox, and downloads all of zope.pagetemplate’s dependencies into it. These dependencies are downloaded from the <a href=http://cheeseshop.python.org/>Cheeseshop</a> or the <span class=caps>GZRITS</span>. After some work on page templates, a developer realizes they need to work on a dependency. So they check out that dependency into the same zope.pagetemplates working directory, and run it’s <tt class="docutils literal">setup.py develop</tt>. Develop is a <a href=http://www.python.org/doc/dist/>distutils</a> target provided by setuptools which gets the dependencies for a project, and also installs a special “link egg” into your local Python path. You do your work, run your tests, run the dependency tests, and when everything passes, you commit.
+And we generally got that story working. In fact, I think I did two implementations (it sort of runs together) — one as a standalone “develop.py” script, and the other as custom distutils commands. That was one of the unexpected benefits of the sprint: I now feel like I can confidently hack things I need into distutils without considering the entire process so much black magic.</p>
+</blockquote>
+<p>The last day of the sprint also was one of the most productive for me. Jim and I were discussing how to proceed with eggs, and decided that if it was easy, a tool that read zpkg dependency information and generated eggs would be a good transitional tool. So <a href=http://svn.zope.org/projectsupport/trunk/src/zpkgegg/>zpkgegg</a> was born. I did most of the work during that last day, and then worked on polishing it on the flight home and wrapped up on Saturday. I’m pretty pleased with the way it turned out, even if it is just a transitional tool.</p>
+<p>In my mind the sprint was well worth the time I spent there and the money <a href=http://creativecommons.org><span class=caps>CC</span></a> spent on me attending it. Zope 3 and Eggs are both technologies that are central to ccPublisher’s future: Zope 3 because it provides so much in the way of infrastructure, and Eggs because they’re the most logical choice for an extension packaging mechanism. And the knowledge gained at the sprint has already paid off — in about an hour yesterday I created a <a href=http://svn.berlios.de/wsvn/cctools/publisher/branches/huevos_rancheros/>branch of ccPublisher</a> and hacked it to use eggs instead of svn:externals for the Zope dependencies.</p>
+</section>
+<footer class=pt-8>
+<div class="pt-8 article-pagination">
+<hr class="border-dotted border-neutral-300 dark:border-neutral-600">
+<div class="flex justify-between pt-3">
+<span>
+<a class=flex href=/2006/03/07/pycon-day-3-winding-down/>
+<span class="mr-3 article-pagination-direction">&larr;</span>
+<span class="flex flex-col">
+<span class="article-pagination-title mt-[0.1rem] leading-6">
+PyCon Day 3: Winding Down</span>
+<span class="mt-[0.1rem] text-xs text-neutral-400 dark:text-neutral-500">
+<time datetime="2006-03-07 09:03:43 +0000 UTC">7 March 2006</time>
+</span>
+</span>
+</a>
+</span>
+<span>
+<a class="flex text-right" href=/2006/03/03/helping-myself/>
+<span class="flex flex-col">
+<span class="article-pagination-title mt-[0.1rem] leading-6">Helping Myself</span>
+<span class="mt-[0.1rem] text-xs text-neutral-400 dark:text-neutral-500">
+<time datetime="2006-03-03 08:34:33 +0000 UTC">3 March 2006</time>
+</span>
+</span>
+<span class="ml-3 article-pagination-direction">&rarr;</span>
+</a>
+</span>
+</div>
+</div>
+</footer>
+</article>
+</main><footer class=py-10>
+<nav class="pb-4 text-base font-medium text-neutral-500 dark:text-neutral-400">
+<ul class="flex flex-col list-none sm:flex-row">
+<li class="mb-1 sm:mb-0 sm:mr-7 sm:last:mr-0">
+<a class="hover:underline hover:underline-primary-500 hover:underline-thickness-bold hover:underline-offset-small" href=/tags/ title=Tags>Tags</a>
+</li>
+<li class="mb-1 sm:mb-0 sm:mr-7 sm:last:mr-0">
+<a class="hover:underline hover:underline-primary-500 hover:underline-thickness-bold hover:underline-offset-small" href=/categories/ title=Categories>Categories</a>
+</li>
+</ul>
+</nav>
+<div class="flex justify-between">
+<div>
+<p class="text-sm text-neutral-500 dark:text-neutral-400">
+&copy;
+2022
+Nathan Yergler
+</p>
+</div>
+</div>
+</footer>
+</body>
+</html>

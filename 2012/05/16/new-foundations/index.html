@@ -1,0 +1,147 @@
+<!doctype html><html lang=en><head>
+<meta charset=utf-8>
+<meta http-equiv=content-language content="en">
+<meta name=viewport content="width=device-width,initial-scale=1">
+<meta http-equiv=x-ua-compatible content="ie=edge">
+<title>New Foundations &#183; Nathan R. Yergler</title>
+<meta name=title content="New Foundations &#183; Nathan R. Yergler">
+<meta name=description content>
+<link rel=canonical href=https://nyergler.github.io/2012/05/16/new-foundations/>
+<link type=text/css rel=stylesheet href=/css/schemes/ocean.min.ff17c50528c7a4a8a8bb8ec41272d63eb936ecefb9ccfa6db45cd1f5cd8b1becf8606745f751ee0d322ac80c9cb96e58aa699b38aa44cff9d2a8b3ff4f05a7b5.css integrity="sha512-/xfFBSjHpKiou47EEnLWPrk27O+5zPpttFzR9c2LG+z4YGdF91HuDTIqyAycuW5YqmmbOKpEz/nSqLP/TwWntQ==">
+<link type=text/css rel=stylesheet href=/css/compiled/main.min.84c4218572228cacf6182dc59fe08b5e1bcd599bb583bc56976aa0070f4cd8a4ff130ee2313074359bf6dba03b211e8c50df743d84ad551575fd0b9f849ec802.css integrity="sha512-hMQhhXIijKz2GC3Fn+CLXhvNWZu1g7xWl2qgBw9M2KT/Ew7iMTB0NZv226A7IR6MUN90PYStVRV1/QufhJ7IAg==">
+<script>function loadPreferredAppearance(){localStorage.preferredAppearance==="dark"||!("preferredAppearance"in localStorage)&&window.matchMedia("(prefers-color-scheme: dark)").matches?document.documentElement.classList.add("dark"):document.documentElement.classList.remove("dark")}function setPreferredAppearance(a){a=="default"?localStorage.removeItem("preferredAppearance"):localStorage.preferredAppearance=a,loadPreferredAppearance()}loadPreferredAppearance(),window.matchMedia("(prefers-color-scheme: dark)").addListener(loadPreferredAppearance)</script>
+<link rel=apple-touch-icon sizes=180x180 href=/apple-touch-icon.png>
+<link rel=icon type=image/png sizes=32x32 href=/favicon-32x32.png>
+<link rel=icon type=image/png sizes=16x16 href=/favicon-16x16.png>
+<link rel=manifest href=/site.webmanifest>
+<meta property="og:title" content="New Foundations">
+<meta property="og:description" content="I’ve written a little about how I think about technical debt, and what it means to live with it.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://nyergler.github.io/2012/05/16/new-foundations/"><meta property="article:section" content="posts">
+<meta property="article:published_time" content="2012-05-16T23:13:57+00:00">
+<meta property="article:modified_time" content="2012-05-16T23:13:57+00:00">
+<meta name=twitter:card content="summary">
+<meta name=twitter:title content="New Foundations">
+<meta name=twitter:description content="I’ve written a little about how I think about technical debt, and what it means to live with it.">
+<script type=application/ld+json>{"@context":"https://schema.org","@type":"BlogPosting","articleSection":"Posts","name":"New Foundations","headline":"New Foundations","description":"I’ve written a little about how I think about technical debt, and what it means to live with it.","inLanguage":"en","author":{"@type":"Person","name":"Nathan Yergler"},"creator":{"@type":"Person","name":"Nathan Yergler"},"copyrightHolder":"Nathan Yergler","copyrightYear":"2012","dateCreated":"2012-05-16T23:13:57\u002b00:00","datePublished":"2012-05-16T23:13:57\u002b00:00","dateModified":"2012-05-16T23:13:57\u002b00:00","url":"https:\/\/nyergler.github.io\/2012\/05\/16\/new-foundations\/","wordCount":"842","keywords":[]}</script>
+<meta name=author content="Nathan Yergler">
+<link href=https://github.com/nyergler rel=me>
+<link href=https://instagram.com/nyergler rel=me>
+</head>
+<body class="flex flex-col h-screen px-6 m-auto text-lg leading-7 bg-neutral text-neutral-900 sm:px-14 md:px-24 lg:px-32 dark:bg-neutral-800 dark:text-neutral max-w-7xl"><header class="flex justify-between py-6 font-semibold sm:items-center sm:py-10 text-neutral-900 dark:text-neutral">
+<div>
+<a class="hover:underline hover:underline-primary-500 hover:underline-thickness-bold hover:underline-offset-small" rel=me href=/>Nathan R. Yergler</a>
+</div>
+<nav>
+<ul class="flex flex-col list-none sm:flex-row">
+<li class="mb-1 text-right sm:mb-0 sm:mr-7 sm:last:mr-0">
+<a class="hover:underline hover:underline-primary-500 hover:underline-thickness-bold hover:underline-offset-small" href=/about/ title="Oh hai.">Bio</a>
+</li>
+<li class="mb-1 text-right sm:mb-0 sm:mr-7 sm:last:mr-0">
+<a class="hover:underline hover:underline-primary-500 hover:underline-thickness-bold hover:underline-offset-small" href=/posts/ title=Posts>Blog</a>
+</li>
+<li class="mb-1 text-right sm:mb-0 sm:mr-7 sm:last:mr-0">
+<a class="hover:underline hover:underline-primary-500 hover:underline-thickness-bold hover:underline-offset-small" href=/prints/ title=Prints>Prints</a>
+</li>
+</ul>
+</nav>
+</header>
+<main class=flex-grow>
+<article class=max-w-prose>
+<header>
+<ol class="text-sm text-neutral-500 dark:text-neutral-400">
+<li class="inline hidden">
+<a class="hover:underline hover:underline-neutral-300 dark:underline-neutral-600" href=/>Nathan R. Yergler</a><span class="px-1 text-primary-500">/</span>
+</li>
+<li class=inline>
+<a class="hover:underline hover:underline-neutral-300 dark:underline-neutral-600" href=/posts/>Posts</a><span class="px-1 text-primary-500">/</span>
+</li>
+<li class="inline hidden">
+<a class="hover:underline hover:underline-neutral-300 dark:underline-neutral-600" href=/2012/05/16/new-foundations/>New Foundations</a><span class="px-1 text-primary-500">/</span>
+</li>
+</ol>
+<h1 class="mt-0 text-4xl font-extrabold text-neutral-900 dark:text-neutral">
+New Foundations
+</h1>
+<div class="mt-8 mb-12 text-base text-neutral-500 dark:text-neutral-400">
+<div class="flex flex-row items-center">
+<time datetime="2012-05-16 23:13:57 +0000 UTC">16 May 2012</time>
+</div>
+</div>
+</header>
+<section class="prose dark:prose-light">
+<p>I’ve written a little about how I think about technical debt, and what it means to live with it. I want to talk about some technical debt at Creative Commons, and how we handled it the wrong way. A project we thought would take a couple months stretched into years, and in the end never fulfilled the promise we thought it had. And it was supposed to be a straight-forward project.</p>
+<p>One of the things people don’t always know about Creative Commons is that there was a large technical component undergirding the licenses. Every license was prepared for three audiences (in talks, this is where I call them disjoint, in a lame attempt at humor): humans (the license “deed”), lawyers (the legal text), and machines. The output for machines was an <span class=caps>RDF</span> model of the license: it’s permissions, requirements, and prohibitions. In 2008 we had a technical all hands meeting where the tech team came to the San Francisco office for a week. At that time porting (preparing a license for a new legal jurisdiction and translating the web tools) was in full swing, and as we talked about what the pain points were, launching these new jurisdictions came up as a major source of pain. As we started drawing the model of how things worked on the site, I arrived at the following diagram.</p>
+<div class=figure>
+<img alt src=http://farm3.staticflickr.com/2297/2347987536_5515b1f963.jpg>
+<p class=caption>
+<a class="reference external" href=http://www.flickr.com/photos/nathan_y/2347987536/>The Present</a>
+</p>
+</div>
+<p>We had at least three different “products” — the license chooser, the <span class=caps>API</span> for 3rd parties, and the prepared licenses (deeds and <span class=caps>RDF</span>). And for hysterical and historical reasons, they didn’t really use the same information. Well, they did at a certain level: they all used the same translation files, but after that all bets were off. We had the “questions” used for selecting a license modeled as an <span class=caps>XSLT</span> transformation (why? don’t remember; wish I knew what we were thinking when we did that), but the transformation needed to have localized content, so we would generate a new <span class=caps>XSLT</span> document from a <span class=caps>ZPT</span> template (yes, really) when we updated the translations. The license <span class=caps>RDF</span> was stored as static files for performance, but there was increasing pressure to provide localized data there, too, which was going to cause a world of hurt. And the chooser had a thin wrapper, cc.license, around the <span class=caps>XSLT</span>. Except when it went directly to the <span class=caps>XSLT</span> for special cases.</p>
+<p>If you look in the upper right hand corner, you’ll see something labeled “cc.licenze”. This was a prototype library I had written when adding support for <span class=caps>CC0</span> to the site. The idea was this: We claim that the <span class=caps>RDF</span> is the technical model for our legal tools. If that’s true, can we put enough information in it to drive the entire process, and have a single source of information? After launching <span class=caps>CC0</span>, signs pointed to yes. We set out to build a glorious future.</p>
+<div class=figure>
+<img alt src=http://farm4.staticflickr.com/3267/2347986388_dd1c466a5e.jpg>
+<p class=caption>
+<a class="reference external" href=http://www.flickr.com/photos/nathan_y/2347986388/>The Glorious Future</a>
+</p>
+</div>
+<p>We’d build a single wrapper around our <span class=caps>RDF</span> and use it everywhere. We’d update one thing when we launched a new jurisdiction, and all the changes would flow to all parts of the site. It sounded amazing. The thing is, we were talking about moving our core infrastructure — our house — to a new foundation, but that foundation wasn’t built yet. We hadn’t really even figured out if it’d support the house or not.</p>
+<p>Undeterred, an engineer set out to start building out “cc.licenze”, filling in the gaps I’d left to make it do all the things that licenses need that <span class=caps>CC0</span> does not. And he got most of the work done, and then he left. So the work languished while we focused on continuing to ship new jurisdictions and do everything an understaffed technical team has to deal with.</p>
+<p>The problem isn’t that we wanted to improve our underlying infrastructure, or that we wanted a coherent and consistent model. Those are the right goals. The problem was trying to build an entirely new foundation, with similar but not exactly the same APIs as the original one, and thinking we were going to slip it in. Starting this project today, I’d look at the three ways we were doing things, find the one that had the least debt, and rebase the other services/products onto it. By choosing one currently in use, any improvements made (either by rebasing or fixing bugs) would show immediate benefit. There’s immediate, tangible benefit to going from three ways to do something to two, and from two to one. Once everything uses the same foundation, there’s only one thing to rebuild and replace, not three, and we probably have a better idea about <strong>everything</strong> it needs to do.</p>
+<p>To successfully live with technical debt, this is the sort of maneuver you often have to use. I think of this as Lateral Refactoring: you’re not refactoring to the <span class=caps>API</span>/design you want to wind up with, you’re tacking along an orthogonal axis until you’re at the point where you can start moving forward again. By doing this you can realize some benefit sooner, and continue shipping new features and bug fixes.</p>
+</section>
+<footer class=pt-8>
+<div class="pt-8 article-pagination">
+<hr class="border-dotted border-neutral-300 dark:border-neutral-600">
+<div class="flex justify-between pt-3">
+<span>
+<a class=flex href=/2012/05/22/advice-for-the-new-guy/>
+<span class="mr-3 article-pagination-direction">&larr;</span>
+<span class="flex flex-col">
+<span class="article-pagination-title mt-[0.1rem] leading-6">
+Advice for the New Guy</span>
+<span class="mt-[0.1rem] text-xs text-neutral-400 dark:text-neutral-500">
+<time datetime="2012-05-22 18:10:20 +0000 UTC">22 May 2012</time>
+</span>
+</span>
+</a>
+</span>
+<span>
+<a class="flex text-right" href=/2012/05/15/living-with-it/>
+<span class="flex flex-col">
+<span class="article-pagination-title mt-[0.1rem] leading-6">Living With It</span>
+<span class="mt-[0.1rem] text-xs text-neutral-400 dark:text-neutral-500">
+<time datetime="2012-05-15 21:32:00 +0000 UTC">15 May 2012</time>
+</span>
+</span>
+<span class="ml-3 article-pagination-direction">&rarr;</span>
+</a>
+</span>
+</div>
+</div>
+</footer>
+</article>
+</main><footer class=py-10>
+<nav class="pb-4 text-base font-medium text-neutral-500 dark:text-neutral-400">
+<ul class="flex flex-col list-none sm:flex-row">
+<li class="mb-1 sm:mb-0 sm:mr-7 sm:last:mr-0">
+<a class="hover:underline hover:underline-primary-500 hover:underline-thickness-bold hover:underline-offset-small" href=/tags/ title=Tags>Tags</a>
+</li>
+<li class="mb-1 sm:mb-0 sm:mr-7 sm:last:mr-0">
+<a class="hover:underline hover:underline-primary-500 hover:underline-thickness-bold hover:underline-offset-small" href=/categories/ title=Categories>Categories</a>
+</li>
+</ul>
+</nav>
+<div class="flex justify-between">
+<div>
+<p class="text-sm text-neutral-500 dark:text-neutral-400">
+&copy;
+2022
+Nathan Yergler
+</p>
+</div>
+</div>
+</footer>
+</body>
+</html>

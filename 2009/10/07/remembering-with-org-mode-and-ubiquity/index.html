@@ -1,0 +1,137 @@
+<!doctype html><html lang=en><head>
+<meta charset=utf-8>
+<meta http-equiv=content-language content="en">
+<meta name=viewport content="width=device-width,initial-scale=1">
+<meta http-equiv=x-ua-compatible content="ie=edge">
+<title>Remembering with org-mode and Ubiquity &#183; Nathan R. Yergler</title>
+<meta name=title content="Remembering with org-mode and Ubiquity &#183; Nathan R. Yergler">
+<meta name=description content>
+<link rel=canonical href=https://nyergler.github.io/2009/10/07/remembering-with-org-mode-and-ubiquity/>
+<link type=text/css rel=stylesheet href=/css/schemes/ocean.min.ff17c50528c7a4a8a8bb8ec41272d63eb936ecefb9ccfa6db45cd1f5cd8b1becf8606745f751ee0d322ac80c9cb96e58aa699b38aa44cff9d2a8b3ff4f05a7b5.css integrity="sha512-/xfFBSjHpKiou47EEnLWPrk27O+5zPpttFzR9c2LG+z4YGdF91HuDTIqyAycuW5YqmmbOKpEz/nSqLP/TwWntQ==">
+<link type=text/css rel=stylesheet href=/css/compiled/main.min.84c4218572228cacf6182dc59fe08b5e1bcd599bb583bc56976aa0070f4cd8a4ff130ee2313074359bf6dba03b211e8c50df743d84ad551575fd0b9f849ec802.css integrity="sha512-hMQhhXIijKz2GC3Fn+CLXhvNWZu1g7xWl2qgBw9M2KT/Ew7iMTB0NZv226A7IR6MUN90PYStVRV1/QufhJ7IAg==">
+<script>function loadPreferredAppearance(){localStorage.preferredAppearance==="dark"||!("preferredAppearance"in localStorage)&&window.matchMedia("(prefers-color-scheme: dark)").matches?document.documentElement.classList.add("dark"):document.documentElement.classList.remove("dark")}function setPreferredAppearance(a){a=="default"?localStorage.removeItem("preferredAppearance"):localStorage.preferredAppearance=a,loadPreferredAppearance()}loadPreferredAppearance(),window.matchMedia("(prefers-color-scheme: dark)").addListener(loadPreferredAppearance)</script>
+<link rel=apple-touch-icon sizes=180x180 href=/apple-touch-icon.png>
+<link rel=icon type=image/png sizes=32x32 href=/favicon-32x32.png>
+<link rel=icon type=image/png sizes=16x16 href=/favicon-16x16.png>
+<link rel=manifest href=/site.webmanifest>
+<meta property="og:title" content="Remembering with org-mode and Ubiquity">
+<meta property="og:description" content="Yesterday evening I published my second set of Ubiquity commands which provide a Ubiquity interface between Firefox and Emacs — specifically org-mode — using org-protocol .">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://nyergler.github.io/2009/10/07/remembering-with-org-mode-and-ubiquity/"><meta property="article:section" content="posts">
+<meta property="article:published_time" content="2009-10-07T12:52:04+00:00">
+<meta property="article:modified_time" content="2009-10-07T12:52:04+00:00">
+<meta name=twitter:card content="summary">
+<meta name=twitter:title content="Remembering with org-mode and Ubiquity">
+<meta name=twitter:description content="Yesterday evening I published my second set of Ubiquity commands which provide a Ubiquity interface between Firefox and Emacs — specifically org-mode — using org-protocol .">
+<script type=application/ld+json>{"@context":"https://schema.org","@type":"BlogPosting","articleSection":"Posts","name":"Remembering with org-mode and Ubiquity","headline":"Remembering with org-mode and Ubiquity","description":"Yesterday evening I published my second set of Ubiquity commands which provide a Ubiquity interface between Firefox and Emacs — specifically org-mode — using org-protocol .","inLanguage":"en","author":{"@type":"Person","name":"Nathan Yergler"},"creator":{"@type":"Person","name":"Nathan Yergler"},"copyrightHolder":"Nathan Yergler","copyrightYear":"2009","dateCreated":"2009-10-07T12:52:04\u002b00:00","datePublished":"2009-10-07T12:52:04\u002b00:00","dateModified":"2009-10-07T12:52:04\u002b00:00","url":"https:\/\/nyergler.github.io\/2009\/10\/07\/remembering-with-org-mode-and-ubiquity\/","wordCount":"404","keywords":["emacs","firefox","mozilla","orgmode","ubiquity"]}</script>
+<meta name=author content="Nathan Yergler">
+<link href=https://github.com/nyergler rel=me>
+<link href=https://instagram.com/nyergler rel=me>
+</head>
+<body class="flex flex-col h-screen px-6 m-auto text-lg leading-7 bg-neutral text-neutral-900 sm:px-14 md:px-24 lg:px-32 dark:bg-neutral-800 dark:text-neutral max-w-7xl"><header class="flex justify-between py-6 font-semibold sm:items-center sm:py-10 text-neutral-900 dark:text-neutral">
+<div>
+<a class="hover:underline hover:underline-primary-500 hover:underline-thickness-bold hover:underline-offset-small" rel=me href=/>Nathan R. Yergler</a>
+</div>
+<nav>
+<ul class="flex flex-col list-none sm:flex-row">
+<li class="mb-1 text-right sm:mb-0 sm:mr-7 sm:last:mr-0">
+<a class="hover:underline hover:underline-primary-500 hover:underline-thickness-bold hover:underline-offset-small" href=/about/ title="Oh hai.">Bio</a>
+</li>
+<li class="mb-1 text-right sm:mb-0 sm:mr-7 sm:last:mr-0">
+<a class="hover:underline hover:underline-primary-500 hover:underline-thickness-bold hover:underline-offset-small" href=/posts/ title=Posts>Blog</a>
+</li>
+<li class="mb-1 text-right sm:mb-0 sm:mr-7 sm:last:mr-0">
+<a class="hover:underline hover:underline-primary-500 hover:underline-thickness-bold hover:underline-offset-small" href=/prints/ title=Prints>Prints</a>
+</li>
+</ul>
+</nav>
+</header>
+<main class=flex-grow>
+<article class=max-w-prose>
+<header>
+<ol class="text-sm text-neutral-500 dark:text-neutral-400">
+<li class="inline hidden">
+<a class="hover:underline hover:underline-neutral-300 dark:underline-neutral-600" href=/>Nathan R. Yergler</a><span class="px-1 text-primary-500">/</span>
+</li>
+<li class=inline>
+<a class="hover:underline hover:underline-neutral-300 dark:underline-neutral-600" href=/posts/>Posts</a><span class="px-1 text-primary-500">/</span>
+</li>
+<li class="inline hidden">
+<a class="hover:underline hover:underline-neutral-300 dark:underline-neutral-600" href=/2009/10/07/remembering-with-org-mode-and-ubiquity/>Remembering with org-mode and Ubiquity</a><span class="px-1 text-primary-500">/</span>
+</li>
+</ol>
+<h1 class="mt-0 text-4xl font-extrabold text-neutral-900 dark:text-neutral">
+Remembering with org-mode and Ubiquity
+</h1>
+<div class="mt-8 mb-12 text-base text-neutral-500 dark:text-neutral-400">
+<div class="flex flex-row items-center">
+<time datetime="2009-10-07 12:52:04 +0000 UTC">7 October 2009</time>
+</div>
+</div>
+</header>
+<section class="prose dark:prose-light">
+<p>Yesterday evening I published my <a href=http://yergler.net/projects/ubiquity-commands/org-mode/>second set of Ubiquity commands</a> which provide a Ubiquity interface between <a href=http://mozilla.com/firefox>Firefox</a> and <a href=http://en.wikipedia.org/wiki/Emacs>Emacs</a> — specifically <a href=http://orgmode.org/>org-mode</a> — using <a href=http://orgmode.org/worg/org-contrib/org-protocol.php>org-protocol</a> . <a href=http://labs.mozilla.com/ubiquity/>Ubiquity</a> is an experimental extension from <a href=http://labs.mozilla.com/>Mozilla Labs</a> that lets you interact with the browser by giving it short, plain text commands. For example, “share” to post a bookmark to Delicious, or “map” to open a map of the selected address.</p>
+<p><a href=http://orgmode.org/>Org-Mode</a> is an Emacs mode that can be used to keep track of notes, agendas and task lists. I use it to maintain my task list for various projects and take notes when I’m in a meeting. I really like that while it’s an outline editor at heart, it lets me write lots of text and go back later and figure out what’s actually actionable, as opposed to maintaining separate notes and task lists. <a href=http://orgmode.org/worg/org-contrib/org-protocol.php>org-protocol</a> is included in recent releases and lets you launch an instance of <a href=http://www.emacswiki.org/emacs/EmacsClient>emacsclient</a> with some additional information (i.e., the <span class=caps>URL</span> and title of a web page, etc) and take some action on it. One of the built in “protocols” is sending that information to <a href=http://www.emacswiki.org/cgi-bin/wiki/RememberMode>remember mode</a> , which org-mode <a href=http://orgmode.org/manual/Remember.html#Remember>augments</a> .</p>
+<p>The main command is simply <tt class="docutils literal">remember</tt>. Invoking it will send the current <span class=caps>URL</span> and document title to org-mode’s Remember buffer. You can optionally type a note or select text in the page to be captured along with the link.</p>
+<p>Once you’re in the buffer you can make any changes needed and then simply <tt class="docutils literal"><span class=pre>C-c</span> <span class=pre>C-c</span></tt> to save the note, or <tt class="docutils literal"><span class=pre>C-1</span> <span class=pre>C-c</span> <span class=pre>C-c</span></tt> to interactively file the note someplace else. I’m using this command to quickly store links with some notes to project files. I hope this will be particularly useful when I run across something for a project I’m not actually able to spend time on at the moment.</p>
+<p>Note that before using the commands you need to <a href=http://orgmode.org/worg/org-contrib/org-protocol.php#sec-3.1>configure Firefox</a> to understand <tt class="docutils literal"><span class=pre>org-protocol://</span></tt> links, and need to <a href=http://orgmode.org/worg/org-contrib/org-protocol.php#sec-6.1>configure a remember template</a> . The template I use looks like:</p>
+<blockquote>
+<p><tt class="docutils literal"><span class=pre>(?w</span> &ldquo;* <span class=pre>%?\n\n</span> Source: %u, %c\n\n %i&rdquo; nil &ldquo;Notes&rdquo;)</tt>
+This store the information in the <tt class="docutils literal">Notes</tt> section of my <tt class="docutils literal"><span class=pre>org-default-notes-file</span></tt> and positions the cursor ready to type a heading.</p>
+</blockquote>
+<p>To install, visit <a href=http://yergler.net/projects/ubiquity-commands/org-mode/>the command page</a> and click _“Subscribe”_in the upper right hand corner when prompted (this assumes you have <a href=http://labs.mozilla.com/ubiquity/>Ubiquity</a> already installed). You can find the Javascript source <a href=http://gitorious.com/nyergler-ubiquity-commands>on gitorious</a> ; I’ll be adding my <a href=http://yergler.net/projects/ubiquity-rdfa-commands/>RDFa commands</a> to that repository as well.</p>
+</section>
+<footer class=pt-8>
+<div class="pt-8 article-pagination">
+<hr class="border-dotted border-neutral-300 dark:border-neutral-600">
+<div class="flex justify-between pt-3">
+<span>
+<a class=flex href=/2009/10/19/thanks-i-think/>
+<span class="mr-3 article-pagination-direction">&larr;</span>
+<span class="flex flex-col">
+<span class="article-pagination-title mt-[0.1rem] leading-6">
+Thanks, I Think</span>
+<span class="mt-[0.1rem] text-xs text-neutral-400 dark:text-neutral-500">
+<time datetime="2009-10-19 22:16:05 +0000 UTC">19 October 2009</time>
+</span>
+</span>
+</a>
+</span>
+<span>
+<a class="flex text-right" href=/2009/10/06/communication-and-trust/>
+<span class="flex flex-col">
+<span class="article-pagination-title mt-[0.1rem] leading-6">Communication and Trust</span>
+<span class="mt-[0.1rem] text-xs text-neutral-400 dark:text-neutral-500">
+<time datetime="2009-10-06 15:16:17 +0000 UTC">6 October 2009</time>
+</span>
+</span>
+<span class="ml-3 article-pagination-direction">&rarr;</span>
+</a>
+</span>
+</div>
+</div>
+</footer>
+</article>
+</main><footer class=py-10>
+<nav class="pb-4 text-base font-medium text-neutral-500 dark:text-neutral-400">
+<ul class="flex flex-col list-none sm:flex-row">
+<li class="mb-1 sm:mb-0 sm:mr-7 sm:last:mr-0">
+<a class="hover:underline hover:underline-primary-500 hover:underline-thickness-bold hover:underline-offset-small" href=/tags/ title=Tags>Tags</a>
+</li>
+<li class="mb-1 sm:mb-0 sm:mr-7 sm:last:mr-0">
+<a class="hover:underline hover:underline-primary-500 hover:underline-thickness-bold hover:underline-offset-small" href=/categories/ title=Categories>Categories</a>
+</li>
+</ul>
+</nav>
+<div class="flex justify-between">
+<div>
+<p class="text-sm text-neutral-500 dark:text-neutral-400">
+&copy;
+2022
+Nathan Yergler
+</p>
+</div>
+</div>
+</footer>
+</body>
+</html>

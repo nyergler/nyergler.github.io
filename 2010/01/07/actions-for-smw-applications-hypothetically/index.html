@@ -1,0 +1,140 @@
+<!doctype html><html lang=en><head>
+<meta charset=utf-8>
+<meta http-equiv=content-language content="en">
+<meta name=viewport content="width=device-width,initial-scale=1">
+<meta http-equiv=x-ua-compatible content="ie=edge">
+<title>“Actions” for SMW Applications (Hypothetically) &#183; Nathan R. Yergler</title>
+<meta name=title content="“Actions” for SMW Applications (Hypothetically) &#183; Nathan R. Yergler">
+<meta name=description content>
+<link rel=canonical href=https://nyergler.github.io/2010/01/07/actions-for-smw-applications-hypothetically/>
+<link type=text/css rel=stylesheet href=/css/schemes/ocean.min.ff17c50528c7a4a8a8bb8ec41272d63eb936ecefb9ccfa6db45cd1f5cd8b1becf8606745f751ee0d322ac80c9cb96e58aa699b38aa44cff9d2a8b3ff4f05a7b5.css integrity="sha512-/xfFBSjHpKiou47EEnLWPrk27O+5zPpttFzR9c2LG+z4YGdF91HuDTIqyAycuW5YqmmbOKpEz/nSqLP/TwWntQ==">
+<link type=text/css rel=stylesheet href=/css/compiled/main.min.84c4218572228cacf6182dc59fe08b5e1bcd599bb583bc56976aa0070f4cd8a4ff130ee2313074359bf6dba03b211e8c50df743d84ad551575fd0b9f849ec802.css integrity="sha512-hMQhhXIijKz2GC3Fn+CLXhvNWZu1g7xWl2qgBw9M2KT/Ew7iMTB0NZv226A7IR6MUN90PYStVRV1/QufhJ7IAg==">
+<script>function loadPreferredAppearance(){localStorage.preferredAppearance==="dark"||!("preferredAppearance"in localStorage)&&window.matchMedia("(prefers-color-scheme: dark)").matches?document.documentElement.classList.add("dark"):document.documentElement.classList.remove("dark")}function setPreferredAppearance(a){a=="default"?localStorage.removeItem("preferredAppearance"):localStorage.preferredAppearance=a,loadPreferredAppearance()}loadPreferredAppearance(),window.matchMedia("(prefers-color-scheme: dark)").addListener(loadPreferredAppearance)</script>
+<link rel=apple-touch-icon sizes=180x180 href=/apple-touch-icon.png>
+<link rel=icon type=image/png sizes=32x32 href=/favicon-32x32.png>
+<link rel=icon type=image/png sizes=16x16 href=/favicon-16x16.png>
+<link rel=manifest href=/site.webmanifest>
+<meta property="og:title" content="“Actions” for SMW Applications (Hypothetically)">
+<meta property="og:description" content="Talking about AcaWiki has me thinking some more about our experiences over the past couple years with Semantic MediaWiki , particularly about building “applications” with it.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://nyergler.github.io/2010/01/07/actions-for-smw-applications-hypothetically/"><meta property="article:section" content="posts">
+<meta property="article:published_time" content="2010-01-07T22:13:41+00:00">
+<meta property="article:modified_time" content="2010-01-07T22:13:41+00:00">
+<meta name=twitter:card content="summary">
+<meta name=twitter:title content="“Actions” for SMW Applications (Hypothetically)">
+<meta name=twitter:description content="Talking about AcaWiki has me thinking some more about our experiences over the past couple years with Semantic MediaWiki , particularly about building “applications” with it.">
+<script type=application/ld+json>{"@context":"https://schema.org","@type":"BlogPosting","articleSection":"Posts","name":"“Actions” for SMW Applications (Hypothetically)","headline":"“Actions” for SMW Applications (Hypothetically)","description":"Talking about AcaWiki has me thinking some more about our experiences over the past couple years with Semantic MediaWiki , particularly about building “applications” with it.","inLanguage":"en","author":{"@type":"Person","name":"Nathan Yergler"},"creator":{"@type":"Person","name":"Nathan Yergler"},"copyrightHolder":"Nathan Yergler","copyrightYear":"2010","dateCreated":"2010-01-07T22:13:41\u002b00:00","datePublished":"2010-01-07T22:13:41\u002b00:00","dateModified":"2010-01-07T22:13:41\u002b00:00","url":"https:\/\/nyergler.github.io\/2010\/01\/07\/actions-for-smw-applications-hypothetically\/","wordCount":"714","keywords":["cc","mediawiki","semantic mediawiki","smw","teamspace"]}</script>
+<meta name=author content="Nathan Yergler">
+<link href=https://github.com/nyergler rel=me>
+<link href=https://instagram.com/nyergler rel=me>
+</head>
+<body class="flex flex-col h-screen px-6 m-auto text-lg leading-7 bg-neutral text-neutral-900 sm:px-14 md:px-24 lg:px-32 dark:bg-neutral-800 dark:text-neutral max-w-7xl"><header class="flex justify-between py-6 font-semibold sm:items-center sm:py-10 text-neutral-900 dark:text-neutral">
+<div>
+<a class="hover:underline hover:underline-primary-500 hover:underline-thickness-bold hover:underline-offset-small" rel=me href=/>Nathan R. Yergler</a>
+</div>
+<nav>
+<ul class="flex flex-col list-none sm:flex-row">
+<li class="mb-1 text-right sm:mb-0 sm:mr-7 sm:last:mr-0">
+<a class="hover:underline hover:underline-primary-500 hover:underline-thickness-bold hover:underline-offset-small" href=/about/ title="Oh hai.">Bio</a>
+</li>
+<li class="mb-1 text-right sm:mb-0 sm:mr-7 sm:last:mr-0">
+<a class="hover:underline hover:underline-primary-500 hover:underline-thickness-bold hover:underline-offset-small" href=/posts/ title=Posts>Blog</a>
+</li>
+<li class="mb-1 text-right sm:mb-0 sm:mr-7 sm:last:mr-0">
+<a class="hover:underline hover:underline-primary-500 hover:underline-thickness-bold hover:underline-offset-small" href=/prints/ title=Prints>Prints</a>
+</li>
+</ul>
+</nav>
+</header>
+<main class=flex-grow>
+<article class=max-w-prose>
+<header>
+<ol class="text-sm text-neutral-500 dark:text-neutral-400">
+<li class="inline hidden">
+<a class="hover:underline hover:underline-neutral-300 dark:underline-neutral-600" href=/>Nathan R. Yergler</a><span class="px-1 text-primary-500">/</span>
+</li>
+<li class=inline>
+<a class="hover:underline hover:underline-neutral-300 dark:underline-neutral-600" href=/posts/>Posts</a><span class="px-1 text-primary-500">/</span>
+</li>
+<li class="inline hidden">
+<a class="hover:underline hover:underline-neutral-300 dark:underline-neutral-600" href=/2010/01/07/actions-for-smw-applications-hypothetically/>“Actions” for SMW Applications (Hypothetically)</a><span class="px-1 text-primary-500">/</span>
+</li>
+</ol>
+<h1 class="mt-0 text-4xl font-extrabold text-neutral-900 dark:text-neutral">
+“Actions” for SMW Applications (Hypothetically)
+</h1>
+<div class="mt-8 mb-12 text-base text-neutral-500 dark:text-neutral-400">
+<div class="flex flex-row items-center">
+<time datetime="2010-01-07 22:13:41 +0000 UTC">7 January 2010</time>
+</div>
+</div>
+</header>
+<section class="prose dark:prose-light">
+<p><a href=http://yergler.net/blog/2010/01/04/acawiki-on-building-emerging-applications/>Talking about AcaWiki</a> has me thinking some more about our experiences over the past couple years with <a href=http://sematic-mediawiki.org/>Semantic MediaWiki</a> , particularly about building “applications” with it. I suppose that something like AcaWiki could be considered an application of sorts — I certainly wrote about it as such earlier this week — but in this case I’m talking about applications as reusable, customizable pieces of software that do a little more than just <span class=caps>CRUD</span> data.</p>
+<p>In 2008 we were using our internal wiki, Teamspace, for a variety of things: employee handbook, job descriptions, staff contact information, and grants. We decided we wanted to do a better job at tracking these grants, specifically the concrete tasks associated with each, things we had committed to do (and which potentially required some reporting). As we iterated on the design of a grant, task, and contact tracking system, we realized that a grant was basically another name for a project, and the <a href=http://wiki.creativecommons.org/CcTeamspace>Teamspace project tracking system</a> was born.</p>
+<p><img src=http://farm3.static.flickr.com/2139/2438557055_1ec9fda7f8.jpg alt></p>
+<p>As we began working with the system, it became obvious we needed to improve the user experience; requiring staff members to look at yet another place for information just wasn’t working. So <a href=http://creativecommons.org/about/people/alumni#100>Steren Giannini</a> , one of our amazing interns, built <a href=http://www.mediawiki.org/wiki/Extension:SemanticTasks>Semantic Tasks</a> .</p>
+<p>Semantic Tasks is a MediaWiki extension, but it’s driven by semantic annotations on task pages. Semantic Tasks’ primary function is sending email reminders. One of the things I really like about Steren’s design is that it works with existing MediaWiki conventions: we annotate Tasks with the assigned (or cc’d) User page, and Semantic Tasks gets the email addresses from the User page.</p>
+<p>There were two things we brainstormed but never developed in 2008. I think they’re both still areas of weakness that could be filled to make <span class=caps>SMW</span> even more useful as an application platform. The first is something we called <em>Semantic Actions</em>: actions you could take on a page that would change the information stored there.</p>
+<p><img src=http://farm3.static.flickr.com/2153/2611966782_16926c3938.jpg alt></p>
+<p>Consider, for example, marking a task as completed. There are two things you’d like to do to “complete” a task: set the status to complete and record the date it was completed. The thought was that it’d be very convenient to have “close” available as a page action, one which would effect both changes at once without requiring the user to manually edit the page. Our <a href=http://mehfilindian.com/>curry</a> -fueled brainstorm was that you could describe these changes using Semantic Mediawiki annotations<a href=http://yergler.net/blog/2010/01/04/acawiki-on-building-emerging-applications/>1</a>_. <a href=http://en.wikipedia.org/wiki/Turtles_all_the_way_down>Turtles all the way down</a> , so to speak.</p>
+<p>The amount of explaining this idea takes, along with some distance, makes me uncertain that it’s the right approach. I <strong>do</strong> think that being able to easily write extensions that implement something more than <span class=caps>CRUD</span> is important to the story of <span class=caps>SMW</span> as a “real” application platform. One thing I that makes me uncertain about this approach is the fear that we are effectively rebuilding Zope 2’s ZClasses, only crappier. <a href=http://wiki.zope.org/zope2/ZClasses>ZClasses</a> , for those unfamiliar, were a way to create classes and views through the a web-based interface. A user with administrative rights could author an “application” through the web, getting lots of functionality for “free”. The problem was that once you exhausted ZClasses’ capabilities, you pretty much had to start from scratch when you switched to on disk development. Hence Zope 2’s notorious “Z-shaped learning curve”. I think it’s clear to me now that building actions through the web is going to by necessity expose a limited feature set. The question is whether it’s enough, or if we should encourage people to write [Semantic] Mediawiki extensions that implement the features they need.</p>
+<p>Maybe the right approach is simply providing really excellent documentation so that developers can easily retrieve the values the <span class=caps>SMW</span> annotations on the pages they care about. You can imagine a skin that exists as a minor patch to Monobook or Vector, which uses a hook to retrieve the installed <span class=caps>SMW</span> “actions” for a page and displays them in a consistent manner.</p>
+<p>Regardless of the approach taken, if <span class=caps>SMW</span> is going to be a platform, there has to be an extensibility story. That story already exists in some form; just look at the <a href=http://semantic-mediawiki.org/wiki/Help:Extensions>extensions already available</a> . Whether the existing story is sufficient is something I’m interested in looking at further.</p>
+<p>Next time: Thoughts on Installation and Deployment.</p>
+<hr class=docutils>
+</section>
+<footer class=pt-8>
+<div class="pt-8 article-pagination">
+<hr class="border-dotted border-neutral-300 dark:border-neutral-600">
+<div class="flex justify-between pt-3">
+<span>
+<a class=flex href=/2010/01/21/san-francisco-habitation-take-two/>
+<span class="mr-3 article-pagination-direction">&larr;</span>
+<span class="flex flex-col">
+<span class="article-pagination-title mt-[0.1rem] leading-6">
+San Francisco Habitation, Take Two</span>
+<span class="mt-[0.1rem] text-xs text-neutral-400 dark:text-neutral-500">
+<time datetime="2010-01-21 21:29:51 +0000 UTC">21 January 2010</time>
+</span>
+</span>
+</a>
+</span>
+<span>
+<a class="flex text-right" href=/2010/01/07/the-meta-project-stack/>
+<span class="flex flex-col">
+<span class="article-pagination-title mt-[0.1rem] leading-6">The Meta Project Stack</span>
+<span class="mt-[0.1rem] text-xs text-neutral-400 dark:text-neutral-500">
+<time datetime="2010-01-07 08:04:41 +0000 UTC">7 January 2010</time>
+</span>
+</span>
+<span class="ml-3 article-pagination-direction">&rarr;</span>
+</a>
+</span>
+</div>
+</div>
+</footer>
+</article>
+</main><footer class=py-10>
+<nav class="pb-4 text-base font-medium text-neutral-500 dark:text-neutral-400">
+<ul class="flex flex-col list-none sm:flex-row">
+<li class="mb-1 sm:mb-0 sm:mr-7 sm:last:mr-0">
+<a class="hover:underline hover:underline-primary-500 hover:underline-thickness-bold hover:underline-offset-small" href=/tags/ title=Tags>Tags</a>
+</li>
+<li class="mb-1 sm:mb-0 sm:mr-7 sm:last:mr-0">
+<a class="hover:underline hover:underline-primary-500 hover:underline-thickness-bold hover:underline-offset-small" href=/categories/ title=Categories>Categories</a>
+</li>
+</ul>
+</nav>
+<div class="flex justify-between">
+<div>
+<p class="text-sm text-neutral-500 dark:text-neutral-400">
+&copy;
+2022
+Nathan Yergler
+</p>
+</div>
+</div>
+</footer>
+</body>
+</html>

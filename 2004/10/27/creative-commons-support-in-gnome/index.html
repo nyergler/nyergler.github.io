@@ -1,0 +1,141 @@
+<!doctype html><html lang=en><head>
+<meta charset=utf-8>
+<meta http-equiv=content-language content="en">
+<meta name=viewport content="width=device-width,initial-scale=1">
+<meta http-equiv=x-ua-compatible content="ie=edge">
+<title>Creative Commons support in Gnome &#183; Nathan R. Yergler</title>
+<meta name=title content="Creative Commons support in Gnome &#183; Nathan R. Yergler">
+<meta name=description content>
+<link rel=canonical href=https://nyergler.github.io/2004/10/27/creative-commons-support-in-gnome/>
+<link type=text/css rel=stylesheet href=/css/schemes/ocean.min.ff17c50528c7a4a8a8bb8ec41272d63eb936ecefb9ccfa6db45cd1f5cd8b1becf8606745f751ee0d322ac80c9cb96e58aa699b38aa44cff9d2a8b3ff4f05a7b5.css integrity="sha512-/xfFBSjHpKiou47EEnLWPrk27O+5zPpttFzR9c2LG+z4YGdF91HuDTIqyAycuW5YqmmbOKpEz/nSqLP/TwWntQ==">
+<link type=text/css rel=stylesheet href=/css/compiled/main.min.84c4218572228cacf6182dc59fe08b5e1bcd599bb583bc56976aa0070f4cd8a4ff130ee2313074359bf6dba03b211e8c50df743d84ad551575fd0b9f849ec802.css integrity="sha512-hMQhhXIijKz2GC3Fn+CLXhvNWZu1g7xWl2qgBw9M2KT/Ew7iMTB0NZv226A7IR6MUN90PYStVRV1/QufhJ7IAg==">
+<script>function loadPreferredAppearance(){localStorage.preferredAppearance==="dark"||!("preferredAppearance"in localStorage)&&window.matchMedia("(prefers-color-scheme: dark)").matches?document.documentElement.classList.add("dark"):document.documentElement.classList.remove("dark")}function setPreferredAppearance(a){a=="default"?localStorage.removeItem("preferredAppearance"):localStorage.preferredAppearance=a,loadPreferredAppearance()}loadPreferredAppearance(),window.matchMedia("(prefers-color-scheme: dark)").addListener(loadPreferredAppearance)</script>
+<link rel=apple-touch-icon sizes=180x180 href=/apple-touch-icon.png>
+<link rel=icon type=image/png sizes=32x32 href=/favicon-32x32.png>
+<link rel=icon type=image/png sizes=16x16 href=/favicon-16x16.png>
+<link rel=manifest href=/site.webmanifest>
+<meta property="og:title" content="Creative Commons support in Gnome">
+<meta property="og:description" content="After reading about the new Nautilus-Python bindings, I decided I had to try my hand.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://nyergler.github.io/2004/10/27/creative-commons-support-in-gnome/"><meta property="article:section" content="posts">
+<meta property="article:published_time" content="2004-10-27T10:59:11+00:00">
+<meta property="article:modified_time" content="2004-10-27T10:59:11+00:00">
+<meta name=twitter:card content="summary">
+<meta name=twitter:title content="Creative Commons support in Gnome">
+<meta name=twitter:description content="After reading about the new Nautilus-Python bindings, I decided I had to try my hand.">
+<script type=application/ld+json>{"@context":"https://schema.org","@type":"BlogPosting","articleSection":"Posts","name":"Creative Commons support in Gnome","headline":"Creative Commons support in Gnome","description":"After reading about the new Nautilus-Python bindings, I decided I had to try my hand.","inLanguage":"en","author":{"@type":"Person","name":"Nathan Yergler"},"creator":{"@type":"Person","name":"Nathan Yergler"},"copyrightHolder":"Nathan Yergler","copyrightYear":"2004","dateCreated":"2004-10-27T10:59:11\u002b00:00","datePublished":"2004-10-27T10:59:11\u002b00:00","dateModified":"2004-10-27T10:59:11\u002b00:00","url":"https:\/\/nyergler.github.io\/2004\/10\/27\/creative-commons-support-in-gnome\/","wordCount":"505","keywords":[]}</script>
+<meta name=author content="Nathan Yergler">
+<link href=https://github.com/nyergler rel=me>
+<link href=https://instagram.com/nyergler rel=me>
+</head>
+<body class="flex flex-col h-screen px-6 m-auto text-lg leading-7 bg-neutral text-neutral-900 sm:px-14 md:px-24 lg:px-32 dark:bg-neutral-800 dark:text-neutral max-w-7xl"><header class="flex justify-between py-6 font-semibold sm:items-center sm:py-10 text-neutral-900 dark:text-neutral">
+<div>
+<a class="hover:underline hover:underline-primary-500 hover:underline-thickness-bold hover:underline-offset-small" rel=me href=/>Nathan R. Yergler</a>
+</div>
+<nav>
+<ul class="flex flex-col list-none sm:flex-row">
+<li class="mb-1 text-right sm:mb-0 sm:mr-7 sm:last:mr-0">
+<a class="hover:underline hover:underline-primary-500 hover:underline-thickness-bold hover:underline-offset-small" href=/about/ title="Oh hai.">Bio</a>
+</li>
+<li class="mb-1 text-right sm:mb-0 sm:mr-7 sm:last:mr-0">
+<a class="hover:underline hover:underline-primary-500 hover:underline-thickness-bold hover:underline-offset-small" href=/posts/ title=Posts>Blog</a>
+</li>
+<li class="mb-1 text-right sm:mb-0 sm:mr-7 sm:last:mr-0">
+<a class="hover:underline hover:underline-primary-500 hover:underline-thickness-bold hover:underline-offset-small" href=/prints/ title=Prints>Prints</a>
+</li>
+</ul>
+</nav>
+</header>
+<main class=flex-grow>
+<article class=max-w-prose>
+<header>
+<ol class="text-sm text-neutral-500 dark:text-neutral-400">
+<li class="inline hidden">
+<a class="hover:underline hover:underline-neutral-300 dark:underline-neutral-600" href=/>Nathan R. Yergler</a><span class="px-1 text-primary-500">/</span>
+</li>
+<li class=inline>
+<a class="hover:underline hover:underline-neutral-300 dark:underline-neutral-600" href=/posts/>Posts</a><span class="px-1 text-primary-500">/</span>
+</li>
+<li class="inline hidden">
+<a class="hover:underline hover:underline-neutral-300 dark:underline-neutral-600" href=/2004/10/27/creative-commons-support-in-gnome/>Creative Commons support in Gnome</a><span class="px-1 text-primary-500">/</span>
+</li>
+</ol>
+<h1 class="mt-0 text-4xl font-extrabold text-neutral-900 dark:text-neutral">
+Creative Commons support in Gnome
+</h1>
+<div class="mt-8 mb-12 text-base text-neutral-500 dark:text-neutral-400">
+<div class="flex flex-row items-center">
+<time datetime="2004-10-27 10:59:11 +0000 UTC">27 October 2004</time>
+</div>
+</div>
+</header>
+<section class="prose dark:prose-light">
+<p>After <a href=http://awkly.org/Members/sidnei/weblog_storage/blog_75895>reading</a> about the new <a href=http://cvs.gnome.org/viewcvs/nautilus-python/>Nautilus-Python</a> bindings, I decided I had to try my hand. And what better feature to enable than everyone’s favorite, <a href=http://creativecommons.org>Creative Commons</a> <a href=http://creativecommons.org/license>License</a> support. Lately I’ve been working on updates to our embedded license tools which allow users to tag an <span class=caps>MP3</span> with a <span class=caps>CC</span> license and then provide a web page which “verifies” the license claim.</p>
+<p>The new tool, as of yet unnamed (suggestions?) adds a Creative Commons tab to the file properties of any <span class=caps>MP3</span> file. For example, a track from <a href=http://creativecommons.org/extras/copyremix>Copy Me/Remix Me</a> :</p>
+<div class=figure>
+<img alt src=http://yergler.net/blog/images/nautilus_ss_thumb.png>
+<p class=caption>
+<a class="reference external" href=http://yergler.net/blog/images/nautilus_ss.png>click for larger screenshot</a>
+</p>
+</div>
+<p>As you can see, the property page displays the license claim, and then verifies it against the web page. If the verification page didn’t exist, or didn’t match properly, you’d see an error message instead.</p>
+<p>Now, I know what you’re thinking: “cool! how do I get in on the action?” It’s simple. Or at least straight-forward. You see, this bit of integration is made possible by some Nautilus code that’s not in the latest release, but never fear; I’ve provided a source tarball and I think it’ll work with Nautilus 2.4 and later (for sure 2.6 and later).</p>
+<p>There are two packages you’ll need, and both are available at the <a href=http://sourceforge.net/projects/cctools><span class=caps>CC</span> Tools Sourceforge Project</a> . First, <a href=http://cvs.gnome.org/viewcvs/nautilus-python/>nautilus-python</a> provides the actual Python bindings for Nautilus. Simply untar it, and do the configure/make/make install dance. This will install the Nautilus support and install some example Python extensions. The default installation location is under your Nautilus library path; on my system it’s <tt class="docutils literal"><span class=pre>/usr/lib/nautilus/extensions-1.0/python</span></tt>.</p>
+<p>The second package, <a href="http://sourceforge.net/project/showfiles.php?group_id=80503&package_id=133941">nautilus-cc</a> , provides the extension and all of it’s dependencies. Simply untar it in the nautilus-python directory (<tt class="docutils literal"><span class=pre>/usr/lib/nautilus/extensions-1.0/python</span></tt> on my system). Restart Nautilus and right click on an <span class=caps>MP3</span> to try it out.</p>
+<p>There’s definitely room for improvement in the tool, from simple <span class=caps>UI</span> polish to further integration. For example, what about a context-menu option which lets you license your file and publish it to the <a href=http://archive.org>Internet Archive</a> via ccTag, all integrated with the desktop. I’m sure there are other ideas out there as well. Leave a comment with a cool idea on this post; my favorite will get a <span class=caps>CC</span> t-shirt (so yes, you need to leave your email address and you implicitly give permission for <span class=caps>CC</span> to implement your idea; oh, and it’s my blog, so it’s my decision; but I really want to give away a t-shirt).</p>
+<p>The cool thing about this integration is not necessarily the license display. I mean, that’s cool, but not necessarily the coolest thing. The coolest thing is that it took me longer to figure out the <span class=caps>GTK</span> code than it did to write the license parsing code. That’s because I’m reusing lots of code from previous projects. This further emphasizes the importance of packaging our code in ways that encourage reuse; we should be able to say “Hey, you developer there! Wanna integrate <span class=caps>CC</span> in your app? Here’s a library that makes it painless!” And yes, that’s a project I’ll be tackling in the coming weeks for <span class=caps>CC</span>.</p>
+</section>
+<footer class=pt-8>
+<div class="pt-8 article-pagination">
+<hr class="border-dotted border-neutral-300 dark:border-neutral-600">
+<div class="flex justify-between pt-3">
+<span>
+<a class=flex href=/2004/10/27/cc-on-npr/>
+<span class="mr-3 article-pagination-direction">&larr;</span>
+<span class="flex flex-col">
+<span class="article-pagination-title mt-[0.1rem] leading-6">
+<span class=caps>CC</span> on <span class=caps>NPR</span></span>
+<span class="mt-[0.1rem] text-xs text-neutral-400 dark:text-neutral-500">
+<time datetime="2004-10-27 16:15:18 +0000 UTC">27 October 2004</time>
+</span>
+</span>
+</a>
+</span>
+<span>
+<a class="flex text-right" href=/2004/10/26/closures-explained/>
+<span class="flex flex-col">
+<span class="article-pagination-title mt-[0.1rem] leading-6">Closures Explained</span>
+<span class="mt-[0.1rem] text-xs text-neutral-400 dark:text-neutral-500">
+<time datetime="2004-10-26 06:58:16 +0000 UTC">26 October 2004</time>
+</span>
+</span>
+<span class="ml-3 article-pagination-direction">&rarr;</span>
+</a>
+</span>
+</div>
+</div>
+</footer>
+</article>
+</main><footer class=py-10>
+<nav class="pb-4 text-base font-medium text-neutral-500 dark:text-neutral-400">
+<ul class="flex flex-col list-none sm:flex-row">
+<li class="mb-1 sm:mb-0 sm:mr-7 sm:last:mr-0">
+<a class="hover:underline hover:underline-primary-500 hover:underline-thickness-bold hover:underline-offset-small" href=/tags/ title=Tags>Tags</a>
+</li>
+<li class="mb-1 sm:mb-0 sm:mr-7 sm:last:mr-0">
+<a class="hover:underline hover:underline-primary-500 hover:underline-thickness-bold hover:underline-offset-small" href=/categories/ title=Categories>Categories</a>
+</li>
+</ul>
+</nav>
+<div class="flex justify-between">
+<div>
+<p class="text-sm text-neutral-500 dark:text-neutral-400">
+&copy;
+2022
+Nathan Yergler
+</p>
+</div>
+</div>
+</footer>
+</body>
+</html>

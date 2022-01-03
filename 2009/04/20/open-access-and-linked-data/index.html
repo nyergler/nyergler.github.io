@@ -1,0 +1,148 @@
+<!doctype html><html lang=en><head>
+<meta charset=utf-8>
+<meta http-equiv=content-language content="en">
+<meta name=viewport content="width=device-width,initial-scale=1">
+<meta http-equiv=x-ua-compatible content="ie=edge">
+<title>Open Access and Linked Data &#183; Nathan R. Yergler</title>
+<meta name=title content="Open Access and Linked Data &#183; Nathan R. Yergler">
+<meta name=description content>
+<link rel=canonical href=https://nyergler.github.io/2009/04/20/open-access-and-linked-data/>
+<link type=text/css rel=stylesheet href=/css/schemes/ocean.min.ff17c50528c7a4a8a8bb8ec41272d63eb936ecefb9ccfa6db45cd1f5cd8b1becf8606745f751ee0d322ac80c9cb96e58aa699b38aa44cff9d2a8b3ff4f05a7b5.css integrity="sha512-/xfFBSjHpKiou47EEnLWPrk27O+5zPpttFzR9c2LG+z4YGdF91HuDTIqyAycuW5YqmmbOKpEz/nSqLP/TwWntQ==">
+<link type=text/css rel=stylesheet href=/css/compiled/main.min.84c4218572228cacf6182dc59fe08b5e1bcd599bb583bc56976aa0070f4cd8a4ff130ee2313074359bf6dba03b211e8c50df743d84ad551575fd0b9f849ec802.css integrity="sha512-hMQhhXIijKz2GC3Fn+CLXhvNWZu1g7xWl2qgBw9M2KT/Ew7iMTB0NZv226A7IR6MUN90PYStVRV1/QufhJ7IAg==">
+<script>function loadPreferredAppearance(){localStorage.preferredAppearance==="dark"||!("preferredAppearance"in localStorage)&&window.matchMedia("(prefers-color-scheme: dark)").matches?document.documentElement.classList.add("dark"):document.documentElement.classList.remove("dark")}function setPreferredAppearance(a){a=="default"?localStorage.removeItem("preferredAppearance"):localStorage.preferredAppearance=a,loadPreferredAppearance()}loadPreferredAppearance(),window.matchMedia("(prefers-color-scheme: dark)").addListener(loadPreferredAppearance)</script>
+<link rel=apple-touch-icon sizes=180x180 href=/apple-touch-icon.png>
+<link rel=icon type=image/png sizes=32x32 href=/favicon-32x32.png>
+<link rel=icon type=image/png sizes=16x16 href=/favicon-16x16.png>
+<link rel=manifest href=/site.webmanifest>
+<meta property="og:title" content="Open Access and Linked Data">
+<meta property="og:description" content="I traveled to the midwest late last month and made a few stops, including PyCon and a brief visit with my parents.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://nyergler.github.io/2009/04/20/open-access-and-linked-data/"><meta property="article:section" content="posts">
+<meta property="article:published_time" content="2009-04-20T18:06:50+00:00">
+<meta property="article:modified_time" content="2009-04-20T18:06:50+00:00">
+<meta name=twitter:card content="summary">
+<meta name=twitter:title content="Open Access and Linked Data">
+<meta name=twitter:description content="I traveled to the midwest late last month and made a few stops, including PyCon and a brief visit with my parents.">
+<script type=application/ld+json>{"@context":"https://schema.org","@type":"BlogPosting","articleSection":"Posts","name":"Open Access and Linked Data","headline":"Open Access and Linked Data","description":"I traveled to the midwest late last month and made a few stops, including PyCon and a brief visit with my parents.","inLanguage":"en","author":{"@type":"Person","name":"Nathan Yergler"},"creator":{"@type":"Person","name":"Nathan Yergler"},"copyrightHolder":"Nathan Yergler","copyrightYear":"2009","dateCreated":"2009-04-20T18:06:50\u002b00:00","datePublished":"2009-04-20T18:06:50\u002b00:00","dateModified":"2009-04-20T18:06:50\u002b00:00","url":"https:\/\/nyergler.github.io\/2009\/04\/20\/open-access-and-linked-data\/","wordCount":"403","keywords":["cc","linked data","oa","open access","rdfa"]}</script>
+<meta name=author content="Nathan Yergler">
+<link href=https://github.com/nyergler rel=me>
+<link href=https://instagram.com/nyergler rel=me>
+</head>
+<body class="flex flex-col h-screen px-6 m-auto text-lg leading-7 bg-neutral text-neutral-900 sm:px-14 md:px-24 lg:px-32 dark:bg-neutral-800 dark:text-neutral max-w-7xl"><header class="flex justify-between py-6 font-semibold sm:items-center sm:py-10 text-neutral-900 dark:text-neutral">
+<div>
+<a class="hover:underline hover:underline-primary-500 hover:underline-thickness-bold hover:underline-offset-small" rel=me href=/>Nathan R. Yergler</a>
+</div>
+<nav>
+<ul class="flex flex-col list-none sm:flex-row">
+<li class="mb-1 text-right sm:mb-0 sm:mr-7 sm:last:mr-0">
+<a class="hover:underline hover:underline-primary-500 hover:underline-thickness-bold hover:underline-offset-small" href=/about/ title="Oh hai.">Bio</a>
+</li>
+<li class="mb-1 text-right sm:mb-0 sm:mr-7 sm:last:mr-0">
+<a class="hover:underline hover:underline-primary-500 hover:underline-thickness-bold hover:underline-offset-small" href=/posts/ title=Posts>Blog</a>
+</li>
+<li class="mb-1 text-right sm:mb-0 sm:mr-7 sm:last:mr-0">
+<a class="hover:underline hover:underline-primary-500 hover:underline-thickness-bold hover:underline-offset-small" href=/prints/ title=Prints>Prints</a>
+</li>
+</ul>
+</nav>
+</header>
+<main class=flex-grow>
+<article class=max-w-prose>
+<header>
+<ol class="text-sm text-neutral-500 dark:text-neutral-400">
+<li class="inline hidden">
+<a class="hover:underline hover:underline-neutral-300 dark:underline-neutral-600" href=/>Nathan R. Yergler</a><span class="px-1 text-primary-500">/</span>
+</li>
+<li class=inline>
+<a class="hover:underline hover:underline-neutral-300 dark:underline-neutral-600" href=/posts/>Posts</a><span class="px-1 text-primary-500">/</span>
+</li>
+<li class="inline hidden">
+<a class="hover:underline hover:underline-neutral-300 dark:underline-neutral-600" href=/2009/04/20/open-access-and-linked-data/>Open Access and Linked Data</a><span class="px-1 text-primary-500">/</span>
+</li>
+</ol>
+<h1 class="mt-0 text-4xl font-extrabold text-neutral-900 dark:text-neutral">
+Open Access and Linked Data
+</h1>
+<div class="mt-8 mb-12 text-base text-neutral-500 dark:text-neutral-400">
+<div class="flex flex-row items-center">
+<time datetime="2009-04-20 18:06:50 +0000 UTC">20 April 2009</time>
+</div>
+</div>
+</header>
+<section class="prose dark:prose-light">
+<p>I traveled to the midwest late last month and made a few stops, including <a href=http://us.pycon.org/2009/about/>PyCon</a> and a brief visit with my parents. In between those two bookends I spoke at University of Michigan’s <a href=http://www.copyright.umich.edu/openaccessweek2009.html>Open Access Week</a> and had a few meetings with various parties. My topic was pretty broad — <a href=/talks/2009/cc-and-open-access/><span class=caps>CC</span> and Open Access</a> — but I was [personally] pleased with how the talk came together. I’d like to re-create it for the purpose of creating a <a href=http://yergler.net/blog/2009/02/18/slides-for-all-audiences/>slidecast</a> ; maybe sometime soon.</p>
+<p>In putting together the content I realized that while I had this gut level, assumed knowledge about what <a href=http://en.wikipedia.org/wiki/Open_access_(publishing)>Open Access</a> is, I hadn’t ever read a definition or really delved into it. When I read the <a href=http://www.soros.org/openaccess/read.shtml>Budapest Open Access Initiative</a> , one part stood out to me.</p>
+<blockquote>
+<p>By “open access” to this literature, we mean its free availability on the public internet, permitting any users to read, download, copy, distribute, print, search, or link to the full texts of these articles, crawl them for indexing, pass them as data to software, or use them for any other lawful purpose, without financial, legal, or technical barriers other than those inseparable from gaining access to the internet itself.
+Well of course it stood out to me, it’s a core descriptive sentence. But in particular, “availability on the public internet, permitting any users to read, download, copy, distribute, print, search, or link to the full texts of these articles, crawl them for indexing, [or] pass them as data to software.” Interestingly this sentence ties right into the other meetings I was having that week which all seemed to come back to <a href=http://en.wikipedia.org/wiki/Linked_Data>linked data</a> (in particular <a href=http://en.wikipedia.org/wiki/RDFa>RDFa</a> ). If you think about it, this sentence has implications that make <span class=caps>OA</span> materials perfect for linked data integration. It implies:</p>
+</blockquote>
+<ul class=simple>
+<li>
+you have a stable, unique <span class=caps>URL</span> for the work
+</li>
+<li>
+there isn’t a paywall or login requirement in front of the actual work
+</li>
+<li>
+there isn’t any user agent discrimination — text in a Flash viewer need not apply (I’m looking at you, <a class="reference external" href=http://www.scribd.com/>Scribd</a>)
+</li>
+<li>
+they’re in a format that’s useful as data; maybe [X]<span class=caps>HTML</span>?
+</li>
+</ul>
+<p>So we have a growing corpus of information that’s ripe for markup with structured data. We’re doing a lot with embedded, structured [,linked] data right now at <span class=caps>CC</span> (things we need to do a better job talking about). I find it reassuring that the principles other efforts value mesh so well with what we’re doing.</p>
+</section>
+<footer class=pt-8>
+<div class="pt-8 article-pagination">
+<hr class="border-dotted border-neutral-300 dark:border-neutral-600">
+<div class="flex justify-between pt-3">
+<span>
+<a class=flex href=/2009/07/11/rdfa-bookmarklets-for-ubiquity/>
+<span class="mr-3 article-pagination-direction">&larr;</span>
+<span class="flex flex-col">
+<span class="article-pagination-title mt-[0.1rem] leading-6">
+RDFa Bookmarklets for Ubiquity</span>
+<span class="mt-[0.1rem] text-xs text-neutral-400 dark:text-neutral-500">
+<time datetime="2009-07-11 09:58:28 +0000 UTC">11 July 2009</time>
+</span>
+</span>
+</a>
+</span>
+<span>
+<a class="flex text-right" href=/2009/02/18/slides-for-all-audiences/>
+<span class="flex flex-col">
+<span class="article-pagination-title mt-[0.1rem] leading-6">Slides For All Audiences</span>
+<span class="mt-[0.1rem] text-xs text-neutral-400 dark:text-neutral-500">
+<time datetime="2009-02-18 10:13:34 +0000 UTC">18 February 2009</time>
+</span>
+</span>
+<span class="ml-3 article-pagination-direction">&rarr;</span>
+</a>
+</span>
+</div>
+</div>
+</footer>
+</article>
+</main><footer class=py-10>
+<nav class="pb-4 text-base font-medium text-neutral-500 dark:text-neutral-400">
+<ul class="flex flex-col list-none sm:flex-row">
+<li class="mb-1 sm:mb-0 sm:mr-7 sm:last:mr-0">
+<a class="hover:underline hover:underline-primary-500 hover:underline-thickness-bold hover:underline-offset-small" href=/tags/ title=Tags>Tags</a>
+</li>
+<li class="mb-1 sm:mb-0 sm:mr-7 sm:last:mr-0">
+<a class="hover:underline hover:underline-primary-500 hover:underline-thickness-bold hover:underline-offset-small" href=/categories/ title=Categories>Categories</a>
+</li>
+</ul>
+</nav>
+<div class="flex justify-between">
+<div>
+<p class="text-sm text-neutral-500 dark:text-neutral-400">
+&copy;
+2022
+Nathan Yergler
+</p>
+</div>
+</div>
+</footer>
+</body>
+</html>

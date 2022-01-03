@@ -1,0 +1,158 @@
+<!doctype html><html lang=en><head>
+<meta charset=utf-8>
+<meta http-equiv=content-language content="en">
+<meta name=viewport content="width=device-width,initial-scale=1">
+<meta http-equiv=x-ua-compatible content="ie=edge">
+<title>Distributing Python Applications &#183; Nathan R. Yergler</title>
+<meta name=title content="Distributing Python Applications &#183; Nathan R. Yergler">
+<meta name=description content>
+<link rel=canonical href=https://nyergler.github.io/2005/05/12/distributing-python-applications/>
+<link type=text/css rel=stylesheet href=/css/schemes/ocean.min.ff17c50528c7a4a8a8bb8ec41272d63eb936ecefb9ccfa6db45cd1f5cd8b1becf8606745f751ee0d322ac80c9cb96e58aa699b38aa44cff9d2a8b3ff4f05a7b5.css integrity="sha512-/xfFBSjHpKiou47EEnLWPrk27O+5zPpttFzR9c2LG+z4YGdF91HuDTIqyAycuW5YqmmbOKpEz/nSqLP/TwWntQ==">
+<link type=text/css rel=stylesheet href=/css/compiled/main.min.84c4218572228cacf6182dc59fe08b5e1bcd599bb583bc56976aa0070f4cd8a4ff130ee2313074359bf6dba03b211e8c50df743d84ad551575fd0b9f849ec802.css integrity="sha512-hMQhhXIijKz2GC3Fn+CLXhvNWZu1g7xWl2qgBw9M2KT/Ew7iMTB0NZv226A7IR6MUN90PYStVRV1/QufhJ7IAg==">
+<script>function loadPreferredAppearance(){localStorage.preferredAppearance==="dark"||!("preferredAppearance"in localStorage)&&window.matchMedia("(prefers-color-scheme: dark)").matches?document.documentElement.classList.add("dark"):document.documentElement.classList.remove("dark")}function setPreferredAppearance(a){a=="default"?localStorage.removeItem("preferredAppearance"):localStorage.preferredAppearance=a,loadPreferredAppearance()}loadPreferredAppearance(),window.matchMedia("(prefers-color-scheme: dark)").addListener(loadPreferredAppearance)</script>
+<link rel=apple-touch-icon sizes=180x180 href=/apple-touch-icon.png>
+<link rel=icon type=image/png sizes=32x32 href=/favicon-32x32.png>
+<link rel=icon type=image/png sizes=16x16 href=/favicon-16x16.png>
+<link rel=manifest href=/site.webmanifest>
+<meta property="og:title" content="Distributing Python Applications">
+<meta property="og:description" content="As a preface, this post is mostly rambling thoughts on the current state of ccPublisher 2, and some of the challenges yet to be worked through.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://nyergler.github.io/2005/05/12/distributing-python-applications/"><meta property="article:section" content="posts">
+<meta property="article:published_time" content="2005-05-12T13:05:45+00:00">
+<meta property="article:modified_time" content="2005-05-12T13:05:45+00:00">
+<meta name=twitter:card content="summary">
+<meta name=twitter:title content="Distributing Python Applications">
+<meta name=twitter:description content="As a preface, this post is mostly rambling thoughts on the current state of ccPublisher 2, and some of the challenges yet to be worked through.">
+<script type=application/ld+json>{"@context":"https://schema.org","@type":"BlogPosting","articleSection":"Posts","name":"Distributing Python Applications","headline":"Distributing Python Applications","description":"As a preface, this post is mostly rambling thoughts on the current state of ccPublisher 2, and some of the challenges yet to be worked through.","inLanguage":"en","author":{"@type":"Person","name":"Nathan Yergler"},"creator":{"@type":"Person","name":"Nathan Yergler"},"copyrightHolder":"Nathan Yergler","copyrightYear":"2005","dateCreated":"2005-05-12T13:05:45\u002b00:00","datePublished":"2005-05-12T13:05:45\u002b00:00","dateModified":"2005-05-12T13:05:45\u002b00:00","url":"https:\/\/nyergler.github.io\/2005\/05\/12\/distributing-python-applications\/","wordCount":"1193","keywords":[]}</script>
+<meta name=author content="Nathan Yergler">
+<link href=https://github.com/nyergler rel=me>
+<link href=https://instagram.com/nyergler rel=me>
+</head>
+<body class="flex flex-col h-screen px-6 m-auto text-lg leading-7 bg-neutral text-neutral-900 sm:px-14 md:px-24 lg:px-32 dark:bg-neutral-800 dark:text-neutral max-w-7xl"><header class="flex justify-between py-6 font-semibold sm:items-center sm:py-10 text-neutral-900 dark:text-neutral">
+<div>
+<a class="hover:underline hover:underline-primary-500 hover:underline-thickness-bold hover:underline-offset-small" rel=me href=/>Nathan R. Yergler</a>
+</div>
+<nav>
+<ul class="flex flex-col list-none sm:flex-row">
+<li class="mb-1 text-right sm:mb-0 sm:mr-7 sm:last:mr-0">
+<a class="hover:underline hover:underline-primary-500 hover:underline-thickness-bold hover:underline-offset-small" href=/about/ title="Oh hai.">Bio</a>
+</li>
+<li class="mb-1 text-right sm:mb-0 sm:mr-7 sm:last:mr-0">
+<a class="hover:underline hover:underline-primary-500 hover:underline-thickness-bold hover:underline-offset-small" href=/posts/ title=Posts>Blog</a>
+</li>
+<li class="mb-1 text-right sm:mb-0 sm:mr-7 sm:last:mr-0">
+<a class="hover:underline hover:underline-primary-500 hover:underline-thickness-bold hover:underline-offset-small" href=/prints/ title=Prints>Prints</a>
+</li>
+</ul>
+</nav>
+</header>
+<main class=flex-grow>
+<article class=max-w-prose>
+<header>
+<ol class="text-sm text-neutral-500 dark:text-neutral-400">
+<li class="inline hidden">
+<a class="hover:underline hover:underline-neutral-300 dark:underline-neutral-600" href=/>Nathan R. Yergler</a><span class="px-1 text-primary-500">/</span>
+</li>
+<li class=inline>
+<a class="hover:underline hover:underline-neutral-300 dark:underline-neutral-600" href=/posts/>Posts</a><span class="px-1 text-primary-500">/</span>
+</li>
+<li class="inline hidden">
+<a class="hover:underline hover:underline-neutral-300 dark:underline-neutral-600" href=/2005/05/12/distributing-python-applications/>Distributing Python Applications</a><span class="px-1 text-primary-500">/</span>
+</li>
+</ol>
+<h1 class="mt-0 text-4xl font-extrabold text-neutral-900 dark:text-neutral">
+Distributing Python Applications
+</h1>
+<div class="mt-8 mb-12 text-base text-neutral-500 dark:text-neutral-400">
+<div class="flex flex-row items-center">
+<time datetime="2005-05-12 13:05:45 +0000 UTC">12 May 2005</time>
+</div>
+</div>
+</header>
+<section class="prose dark:prose-light">
+<p>As a preface, this post is mostly rambling thoughts on the current state of ccPublisher 2, and some of the challenges yet to be worked through. You’ve been warned.</p>
+<p>So now that the semester has wrapped up and my days are no longer consumed by homework, exams and projects, I’ve been trying to move forward with ccPublisher 2, the long awaited (and long promised) update to ccPublisher. While we’re not planning any new user features of ccP2, it’s an important milestone for another reason: extensibility. The current ccPublisher codebase is rather monolithic, and can be customized in only the broadest sense of the word. That is, yes, you can customize it. What, you want to merge features from the main tree? Hah! Since we already have two derivatives of ccPublisher in the wild (Jamloader and Ourmedia Publisher), a primary goal (maybe the central goal?) for ccP2 is making these customizations easier, and also making them more compatible over the long haul with the core ccPublisher codebase.</p>
+<p>The central development philosophy we’ve been using to make this a reality can sort of be summed up as “extreme programming, table for one.” We’ve grabbed lots of pieces of code from the Zope 3 project, specifically the component model, interface support and <span class=caps>ZCML</span>. This lets us handle lots of situations that were previously part of the formal <span class=caps>API</span> with events, adapters and handlers. It’s not important where files are selected, the primary application class only needs to listen for the appropriate event. So when I’m working on the code, here’s what I keep in mind:</p>
+<ul class=simple>
+<li>
+ignorance is bliss,
+</li>
+<li>
+<span class=caps>YAGNI</span>,
+</li>
+<li>
+and your code is crap.
+</li>
+</ul>
+<p>Let me elaborate. First, “ignorance is bliss.” I’ve begun to think of object models and APIs much the way I think about property taxes. I know that I pay property taxes on my house, and I know that money is taken form my mortgage payment and placed in escrow for that reason. But I’m willfully ignorant about how much I’m paying or how the escrow works: I just know that I can afford the monthly house payment, and leave it to others to sweat the details.</p>
+<p>Between the ccPublisher 1.x releases and the current ccP2 codebase, there was another implementation. It was better than the 1.x release, but had it’s own problems. It traded the maintenance problems of the ccP1 monolithic code base for a large, complex <span class=caps>API</span> meant to enforce <span class=caps>MVC</span> seperation, blah, blah, blah. That model relied on subclassing for customization, and as such you had to be aware of a fairly complex super class to make things work right. The new ccP2 codebase doesn’t have any enforced seperation: you just pick the pieces you want to replace, implement the correct event publishers or handlers, and the superclass does the rest. This may be a little hard to visualize in the abstract, but the result has been a much more flexible “feeling” <span class=caps>API</span>.</p>
+<p><span class=caps>YAGNI</span> is an extreme programming acronym, standing for “You Ain’t Gonna Need It.” As I’ve been working on ccP2, I’ve tried to keep this in mind. I (and <span class=caps>XP</span> guys, I guess) do this because it’s not necessary to spend time working on an <span class=caps>API</span> for implementation you don’t actually need. Better to implement the bare bones functionality, and then begin experimenting with more complex use cases. In the case of ccP2, this has allowed me to get a functional, testable application up and running, and then focus on “niceties” such as drop-down boxes and cleaning up the <span class=caps>UI</span>.</p>
+<p>Finally, “your code is crap.” And by “your”, I mean “my”. This is my slightly stronger version of the <span class=caps>XP</span> principle of being willing to throw stuff away. I know that I tend to become very attached to my code, and want it to be pretty, elegant and pristine. And when it’s not, I like to delude myself into thinking it is, and continue to tack features on when clearly, I just need to throw it away. So I just tell myself, “Yergler [yes, I call myself by my last name — it has a middle school gym teacher sound to it that seems to motivate, or at least frighten, me in a productive manner]! Your code is crap! Drop and give me twenty!” This makes me much more willing to tear out code wholesale. And while I’m at it, this ties back in with the first point — if I’ve done it remotely right, I’ll be able to tear out the crap without disturbing the parts that are actually working.</p>
+<p>So now that we have a working component model (well, one we stole from Zope 3 that we’ve successfully adapted), what’s left to implement? Distribution. One of the points of ccP2 is to allow minimally invasive customization. In the current code base, metadata fields can be added by simply modifying a configuration file, so it doesn’t make much sense to ask customizers to ship a slew of code if all they really have made is an <span class=caps>XML</span> file. Additionally, it doesn’t make much sense to have half a dozen (ok, 2) versions of the framework on the machine in different places — it should really be shared so that when one App updates the framework, everyone reaps the benefits of bug fixes and internal improvements. Here’s some of my thoughts on this right now:</p>
+<ul class=simple>
+<li>
+For Windows systems, we can register the framework with a registry key. The installer can then check for the key and adjust the paths in the executable scripts accordingly. In this case, the framework includes the Python binary, library.zip and everything else generated by py2exe. I think (from my limited research) that <a class="reference external" href=http://nsis.sf.net><span class=caps>NSIS</span></a> can be used and scripted in such a way as to check for the existance and version of the framework before installing.
+</li>
+<li>
+For Linux systems, a similar approach could be used, with gconf substitued for the registry. Maybe. Since wxPython has a mature <span class=caps>GTK2</span> backend, I tend to focus on Gnome over <span class=caps>KDE</span>, but really we should be able to find things “the right way” (for some definition of right). Maybe <a class="reference external" href=http://freedesktop.org>freedesktop.org</a> has a semi-standard way for registering installations, or maybe the framework should be it’s own package (<span class=caps>RPM</span>, deb, etc) which the actual app can depend on.
+</li>
+<li>
+For Mac <span class=caps>OS</span> X, the problem is a bit trickier. Up to this point when distributing Python apps, I’ve used Py2Exe for Windows along with an installer (<a class="reference external" href=http://wix.sf.net>WiX</a>, etc). For <span class=caps>OS</span> X, I’ve been able to just use buildapp or py2app and bundle everything into a single app package. For this new model, we’ll need to install some pieces to the Library, some to Applications, etc. I’m sure this is possible (lots of apps do it), but have no experience with it. Additionally, I’m not completely clear on what will need to be tweaked in the final .app file to include the Library in the <span class=caps>PYTHONPATH</span>.
+</li>
+</ul>
+<p>Overall the problem is not insurmountable, but simple one of resources. And it sucks that each platform will need it’s own attention. I guess the upside is that once we’ve figured it out, customizers won’t have to worry about the details. And that’s a good thing.</p>
+</section>
+<footer class=pt-8>
+<div class="pt-8 article-pagination">
+<hr class="border-dotted border-neutral-300 dark:border-neutral-600">
+<div class="flex justify-between pt-3">
+<span>
+<a class=flex href=/2005/05/13/30-days-of-my-life/>
+<span class="mr-3 article-pagination-direction">&larr;</span>
+<span class="flex flex-col">
+<span class="article-pagination-title mt-[0.1rem] leading-6">
+30 days of my life</span>
+<span class="mt-[0.1rem] text-xs text-neutral-400 dark:text-neutral-500">
+<time datetime="2005-05-13 08:46:01 +0000 UTC">13 May 2005</time>
+</span>
+</span>
+</a>
+</span>
+<span>
+<a class="flex text-right" href=/2005/05/10/samson/>
+<span class="flex flex-col">
+<span class="article-pagination-title mt-[0.1rem] leading-6">Samson</span>
+<span class="mt-[0.1rem] text-xs text-neutral-400 dark:text-neutral-500">
+<time datetime="2005-05-10 07:13:43 +0000 UTC">10 May 2005</time>
+</span>
+</span>
+<span class="ml-3 article-pagination-direction">&rarr;</span>
+</a>
+</span>
+</div>
+</div>
+</footer>
+</article>
+</main><footer class=py-10>
+<nav class="pb-4 text-base font-medium text-neutral-500 dark:text-neutral-400">
+<ul class="flex flex-col list-none sm:flex-row">
+<li class="mb-1 sm:mb-0 sm:mr-7 sm:last:mr-0">
+<a class="hover:underline hover:underline-primary-500 hover:underline-thickness-bold hover:underline-offset-small" href=/tags/ title=Tags>Tags</a>
+</li>
+<li class="mb-1 sm:mb-0 sm:mr-7 sm:last:mr-0">
+<a class="hover:underline hover:underline-primary-500 hover:underline-thickness-bold hover:underline-offset-small" href=/categories/ title=Categories>Categories</a>
+</li>
+</ul>
+</nav>
+<div class="flex justify-between">
+<div>
+<p class="text-sm text-neutral-500 dark:text-neutral-400">
+&copy;
+2022
+Nathan Yergler
+</p>
+</div>
+</div>
+</footer>
+</body>
+</html>

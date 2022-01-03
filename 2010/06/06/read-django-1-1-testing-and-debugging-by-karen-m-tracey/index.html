@@ -1,0 +1,134 @@
+<!doctype html><html lang=en><head>
+<meta charset=utf-8>
+<meta http-equiv=content-language content="en">
+<meta name=viewport content="width=device-width,initial-scale=1">
+<meta http-equiv=x-ua-compatible content="ie=edge">
+<title>Read: “Django 1.1 Testing and Debugging”, by Karen M. Tracey &#183; Nathan R. Yergler</title>
+<meta name=title content="Read: “Django 1.1 Testing and Debugging”, by Karen M. Tracey &#183; Nathan R. Yergler">
+<meta name=description content>
+<link rel=canonical href=https://nyergler.github.io/2010/06/06/read-django-1-1-testing-and-debugging-by-karen-m-tracey/>
+<link type=text/css rel=stylesheet href=/css/schemes/ocean.min.ff17c50528c7a4a8a8bb8ec41272d63eb936ecefb9ccfa6db45cd1f5cd8b1becf8606745f751ee0d322ac80c9cb96e58aa699b38aa44cff9d2a8b3ff4f05a7b5.css integrity="sha512-/xfFBSjHpKiou47EEnLWPrk27O+5zPpttFzR9c2LG+z4YGdF91HuDTIqyAycuW5YqmmbOKpEz/nSqLP/TwWntQ==">
+<link type=text/css rel=stylesheet href=/css/compiled/main.min.84c4218572228cacf6182dc59fe08b5e1bcd599bb583bc56976aa0070f4cd8a4ff130ee2313074359bf6dba03b211e8c50df743d84ad551575fd0b9f849ec802.css integrity="sha512-hMQhhXIijKz2GC3Fn+CLXhvNWZu1g7xWl2qgBw9M2KT/Ew7iMTB0NZv226A7IR6MUN90PYStVRV1/QufhJ7IAg==">
+<script>function loadPreferredAppearance(){localStorage.preferredAppearance==="dark"||!("preferredAppearance"in localStorage)&&window.matchMedia("(prefers-color-scheme: dark)").matches?document.documentElement.classList.add("dark"):document.documentElement.classList.remove("dark")}function setPreferredAppearance(a){a=="default"?localStorage.removeItem("preferredAppearance"):localStorage.preferredAppearance=a,loadPreferredAppearance()}loadPreferredAppearance(),window.matchMedia("(prefers-color-scheme: dark)").addListener(loadPreferredAppearance)</script>
+<link rel=apple-touch-icon sizes=180x180 href=/apple-touch-icon.png>
+<link rel=icon type=image/png sizes=32x32 href=/favicon-32x32.png>
+<link rel=icon type=image/png sizes=16x16 href=/favicon-16x16.png>
+<link rel=manifest href=/site.webmanifest>
+<meta property="og:title" content="Read: “Django 1.1 Testing and Debugging”, by Karen M. Tracey">
+<meta property="og:description" content="Packt Publishing sent me a copy of `Django 1.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://nyergler.github.io/2010/06/06/read-django-1-1-testing-and-debugging-by-karen-m-tracey/"><meta property="article:section" content="posts">
+<meta property="article:published_time" content="2010-06-06T17:42:47+00:00">
+<meta property="article:modified_time" content="2010-06-06T17:42:47+00:00">
+<meta name=twitter:card content="summary">
+<meta name=twitter:title content="Read: “Django 1.1 Testing and Debugging”, by Karen M. Tracey">
+<meta name=twitter:description content="Packt Publishing sent me a copy of `Django 1.">
+<script type=application/ld+json>{"@context":"https://schema.org","@type":"BlogPosting","articleSection":"Posts","name":"Read: “Django 1.1 Testing and Debugging”, by Karen M. Tracey","headline":"Read: “Django 1.1 Testing and Debugging”, by Karen M. Tracey","description":"Packt Publishing sent me a copy of `Django 1.","inLanguage":"en","author":{"@type":"Person","name":"Nathan Yergler"},"creator":{"@type":"Person","name":"Nathan Yergler"},"copyrightHolder":"Nathan Yergler","copyrightYear":"2010","dateCreated":"2010-06-06T17:42:47\u002b00:00","datePublished":"2010-06-06T17:42:47\u002b00:00","dateModified":"2010-06-06T17:42:47\u002b00:00","url":"https:\/\/nyergler.github.io\/2010\/06\/06\/read-django-1-1-testing-and-debugging-by-karen-m-tracey\/","wordCount":"567","keywords":["2010","nonfiction","read","review"]}</script>
+<meta name=author content="Nathan Yergler">
+<link href=https://github.com/nyergler rel=me>
+<link href=https://instagram.com/nyergler rel=me>
+</head>
+<body class="flex flex-col h-screen px-6 m-auto text-lg leading-7 bg-neutral text-neutral-900 sm:px-14 md:px-24 lg:px-32 dark:bg-neutral-800 dark:text-neutral max-w-7xl"><header class="flex justify-between py-6 font-semibold sm:items-center sm:py-10 text-neutral-900 dark:text-neutral">
+<div>
+<a class="hover:underline hover:underline-primary-500 hover:underline-thickness-bold hover:underline-offset-small" rel=me href=/>Nathan R. Yergler</a>
+</div>
+<nav>
+<ul class="flex flex-col list-none sm:flex-row">
+<li class="mb-1 text-right sm:mb-0 sm:mr-7 sm:last:mr-0">
+<a class="hover:underline hover:underline-primary-500 hover:underline-thickness-bold hover:underline-offset-small" href=/about/ title="Oh hai.">Bio</a>
+</li>
+<li class="mb-1 text-right sm:mb-0 sm:mr-7 sm:last:mr-0">
+<a class="hover:underline hover:underline-primary-500 hover:underline-thickness-bold hover:underline-offset-small" href=/posts/ title=Posts>Blog</a>
+</li>
+<li class="mb-1 text-right sm:mb-0 sm:mr-7 sm:last:mr-0">
+<a class="hover:underline hover:underline-primary-500 hover:underline-thickness-bold hover:underline-offset-small" href=/prints/ title=Prints>Prints</a>
+</li>
+</ul>
+</nav>
+</header>
+<main class=flex-grow>
+<article class=max-w-prose>
+<header>
+<ol class="text-sm text-neutral-500 dark:text-neutral-400">
+<li class="inline hidden">
+<a class="hover:underline hover:underline-neutral-300 dark:underline-neutral-600" href=/>Nathan R. Yergler</a><span class="px-1 text-primary-500">/</span>
+</li>
+<li class=inline>
+<a class="hover:underline hover:underline-neutral-300 dark:underline-neutral-600" href=/posts/>Posts</a><span class="px-1 text-primary-500">/</span>
+</li>
+<li class="inline hidden">
+<a class="hover:underline hover:underline-neutral-300 dark:underline-neutral-600" href=/2010/06/06/read-django-1-1-testing-and-debugging-by-karen-m-tracey/>Read: “Django 1.1 Testing and Debugging”, by Karen M. Tracey</a><span class="px-1 text-primary-500">/</span>
+</li>
+</ol>
+<h1 class="mt-0 text-4xl font-extrabold text-neutral-900 dark:text-neutral">
+Read: “Django 1.1 Testing and Debugging”, by Karen M. Tracey
+</h1>
+<div class="mt-8 mb-12 text-base text-neutral-500 dark:text-neutral-400">
+<div class="flex flex-row items-center">
+<time datetime="2010-06-06 17:42:47 +0000 UTC">6 June 2010</time>
+</div>
+</div>
+</header>
+<section class="prose dark:prose-light">
+<p>Packt Publishing <a href=http://yergler.net/blog/2010/05/16/preread-django-1-1-testing-and-debugging-by-karen-m-tracey/>sent</a> me a copy of <em>`Django 1.1 Testing and Debugging <a href="http://www.packtpub.com/django-1-1-testing-and-debugging/book?utm%5C_source=yergler.net&utm%5C_medium=bookrev&utm%5C_content=blog&utm%5C_campaign=mdb%5C_003267">http://www.packtpub.com/django-1-1-testing-and-debugging/book?utm\_source=yergler.net&utm\_medium=bookrev&utm\_content=blog&utm\_campaign=mdb\_003267</a>`_</em> for review. I was particularly interested in reading this title, as testing is something I know makes my code better, but don’t feel like I do enough of, and because I work on a couple of <a href=http://djangoproject.com>Django</a> -based projects in my spare time, with varying degrees of test coverage. While I consider myself comfortable with Python’s stock <tt class="docutils literal"><code>unittest&lt;/tt> &lt;&lt;http://docs.python.org/library/unittest.html> >\</code>_ and <tt class="docutils literal"><code>doctest&lt;/tt> &lt;&lt;http://docs.python.org/library/doctest.html> >\</code>_ modules, I was curious to learn about how you can integrate Django with other Python testing tools.</p>
+<p><em>Django 1.1. Testing and Debugging</em> is split, as the title implies, into two halves: Testing, followed by Debugging. It uses a narrative approach, following the development of a survey application throughout. The book starts with an overview of the stock unittest and doctest facilities in Python. Most of chapters 1 through 3 are devoted to the basics of unit testing, specifically for Model classes. Tracey provides information about Django-specific nuances along with way. For example, I didn’t realize Django ships with a customized doctest module to enabled <a href=http://docs.python.org/library/doctest.html#doctest.ELLIPSIS><span class=caps>ELLIPSES</span></a> support in Python 2.3. Chapter 3 also provides information about how to use fixtures for providing test data, and how to specify those apart from the initial data fixtures developers may already be aware of. Chapter 4 mirrors some of the information found in Django’s <a href=http://docs.djangoproject.com/en/1.1/topics/testing/>testing documentation</a> : the Django <a href=http://docs.djangoproject.com/en/1.1/topics/testing/#testcase>TestCase</a> , and how you use it to do basic view testing.</p>
+<p>Chapter 5 describes integrating Django with other tools, primarily by example. Tracey discusses how to replace the default Django test runner, and what interface the replacement needs to implement. She also provides a stub example of more “invasive” integration, crafting a new management command that could (possibly) handle code coverage reporting while running the tests. This stub was interesting, but didn’t feel particularly testing related to me. Chapter 5 closes with examples of using the excellent <a href=http://pypi.python.org/pypi/coverage>coverage</a> package with <a href=http://pypi.python.org/pypi/django-coverage>django-coverage</a> , and integrating twill into Django tests.</p>
+<p>Chapter 6 begins the section on debugging with an overview of the Django settings that impact debugging, and how the development server supports debugging of applications. Chapter 7 follows with a thorough analysis of the development server’s error page, as well as examples of debugging based on the information given. The examples continue to develop the survey application, and introduces what Tracey describes as “typical mistakes”, then describes how to fix them.</p>
+<p>Chapter 8 begins to dig a little deeper, and I was happy to see mention of Rob Hudson’s <a href=http://github.com/robhudson/django-debug-toolbar>Django Debug Toolbar</a> , an indispensable tool. Chapter 8 also includes details on using the <a href=http://docs.python.org/library/logging.html>logging</a> module, and how to develop a decorator that marks function entry and exit. I know that I’m all too guilty of using <tt class="docutils literal">print</tt> instead of <tt class="docutils literal">logging</tt>, and it was nice to be reminded of how easy this is.</p>
+<p>Chapter 9 was my favorite part of the book. It gives a good overview of using <a href=http://docs.python.org/library/pdb.html>pdb</a> , and then goes on to demonstrate how to use pdb and a shell session to test a race condition and deal with it.</p>
+<p>Overall <em>`Django 1.1 Testing and Debugging <a href="http://www.packtpub.com/django-1-1-testing-and-debugging/book?utm%5C_source=yergler.net&utm%5C_medium=bookrev&utm%5C_content=blog&utm%5C_campaign=mdb%5C_003267">http://www.packtpub.com/django-1-1-testing-and-debugging/book?utm\_source=yergler.net&utm\_medium=bookrev&utm\_content=blog&utm\_campaign=mdb\_003267</a>`_</em> seems like a good introductory book for Django developers who are new to testing (or Django). While many of the debugging examples seemed obvious to me, I suspect that someone new to Django could use this book as an introduction to development and debugging.</p>
+</section>
+<footer class=pt-8>
+<div class="pt-8 article-pagination">
+<hr class="border-dotted border-neutral-300 dark:border-neutral-600">
+<div class="flex justify-between pt-3">
+<span>
+<a class=flex href=/2010/06/06/reading-update-short-reviews/>
+<span class="mr-3 article-pagination-direction">&larr;</span>
+<span class="flex flex-col">
+<span class="article-pagination-title mt-[0.1rem] leading-6">
+Reading Update: Short Reviews</span>
+<span class="mt-[0.1rem] text-xs text-neutral-400 dark:text-neutral-500">
+<time datetime="2010-06-06 18:14:22 +0000 UTC">6 June 2010</time>
+</span>
+</span>
+</a>
+</span>
+<span>
+<a class="flex text-right" href=/2010/06/06/batteries-included-or-maildir-to-mbox-again/>
+<span class="flex flex-col">
+<span class="article-pagination-title mt-[0.1rem] leading-6">Batteries Included (or, Maildir to mbox, again)</span>
+<span class="mt-[0.1rem] text-xs text-neutral-400 dark:text-neutral-500">
+<time datetime="2010-06-06 13:04:29 +0000 UTC">6 June 2010</time>
+</span>
+</span>
+<span class="ml-3 article-pagination-direction">&rarr;</span>
+</a>
+</span>
+</div>
+</div>
+</footer>
+</article>
+</main><footer class=py-10>
+<nav class="pb-4 text-base font-medium text-neutral-500 dark:text-neutral-400">
+<ul class="flex flex-col list-none sm:flex-row">
+<li class="mb-1 sm:mb-0 sm:mr-7 sm:last:mr-0">
+<a class="hover:underline hover:underline-primary-500 hover:underline-thickness-bold hover:underline-offset-small" href=/tags/ title=Tags>Tags</a>
+</li>
+<li class="mb-1 sm:mb-0 sm:mr-7 sm:last:mr-0">
+<a class="hover:underline hover:underline-primary-500 hover:underline-thickness-bold hover:underline-offset-small" href=/categories/ title=Categories>Categories</a>
+</li>
+</ul>
+</nav>
+<div class="flex justify-between">
+<div>
+<p class="text-sm text-neutral-500 dark:text-neutral-400">
+&copy;
+2022
+Nathan Yergler
+</p>
+</div>
+</div>
+</footer>
+</body>
+</html>

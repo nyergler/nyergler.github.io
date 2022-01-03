@@ -1,0 +1,132 @@
+<!doctype html><html lang=en><head>
+<meta charset=utf-8>
+<meta http-equiv=content-language content="en">
+<meta name=viewport content="width=device-width,initial-scale=1">
+<meta http-equiv=x-ua-compatible content="ie=edge">
+<title>Living With It &#183; Nathan R. Yergler</title>
+<meta name=title content="Living With It &#183; Nathan R. Yergler">
+<meta name=description content>
+<link rel=canonical href=https://nyergler.github.io/2012/05/15/living-with-it/>
+<link type=text/css rel=stylesheet href=/css/schemes/ocean.min.ff17c50528c7a4a8a8bb8ec41272d63eb936ecefb9ccfa6db45cd1f5cd8b1becf8606745f751ee0d322ac80c9cb96e58aa699b38aa44cff9d2a8b3ff4f05a7b5.css integrity="sha512-/xfFBSjHpKiou47EEnLWPrk27O+5zPpttFzR9c2LG+z4YGdF91HuDTIqyAycuW5YqmmbOKpEz/nSqLP/TwWntQ==">
+<link type=text/css rel=stylesheet href=/css/compiled/main.min.84c4218572228cacf6182dc59fe08b5e1bcd599bb583bc56976aa0070f4cd8a4ff130ee2313074359bf6dba03b211e8c50df743d84ad551575fd0b9f849ec802.css integrity="sha512-hMQhhXIijKz2GC3Fn+CLXhvNWZu1g7xWl2qgBw9M2KT/Ew7iMTB0NZv226A7IR6MUN90PYStVRV1/QufhJ7IAg==">
+<script>function loadPreferredAppearance(){localStorage.preferredAppearance==="dark"||!("preferredAppearance"in localStorage)&&window.matchMedia("(prefers-color-scheme: dark)").matches?document.documentElement.classList.add("dark"):document.documentElement.classList.remove("dark")}function setPreferredAppearance(a){a=="default"?localStorage.removeItem("preferredAppearance"):localStorage.preferredAppearance=a,loadPreferredAppearance()}loadPreferredAppearance(),window.matchMedia("(prefers-color-scheme: dark)").addListener(loadPreferredAppearance)</script>
+<link rel=apple-touch-icon sizes=180x180 href=/apple-touch-icon.png>
+<link rel=icon type=image/png sizes=32x32 href=/favicon-32x32.png>
+<link rel=icon type=image/png sizes=16x16 href=/favicon-16x16.png>
+<link rel=manifest href=/site.webmanifest>
+<meta property="og:title" content="Living With It">
+<meta property="og:description" content="So now that I’ve talked about what I think of when I say “technical debt”, I want to dig in on the other half of the title, “Living With It”.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://nyergler.github.io/2012/05/15/living-with-it/"><meta property="article:section" content="posts">
+<meta property="article:published_time" content="2012-05-15T21:32:00+00:00">
+<meta property="article:modified_time" content="2012-05-15T21:32:00+00:00">
+<meta name=twitter:card content="summary">
+<meta name=twitter:title content="Living With It">
+<meta name=twitter:description content="So now that I’ve talked about what I think of when I say “technical debt”, I want to dig in on the other half of the title, “Living With It”.">
+<script type=application/ld+json>{"@context":"https://schema.org","@type":"BlogPosting","articleSection":"Posts","name":"Living With It","headline":"Living With It","description":"So now that I’ve talked about what I think of when I say “technical debt”, I want to dig in on the other half of the title, “Living With It”.","inLanguage":"en","author":{"@type":"Person","name":"Nathan Yergler"},"creator":{"@type":"Person","name":"Nathan Yergler"},"copyrightHolder":"Nathan Yergler","copyrightYear":"2012","dateCreated":"2012-05-15T21:32:00\u002b00:00","datePublished":"2012-05-15T21:32:00\u002b00:00","dateModified":"2012-05-15T21:32:00\u002b00:00","url":"https:\/\/nyergler.github.io\/2012\/05\/15\/living-with-it\/","wordCount":"771","keywords":[]}</script>
+<meta name=author content="Nathan Yergler">
+<link href=https://github.com/nyergler rel=me>
+<link href=https://instagram.com/nyergler rel=me>
+</head>
+<body class="flex flex-col h-screen px-6 m-auto text-lg leading-7 bg-neutral text-neutral-900 sm:px-14 md:px-24 lg:px-32 dark:bg-neutral-800 dark:text-neutral max-w-7xl"><header class="flex justify-between py-6 font-semibold sm:items-center sm:py-10 text-neutral-900 dark:text-neutral">
+<div>
+<a class="hover:underline hover:underline-primary-500 hover:underline-thickness-bold hover:underline-offset-small" rel=me href=/>Nathan R. Yergler</a>
+</div>
+<nav>
+<ul class="flex flex-col list-none sm:flex-row">
+<li class="mb-1 text-right sm:mb-0 sm:mr-7 sm:last:mr-0">
+<a class="hover:underline hover:underline-primary-500 hover:underline-thickness-bold hover:underline-offset-small" href=/about/ title="Oh hai.">Bio</a>
+</li>
+<li class="mb-1 text-right sm:mb-0 sm:mr-7 sm:last:mr-0">
+<a class="hover:underline hover:underline-primary-500 hover:underline-thickness-bold hover:underline-offset-small" href=/posts/ title=Posts>Blog</a>
+</li>
+<li class="mb-1 text-right sm:mb-0 sm:mr-7 sm:last:mr-0">
+<a class="hover:underline hover:underline-primary-500 hover:underline-thickness-bold hover:underline-offset-small" href=/prints/ title=Prints>Prints</a>
+</li>
+</ul>
+</nav>
+</header>
+<main class=flex-grow>
+<article class=max-w-prose>
+<header>
+<ol class="text-sm text-neutral-500 dark:text-neutral-400">
+<li class="inline hidden">
+<a class="hover:underline hover:underline-neutral-300 dark:underline-neutral-600" href=/>Nathan R. Yergler</a><span class="px-1 text-primary-500">/</span>
+</li>
+<li class=inline>
+<a class="hover:underline hover:underline-neutral-300 dark:underline-neutral-600" href=/posts/>Posts</a><span class="px-1 text-primary-500">/</span>
+</li>
+<li class="inline hidden">
+<a class="hover:underline hover:underline-neutral-300 dark:underline-neutral-600" href=/2012/05/15/living-with-it/>Living With It</a><span class="px-1 text-primary-500">/</span>
+</li>
+</ol>
+<h1 class="mt-0 text-4xl font-extrabold text-neutral-900 dark:text-neutral">
+Living With It
+</h1>
+<div class="mt-8 mb-12 text-base text-neutral-500 dark:text-neutral-400">
+<div class="flex flex-row items-center">
+<time datetime="2012-05-15 21:32:00 +0000 UTC">15 May 2012</time>
+</div>
+</div>
+</header>
+<section class="prose dark:prose-light">
+<p>So now that I’ve talked about what I think of when I say “technical debt”, I want to dig in on the other half of the title, “Living With It”. What does it mean to <strong>live</strong> with technical debt? I want to be clear: it does not mean simply accepting or ignoring it. I’m certain that’s the wrong way to build long-lived, robust software. When we encounter technical debt, or something that feels hard, I think there are a few common, understandable, and dangerous reactions. These roughly fall into the categories of “I can do better”, “One more won’t hurt”, and “I can’t go on.”</p>
+<p>When some engineers — even good (but not great) ones — encounter technical debt, their reaction may be “I can do better”. That is, “Oh, this is terrible, I can’t possibly work with code like <strong>this</strong>, I’ll rewrite this part of the system, and then I can get around to what I came here to do.” Rewriting or refactoring debt away may be the right decision, but this statement contains unspoken assumptions that better code is more important than new features or bug fixes for users. This is where the paradox of living with technical debt first shows itself: living with technical debt does not mean accepting it, but it also doesn’t mean fixing it. Right now. The business, the organization, has to make decisions about what’s most important. (Engineers need input into those decisions, and the business needs to respect that input, or the best engineers will go elsewhere, where their input will be respected.) It’s up to the business to decide “can we go dark for n days/weeks/months.” Sometimes the answer may be yes, and we’re free to improve the code with abandon. I think that’s a rare situation. More often the answer is “no”, so we need to live with the debt and develop strategies for improving it (more on that later).</p>
+<p>Another reaction that I think is all too common is “I guess one more won’t hurt”. That is, “Well, we’re stupid is these five places, what’s one more?” Living with technical debt does not mean you continue to incur it. If anything, it’s essential to stop running up the tab. This requires rigor and strength of will, not just on the part of the engineer working on the code, but on her peers. The team needs to decide that incurring additional debt is not acceptable: you can maintain or you can improve, but you can’t backslide. The danger of “one more won’t hurt” is that the problem spreads: you build new features that repeat past mistakes, instead of providing a model for future work.</p>
+<p>Finally, sometimes we look at code and think, “I can’t go on”. I find that those are the time it’s helpful to step away from a project, take a break, come back after a good night’s sleep. You don’t always have that luxury, but feelings of despair rarely coincide with my best work. I’ve observed that indulging in the first two ways of thinking — “I can do better” and “One more won’t hurt” — often leads to the final one — “I can’t go on”. “One more won’t hurt” just digs a deeper and deeper hole, until you can’t see your way out, and “I can do better” often leaves you with a piece of “perfect” code that doesn’t quite fit into the rest of the system, leaving you to shims and scotch tape, the very things you started out trying to avoid.</p>
+<p>In “Good to Great”, Jim Collins writes about characteristics that separate good companies from great ones. One of the principles he identifies is “Confront the brutal facts, but never lose faith.” In other words, it does no good to pretend that your code (company in his case) is something that it isn’t. Collins talks about meeting Admiral Stockdale, and asking him, “Who didn’t make it out?” “Oh, that’s easy — the optimists.” Stockdale explains that the optimists were routinely disappointed, and eventually lost faith. “I can’t go on.” Collins quotes Stockdale as saying, “You must never confuse faith that you will prevail in the end — which you can never afford to lose — with the discipline to confront the most brutal facts of your current reality, whatever they might be.” Technical debt may be a far cry from Stockdale’s situation, but the principle holds as the heart of truly living with technical debt: we must confront things as they are, not as we wish they were. And we must believe that we can make things better, that we know where we’re going.</p>
+</section>
+<footer class=pt-8>
+<div class="pt-8 article-pagination">
+<hr class="border-dotted border-neutral-300 dark:border-neutral-600">
+<div class="flex justify-between pt-3">
+<span>
+<a class=flex href=/2012/05/16/new-foundations/>
+<span class="mr-3 article-pagination-direction">&larr;</span>
+<span class="flex flex-col">
+<span class="article-pagination-title mt-[0.1rem] leading-6">
+New Foundations</span>
+<span class="mt-[0.1rem] text-xs text-neutral-400 dark:text-neutral-500">
+<time datetime="2012-05-16 23:13:57 +0000 UTC">16 May 2012</time>
+</span>
+</span>
+</a>
+</span>
+<span>
+<a class="flex text-right" href=/2012/05/14/living-with-technical-debt-part-one/>
+<span class="flex flex-col">
+<span class="article-pagination-title mt-[0.1rem] leading-6">Living With Technical Debt, Part One</span>
+<span class="mt-[0.1rem] text-xs text-neutral-400 dark:text-neutral-500">
+<time datetime="2012-05-14 21:29:05 +0000 UTC">14 May 2012</time>
+</span>
+</span>
+<span class="ml-3 article-pagination-direction">&rarr;</span>
+</a>
+</span>
+</div>
+</div>
+</footer>
+</article>
+</main><footer class=py-10>
+<nav class="pb-4 text-base font-medium text-neutral-500 dark:text-neutral-400">
+<ul class="flex flex-col list-none sm:flex-row">
+<li class="mb-1 sm:mb-0 sm:mr-7 sm:last:mr-0">
+<a class="hover:underline hover:underline-primary-500 hover:underline-thickness-bold hover:underline-offset-small" href=/tags/ title=Tags>Tags</a>
+</li>
+<li class="mb-1 sm:mb-0 sm:mr-7 sm:last:mr-0">
+<a class="hover:underline hover:underline-primary-500 hover:underline-thickness-bold hover:underline-offset-small" href=/categories/ title=Categories>Categories</a>
+</li>
+</ul>
+</nav>
+<div class="flex justify-between">
+<div>
+<p class="text-sm text-neutral-500 dark:text-neutral-400">
+&copy;
+2022
+Nathan Yergler
+</p>
+</div>
+</div>
+</footer>
+</body>
+</html>

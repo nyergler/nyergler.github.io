@@ -1,0 +1,132 @@
+<!doctype html><html lang=en><head>
+<meta charset=utf-8>
+<meta http-equiv=content-language content="en">
+<meta name=viewport content="width=device-width,initial-scale=1">
+<meta http-equiv=x-ua-compatible content="ie=edge">
+<title>Pre-read: Grok 1.0 Web Development &#183; Nathan R. Yergler</title>
+<meta name=title content="Pre-read: Grok 1.0 Web Development &#183; Nathan R. Yergler">
+<meta name=description content>
+<link rel=canonical href=https://nyergler.github.io/2010/03/16/pre-read-grok-1-0-web-development/>
+<link type=text/css rel=stylesheet href=/css/schemes/ocean.min.ff17c50528c7a4a8a8bb8ec41272d63eb936ecefb9ccfa6db45cd1f5cd8b1becf8606745f751ee0d322ac80c9cb96e58aa699b38aa44cff9d2a8b3ff4f05a7b5.css integrity="sha512-/xfFBSjHpKiou47EEnLWPrk27O+5zPpttFzR9c2LG+z4YGdF91HuDTIqyAycuW5YqmmbOKpEz/nSqLP/TwWntQ==">
+<link type=text/css rel=stylesheet href=/css/compiled/main.min.84c4218572228cacf6182dc59fe08b5e1bcd599bb583bc56976aa0070f4cd8a4ff130ee2313074359bf6dba03b211e8c50df743d84ad551575fd0b9f849ec802.css integrity="sha512-hMQhhXIijKz2GC3Fn+CLXhvNWZu1g7xWl2qgBw9M2KT/Ew7iMTB0NZv226A7IR6MUN90PYStVRV1/QufhJ7IAg==">
+<script>function loadPreferredAppearance(){localStorage.preferredAppearance==="dark"||!("preferredAppearance"in localStorage)&&window.matchMedia("(prefers-color-scheme: dark)").matches?document.documentElement.classList.add("dark"):document.documentElement.classList.remove("dark")}function setPreferredAppearance(a){a=="default"?localStorage.removeItem("preferredAppearance"):localStorage.preferredAppearance=a,loadPreferredAppearance()}loadPreferredAppearance(),window.matchMedia("(prefers-color-scheme: dark)").addListener(loadPreferredAppearance)</script>
+<link rel=apple-touch-icon sizes=180x180 href=/apple-touch-icon.png>
+<link rel=icon type=image/png sizes=32x32 href=/favicon-32x32.png>
+<link rel=icon type=image/png sizes=16x16 href=/favicon-16x16.png>
+<link rel=manifest href=/site.webmanifest>
+<meta property="og:title" content="Pre-read: Grok 1.0 Web Development">
+<meta property="og:description" content="|image0| Late last month I received an email from Packt Publishing (en.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://nyergler.github.io/2010/03/16/pre-read-grok-1-0-web-development/"><meta property="article:section" content="posts">
+<meta property="article:published_time" content="2010-03-16T09:14:50+00:00">
+<meta property="article:modified_time" content="2010-03-16T09:14:50+00:00">
+<meta name=twitter:card content="summary">
+<meta name=twitter:title content="Pre-read: Grok 1.0 Web Development">
+<meta name=twitter:description content="|image0| Late last month I received an email from Packt Publishing (en.">
+<script type=application/ld+json>{"@context":"https://schema.org","@type":"BlogPosting","articleSection":"Posts","name":"Pre-read: Grok 1.0 Web Development","headline":"Pre-read: Grok 1.0 Web Development","description":"|image0| Late last month I received an email from Packt Publishing (en.","inLanguage":"en","author":{"@type":"Person","name":"Nathan Yergler"},"creator":{"@type":"Person","name":"Nathan Yergler"},"copyrightHolder":"Nathan Yergler","copyrightYear":"2010","dateCreated":"2010-03-16T09:14:50\u002b00:00","datePublished":"2010-03-16T09:14:50\u002b00:00","dateModified":"2010-03-16T09:14:50\u002b00:00","url":"https:\/\/nyergler.github.io\/2010\/03\/16\/pre-read-grok-1-0-web-development\/","wordCount":"280","keywords":["cc","grok","pre-read","python","reading","zope"]}</script>
+<meta name=author content="Nathan Yergler">
+<link href=https://github.com/nyergler rel=me>
+<link href=https://instagram.com/nyergler rel=me>
+</head>
+<body class="flex flex-col h-screen px-6 m-auto text-lg leading-7 bg-neutral text-neutral-900 sm:px-14 md:px-24 lg:px-32 dark:bg-neutral-800 dark:text-neutral max-w-7xl"><header class="flex justify-between py-6 font-semibold sm:items-center sm:py-10 text-neutral-900 dark:text-neutral">
+<div>
+<a class="hover:underline hover:underline-primary-500 hover:underline-thickness-bold hover:underline-offset-small" rel=me href=/>Nathan R. Yergler</a>
+</div>
+<nav>
+<ul class="flex flex-col list-none sm:flex-row">
+<li class="mb-1 text-right sm:mb-0 sm:mr-7 sm:last:mr-0">
+<a class="hover:underline hover:underline-primary-500 hover:underline-thickness-bold hover:underline-offset-small" href=/about/ title="Oh hai.">Bio</a>
+</li>
+<li class="mb-1 text-right sm:mb-0 sm:mr-7 sm:last:mr-0">
+<a class="hover:underline hover:underline-primary-500 hover:underline-thickness-bold hover:underline-offset-small" href=/posts/ title=Posts>Blog</a>
+</li>
+<li class="mb-1 text-right sm:mb-0 sm:mr-7 sm:last:mr-0">
+<a class="hover:underline hover:underline-primary-500 hover:underline-thickness-bold hover:underline-offset-small" href=/prints/ title=Prints>Prints</a>
+</li>
+</ul>
+</nav>
+</header>
+<main class=flex-grow>
+<article class=max-w-prose>
+<header>
+<ol class="text-sm text-neutral-500 dark:text-neutral-400">
+<li class="inline hidden">
+<a class="hover:underline hover:underline-neutral-300 dark:underline-neutral-600" href=/>Nathan R. Yergler</a><span class="px-1 text-primary-500">/</span>
+</li>
+<li class=inline>
+<a class="hover:underline hover:underline-neutral-300 dark:underline-neutral-600" href=/posts/>Posts</a><span class="px-1 text-primary-500">/</span>
+</li>
+<li class="inline hidden">
+<a class="hover:underline hover:underline-neutral-300 dark:underline-neutral-600" href=/2010/03/16/pre-read-grok-1-0-web-development/>Pre-read: Grok 1.0 Web Development</a><span class="px-1 text-primary-500">/</span>
+</li>
+</ol>
+<h1 class="mt-0 text-4xl font-extrabold text-neutral-900 dark:text-neutral">
+Pre-read: Grok 1.0 Web Development
+</h1>
+<div class="mt-8 mb-12 text-base text-neutral-500 dark:text-neutral-400">
+<div class="flex flex-row items-center">
+<time datetime="2010-03-16 09:14:50 +0000 UTC">16 March 2010</time>
+</div>
+</div>
+</header>
+<section class="prose dark:prose-light">
+<p><a href="http://www.packtpub.com/grok-1-0-web-development/book?utm_source=yergler.net&utm_medium=bookrev&utm_content=blog&utm_campaign=mdb_002632">|image0|</a> Late last month I received an email from <a href=http://www.packtpub.com/>Packt Publishing</a> (<a href=http://en.wikipedia.org/wiki/Packt>en.wp</a> ), asking if I’d be interested in reviewing one of their new titles, <em>`Grok 1.0 Web Development <a href="http://www.packtpub.com/grok-1-0-web-development/book?utm%5C_source=yergler.net&utm%5C_medium=bookrev&utm%5C_content=blog&utm%5C_campaign=mdb%5C_002632">http://www.packtpub.com/grok-1-0-web-development/book?utm\_source=yergler.net&utm\_medium=bookrev&utm\_content=blog&utm\_campaign=mdb\_002632</a>`_</em>, by <a href=http://blog.delaguardia.com.mx/>Carlos de la Guardia</a> . I immediately said yes, with the caveat that I’m traveling a lot over the next 30 days, so the review will be a little delayed (hence this pre-review). I said “yes” because <a href=http://grok.zope.org/>Grok</a> is one of the Python web frameworks that’s most interesting to me these days. It’s interesting because one of its underlying goals is to take concepts from [<span class=caps>STRIKEOUT</span>:Zope 3]<a href=http://docs.zope.org/zopetoolkit/>Zope Toolkit</a> , and make them more accessible and less daunting. These concepts — the component model, pluggable utilities, and graph-based traversal — are some of the most powerful tools I’ve worked with during my career. And of course, they can also be daunting, even to people with lots of experience; making them more accessible is a good thing.</p>
+<p>I’ve read the first four chapters of <em>Grok 1.0 Web Development</em>, and so far there’s a lot to like. It’s the sort of documentation I wish I’d had when I ported the Creative Commons <a href=http://creativecommons.org/choose/>license chooser</a> to Grok<sup>1</sup>. I’m looking forward to reading the rest, and will post a proper review when I return from Nairobi. In the mean time, check out <a href=http://grok.zope.org/>Grok</a> , Zope 3 for cavemen.</p>
+<p><em>You can download a preview from Grok 1.0 Web Development, `Chapter 5: Forms &lt;/media/2010/03/7481-grok-1-0-Web-development-sample-chapter-5-forms.pdf>`</em>._</p>
+<hr class=docutils>
+<p><sup>1</sup> The <span class=caps>CC</span> license chooser has evolved a lot over the years; shortly after Grok was launched we adopted many of its features as a way to streamline the code. Grok’s simplified support for custom traversal, in particular, was worth the effort.</p>
+</section>
+<footer class=pt-8>
+<div class="pt-8 article-pagination">
+<hr class="border-dotted border-neutral-300 dark:border-neutral-600">
+<div class="flex justify-between pt-3">
+<span>
+<a class=flex href=/2010/03/22/civicon-next-month-in-san-francisco/>
+<span class="mr-3 article-pagination-direction">&larr;</span>
+<span class="flex flex-col">
+<span class="article-pagination-title mt-[0.1rem] leading-6">
+CiviCon Next Month in San Francisco</span>
+<span class="mt-[0.1rem] text-xs text-neutral-400 dark:text-neutral-500">
+<time datetime="2010-03-22 06:47:53 +0000 UTC">22 March 2010</time>
+</span>
+</span>
+</a>
+</span>
+<span>
+<a class="flex text-right" href=/2010/03/10/meta-whats-up-with-all-the-reading/>
+<span class="flex flex-col">
+<span class="article-pagination-title mt-[0.1rem] leading-6">Meta: What’s up with all the Reading?</span>
+<span class="mt-[0.1rem] text-xs text-neutral-400 dark:text-neutral-500">
+<time datetime="2010-03-10 07:04:26 +0000 UTC">10 March 2010</time>
+</span>
+</span>
+<span class="ml-3 article-pagination-direction">&rarr;</span>
+</a>
+</span>
+</div>
+</div>
+</footer>
+</article>
+</main><footer class=py-10>
+<nav class="pb-4 text-base font-medium text-neutral-500 dark:text-neutral-400">
+<ul class="flex flex-col list-none sm:flex-row">
+<li class="mb-1 sm:mb-0 sm:mr-7 sm:last:mr-0">
+<a class="hover:underline hover:underline-primary-500 hover:underline-thickness-bold hover:underline-offset-small" href=/tags/ title=Tags>Tags</a>
+</li>
+<li class="mb-1 sm:mb-0 sm:mr-7 sm:last:mr-0">
+<a class="hover:underline hover:underline-primary-500 hover:underline-thickness-bold hover:underline-offset-small" href=/categories/ title=Categories>Categories</a>
+</li>
+</ul>
+</nav>
+<div class="flex justify-between">
+<div>
+<p class="text-sm text-neutral-500 dark:text-neutral-400">
+&copy;
+2022
+Nathan Yergler
+</p>
+</div>
+</div>
+</footer>
+</body>
+</html>

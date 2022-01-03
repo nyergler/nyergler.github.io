@@ -1,0 +1,326 @@
+<!doctype html><html lang=en><head>
+<meta charset=utf-8>
+<meta http-equiv=content-language content="en">
+<meta name=viewport content="width=device-width,initial-scale=1">
+<meta http-equiv=x-ua-compatible content="ie=edge">
+<title>Nested Formsets with Django &#183; Nathan R. Yergler</title>
+<meta name=title content="Nested Formsets with Django &#183; Nathan R. Yergler">
+<meta name=description content>
+<link rel=canonical href=https://nyergler.github.io/2009/09/27/nested-formsets-with-django/>
+<link type=text/css rel=stylesheet href=/css/schemes/ocean.min.ff17c50528c7a4a8a8bb8ec41272d63eb936ecefb9ccfa6db45cd1f5cd8b1becf8606745f751ee0d322ac80c9cb96e58aa699b38aa44cff9d2a8b3ff4f05a7b5.css integrity="sha512-/xfFBSjHpKiou47EEnLWPrk27O+5zPpttFzR9c2LG+z4YGdF91HuDTIqyAycuW5YqmmbOKpEz/nSqLP/TwWntQ==">
+<link type=text/css rel=stylesheet href=/css/compiled/main.min.84c4218572228cacf6182dc59fe08b5e1bcd599bb583bc56976aa0070f4cd8a4ff130ee2313074359bf6dba03b211e8c50df743d84ad551575fd0b9f849ec802.css integrity="sha512-hMQhhXIijKz2GC3Fn+CLXhvNWZu1g7xWl2qgBw9M2KT/Ew7iMTB0NZv226A7IR6MUN90PYStVRV1/QufhJ7IAg==">
+<script>function loadPreferredAppearance(){localStorage.preferredAppearance==="dark"||!("preferredAppearance"in localStorage)&&window.matchMedia("(prefers-color-scheme: dark)").matches?document.documentElement.classList.add("dark"):document.documentElement.classList.remove("dark")}function setPreferredAppearance(a){a=="default"?localStorage.removeItem("preferredAppearance"):localStorage.preferredAppearance=a,loadPreferredAppearance()}loadPreferredAppearance(),window.matchMedia("(prefers-color-scheme: dark)").addListener(loadPreferredAppearance)</script>
+<link rel=apple-touch-icon sizes=180x180 href=/apple-touch-icon.png>
+<link rel=icon type=image/png sizes=32x32 href=/favicon-32x32.png>
+<link rel=icon type=image/png sizes=16x16 href=/favicon-16x16.png>
+<link rel=manifest href=/site.webmanifest>
+<meta property="og:title" content="Nested Formsets with Django">
+<meta property="og:description" content="I&#8217;ve published an updated post about nested formsets, along with an generic implementation and demo application on GitHub.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://nyergler.github.io/2009/09/27/nested-formsets-with-django/"><meta property="article:section" content="posts">
+<meta property="article:published_time" content="2009-09-27T19:42:42+00:00">
+<meta property="article:modified_time" content="2009-09-27T19:42:42+00:00">
+<meta name=twitter:card content="summary">
+<meta name=twitter:title content="Nested Formsets with Django">
+<meta name=twitter:description content="I&#8217;ve published an updated post about nested formsets, along with an generic implementation and demo application on GitHub.">
+<script type=application/ld+json>{"@context":"https://schema.org","@type":"BlogPosting","articleSection":"Posts","name":"Nested Formsets with Django","headline":"Nested Formsets with Django","description":"I\u0026#8217;ve published an updated post about nested formsets, along with an generic implementation and demo application on GitHub.","inLanguage":"en","author":{"@type":"Person","name":"Nathan Yergler"},"creator":{"@type":"Person","name":"Nathan Yergler"},"copyrightHolder":"Nathan Yergler","copyrightYear":"2009","dateCreated":"2009-09-27T19:42:42\u002b00:00","datePublished":"2009-09-27T19:42:42\u002b00:00","dateModified":"2009-09-27T19:42:42\u002b00:00","url":"https:\/\/nyergler.github.io\/2009\/09\/27\/nested-formsets-with-django\/","wordCount":"1642","keywords":["django","formsets","howto","orm","python"]}</script>
+<meta name=author content="Nathan Yergler">
+<link href=https://github.com/nyergler rel=me>
+<link href=https://instagram.com/nyergler rel=me>
+</head>
+<body class="flex flex-col h-screen px-6 m-auto text-lg leading-7 bg-neutral text-neutral-900 sm:px-14 md:px-24 lg:px-32 dark:bg-neutral-800 dark:text-neutral max-w-7xl"><header class="flex justify-between py-6 font-semibold sm:items-center sm:py-10 text-neutral-900 dark:text-neutral">
+<div>
+<a class="hover:underline hover:underline-primary-500 hover:underline-thickness-bold hover:underline-offset-small" rel=me href=/>Nathan R. Yergler</a>
+</div>
+<nav>
+<ul class="flex flex-col list-none sm:flex-row">
+<li class="mb-1 text-right sm:mb-0 sm:mr-7 sm:last:mr-0">
+<a class="hover:underline hover:underline-primary-500 hover:underline-thickness-bold hover:underline-offset-small" href=/about/ title="Oh hai.">Bio</a>
+</li>
+<li class="mb-1 text-right sm:mb-0 sm:mr-7 sm:last:mr-0">
+<a class="hover:underline hover:underline-primary-500 hover:underline-thickness-bold hover:underline-offset-small" href=/posts/ title=Posts>Blog</a>
+</li>
+<li class="mb-1 text-right sm:mb-0 sm:mr-7 sm:last:mr-0">
+<a class="hover:underline hover:underline-primary-500 hover:underline-thickness-bold hover:underline-offset-small" href=/prints/ title=Prints>Prints</a>
+</li>
+</ul>
+</nav>
+</header>
+<main class=flex-grow>
+<article class=max-w-prose>
+<header>
+<ol class="text-sm text-neutral-500 dark:text-neutral-400">
+<li class="inline hidden">
+<a class="hover:underline hover:underline-neutral-300 dark:underline-neutral-600" href=/>Nathan R. Yergler</a><span class="px-1 text-primary-500">/</span>
+</li>
+<li class=inline>
+<a class="hover:underline hover:underline-neutral-300 dark:underline-neutral-600" href=/posts/>Posts</a><span class="px-1 text-primary-500">/</span>
+</li>
+<li class="inline hidden">
+<a class="hover:underline hover:underline-neutral-300 dark:underline-neutral-600" href=/2009/09/27/nested-formsets-with-django/>Nested Formsets with Django</a><span class="px-1 text-primary-500">/</span>
+</li>
+</ol>
+<h1 class="mt-0 text-4xl font-extrabold text-neutral-900 dark:text-neutral">
+Nested Formsets with Django
+</h1>
+<div class="mt-8 mb-12 text-base text-neutral-500 dark:text-neutral-400">
+<div class="flex flex-row items-center">
+<time datetime="2009-09-27 19:42:42 +0000 UTC">27 September 2009</time>
+</div>
+</div>
+</header>
+<section class="prose dark:prose-light">
+<p class=update>
+I&#8217;ve published an <a class="reference external" href=http://yergler.net/blog/2013/09/03/nested-formsets-redux/>updated post</a> about nested formsets, along with an generic implementation and demo application on <a class="reference external" href=https://github.com/nyergler/nested-formset>GitHub</a>.
+</p>
+<p>I spent Labor Day weekend in New York City working on a side project with <a href=http://www.alexrobertsontextor.com/>Alex</a> . The project is coming together (albeit slowly, sometimes), and there have been a few interesting technical challenges. Labor Day weekend I was building an interface for editing data on the site. The particular feature I’m working on uses a multi-level data model; an example of this kind of model would be modeling City Blocks, where each Block has one or more Buildings, and each Building has one or more Tenants. Using this as an example, I was building the City Block editor.</p>
+<p><a href=http://djangoproject.com>Django</a> <a href=http://docs.djangoproject.com/en/dev/topics/forms/formsets/>Formsets</a> manage the complexity of multiple copies of a form in a view. They help you keep track of how many copies you started with, which ones have been changed, and which ones should be deleted. But what if you’re working with this hypothetical data model and want to allow people to edit the Buildings <em>and</em> Tenants for a Block, all on one page? In this case you want each form in the Building formset to have a complete Tenant formset, all its own. The Django Formset documentation is silent on this issue, possibly (probably?) because it’s an edge case and one that almost certainly requires some application-specific thought. I spent the better part of two days working on it — the first pretty much a throw away, the second wildly productive thanks to <span class=caps>TDD</span> — and this is what I came up with.</p>
+<p>Formsets act as wrappers around Django <a href=http://docs.djangoproject.com/en/dev/topics/forms/>forms</a> , providing the accounting machinery and convenience methods needed for managing multiple copies of the form. My experience has been that, unlike forms where you have to write your form class (no matter how simple), you write a Formset class infrequently. Instead you use the factory functions which generate a default that’s suitable for most situations. As with regular Forms and Model Forms, Django offers <a href=http://docs.djangoproject.com/en/dev/topics/forms/modelforms/#model-formsets>Model Formsets</a> , which simplify the task of creating a formset for a form that handles instances of a model. In addition to model formsets, Django also provides <a href=http://docs.djangoproject.com/en/dev/topics/forms/modelforms/#inline-formsets>inline formsets</a> , which make it easier to deal with a set of objects that share a common foreign key. So in the example data model, an instance of the inline formset might model all the Buildings on a Block, or all the Tenants in the Building. Even if you’re not interested in nested formsets, the inline formsets can be incredibly useful.</p>
+<p>Let’s go ahead and define the models for our example:</p>
+<p><tt class="docutils literal">models.py</tt></p>
+<pre class=literal-block>class Block(models.Model):
+    description = models.CharField(max_length=255)
+
+class Building(models.Model):
+    block = models.ForeignKey(Block)
+    address = models.CharField(max_length=255)
+
+class Tenant(models.Model):
+    building = models.ForeignKey(Building)
+    name = models.CharField(max_length=255)
+    unit = models.CharField(max_length=255)
+</pre>
+<p>After we have our models in place we need to define the forms. The nested form is straight-forward — it’s just a normal inline formset.</p>
+<p><tt class="docutils literal">forms.py</tt></p>
+<pre class=literal-block>from django.forms.models import inlineformset_factory
+
+TenantFormset = inlineformset_factory(models.Building, models.Tenant, extra=1)
+</pre>
+<p>Note that inlineformset_factory not only creates the Formset class, but it also create the <a href=http://docs.djangoproject.com/en/dev/topics/forms/modelforms/#modelform>ModelForm</a> for the model (<tt class="docutils literal">models.Tenant</tt> in this example).</p>
+<p>The “host” formset which contains the nested one — <tt class="docutils literal">BuildingFormset</tt> in our example — requires some additional work. There are a few cases that need to be handled:</p>
+<ol class="arabic simple">
+<li>
+<strong>Validation</strong> — When validating an item in the formset, we also need to validate its sub-items (those on its nested formset.
+</li>
+<li>
+<strong>Saving existing data</strong> — When saving an item, changes to the items in the nested formset also need to be saved.
+</li>
+<li>
+<strong>Saving new parent objects</strong> — If the user adds &#8220;parent&#8221; data as well as sub-items (so adding a Building, along with Tenants), the nested form won’t have a reference back to the parent unless we add it ourselves.
+</li>
+<li>
+Finally, the very basic issue of creating the nested formset instance for each parent form.
+</li>
+</ol>
+<p>Before delving into those issues, let’s look at the basic formset declaration.</p>
+<p><tt class="docutils literal">forms.py</tt></p>
+<pre class=literal-block>from django.forms.models import BaseInlineFormSet
+
+class BaseBuildingFormset(BaseInlineFormSet):
+    pass
+
+BuildingFormset = inlineformset_factory(models.Block, models.Building,
+                                formset=BaseBuildingFormset, extra=1)
+</pre>
+<p>Here we declare a sub-class of the <tt class="docutils literal">BaseInlineFormSet</tt> and then pass it to the <tt class="docutils literal">inlineformset_factory</tt> as the class we want to base our new formset on.</p>
+<p>Let’s start with the most basic piece of functionality: associating the nested formsets with each form. The super class defines an <tt class="docutils literal">add_fields</tt> method which is responsible for adding the fields (and their initial values since this is a model-based Form) to a specific form in the formset. This seemed as good a place as any to add our formset creation code.</p>
+<p><tt class="docutils literal">forms.py</tt></p>
+<pre class=literal-block>class BaseBuildingFormset(BaseInlineFormSet):
+
+    def add_fields(self, form, index):
+        # allow the super class to create the fields as usual
+        super(BaseBuildingFormset, self).add_fields(form, index)
+
+        # created the nested formset
+        try:
+            instance = self.get_queryset()[index]
+            pk_value = instance.pk
+        except IndexError:
+            instance=None
+            pk_value = hash(form.prefix)
+
+        # store the formset in the .nested property
+        form.nested = [
+            TenantFormset(data=self.data,
+                            instance = instance,
+                            prefix = 'TENANTS_%s’ % pk_value)]
+</pre>
+<p>The heart of what we’re doing here is in the last statement: creating a <tt class="docutils literal">form.nested</tt> property that contains a list of nested formsets — only one in our example and in the code I implemented; more than one would probably be a <span class=caps>UI</span> nightmare. In order to initialize the formset we need two pieces of information: the parent instance and a form prefix. If we’re creating fields for an existing instance we can use the <tt class="docutils literal">get_queryset</tt> method to return the list of objects. If this is a form for a new instance (i.e., the form created by specifying <tt class="docutils literal">extra=1</tt>), we need to specify None as the instance. We include the objects primary key in the form prefix to make sure the formsets are named uniquely; if this is an extra form we <tt class="docutils literal">hash</tt> the parent form’s prefix (which will also be unique). The Django documentation has instructions on <a href=http://docs.djangoproject.com/en/dev/topics/forms/formsets/#using-more-than-one-formset-in-a-view>using multiple formsets in a single view</a> that are relevant here.</p>
+<p>Now that we have the nested formset created we can display it in the template.</p>
+<p><tt class="docutils literal">views.py</tt></p>
+<pre class=literal-block>def edit_block_buildings(request, block_id):
+    """Edit buildings and their tenants on a given block."""
+
+    block = get_object_or_404(models.Block, id=block_id)
+
+    if request.method == 'POST’:
+        formset = forms.BuildingFormset(request.POST, instance=block)
+
+        if formset.is_valid():
+            rooms = formset.save_all()
+
+            return redirect('block_view’, block_id=block.id)
+
+    else:
+        formset = forms.BuildingFormset(instance=block)
+
+    return render_to_response('rentals/edit_buildings.html’,
+                              {'block’:block,
+                               'buildings’:formset,
+                               },
+                              context_instance=RequestContext(request))
+</pre>
+<p><tt class="docutils literal">edit_buildings.html</tt> (fragment)</p>
+<pre class=literal-block>{{ buildings.management_form }}
+{% for building in buildings.forms %}
+
+  {{ building }}
+
+  {% if building.nested %}
+  {% for formset in building.nested %}
+  {{ formset.as_table }}
+  {% endfor %}
+  {% endif %}
+
+{% endfor %}
+</pre>
+<p>When the page is submitted, the idiom is to call <tt class="docutils literal">formset.is_valid()</tt> to validate the forms. We override <tt class="docutils literal">is_valid</tt> on our formset to add validation for the nested formsets as well.</p>
+<p><tt class="docutils literal">forms.py</tt></p>
+<pre class=literal-block>class BaseBuildingFormset(BaseInlineFormSet):
+    ...
+
+    def is_valid(self):
+        result = super(BaseBuildingFormset, self).is_valid()
+
+        for form in self.forms:
+            if hasattr(form, 'nested’):
+                for n in form.nested:
+                    # make sure each nested formset is valid as well
+                    result = result and n.is_valid()
+
+        return result
+</pre>
+<p>Finally, assuming the form validates, we need to handle saving. As I mentioned earlier, there are two different situations here — saving existing data (and possibly adding new nested data) and saving completely new data.</p>
+<p>For new data we need to override <tt class="docutils literal">save_new</tt> and update the parent reference for any nested data <em>after</em> we save (well, instantiate) the parent.</p>
+<p><tt class="docutils literal">forms.py</tt></p>
+<pre class=literal-block>class BaseBuildingFormset(BaseInlineFormSet):
+    ...
+
+    def save_new(self, form, commit=True):
+        """Saves and returns a new model instance for the given form."""
+
+        instance = super(BaseBuildingFormset, self).save_new(form, commit=commit)
+
+        # update the form’s instance reference
+        form.instance = instance
+
+        # update the instance reference on nested forms
+        for nested in form.nested:
+            nested.instance = instance
+
+            # iterate over the cleaned_data of the nested formset and update the foreignkey reference
+            for cd in nested.cleaned_data:
+                cd[nested.fk.name] = instance
+
+        return instance
+</pre>
+<p>Finally, we add a <tt class="docutils literal">save_all</tt> method for saving the parent formset and all nested formsets.</p>
+<p><tt class="docutils literal">forms.py</tt></p>
+<pre class=literal-block>from django.forms.formsets import DELETION_FIELD_NAME
+
+class BaseBuildingFormset(BaseInlineFormSet):
+    ...
+
+    def should_delete(self, form):
+        """Convenience method for determining if the form’s object will
+        be deleted; cribbed from BaseModelFormSet.save_existing_objects."""
+
+        if self.can_delete:
+            raw_delete_value = form._raw_value(DELETION_FIELD_NAME)
+            should_delete = form.fields[DELETION_FIELD_NAME].clean(raw_delete_value)
+            return should_delete
+
+        return False
+
+    def save_all(self, commit=True):
+        """Save all formsets and along with their nested formsets."""
+
+        # Save without committing (so self.saved_forms is populated)
+        # — We need self.saved_forms so we can go back and access
+        #    the nested formsets
+        objects = self.save(commit=False)
+
+        # Save each instance if commit=True
+        if commit:
+            for o in objects:
+                o.save()
+
+        # save many to many fields if needed
+        if not commit:
+            self.save_m2m()
+
+        # save the nested formsets
+        for form in set(self.initial_forms + self.saved_forms):
+            if self.should_delete(form): continue
+
+            for nested in form.nested:
+                nested.save(commit=commit)
+</pre>
+<p>There are two methods defined here; the first, <tt class="docutils literal">should_delete</tt>, is lifted almost directly from code in <tt class="docutils literal">django.forms.models.BaseModelFormSet.save_existing_objects</tt>. It takes a form object in the formset and returns True if the object for that form is going to be deleted. We use this to short-circuit saving the nested formsets: no point in saving them if we’re going to delete their required ForeignKey.</p>
+<p>The <tt class="docutils literal">save_all</tt> method is responsible for saving (updating, creating, deleting) the forms in the formset, as well as all the nested formsets for each form. One thing to note is that regardless of whether we’re <a href=http://docs.djangoproject.com/en/dev/topics/forms/modelforms/#id2>committing our save</a> (<tt class="docutils literal">commit=True</tt>), we initially save the forms with <tt class="docutils literal">commit=False</tt>. When you save a model formset with <tt class="docutils literal">commit=False</tt>, Django populates a <tt class="docutils literal">saved_forms</tt> attribute with the list of all the forms saved — new and old. We need this list of saved forms to make sure we are able to save any nested formsets that are attached to newly created forms (ones that did not exist when the initial request was made). After we know <tt class="docutils literal">saved_forms</tt> has been populated we can do another pass to commit if necessary.</p>
+<p>There are certainly places this code could be improved, tightened up or generalized (for example, the nested formset prefix calculation and possibly <tt class="docutils literal">save_all</tt>). It’s also entirely plausible that you could wrap much of this into a factory function. But this gets nested editing working and once you wrap your head around what needs to be done, it’s actually fairly straight forward.</p>
+</section>
+<footer class=pt-8>
+<div class="pt-8 article-pagination">
+<hr class="border-dotted border-neutral-300 dark:border-neutral-600">
+<div class="flex justify-between pt-3">
+<span>
+<a class=flex href=/2009/10/05/aimee-mann-at-hardly-strictly-bluegrass/>
+<span class="mr-3 article-pagination-direction">&larr;</span>
+<span class="flex flex-col">
+<span class="article-pagination-title mt-[0.1rem] leading-6">
+Aimee Mann at Hardly Strictly Bluegrass</span>
+<span class="mt-[0.1rem] text-xs text-neutral-400 dark:text-neutral-500">
+<time datetime="2009-10-05 21:28:34 +0000 UTC">5 October 2009</time>
+</span>
+</span>
+</a>
+</span>
+<span>
+<a class="flex text-right" href=/2009/09/25/pet-shop-boys-at-the-warfield-san-francisco/>
+<span class="flex flex-col">
+<span class="article-pagination-title mt-[0.1rem] leading-6">Pet Shop Boys at The Warfield, San Francisco</span>
+<span class="mt-[0.1rem] text-xs text-neutral-400 dark:text-neutral-500">
+<time datetime="2009-09-25 16:05:12 +0000 UTC">25 September 2009</time>
+</span>
+</span>
+<span class="ml-3 article-pagination-direction">&rarr;</span>
+</a>
+</span>
+</div>
+</div>
+</footer>
+</article>
+</main><footer class=py-10>
+<nav class="pb-4 text-base font-medium text-neutral-500 dark:text-neutral-400">
+<ul class="flex flex-col list-none sm:flex-row">
+<li class="mb-1 sm:mb-0 sm:mr-7 sm:last:mr-0">
+<a class="hover:underline hover:underline-primary-500 hover:underline-thickness-bold hover:underline-offset-small" href=/tags/ title=Tags>Tags</a>
+</li>
+<li class="mb-1 sm:mb-0 sm:mr-7 sm:last:mr-0">
+<a class="hover:underline hover:underline-primary-500 hover:underline-thickness-bold hover:underline-offset-small" href=/categories/ title=Categories>Categories</a>
+</li>
+</ul>
+</nav>
+<div class="flex justify-between">
+<div>
+<p class="text-sm text-neutral-500 dark:text-neutral-400">
+&copy;
+2022
+Nathan Yergler
+</p>
+</div>
+</div>
+</footer>
+</body>
+</html>

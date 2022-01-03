@@ -1,0 +1,130 @@
+<!doctype html><html lang=en><head>
+<meta charset=utf-8>
+<meta http-equiv=content-language content="en">
+<meta name=viewport content="width=device-width,initial-scale=1">
+<meta http-equiv=x-ua-compatible content="ie=edge">
+<title>Java and Mac &lt;span class="caps">OS&lt;/span> X: not exactly Apples and, er, Oranges &#183; Nathan R. Yergler</title>
+<meta name=title content="Java and Mac <span class=&#34;caps&#34;>OS</span> X: not exactly Apples and, er, Oranges &#183; Nathan R. Yergler">
+<meta name=description content>
+<link rel=canonical href=https://nyergler.github.io/2004/04/13/java-and-mac-os-x-not-exactly-apples-and-er-oranges/>
+<link type=text/css rel=stylesheet href=/css/schemes/ocean.min.ff17c50528c7a4a8a8bb8ec41272d63eb936ecefb9ccfa6db45cd1f5cd8b1becf8606745f751ee0d322ac80c9cb96e58aa699b38aa44cff9d2a8b3ff4f05a7b5.css integrity="sha512-/xfFBSjHpKiou47EEnLWPrk27O+5zPpttFzR9c2LG+z4YGdF91HuDTIqyAycuW5YqmmbOKpEz/nSqLP/TwWntQ==">
+<link type=text/css rel=stylesheet href=/css/compiled/main.min.84c4218572228cacf6182dc59fe08b5e1bcd599bb583bc56976aa0070f4cd8a4ff130ee2313074359bf6dba03b211e8c50df743d84ad551575fd0b9f849ec802.css integrity="sha512-hMQhhXIijKz2GC3Fn+CLXhvNWZu1g7xWl2qgBw9M2KT/Ew7iMTB0NZv226A7IR6MUN90PYStVRV1/QufhJ7IAg==">
+<script>function loadPreferredAppearance(){localStorage.preferredAppearance==="dark"||!("preferredAppearance"in localStorage)&&window.matchMedia("(prefers-color-scheme: dark)").matches?document.documentElement.classList.add("dark"):document.documentElement.classList.remove("dark")}function setPreferredAppearance(a){a=="default"?localStorage.removeItem("preferredAppearance"):localStorage.preferredAppearance=a,loadPreferredAppearance()}loadPreferredAppearance(),window.matchMedia("(prefers-color-scheme: dark)").addListener(loadPreferredAppearance)</script>
+<link rel=apple-touch-icon sizes=180x180 href=/apple-touch-icon.png>
+<link rel=icon type=image/png sizes=32x32 href=/favicon-32x32.png>
+<link rel=icon type=image/png sizes=16x16 href=/favicon-16x16.png>
+<link rel=manifest href=/site.webmanifest>
+<meta property="og:title" content="Java and Mac <span class=&#34;caps&#34;>OS</span> X: not exactly Apples and, er, Oranges">
+<meta property="og:description" content="In response to the ever-growing debate about Java and whether it should be open sourced, Newsforge is running a pair of “point, counter point” articles.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://nyergler.github.io/2004/04/13/java-and-mac-os-x-not-exactly-apples-and-er-oranges/"><meta property="article:section" content="posts">
+<meta property="article:published_time" content="2004-04-13T10:07:26+00:00">
+<meta property="article:modified_time" content="2004-04-13T10:07:26+00:00">
+<meta name=twitter:card content="summary">
+<meta name=twitter:title content="Java and Mac <span class=&#34;caps&#34;>OS</span> X: not exactly Apples and, er, Oranges">
+<meta name=twitter:description content="In response to the ever-growing debate about Java and whether it should be open sourced, Newsforge is running a pair of “point, counter point” articles.">
+<script type=application/ld+json>{"@context":"https://schema.org","@type":"BlogPosting","articleSection":"Posts","name":"Java and Mac \u003cspan class=\u0022caps\u0022\u003eOS\u003c\/span\u003e X: not exactly Apples and, er, Oranges","headline":"Java and Mac \u003cspan class=\u0022caps\u0022\u003eOS\u003c\/span\u003e X: not exactly Apples and, er, Oranges","description":"In response to the ever-growing debate about Java and whether it should be open sourced, Newsforge is running a pair of “point, counter point” articles.","inLanguage":"en","author":{"@type":"Person","name":"Nathan Yergler"},"creator":{"@type":"Person","name":"Nathan Yergler"},"copyrightHolder":"Nathan Yergler","copyrightYear":"2004","dateCreated":"2004-04-13T10:07:26\u002b00:00","datePublished":"2004-04-13T10:07:26\u002b00:00","dateModified":"2004-04-13T10:07:26\u002b00:00","url":"https:\/\/nyergler.github.io\/2004\/04\/13\/java-and-mac-os-x-not-exactly-apples-and-er-oranges\/","wordCount":"453","keywords":[]}</script>
+<meta name=author content="Nathan Yergler">
+<link href=https://github.com/nyergler rel=me>
+<link href=https://instagram.com/nyergler rel=me>
+</head>
+<body class="flex flex-col h-screen px-6 m-auto text-lg leading-7 bg-neutral text-neutral-900 sm:px-14 md:px-24 lg:px-32 dark:bg-neutral-800 dark:text-neutral max-w-7xl"><header class="flex justify-between py-6 font-semibold sm:items-center sm:py-10 text-neutral-900 dark:text-neutral">
+<div>
+<a class="hover:underline hover:underline-primary-500 hover:underline-thickness-bold hover:underline-offset-small" rel=me href=/>Nathan R. Yergler</a>
+</div>
+<nav>
+<ul class="flex flex-col list-none sm:flex-row">
+<li class="mb-1 text-right sm:mb-0 sm:mr-7 sm:last:mr-0">
+<a class="hover:underline hover:underline-primary-500 hover:underline-thickness-bold hover:underline-offset-small" href=/about/ title="Oh hai.">Bio</a>
+</li>
+<li class="mb-1 text-right sm:mb-0 sm:mr-7 sm:last:mr-0">
+<a class="hover:underline hover:underline-primary-500 hover:underline-thickness-bold hover:underline-offset-small" href=/posts/ title=Posts>Blog</a>
+</li>
+<li class="mb-1 text-right sm:mb-0 sm:mr-7 sm:last:mr-0">
+<a class="hover:underline hover:underline-primary-500 hover:underline-thickness-bold hover:underline-offset-small" href=/prints/ title=Prints>Prints</a>
+</li>
+</ul>
+</nav>
+</header>
+<main class=flex-grow>
+<article class=max-w-prose>
+<header>
+<ol class="text-sm text-neutral-500 dark:text-neutral-400">
+<li class="inline hidden">
+<a class="hover:underline hover:underline-neutral-300 dark:underline-neutral-600" href=/>Nathan R. Yergler</a><span class="px-1 text-primary-500">/</span>
+</li>
+<li class=inline>
+<a class="hover:underline hover:underline-neutral-300 dark:underline-neutral-600" href=/posts/>Posts</a><span class="px-1 text-primary-500">/</span>
+</li>
+<li class="inline hidden">
+<a class="hover:underline hover:underline-neutral-300 dark:underline-neutral-600" href=/2004/04/13/java-and-mac-os-x-not-exactly-apples-and-er-oranges/>Java and Mac &lt;span class="caps">OS&lt;/span> X: not exactly Apples and, er, Oranges</a><span class="px-1 text-primary-500">/</span>
+</li>
+</ol>
+<h1 class="mt-0 text-4xl font-extrabold text-neutral-900 dark:text-neutral">
+Java and Mac <span class=caps>OS</span> X: not exactly Apples and, er, Oranges
+</h1>
+<div class="mt-8 mb-12 text-base text-neutral-500 dark:text-neutral-400">
+<div class="flex flex-row items-center">
+<time datetime="2004-04-13 10:07:26 +0000 UTC">13 April 2004</time>
+</div>
+</div>
+</header>
+<section class="prose dark:prose-light">
+<p>In response to the ever-growing debate about Java and whether it should be open sourced, <a href=http://newsforge.com>Newsforge</a> is running a pair of “point, counter point” articles. Well, not exactly. The <a href="http://programming.newsforge.com/programming/04/04/08/0524247.shtml?tid=54">boring one</a> is a JavaLobby position piece (or so it seems). The <a href=http://programming.newsforge.com/programming/04/04/07/2021242.shtml>more interesting one</a> is penned by <a href=http://www.stallman.org/><span class=caps>RMS</span></a> , and questions how free software can really be if it relies on (nay, requires) non-free dependencies such as the Sun of <span class=caps>IBM</span> <span class=caps>JRE</span>. I don’t always agree with <span class=caps>RMS</span>. In fact, it’s possible I disagree with him more often than not. However, in this situation he does an excellent job of articulating something that’s been bouncing around in my head lately. But not about Java. One of the more interesting session at <a href=http://pycon.org>PyCon</a> was Bob Ippolito’s <a href=http://www.python.org/pycon/dc2004/papers/32/>60 minutes of MacPython</a> . I attended because I love the Mac <span class=caps>OS</span> X interface, and I definitly feel more productive and “at home” on Mac <span class=caps>OS</span> X than on any Win32 interface. During his presentation Bob talked about the different <span class=caps>GUI</span> toolkits available for Python on Mac <span class=caps>OS</span> X. These included Tkinter, <a href=http://pyobjc.sourceforge.net/>PyObj-C</a> , and <a href=http://wxpython.org>wxPython</a> . Of all these, Bob’s recommendation was PyObj-C. When asked by an audience member which he would recommend for building cross-platform interfaces, Bob responded (wrongly, in my opinion) that the Mac <span class=caps>OS</span> X interface has unique paradigms that don’t translate well to other platforms, and therefore you should use PyObj-C for Mac <span class=caps>OS</span> X and something else for any other [inferior] platform you might want to support. I paraphrasing, but I think I’ve got it mostly right. This is where <span class=caps>RMS</span>’s argument about Java comes in.</p>
+<p>If I want to write Free Software (and I do) and I want to to run on any machine I use (and I do), then I have to support Win32, Mac <span class=caps>OS</span> X and Linux. And writing two (or three!) GUIs isn’t going to work. I don’t have that kind of time. Would my interface be better if I wrote it for each platform individually? Possibly. But I don’t think that it’s a certainty that those “unique paradigms” would translate directly into increased usability. Additionally, as <span class=caps>RMS</span> points out, can I call my software Free if it relies on a non-Free kernel or operating system?</p>
+<p>After seeing Bob’s demonstration of PyObj-C, I’m impressed. It’s obviously powerful and I can’t argue that the ability to use Apple’s development tools is a real boost. The website mentions that many of the unit tests pass on <a href=http://gnustep.org>GNUstep</a> , but Bob was frank in admitting that it’s not presently possible to just recompile for GNUstep and have your app work as expected. When that happens, maybe PyObj-C and GNUstep, <em>together</em>, will unseat wxPython as my <span class=caps>GUI</span> toolkit of choice.</p>
+</section>
+<footer class=pt-8>
+<div class="pt-8 article-pagination">
+<hr class="border-dotted border-neutral-300 dark:border-neutral-600">
+<div class="flex justify-between pt-3">
+<span>
+<a class=flex href=/2004/04/16/random-life-notes/>
+<span class="mr-3 article-pagination-direction">&larr;</span>
+<span class="flex flex-col">
+<span class="article-pagination-title mt-[0.1rem] leading-6">
+Random Life Notes</span>
+<span class="mt-[0.1rem] text-xs text-neutral-400 dark:text-neutral-500">
+<time datetime="2004-04-16 14:56:06 +0000 UTC">16 April 2004</time>
+</span>
+</span>
+</a>
+</span>
+<span>
+<a class="flex text-right" href=/2004/04/12/better_blogging_or_its_more_than_just_a_blog_virginia/>
+<span class="flex flex-col">
+<span class="article-pagination-title mt-[0.1rem] leading-6">Better Blogging, or, “It’s more than just a blog, Virginia”</span>
+<span class="mt-[0.1rem] text-xs text-neutral-400 dark:text-neutral-500">
+<time datetime="2004-04-12 16:28:06 +0000 UTC">12 April 2004</time>
+</span>
+</span>
+<span class="ml-3 article-pagination-direction">&rarr;</span>
+</a>
+</span>
+</div>
+</div>
+</footer>
+</article>
+</main><footer class=py-10>
+<nav class="pb-4 text-base font-medium text-neutral-500 dark:text-neutral-400">
+<ul class="flex flex-col list-none sm:flex-row">
+<li class="mb-1 sm:mb-0 sm:mr-7 sm:last:mr-0">
+<a class="hover:underline hover:underline-primary-500 hover:underline-thickness-bold hover:underline-offset-small" href=/tags/ title=Tags>Tags</a>
+</li>
+<li class="mb-1 sm:mb-0 sm:mr-7 sm:last:mr-0">
+<a class="hover:underline hover:underline-primary-500 hover:underline-thickness-bold hover:underline-offset-small" href=/categories/ title=Categories>Categories</a>
+</li>
+</ul>
+</nav>
+<div class="flex justify-between">
+<div>
+<p class="text-sm text-neutral-500 dark:text-neutral-400">
+&copy;
+2022
+Nathan Yergler
+</p>
+</div>
+</div>
+</footer>
+</body>
+</html>

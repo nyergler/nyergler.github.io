@@ -1,0 +1,132 @@
+<!doctype html><html lang=en><head>
+<meta charset=utf-8>
+<meta http-equiv=content-language content="en">
+<meta name=viewport content="width=device-width,initial-scale=1">
+<meta http-equiv=x-ua-compatible content="ie=edge">
+<title>J2ME Development, part 2 &#183; Nathan R. Yergler</title>
+<meta name=title content="J2ME Development, part 2 &#183; Nathan R. Yergler">
+<meta name=description content>
+<link rel=canonical href=https://nyergler.github.io/2005/11/29/j2me-development-part-2/>
+<link type=text/css rel=stylesheet href=/css/schemes/ocean.min.ff17c50528c7a4a8a8bb8ec41272d63eb936ecefb9ccfa6db45cd1f5cd8b1becf8606745f751ee0d322ac80c9cb96e58aa699b38aa44cff9d2a8b3ff4f05a7b5.css integrity="sha512-/xfFBSjHpKiou47EEnLWPrk27O+5zPpttFzR9c2LG+z4YGdF91HuDTIqyAycuW5YqmmbOKpEz/nSqLP/TwWntQ==">
+<link type=text/css rel=stylesheet href=/css/compiled/main.min.84c4218572228cacf6182dc59fe08b5e1bcd599bb583bc56976aa0070f4cd8a4ff130ee2313074359bf6dba03b211e8c50df743d84ad551575fd0b9f849ec802.css integrity="sha512-hMQhhXIijKz2GC3Fn+CLXhvNWZu1g7xWl2qgBw9M2KT/Ew7iMTB0NZv226A7IR6MUN90PYStVRV1/QufhJ7IAg==">
+<script>function loadPreferredAppearance(){localStorage.preferredAppearance==="dark"||!("preferredAppearance"in localStorage)&&window.matchMedia("(prefers-color-scheme: dark)").matches?document.documentElement.classList.add("dark"):document.documentElement.classList.remove("dark")}function setPreferredAppearance(a){a=="default"?localStorage.removeItem("preferredAppearance"):localStorage.preferredAppearance=a,loadPreferredAppearance()}loadPreferredAppearance(),window.matchMedia("(prefers-color-scheme: dark)").addListener(loadPreferredAppearance)</script>
+<link rel=apple-touch-icon sizes=180x180 href=/apple-touch-icon.png>
+<link rel=icon type=image/png sizes=32x32 href=/favicon-32x32.png>
+<link rel=icon type=image/png sizes=16x16 href=/favicon-16x16.png>
+<link rel=manifest href=/site.webmanifest>
+<meta property="og:title" content="J2ME Development, part 2">
+<meta property="og:description" content="So in a previous post I compared two recent mobile development projects: one using J2ME for Motorola IDEN phones, and the other using Python for Nokia Series 60 phones.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://nyergler.github.io/2005/11/29/j2me-development-part-2/"><meta property="article:section" content="posts">
+<meta property="article:published_time" content="2005-11-29T09:26:49+00:00">
+<meta property="article:modified_time" content="2005-11-29T09:26:49+00:00">
+<meta name=twitter:card content="summary">
+<meta name=twitter:title content="J2ME Development, part 2">
+<meta name=twitter:description content="So in a previous post I compared two recent mobile development projects: one using J2ME for Motorola IDEN phones, and the other using Python for Nokia Series 60 phones.">
+<script type=application/ld+json>{"@context":"https://schema.org","@type":"BlogPosting","articleSection":"Posts","name":"J2ME Development, part 2","headline":"J2ME Development, part 2","description":"So in a previous post I compared two recent mobile development projects: one using J2ME for Motorola IDEN phones, and the other using Python for Nokia Series 60 phones.","inLanguage":"en","author":{"@type":"Person","name":"Nathan Yergler"},"creator":{"@type":"Person","name":"Nathan Yergler"},"copyrightHolder":"Nathan Yergler","copyrightYear":"2005","dateCreated":"2005-11-29T09:26:49\u002b00:00","datePublished":"2005-11-29T09:26:49\u002b00:00","dateModified":"2005-11-29T09:26:49\u002b00:00","url":"https:\/\/nyergler.github.io\/2005\/11\/29\/j2me-development-part-2\/","wordCount":"455","keywords":[]}</script>
+<meta name=author content="Nathan Yergler">
+<link href=https://github.com/nyergler rel=me>
+<link href=https://instagram.com/nyergler rel=me>
+</head>
+<body class="flex flex-col h-screen px-6 m-auto text-lg leading-7 bg-neutral text-neutral-900 sm:px-14 md:px-24 lg:px-32 dark:bg-neutral-800 dark:text-neutral max-w-7xl"><header class="flex justify-between py-6 font-semibold sm:items-center sm:py-10 text-neutral-900 dark:text-neutral">
+<div>
+<a class="hover:underline hover:underline-primary-500 hover:underline-thickness-bold hover:underline-offset-small" rel=me href=/>Nathan R. Yergler</a>
+</div>
+<nav>
+<ul class="flex flex-col list-none sm:flex-row">
+<li class="mb-1 text-right sm:mb-0 sm:mr-7 sm:last:mr-0">
+<a class="hover:underline hover:underline-primary-500 hover:underline-thickness-bold hover:underline-offset-small" href=/about/ title="Oh hai.">Bio</a>
+</li>
+<li class="mb-1 text-right sm:mb-0 sm:mr-7 sm:last:mr-0">
+<a class="hover:underline hover:underline-primary-500 hover:underline-thickness-bold hover:underline-offset-small" href=/posts/ title=Posts>Blog</a>
+</li>
+<li class="mb-1 text-right sm:mb-0 sm:mr-7 sm:last:mr-0">
+<a class="hover:underline hover:underline-primary-500 hover:underline-thickness-bold hover:underline-offset-small" href=/prints/ title=Prints>Prints</a>
+</li>
+</ul>
+</nav>
+</header>
+<main class=flex-grow>
+<article class=max-w-prose>
+<header>
+<ol class="text-sm text-neutral-500 dark:text-neutral-400">
+<li class="inline hidden">
+<a class="hover:underline hover:underline-neutral-300 dark:underline-neutral-600" href=/>Nathan R. Yergler</a><span class="px-1 text-primary-500">/</span>
+</li>
+<li class=inline>
+<a class="hover:underline hover:underline-neutral-300 dark:underline-neutral-600" href=/posts/>Posts</a><span class="px-1 text-primary-500">/</span>
+</li>
+<li class="inline hidden">
+<a class="hover:underline hover:underline-neutral-300 dark:underline-neutral-600" href=/2005/11/29/j2me-development-part-2/>J2ME Development, part 2</a><span class="px-1 text-primary-500">/</span>
+</li>
+</ol>
+<h1 class="mt-0 text-4xl font-extrabold text-neutral-900 dark:text-neutral">
+J2ME Development, part 2
+</h1>
+<div class="mt-8 mb-12 text-base text-neutral-500 dark:text-neutral-400">
+<div class="flex flex-row items-center">
+<time datetime="2005-11-29 09:26:49 +0000 UTC">29 November 2005</time>
+</div>
+</div>
+</header>
+<section class="prose dark:prose-light">
+<p>So in <a href=http://yergler.net/blog/archives/2005/11/17/mobile-development-compared>a previous post</a> I compared two recent mobile development projects: one using <span class=caps>J2ME</span> for Motorola <span class=caps>IDEN</span> phones, and the other using Python for Nokia Series 60 phones. Since then I’ve done some more work on the <span class=caps>J2ME</span> project and have a few additional thoughts and clarifications.</p>
+<p>First, I’ve found that most of my initial frustrations aren’t a result of <span class=caps>J2ME</span>, but rather Motorola’s crap-tacular <span class=caps>IDEN</span> <span class=caps>SDK</span>. No support for Ant or project definitions, no way to launch an editor from the tool, and little to no debugging capabilities. Contrasted to Nokia’s <span class=caps>J2ME</span> Developer Suite, it’s downright precambrian. In the end I just created a new VMWare machine with <strong>just</strong> the Motorola tools and Eclipse installed. And it works, which I guess is the important part.</p>
+<p>So once I had the toolset running, I did run into some areas where Python has definitely made life easier for developers. Our project’s requirements called for a list-style menu with a status bar at the bottom of the screen (I’d post a screen shot from the emulator, but this is the first class project I’ve done covered by an <span class=caps>NDA</span>). My initial inclination was to use the high-level form <span class=caps>API</span>, and implement a custom item for the list. A secondary requirement is that the list be numbered, and that pressing the associated number jump you directly to the associated item. What I found, much to my dismay, is that you can’t catch arbitrary keys in a high level form element. Text entries can receive them, but you as the developer still don’t see them. [I should note here that this is the first amount of <span class=caps>J2ME</span> development I’ve done, and that while I searched high and low on Google, I’m open to correction]. So I ended up having to drop to the low level <span class=caps>API</span>. Not a huge deal, but that’s two different <span class=caps>API</span>’s I have to deal with now — low level for menuing, high level for input forms.</p>
+<p>Contrast this to Python for Series 60 <span class=caps>API</span>. Just like <span class=caps>J2ME</span> you can draw directly on the screen’s Canvas and catch key presses. But in my experiments, I can catch key presses <em>anywhere</em>, not just where Nokia thought it would be convenient.</p>
+<p>To be fair, I don’t hate <span class=caps>J2ME</span>. I don’t even dislike it. It just seems like Nokia has made decisions in designing their <span class=caps>API</span> which give the maximum flexibility to the developer, and that’s a good thing. I’m actually going to be doing a research project next semester in which I’ll be developing for <span class=caps>J2ME</span>, so I’ll have plenty of additional opportunities to compare and contrast. I’m also still planning on porting my Sudoku implementation to <span class=caps>J2ME</span>, just to do a one-to-one comparison. Stay tuned.</p>
+</section>
+<footer class=pt-8>
+<div class="pt-8 article-pagination">
+<hr class="border-dotted border-neutral-300 dark:border-neutral-600">
+<div class="flex justify-between pt-3">
+<span>
+<a class=flex href=/2005/11/30/from-incompetence-to-negligence/>
+<span class="mr-3 article-pagination-direction">&larr;</span>
+<span class="flex flex-col">
+<span class="article-pagination-title mt-[0.1rem] leading-6">
+From Incompetence to Negligence</span>
+<span class="mt-[0.1rem] text-xs text-neutral-400 dark:text-neutral-500">
+<time datetime="2005-11-30 13:29:00 +0000 UTC">30 November 2005</time>
+</span>
+</span>
+</a>
+</span>
+<span>
+<a class="flex text-right" href=/2005/11/29/like-thats-a-bad-thing/>
+<span class="flex flex-col">
+<span class="article-pagination-title mt-[0.1rem] leading-6">Like That’s a Bad Thing</span>
+<span class="mt-[0.1rem] text-xs text-neutral-400 dark:text-neutral-500">
+<time datetime="2005-11-29 08:30:58 +0000 UTC">29 November 2005</time>
+</span>
+</span>
+<span class="ml-3 article-pagination-direction">&rarr;</span>
+</a>
+</span>
+</div>
+</div>
+</footer>
+</article>
+</main><footer class=py-10>
+<nav class="pb-4 text-base font-medium text-neutral-500 dark:text-neutral-400">
+<ul class="flex flex-col list-none sm:flex-row">
+<li class="mb-1 sm:mb-0 sm:mr-7 sm:last:mr-0">
+<a class="hover:underline hover:underline-primary-500 hover:underline-thickness-bold hover:underline-offset-small" href=/tags/ title=Tags>Tags</a>
+</li>
+<li class="mb-1 sm:mb-0 sm:mr-7 sm:last:mr-0">
+<a class="hover:underline hover:underline-primary-500 hover:underline-thickness-bold hover:underline-offset-small" href=/categories/ title=Categories>Categories</a>
+</li>
+</ul>
+</nav>
+<div class="flex justify-between">
+<div>
+<p class="text-sm text-neutral-500 dark:text-neutral-400">
+&copy;
+2022
+Nathan Yergler
+</p>
+</div>
+</div>
+</footer>
+</body>
+</html>

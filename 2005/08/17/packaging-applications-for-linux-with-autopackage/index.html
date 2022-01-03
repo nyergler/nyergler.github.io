@@ -1,0 +1,130 @@
+<!doctype html><html lang=en><head>
+<meta charset=utf-8>
+<meta http-equiv=content-language content="en">
+<meta name=viewport content="width=device-width,initial-scale=1">
+<meta http-equiv=x-ua-compatible content="ie=edge">
+<title>Packaging Applications for Linux with Autopackage &#183; Nathan R. Yergler</title>
+<meta name=title content="Packaging Applications for Linux with Autopackage &#183; Nathan R. Yergler">
+<meta name=description content>
+<link rel=canonical href=https://nyergler.github.io/2005/08/17/packaging-applications-for-linux-with-autopackage/>
+<link type=text/css rel=stylesheet href=/css/schemes/ocean.min.ff17c50528c7a4a8a8bb8ec41272d63eb936ecefb9ccfa6db45cd1f5cd8b1becf8606745f751ee0d322ac80c9cb96e58aa699b38aa44cff9d2a8b3ff4f05a7b5.css integrity="sha512-/xfFBSjHpKiou47EEnLWPrk27O+5zPpttFzR9c2LG+z4YGdF91HuDTIqyAycuW5YqmmbOKpEz/nSqLP/TwWntQ==">
+<link type=text/css rel=stylesheet href=/css/compiled/main.min.84c4218572228cacf6182dc59fe08b5e1bcd599bb583bc56976aa0070f4cd8a4ff130ee2313074359bf6dba03b211e8c50df743d84ad551575fd0b9f849ec802.css integrity="sha512-hMQhhXIijKz2GC3Fn+CLXhvNWZu1g7xWl2qgBw9M2KT/Ew7iMTB0NZv226A7IR6MUN90PYStVRV1/QufhJ7IAg==">
+<script>function loadPreferredAppearance(){localStorage.preferredAppearance==="dark"||!("preferredAppearance"in localStorage)&&window.matchMedia("(prefers-color-scheme: dark)").matches?document.documentElement.classList.add("dark"):document.documentElement.classList.remove("dark")}function setPreferredAppearance(a){a=="default"?localStorage.removeItem("preferredAppearance"):localStorage.preferredAppearance=a,loadPreferredAppearance()}loadPreferredAppearance(),window.matchMedia("(prefers-color-scheme: dark)").addListener(loadPreferredAppearance)</script>
+<link rel=apple-touch-icon sizes=180x180 href=/apple-touch-icon.png>
+<link rel=icon type=image/png sizes=32x32 href=/favicon-32x32.png>
+<link rel=icon type=image/png sizes=16x16 href=/favicon-16x16.png>
+<link rel=manifest href=/site.webmanifest>
+<meta property="og:title" content="Packaging Applications for Linux with Autopackage">
+<meta property="og:description" content="One of the most frequent [STRIKEOUT:complaints]requests I receive for ccPublisher and ccLookup is for Linux packages.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://nyergler.github.io/2005/08/17/packaging-applications-for-linux-with-autopackage/"><meta property="article:section" content="posts">
+<meta property="article:published_time" content="2005-08-17T16:02:05+00:00">
+<meta property="article:modified_time" content="2005-08-17T16:02:05+00:00">
+<meta name=twitter:card content="summary">
+<meta name=twitter:title content="Packaging Applications for Linux with Autopackage">
+<meta name=twitter:description content="One of the most frequent [STRIKEOUT:complaints]requests I receive for ccPublisher and ccLookup is for Linux packages.">
+<script type=application/ld+json>{"@context":"https://schema.org","@type":"BlogPosting","articleSection":"Posts","name":"Packaging Applications for Linux with Autopackage","headline":"Packaging Applications for Linux with Autopackage","description":"One of the most frequent [STRIKEOUT:complaints]requests I receive for ccPublisher and ccLookup is for Linux packages.","inLanguage":"en","author":{"@type":"Person","name":"Nathan Yergler"},"creator":{"@type":"Person","name":"Nathan Yergler"},"copyrightHolder":"Nathan Yergler","copyrightYear":"2005","dateCreated":"2005-08-17T16:02:05\u002b00:00","datePublished":"2005-08-17T16:02:05\u002b00:00","dateModified":"2005-08-17T16:02:05\u002b00:00","url":"https:\/\/nyergler.github.io\/2005\/08\/17\/packaging-applications-for-linux-with-autopackage\/","wordCount":"376","keywords":[]}</script>
+<meta name=author content="Nathan Yergler">
+<link href=https://github.com/nyergler rel=me>
+<link href=https://instagram.com/nyergler rel=me>
+</head>
+<body class="flex flex-col h-screen px-6 m-auto text-lg leading-7 bg-neutral text-neutral-900 sm:px-14 md:px-24 lg:px-32 dark:bg-neutral-800 dark:text-neutral max-w-7xl"><header class="flex justify-between py-6 font-semibold sm:items-center sm:py-10 text-neutral-900 dark:text-neutral">
+<div>
+<a class="hover:underline hover:underline-primary-500 hover:underline-thickness-bold hover:underline-offset-small" rel=me href=/>Nathan R. Yergler</a>
+</div>
+<nav>
+<ul class="flex flex-col list-none sm:flex-row">
+<li class="mb-1 text-right sm:mb-0 sm:mr-7 sm:last:mr-0">
+<a class="hover:underline hover:underline-primary-500 hover:underline-thickness-bold hover:underline-offset-small" href=/about/ title="Oh hai.">Bio</a>
+</li>
+<li class="mb-1 text-right sm:mb-0 sm:mr-7 sm:last:mr-0">
+<a class="hover:underline hover:underline-primary-500 hover:underline-thickness-bold hover:underline-offset-small" href=/posts/ title=Posts>Blog</a>
+</li>
+<li class="mb-1 text-right sm:mb-0 sm:mr-7 sm:last:mr-0">
+<a class="hover:underline hover:underline-primary-500 hover:underline-thickness-bold hover:underline-offset-small" href=/prints/ title=Prints>Prints</a>
+</li>
+</ul>
+</nav>
+</header>
+<main class=flex-grow>
+<article class=max-w-prose>
+<header>
+<ol class="text-sm text-neutral-500 dark:text-neutral-400">
+<li class="inline hidden">
+<a class="hover:underline hover:underline-neutral-300 dark:underline-neutral-600" href=/>Nathan R. Yergler</a><span class="px-1 text-primary-500">/</span>
+</li>
+<li class=inline>
+<a class="hover:underline hover:underline-neutral-300 dark:underline-neutral-600" href=/posts/>Posts</a><span class="px-1 text-primary-500">/</span>
+</li>
+<li class="inline hidden">
+<a class="hover:underline hover:underline-neutral-300 dark:underline-neutral-600" href=/2005/08/17/packaging-applications-for-linux-with-autopackage/>Packaging Applications for Linux with Autopackage</a><span class="px-1 text-primary-500">/</span>
+</li>
+</ol>
+<h1 class="mt-0 text-4xl font-extrabold text-neutral-900 dark:text-neutral">
+Packaging Applications for Linux with Autopackage
+</h1>
+<div class="mt-8 mb-12 text-base text-neutral-500 dark:text-neutral-400">
+<div class="flex flex-row items-center">
+<time datetime="2005-08-17 16:02:05 +0000 UTC">17 August 2005</time>
+</div>
+</div>
+</header>
+<section class="prose dark:prose-light">
+<p>One of the most frequent [<span class=caps>STRIKEOUT</span>:complaints]requests I receive for ccPublisher and ccLookup is for Linux packages. As one user pointedly put it, “how free can your app be if you don’t even support a free Operating System?” While I took issue with the user’s tone and statement (packaging does not necessarily equal support), I know that ccPublisher is more difficult to run from source than it should be. My stock answer to these requests has been that Linux packages are coming “real soon now” and “definitly by 2.0”. Well, with work on 2.0 moving along, I turned my attention to packaging this week. The approach I’ve chosen won’t make everyone happy, but I think it’s a good compromise for a small organization.</p>
+<p>So what format are we packaging? <span class=caps>RPM</span>? <span class=caps>DEB</span>? Neither. We’re using <a href=http://autopackage.org>autopackage</a> . Autopackage is fairly slick — it uses a package specification file to build an installer. When the user runs the installer, they’ll either see a text, <span class=caps>GTK</span> or <span class=caps>QT</span> version of the front end, whatever’s available. Autopackage also allows us to be rather flexible with our dependencies. We decided early on that unlike the Mac <span class=caps>OS</span> X and Windows versions of ccPublisher, the Linux packages would actually require Python and wxPython as dependencies. There are lots of reasons for this, but the biggest one is that in my experiments “freezing” just doesn’t work as well under Linux. So Autopackage lets us specify dependencies using “skeleton” files. All I had to do was write a simple skeleton for wxPython that sets the appropriate environment variables with the installed version.</p>
+<p>Finally, a major change in ccPublisher 2 is the split of the actual application from a more generic framework. The goal here is to make life easier for maintainers of derivative apps (like <a href=http://ourmedia.org/tools>Ourmedia Publisher</a> ) — [<span class=caps>STRIKEOUT</span>:if] when we find a bug, fixing it in ccPublisher will generally fix it in other derivative apps. Autopackage makes life slightly easier in this respect by allowing us to specify a dependency on our framework (which I’m calling P6 for the time being) as you’d expect. If a user already has a P6 application (like ccPublisher) installed, Autopackage will just use that installation. If not, it will seamlessly download the dependency and install it. Slick.</p>
+</section>
+<footer class=pt-8>
+<div class="pt-8 article-pagination">
+<hr class="border-dotted border-neutral-300 dark:border-neutral-600">
+<div class="flex justify-between pt-3">
+<span>
+<a class=flex href=/2005/08/18/uh-bullshit/>
+<span class="mr-3 article-pagination-direction">&larr;</span>
+<span class="flex flex-col">
+<span class="article-pagination-title mt-[0.1rem] leading-6">
+Uh, Bullshit</span>
+<span class="mt-[0.1rem] text-xs text-neutral-400 dark:text-neutral-500">
+<time datetime="2005-08-18 14:41:29 +0000 UTC">18 August 2005</time>
+</span>
+</span>
+</a>
+</span>
+<span>
+<a class="flex text-right" href=/2005/08/10/coworking-thats-a-good-word-for-it/>
+<span class="flex flex-col">
+<span class="article-pagination-title mt-[0.1rem] leading-6">Coworking… that’s a good word for it</span>
+<span class="mt-[0.1rem] text-xs text-neutral-400 dark:text-neutral-500">
+<time datetime="2005-08-10 08:56:43 +0000 UTC">10 August 2005</time>
+</span>
+</span>
+<span class="ml-3 article-pagination-direction">&rarr;</span>
+</a>
+</span>
+</div>
+</div>
+</footer>
+</article>
+</main><footer class=py-10>
+<nav class="pb-4 text-base font-medium text-neutral-500 dark:text-neutral-400">
+<ul class="flex flex-col list-none sm:flex-row">
+<li class="mb-1 sm:mb-0 sm:mr-7 sm:last:mr-0">
+<a class="hover:underline hover:underline-primary-500 hover:underline-thickness-bold hover:underline-offset-small" href=/tags/ title=Tags>Tags</a>
+</li>
+<li class="mb-1 sm:mb-0 sm:mr-7 sm:last:mr-0">
+<a class="hover:underline hover:underline-primary-500 hover:underline-thickness-bold hover:underline-offset-small" href=/categories/ title=Categories>Categories</a>
+</li>
+</ul>
+</nav>
+<div class="flex justify-between">
+<div>
+<p class="text-sm text-neutral-500 dark:text-neutral-400">
+&copy;
+2022
+Nathan Yergler
+</p>
+</div>
+</div>
+</footer>
+</body>
+</html>

@@ -1,0 +1,180 @@
+<!doctype html><html lang=en><head>
+<meta charset=utf-8>
+<meta http-equiv=content-language content="en">
+<meta name=viewport content="width=device-width,initial-scale=1">
+<meta http-equiv=x-ua-compatible content="ie=edge">
+<title>Emacs & Jedi &#183; Nathan R. Yergler</title>
+<meta name=title content="Emacs & Jedi &#183; Nathan R. Yergler">
+<meta name=description content>
+<link rel=canonical href=https://nyergler.github.io/2013/07/28/emacs-jedi/>
+<link type=text/css rel=stylesheet href=/css/schemes/ocean.min.ff17c50528c7a4a8a8bb8ec41272d63eb936ecefb9ccfa6db45cd1f5cd8b1becf8606745f751ee0d322ac80c9cb96e58aa699b38aa44cff9d2a8b3ff4f05a7b5.css integrity="sha512-/xfFBSjHpKiou47EEnLWPrk27O+5zPpttFzR9c2LG+z4YGdF91HuDTIqyAycuW5YqmmbOKpEz/nSqLP/TwWntQ==">
+<link type=text/css rel=stylesheet href=/css/compiled/main.min.84c4218572228cacf6182dc59fe08b5e1bcd599bb583bc56976aa0070f4cd8a4ff130ee2313074359bf6dba03b211e8c50df743d84ad551575fd0b9f849ec802.css integrity="sha512-hMQhhXIijKz2GC3Fn+CLXhvNWZu1g7xWl2qgBw9M2KT/Ew7iMTB0NZv226A7IR6MUN90PYStVRV1/QufhJ7IAg==">
+<script>function loadPreferredAppearance(){localStorage.preferredAppearance==="dark"||!("preferredAppearance"in localStorage)&&window.matchMedia("(prefers-color-scheme: dark)").matches?document.documentElement.classList.add("dark"):document.documentElement.classList.remove("dark")}function setPreferredAppearance(a){a=="default"?localStorage.removeItem("preferredAppearance"):localStorage.preferredAppearance=a,loadPreferredAppearance()}loadPreferredAppearance(),window.matchMedia("(prefers-color-scheme: dark)").addListener(loadPreferredAppearance)</script>
+<link rel=apple-touch-icon sizes=180x180 href=/apple-touch-icon.png>
+<link rel=icon type=image/png sizes=32x32 href=/favicon-32x32.png>
+<link rel=icon type=image/png sizes=16x16 href=/favicon-16x16.png>
+<link rel=manifest href=/site.webmanifest>
+<meta property="og:title" content="Emacs & Jedi">
+<meta property="og:description" content="Brandon Rhodes delivered the keynote at PyOhio yesterday[1]3{#id1.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://nyergler.github.io/2013/07/28/emacs-jedi/"><meta property="article:section" content="posts">
+<meta property="article:published_time" content="2013-07-28T00:00:00+00:00">
+<meta property="article:modified_time" content="2013-07-28T00:00:00+00:00">
+<meta name=twitter:card content="summary">
+<meta name=twitter:title content="Emacs & Jedi">
+<meta name=twitter:description content="Brandon Rhodes delivered the keynote at PyOhio yesterday[1]3{#id1.">
+<script type=application/ld+json>{"@context":"https://schema.org","@type":"BlogPosting","articleSection":"Posts","name":"Emacs \u0026 Jedi","headline":"Emacs \u0026 Jedi","description":"Brandon Rhodes delivered the keynote at PyOhio yesterday[1]3{#id1.","inLanguage":"en","author":{"@type":"Person","name":"Nathan Yergler"},"creator":{"@type":"Person","name":"Nathan Yergler"},"copyrightHolder":"Nathan Yergler","copyrightYear":"2013","dateCreated":"2013-07-28T00:00:00\u002b00:00","datePublished":"2013-07-28T00:00:00\u002b00:00","dateModified":"2013-07-28T00:00:00\u002b00:00","url":"https:\/\/nyergler.github.io\/2013\/07\/28\/emacs-jedi\/","wordCount":"702","keywords":["buildout","python","virtualenv"]}</script>
+<meta name=author content="Nathan Yergler">
+<link href=https://github.com/nyergler rel=me>
+<link href=https://instagram.com/nyergler rel=me>
+</head>
+<body class="flex flex-col h-screen px-6 m-auto text-lg leading-7 bg-neutral text-neutral-900 sm:px-14 md:px-24 lg:px-32 dark:bg-neutral-800 dark:text-neutral max-w-7xl"><header class="flex justify-between py-6 font-semibold sm:items-center sm:py-10 text-neutral-900 dark:text-neutral">
+<div>
+<a class="hover:underline hover:underline-primary-500 hover:underline-thickness-bold hover:underline-offset-small" rel=me href=/>Nathan R. Yergler</a>
+</div>
+<nav>
+<ul class="flex flex-col list-none sm:flex-row">
+<li class="mb-1 text-right sm:mb-0 sm:mr-7 sm:last:mr-0">
+<a class="hover:underline hover:underline-primary-500 hover:underline-thickness-bold hover:underline-offset-small" href=/about/ title="Oh hai.">Bio</a>
+</li>
+<li class="mb-1 text-right sm:mb-0 sm:mr-7 sm:last:mr-0">
+<a class="hover:underline hover:underline-primary-500 hover:underline-thickness-bold hover:underline-offset-small" href=/posts/ title=Posts>Blog</a>
+</li>
+<li class="mb-1 text-right sm:mb-0 sm:mr-7 sm:last:mr-0">
+<a class="hover:underline hover:underline-primary-500 hover:underline-thickness-bold hover:underline-offset-small" href=/prints/ title=Prints>Prints</a>
+</li>
+</ul>
+</nav>
+</header>
+<main class=flex-grow>
+<article class=max-w-prose>
+<header>
+<ol class="text-sm text-neutral-500 dark:text-neutral-400">
+<li class="inline hidden">
+<a class="hover:underline hover:underline-neutral-300 dark:underline-neutral-600" href=/>Nathan R. Yergler</a><span class="px-1 text-primary-500">/</span>
+</li>
+<li class=inline>
+<a class="hover:underline hover:underline-neutral-300 dark:underline-neutral-600" href=/posts/>Posts</a><span class="px-1 text-primary-500">/</span>
+</li>
+<li class="inline hidden">
+<a class="hover:underline hover:underline-neutral-300 dark:underline-neutral-600" href=/2013/07/28/emacs-jedi/>Emacs & Jedi</a><span class="px-1 text-primary-500">/</span>
+</li>
+</ol>
+<h1 class="mt-0 text-4xl font-extrabold text-neutral-900 dark:text-neutral">
+Emacs & Jedi
+      </h1>
+<div class="mt-8 mb-12 text-base text-neutral-500 dark:text-neutral-400">
+<div class="flex flex-row items-center">
+<time datetime="2013-07-28 00:00:00 +0000 UTC">28 July 2013</time>
+</div>
+</div>
+</header>
+<section class="prose dark:prose-light">
+<p><a href=http://rhodesmill.org/brandon/>Brandon Rhodes</a> delivered the <a href=http://pyvideo.org/video/2258/keynote-4>keynote</a> at PyOhio yesterday[<a href=http://rhodesmill.org/brandon/>1</a>]<a href=#id2>3</a>{#id1.footnote-reference}. He talked about <em>sine qua nons</em>: features that without which, a language is nothing to him. One of the things he mentioned was <a href=http://jedi.jedidjah.ch/en/latest/>Jedi</a> , a framework for extending editors with Python autocompletion, documentation lookup, and source navigation. I say “editors”, vaguely, because Jedi consists of a Python server that the editor communicates with via an <a href=http://jedi.jedidjah.ch/en/latest/#editor-plugins>editor specific plugin</a> . I’d seen Jedi before, but hadn’t managed to get it working with Emacs. After hearing Brandon speak of it so glowingly, I decided to give it another try. The actual installation was easy: using the <a href=https://github.com/dimitri/el-get#master-branch>master branch</a> of <a href=https://github.com/dimitri/el-get>el-get</a> , the <a href=https://github.com/dimitri/el-get/blob/master/recipes/jedi.rcp>recipe</a> installed the <a href=http://tkf.github.io/emacs-jedi/latest/>Jedi Emacs plugin</a> and its dependencies seamlessly. And it seemed to just work for the standard library.</p>
+<p>And once I’d enabled it for <tt class="docutils literal"><span class=pre>python-mode</span></tt>, I was indeed able to autocomplete things from the standard library, and jump to the source of members implemented in Python. But I found that I wasn’t able to navigate to the third party dependencies in my project, and eventually figured out there were three cases I needed to address.</p>
+<ul class=simple>
+<li>
+Many things I work on use <a class="reference external" href=http://www.virtualenv.org/en/latest/>virtualenv</a>. Jedi supports virtual environments if the <tt class="docutils literal">VIRTUAL_ENV</tt> environment variable is set, but I tend to keep Emacs running and switch between several different projects, each with their own environment.
+</li>
+<li>
+Some of my projects also use <a class="reference external" href=http://www.buildout.org/en/latest/>buildout</a>. When I&#8217;m using <a class="reference external" href=http://www.buildout.org/en/latest/>buildout</a> for a project, the dependencies end up in an <tt class="docutils literal">eggs</tt> sub-directory, which Jedi (as far as I know) doesn&#8217;t actually know about.
+</li>
+<li>
+Finally, the setup we use at Eventbrite requires some special handling, as well: we store our source checkouts on an encrypted disk image, which is then mounted into a Vagrant virtual machine, where the actual virtual environment lives. Since the virtual environment isn&#8217;t on the same &#8220;machine&#8221; that we&#8217;re editing on, I need to tell Jedi explicitly what directories to find source in.
+</li>
+</ul>
+<p>The Jedi documentation includes an <a href=http://tkf.github.io/emacs-jedi/latest/#jedi:server-args>advanced example</a> of customizing the server arguments on per buffer. It assumes static arguments, but it seemed like a solution was possible. I spent a couple hours this afternoon working on my Emacs Lisp skills to make Jedi work in all three of my cases.</p>
+<div class=section id=kenobi-el>
+<h2>
+kenobi.el
+</h2>
+<p>
+<a class="reference external" href=https://gist.github.com/nyergler/6100112>kenobi.el</a> (gist) is the result, and it does a few things:
+</p>
+<ol class="arabic simple">
+<li>
+Fires hooks for each mode after the <a class="reference external" href=https://www.gnu.org/software/emacs/manual/html_node/emacs/File-Variables.html>file</a> or <a class="reference external" href=https://www.gnu.org/software/emacs/manual/html_node/emacs/Directory-Variables.html>directory</a> local variables have been set up. I found a <a class="reference external" href=http://stackoverflow.com/questions/5147060/how-can-i-access-directory-local-variables-in-my-major-mode-hooks>StackOverflow post</a> that confirmed what I had observed: any file or directory local variables weren&#8217;t set when the normal <tt class="docutils literal"><span class=pre>python-mode</span></tt> hook was fired. The mode-specific hooks are chained off of <tt class="docutils literal"><span class=pre>hack-local-variables-hook</span></tt>, which is fired after the local variables have been resolved.
+</li>
+<li>
+Walks up the directory hierarchy from the buffer file, looking for <tt class="docutils literal">./bin/activate</tt> at each level. If it finds one, it assumes this is the virtual env, and adds it to the list of virtual envs Jedi will look at.
+</li>
+<li>
+Walks up the directory hierarchy looking for an <tt class="docutils literal"><span class=pre>./eggs/*.egg</span></tt> sub-directory at each level. If it finds one, it adds each of those <tt class="docutils literal">.egg</tt> subdirectories to the <tt class="docutils literal">sys.path</tt> Jedi will look at. This allows Jedi to work when you&#8217;re editing files in buildout-based projects.
+</li>
+<li>
+Looks to see if the <tt class="docutils literal">aditional_paths</tt> variable has been set as a list of other paths to add.
+</li>
+</ol>
+<p>
+The first three bits are sort of implementation details: you can usually just ignore them, and Jedi will <em>just work</em>. The final, though, needs a little explanation.
+</p>
+<p>
+As I mentioned above, Eventbrite stores the source code on a disk image, which is mounted into a virtual machine where the actual virtualenv lives. That means I need to add specific paths to <tt class="docutils literal">sys.path</tt> when I open a source file in that disk image. To get that to work, I create a <tt class="docutils literal"><span class=pre>.dir-locals.el</span></tt> in the root of the source tree, something like:
+</p>
+<pre class=literal-block>
+(
+ (nil . ((additional_paths . (
+          "/Volumes/eb_home/work/src"
+          "/Volumes/eb_home/work/deps"
+          ))))
+)
+</pre>
+<p>
+I&#8217;m sure that my Emacs Lisp could be improved upon, but it felt pretty good to figure out enough to integration Jedi into the way I use Emacs. I haven&#8217;t worked with Jedi extensively, but so far it seems to work pretty well. The autocomplete features seem to be minimally invasive, and the show docstring and jump to definition both work great.
+</p>
+</div>
+</section>
+<footer class=pt-8>
+<div class="pt-8 article-pagination">
+<hr class="border-dotted border-neutral-300 dark:border-neutral-600">
+<div class="flex justify-between pt-3">
+<span>
+<a class=flex href=/2013/07/28/fast-pass/>
+<span class="mr-3 article-pagination-direction">&larr;</span>
+<span class="flex flex-col">
+<span class="article-pagination-title mt-[0.1rem] leading-6">
+Draft Work: “Fast Pass”</span>
+<span class="mt-[0.1rem] text-xs text-neutral-400 dark:text-neutral-500">
+<time datetime="2013-07-28 00:00:00 +0000 UTC">28 July 2013</time>
+</span>
+</span>
+</a>
+</span>
+<span>
+<a class="flex text-right" href=/2013/07/27/effdj-oscon-pm/>
+<span class="flex flex-col">
+<span class="article-pagination-title mt-[0.1rem] leading-6">Effective Django at OSCON Post-Mortem</span>
+<span class="mt-[0.1rem] text-xs text-neutral-400 dark:text-neutral-500">
+<time datetime="2013-07-27 00:00:00 +0000 UTC">27 July 2013</time>
+</span>
+</span>
+<span class="ml-3 article-pagination-direction">&rarr;</span>
+</a>
+</span>
+</div>
+</div>
+</footer>
+</article>
+</main><footer class=py-10>
+<nav class="pb-4 text-base font-medium text-neutral-500 dark:text-neutral-400">
+<ul class="flex flex-col list-none sm:flex-row">
+<li class="mb-1 sm:mb-0 sm:mr-7 sm:last:mr-0">
+<a class="hover:underline hover:underline-primary-500 hover:underline-thickness-bold hover:underline-offset-small" href=/tags/ title=Tags>Tags</a>
+</li>
+<li class="mb-1 sm:mb-0 sm:mr-7 sm:last:mr-0">
+<a class="hover:underline hover:underline-primary-500 hover:underline-thickness-bold hover:underline-offset-small" href=/categories/ title=Categories>Categories</a>
+</li>
+</ul>
+</nav>
+<div class="flex justify-between">
+<div>
+<p class="text-sm text-neutral-500 dark:text-neutral-400">
+&copy;
+2022
+Nathan Yergler
+</p>
+</div>
+</div>
+</footer>
+</body>
+</html>
