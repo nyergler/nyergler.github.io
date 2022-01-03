@@ -23,7 +23,7 @@
 <meta name=twitter:card content="summary">
 <meta name=twitter:title content="flymake with Sphinx">
 <meta name=twitter:description content="Working on my PyCon tutorial (next week!">
-<script type=application/ld+json>{"@context":"https://schema.org","@type":"BlogPosting","articleSection":"Posts","name":"flymake with Sphinx","headline":"flymake with Sphinx","description":"Working on my PyCon tutorial (next week!","inLanguage":"en","author":{"@type":"Person","name":"Nathan Yergler"},"creator":{"@type":"Person","name":"Nathan Yergler"},"copyrightHolder":"Nathan Yergler","copyrightYear":"2013","dateCreated":"2013-03-06T00:00:00\u002b00:00","datePublished":"2013-03-06T00:00:00\u002b00:00","dateModified":"2013-03-06T00:00:00\u002b00:00","url":"https:\/\/nyergler.github.io\/2013\/03\/06\/flymake_with_sphinx\/","wordCount":"286","keywords":["none"]}</script>
+<script type=application/ld+json>{"@context":"https://schema.org","@type":"BlogPosting","articleSection":"Posts","name":"flymake with Sphinx","headline":"flymake with Sphinx","description":"Working on my PyCon tutorial (next week!","inLanguage":"en","author":{"@type":"Person","name":"Nathan Yergler"},"creator":{"@type":"Person","name":"Nathan Yergler"},"copyrightHolder":"Nathan Yergler","copyrightYear":"2013","dateCreated":"2013-03-06T00:00:00\u002b00:00","datePublished":"2013-03-06T00:00:00\u002b00:00","dateModified":"2013-03-06T00:00:00\u002b00:00","url":"https:\/\/nyergler.github.io\/2013\/03\/06\/flymake_with_sphinx\/","wordCount":"288","keywords":["none"]}</script>
 <meta name=author content="Nathan Yergler">
 <link href=https://github.com/nyergler rel=me>
 <link href=https://instagram.com/nyergler rel=me>
@@ -70,17 +70,17 @@ flymake with Sphinx
 </div>
 </header>
 <section class="prose dark:prose-light">
-<p>Working on my <a href=https://us.pycon.org/2013/schedule/presentation/9/>PyCon tutorial</a> (next week!), I’ve been spending a <em>lot</em> of time in Emacs editing <a href=http://docutils.sf.net>reStructured Text</a> documents. I use <a href=http://sphinx-doc.org>Sphinx</a> and <a href=http://hieroglyph.io/>Hieroglyph</a> to generate the <span class=caps>HTML</span>, the slides, and the <span class=caps>PDF</span> from a single source, which make it easy for me to keep everything in sync. <a href=http://flymake.sourceforge.net/>flymake</a> is an Emacs mode that’s designed to do syntax or spell checking as you work. The name reveals its roots: in its simplest form, it just runs <tt class="docutils literal">make</tt> for your project.</p>
-<p>I was tired of flipping over to the shell to re-build the Sphinx project, so I decided to enable flymake for <tt class="docutils literal">.rst</tt> files and see what happened. The <tt class="docutils literal"><span class=pre>flymake-allowed-file-name-masks</span></tt> variable has a list of regular expressions to flymake commands, so I added the following element to the list:</p>
+<p>Working on my <a href=https://us.pycon.org/2013/schedule/presentation/9/>PyCon tutorial</a> (next week!), I’ve been spending a <em>lot</em> of time in Emacs editing <a href=http://docutils.sf.net>reStructured Text</a> documents. I use <a href=http://sphinx-doc.org>Sphinx</a> and <a href=http://hieroglyph.io/>Hieroglyph</a> to generate the HTML</span>, the slides, and the <span class=caps>PDF from a single source, which make it easy for me to keep everything in sync. <a href=http://flymake.sourceforge.net/>flymake</a> is an Emacs mode that’s designed to do syntax or spell checking as you work. The name reveals its roots: in its simplest form, it just runs <code>make</code> for your project.</p>
+<p>I was tired of flipping over to the shell to re-build the Sphinx project, so I decided to enable flymake for <code>.rst</code> files and see what happened. The <code>&lt;span class="pre">flymake-allowed-file-name-masks&lt;/span></code> variable has a list of regular expressions to flymake commands, so I added the following element to the list:</p>
 <pre class=literal-block>("\\.rst\\'" flymake-simple-make-init)
 </pre>
-<p>That was enough to get flymake to invoke the Makefile, and then I just needed to add the target it looks for: <tt class="docutils literal"><span class=pre>check-syntax</span></tt>. I added the following target to my Sphinx project Makefile:</p>
+<p>That was enough to get flymake to invoke the Makefile, and then I just needed to add the target it looks for: <code>&lt;span class="pre">check-syntax&lt;/span></code>. I added the following target to my Sphinx project Makefile:</p>
 <pre class=literal-block>check-syntax:
         $(SPHINXBUILD) -n -N -q -b html $(ALLSPHINXOPTS) $(BUILDDIR)/
         $(SPHINXBUILD) -n -N -q -b slides $(ALLSPHINXOPTS) $(BUILDDIR)/slides
 </pre>
-<p>In my case I’m building both <span class=caps>HTML</span> and Slides from the Sphinx project, and I wanted both to be updated when I changed a file in Emacs. That did it.</p>
-<p>Now all I <em>wanted</em> was automagic execution of <tt class="docutils literal">make</tt>, but to my pleasant surprise, Sphinx’s warning and error output is compatible with flymake by default. Suddenly Emacs highlighted missing <a href=http://docutils.sourceforge.net/docs/user/rst/quickref.html#hyperlink-targets>targets</a> and directives with missing arguments in red. With <a href=http://www.emacswiki.org/emacs/flymake-cursor.el>flymake-cursor</a> enabled, moving my cursor over one of those red lines showed me the Sphinx error below the mode-line.</p>
+<p>In my case I’m building both HTML and Slides from the Sphinx project, and I wanted both to be updated when I changed a file in Emacs. That did it.</p>
+<p>Now all I <em>wanted</em> was automagic execution of <code>make</code>, but to my pleasant surprise, Sphinx’s warning and error output is compatible with flymake by default. Suddenly Emacs highlighted missing <a href=http://docutils.sourceforge.net/docs/user/rst/quickref.html#hyperlink-targets>targets</a> and directives with missing arguments in red. With <a href=http://www.emacswiki.org/emacs/flymake-cursor.el>flymake-cursor</a> enabled, moving my cursor over one of those red lines showed me the Sphinx error below the mode-line.</p>
 <p>There you have it: Sphinx just works with Emacs and flymake, you just need to turn it on.</p>
 </section>
 <footer class=pt-8>

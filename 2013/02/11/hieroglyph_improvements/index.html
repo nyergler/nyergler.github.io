@@ -76,22 +76,22 @@ Hieroglyph Improvements
 <p class=first>
 <a class="reference external" href=https://github.com/tjadevries>tjadevries</a> contributed fixes for incremental slides in Chrome.
 </p>
-<p>It seems that a recent change in Chrome caused the incremental slide Javascript, which originated in the Google <span class=caps>HTML5</span> Slides project, to stop working. <tt class="docutils literal">master</tt> has a fix for that.</p>
+<p>It seems that a recent change in Chrome caused the incremental slide Javascript, which originated in the Google HTML5 Slides project, to stop working. <code>master</code> has a fix for that.</p>
 </li>
 <li>
 <p class=first>
-Proper pruning when <tt class="docutils literal">autoslides</tt> are disabled.
+Proper pruning when `autoslides` are disabled.
 </p>
-<p>If you have <tt class="docutils literal">autoslides</tt> turned off in a document, Hieroglyph will now properly prune the document when generating slides to only show explicit <tt class="docutils literal">slide</tt> directives. This was broken in 0.5.</p>
+<p>If you have <code>autoslides</code> turned off in a document, Hieroglyph will now properly prune the document when generating slides to only show explicit <code>slide</code> directives. This was broken in 0.5.</p>
 </li>
 <li>
 <p class=first>
-Fixed header sizing for <tt class="docutils literal">slide</tt> directives.
+Fixed header sizing for `slide` directives.
 </p>
-<p>The <tt class="docutils literal">slide</tt> directive allows you to specify a <tt class="docutils literal">level</tt> attribute. This is supposed to be used for determining how to render the slide title (for example, a level of 2 should render the title as an <tt class="docutils literal"><h2></tt>). This was broken in 0.5, and is fixed now.</p>
+<p>The <code>slide</code> directive allows you to specify a <code>level</code> attribute. This is supposed to be used for determining how to render the slide title (for example, a level of 2 should render the title as an <code>&lt;h2></code>). This was broken in 0.5, and is fixed now.</p>
 </li>
 </ul>
-<p>I’m using Hieroglyph for my PyCon tutorial, “<a href=https://us.pycon.org/2013/schedule/presentation/9/>Effective Django</a> ” [<a href=http://hieroglyph.io/>1</a>]<a href=#id2>5</a>{#id1.footnote-reference}, but the way I’m using it is pretty different than it has been previously. The slides and <span class=caps>HTML</span> output differ more, so I’m not relying on automatic slide generation the way I was initially. I expect I’ll make a new release around PyCon (mid-March) when I’ve done an entire talk in this manner.</p>
+<p>I’m using Hieroglyph for my PyCon tutorial, “<a href=https://us.pycon.org/2013/schedule/presentation/9/>Effective Django</a> ” [<a href=http://hieroglyph.io/>1</a>]<a href=#id2>5</a>{#id1.footnote-reference}, but the way I’m using it is pretty different than it has been previously. The slides and HTML output differ more, so I’m not relying on automatic slide generation the way I was initially. I expect I’ll make a new release around PyCon (mid-March) when I’ve done an entire talk in this manner.</p>
 </section>
 <footer class=pt-8>
 <div class="pt-8 article-pagination">

@@ -23,7 +23,7 @@
 <meta name=twitter:card content="summary">
 <meta name=twitter:title content="Scaling Python on the Web">
 <meta name=twitter:description content="First session of the day was on Scaling Python on the Web; rough notes which I may clean up later:">
-<script type=application/ld+json>{"@context":"https://schema.org","@type":"BlogPosting","articleSection":"Posts","name":"Scaling Python on the Web","headline":"Scaling Python on the Web","description":"First session of the day was on Scaling Python on the Web; rough notes which I may clean up later:","inLanguage":"en","author":{"@type":"Person","name":"Nathan Yergler"},"creator":{"@type":"Person","name":"Nathan Yergler"},"copyrightHolder":"Nathan Yergler","copyrightYear":"2007","dateCreated":"2007-02-24T12:35:29\u002b00:00","datePublished":"2007-02-24T12:35:29\u002b00:00","dateModified":"2007-02-24T12:35:29\u002b00:00","url":"https:\/\/nyergler.github.io\/2007\/02\/24\/scaling-python-on-the-web\/","wordCount":"300","keywords":[]}</script>
+<script type=application/ld+json>{"@context":"https://schema.org","@type":"BlogPosting","articleSection":"Posts","name":"Scaling Python on the Web","headline":"Scaling Python on the Web","description":"First session of the day was on Scaling Python on the Web; rough notes which I may clean up later:","inLanguage":"en","author":{"@type":"Person","name":"Nathan Yergler"},"creator":{"@type":"Person","name":"Nathan Yergler"},"copyrightHolder":"Nathan Yergler","copyrightYear":"2007","dateCreated":"2007-02-24T12:35:29\u002b00:00","datePublished":"2007-02-24T12:35:29\u002b00:00","dateModified":"2007-02-24T12:35:29\u002b00:00","url":"https:\/\/nyergler.github.io\/2007\/02\/24\/scaling-python-on-the-web\/","wordCount":"299","keywords":[]}</script>
 <meta name=author content="Nathan Yergler">
 <link href=https://github.com/nyergler rel=me>
 <link href=https://instagram.com/nyergler rel=me>
@@ -94,7 +94,7 @@ Hundreds to low thousands of dynamic page views is usually good enough
 <li>
 Scaling isn’t about the language, it’s about:<ul>
 <li>
-<span class=caps>DRY</span>: cache!
+DRY: cache!
 </li>
 <li>
 share nothing
@@ -109,7 +109,7 @@ preloaded with 100k’s users, 10-20 photos each
 </ul>
 </li>
 <li>
-first iteration: <span class=caps>CGI</span><ul>
+first iteration: CGI<ul>
 <li>
 roughly 23 requests/second
 </li>
@@ -168,7 +168,7 @@ sessions in the database — prefer an in-memory session store
 <pre><code>  &lt;li&gt;
     remedies:&lt;ul&gt;
       &lt;li&gt;
-        run multiple instances of CherryPy (overcode &lt;span class=&quot;caps&quot;&gt;GIL&lt;/span&gt;)
+        run multiple instances of CherryPy (overcode GIL)
       &lt;/li&gt;
       &lt;li&gt;
         but then we need to balance with something like nginx

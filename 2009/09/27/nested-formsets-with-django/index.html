@@ -74,10 +74,10 @@ Nested Formsets with Django
 I&#8217;ve published an <a class="reference external" href=http://yergler.net/blog/2013/09/03/nested-formsets-redux/>updated post</a> about nested formsets, along with an generic implementation and demo application on <a class="reference external" href=https://github.com/nyergler/nested-formset>GitHub</a>.
 </p>
 <p>I spent Labor Day weekend in New York City working on a side project with <a href=http://www.alexrobertsontextor.com/>Alex</a> . The project is coming together (albeit slowly, sometimes), and there have been a few interesting technical challenges. Labor Day weekend I was building an interface for editing data on the site. The particular feature I’m working on uses a multi-level data model; an example of this kind of model would be modeling City Blocks, where each Block has one or more Buildings, and each Building has one or more Tenants. Using this as an example, I was building the City Block editor.</p>
-<p><a href=http://djangoproject.com>Django</a> <a href=http://docs.djangoproject.com/en/dev/topics/forms/formsets/>Formsets</a> manage the complexity of multiple copies of a form in a view. They help you keep track of how many copies you started with, which ones have been changed, and which ones should be deleted. But what if you’re working with this hypothetical data model and want to allow people to edit the Buildings <em>and</em> Tenants for a Block, all on one page? In this case you want each form in the Building formset to have a complete Tenant formset, all its own. The Django Formset documentation is silent on this issue, possibly (probably?) because it’s an edge case and one that almost certainly requires some application-specific thought. I spent the better part of two days working on it — the first pretty much a throw away, the second wildly productive thanks to <span class=caps>TDD</span> — and this is what I came up with.</p>
+<p><a href=http://djangoproject.com>Django</a> <a href=http://docs.djangoproject.com/en/dev/topics/forms/formsets/>Formsets</a> manage the complexity of multiple copies of a form in a view. They help you keep track of how many copies you started with, which ones have been changed, and which ones should be deleted. But what if you’re working with this hypothetical data model and want to allow people to edit the Buildings <em>and</em> Tenants for a Block, all on one page? In this case you want each form in the Building formset to have a complete Tenant formset, all its own. The Django Formset documentation is silent on this issue, possibly (probably?) because it’s an edge case and one that almost certainly requires some application-specific thought. I spent the better part of two days working on it — the first pretty much a throw away, the second wildly productive thanks to TDD — and this is what I came up with.</p>
 <p>Formsets act as wrappers around Django <a href=http://docs.djangoproject.com/en/dev/topics/forms/>forms</a> , providing the accounting machinery and convenience methods needed for managing multiple copies of the form. My experience has been that, unlike forms where you have to write your form class (no matter how simple), you write a Formset class infrequently. Instead you use the factory functions which generate a default that’s suitable for most situations. As with regular Forms and Model Forms, Django offers <a href=http://docs.djangoproject.com/en/dev/topics/forms/modelforms/#model-formsets>Model Formsets</a> , which simplify the task of creating a formset for a form that handles instances of a model. In addition to model formsets, Django also provides <a href=http://docs.djangoproject.com/en/dev/topics/forms/modelforms/#inline-formsets>inline formsets</a> , which make it easier to deal with a set of objects that share a common foreign key. So in the example data model, an instance of the inline formset might model all the Buildings on a Block, or all the Tenants in the Building. Even if you’re not interested in nested formsets, the inline formsets can be incredibly useful.</p>
 <p>Let’s go ahead and define the models for our example:</p>
-<p><tt class="docutils literal">models.py</tt></p>
+<p><code>models.py</code></p>
 <pre class=literal-block>class Block(models.Model):
     description = models.CharField(max_length=255)
 
@@ -91,13 +91,13 @@ class Tenant(models.Model):
     unit = models.CharField(max_length=255)
 </pre>
 <p>After we have our models in place we need to define the forms. The nested form is straight-forward — it’s just a normal inline formset.</p>
-<p><tt class="docutils literal">forms.py</tt></p>
+<p><code>forms.py</code></p>
 <pre class=literal-block>from django.forms.models import inlineformset_factory
 
 TenantFormset = inlineformset_factory(models.Building, models.Tenant, extra=1)
 </pre>
-<p>Note that inlineformset_factory not only creates the Formset class, but it also create the <a href=http://docs.djangoproject.com/en/dev/topics/forms/modelforms/#modelform>ModelForm</a> for the model (<tt class="docutils literal">models.Tenant</tt> in this example).</p>
-<p>The “host” formset which contains the nested one — <tt class="docutils literal">BuildingFormset</tt> in our example — requires some additional work. There are a few cases that need to be handled:</p>
+<p>Note that inlineformset_factory not only creates the Formset class, but it also create the <a href=http://docs.djangoproject.com/en/dev/topics/forms/modelforms/#modelform>ModelForm</a> for the model (<code>models.Tenant</code> in this example).</p>
+<p>The “host” formset which contains the nested one — <code>BuildingFormset</code> in our example — requires some additional work. There are a few cases that need to be handled:</p>
 <ol class="arabic simple">
 <li>
 <strong>Validation</strong> — When validating an item in the formset, we also need to validate its sub-items (those on its nested formset.
@@ -113,7 +113,7 @@ Finally, the very basic issue of creating the nested formset instance for each p
 </li>
 </ol>
 <p>Before delving into those issues, let’s look at the basic formset declaration.</p>
-<p><tt class="docutils literal">forms.py</tt></p>
+<p><code>forms.py</code></p>
 <pre class=literal-block>from django.forms.models import BaseInlineFormSet
 
 class BaseBuildingFormset(BaseInlineFormSet):
@@ -122,9 +122,9 @@ class BaseBuildingFormset(BaseInlineFormSet):
 BuildingFormset = inlineformset_factory(models.Block, models.Building,
                                 formset=BaseBuildingFormset, extra=1)
 </pre>
-<p>Here we declare a sub-class of the <tt class="docutils literal">BaseInlineFormSet</tt> and then pass it to the <tt class="docutils literal">inlineformset_factory</tt> as the class we want to base our new formset on.</p>
-<p>Let’s start with the most basic piece of functionality: associating the nested formsets with each form. The super class defines an <tt class="docutils literal">add_fields</tt> method which is responsible for adding the fields (and their initial values since this is a model-based Form) to a specific form in the formset. This seemed as good a place as any to add our formset creation code.</p>
-<p><tt class="docutils literal">forms.py</tt></p>
+<p>Here we declare a sub-class of the <code>BaseInlineFormSet</code> and then pass it to the <code>inlineformset_factory</code> as the class we want to base our new formset on.</p>
+<p>Let’s start with the most basic piece of functionality: associating the nested formsets with each form. The super class defines an <code>add_fields</code> method which is responsible for adding the fields (and their initial values since this is a model-based Form) to a specific form in the formset. This seemed as good a place as any to add our formset creation code.</p>
+<p><code>forms.py</code></p>
 <pre class=literal-block>class BaseBuildingFormset(BaseInlineFormSet):
 
     def add_fields(self, form, index):
@@ -145,9 +145,9 @@ BuildingFormset = inlineformset_factory(models.Block, models.Building,
                             instance = instance,
                             prefix = 'TENANTS_%s’ % pk_value)]
 </pre>
-<p>The heart of what we’re doing here is in the last statement: creating a <tt class="docutils literal">form.nested</tt> property that contains a list of nested formsets — only one in our example and in the code I implemented; more than one would probably be a <span class=caps>UI</span> nightmare. In order to initialize the formset we need two pieces of information: the parent instance and a form prefix. If we’re creating fields for an existing instance we can use the <tt class="docutils literal">get_queryset</tt> method to return the list of objects. If this is a form for a new instance (i.e., the form created by specifying <tt class="docutils literal">extra=1</tt>), we need to specify None as the instance. We include the objects primary key in the form prefix to make sure the formsets are named uniquely; if this is an extra form we <tt class="docutils literal">hash</tt> the parent form’s prefix (which will also be unique). The Django documentation has instructions on <a href=http://docs.djangoproject.com/en/dev/topics/forms/formsets/#using-more-than-one-formset-in-a-view>using multiple formsets in a single view</a> that are relevant here.</p>
+<p>The heart of what we’re doing here is in the last statement: creating a <code>form.nested</code> property that contains a list of nested formsets — only one in our example and in the code I implemented; more than one would probably be a UI nightmare. In order to initialize the formset we need two pieces of information: the parent instance and a form prefix. If we’re creating fields for an existing instance we can use the <code>get_queryset</code> method to return the list of objects. If this is a form for a new instance (i.e., the form created by specifying <code>extra=1</code>), we need to specify None as the instance. We include the objects primary key in the form prefix to make sure the formsets are named uniquely; if this is an extra form we <code>hash</code> the parent form’s prefix (which will also be unique). The Django documentation has instructions on <a href=http://docs.djangoproject.com/en/dev/topics/forms/formsets/#using-more-than-one-formset-in-a-view>using multiple formsets in a single view</a> that are relevant here.</p>
 <p>Now that we have the nested formset created we can display it in the template.</p>
-<p><tt class="docutils literal">views.py</tt></p>
+<p><code>views.py</code></p>
 <pre class=literal-block>def edit_block_buildings(request, block_id):
     """Edit buildings and their tenants on a given block."""
 
@@ -170,7 +170,7 @@ BuildingFormset = inlineformset_factory(models.Block, models.Building,
                                },
                               context_instance=RequestContext(request))
 </pre>
-<p><tt class="docutils literal">edit_buildings.html</tt> (fragment)</p>
+<p><code>edit_buildings.html</code> (fragment)</p>
 <pre class=literal-block>{{ buildings.management_form }}
 {% for building in buildings.forms %}
 
@@ -184,8 +184,8 @@ BuildingFormset = inlineformset_factory(models.Block, models.Building,
 
 {% endfor %}
 </pre>
-<p>When the page is submitted, the idiom is to call <tt class="docutils literal">formset.is_valid()</tt> to validate the forms. We override <tt class="docutils literal">is_valid</tt> on our formset to add validation for the nested formsets as well.</p>
-<p><tt class="docutils literal">forms.py</tt></p>
+<p>When the page is submitted, the idiom is to call <code>formset.is_valid()</code> to validate the forms. We override <code>is_valid</code> on our formset to add validation for the nested formsets as well.</p>
+<p><code>forms.py</code></p>
 <pre class=literal-block>class BaseBuildingFormset(BaseInlineFormSet):
     ...
 
@@ -201,8 +201,8 @@ BuildingFormset = inlineformset_factory(models.Block, models.Building,
         return result
 </pre>
 <p>Finally, assuming the form validates, we need to handle saving. As I mentioned earlier, there are two different situations here — saving existing data (and possibly adding new nested data) and saving completely new data.</p>
-<p>For new data we need to override <tt class="docutils literal">save_new</tt> and update the parent reference for any nested data <em>after</em> we save (well, instantiate) the parent.</p>
-<p><tt class="docutils literal">forms.py</tt></p>
+<p>For new data we need to override <code>save_new</code> and update the parent reference for any nested data <em>after</em> we save (well, instantiate) the parent.</p>
+<p><code>forms.py</code></p>
 <pre class=literal-block>class BaseBuildingFormset(BaseInlineFormSet):
     ...
 
@@ -224,8 +224,8 @@ BuildingFormset = inlineformset_factory(models.Block, models.Building,
 
         return instance
 </pre>
-<p>Finally, we add a <tt class="docutils literal">save_all</tt> method for saving the parent formset and all nested formsets.</p>
-<p><tt class="docutils literal">forms.py</tt></p>
+<p>Finally, we add a <code>save_all</code> method for saving the parent formset and all nested formsets.</p>
+<p><code>forms.py</code></p>
 <pre class=literal-block>from django.forms.formsets import DELETION_FIELD_NAME
 
 class BaseBuildingFormset(BaseInlineFormSet):
@@ -266,9 +266,9 @@ class BaseBuildingFormset(BaseInlineFormSet):
             for nested in form.nested:
                 nested.save(commit=commit)
 </pre>
-<p>There are two methods defined here; the first, <tt class="docutils literal">should_delete</tt>, is lifted almost directly from code in <tt class="docutils literal">django.forms.models.BaseModelFormSet.save_existing_objects</tt>. It takes a form object in the formset and returns True if the object for that form is going to be deleted. We use this to short-circuit saving the nested formsets: no point in saving them if we’re going to delete their required ForeignKey.</p>
-<p>The <tt class="docutils literal">save_all</tt> method is responsible for saving (updating, creating, deleting) the forms in the formset, as well as all the nested formsets for each form. One thing to note is that regardless of whether we’re <a href=http://docs.djangoproject.com/en/dev/topics/forms/modelforms/#id2>committing our save</a> (<tt class="docutils literal">commit=True</tt>), we initially save the forms with <tt class="docutils literal">commit=False</tt>. When you save a model formset with <tt class="docutils literal">commit=False</tt>, Django populates a <tt class="docutils literal">saved_forms</tt> attribute with the list of all the forms saved — new and old. We need this list of saved forms to make sure we are able to save any nested formsets that are attached to newly created forms (ones that did not exist when the initial request was made). After we know <tt class="docutils literal">saved_forms</tt> has been populated we can do another pass to commit if necessary.</p>
-<p>There are certainly places this code could be improved, tightened up or generalized (for example, the nested formset prefix calculation and possibly <tt class="docutils literal">save_all</tt>). It’s also entirely plausible that you could wrap much of this into a factory function. But this gets nested editing working and once you wrap your head around what needs to be done, it’s actually fairly straight forward.</p>
+<p>There are two methods defined here; the first, <code>should_delete</code>, is lifted almost directly from code in <code>django.forms.models.BaseModelFormSet.save_existing_objects</code>. It takes a form object in the formset and returns True if the object for that form is going to be deleted. We use this to short-circuit saving the nested formsets: no point in saving them if we’re going to delete their required ForeignKey.</p>
+<p>The <code>save_all</code> method is responsible for saving (updating, creating, deleting) the forms in the formset, as well as all the nested formsets for each form. One thing to note is that regardless of whether we’re <a href=http://docs.djangoproject.com/en/dev/topics/forms/modelforms/#id2>committing our save</a> (<code>commit=True</code>), we initially save the forms with <code>commit=False</code>. When you save a model formset with <code>commit=False</code>, Django populates a <code>saved_forms</code> attribute with the list of all the forms saved — new and old. We need this list of saved forms to make sure we are able to save any nested formsets that are attached to newly created forms (ones that did not exist when the initial request was made). After we know <code>saved_forms</code> has been populated we can do another pass to commit if necessary.</p>
+<p>There are certainly places this code could be improved, tightened up or generalized (for example, the nested formset prefix calculation and possibly <code>save_all</code>). It’s also entirely plausible that you could wrap much of this into a factory function. But this gets nested editing working and once you wrap your head around what needs to be done, it’s actually fairly straight forward.</p>
 </section>
 <footer class=pt-8>
 <div class="pt-8 article-pagination">

@@ -77,7 +77,7 @@ DocSix: Doctests on Python 2 & 3
 &gt;&gt;&gt; validator.errors({'age': 'ten'})
 {'age': [u'An integer is required.']}
 </pre>
-<p>This example works <em>exactly</em> the same in Python 2 and 3: in both cases the error messages are returned as a list of Unicode strings. But in Python 2 the output has the leading <tt class="docutils literal">u</tt> indicator. Not so in Python 3.</p>
+<p>This example works <em>exactly</em> the same in Python 2 and 3: in both cases the error messages are returned as a list of Unicode strings. But in Python 2 the output has the leading <code>u</code> indicator. Not so in Python 3.</p>
 <p>What I needed to do is strip the Unicode indicator from the output strings before executing the test; then I’d have the Python 3 doctest I needed. So I wrote a tool that lets me do that.</p>
 <p><strong>DocSix lets you run your doctests on Python 2 and 3.</strong></p>
 <p><a href=http://pypi.python.org/pypi/docsix>DocSix</a> builds on <a href=http://pythonhosted.org/manuel/>Manuel</a> , a library for mixing custom test syntax into doctests. DocSix can work with existing uses of Manuel, or it can load your doctests into a <a href=http://docs.python.org/2/library/unittest.html>unittest</a> <a href=http://docs.python.org/2/library/unittest.html#unittest.TestSuite>TestSuite</a> , ready to go:</p>

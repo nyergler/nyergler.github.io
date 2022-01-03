@@ -23,7 +23,7 @@
 <meta name=twitter:card content="summary">
 <meta name=twitter:title content="Unicode output from Zope 3">
 <meta name=twitter:description content="The Creative Commons licene engine has gone through several iterations, the most recent being a Zope 3 / Grok application.">
-<script type=application/ld+json>{"@context":"https://schema.org","@type":"BlogPosting","articleSection":"Posts","name":"Unicode output from Zope 3","headline":"Unicode output from Zope 3","description":"The Creative Commons licene engine has gone through several iterations, the most recent being a Zope 3 \/ Grok application.","inLanguage":"en","author":{"@type":"Person","name":"Nathan Yergler"},"creator":{"@type":"Person","name":"Nathan Yergler"},"copyrightHolder":"Nathan Yergler","copyrightYear":"2008","dateCreated":"2008-07-19T12:57:33\u002b00:00","datePublished":"2008-07-19T12:57:33\u002b00:00","dateModified":"2008-07-19T12:57:33\u002b00:00","url":"https:\/\/nyergler.github.io\/2008\/07\/19\/unicode-output-from-zope-3\/","wordCount":"405","keywords":["cc","development","license engine","python","zope"]}</script>
+<script type=application/ld+json>{"@context":"https://schema.org","@type":"BlogPosting","articleSection":"Posts","name":"Unicode output from Zope 3","headline":"Unicode output from Zope 3","description":"The Creative Commons licene engine has gone through several iterations, the most recent being a Zope 3 \/ Grok application.","inLanguage":"en","author":{"@type":"Person","name":"Nathan Yergler"},"creator":{"@type":"Person","name":"Nathan Yergler"},"copyrightHolder":"Nathan Yergler","copyrightYear":"2008","dateCreated":"2008-07-19T12:57:33\u002b00:00","datePublished":"2008-07-19T12:57:33\u002b00:00","dateModified":"2008-07-19T12:57:33\u002b00:00","url":"https:\/\/nyergler.github.io\/2008\/07\/19\/unicode-output-from-zope-3\/","wordCount":"404","keywords":["cc","development","license engine","python","zope"]}</script>
 <meta name=author content="Nathan Yergler">
 <link href=https://github.com/nyergler rel=me>
 <link href=https://instagram.com/nyergler rel=me>
@@ -70,7 +70,7 @@ Unicode output from Zope 3
 </div>
 </header>
 <section class="prose dark:prose-light">
-<p>The Creative Commons licene engine has gone through several iterations, the most recent being a Zope 3 / Grok application. This has actually been a great implementation for us<a href=http://code.creativecommons.org/svnroot/cc.engine/trunk/README.txt>1</a><em>, but since the day it was deployed there’s been a warning in <tt class="docutils literal"><code>&lt;span class="caps">README&lt;/span>.txt&lt;/tt> &lt;[http://code.creativecommons.org/svnroot/cc.engine/trunk/&lt;span class="caps">README&lt;/span>.txt][1] >\</code></em>:</p>
+<p>The Creative Commons licene engine has gone through several iterations, the most recent being a Zope 3 / Grok application. This has actually been a great implementation for us<a href=http://code.creativecommons.org/svnroot/cc.engine/trunk/README.txt>1</a><em>, but since the day it was deployed there’s been a warning in ``README</span>.txt<code> &lt;[http://code.creativecommons.org/svnroot/cc.engine/trunk/&lt;span class="caps">README.txt][1] >\</code></em>:</p>
 <pre class=literal-block>If you get a UnicodeDecodeError from the cc.engine (you’ll see this if it’srunning in the foreground) when you try to access the http://host:9080/license/then it’s likely that the install of python you are using is set to use ASCIIas it’s default output.  You can change this to UTF-8 by creating the file/usr/lib/python&lt;version&gt;/sitecustomize.py and adding these lines:
 
   import sys
@@ -78,14 +78,14 @@ Unicode output from Zope 3
 </pre>
 <p>This always struck me as a bit inelegant — having to muck with something outside my application directory. After all, this belief that the application should be self-contained is the reason I use <a href=http://pypi.python.org/zc.buildout>zc.buildout</a> and share Jim’s belief in the evil of the system Python. Like a lot of inelegant things, though, it never rose quite to the level of annoyance needed to motivate me to <em>do it right</em>.</p>
 <p>Today I was working on moving the license engine to a different server<a href=http://pypi.python.org/zc.buildout>2</a>_ and ran into this problem again. I decided to dig in and see if I could track it down. In fact I did track down the initial problem — I was <a href="http://code.creativecommons.org/viewsvn?view=rev&revision=10535">making a comparison</a> between an encoded Unicode string and without specifying an explicit codec to use for the decode. Unfortunately once I fixed that I found it was <a href=http://en.wikipedia.org/wiki/Turtles_all_the_way_down>turtles all the way down</a> .</p>
-<p>Turns out the default Zope 3 page template machinery uses <tt class="docutils literal"><code>StringIO&lt;/tt> &lt;&lt;http://www.python.org/doc/lib/module-StringIO.html> >\</code>_ to collect the output. <tt class="docutils literal">StringIO</tt> uses, uh, strings — strings with the default system encoding. Reading the module documentation, it would appear that mixing String and Unicode input in your StringIO will cause this sort of issue.</p>
-<p>Andres suggested marking my templates as <span class=caps>UTF</span>-8 <span class=caps>XML</span> using something like:</p>
+<p>Turns out the default Zope 3 page template machinery uses ``StringIO<code> &lt;&lt;http://www.python.org/doc/lib/module-StringIO.html> >\</code>_ to collect the output. <code>StringIO</code> uses, uh, strings — strings with the default system encoding. Reading the module documentation, it would appear that mixing String and Unicode input in your StringIO will cause this sort of issue.</p>
+<p>Andres suggested marking my templates as UTF</span>-8 <span class=caps>XML using something like:</p>
 <pre class=literal-block>&lt; ?xml version="1.0" encoding="UTF-8" ?&gt;
 </pre>
-<p>but even after doing this and fixing the resulting entity errors, there’s still obviously some 8 bit Strings leaking into the output. In conversations on <span class=caps>IRC</span> the question was then asked: “is there a reason you don’t want a reasonable system wide encoding if your locale can support it?”</p>
+<p>but even after doing this and fixing the resulting entity errors, there’s still obviously some 8 bit Strings leaking into the output. In conversations on IRC the question was then asked: “is there a reason you don’t want a reasonable system wide encoding if your locale can support it?”</p>
 <p>I guess not<a href="http://code.creativecommons.org/viewsvn?view=rev&revision=10535">3</a>_.</p>
-<p><strong><span class=caps>UPDATE</span></strong> Martijn has a tangentially related <a href=http://faassen.n--tree.net/blog/view/weblog/2005/08/02/0>post</a> which sheds some light on why Python does/should ship with <tt class="docutils literal">ascii</tt> as the default codec. At least people smarter than me have problems with this sort of thing, too.</p>
-<hr class=docutils>
+<p><strong>UPDATE</strong> Martijn has a tangentially related <a href=http://faassen.n--tree.net/blog/view/weblog/2005/08/02/0>post</a> which sheds some light on why Python does/should ship with <code>ascii</code> as the default codec. At least people smarter than me have problems with this sort of thing, too.</p>
+<hr>
 </section>
 <footer class=pt-8>
 <div class="pt-8 article-pagination">

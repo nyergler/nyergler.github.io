@@ -74,7 +74,7 @@ Writing Mozilla Extensions
 <p>With that and the coming <a href=http://weblogs.mozillazine.org/ben/archives/005380.html>Firefox 1.0 extension format change</a> , I decided to put together something I’m calling DemoExt. The goal of DemoExt is to provide the simplest amount of functionality necessary to demonstrate how to make a localized, cross-platform extension that works with Firefox and Mozilla Suite. It currently does the following:</p>
 <ul class=simple>
 <li>
-overlays the browser window, adding an item to the status bar (this seemed like the simplest example of modifying the browser <span class=caps>UI</span>)
+overlays the browser window, adding an item to the status bar (this seemed like the simplest example of modifying the browser UI)
 </li>
 <li>
 provides a simple preferences/options dialog, both in Firefox and Mozilla Suite
@@ -86,20 +86,20 @@ uses localization files to store strings (this was always way too hard for me to
 <p>That’s it! In addition to these “features”, the DemoExt package has a few tricks up it’s sleeve as well:</p>
 <ul class=simple>
 <li>
-a <tt class="docutils literal">build.sh</tt> script which generates an <span class=caps>XPI</span> in the new 1.0 format
+a `build.sh` script which generates an XPI in the new 1.0 format
 </li>
 <li>
-an <tt class="docutils literal">install.js</tt> script which installs the DemoExt into the users’ profile, mimicking the 1.0 Firefox approach
+an `install.js` script which installs the DemoExt into the users’ profile, mimicking the 1.0 Firefox approach
 </li>
 <li>
-an <tt class="docutils literal">extension.rdf</tt> which provides the Firefox 1.0 format metadata
+an `extension.rdf` which provides the Firefox 1.0 format metadata
 </li>
 <li>
-<tt class="docutils literal">newext.py</tt>, a Python script which generates a new source tree from the demo tree, with the appropriate files/directories renamed; hopefully this will allow people to get started writing extension faster, without worrying about how to install them or how to lay out their directory structure
+`newext.py`, a Python script which generates a new source tree from the demo tree, with the appropriate files/directories renamed; hopefully this will allow people to get started writing extension faster, without worrying about how to install them or how to lay out their directory structure
 </li>
 </ul>
 <p>There are still a couple of things I’m working on. First, I need to make the preferences code load the defaults from the demoext_prefs.js file. I want to make newext.py a little smarter about how it generates the new tree. Finally, I’d like to create a similar package for Thunderbird, since the current code is very browser-oriented.</p>
-<p>You can download DemoExt <a href=http://yergler.net/projects/demoext/releases>here</a> , or browse the <a href=http://yergler.net/cvs/viewcvs.cgi/demoext/><span class=caps>CVS</span> tree</a> . As always suggestions, feedback and corrections are welcome. Enjoy!</p>
+<p>You can download DemoExt <a href=http://yergler.net/projects/demoext/releases>here</a> , or browse the <a href=http://yergler.net/cvs/viewcvs.cgi/demoext/>CVS tree</a> . As always suggestions, feedback and corrections are welcome. Enjoy!</p>
 </section>
 <footer class=pt-8>
 <div class="pt-8 article-pagination">
