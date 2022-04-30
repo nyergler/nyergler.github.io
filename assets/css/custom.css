@@ -1,0 +1,17 @@
+.gallery-container {
+    display: inline-block;
+}
+
+.gallery {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  position: relative;
+  height: 155px;
+  width: 155px;
+}
+
+.gallery a {
+    padding: 1em;
+}

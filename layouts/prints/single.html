@@ -23,9 +23,9 @@
       {{ .Content | emojify }}
     </section>
     {{ with .Params.series }}
-      <p>Part of the series:
-        {{- range . }}<a href="{{ "series/" | absURL}}{{ . | urlize }}">{{ . }}</a>
-        {{ end }}
+      <p>Part of the series
+        {{- range . }} <a href="{{ "series/" | absURL}}{{ . | urlize }}">{{ . }}</a>
+        {{- end }}.
       </p>
     {{ end }}
 
