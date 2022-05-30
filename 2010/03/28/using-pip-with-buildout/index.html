@@ -1,83 +1,5 @@
-<!doctype html><html lang=en><head>
-<meta charset=utf-8>
-<meta http-equiv=content-language content="en">
-<meta name=viewport content="width=device-width,initial-scale=1">
-<meta http-equiv=x-ua-compatible content="ie=edge">
-<title>Using pip with buildout &#183; Nathan R. Yergler</title>
-<meta name=title content="Using pip with buildout &#183; Nathan R. Yergler">
-<meta name=description content>
-<link rel=canonical href=https://nyergler.github.io/2010/03/28/using-pip-with-buildout/>
-<link type=text/css rel=stylesheet href=/css/schemes/ocean.min.ff17c50528c7a4a8a8bb8ec41272d63eb936ecefb9ccfa6db45cd1f5cd8b1becf8606745f751ee0d322ac80c9cb96e58aa699b38aa44cff9d2a8b3ff4f05a7b5.css integrity="sha512-/xfFBSjHpKiou47EEnLWPrk27O+5zPpttFzR9c2LG+z4YGdF91HuDTIqyAycuW5YqmmbOKpEz/nSqLP/TwWntQ==">
-<link type=text/css rel=stylesheet href=/css/compiled/main.min.84c4218572228cacf6182dc59fe08b5e1bcd599bb583bc56976aa0070f4cd8a4ff130ee2313074359bf6dba03b211e8c50df743d84ad551575fd0b9f849ec802.css integrity="sha512-hMQhhXIijKz2GC3Fn+CLXhvNWZu1g7xWl2qgBw9M2KT/Ew7iMTB0NZv226A7IR6MUN90PYStVRV1/QufhJ7IAg==">
-<script>function loadPreferredAppearance(){localStorage.preferredAppearance==="dark"||!("preferredAppearance"in localStorage)&&window.matchMedia("(prefers-color-scheme: dark)").matches?document.documentElement.classList.add("dark"):document.documentElement.classList.remove("dark")}function setPreferredAppearance(a){a=="default"?localStorage.removeItem("preferredAppearance"):localStorage.preferredAppearance=a,loadPreferredAppearance()}loadPreferredAppearance(),window.matchMedia("(prefers-color-scheme: dark)").addListener(loadPreferredAppearance)</script>
-<link rel=apple-touch-icon sizes=180x180 href=/apple-touch-icon.png>
-<link rel=icon type=image/png sizes=32x32 href=/favicon-32x32.png>
-<link rel=icon type=image/png sizes=16x16 href=/favicon-16x16.png>
-<link rel=manifest href=/site.webmanifest>
-<meta property="og:title" content="Using pip with buildout">
-<meta property="og:description" content="I’ve been asked to add a blog to koucou , and this has turned out to be more of a learning experience than I expected.">
-<meta property="og:type" content="article">
-<meta property="og:url" content="https://nyergler.github.io/2010/03/28/using-pip-with-buildout/"><meta property="article:section" content="posts">
-<meta property="article:published_time" content="2010-03-28T13:05:22+00:00">
-<meta property="article:modified_time" content="2010-03-28T13:05:22+00:00">
-<meta name=twitter:card content="summary">
-<meta name=twitter:title content="Using pip with buildout">
-<meta name=twitter:description content="I’ve been asked to add a blog to koucou , and this has turned out to be more of a learning experience than I expected.">
-<script type=application/ld+json>{"@context":"https://schema.org","@type":"BlogPosting","articleSection":"Posts","name":"Using pip with buildout","headline":"Using pip with buildout","description":"I’ve been asked to add a blog to koucou , and this has turned out to be more of a learning experience than I expected.","inLanguage":"en","author":{"@type":"Person","name":"Nathan Yergler"},"creator":{"@type":"Person","name":"Nathan Yergler"},"copyrightHolder":"Nathan Yergler","copyrightYear":"2010","dateCreated":"2010-03-28T13:05:22\u002b00:00","datePublished":"2010-03-28T13:05:22\u002b00:00","dateModified":"2010-03-28T13:05:22\u002b00:00","url":"https:\/\/nyergler.github.io\/2010\/03\/28\/using-pip-with-buildout\/","wordCount":"1036","keywords":["dependencies","django","koucou","pip","python","scm","zc.buildout"]}</script>
-<meta name=author content="Nathan Yergler">
-<link href=https://github.com/nyergler rel=me>
-<link href=https://instagram.com/nyergler rel=me>
-</head>
-<body class="flex flex-col h-screen px-6 m-auto text-lg leading-7 bg-neutral text-neutral-900 sm:px-14 md:px-24 lg:px-32 dark:bg-neutral-800 dark:text-neutral max-w-7xl"><header class="flex justify-between py-6 font-semibold sm:items-center sm:py-10 text-neutral-900 dark:text-neutral">
-<div>
-<a class="hover:underline hover:underline-primary-500 hover:underline-thickness-bold hover:underline-offset-small" rel=me href=/>Nathan R. Yergler</a>
-</div>
-<nav>
-<ul class="flex flex-col list-none sm:flex-row">
-<li class="mb-1 text-right sm:mb-0 sm:mr-7 sm:last:mr-0">
-<a class="hover:underline hover:underline-primary-500 hover:underline-thickness-bold hover:underline-offset-small" href=/about/ title="Oh hai.">Bio</a>
-</li>
-<li class="mb-1 text-right sm:mb-0 sm:mr-7 sm:last:mr-0">
-<a class="hover:underline hover:underline-primary-500 hover:underline-thickness-bold hover:underline-offset-small" href=/posts/ title=Posts>Blog</a>
-</li>
-<li class="mb-1 text-right sm:mb-0 sm:mr-7 sm:last:mr-0">
-<a class="hover:underline hover:underline-primary-500 hover:underline-thickness-bold hover:underline-offset-small" href=/prints/ title=Prints>Prints</a>
-</li>
-</ul>
-</nav>
-</header>
-<main class=flex-grow>
-<article class=max-w-prose>
-<header>
-<ol class="text-sm text-neutral-500 dark:text-neutral-400">
-<li class="inline hidden">
-<a class="hover:underline hover:underline-neutral-300 dark:underline-neutral-600" href=/>Nathan R. Yergler</a><span class="px-1 text-primary-500">/</span>
-</li>
-<li class=inline>
-<a class="hover:underline hover:underline-neutral-300 dark:underline-neutral-600" href=/posts/>Posts</a><span class="px-1 text-primary-500">/</span>
-</li>
-<li class="inline hidden">
-<a class="hover:underline hover:underline-neutral-300 dark:underline-neutral-600" href=/2010/03/28/using-pip-with-buildout/>Using pip with buildout</a><span class="px-1 text-primary-500">/</span>
-</li>
-</ol>
-<h1 class="mt-0 text-4xl font-extrabold text-neutral-900 dark:text-neutral">
-Using pip with buildout
-</h1>
-<div class="mt-8 mb-12 text-base text-neutral-500 dark:text-neutral-400">
-<div class="flex flex-row items-center">
-<time datetime="2010-03-28 13:05:22 +0000 UTC">28 March 2010</time>
-</div>
-</div>
-</header>
-<section class="prose dark:prose-light">
-<p>I’ve been asked to add a blog to <a href=http://koucou.com/>koucou</a> , and this has turned out to be more of a learning experience than I expected. My first instinct was to use <a href=http://wordpress.org/>WordPress</a> — I’m familiar with it, like the way it works, and I’m not interested in building my own. The one wrinkle was that we wanted to integrate the blog visually with the rest of the site, which is built on <a href=http://djangoproject.com/>Django</a> . I decided to give <a href=http://github.com/montylounge/django-mingus>Mingus</a> a try. This post isn’t about Mingus — I’ll write about that shortly — but rather about <a href=http://pypi.python.org/pip>pip</a> , which Mingus uses to manage dependencies. Mingus includes a <a href=http://pip.openplans.org/requirement-format.html>requirements file</a> with the stable dependencies for the application (one of its goals is application re-use, so there are a lot of them). As I <a href=http://yergler.net/blog/2010/03/09/for-some-definition-of-reusable/>mentioned previously</a> , <code>pip</code> is the Python packaging/installation tool I have the least experience with, so I decided to try converting my existing project to pip as a starting point — to gain experience with pip, and to try and ease integration woes with Mingus.</p>
-<p>When I started, the project used the following setup to manage dependencies and the build process:</p>
-<ul>
-<li>
-<p class=first>
-Dependencies which have an <a class="reference external" href=http://peak.telecommunity.com/DevCenter/EggFormats>egg</a> or <a class="reference external" href=http://peak.telecommunity.com/DevCenter/setuptools>setuptools</a>-compatible <a class="reference external" href=http://docs.python.org/distutils/sourcedist.html>sdist</a> available are specified in <a class="reference external" href=http://peak.telecommunity.com/DevCenter/setuptools#declaring-dependencies>install_requires</a> in setup.py
-</p>
-<pre class=literal-block>setup(
+<!doctype html><html lang=en dir=ltr class=scroll-smooth data-default-appearance=light data-auto-appearance=true><head><meta charset=utf-8><meta http-equiv=content-language content="en"><meta name=viewport content="width=device-width,initial-scale=1"><meta http-equiv=x-ua-compatible content="ie=edge"><title>Using pip with buildout &#183; Nathan R. Yergler</title><meta name=title content="Using pip with buildout &#183; Nathan R. Yergler"><link rel=canonical href=https://nyergler.github.io/2010/03/28/using-pip-with-buildout/><link type=text/css rel=stylesheet href=/css/main.bundle.min.4d2da63731ac126e967412ed7aaa2d40b7e38b35cc00d35806a38a80029398bbf11f9a2497dc4b25e4c0ec81f51ef144739684c1eeaf26ebc5cecb800ce8e1d0.css integrity="sha512-TS2mNzGsEm6WdBLteqotQLfjizXMANNYBqOKgAKTmLvxH5okl9xLJeTA7IH1HvFEc5aEwe6vJuvFzsuADOjh0A=="><script type=text/javascript src=/js/appearance.min.12e98742cd283574d030a7fe55f29597df4ee214f7ff7075b4d19a64d046a602753c715295550be7899b661619cec89c679049d36c624681671a8013c1249896.js integrity="sha512-EumHQs0oNXTQMKf+VfKVl99O4hT3/3B1tNGaZNBGpgJ1PHFSlVUL54mbZhYZzsicZ5BJ02xiRoFnGoATwSSYlg=="></script>
+<link rel=apple-touch-icon sizes=180x180 href=/apple-touch-icon.png><link rel=icon type=image/png sizes=32x32 href=/favicon-32x32.png><link rel=icon type=image/png sizes=16x16 href=/favicon-16x16.png><link rel=manifest href=/site.webmanifest><meta property="og:title" content="Using pip with buildout"><meta property="og:description" content="I’ve been asked to add a blog to koucou , and this has turned out to be more of a learning experience than I expected."><meta property="og:type" content="article"><meta property="og:url" content="https://nyergler.github.io/2010/03/28/using-pip-with-buildout/"><meta property="article:section" content="posts"><meta property="article:published_time" content="2010-03-28T13:05:22+00:00"><meta property="article:modified_time" content="2010-03-28T13:05:22+00:00"><meta name=twitter:card content="summary"><meta name=twitter:title content="Using pip with buildout"><meta name=twitter:description content="I’ve been asked to add a blog to koucou , and this has turned out to be more of a learning experience than I expected."><script type=application/ld+json>[{"@context":"https://schema.org","@type":"Article","articleSection":"Posts","name":"Using pip with buildout","headline":"Using pip with buildout","abstract":"I’ve been asked to add a blog to koucou , and this has turned out to be more of a learning experience than I expected.","inLanguage":"en","url":"https:\/\/nyergler.github.io\/2010\/03\/28\/using-pip-with-buildout\/","author":{"@type":"Person","name":"Nathan Yergler"},"copyrightYear":"2010","dateCreated":"2010-03-28T13:05:22\u002b00:00","datePublished":"2010-03-28T13:05:22\u002b00:00","dateModified":"2010-03-28T13:05:22\u002b00:00","keywords":["dependencies","django","koucou","pip","python","scm","zc.buildout"],"mainEntityOfPage":"true","wordCount":"1036"}]</script><meta name=author content="Nathan Yergler"><link href=https://github.com/nyergler rel=me><link href=https://instagram.com/nyergler rel=me></head><body class="flex flex-col h-screen px-6 m-auto text-lg leading-7 bg-neutral text-neutral-900 sm:px-14 md:px-24 lg:px-32 dark:bg-neutral-800 dark:text-neutral max-w-7xl"><div id=the-top class="absolute flex self-center"><a class="px-3 py-1 text-sm -translate-y-8 rounded-b-lg bg-primary-200 dark:bg-neutral-600 focus:translate-y-0" href=#main-content><span class="font-bold ltr:pr-2 rtl:pl-2 text-primary-600 dark:text-primary-400">&darr;</span>Skip to main content</a></div><header class="flex justify-between py-6 font-semibold sm:items-center sm:py-10 text-neutral-900 dark:text-neutral print:hidden"><div><a class="decoration-primary-500 hover:underline hover:decoration-2 hover:underline-offset-2" rel=me href=/>Nathan R. Yergler</a></div><nav><ul class="flex flex-col list-none sm:flex-row"><li class="mb-1 ltr:text-right rtl:text-left sm:mb-0 ltr:sm:mr-7 ltr:sm:last:mr-0 rtl:sm:ml-7 rtl:sm:last:ml-0"><a class="decoration-primary-500 hover:underline hover:decoration-2 hover:underline-offset-2" href=/about/ title="Oh hai.">Bio</a></li><li class="mb-1 ltr:text-right rtl:text-left sm:mb-0 ltr:sm:mr-7 ltr:sm:last:mr-0 rtl:sm:ml-7 rtl:sm:last:ml-0"><a class="decoration-primary-500 hover:underline hover:decoration-2 hover:underline-offset-2" href=/posts/ title=Posts>Blog</a></li><li class="mb-1 ltr:text-right rtl:text-left sm:mb-0 ltr:sm:mr-7 ltr:sm:last:mr-0 rtl:sm:ml-7 rtl:sm:last:ml-0"><a class="decoration-primary-500 hover:underline hover:decoration-2 hover:underline-offset-2" href=/prints/ title=Prints>Prints</a></li></ul></nav></header><div class="relative flex flex-col grow"><main id=main-content class=grow><article><header class=max-w-prose><ol class="text-sm text-neutral-500 dark:text-neutral-400 print:hidden"><li class="inline hidden"><a class="hover:underline decoration-neutral-300 dark:underline-neutral-600" href=/>Nathan R. Yergler</a><span class="px-1 text-primary-500">/</span></li><li class=inline><a class="hover:underline decoration-neutral-300 dark:underline-neutral-600" href=/posts/>Posts</a><span class="px-1 text-primary-500">/</span></li><li class="inline hidden"><a class="hover:underline decoration-neutral-300 dark:underline-neutral-600" href=/2010/03/28/using-pip-with-buildout/>Using pip with buildout</a><span class="px-1 text-primary-500">/</span></li></ol><h1 class="mt-0 text-4xl font-extrabold text-neutral-900 dark:text-neutral">Using pip with buildout</h1><div class="mt-8 mb-12 text-base text-neutral-500 dark:text-neutral-400 print:hidden"><div class="flex flex-row flex-wrap items-center"><time datetime="2010-03-28 13:05:22 +0000 UTC">March 28, 2010</time></div></div></header><section class="flex flex-col max-w-full mt-0 prose lg:flex-row dark:prose-invert"><div class="min-w-0 min-h-0 max-w-prose"><p>I’ve been asked to add a blog to <a href=http://koucou.com/>koucou</a> , and this has turned out to be more of a learning experience than I expected. My first instinct was to use <a href=http://wordpress.org/>WordPress</a> — I’m familiar with it, like the way it works, and I’m not interested in building my own. The one wrinkle was that we wanted to integrate the blog visually with the rest of the site, which is built on <a href=http://djangoproject.com/>Django</a> . I decided to give <a href=http://github.com/montylounge/django-mingus>Mingus</a> a try. This post isn’t about Mingus — I’ll write about that shortly — but rather about <a href=http://pypi.python.org/pip>pip</a> , which Mingus uses to manage dependencies. Mingus includes a <a href=http://pip.openplans.org/requirement-format.html>requirements file</a> with the stable dependencies for the application (one of its goals is application re-use, so there are a lot of them). As I <a href=http://yergler.net/blog/2010/03/09/for-some-definition-of-reusable/>mentioned previously</a> , <code>pip</code> is the Python packaging/installation tool I have the least experience with, so I decided to try converting my existing project to pip as a starting point — to gain experience with pip, and to try and ease integration woes with Mingus.</p><p>When I started, the project used the following setup to manage dependencies and the build process:</p><ul><li><p class=first>Dependencies which have an <a class="reference external" href=http://peak.telecommunity.com/DevCenter/EggFormats>egg</a> or <a class="reference external" href=http://peak.telecommunity.com/DevCenter/setuptools>setuptools</a>-compatible <a class="reference external" href=http://docs.python.org/distutils/sourcedist.html>sdist</a> available are specified in <a class="reference external" href=http://peak.telecommunity.com/DevCenter/setuptools#declaring-dependencies>install_requires</a> in setup.py</p><pre class=literal-block>setup(
 name = “soursop”,
 
 # ... details omitted
@@ -92,13 +14,7 @@ install_requires = ['setuptools’,
 )
 </li>
 </ul>
-<p></pre></p>
-<ul>
-<li>
-<p class=first>
-A <a class="reference external" href=http://buildout.org/>buildout</a> configuration that uses <a class="reference external" href=http://pypi.python.org/pypi/djangorecipe>djangorecipe</a> to install Django, and <a class="reference external" href=http://pypi.python.org/pypi/zc.recipe.egg>zc.recipe.egg</a> to install the application egg and its dependencies
-</p>
-<pre class=literal-block>[buildout]
+<p></pre></p><ul><li><p class=first>A <a class="reference external" href=http://buildout.org/>buildout</a> configuration that uses <a class="reference external" href=http://pypi.python.org/pypi/djangorecipe>djangorecipe</a> to install Django, and <a class="reference external" href=http://pypi.python.org/pypi/zc.recipe.egg>zc.recipe.egg</a> to install the application egg and its dependencies</p><pre class=literal-block>[buildout]
 </li>
 </ul>
 <p>develop = .
@@ -109,43 +25,22 @@ eggs = soursop</p>
 
 [scripts]recipe = zc.recipe.eggeggs =
  ${buildout:eggs}interpreter = pythondependent-scripts = trueextra-paths =
-</code></pre>
-<p>${django:location}initialization =
+</code></pre><p>${django:location}initialization =
 import os
-os.environ[&lsquo;DJANGO_SETTINGS_MODULE’] = &lsquo;${django:project}.${django:settings}’
-</pre></p>
-<ul>
-<li>
-<p class=first>
-Dependencies that didn’t easily install using setuptools (either they didn’t have a sane source-tree layout or weren’t available from PyPI) are either specified as <a class="reference external" href=http://www.kernel.org/pub/software/scm/git/docs/git-submodule.html>git submodules</a> or imported into the repository.
-</p>
-</li>
-</ul>
-<p>All this worked pretty well (although I’ve never really loved git submodules).</p>
-<p><a href=http://pypi.python.org/pypi/gp.recipe.pip>gp.recipe.pip</a> is a buildout recipe which allows you to install a set of Python packages using pip. gp.recipe.pip builds on <a href=http://pypi.python.org/pypi/zc.recipe.egg>zc.recipe.egg</a> , so it inherits all the functionality of that recipe (installing dependencies declared in <code>setup.py</code>, generating scripts, etc). So in that respect, I could simply replace the recipe line in the <code>scripts</code> part and start using pip requirements to install from source control, create editable checkouts, etc.</p>
-<p>Previously, I used the <code>${buildout:eggs}</code> setting to share a set of packages to install between the <code>django</code> part (which I used to generate a Django management script) and the <code>scripts</code> part (which I used to resolve the dependency list and install scripts defined as entry points). I didn’t spend much time looking into replicating this with gp.recipe.pip; it wasn’t immediately clear to me how to get a working set out of it that’s equivalent to an <code>eggs</code> specification (I’m not even sure it makes sense to expect such a thing).</p>
-<p>Ignoring the issue of the management script, I simplified my buildout configuration, removing the <code>django</code> part and using <code>gp.recipe.pip</code>:</p>
-<hr>
-<pre class=literal-block>[buildout]develop = .parts = soursopunzip = trueeggs = soursopdjango-settings = settingsdjango-project = soursop
+os.environ[&lsquo;DJANGO_SETTINGS_MODULE’] = &lsquo;${django:project}.${django:settings}’</pre></p><ul><li><p class=first>Dependencies that didn’t easily install using setuptools (either they didn’t have a sane source-tree layout or weren’t available from PyPI) are either specified as <a class="reference external" href=http://www.kernel.org/pub/software/scm/git/docs/git-submodule.html>git submodules</a> or imported into the repository.</p></li></ul><p>All this worked pretty well (although I’ve never really loved git submodules).</p><p><a href=http://pypi.python.org/pypi/gp.recipe.pip>gp.recipe.pip</a> is a buildout recipe which allows you to install a set of Python packages using pip. gp.recipe.pip builds on <a href=http://pypi.python.org/pypi/zc.recipe.egg>zc.recipe.egg</a> , so it inherits all the functionality of that recipe (installing dependencies declared in <code>setup.py</code>, generating scripts, etc). So in that respect, I could simply replace the recipe line in the <code>scripts</code> part and start using pip requirements to install from source control, create editable checkouts, etc.</p><p>Previously, I used the <code>${buildout:eggs}</code> setting to share a set of packages to install between the <code>django</code> part (which I used to generate a Django management script) and the <code>scripts</code> part (which I used to resolve the dependency list and install scripts defined as entry points). I didn’t spend much time looking into replicating this with gp.recipe.pip; it wasn’t immediately clear to me how to get a working set out of it that’s equivalent to an <code>eggs</code> specification (I’m not even sure it makes sense to expect such a thing).</p><p>Ignoring the issue of the management script, I simplified my buildout configuration, removing the <code>django</code> part and using <code>gp.recipe.pip</code>:</p><hr><pre class=literal-block>[buildout]develop = .parts = soursopunzip = trueeggs = soursopdjango-settings = settingsdjango-project = soursop
 
     [soursop]recipe = gp.recipe.pipinterpreter = pythoneggs = ${buildout:eggs}sources-directory = vendor
 
     initialization =
    import os
    os.environ['DJANGO_SETTINGS_MODULE’] = '${buildout:django-project}.${buildout:django-settings}’
-</pre>
-<p>This allowed me to start specifying the resources I previously included as git submodules as pip requirements:</p>
-<pre class=literal-block>[soursop]
+</pre><p>This allowed me to start specifying the resources I previously included as git submodules as pip requirements:</p><pre class=literal-block>[soursop]
 recipe = gp.recipe.pip
 interpreter = python
 install =      -r requirements.txt
 eggs = ${buildout:eggs}
 sources-directory = vendor
-</pre>
-<p>The install parameter specifies a series of pip dependencies that buildout will install when it runs. These can include version control URLs, recursive requirements (in this case, <a href=http://pip.openplans.org/#requirements-files>a requirements file</a> , <code>requirements.txt</code>), and editable dependencies. In this case I’ve also specified a directory, <code>vendor</code>, in which editable dependencies will be installed.</p>
-<p>That actually works pretty well: I can define my list of dependencies in a text file on its own, and I can move away from git submodules and vendor imports to specifying [D]VCS urls that pip will pull.</p>
-<p>Unfortunately, I’m still missing my manage script. I wound up creating a small function and entry point to cause the script to be generated. In <code>soursop/scripts.py</code>, I created the following function:</p>
-<pre class=literal-block>def manage():
+</pre><p>The install parameter specifies a series of pip dependencies that buildout will install when it runs. These can include version control URLs, recursive requirements (in this case, <a href=http://pip.openplans.org/#requirements-files>a requirements file</a> , <code>requirements.txt</code>), and editable dependencies. In this case I’ve also specified a directory, <code>vendor</code>, in which editable dependencies will be installed.</p><p>That actually works pretty well: I can define my list of dependencies in a text file on its own, and I can move away from git submodules and vendor imports to specifying [D]VCS urls that pip will pull.</p><p>Unfortunately, I’m still missing my manage script. I wound up creating a small function and entry point to cause the script to be generated. In <code>soursop/scripts.py</code>, I created the following function:</p><pre class=literal-block>def manage():
     “”“Entry point for Django manage command; assumes
     DJANGO_SETTINGS_MODULE has been set in the environment.
 
@@ -159,71 +54,18 @@ sources-directory = vendor
     settings = importlib.import_module(os.environ.get('DJANGO_SETTINGS_MODULE’))
 
     management.execute_manager(settings)
-</pre>
-<p>In setup.py, I added an entry point:</p>
-<pre class=literal-block>entry_points = {
+</pre><p>In setup.py, I added an entry point:</p><pre class=literal-block>entry_points = {
        'console_scripts' : [
            'manage = soursop.scripts:manage',
            ]
        },
-</pre>
-<p>Re-run buildout, and a <code>manage</code> script appears in the <code>bin</code> directory. Note that I’m still using the environment variable, <code>DJANGO_SETTINGS_MODULE</code>, to specify which settings module we’re using. I could specify the settings module directly in my manage script wrapper. I chose not to do this because I wanted to emulate the behavior of <code>djangorecipe</code>, which lets you change the settings module in buildout.cfg (i.e., from development to production settings). This is also the reason I have custom initialization code specified in my buildout configuration.</p>
-<p>Generally I really like the way this works. I’ve been able to eliminate the tracked vendor code in my project, as well as the git submodules. I can easily move my pip requirements into a requirements file and specify it with -r in the install line, separating dependency information from build information.</p>
-<p>There are a couple things that I’m ambivalent about. Primarily, I now have two different places where I’ve declared some of my dependencies, <code>setup.py</code> and a requirements file, and each has advantages (which are correspondingly disadvantages for the other). Specifying the requirements in the pip requirements file gives me more flexibility — I can install from subversion, git, or mercurial without even thinking about it. But if someone installs my package from a source distribution using easy_install or pip, the dependencies won’t necessarily be satisfied [<a href=http://koucou.com/>1</a>]<a href=#id4>11</a>{#id2.footnote-reference} [<a href=http://wordpress.org/>2</a>]<a href=#id5>12</a>{#id3.footnote-reference} . And conversely, specifying the requirements in <code>setup.py</code> allows everyone to introspect them at installation time, but sacrifices the flexibility I’ve gained from pip.</p>
-<p>I’m not sure that we’ll end up using Mingus for koucou, but I think we’ll stick with gp.recipe.pip. The disadvantage is a small one (at least in this situation), and it’s not really any worse than the previous situation.</p>
-<hr>
-</section>
-<footer class=pt-8>
-<div class="pt-8 article-pagination">
-<hr class="border-dotted border-neutral-300 dark:border-neutral-600">
-<div class="flex justify-between pt-3">
-<span>
-<a class=flex href=/2010/03/28/read-invisible-by-paul-auster/>
-<span class="mr-3 article-pagination-direction">&larr;</span>
-<span class="flex flex-col">
-<span class="article-pagination-title mt-[0.1rem] leading-6">
-Read: “Invisible”, by Paul Auster</span>
-<span class="mt-[0.1rem] text-xs text-neutral-400 dark:text-neutral-500">
-<time datetime="2010-03-28 20:04:26 +0000 UTC">28 March 2010</time>
-</span>
-</span>
-</a>
-</span>
-<span>
-<a class="flex text-right" href=/2010/03/22/civicon-next-month-in-san-francisco/>
-<span class="flex flex-col">
-<span class="article-pagination-title mt-[0.1rem] leading-6">CiviCon Next Month in San Francisco</span>
-<span class="mt-[0.1rem] text-xs text-neutral-400 dark:text-neutral-500">
-<time datetime="2010-03-22 06:47:53 +0000 UTC">22 March 2010</time>
-</span>
-</span>
-<span class="ml-3 article-pagination-direction">&rarr;</span>
-</a>
-</span>
-</div>
-</div>
-</footer>
-</article>
-</main><footer class=py-10>
-<nav class="pb-4 text-base font-medium text-neutral-500 dark:text-neutral-400">
-<ul class="flex flex-col list-none sm:flex-row">
-<li class="mb-1 sm:mb-0 sm:mr-7 sm:last:mr-0">
-<a class="hover:underline hover:underline-primary-500 hover:underline-thickness-bold hover:underline-offset-small" href=/tags/ title=Tags>Tags</a>
-</li>
-<li class="mb-1 sm:mb-0 sm:mr-7 sm:last:mr-0">
-<a class="hover:underline hover:underline-primary-500 hover:underline-thickness-bold hover:underline-offset-small" href=/categories/ title=Categories>Categories</a>
-</li>
-</ul>
-</nav>
-<div class="flex justify-between">
-<div>
-<p class="text-sm text-neutral-500 dark:text-neutral-400">
-&copy;
+</pre><p>Re-run buildout, and a <code>manage</code> script appears in the <code>bin</code> directory. Note that I’m still using the environment variable, <code>DJANGO_SETTINGS_MODULE</code>, to specify which settings module we’re using. I could specify the settings module directly in my manage script wrapper. I chose not to do this because I wanted to emulate the behavior of <code>djangorecipe</code>, which lets you change the settings module in buildout.cfg (i.e., from development to production settings). This is also the reason I have custom initialization code specified in my buildout configuration.</p><p>Generally I really like the way this works. I’ve been able to eliminate the tracked vendor code in my project, as well as the git submodules. I can easily move my pip requirements into a requirements file and specify it with -r in the install line, separating dependency information from build information.</p><p>There are a couple things that I’m ambivalent about. Primarily, I now have two different places where I’ve declared some of my dependencies, <code>setup.py</code> and a requirements file, and each has advantages (which are correspondingly disadvantages for the other). Specifying the requirements in the pip requirements file gives me more flexibility — I can install from subversion, git, or mercurial without even thinking about it. But if someone installs my package from a source distribution using easy_install or pip, the dependencies won’t necessarily be satisfied [<a href=http://koucou.com/>1</a>]<a href=#id4>11</a>{#id2.footnote-reference} [<a href=http://wordpress.org/>2</a>]<a href=#id5>12</a>{#id3.footnote-reference} . And conversely, specifying the requirements in <code>setup.py</code> allows everyone to introspect them at installation time, but sacrifices the flexibility I’ve gained from pip.</p><p>I’m not sure that we’ll end up using Mingus for koucou, but I think we’ll stick with gp.recipe.pip. The disadvantage is a small one (at least in this situation), and it’s not really any worse than the previous situation.</p><hr></div></section><footer class="pt-8 max-w-prose print:hidden"><div class=pt-8><hr class="border-dotted border-neutral-300 dark:border-neutral-600"><div class="flex justify-between pt-3"><span><a class="flex group" href=/2010/03/22/civicon-next-month-in-san-francisco/><span class="mr-3 ltr:inline rtl:hidden text-neutral-700 dark:text-neutral group-hover:text-primary-600 dark:group-hover:text-primary-400">&larr;</span>
+<span class="ml-3 ltr:hidden rtl:inline text-neutral-700 dark:text-neutral group-hover:text-primary-600 dark:group-hover:text-primary-400">&rarr;</span>
+<span class="flex flex-col"><span class="mt-[0.1rem] leading-6 group-hover:underline group-hover:decoration-primary-500">CiviCon Next Month in San Francisco</span>
+<span class="mt-[0.1rem] text-xs text-neutral-500 dark:text-neutral-400"><time datetime="2010-03-22 06:47:53 +0000 UTC">March 22, 2010</time></span></span></a></span>
+<span><a class="flex text-right group" href=/2010/03/28/read-invisible-by-paul-auster/><span class="flex flex-col"><span class="mt-[0.1rem] leading-6 group-hover:underline group-hover:decoration-primary-500">Read: “Invisible”, by Paul Auster</span>
+<span class="mt-[0.1rem] text-xs text-neutral-500 dark:text-neutral-400"><time datetime="2010-03-28 20:04:26 +0000 UTC">March 28, 2010</time></span></span>
+<span class="ml-3 ltr:inline rtl:hidden text-neutral-700 dark:text-neutral group-hover:text-primary-600 dark:group-hover:text-primary-400">&rarr;</span>
+<span class="mr-3 ltr:hidden rtl:inline text-neutral-700 dark:text-neutral group-hover:text-primary-600 dark:group-hover:text-primary-400">&larr;</span></a></span></div></div></footer></article><div class="absolute top-[110vh] ltr:right-0 rtl:left-0 w-12 pointer-events-none bottom-0"><a href=#the-top class="w-12 h-12 sticky pointer-events-auto top-[calc(100vh-5.5rem)] bg-neutral/50 dark:bg-neutral-800/50 backdrop-blur rounded-full text-xl flex items-center justify-center text-neutral-700 dark:text-neutral hover:text-primary-600 dark:hover:text-primary-400" aria-label="Scroll to top" title="Scroll to top">&uarr;</a></div></main><footer class="py-10 print:hidden"><nav class="pb-4 text-base font-medium text-neutral-500 dark:text-neutral-400"><ul class="flex flex-col list-none sm:flex-row"><li class="mb-1 ltr:text-right rtl:text-left sm:mb-0 ltr:sm:mr-7 ltr:sm:last:mr-0 rtl:sm:ml-7 rtl:sm:last:ml-0"><a class="decoration-primary-500 hover:underline hover:decoration-2 hover:underline-offset-2" href=/tags/ title=Tags>Tags</a></li><li class="mb-1 ltr:text-right rtl:text-left sm:mb-0 ltr:sm:mr-7 ltr:sm:last:mr-0 rtl:sm:ml-7 rtl:sm:last:ml-0"><a class="decoration-primary-500 hover:underline hover:decoration-2 hover:underline-offset-2" href=/categories/ title=Categories>Categories</a></li></ul></nav><div class="flex justify-between"><div><p class="text-sm text-neutral-500 dark:text-neutral-400">&copy;
 2022
-Nathan Yergler
-</p>
-</div>
-</div>
-</footer>
-</body>
-</html>
+Nathan Yergler</p></div></div></footer></div></body></html>

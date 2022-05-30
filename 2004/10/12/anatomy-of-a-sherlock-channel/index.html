@@ -1,168 +1,20 @@
-<!doctype html><html lang=en><head>
-<meta charset=utf-8>
-<meta http-equiv=content-language content="en">
-<meta name=viewport content="width=device-width,initial-scale=1">
-<meta http-equiv=x-ua-compatible content="ie=edge">
-<title>Anatomy of a Sherlock Channel; or, How I Learned to Stop Worrying and Love The Pain &#183; Nathan R. Yergler</title>
-<meta name=title content="Anatomy of a Sherlock Channel; or, How I Learned to Stop Worrying and Love The Pain &#183; Nathan R. Yergler">
-<meta name=description content>
-<link rel=canonical href=https://nyergler.github.io/2004/10/12/anatomy-of-a-sherlock-channel/>
-<link type=text/css rel=stylesheet href=/css/schemes/ocean.min.ff17c50528c7a4a8a8bb8ec41272d63eb936ecefb9ccfa6db45cd1f5cd8b1becf8606745f751ee0d322ac80c9cb96e58aa699b38aa44cff9d2a8b3ff4f05a7b5.css integrity="sha512-/xfFBSjHpKiou47EEnLWPrk27O+5zPpttFzR9c2LG+z4YGdF91HuDTIqyAycuW5YqmmbOKpEz/nSqLP/TwWntQ==">
-<link type=text/css rel=stylesheet href=/css/compiled/main.min.84c4218572228cacf6182dc59fe08b5e1bcd599bb583bc56976aa0070f4cd8a4ff130ee2313074359bf6dba03b211e8c50df743d84ad551575fd0b9f849ec802.css integrity="sha512-hMQhhXIijKz2GC3Fn+CLXhvNWZu1g7xWl2qgBw9M2KT/Ew7iMTB0NZv226A7IR6MUN90PYStVRV1/QufhJ7IAg==">
-<script>function loadPreferredAppearance(){localStorage.preferredAppearance==="dark"||!("preferredAppearance"in localStorage)&&window.matchMedia("(prefers-color-scheme: dark)").matches?document.documentElement.classList.add("dark"):document.documentElement.classList.remove("dark")}function setPreferredAppearance(a){a=="default"?localStorage.removeItem("preferredAppearance"):localStorage.preferredAppearance=a,loadPreferredAppearance()}loadPreferredAppearance(),window.matchMedia("(prefers-color-scheme: dark)").addListener(loadPreferredAppearance)</script>
-<link rel=apple-touch-icon sizes=180x180 href=/apple-touch-icon.png>
-<link rel=icon type=image/png sizes=32x32 href=/favicon-32x32.png>
-<link rel=icon type=image/png sizes=16x16 href=/favicon-16x16.png>
-<link rel=manifest href=/site.webmanifest>
-<meta property="og:title" content="Anatomy of a Sherlock Channel; or, How I Learned to Stop Worrying and Love The Pain">
-<meta property="og:description" content="With the release of the Creative Commons Sherlock channel , it seems prudent to document some of the development process.">
-<meta property="og:type" content="article">
-<meta property="og:url" content="https://nyergler.github.io/2004/10/12/anatomy-of-a-sherlock-channel/"><meta property="article:section" content="posts">
-<meta property="article:published_time" content="2004-10-12T18:17:31+00:00">
-<meta property="article:modified_time" content="2004-10-12T18:17:31+00:00">
-<meta name=twitter:card content="summary">
-<meta name=twitter:title content="Anatomy of a Sherlock Channel; or, How I Learned to Stop Worrying and Love The Pain">
-<meta name=twitter:description content="With the release of the Creative Commons Sherlock channel , it seems prudent to document some of the development process.">
-<script type=application/ld+json>{"@context":"https://schema.org","@type":"BlogPosting","articleSection":"Posts","name":"Anatomy of a Sherlock Channel; or, How I Learned to Stop Worrying and Love The Pain","headline":"Anatomy of a Sherlock Channel; or, How I Learned to Stop Worrying and Love The Pain","description":"With the release of the Creative Commons Sherlock channel , it seems prudent to document some of the development process.","inLanguage":"en","author":{"@type":"Person","name":"Nathan Yergler"},"creator":{"@type":"Person","name":"Nathan Yergler"},"copyrightHolder":"Nathan Yergler","copyrightYear":"2004","dateCreated":"2004-10-12T18:17:31\u002b00:00","datePublished":"2004-10-12T18:17:31\u002b00:00","dateModified":"2004-10-12T18:17:31\u002b00:00","url":"https:\/\/nyergler.github.io\/2004\/10\/12\/anatomy-of-a-sherlock-channel\/","wordCount":"511","keywords":[]}</script>
-<meta name=author content="Nathan Yergler">
-<link href=https://github.com/nyergler rel=me>
-<link href=https://instagram.com/nyergler rel=me>
-</head>
-<body class="flex flex-col h-screen px-6 m-auto text-lg leading-7 bg-neutral text-neutral-900 sm:px-14 md:px-24 lg:px-32 dark:bg-neutral-800 dark:text-neutral max-w-7xl"><header class="flex justify-between py-6 font-semibold sm:items-center sm:py-10 text-neutral-900 dark:text-neutral">
-<div>
-<a class="hover:underline hover:underline-primary-500 hover:underline-thickness-bold hover:underline-offset-small" rel=me href=/>Nathan R. Yergler</a>
-</div>
-<nav>
-<ul class="flex flex-col list-none sm:flex-row">
-<li class="mb-1 text-right sm:mb-0 sm:mr-7 sm:last:mr-0">
-<a class="hover:underline hover:underline-primary-500 hover:underline-thickness-bold hover:underline-offset-small" href=/about/ title="Oh hai.">Bio</a>
-</li>
-<li class="mb-1 text-right sm:mb-0 sm:mr-7 sm:last:mr-0">
-<a class="hover:underline hover:underline-primary-500 hover:underline-thickness-bold hover:underline-offset-small" href=/posts/ title=Posts>Blog</a>
-</li>
-<li class="mb-1 text-right sm:mb-0 sm:mr-7 sm:last:mr-0">
-<a class="hover:underline hover:underline-primary-500 hover:underline-thickness-bold hover:underline-offset-small" href=/prints/ title=Prints>Prints</a>
-</li>
-</ul>
-</nav>
-</header>
-<main class=flex-grow>
-<article class=max-w-prose>
-<header>
-<ol class="text-sm text-neutral-500 dark:text-neutral-400">
-<li class="inline hidden">
-<a class="hover:underline hover:underline-neutral-300 dark:underline-neutral-600" href=/>Nathan R. Yergler</a><span class="px-1 text-primary-500">/</span>
-</li>
-<li class=inline>
-<a class="hover:underline hover:underline-neutral-300 dark:underline-neutral-600" href=/posts/>Posts</a><span class="px-1 text-primary-500">/</span>
-</li>
-<li class="inline hidden">
-<a class="hover:underline hover:underline-neutral-300 dark:underline-neutral-600" href=/2004/10/12/anatomy-of-a-sherlock-channel/>Anatomy of a Sherlock Channel; or, How I Learned to Stop Worrying and Love The Pain</a><span class="px-1 text-primary-500">/</span>
-</li>
-</ol>
-<h1 class="mt-0 text-4xl font-extrabold text-neutral-900 dark:text-neutral">
-Anatomy of a Sherlock Channel; or, How I Learned to Stop Worrying and Love The Pain
-</h1>
-<div class="mt-8 mb-12 text-base text-neutral-500 dark:text-neutral-400">
-<div class="flex flex-row items-center">
-<time datetime="2004-10-12 18:17:31 +0000 UTC">12 October 2004</time>
-</div>
-</div>
-</header>
-<section class="prose dark:prose-light">
-<p>With the release of the <a href=http://creativecommons.org>Creative Commons</a> <a href=http://www.apple.com/macosx/features/sherlock/>Sherlock</a> <a href=http://yergler.net/blog/archives/2004/10/12/get-your-cc-fix-here>channel</a> , it seems prudent to document some of the development process. The <a href=http://developer.apple.com/documentation/AppleApplications/Conceptual/Sherlock/>Sherlock Developer Documentation</a> implies that developing a channel is easy as pie. As a developer unfamiliar with the tools, I found the process any but straightforward. In retrospect certain things make sense now that I have a working model, but I’m still no expert.</p>
-<p>First, the sourcecode for the CC channel is available in CVS at the <a href=http://cctools.sourceforge.net>CC Tools</a> SourceForge.net project. The module is named <strong>sherlock</strong>. This may serve as a good jumping off point for someone looking for a working example.</p>
-<p>Second, the process involved in developing a Sherlock channel consists of a few distinct steps. Your interface is built using Interface Builder, and consists of a single View. The actual code consists of scripts written in either JavaScript, <a href=http://www.w3.org/TR/xquery/>XQuery</a> or both. Events (at least as I know them) are called Triggers, and usually (at least in my code) consist of a piece of JavaScript which does some initial setup and then fires an XQuery script to do the actual scraping.</p>
-<p>Finally, things I wish I had known when I started writing my channel:</p>
-<ul>
-<li>
-<p class=first>
-When saving your NIB in Interface Builder, make sure you save it in either “Pre-10.2 Format” or “Both Formats (Pre/Post-10.2)”. If you save it in “10.2 and Later Format” Sherlock will refuse to load your channel.
-</p>
-</li>
-<li>
-<p class=first>
-XQuery has great XML dissection utilities, but has a really different paradigm than other programming languages. It can’t (so far as I can tell) read directly from the Datastore (which stores the values of the Interface widgets), so everything you need must be passed in as an `input`. Anything you need to set needs to be returned in the dictionary.
-</p>
-</li>
-<li>
-<p class=first>
-If you want to add more than three items to an NSPopUpButton you need to use the Menu items palette in Interface Builder. This may be obvious to others, but I spent quite a bit of time struggling with figuring out how to initialize the list of options correctly (and get the value back from within XQuery).
-</p>
-</li>
-<li>
-<p class=first>
-Finally, everything is XQuery is an assignment. Well, not everything, but more than you’d expect, so you may as well start thinking that way. For example, an `if...then...else` (and yes, the `else` is mandatory) block is actually more like a ternary construct than a decision block. That is, instead of the following:
-</p>
-<pre class=literal-block>if ($foo &gt; 0) then
+<!doctype html><html lang=en dir=ltr class=scroll-smooth data-default-appearance=light data-auto-appearance=true><head><meta charset=utf-8><meta http-equiv=content-language content="en"><meta name=viewport content="width=device-width,initial-scale=1"><meta http-equiv=x-ua-compatible content="ie=edge"><title>Anatomy of a Sherlock Channel; or, How I Learned to Stop Worrying and Love The Pain &#183; Nathan R. Yergler</title><meta name=title content="Anatomy of a Sherlock Channel; or, How I Learned to Stop Worrying and Love The Pain &#183; Nathan R. Yergler"><link rel=canonical href=https://nyergler.github.io/2004/10/12/anatomy-of-a-sherlock-channel/><link type=text/css rel=stylesheet href=/css/main.bundle.min.4d2da63731ac126e967412ed7aaa2d40b7e38b35cc00d35806a38a80029398bbf11f9a2497dc4b25e4c0ec81f51ef144739684c1eeaf26ebc5cecb800ce8e1d0.css integrity="sha512-TS2mNzGsEm6WdBLteqotQLfjizXMANNYBqOKgAKTmLvxH5okl9xLJeTA7IH1HvFEc5aEwe6vJuvFzsuADOjh0A=="><script type=text/javascript src=/js/appearance.min.12e98742cd283574d030a7fe55f29597df4ee214f7ff7075b4d19a64d046a602753c715295550be7899b661619cec89c679049d36c624681671a8013c1249896.js integrity="sha512-EumHQs0oNXTQMKf+VfKVl99O4hT3/3B1tNGaZNBGpgJ1PHFSlVUL54mbZhYZzsicZ5BJ02xiRoFnGoATwSSYlg=="></script>
+<link rel=apple-touch-icon sizes=180x180 href=/apple-touch-icon.png><link rel=icon type=image/png sizes=32x32 href=/favicon-32x32.png><link rel=icon type=image/png sizes=16x16 href=/favicon-16x16.png><link rel=manifest href=/site.webmanifest><meta property="og:title" content="Anatomy of a Sherlock Channel; or, How I Learned to Stop Worrying and Love The Pain"><meta property="og:description" content="With the release of the Creative Commons Sherlock channel , it seems prudent to document some of the development process."><meta property="og:type" content="article"><meta property="og:url" content="https://nyergler.github.io/2004/10/12/anatomy-of-a-sherlock-channel/"><meta property="article:section" content="posts"><meta property="article:published_time" content="2004-10-12T18:17:31+00:00"><meta property="article:modified_time" content="2004-10-12T18:17:31+00:00"><meta name=twitter:card content="summary"><meta name=twitter:title content="Anatomy of a Sherlock Channel; or, How I Learned to Stop Worrying and Love The Pain"><meta name=twitter:description content="With the release of the Creative Commons Sherlock channel , it seems prudent to document some of the development process."><script type=application/ld+json>[{"@context":"https://schema.org","@type":"Article","articleSection":"Posts","name":"Anatomy of a Sherlock Channel; or, How I Learned to Stop Worrying and Love The Pain","headline":"Anatomy of a Sherlock Channel; or, How I Learned to Stop Worrying and Love The Pain","abstract":"With the release of the Creative Commons Sherlock channel , it seems prudent to document some of the development process.","inLanguage":"en","url":"https:\/\/nyergler.github.io\/2004\/10\/12\/anatomy-of-a-sherlock-channel\/","author":{"@type":"Person","name":"Nathan Yergler"},"copyrightYear":"2004","dateCreated":"2004-10-12T18:17:31\u002b00:00","datePublished":"2004-10-12T18:17:31\u002b00:00","dateModified":"2004-10-12T18:17:31\u002b00:00","mainEntityOfPage":"true","wordCount":"511"}]</script><meta name=author content="Nathan Yergler"><link href=https://github.com/nyergler rel=me><link href=https://instagram.com/nyergler rel=me></head><body class="flex flex-col h-screen px-6 m-auto text-lg leading-7 bg-neutral text-neutral-900 sm:px-14 md:px-24 lg:px-32 dark:bg-neutral-800 dark:text-neutral max-w-7xl"><div id=the-top class="absolute flex self-center"><a class="px-3 py-1 text-sm -translate-y-8 rounded-b-lg bg-primary-200 dark:bg-neutral-600 focus:translate-y-0" href=#main-content><span class="font-bold ltr:pr-2 rtl:pl-2 text-primary-600 dark:text-primary-400">&darr;</span>Skip to main content</a></div><header class="flex justify-between py-6 font-semibold sm:items-center sm:py-10 text-neutral-900 dark:text-neutral print:hidden"><div><a class="decoration-primary-500 hover:underline hover:decoration-2 hover:underline-offset-2" rel=me href=/>Nathan R. Yergler</a></div><nav><ul class="flex flex-col list-none sm:flex-row"><li class="mb-1 ltr:text-right rtl:text-left sm:mb-0 ltr:sm:mr-7 ltr:sm:last:mr-0 rtl:sm:ml-7 rtl:sm:last:ml-0"><a class="decoration-primary-500 hover:underline hover:decoration-2 hover:underline-offset-2" href=/about/ title="Oh hai.">Bio</a></li><li class="mb-1 ltr:text-right rtl:text-left sm:mb-0 ltr:sm:mr-7 ltr:sm:last:mr-0 rtl:sm:ml-7 rtl:sm:last:ml-0"><a class="decoration-primary-500 hover:underline hover:decoration-2 hover:underline-offset-2" href=/posts/ title=Posts>Blog</a></li><li class="mb-1 ltr:text-right rtl:text-left sm:mb-0 ltr:sm:mr-7 ltr:sm:last:mr-0 rtl:sm:ml-7 rtl:sm:last:ml-0"><a class="decoration-primary-500 hover:underline hover:decoration-2 hover:underline-offset-2" href=/prints/ title=Prints>Prints</a></li></ul></nav></header><div class="relative flex flex-col grow"><main id=main-content class=grow><article><header class=max-w-prose><ol class="text-sm text-neutral-500 dark:text-neutral-400 print:hidden"><li class="inline hidden"><a class="hover:underline decoration-neutral-300 dark:underline-neutral-600" href=/>Nathan R. Yergler</a><span class="px-1 text-primary-500">/</span></li><li class=inline><a class="hover:underline decoration-neutral-300 dark:underline-neutral-600" href=/posts/>Posts</a><span class="px-1 text-primary-500">/</span></li><li class="inline hidden"><a class="hover:underline decoration-neutral-300 dark:underline-neutral-600" href=/2004/10/12/anatomy-of-a-sherlock-channel/>Anatomy of a Sherlock Channel; or, How I Learned to Stop Worrying and Love The Pain</a><span class="px-1 text-primary-500">/</span></li></ol><h1 class="mt-0 text-4xl font-extrabold text-neutral-900 dark:text-neutral">Anatomy of a Sherlock Channel; or, How I Learned to Stop Worrying and Love The Pain</h1><div class="mt-8 mb-12 text-base text-neutral-500 dark:text-neutral-400 print:hidden"><div class="flex flex-row flex-wrap items-center"><time datetime="2004-10-12 18:17:31 +0000 UTC">October 12, 2004</time></div></div></header><section class="flex flex-col max-w-full mt-0 prose lg:flex-row dark:prose-invert"><div class="min-w-0 min-h-0 max-w-prose"><p>With the release of the <a href=http://creativecommons.org>Creative Commons</a> <a href=http://www.apple.com/macosx/features/sherlock/>Sherlock</a> <a href=http://yergler.net/blog/archives/2004/10/12/get-your-cc-fix-here>channel</a> , it seems prudent to document some of the development process. The <a href=http://developer.apple.com/documentation/AppleApplications/Conceptual/Sherlock/>Sherlock Developer Documentation</a> implies that developing a channel is easy as pie. As a developer unfamiliar with the tools, I found the process any but straightforward. In retrospect certain things make sense now that I have a working model, but I’m still no expert.</p><p>First, the sourcecode for the CC channel is available in CVS at the <a href=http://cctools.sourceforge.net>CC Tools</a> SourceForge.net project. The module is named <strong>sherlock</strong>. This may serve as a good jumping off point for someone looking for a working example.</p><p>Second, the process involved in developing a Sherlock channel consists of a few distinct steps. Your interface is built using Interface Builder, and consists of a single View. The actual code consists of scripts written in either JavaScript, <a href=http://www.w3.org/TR/xquery/>XQuery</a> or both. Events (at least as I know them) are called Triggers, and usually (at least in my code) consist of a piece of JavaScript which does some initial setup and then fires an XQuery script to do the actual scraping.</p><p>Finally, things I wish I had known when I started writing my channel:</p><ul><li><p class=first>When saving your NIB in Interface Builder, make sure you save it in either “Pre-10.2 Format” or “Both Formats (Pre/Post-10.2)”. If you save it in “10.2 and Later Format” Sherlock will refuse to load your channel.</p></li><li><p class=first>XQuery has great XML dissection utilities, but has a really different paradigm than other programming languages. It can’t (so far as I can tell) read directly from the Datastore (which stores the values of the Interface widgets), so everything you need must be passed in as an `input`. Anything you need to set needs to be returned in the dictionary.</p></li><li><p class=first>If you want to add more than three items to an NSPopUpButton you need to use the Menu items palette in Interface Builder. This may be obvious to others, but I spent quite a bit of time struggling with figuring out how to initialize the list of options correctly (and get the value back from within XQuery).</p></li><li><p class=first>Finally, everything is XQuery is an assignment. Well, not everything, but more than you’d expect, so you may as well start thinking that way. For example, an `if...then...else` (and yes, the `else` is mandatory) block is actually more like a ternary construct than a decision block. That is, instead of the following:</p><pre class=literal-block>if ($foo &gt; 0) then
   let $bar := 5
 </li>
 </ul>
 <p>else
 let $bar := 10
-</pre></p>
-<pre><code>You do this:
+</pre></p><pre><code>You do this:
 
 &lt;pre class=&quot;literal-block&quot;&gt;let $bar := if ($foo &amp;gt; 0) then 5 else 10
-</code></pre>
-<p></pre></p>
-<p>Additionally, the following resources may or may not be useful to you if you’re contemplating writing a channel.</p>
-<ul>
-<li><a href=http://www.w3.org/TR/xquery/>W3C XQuery 1.0</a> * <a href=http://www.xmlportfolio.com/xquery.html>XQuery: Reinventing the Wheel?</a> (covers some interesting aspects of if syntax) * <a href=http://radio.weblogs.com/0108956/2002/11/25.html>a working example of if…then…else syntax</a></li>
-</ul>
-<p>In conclusion, writing a Sherlock Channel was a lot more painful that it felt like it should have been. But I’ll be back; there’s work to be done in the CC Search Channel, and I’ll continue to post my experiences here.</p>
-</section>
-<footer class=pt-8>
-<div class="pt-8 article-pagination">
-<hr class="border-dotted border-neutral-300 dark:border-neutral-600">
-<div class="flex justify-between pt-3">
-<span>
-<a class=flex href=/2004/10/14/volleyball-update/>
-<span class="mr-3 article-pagination-direction">&larr;</span>
-<span class="flex flex-col">
-<span class="article-pagination-title mt-[0.1rem] leading-6">
-Volleyball Update</span>
-<span class="mt-[0.1rem] text-xs text-neutral-400 dark:text-neutral-500">
-<time datetime="2004-10-14 06:42:02 +0000 UTC">14 October 2004</time>
-</span>
-</span>
-</a>
-</span>
-<span>
-<a class="flex text-right" href=/2004/10/12/get-your-cc-fix-here/>
-<span class="flex flex-col">
-<span class="article-pagination-title mt-[0.1rem] leading-6">Get Your CC Fix Here</span>
-<span class="mt-[0.1rem] text-xs text-neutral-400 dark:text-neutral-500">
-<time datetime="2004-10-12 12:19:45 +0000 UTC">12 October 2004</time>
-</span>
-</span>
-<span class="ml-3 article-pagination-direction">&rarr;</span>
-</a>
-</span>
-</div>
-</div>
-</footer>
-</article>
-</main><footer class=py-10>
-<nav class="pb-4 text-base font-medium text-neutral-500 dark:text-neutral-400">
-<ul class="flex flex-col list-none sm:flex-row">
-<li class="mb-1 sm:mb-0 sm:mr-7 sm:last:mr-0">
-<a class="hover:underline hover:underline-primary-500 hover:underline-thickness-bold hover:underline-offset-small" href=/tags/ title=Tags>Tags</a>
-</li>
-<li class="mb-1 sm:mb-0 sm:mr-7 sm:last:mr-0">
-<a class="hover:underline hover:underline-primary-500 hover:underline-thickness-bold hover:underline-offset-small" href=/categories/ title=Categories>Categories</a>
-</li>
-</ul>
-</nav>
-<div class="flex justify-between">
-<div>
-<p class="text-sm text-neutral-500 dark:text-neutral-400">
-&copy;
+</code></pre><p></pre></p><p>Additionally, the following resources may or may not be useful to you if you’re contemplating writing a channel.</p><ul><li><a href=http://www.w3.org/TR/xquery/>W3C XQuery 1.0</a> * <a href=http://www.xmlportfolio.com/xquery.html>XQuery: Reinventing the Wheel?</a> (covers some interesting aspects of if syntax) * <a href=http://radio.weblogs.com/0108956/2002/11/25.html>a working example of if…then…else syntax</a></li></ul><p>In conclusion, writing a Sherlock Channel was a lot more painful that it felt like it should have been. But I’ll be back; there’s work to be done in the CC Search Channel, and I’ll continue to post my experiences here.</p></div></section><footer class="pt-8 max-w-prose print:hidden"><div class=pt-8><hr class="border-dotted border-neutral-300 dark:border-neutral-600"><div class="flex justify-between pt-3"><span><a class="flex group" href=/2004/10/12/get-your-cc-fix-here/><span class="mr-3 ltr:inline rtl:hidden text-neutral-700 dark:text-neutral group-hover:text-primary-600 dark:group-hover:text-primary-400">&larr;</span>
+<span class="ml-3 ltr:hidden rtl:inline text-neutral-700 dark:text-neutral group-hover:text-primary-600 dark:group-hover:text-primary-400">&rarr;</span>
+<span class="flex flex-col"><span class="mt-[0.1rem] leading-6 group-hover:underline group-hover:decoration-primary-500">Get Your CC Fix Here</span>
+<span class="mt-[0.1rem] text-xs text-neutral-500 dark:text-neutral-400"><time datetime="2004-10-12 12:19:45 +0000 UTC">October 12, 2004</time></span></span></a></span>
+<span><a class="flex text-right group" href=/2004/10/14/volleyball-update/><span class="flex flex-col"><span class="mt-[0.1rem] leading-6 group-hover:underline group-hover:decoration-primary-500">Volleyball Update</span>
+<span class="mt-[0.1rem] text-xs text-neutral-500 dark:text-neutral-400"><time datetime="2004-10-14 06:42:02 +0000 UTC">October 14, 2004</time></span></span>
+<span class="ml-3 ltr:inline rtl:hidden text-neutral-700 dark:text-neutral group-hover:text-primary-600 dark:group-hover:text-primary-400">&rarr;</span>
+<span class="mr-3 ltr:hidden rtl:inline text-neutral-700 dark:text-neutral group-hover:text-primary-600 dark:group-hover:text-primary-400">&larr;</span></a></span></div></div></footer></article><div class="absolute top-[110vh] ltr:right-0 rtl:left-0 w-12 pointer-events-none bottom-0"><a href=#the-top class="w-12 h-12 sticky pointer-events-auto top-[calc(100vh-5.5rem)] bg-neutral/50 dark:bg-neutral-800/50 backdrop-blur rounded-full text-xl flex items-center justify-center text-neutral-700 dark:text-neutral hover:text-primary-600 dark:hover:text-primary-400" aria-label="Scroll to top" title="Scroll to top">&uarr;</a></div></main><footer class="py-10 print:hidden"><nav class="pb-4 text-base font-medium text-neutral-500 dark:text-neutral-400"><ul class="flex flex-col list-none sm:flex-row"><li class="mb-1 ltr:text-right rtl:text-left sm:mb-0 ltr:sm:mr-7 ltr:sm:last:mr-0 rtl:sm:ml-7 rtl:sm:last:ml-0"><a class="decoration-primary-500 hover:underline hover:decoration-2 hover:underline-offset-2" href=/tags/ title=Tags>Tags</a></li><li class="mb-1 ltr:text-right rtl:text-left sm:mb-0 ltr:sm:mr-7 ltr:sm:last:mr-0 rtl:sm:ml-7 rtl:sm:last:ml-0"><a class="decoration-primary-500 hover:underline hover:decoration-2 hover:underline-offset-2" href=/categories/ title=Categories>Categories</a></li></ul></nav><div class="flex justify-between"><div><p class="text-sm text-neutral-500 dark:text-neutral-400">&copy;
 2022
-Nathan Yergler
-</p>
-</div>
-</div>
-</footer>
-</body>
-</html>
+Nathan Yergler</p></div></div></footer></div></body></html>

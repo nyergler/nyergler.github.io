@@ -1,145 +1,18 @@
-<!doctype html><html lang=en><head>
-<meta charset=utf-8>
-<meta http-equiv=content-language content="en">
-<meta name=viewport content="width=device-width,initial-scale=1">
-<meta http-equiv=x-ua-compatible content="ie=edge">
-<title>Hieroglyph 0.5 &#183; Nathan R. Yergler</title>
-<meta name=title content="Hieroglyph 0.5 &#183; Nathan R. Yergler">
-<meta name=description content>
-<link rel=canonical href=https://nyergler.github.io/2013/01/07/hieroglyph_0_5/>
-<link type=text/css rel=stylesheet href=/css/schemes/ocean.min.ff17c50528c7a4a8a8bb8ec41272d63eb936ecefb9ccfa6db45cd1f5cd8b1becf8606745f751ee0d322ac80c9cb96e58aa699b38aa44cff9d2a8b3ff4f05a7b5.css integrity="sha512-/xfFBSjHpKiou47EEnLWPrk27O+5zPpttFzR9c2LG+z4YGdF91HuDTIqyAycuW5YqmmbOKpEz/nSqLP/TwWntQ==">
-<link type=text/css rel=stylesheet href=/css/compiled/main.min.84c4218572228cacf6182dc59fe08b5e1bcd599bb583bc56976aa0070f4cd8a4ff130ee2313074359bf6dba03b211e8c50df743d84ad551575fd0b9f849ec802.css integrity="sha512-hMQhhXIijKz2GC3Fn+CLXhvNWZu1g7xWl2qgBw9M2KT/Ew7iMTB0NZv226A7IR6MUN90PYStVRV1/QufhJ7IAg==">
-<script>function loadPreferredAppearance(){localStorage.preferredAppearance==="dark"||!("preferredAppearance"in localStorage)&&window.matchMedia("(prefers-color-scheme: dark)").matches?document.documentElement.classList.add("dark"):document.documentElement.classList.remove("dark")}function setPreferredAppearance(a){a=="default"?localStorage.removeItem("preferredAppearance"):localStorage.preferredAppearance=a,loadPreferredAppearance()}loadPreferredAppearance(),window.matchMedia("(prefers-color-scheme: dark)").addListener(loadPreferredAppearance)</script>
-<link rel=apple-touch-icon sizes=180x180 href=/apple-touch-icon.png>
-<link rel=icon type=image/png sizes=32x32 href=/favicon-32x32.png>
-<link rel=icon type=image/png sizes=16x16 href=/favicon-16x16.png>
-<link rel=manifest href=/site.webmanifest>
-<meta property="og:title" content="Hieroglyph 0.5">
-<meta property="og:description" content="During the last week of 2012 I pushed out a new release of Hieroglyph .">
-<meta property="og:type" content="article">
-<meta property="og:url" content="https://nyergler.github.io/2013/01/07/hieroglyph_0_5/"><meta property="article:section" content="posts">
-<meta property="article:published_time" content="2013-01-07T00:00:00+00:00">
-<meta property="article:modified_time" content="2013-01-07T00:00:00+00:00">
-<meta name=twitter:card content="summary">
-<meta name=twitter:title content="Hieroglyph 0.5">
-<meta name=twitter:description content="During the last week of 2012 I pushed out a new release of Hieroglyph .">
-<script type=application/ld+json>{"@context":"https://schema.org","@type":"BlogPosting","articleSection":"Posts","name":"Hieroglyph 0.5","headline":"Hieroglyph 0.5","description":"During the last week of 2012 I pushed out a new release of Hieroglyph .","inLanguage":"en","author":{"@type":"Person","name":"Nathan Yergler"},"creator":{"@type":"Person","name":"Nathan Yergler"},"copyrightHolder":"Nathan Yergler","copyrightYear":"2013","dateCreated":"2013-01-07T00:00:00\u002b00:00","datePublished":"2013-01-07T00:00:00\u002b00:00","dateModified":"2013-01-07T00:00:00\u002b00:00","url":"https:\/\/nyergler.github.io\/2013\/01\/07\/hieroglyph_0_5\/","wordCount":"692","keywords":["hieroglpyh","rst","slides","sphinx"]}</script>
-<meta name=author content="Nathan Yergler">
-<link href=https://github.com/nyergler rel=me>
-<link href=https://instagram.com/nyergler rel=me>
-</head>
-<body class="flex flex-col h-screen px-6 m-auto text-lg leading-7 bg-neutral text-neutral-900 sm:px-14 md:px-24 lg:px-32 dark:bg-neutral-800 dark:text-neutral max-w-7xl"><header class="flex justify-between py-6 font-semibold sm:items-center sm:py-10 text-neutral-900 dark:text-neutral">
-<div>
-<a class="hover:underline hover:underline-primary-500 hover:underline-thickness-bold hover:underline-offset-small" rel=me href=/>Nathan R. Yergler</a>
-</div>
-<nav>
-<ul class="flex flex-col list-none sm:flex-row">
-<li class="mb-1 text-right sm:mb-0 sm:mr-7 sm:last:mr-0">
-<a class="hover:underline hover:underline-primary-500 hover:underline-thickness-bold hover:underline-offset-small" href=/about/ title="Oh hai.">Bio</a>
-</li>
-<li class="mb-1 text-right sm:mb-0 sm:mr-7 sm:last:mr-0">
-<a class="hover:underline hover:underline-primary-500 hover:underline-thickness-bold hover:underline-offset-small" href=/posts/ title=Posts>Blog</a>
-</li>
-<li class="mb-1 text-right sm:mb-0 sm:mr-7 sm:last:mr-0">
-<a class="hover:underline hover:underline-primary-500 hover:underline-thickness-bold hover:underline-offset-small" href=/prints/ title=Prints>Prints</a>
-</li>
-</ul>
-</nav>
-</header>
-<main class=flex-grow>
-<article class=max-w-prose>
-<header>
-<ol class="text-sm text-neutral-500 dark:text-neutral-400">
-<li class="inline hidden">
-<a class="hover:underline hover:underline-neutral-300 dark:underline-neutral-600" href=/>Nathan R. Yergler</a><span class="px-1 text-primary-500">/</span>
-</li>
-<li class=inline>
-<a class="hover:underline hover:underline-neutral-300 dark:underline-neutral-600" href=/posts/>Posts</a><span class="px-1 text-primary-500">/</span>
-</li>
-<li class="inline hidden">
-<a class="hover:underline hover:underline-neutral-300 dark:underline-neutral-600" href=/2013/01/07/hieroglyph_0_5/>Hieroglyph 0.5</a><span class="px-1 text-primary-500">/</span>
-</li>
-</ol>
-<h1 class="mt-0 text-4xl font-extrabold text-neutral-900 dark:text-neutral">
-Hieroglyph 0.5
-</h1>
-<div class="mt-8 mb-12 text-base text-neutral-500 dark:text-neutral-400">
-<div class="flex flex-row items-center">
-<time datetime="2013-01-07 00:00:00 +0000 UTC">7 January 2013</time>
-</div>
-</div>
-</header>
-<section class="prose dark:prose-light">
-<p>During the last week of 2012 I pushed out a new release of <a href=http://hieroglyph.io>Hieroglyph</a> . I realized later that I haven’t really been talking about it here, so I wanted to mention some of the new features and functionality I’ve been working on. When I published the 0.3 release, I said I was planning to work on hooking analytics into the slide viewing so that creators could get a better sense of how their slide decks were being used. I have done some work to that end, but would up getting side tracking.</p>
-<p>The 0.4 release consisted primarily of internal cleanups in preparation for adding analytics support. There were some places where the Javascript or styles were duplicated, so I put some effort into cleaning that up. I also split up the Javascript to separate slide control from user interaction. This was done to support both analytics and the initial implementation of the Presenter’s Console: a separate window that displays the previous, current, and next slides, and allows the presenter to control the primary display window. With <a href=http://hieroglyph.io>Hieroglyph</a> 0.4 and later you can open by pressing <code>c</code> within a slide document.</p>
-<p>Hieroglyph 0.4 also added support for slide numbering and for applying a theme to individual documents inside of a project using the <code>slideconf</code> direction. For example:</p>
-<pre class=literal-block>.. slideconf::
+<!doctype html><html lang=en dir=ltr class=scroll-smooth data-default-appearance=light data-auto-appearance=true><head><meta charset=utf-8><meta http-equiv=content-language content="en"><meta name=viewport content="width=device-width,initial-scale=1"><meta http-equiv=x-ua-compatible content="ie=edge"><title>Hieroglyph 0.5 &#183; Nathan R. Yergler</title><meta name=title content="Hieroglyph 0.5 &#183; Nathan R. Yergler"><link rel=canonical href=https://nyergler.github.io/2013/01/07/hieroglyph_0_5/><link type=text/css rel=stylesheet href=/css/main.bundle.min.4d2da63731ac126e967412ed7aaa2d40b7e38b35cc00d35806a38a80029398bbf11f9a2497dc4b25e4c0ec81f51ef144739684c1eeaf26ebc5cecb800ce8e1d0.css integrity="sha512-TS2mNzGsEm6WdBLteqotQLfjizXMANNYBqOKgAKTmLvxH5okl9xLJeTA7IH1HvFEc5aEwe6vJuvFzsuADOjh0A=="><script type=text/javascript src=/js/appearance.min.12e98742cd283574d030a7fe55f29597df4ee214f7ff7075b4d19a64d046a602753c715295550be7899b661619cec89c679049d36c624681671a8013c1249896.js integrity="sha512-EumHQs0oNXTQMKf+VfKVl99O4hT3/3B1tNGaZNBGpgJ1PHFSlVUL54mbZhYZzsicZ5BJ02xiRoFnGoATwSSYlg=="></script>
+<link rel=apple-touch-icon sizes=180x180 href=/apple-touch-icon.png><link rel=icon type=image/png sizes=32x32 href=/favicon-32x32.png><link rel=icon type=image/png sizes=16x16 href=/favicon-16x16.png><link rel=manifest href=/site.webmanifest><meta property="og:title" content="Hieroglyph 0.5"><meta property="og:description" content="During the last week of 2012 I pushed out a new release of Hieroglyph ."><meta property="og:type" content="article"><meta property="og:url" content="https://nyergler.github.io/2013/01/07/hieroglyph_0_5/"><meta property="article:section" content="posts"><meta property="article:published_time" content="2013-01-07T00:00:00+00:00"><meta property="article:modified_time" content="2013-01-07T00:00:00+00:00"><meta name=twitter:card content="summary"><meta name=twitter:title content="Hieroglyph 0.5"><meta name=twitter:description content="During the last week of 2012 I pushed out a new release of Hieroglyph ."><script type=application/ld+json>[{"@context":"https://schema.org","@type":"Article","articleSection":"Posts","name":"Hieroglyph 0.5","headline":"Hieroglyph 0.5","abstract":"During the last week of 2012 I pushed out a new release of Hieroglyph .","inLanguage":"en","url":"https:\/\/nyergler.github.io\/2013\/01\/07\/hieroglyph_0_5\/","author":{"@type":"Person","name":"Nathan Yergler"},"copyrightYear":"2013","dateCreated":"2013-01-07T00:00:00\u002b00:00","datePublished":"2013-01-07T00:00:00\u002b00:00","dateModified":"2013-01-07T00:00:00\u002b00:00","keywords":["hieroglpyh","rst","slides","sphinx"],"mainEntityOfPage":"true","wordCount":"692"}]</script><meta name=author content="Nathan Yergler"><link href=https://github.com/nyergler rel=me><link href=https://instagram.com/nyergler rel=me></head><body class="flex flex-col h-screen px-6 m-auto text-lg leading-7 bg-neutral text-neutral-900 sm:px-14 md:px-24 lg:px-32 dark:bg-neutral-800 dark:text-neutral max-w-7xl"><div id=the-top class="absolute flex self-center"><a class="px-3 py-1 text-sm -translate-y-8 rounded-b-lg bg-primary-200 dark:bg-neutral-600 focus:translate-y-0" href=#main-content><span class="font-bold ltr:pr-2 rtl:pl-2 text-primary-600 dark:text-primary-400">&darr;</span>Skip to main content</a></div><header class="flex justify-between py-6 font-semibold sm:items-center sm:py-10 text-neutral-900 dark:text-neutral print:hidden"><div><a class="decoration-primary-500 hover:underline hover:decoration-2 hover:underline-offset-2" rel=me href=/>Nathan R. Yergler</a></div><nav><ul class="flex flex-col list-none sm:flex-row"><li class="mb-1 ltr:text-right rtl:text-left sm:mb-0 ltr:sm:mr-7 ltr:sm:last:mr-0 rtl:sm:ml-7 rtl:sm:last:ml-0"><a class="decoration-primary-500 hover:underline hover:decoration-2 hover:underline-offset-2" href=/about/ title="Oh hai.">Bio</a></li><li class="mb-1 ltr:text-right rtl:text-left sm:mb-0 ltr:sm:mr-7 ltr:sm:last:mr-0 rtl:sm:ml-7 rtl:sm:last:ml-0"><a class="decoration-primary-500 hover:underline hover:decoration-2 hover:underline-offset-2" href=/posts/ title=Posts>Blog</a></li><li class="mb-1 ltr:text-right rtl:text-left sm:mb-0 ltr:sm:mr-7 ltr:sm:last:mr-0 rtl:sm:ml-7 rtl:sm:last:ml-0"><a class="decoration-primary-500 hover:underline hover:decoration-2 hover:underline-offset-2" href=/prints/ title=Prints>Prints</a></li></ul></nav></header><div class="relative flex flex-col grow"><main id=main-content class=grow><article><header class=max-w-prose><ol class="text-sm text-neutral-500 dark:text-neutral-400 print:hidden"><li class="inline hidden"><a class="hover:underline decoration-neutral-300 dark:underline-neutral-600" href=/>Nathan R. Yergler</a><span class="px-1 text-primary-500">/</span></li><li class=inline><a class="hover:underline decoration-neutral-300 dark:underline-neutral-600" href=/posts/>Posts</a><span class="px-1 text-primary-500">/</span></li><li class="inline hidden"><a class="hover:underline decoration-neutral-300 dark:underline-neutral-600" href=/2013/01/07/hieroglyph_0_5/>Hieroglyph 0.5</a><span class="px-1 text-primary-500">/</span></li></ol><h1 class="mt-0 text-4xl font-extrabold text-neutral-900 dark:text-neutral">Hieroglyph 0.5</h1><div class="mt-8 mb-12 text-base text-neutral-500 dark:text-neutral-400 print:hidden"><div class="flex flex-row flex-wrap items-center"><time datetime="2013-01-07 00:00:00 +0000 UTC">January 7, 2013</time></div></div></header><section class="flex flex-col max-w-full mt-0 prose lg:flex-row dark:prose-invert"><div class="min-w-0 min-h-0 max-w-prose"><p>During the last week of 2012 I pushed out a new release of <a href=http://hieroglyph.io>Hieroglyph</a> . I realized later that I haven’t really been talking about it here, so I wanted to mention some of the new features and functionality I’ve been working on. When I published the 0.3 release, I said I was planning to work on hooking analytics into the slide viewing so that creators could get a better sense of how their slide decks were being used. I have done some work to that end, but would up getting side tracking.</p><p>The 0.4 release consisted primarily of internal cleanups in preparation for adding analytics support. There were some places where the Javascript or styles were duplicated, so I put some effort into cleaning that up. I also split up the Javascript to separate slide control from user interaction. This was done to support both analytics and the initial implementation of the Presenter’s Console: a separate window that displays the previous, current, and next slides, and allows the presenter to control the primary display window. With <a href=http://hieroglyph.io>Hieroglyph</a> 0.4 and later you can open by pressing <code>c</code> within a slide document.</p><p>Hieroglyph 0.4 also added support for slide numbering and for applying a theme to individual documents inside of a project using the <code>slideconf</code> direction. For example:</p><pre class=literal-block>.. slideconf::
    :theme: single-level
-</pre>
-<p>In December I put together some training for other engineers at Eventbrite around Python byte and unicode strings, and how to safely work with them both in our codebase. While I was putting that together, I realized that there was a lot of text and code samples in the documentation that I wanted to go through interactively, and not include in slides. I wound up going without slides, and found that presenting from the Python interactive interpreter was very effective for this sort of hands on training. That said, it would have been nice to have had a few key slides: an introduction, a summary of key points, and maybe where to go next. That’s the sort of content I’d like to keep with the main document so it doesn’t drift too far out of sync, but Hieroglyph didn’t really support that approach: it assumed that you wanted to generate a slide per section, unless you explicitly marked things as <code>notslides</code>.</p>
-<p>Hieroglyph 0.5 adds a couple of features to support these different work modes. First, it adds an <code>autoslides</code> configuration parameter, that allows you to disable automatic slide generation of a project or document level. If <code>autoslides</code> is <code>True</code> (the default), you’ll see the previous Hieroglyph behavior, one slide per section. If it’s set to <code>False</code>, you’ll need to write slides using the second new feature, the <code>slide</code> directive.</p>
-<p>The <a href=http://hieroglyph.io/advanced.html#the-slide-directive>slide directive</a> describes a single slide, including the title, level (which may be used for styling), and content. An example from the Hieroglyph <a href=http://hieroglyph.io/tests/smoketest.html>smoketest</a> document:</p>
-<pre class=literal-block>.. slide:: The ``slide`` Directive
+</pre><p>In December I put together some training for other engineers at Eventbrite around Python byte and unicode strings, and how to safely work with them both in our codebase. While I was putting that together, I realized that there was a lot of text and code samples in the documentation that I wanted to go through interactively, and not include in slides. I wound up going without slides, and found that presenting from the Python interactive interpreter was very effective for this sort of hands on training. That said, it would have been nice to have had a few key slides: an introduction, a summary of key points, and maybe where to go next. That’s the sort of content I’d like to keep with the main document so it doesn’t drift too far out of sync, but Hieroglyph didn’t really support that approach: it assumed that you wanted to generate a slide per section, unless you explicitly marked things as <code>notslides</code>.</p><p>Hieroglyph 0.5 adds a couple of features to support these different work modes. First, it adds an <code>autoslides</code> configuration parameter, that allows you to disable automatic slide generation of a project or document level. If <code>autoslides</code> is <code>True</code> (the default), you’ll see the previous Hieroglyph behavior, one slide per section. If it’s set to <code>False</code>, you’ll need to write slides using the second new feature, the <code>slide</code> directive.</p><p>The <a href=http://hieroglyph.io/advanced.html#the-slide-directive>slide directive</a> describes a single slide, including the title, level (which may be used for styling), and content. An example from the Hieroglyph <a href=http://hieroglyph.io/tests/smoketest.html>smoketest</a> document:</p><pre class=literal-block>.. slide:: The ``slide`` Directive
    :level: 2
 
    In addition to headings, you can use the ``..slide::`` directive to
    define a slide.
-</pre>
-<p>Because the conditional <code>slides</code> directive differed by only one letter, Hieroglyph 0.5 also renamed the conditional directives to <code>ifslides</code> and <code>ifnotslides</code>. The previous names will continue to work (at least for a couple releases), but I’m using the new names myself to make it easier to understand what’s going on.</p>
-<p>Thanks to bug reports filed in the <a href=https://github.com/nyergler/hieroglyph>Hieroglyph github project</a> , the 0.5 release also includes fixes for styling nested lists and compatibility with the latex-pdf builder.</p>
-<p>At this point Hieroglyph seems to be working pretty well for me and others. There are a few things I’d like to add yet, but for the next couple of months my focus is going to be more on using it rather than developing it. I’m working on more training for new engineers at Eventbrite, and I’ll be giving a tutorial of Effective Django at PyCon this year. I think both of those are going to be good opportunities use Hieroglyph in different contexts and hopefully get some more data on what’s working or not. If you’re using it (or just trying it out) and have comments or feedback, <a href=#filing-a-bug>filing a bug</a>{.reference.internal} is something I find really helpful.</p>
-</section>
-<footer class=pt-8>
-<div class="pt-8 article-pagination">
-<hr class="border-dotted border-neutral-300 dark:border-neutral-600">
-<div class="flex justify-between pt-3">
-<span>
-<a class=flex href=/2013/01/26/bytes_characters_codecs_strings/>
-<span class="mr-3 article-pagination-direction">&larr;</span>
-<span class="flex flex-col">
-<span class="article-pagination-title mt-[0.1rem] leading-6">
-Bytes, Characters, Codecs, and Strings</span>
-<span class="mt-[0.1rem] text-xs text-neutral-400 dark:text-neutral-500">
-<time datetime="2013-01-26 00:00:00 +0000 UTC">26 January 2013</time>
-</span>
-</span>
-</a>
-</span>
-<span>
-<a class="flex text-right" href=/2013/01/06/tinkering/>
-<span class="flex flex-col">
-<span class="article-pagination-title mt-[0.1rem] leading-6">Tinkering</span>
-<span class="mt-[0.1rem] text-xs text-neutral-400 dark:text-neutral-500">
-<time datetime="2013-01-06 00:00:00 +0000 UTC">6 January 2013</time>
-</span>
-</span>
-<span class="ml-3 article-pagination-direction">&rarr;</span>
-</a>
-</span>
-</div>
-</div>
-</footer>
-</article>
-</main><footer class=py-10>
-<nav class="pb-4 text-base font-medium text-neutral-500 dark:text-neutral-400">
-<ul class="flex flex-col list-none sm:flex-row">
-<li class="mb-1 sm:mb-0 sm:mr-7 sm:last:mr-0">
-<a class="hover:underline hover:underline-primary-500 hover:underline-thickness-bold hover:underline-offset-small" href=/tags/ title=Tags>Tags</a>
-</li>
-<li class="mb-1 sm:mb-0 sm:mr-7 sm:last:mr-0">
-<a class="hover:underline hover:underline-primary-500 hover:underline-thickness-bold hover:underline-offset-small" href=/categories/ title=Categories>Categories</a>
-</li>
-</ul>
-</nav>
-<div class="flex justify-between">
-<div>
-<p class="text-sm text-neutral-500 dark:text-neutral-400">
-&copy;
+</pre><p>Because the conditional <code>slides</code> directive differed by only one letter, Hieroglyph 0.5 also renamed the conditional directives to <code>ifslides</code> and <code>ifnotslides</code>. The previous names will continue to work (at least for a couple releases), but I’m using the new names myself to make it easier to understand what’s going on.</p><p>Thanks to bug reports filed in the <a href=https://github.com/nyergler/hieroglyph>Hieroglyph github project</a> , the 0.5 release also includes fixes for styling nested lists and compatibility with the latex-pdf builder.</p><p>At this point Hieroglyph seems to be working pretty well for me and others. There are a few things I’d like to add yet, but for the next couple of months my focus is going to be more on using it rather than developing it. I’m working on more training for new engineers at Eventbrite, and I’ll be giving a tutorial of Effective Django at PyCon this year. I think both of those are going to be good opportunities use Hieroglyph in different contexts and hopefully get some more data on what’s working or not. If you’re using it (or just trying it out) and have comments or feedback, <a href=#filing-a-bug>filing a bug</a>{.reference.internal} is something I find really helpful.</p></div></section><footer class="pt-8 max-w-prose print:hidden"><div class=pt-8><hr class="border-dotted border-neutral-300 dark:border-neutral-600"><div class="flex justify-between pt-3"><span><a class="flex group" href=/2013/01/06/tinkering/><span class="mr-3 ltr:inline rtl:hidden text-neutral-700 dark:text-neutral group-hover:text-primary-600 dark:group-hover:text-primary-400">&larr;</span>
+<span class="ml-3 ltr:hidden rtl:inline text-neutral-700 dark:text-neutral group-hover:text-primary-600 dark:group-hover:text-primary-400">&rarr;</span>
+<span class="flex flex-col"><span class="mt-[0.1rem] leading-6 group-hover:underline group-hover:decoration-primary-500">Tinkering</span>
+<span class="mt-[0.1rem] text-xs text-neutral-500 dark:text-neutral-400"><time datetime="2013-01-06 00:00:00 +0000 UTC">January 6, 2013</time></span></span></a></span>
+<span><a class="flex text-right group" href=/2013/01/26/bytes_characters_codecs_strings/><span class="flex flex-col"><span class="mt-[0.1rem] leading-6 group-hover:underline group-hover:decoration-primary-500">Bytes, Characters, Codecs, and Strings</span>
+<span class="mt-[0.1rem] text-xs text-neutral-500 dark:text-neutral-400"><time datetime="2013-01-26 00:00:00 +0000 UTC">January 26, 2013</time></span></span>
+<span class="ml-3 ltr:inline rtl:hidden text-neutral-700 dark:text-neutral group-hover:text-primary-600 dark:group-hover:text-primary-400">&rarr;</span>
+<span class="mr-3 ltr:hidden rtl:inline text-neutral-700 dark:text-neutral group-hover:text-primary-600 dark:group-hover:text-primary-400">&larr;</span></a></span></div></div></footer></article><div class="absolute top-[110vh] ltr:right-0 rtl:left-0 w-12 pointer-events-none bottom-0"><a href=#the-top class="w-12 h-12 sticky pointer-events-auto top-[calc(100vh-5.5rem)] bg-neutral/50 dark:bg-neutral-800/50 backdrop-blur rounded-full text-xl flex items-center justify-center text-neutral-700 dark:text-neutral hover:text-primary-600 dark:hover:text-primary-400" aria-label="Scroll to top" title="Scroll to top">&uarr;</a></div></main><footer class="py-10 print:hidden"><nav class="pb-4 text-base font-medium text-neutral-500 dark:text-neutral-400"><ul class="flex flex-col list-none sm:flex-row"><li class="mb-1 ltr:text-right rtl:text-left sm:mb-0 ltr:sm:mr-7 ltr:sm:last:mr-0 rtl:sm:ml-7 rtl:sm:last:ml-0"><a class="decoration-primary-500 hover:underline hover:decoration-2 hover:underline-offset-2" href=/tags/ title=Tags>Tags</a></li><li class="mb-1 ltr:text-right rtl:text-left sm:mb-0 ltr:sm:mr-7 ltr:sm:last:mr-0 rtl:sm:ml-7 rtl:sm:last:ml-0"><a class="decoration-primary-500 hover:underline hover:decoration-2 hover:underline-offset-2" href=/categories/ title=Categories>Categories</a></li></ul></nav><div class="flex justify-between"><div><p class="text-sm text-neutral-500 dark:text-neutral-400">&copy;
 2022
-Nathan Yergler
-</p>
-</div>
-</div>
-</footer>
-</body>
-</html>
+Nathan Yergler</p></div></div></footer></div></body></html>

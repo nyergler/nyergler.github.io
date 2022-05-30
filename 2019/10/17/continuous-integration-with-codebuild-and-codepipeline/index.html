@@ -1,141 +1,16 @@
-<!doctype html><html lang=en><head>
-<meta charset=utf-8>
-<meta http-equiv=content-language content="en">
-<meta name=viewport content="width=device-width,initial-scale=1">
-<meta http-equiv=x-ua-compatible content="ie=edge">
-<title>Continuous Integration with CodeBuild and CodePipeline &#183; Nathan R. Yergler</title>
-<meta name=title content="Continuous Integration with CodeBuild and CodePipeline &#183; Nathan R. Yergler">
-<meta name=description content>
-<link rel=canonical href=https://nyergler.github.io/2019/10/17/continuous-integration-with-codebuild-and-codepipeline/>
-<link type=text/css rel=stylesheet href=/css/schemes/ocean.min.ff17c50528c7a4a8a8bb8ec41272d63eb936ecefb9ccfa6db45cd1f5cd8b1becf8606745f751ee0d322ac80c9cb96e58aa699b38aa44cff9d2a8b3ff4f05a7b5.css integrity="sha512-/xfFBSjHpKiou47EEnLWPrk27O+5zPpttFzR9c2LG+z4YGdF91HuDTIqyAycuW5YqmmbOKpEz/nSqLP/TwWntQ==">
-<link type=text/css rel=stylesheet href=/css/compiled/main.min.84c4218572228cacf6182dc59fe08b5e1bcd599bb583bc56976aa0070f4cd8a4ff130ee2313074359bf6dba03b211e8c50df743d84ad551575fd0b9f849ec802.css integrity="sha512-hMQhhXIijKz2GC3Fn+CLXhvNWZu1g7xWl2qgBw9M2KT/Ew7iMTB0NZv226A7IR6MUN90PYStVRV1/QufhJ7IAg==">
-<script>function loadPreferredAppearance(){localStorage.preferredAppearance==="dark"||!("preferredAppearance"in localStorage)&&window.matchMedia("(prefers-color-scheme: dark)").matches?document.documentElement.classList.add("dark"):document.documentElement.classList.remove("dark")}function setPreferredAppearance(a){a=="default"?localStorage.removeItem("preferredAppearance"):localStorage.preferredAppearance=a,loadPreferredAppearance()}loadPreferredAppearance(),window.matchMedia("(prefers-color-scheme: dark)").addListener(loadPreferredAppearance)</script>
-<link rel=apple-touch-icon sizes=180x180 href=/apple-touch-icon.png>
-<link rel=icon type=image/png sizes=32x32 href=/favicon-32x32.png>
-<link rel=icon type=image/png sizes=16x16 href=/favicon-16x16.png>
-<link rel=manifest href=/site.webmanifest>
-<meta property="og:title" content="Continuous Integration with CodeBuild and CodePipeline">
-<meta property="og:description" content="Last week I started on a new project — venture, perhaps — which means I’m in the thick of figuring out all the things you take for granted when you join an established project.">
-<meta property="og:type" content="article">
-<meta property="og:url" content="https://nyergler.github.io/2019/10/17/continuous-integration-with-codebuild-and-codepipeline/"><meta property="article:section" content="posts">
-<meta property="article:published_time" content="2019-10-17T15:08:36+00:00">
-<meta property="article:modified_time" content="2019-10-17T15:08:36+00:00">
-<meta name=twitter:card content="summary">
-<meta name=twitter:title content="Continuous Integration with CodeBuild and CodePipeline">
-<meta name=twitter:description content="Last week I started on a new project — venture, perhaps — which means I’m in the thick of figuring out all the things you take for granted when you join an established project.">
-<script type=application/ld+json>{"@context":"https://schema.org","@type":"BlogPosting","articleSection":"Posts","name":"Continuous Integration with CodeBuild and CodePipeline","headline":"Continuous Integration with CodeBuild and CodePipeline","description":"Last week I started on a new project — venture, perhaps — which means I’m in the thick of figuring out all the things you take for granted when you join an established project.","inLanguage":"en","author":{"@type":"Person","name":"Nathan Yergler"},"creator":{"@type":"Person","name":"Nathan Yergler"},"copyrightHolder":"Nathan Yergler","copyrightYear":"2019","dateCreated":"2019-10-17T15:08:36\u002b00:00","datePublished":"2019-10-17T15:08:36\u002b00:00","dateModified":"2019-10-17T15:08:36\u002b00:00","url":"https:\/\/nyergler.github.io\/2019\/10\/17\/continuous-integration-with-codebuild-and-codepipeline\/","wordCount":"601","keywords":["aws","CI","testing"]}</script>
-<meta name=author content="Nathan Yergler">
-<link href=https://github.com/nyergler rel=me>
-<link href=https://instagram.com/nyergler rel=me>
-</head>
-<body class="flex flex-col h-screen px-6 m-auto text-lg leading-7 bg-neutral text-neutral-900 sm:px-14 md:px-24 lg:px-32 dark:bg-neutral-800 dark:text-neutral max-w-7xl"><header class="flex justify-between py-6 font-semibold sm:items-center sm:py-10 text-neutral-900 dark:text-neutral">
-<div>
-<a class="hover:underline hover:underline-primary-500 hover:underline-thickness-bold hover:underline-offset-small" rel=me href=/>Nathan R. Yergler</a>
-</div>
-<nav>
-<ul class="flex flex-col list-none sm:flex-row">
-<li class="mb-1 text-right sm:mb-0 sm:mr-7 sm:last:mr-0">
-<a class="hover:underline hover:underline-primary-500 hover:underline-thickness-bold hover:underline-offset-small" href=/about/ title="Oh hai.">Bio</a>
-</li>
-<li class="mb-1 text-right sm:mb-0 sm:mr-7 sm:last:mr-0">
-<a class="hover:underline hover:underline-primary-500 hover:underline-thickness-bold hover:underline-offset-small" href=/posts/ title=Posts>Blog</a>
-</li>
-<li class="mb-1 text-right sm:mb-0 sm:mr-7 sm:last:mr-0">
-<a class="hover:underline hover:underline-primary-500 hover:underline-thickness-bold hover:underline-offset-small" href=/prints/ title=Prints>Prints</a>
-</li>
-</ul>
-</nav>
-</header>
-<main class=flex-grow>
-<article class=max-w-prose>
-<header>
-<ol class="text-sm text-neutral-500 dark:text-neutral-400">
-<li class="inline hidden">
-<a class="hover:underline hover:underline-neutral-300 dark:underline-neutral-600" href=/>Nathan R. Yergler</a><span class="px-1 text-primary-500">/</span>
-</li>
-<li class=inline>
-<a class="hover:underline hover:underline-neutral-300 dark:underline-neutral-600" href=/posts/>Posts</a><span class="px-1 text-primary-500">/</span>
-</li>
-<li class="inline hidden">
-<a class="hover:underline hover:underline-neutral-300 dark:underline-neutral-600" href=/2019/10/17/continuous-integration-with-codebuild-and-codepipeline/>Continuous Integration with CodeBuild and CodePipeline</a><span class="px-1 text-primary-500">/</span>
-</li>
-</ol>
-<h1 class="mt-0 text-4xl font-extrabold text-neutral-900 dark:text-neutral">
-Continuous Integration with CodeBuild and CodePipeline
-</h1>
-<div class="mt-8 mb-12 text-base text-neutral-500 dark:text-neutral-400">
-<div class="flex flex-row items-center">
-<time datetime="2019-10-17 15:08:36 +0000 UTC">17 October 2019</time>
-</div>
-</div>
-</header>
-<section class="prose dark:prose-light">
-<p>Last week I started on a new project — venture, perhaps — which means I’m in the thick of figuring out all the things you take for granted when you join an established project. I’m trying to balance pragmatism and perfectionism: for example, I don’t need to scale to 1MM users yet (I probably don’t need to scale to 10 yet), so spinning up a Kubernetes cluster doesn’t make sense. <em>And</em>, I’m not an animal, so it’s not like I’m going to SSH into a machine and build it by hand. So I’m trying to look at it from the perspective of “what do we need for the next 3 months?”</p>
-<p>One of the questions was about CI/CD. I’ve previously used Travis and Circle CI, and they’re both fine. They work, they have the features you want, they have outages when you curse them, etc. As I was looking around, though, I came across the AWS offerings: the confusingly named Code Build and Code Pipeline. (There’s also a Code Deploy; who could say why you’d chose a Deploy over, say, a Pipeline?)</p>
-<p>It took me a while to figure out how the two are different, and how they work together. My present understanding is that Code Build provides “continuous integration”, and Code Pipeline provides “continuous delivery”. In my past experience these have been squished together into a single thing. Which is fine, except that they’re not <em>quite</em> the same thing.</p>
-<p>Continuous Integration (CI) ensures that your code builds, tests pass, etc whenever you make a change. In other words, it ensures that your change integrates with the existing code base.</p>
-<p>Continuous Delivery (CD) takes your code and gets it onto servers. This may involve deploying Docker containers, pushing Serverless code to Lambda, etc.</p>
-<p>In the Code Build / Code Pipeline world, the Build is defined in the source repository (much like the Circle or Travis configuration I’ve seen before), and the Pipeline is configured as infrastructure, outside of the code. I’m using <a href=https://terraform.io>Terraform</a>, which means I can also treat this as code, albeit in a different language.</p>
-<p>The Build is defined by a <a href=https://docs.aws.amazon.com/codebuild/latest/userguide/build-spec-ref.html><code>buildspec.yml</code></a> file, which defines commands to run for each phase. Unlike CircleCI, where you can define arbitrary steps, the phases are more rigid here: install, pre-build, build, post-build. The build spec also defines the artifacts that the build produces, and the artifacts are what downstream processes can consume.</p>
-<p>We’re only two weeks in, but one thing that I <em>liked</em> about CodeBuild is that the pricing required very little thought: you pay per minute, regardless of how many things you run. This is in contrast to CircleCI, where you have to think about parallelism: it’s free for one-at-a-time, but after that you pay per parallel build. More specifically, you pay per <em>potential</em> parallel build.</p>
-<p>In our case the Pipeline takes the artifact from Code Build, and deploys it to Elastic Beanstalk. I suspect Beanstalk is the first thing we’ll throw away infrastructure wise, but it’s nice for now: we’re able to configure an EC2 instance with everything running on it we need, and scale that up behind an ALB. Because we’re trying to describe all of our infrastructure with Terraform, the hardest part was getting it to use an ALB rather than a classic ELB. This required an <a href=https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/command-options-general.html>Option</a> to be defined in the Environment declaration:</p>
-<pre tabindex=0><code>  setting {
-    namespace = &quot;aws:elasticbeanstalk:environment&quot;
-    name      = &quot;LoadBalancerType&quot;
-    value     = &quot;application&quot;
+<!doctype html><html lang=en dir=ltr class=scroll-smooth data-default-appearance=light data-auto-appearance=true><head><meta charset=utf-8><meta http-equiv=content-language content="en"><meta name=viewport content="width=device-width,initial-scale=1"><meta http-equiv=x-ua-compatible content="ie=edge"><title>Continuous Integration with CodeBuild and CodePipeline &#183; Nathan R. Yergler</title><meta name=title content="Continuous Integration with CodeBuild and CodePipeline &#183; Nathan R. Yergler"><link rel=canonical href=https://nyergler.github.io/2019/10/17/continuous-integration-with-codebuild-and-codepipeline/><link type=text/css rel=stylesheet href=/css/main.bundle.min.4d2da63731ac126e967412ed7aaa2d40b7e38b35cc00d35806a38a80029398bbf11f9a2497dc4b25e4c0ec81f51ef144739684c1eeaf26ebc5cecb800ce8e1d0.css integrity="sha512-TS2mNzGsEm6WdBLteqotQLfjizXMANNYBqOKgAKTmLvxH5okl9xLJeTA7IH1HvFEc5aEwe6vJuvFzsuADOjh0A=="><script type=text/javascript src=/js/appearance.min.12e98742cd283574d030a7fe55f29597df4ee214f7ff7075b4d19a64d046a602753c715295550be7899b661619cec89c679049d36c624681671a8013c1249896.js integrity="sha512-EumHQs0oNXTQMKf+VfKVl99O4hT3/3B1tNGaZNBGpgJ1PHFSlVUL54mbZhYZzsicZ5BJ02xiRoFnGoATwSSYlg=="></script>
+<link rel=apple-touch-icon sizes=180x180 href=/apple-touch-icon.png><link rel=icon type=image/png sizes=32x32 href=/favicon-32x32.png><link rel=icon type=image/png sizes=16x16 href=/favicon-16x16.png><link rel=manifest href=/site.webmanifest><meta property="og:title" content="Continuous Integration with CodeBuild and CodePipeline"><meta property="og:description" content="Last week I started on a new project — venture, perhaps — which means I’m in the thick of figuring out all the things you take for granted when you join an established project."><meta property="og:type" content="article"><meta property="og:url" content="https://nyergler.github.io/2019/10/17/continuous-integration-with-codebuild-and-codepipeline/"><meta property="article:section" content="posts"><meta property="article:published_time" content="2019-10-17T15:08:36+00:00"><meta property="article:modified_time" content="2019-10-17T15:08:36+00:00"><meta name=twitter:card content="summary"><meta name=twitter:title content="Continuous Integration with CodeBuild and CodePipeline"><meta name=twitter:description content="Last week I started on a new project — venture, perhaps — which means I’m in the thick of figuring out all the things you take for granted when you join an established project."><script type=application/ld+json>[{"@context":"https://schema.org","@type":"Article","articleSection":"Posts","name":"Continuous Integration with CodeBuild and CodePipeline","headline":"Continuous Integration with CodeBuild and CodePipeline","abstract":"Last week I started on a new project — venture, perhaps — which means I’m in the thick of figuring out all the things you take for granted when you join an established project.","inLanguage":"en","url":"https:\/\/nyergler.github.io\/2019\/10\/17\/continuous-integration-with-codebuild-and-codepipeline\/","author":{"@type":"Person","name":"Nathan Yergler"},"copyrightYear":"2019","dateCreated":"2019-10-17T15:08:36\u002b00:00","datePublished":"2019-10-17T15:08:36\u002b00:00","dateModified":"2019-10-17T15:08:36\u002b00:00","keywords":["aws","CI","testing"],"mainEntityOfPage":"true","wordCount":"601"}]</script><meta name=author content="Nathan Yergler"><link href=https://github.com/nyergler rel=me><link href=https://instagram.com/nyergler rel=me></head><body class="flex flex-col h-screen px-6 m-auto text-lg leading-7 bg-neutral text-neutral-900 sm:px-14 md:px-24 lg:px-32 dark:bg-neutral-800 dark:text-neutral max-w-7xl"><div id=the-top class="absolute flex self-center"><a class="px-3 py-1 text-sm -translate-y-8 rounded-b-lg bg-primary-200 dark:bg-neutral-600 focus:translate-y-0" href=#main-content><span class="font-bold ltr:pr-2 rtl:pl-2 text-primary-600 dark:text-primary-400">&darr;</span>Skip to main content</a></div><header class="flex justify-between py-6 font-semibold sm:items-center sm:py-10 text-neutral-900 dark:text-neutral print:hidden"><div><a class="decoration-primary-500 hover:underline hover:decoration-2 hover:underline-offset-2" rel=me href=/>Nathan R. Yergler</a></div><nav><ul class="flex flex-col list-none sm:flex-row"><li class="mb-1 ltr:text-right rtl:text-left sm:mb-0 ltr:sm:mr-7 ltr:sm:last:mr-0 rtl:sm:ml-7 rtl:sm:last:ml-0"><a class="decoration-primary-500 hover:underline hover:decoration-2 hover:underline-offset-2" href=/about/ title="Oh hai.">Bio</a></li><li class="mb-1 ltr:text-right rtl:text-left sm:mb-0 ltr:sm:mr-7 ltr:sm:last:mr-0 rtl:sm:ml-7 rtl:sm:last:ml-0"><a class="decoration-primary-500 hover:underline hover:decoration-2 hover:underline-offset-2" href=/posts/ title=Posts>Blog</a></li><li class="mb-1 ltr:text-right rtl:text-left sm:mb-0 ltr:sm:mr-7 ltr:sm:last:mr-0 rtl:sm:ml-7 rtl:sm:last:ml-0"><a class="decoration-primary-500 hover:underline hover:decoration-2 hover:underline-offset-2" href=/prints/ title=Prints>Prints</a></li></ul></nav></header><div class="relative flex flex-col grow"><main id=main-content class=grow><article><header class=max-w-prose><ol class="text-sm text-neutral-500 dark:text-neutral-400 print:hidden"><li class="inline hidden"><a class="hover:underline decoration-neutral-300 dark:underline-neutral-600" href=/>Nathan R. Yergler</a><span class="px-1 text-primary-500">/</span></li><li class=inline><a class="hover:underline decoration-neutral-300 dark:underline-neutral-600" href=/posts/>Posts</a><span class="px-1 text-primary-500">/</span></li><li class="inline hidden"><a class="hover:underline decoration-neutral-300 dark:underline-neutral-600" href=/2019/10/17/continuous-integration-with-codebuild-and-codepipeline/>Continuous Integration with CodeBuild and CodePipeline</a><span class="px-1 text-primary-500">/</span></li></ol><h1 class="mt-0 text-4xl font-extrabold text-neutral-900 dark:text-neutral">Continuous Integration with CodeBuild and CodePipeline</h1><div class="mt-8 mb-12 text-base text-neutral-500 dark:text-neutral-400 print:hidden"><div class="flex flex-row flex-wrap items-center"><time datetime="2019-10-17 15:08:36 +0000 UTC">October 17, 2019</time></div></div></header><section class="flex flex-col max-w-full mt-0 prose lg:flex-row dark:prose-invert"><div class="min-w-0 min-h-0 max-w-prose"><p>Last week I started on a new project — venture, perhaps — which means I’m in the thick of figuring out all the things you take for granted when you join an established project. I’m trying to balance pragmatism and perfectionism: for example, I don’t need to scale to 1MM users yet (I probably don’t need to scale to 10 yet), so spinning up a Kubernetes cluster doesn’t make sense. <em>And</em>, I’m not an animal, so it’s not like I’m going to SSH into a machine and build it by hand. So I’m trying to look at it from the perspective of “what do we need for the next 3 months?”</p><p>One of the questions was about CI/CD. I’ve previously used Travis and Circle CI, and they’re both fine. They work, they have the features you want, they have outages when you curse them, etc. As I was looking around, though, I came across the AWS offerings: the confusingly named Code Build and Code Pipeline. (There’s also a Code Deploy; who could say why you’d chose a Deploy over, say, a Pipeline?)</p><p>It took me a while to figure out how the two are different, and how they work together. My present understanding is that Code Build provides “continuous integration”, and Code Pipeline provides “continuous delivery”. In my past experience these have been squished together into a single thing. Which is fine, except that they’re not <em>quite</em> the same thing.</p><p>Continuous Integration (CI) ensures that your code builds, tests pass, etc whenever you make a change. In other words, it ensures that your change integrates with the existing code base.</p><p>Continuous Delivery (CD) takes your code and gets it onto servers. This may involve deploying Docker containers, pushing Serverless code to Lambda, etc.</p><p>In the Code Build / Code Pipeline world, the Build is defined in the source repository (much like the Circle or Travis configuration I’ve seen before), and the Pipeline is configured as infrastructure, outside of the code. I’m using <a href=https://terraform.io>Terraform</a>, which means I can also treat this as code, albeit in a different language.</p><p>The Build is defined by a <a href=https://docs.aws.amazon.com/codebuild/latest/userguide/build-spec-ref.html><code>buildspec.yml</code></a> file, which defines commands to run for each phase. Unlike CircleCI, where you can define arbitrary steps, the phases are more rigid here: install, pre-build, build, post-build. The build spec also defines the artifacts that the build produces, and the artifacts are what downstream processes can consume.</p><p>We’re only two weeks in, but one thing that I <em>liked</em> about CodeBuild is that the pricing required very little thought: you pay per minute, regardless of how many things you run. This is in contrast to CircleCI, where you have to think about parallelism: it’s free for one-at-a-time, but after that you pay per parallel build. More specifically, you pay per <em>potential</em> parallel build.</p><p>In our case the Pipeline takes the artifact from Code Build, and deploys it to Elastic Beanstalk. I suspect Beanstalk is the first thing we’ll throw away infrastructure wise, but it’s nice for now: we’re able to configure an EC2 instance with everything running on it we need, and scale that up behind an ALB. Because we’re trying to describe all of our infrastructure with Terraform, the hardest part was getting it to use an ALB rather than a classic ELB. This required an <a href=https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/command-options-general.html>Option</a> to be defined in the Environment declaration:</p><pre tabindex=0><code>  setting {
+    namespace = &#34;aws:elasticbeanstalk:environment&#34;
+    name      = &#34;LoadBalancerType&#34;
+    value     = &#34;application&#34;
   }
-</code></pre><p>Overall I’m pretty happy with CodeBuild and CodePipeline. We’ve decided to re-evaluate early decisions in a month or so, and I’ll post an update about whether we stick with it then.</p>
-</section>
-<footer class=pt-8>
-<div class="pt-8 article-pagination">
-<hr class="border-dotted border-neutral-300 dark:border-neutral-600">
-<div class="flex justify-between pt-3">
-<span>
-<a class=flex href=/2019/11/11/using-ecr-images-with-elastic-beanstalk-and-codebuild/>
-<span class="mr-3 article-pagination-direction">&larr;</span>
-<span class="flex flex-col">
-<span class="article-pagination-title mt-[0.1rem] leading-6">
-Using ECR images with Elastic Beanstalk and CodeBuild</span>
-<span class="mt-[0.1rem] text-xs text-neutral-400 dark:text-neutral-500">
-<time datetime="2019-11-11 17:11:11 +0000 UTC">11 November 2019</time>
-</span>
-</span>
-</a>
-</span>
-<span>
-<a class="flex text-right" href=/2019/06/07/>
-<span class="flex flex-col">
-<span class="article-pagination-title mt-[0.1rem] leading-6">7 June 2019</span>
-<span class="mt-[0.1rem] text-xs text-neutral-400 dark:text-neutral-500">
-</span>
-</span>
-<span class="ml-3 article-pagination-direction">&rarr;</span>
-</a>
-</span>
-</div>
-</div>
-</footer>
-</article>
-</main><footer class=py-10>
-<nav class="pb-4 text-base font-medium text-neutral-500 dark:text-neutral-400">
-<ul class="flex flex-col list-none sm:flex-row">
-<li class="mb-1 sm:mb-0 sm:mr-7 sm:last:mr-0">
-<a class="hover:underline hover:underline-primary-500 hover:underline-thickness-bold hover:underline-offset-small" href=/tags/ title=Tags>Tags</a>
-</li>
-<li class="mb-1 sm:mb-0 sm:mr-7 sm:last:mr-0">
-<a class="hover:underline hover:underline-primary-500 hover:underline-thickness-bold hover:underline-offset-small" href=/categories/ title=Categories>Categories</a>
-</li>
-</ul>
-</nav>
-<div class="flex justify-between">
-<div>
-<p class="text-sm text-neutral-500 dark:text-neutral-400">
-&copy;
+</code></pre><p>Overall I’m pretty happy with CodeBuild and CodePipeline. We’ve decided to re-evaluate early decisions in a month or so, and I’ll post an update about whether we stick with it then.</p></div></section><footer class="pt-8 max-w-prose print:hidden"><div class=pt-8><hr class="border-dotted border-neutral-300 dark:border-neutral-600"><div class="flex justify-between pt-3"><span><a class="flex group" href=/2019/06/07/><span class="mr-3 ltr:inline rtl:hidden text-neutral-700 dark:text-neutral group-hover:text-primary-600 dark:group-hover:text-primary-400">&larr;</span>
+<span class="ml-3 ltr:hidden rtl:inline text-neutral-700 dark:text-neutral group-hover:text-primary-600 dark:group-hover:text-primary-400">&rarr;</span>
+<span class="flex flex-col"><span class="mt-[0.1rem] leading-6 group-hover:underline group-hover:decoration-primary-500"></span>
+<span class="mt-[0.1rem] text-xs text-neutral-500 dark:text-neutral-400"><time datetime="2019-06-07 13:54:46 +0000 UTC">June 7, 2019</time></span></span></a></span>
+<span><a class="flex text-right group" href=/2019/11/11/using-ecr-images-with-elastic-beanstalk-and-codebuild/><span class="flex flex-col"><span class="mt-[0.1rem] leading-6 group-hover:underline group-hover:decoration-primary-500">Using ECR images with Elastic Beanstalk and CodeBuild</span>
+<span class="mt-[0.1rem] text-xs text-neutral-500 dark:text-neutral-400"><time datetime="2019-11-11 17:11:11 +0000 UTC">November 11, 2019</time></span></span>
+<span class="ml-3 ltr:inline rtl:hidden text-neutral-700 dark:text-neutral group-hover:text-primary-600 dark:group-hover:text-primary-400">&rarr;</span>
+<span class="mr-3 ltr:hidden rtl:inline text-neutral-700 dark:text-neutral group-hover:text-primary-600 dark:group-hover:text-primary-400">&larr;</span></a></span></div></div></footer></article><div class="absolute top-[110vh] ltr:right-0 rtl:left-0 w-12 pointer-events-none bottom-0"><a href=#the-top class="w-12 h-12 sticky pointer-events-auto top-[calc(100vh-5.5rem)] bg-neutral/50 dark:bg-neutral-800/50 backdrop-blur rounded-full text-xl flex items-center justify-center text-neutral-700 dark:text-neutral hover:text-primary-600 dark:hover:text-primary-400" aria-label="Scroll to top" title="Scroll to top">&uarr;</a></div></main><footer class="py-10 print:hidden"><nav class="pb-4 text-base font-medium text-neutral-500 dark:text-neutral-400"><ul class="flex flex-col list-none sm:flex-row"><li class="mb-1 ltr:text-right rtl:text-left sm:mb-0 ltr:sm:mr-7 ltr:sm:last:mr-0 rtl:sm:ml-7 rtl:sm:last:ml-0"><a class="decoration-primary-500 hover:underline hover:decoration-2 hover:underline-offset-2" href=/tags/ title=Tags>Tags</a></li><li class="mb-1 ltr:text-right rtl:text-left sm:mb-0 ltr:sm:mr-7 ltr:sm:last:mr-0 rtl:sm:ml-7 rtl:sm:last:ml-0"><a class="decoration-primary-500 hover:underline hover:decoration-2 hover:underline-offset-2" href=/categories/ title=Categories>Categories</a></li></ul></nav><div class="flex justify-between"><div><p class="text-sm text-neutral-500 dark:text-neutral-400">&copy;
 2022
-Nathan Yergler
-</p>
-</div>
-</div>
-</footer>
-</body>
-</html>
+Nathan Yergler</p></div></div></footer></div></body></html>

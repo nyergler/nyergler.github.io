@@ -1,91 +1,13 @@
-<!doctype html><html lang=en><head>
-<meta charset=utf-8>
-<meta http-equiv=content-language content="en">
-<meta name=viewport content="width=device-width,initial-scale=1">
-<meta http-equiv=x-ua-compatible content="ie=edge">
-<title>Extending Create React App with Babel Macros &#183; Nathan R. Yergler</title>
-<meta name=title content="Extending Create React App with Babel Macros &#183; Nathan R. Yergler">
-<meta name=description content>
-<link rel=canonical href=https://nyergler.github.io/2020/06/26/customize-babel-configuration-with-macros/>
-<link type=text/css rel=stylesheet href=/css/schemes/ocean.min.ff17c50528c7a4a8a8bb8ec41272d63eb936ecefb9ccfa6db45cd1f5cd8b1becf8606745f751ee0d322ac80c9cb96e58aa699b38aa44cff9d2a8b3ff4f05a7b5.css integrity="sha512-/xfFBSjHpKiou47EEnLWPrk27O+5zPpttFzR9c2LG+z4YGdF91HuDTIqyAycuW5YqmmbOKpEz/nSqLP/TwWntQ==">
-<link type=text/css rel=stylesheet href=/css/compiled/main.min.84c4218572228cacf6182dc59fe08b5e1bcd599bb583bc56976aa0070f4cd8a4ff130ee2313074359bf6dba03b211e8c50df743d84ad551575fd0b9f849ec802.css integrity="sha512-hMQhhXIijKz2GC3Fn+CLXhvNWZu1g7xWl2qgBw9M2KT/Ew7iMTB0NZv226A7IR6MUN90PYStVRV1/QufhJ7IAg==">
-<script>function loadPreferredAppearance(){localStorage.preferredAppearance==="dark"||!("preferredAppearance"in localStorage)&&window.matchMedia("(prefers-color-scheme: dark)").matches?document.documentElement.classList.add("dark"):document.documentElement.classList.remove("dark")}function setPreferredAppearance(a){a=="default"?localStorage.removeItem("preferredAppearance"):localStorage.preferredAppearance=a,loadPreferredAppearance()}loadPreferredAppearance(),window.matchMedia("(prefers-color-scheme: dark)").addListener(loadPreferredAppearance)</script>
-<link rel=apple-touch-icon sizes=180x180 href=/apple-touch-icon.png>
-<link rel=icon type=image/png sizes=32x32 href=/favicon-32x32.png>
-<link rel=icon type=image/png sizes=16x16 href=/favicon-16x16.png>
-<link rel=manifest href=/site.webmanifest>
-<meta property="og:title" content="Extending Create React App with Babel Macros">
-<meta property="og:description" content="I have a co-dependent relationship with Create React App.">
-<meta property="og:type" content="article">
-<meta property="og:url" content="https://nyergler.github.io/2020/06/26/customize-babel-configuration-with-macros/"><meta property="article:section" content="posts">
-<meta property="article:published_time" content="2020-06-26T15:56:37+00:00">
-<meta property="article:modified_time" content="2020-06-26T15:56:37+00:00">
-<meta name=twitter:card content="summary">
-<meta name=twitter:title content="Extending Create React App with Babel Macros">
-<meta name=twitter:description content="I have a co-dependent relationship with Create React App.">
-<script type=application/ld+json>{"@context":"https://schema.org","@type":"BlogPosting","articleSection":"Posts","name":"Extending Create React App with Babel Macros","headline":"Extending Create React App with Babel Macros","description":"I have a co-dependent relationship with Create React App.","inLanguage":"en","author":{"@type":"Person","name":"Nathan Yergler"},"creator":{"@type":"Person","name":"Nathan Yergler"},"copyrightHolder":"Nathan Yergler","copyrightYear":"2020","dateCreated":"2020-06-26T15:56:37\u002b00:00","datePublished":"2020-06-26T15:56:37\u002b00:00","dateModified":"2020-06-26T15:56:37\u002b00:00","url":"https:\/\/nyergler.github.io\/2020\/06\/26\/customize-babel-configuration-with-macros\/","wordCount":"458","keywords":["frontend","react"]}</script>
-<meta name=author content="Nathan Yergler">
-<link href=https://github.com/nyergler rel=me>
-<link href=https://instagram.com/nyergler rel=me>
-</head>
-<body class="flex flex-col h-screen px-6 m-auto text-lg leading-7 bg-neutral text-neutral-900 sm:px-14 md:px-24 lg:px-32 dark:bg-neutral-800 dark:text-neutral max-w-7xl"><header class="flex justify-between py-6 font-semibold sm:items-center sm:py-10 text-neutral-900 dark:text-neutral">
-<div>
-<a class="hover:underline hover:underline-primary-500 hover:underline-thickness-bold hover:underline-offset-small" rel=me href=/>Nathan R. Yergler</a>
-</div>
-<nav>
-<ul class="flex flex-col list-none sm:flex-row">
-<li class="mb-1 text-right sm:mb-0 sm:mr-7 sm:last:mr-0">
-<a class="hover:underline hover:underline-primary-500 hover:underline-thickness-bold hover:underline-offset-small" href=/about/ title="Oh hai.">Bio</a>
-</li>
-<li class="mb-1 text-right sm:mb-0 sm:mr-7 sm:last:mr-0">
-<a class="hover:underline hover:underline-primary-500 hover:underline-thickness-bold hover:underline-offset-small" href=/posts/ title=Posts>Blog</a>
-</li>
-<li class="mb-1 text-right sm:mb-0 sm:mr-7 sm:last:mr-0">
-<a class="hover:underline hover:underline-primary-500 hover:underline-thickness-bold hover:underline-offset-small" href=/prints/ title=Prints>Prints</a>
-</li>
-</ul>
-</nav>
-</header>
-<main class=flex-grow>
-<article class=max-w-prose>
-<header>
-<ol class="text-sm text-neutral-500 dark:text-neutral-400">
-<li class="inline hidden">
-<a class="hover:underline hover:underline-neutral-300 dark:underline-neutral-600" href=/>Nathan R. Yergler</a><span class="px-1 text-primary-500">/</span>
-</li>
-<li class=inline>
-<a class="hover:underline hover:underline-neutral-300 dark:underline-neutral-600" href=/posts/>Posts</a><span class="px-1 text-primary-500">/</span>
-</li>
-<li class="inline hidden">
-<a class="hover:underline hover:underline-neutral-300 dark:underline-neutral-600" href=/2020/06/26/customize-babel-configuration-with-macros/>Extending Create React App with Babel Macros</a><span class="px-1 text-primary-500">/</span>
-</li>
-</ol>
-<h1 class="mt-0 text-4xl font-extrabold text-neutral-900 dark:text-neutral">
-Extending Create React App with Babel Macros
-</h1>
-<div class="mt-8 mb-12 text-base text-neutral-500 dark:text-neutral-400">
-<div class="flex flex-row items-center">
-<time datetime="2020-06-26 15:56:37 +0000 UTC">26 June 2020</time>
-</div>
-</div>
-</header>
-<section class="prose dark:prose-light">
-<p>I have a co-dependent relationship with <a aria-label="undefined (opens in a new tab)" href=https://create-react-app.dev/ target=_blank rel="noreferrer noopener">Create React App</a>. When we’re good, we’re really good. When I have an unmet need — when I want to customize some part of the build process — I do my best to make CRA work. And when it doesn’t, for whatever reason, I <a href=https://create-react-app.dev/docs/available-scripts#npm-run-eject>eject</a> and fall back to <a href=https://webpack.js.org/>Webpack</a>, <a href=https://babeljs.io/>Babel</a>, & friends, resentful that CRA has let me down. Recently, though, I discovered that you can customize Babel configuration in a Create React App projects without ejecting.</p>
-<p>Last month I was working on some shared React components and ran into this again: I wanted to use <a aria-label="undefined (opens in a new tab)" href=https://tailwindcss.com/ target=_blank rel="noreferrer noopener">Tailwind.css</a> — fine — but I also wanted to include it in the resulting Javascript files as CSS-in-JS<sup id=fnref:1><a href=#fn:1 class=footnote-ref role=doc-noteref>1</a></sup>. I initially despaired, thinking I’d have to <a href=https://create-react-app.dev/docs/available-scripts#npm-run-eject>eject</a> the components in order to customize the Babel configuration.</p>
-<p>And then I discovered <a href=https://babeljs.io/blog/2017/09/11/zero-config-with-babel-macros>Babel Macros</a>, which — lo and behold — are <a href=https://reactjs.org/blog/2018/10/01/create-react-app-v2.html>supported by CRA <em>since 2018</em></a><em>!</em></p>
-<p>Babel Macros are exactly what they sound like if you’re familiar with Lisp-y languages: they’re code that generates different code. In other words, they give you a functional interface to Babel’s transpiling capabilities. This allows you to write “normal” Javascript (or Typescript) code that CRA can process, but when that code is executed, it hooks into Babel’s runtime.</p>
-<p>For my Tailwind CSS-in-JS it looks like this.</p>
-<p>First, I tell Babel (and by extension CRA) that I want to enable macros, by adding <code>macros</code> to the list of plugins in my <code>.babelrc</code>:</p>
-<pre tabindex=0><code>{
-   &quot;presets&quot;: &amp;#91;&quot;@babel/env&quot;, &quot;@babel/react&quot;, &quot;@babel/typescript&quot;],
-   &quot;plugins&quot;: &amp;#91;
-     &quot;@babel/proposal-class-properties&quot;,
-     &quot;@babel/syntax-object-rest-spread&quot;,
-     &quot;macros&quot;
+<!doctype html><html lang=en dir=ltr class=scroll-smooth data-default-appearance=light data-auto-appearance=true><head><meta charset=utf-8><meta http-equiv=content-language content="en"><meta name=viewport content="width=device-width,initial-scale=1"><meta http-equiv=x-ua-compatible content="ie=edge"><title>Extending Create React App with Babel Macros &#183; Nathan R. Yergler</title><meta name=title content="Extending Create React App with Babel Macros &#183; Nathan R. Yergler"><link rel=canonical href=https://nyergler.github.io/2020/06/26/customize-babel-configuration-with-macros/><link type=text/css rel=stylesheet href=/css/main.bundle.min.4d2da63731ac126e967412ed7aaa2d40b7e38b35cc00d35806a38a80029398bbf11f9a2497dc4b25e4c0ec81f51ef144739684c1eeaf26ebc5cecb800ce8e1d0.css integrity="sha512-TS2mNzGsEm6WdBLteqotQLfjizXMANNYBqOKgAKTmLvxH5okl9xLJeTA7IH1HvFEc5aEwe6vJuvFzsuADOjh0A=="><script type=text/javascript src=/js/appearance.min.12e98742cd283574d030a7fe55f29597df4ee214f7ff7075b4d19a64d046a602753c715295550be7899b661619cec89c679049d36c624681671a8013c1249896.js integrity="sha512-EumHQs0oNXTQMKf+VfKVl99O4hT3/3B1tNGaZNBGpgJ1PHFSlVUL54mbZhYZzsicZ5BJ02xiRoFnGoATwSSYlg=="></script>
+<link rel=apple-touch-icon sizes=180x180 href=/apple-touch-icon.png><link rel=icon type=image/png sizes=32x32 href=/favicon-32x32.png><link rel=icon type=image/png sizes=16x16 href=/favicon-16x16.png><link rel=manifest href=/site.webmanifest><meta property="og:title" content="Extending Create React App with Babel Macros"><meta property="og:description" content="I have a co-dependent relationship with Create React App."><meta property="og:type" content="article"><meta property="og:url" content="https://nyergler.github.io/2020/06/26/customize-babel-configuration-with-macros/"><meta property="article:section" content="posts"><meta property="article:published_time" content="2020-06-26T15:56:37+00:00"><meta property="article:modified_time" content="2020-06-26T15:56:37+00:00"><meta name=twitter:card content="summary"><meta name=twitter:title content="Extending Create React App with Babel Macros"><meta name=twitter:description content="I have a co-dependent relationship with Create React App."><script type=application/ld+json>[{"@context":"https://schema.org","@type":"Article","articleSection":"Posts","name":"Extending Create React App with Babel Macros","headline":"Extending Create React App with Babel Macros","abstract":"I have a co-dependent relationship with Create React App.","inLanguage":"en","url":"https:\/\/nyergler.github.io\/2020\/06\/26\/customize-babel-configuration-with-macros\/","author":{"@type":"Person","name":"Nathan Yergler"},"copyrightYear":"2020","dateCreated":"2020-06-26T15:56:37\u002b00:00","datePublished":"2020-06-26T15:56:37\u002b00:00","dateModified":"2020-06-26T15:56:37\u002b00:00","keywords":["frontend","react"],"mainEntityOfPage":"true","wordCount":"458"}]</script><meta name=author content="Nathan Yergler"><link href=https://github.com/nyergler rel=me><link href=https://instagram.com/nyergler rel=me></head><body class="flex flex-col h-screen px-6 m-auto text-lg leading-7 bg-neutral text-neutral-900 sm:px-14 md:px-24 lg:px-32 dark:bg-neutral-800 dark:text-neutral max-w-7xl"><div id=the-top class="absolute flex self-center"><a class="px-3 py-1 text-sm -translate-y-8 rounded-b-lg bg-primary-200 dark:bg-neutral-600 focus:translate-y-0" href=#main-content><span class="font-bold ltr:pr-2 rtl:pl-2 text-primary-600 dark:text-primary-400">&darr;</span>Skip to main content</a></div><header class="flex justify-between py-6 font-semibold sm:items-center sm:py-10 text-neutral-900 dark:text-neutral print:hidden"><div><a class="decoration-primary-500 hover:underline hover:decoration-2 hover:underline-offset-2" rel=me href=/>Nathan R. Yergler</a></div><nav><ul class="flex flex-col list-none sm:flex-row"><li class="mb-1 ltr:text-right rtl:text-left sm:mb-0 ltr:sm:mr-7 ltr:sm:last:mr-0 rtl:sm:ml-7 rtl:sm:last:ml-0"><a class="decoration-primary-500 hover:underline hover:decoration-2 hover:underline-offset-2" href=/about/ title="Oh hai.">Bio</a></li><li class="mb-1 ltr:text-right rtl:text-left sm:mb-0 ltr:sm:mr-7 ltr:sm:last:mr-0 rtl:sm:ml-7 rtl:sm:last:ml-0"><a class="decoration-primary-500 hover:underline hover:decoration-2 hover:underline-offset-2" href=/posts/ title=Posts>Blog</a></li><li class="mb-1 ltr:text-right rtl:text-left sm:mb-0 ltr:sm:mr-7 ltr:sm:last:mr-0 rtl:sm:ml-7 rtl:sm:last:ml-0"><a class="decoration-primary-500 hover:underline hover:decoration-2 hover:underline-offset-2" href=/prints/ title=Prints>Prints</a></li></ul></nav></header><div class="relative flex flex-col grow"><main id=main-content class=grow><article><header class=max-w-prose><ol class="text-sm text-neutral-500 dark:text-neutral-400 print:hidden"><li class="inline hidden"><a class="hover:underline decoration-neutral-300 dark:underline-neutral-600" href=/>Nathan R. Yergler</a><span class="px-1 text-primary-500">/</span></li><li class=inline><a class="hover:underline decoration-neutral-300 dark:underline-neutral-600" href=/posts/>Posts</a><span class="px-1 text-primary-500">/</span></li><li class="inline hidden"><a class="hover:underline decoration-neutral-300 dark:underline-neutral-600" href=/2020/06/26/customize-babel-configuration-with-macros/>Extending Create React App with Babel Macros</a><span class="px-1 text-primary-500">/</span></li></ol><h1 class="mt-0 text-4xl font-extrabold text-neutral-900 dark:text-neutral">Extending Create React App with Babel Macros</h1><div class="mt-8 mb-12 text-base text-neutral-500 dark:text-neutral-400 print:hidden"><div class="flex flex-row flex-wrap items-center"><time datetime="2020-06-26 15:56:37 +0000 UTC">June 26, 2020</time></div></div></header><section class="flex flex-col max-w-full mt-0 prose lg:flex-row dark:prose-invert"><div class="min-w-0 min-h-0 max-w-prose"><p>I have a co-dependent relationship with <a aria-label="undefined (opens in a new tab)" href=https://create-react-app.dev/ target=_blank rel="noreferrer noopener">Create React App</a>. When we’re good, we’re really good. When I have an unmet need — when I want to customize some part of the build process — I do my best to make CRA work. And when it doesn’t, for whatever reason, I <a href=https://create-react-app.dev/docs/available-scripts#npm-run-eject>eject</a> and fall back to <a href=https://webpack.js.org/>Webpack</a>, <a href=https://babeljs.io/>Babel</a>, & friends, resentful that CRA has let me down. Recently, though, I discovered that you can customize Babel configuration in a Create React App projects without ejecting.</p><p>Last month I was working on some shared React components and ran into this again: I wanted to use <a aria-label="undefined (opens in a new tab)" href=https://tailwindcss.com/ target=_blank rel="noreferrer noopener">Tailwind.css</a> — fine — but I also wanted to include it in the resulting Javascript files as CSS-in-JS<sup id=fnref:1><a href=#fn:1 class=footnote-ref role=doc-noteref>1</a></sup>. I initially despaired, thinking I’d have to <a href=https://create-react-app.dev/docs/available-scripts#npm-run-eject>eject</a> the components in order to customize the Babel configuration.</p><p>And then I discovered <a href=https://babeljs.io/blog/2017/09/11/zero-config-with-babel-macros>Babel Macros</a>, which — lo and behold — are <a href=https://reactjs.org/blog/2018/10/01/create-react-app-v2.html>supported by CRA <em>since 2018</em></a><em>!</em></p><p>Babel Macros are exactly what they sound like if you’re familiar with Lisp-y languages: they’re code that generates different code. In other words, they give you a functional interface to Babel’s transpiling capabilities. This allows you to write “normal” Javascript (or Typescript) code that CRA can process, but when that code is executed, it hooks into Babel’s runtime.</p><p>For my Tailwind CSS-in-JS it looks like this.</p><p>First, I tell Babel (and by extension CRA) that I want to enable macros, by adding <code>macros</code> to the list of plugins in my <code>.babelrc</code>:</p><pre tabindex=0><code>{
+   &#34;presets&#34;: &amp;#91;&#34;@babel/env&#34;, &#34;@babel/react&#34;, &#34;@babel/typescript&#34;],
+   &#34;plugins&#34;: &amp;#91;
+     &#34;@babel/proposal-class-properties&#34;,
+     &#34;@babel/syntax-object-rest-spread&#34;,
+     &#34;macros&#34;
    ]
 }
-</code></pre><p>Then, when I want to use Tailwind-in-JS, I import the <a href=https://github.com/Arthie/tailwindcssinjs>macro</a> and use it to <a href=https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals>tag a string</a>.</p>
-<pre tabindex=0><code>import tw from &quot;@tailwindcssinjs/macro&quot;;
+</code></pre><p>Then, when I want to use Tailwind-in-JS, I import the <a href=https://github.com/Arthie/tailwindcssinjs>macro</a> and use it to <a href=https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals>tag a string</a>.</p><pre tabindex=0><code>import tw from &#34;@tailwindcssinjs/macro&#34;;
 
 ...
 
@@ -95,69 +17,13 @@ return (
       style={tw`font-normal text-sm text-gray-700`}
     &gt;...&lt;/div&gt;
 );
-</code></pre><p>Note that I’m setting what looks like the Tailwind class list as the <code>style</code> property of my element: that’s because <code>tw</code> is actually a function that utilizes Babel’s macro functionality to map the classes to their underlying CSS properties.</p>
-<p>With this small bit of configuration in place, running the CRA build script results in pure Javascript I can use in my downstream projects, including the necessary CSS.</p>
-<p>There are other advantages, too: someone reading this code can now “follow their nose” to figure out what’s going on. One of the most persistent problems I’ve encountered when approaching a large codebase is understanding how the source is built: where does a dependency come from? how is the code compiled? where — why!? — does a transformation happen? This component now answers those questions for me: the use of Babel (and the macro) is <strong>explicit</strong>.</p>
-<section class=footnotes role=doc-endnotes>
-<hr>
-<ol>
-<li id=fn:1 role=doc-endnote>
-<p>There’s probably another post here: getting shared components to work with external CSS has been a real pain for me.&#160;<a href=#fnref:1 class=footnote-backref role=doc-backlink>&#8617;&#xfe0e;</a></p>
-</li>
-</ol>
-</section>
-</section>
-<footer class=pt-8>
-<div class="pt-8 article-pagination">
-<hr class="border-dotted border-neutral-300 dark:border-neutral-600">
-<div class="flex justify-between pt-3">
-<span>
-<a class=flex href=/2020/06/27/art-is-work/>
-<span class="mr-3 article-pagination-direction">&larr;</span>
-<span class="flex flex-col">
-<span class="article-pagination-title mt-[0.1rem] leading-6">
-“Art is Work”</span>
-<span class="mt-[0.1rem] text-xs text-neutral-400 dark:text-neutral-500">
-<time datetime="2020-06-27 15:21:25 +0000 UTC">27 June 2020</time>
-</span>
-</span>
-</a>
-</span>
-<span>
-<a class="flex text-right" href=/2020/06/25/the-habit/>
-<span class="flex flex-col">
-<span class="article-pagination-title mt-[0.1rem] leading-6">The Habit</span>
-<span class="mt-[0.1rem] text-xs text-neutral-400 dark:text-neutral-500">
-<time datetime="2020-06-25 16:27:54 +0000 UTC">25 June 2020</time>
-</span>
-</span>
-<span class="ml-3 article-pagination-direction">&rarr;</span>
-</a>
-</span>
-</div>
-</div>
-</footer>
-</article>
-</main><footer class=py-10>
-<nav class="pb-4 text-base font-medium text-neutral-500 dark:text-neutral-400">
-<ul class="flex flex-col list-none sm:flex-row">
-<li class="mb-1 sm:mb-0 sm:mr-7 sm:last:mr-0">
-<a class="hover:underline hover:underline-primary-500 hover:underline-thickness-bold hover:underline-offset-small" href=/tags/ title=Tags>Tags</a>
-</li>
-<li class="mb-1 sm:mb-0 sm:mr-7 sm:last:mr-0">
-<a class="hover:underline hover:underline-primary-500 hover:underline-thickness-bold hover:underline-offset-small" href=/categories/ title=Categories>Categories</a>
-</li>
-</ul>
-</nav>
-<div class="flex justify-between">
-<div>
-<p class="text-sm text-neutral-500 dark:text-neutral-400">
-&copy;
+</code></pre><p>Note that I’m setting what looks like the Tailwind class list as the <code>style</code> property of my element: that’s because <code>tw</code> is actually a function that utilizes Babel’s macro functionality to map the classes to their underlying CSS properties.</p><p>With this small bit of configuration in place, running the CRA build script results in pure Javascript I can use in my downstream projects, including the necessary CSS.</p><p>There are other advantages, too: someone reading this code can now “follow their nose” to figure out what’s going on. One of the most persistent problems I’ve encountered when approaching a large codebase is understanding how the source is built: where does a dependency come from? how is the code compiled? where — why!? — does a transformation happen? This component now answers those questions for me: the use of Babel (and the macro) is <strong>explicit</strong>.</p><div class=footnotes role=doc-endnotes><hr><ol><li id=fn:1><p>There’s probably another post here: getting shared components to work with external CSS has been a real pain for me.&#160;<a href=#fnref:1 class=footnote-backref role=doc-backlink>&#8617;&#xfe0e;</a></p></li></ol></div></div></section><footer class="pt-8 max-w-prose print:hidden"><div class=pt-8><hr class="border-dotted border-neutral-300 dark:border-neutral-600"><div class="flex justify-between pt-3"><span><a class="flex group" href=/2020/06/25/the-habit/><span class="mr-3 ltr:inline rtl:hidden text-neutral-700 dark:text-neutral group-hover:text-primary-600 dark:group-hover:text-primary-400">&larr;</span>
+<span class="ml-3 ltr:hidden rtl:inline text-neutral-700 dark:text-neutral group-hover:text-primary-600 dark:group-hover:text-primary-400">&rarr;</span>
+<span class="flex flex-col"><span class="mt-[0.1rem] leading-6 group-hover:underline group-hover:decoration-primary-500">The Habit</span>
+<span class="mt-[0.1rem] text-xs text-neutral-500 dark:text-neutral-400"><time datetime="2020-06-25 16:27:54 +0000 UTC">June 25, 2020</time></span></span></a></span>
+<span><a class="flex text-right group" href=/2020/06/27/art-is-work/><span class="flex flex-col"><span class="mt-[0.1rem] leading-6 group-hover:underline group-hover:decoration-primary-500">“Art is Work”</span>
+<span class="mt-[0.1rem] text-xs text-neutral-500 dark:text-neutral-400"><time datetime="2020-06-27 15:21:25 +0000 UTC">June 27, 2020</time></span></span>
+<span class="ml-3 ltr:inline rtl:hidden text-neutral-700 dark:text-neutral group-hover:text-primary-600 dark:group-hover:text-primary-400">&rarr;</span>
+<span class="mr-3 ltr:hidden rtl:inline text-neutral-700 dark:text-neutral group-hover:text-primary-600 dark:group-hover:text-primary-400">&larr;</span></a></span></div></div></footer></article><div class="absolute top-[110vh] ltr:right-0 rtl:left-0 w-12 pointer-events-none bottom-0"><a href=#the-top class="w-12 h-12 sticky pointer-events-auto top-[calc(100vh-5.5rem)] bg-neutral/50 dark:bg-neutral-800/50 backdrop-blur rounded-full text-xl flex items-center justify-center text-neutral-700 dark:text-neutral hover:text-primary-600 dark:hover:text-primary-400" aria-label="Scroll to top" title="Scroll to top">&uarr;</a></div></main><footer class="py-10 print:hidden"><nav class="pb-4 text-base font-medium text-neutral-500 dark:text-neutral-400"><ul class="flex flex-col list-none sm:flex-row"><li class="mb-1 ltr:text-right rtl:text-left sm:mb-0 ltr:sm:mr-7 ltr:sm:last:mr-0 rtl:sm:ml-7 rtl:sm:last:ml-0"><a class="decoration-primary-500 hover:underline hover:decoration-2 hover:underline-offset-2" href=/tags/ title=Tags>Tags</a></li><li class="mb-1 ltr:text-right rtl:text-left sm:mb-0 ltr:sm:mr-7 ltr:sm:last:mr-0 rtl:sm:ml-7 rtl:sm:last:ml-0"><a class="decoration-primary-500 hover:underline hover:decoration-2 hover:underline-offset-2" href=/categories/ title=Categories>Categories</a></li></ul></nav><div class="flex justify-between"><div><p class="text-sm text-neutral-500 dark:text-neutral-400">&copy;
 2022
-Nathan Yergler
-</p>
-</div>
-</div>
-</footer>
-</body>
-</html>
+Nathan Yergler</p></div></div></footer></div></body></html>
