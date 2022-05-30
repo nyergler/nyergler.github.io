@@ -7,6 +7,3 @@ medium: linocut
 series:
   - Buildings
 ---
-
-{{< gallery dir="">}}
-
