@@ -3,4 +3,4 @@
   min = "0.91.2"
 
 [[imports]]
-path = "github.com/jpanther/congo"
+path = "github.com/jpanther/congo/v2"

@@ -14,6 +14,8 @@ enableRobotsTXT = true
 
 summaryLength = 0
 
+staticDir = ['static']
+
 [permalinks]
   posts = '/:year/:month/:day/:slug/'
   prints = '/prints/:year/:slug/'

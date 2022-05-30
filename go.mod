@@ -1,5 +1,7 @@
 module github.com/nyergler/nyergler
 
-go 1.17
+go 1.18
 
-require github.com/jpanther/congo v1.6.1 // indirect
+require (
+	github.com/jpanther/congo/v2 v2.2.1 // indirect
+)
