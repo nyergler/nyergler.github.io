@@ -18,7 +18,7 @@ simple regular expression). In either case it parses it and spits out the
 licensing and work information it finds.
 
 It still needs some work when it comes to parsing work description information,
-especially with sub-elements (like Agent&#8217;s). I’d also love to hear
+especially with sub-elements (like Agent's). I’d also love to hear
 suggestions for improving the output mechanism; it currently runs as a simple
 CGI, so the result page’s HTML is manually emitted with print statements. Any
 suggestions for making this work smarter?

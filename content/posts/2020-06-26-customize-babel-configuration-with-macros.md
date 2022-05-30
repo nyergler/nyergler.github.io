@@ -9,13 +9,13 @@ tags:
   - react
 ---
 
-I have a co-dependent relationship with <a aria-label="undefined (opens in a new tab)" href="https://create-react-app.dev/" target="_blank" rel="noreferrer noopener">Create React App</a>. When we&#8217;re good, we&#8217;re really good. When I have an unmet need &#8212; when I want to customize some part of the build process &#8212; I do my best to make CRA work. And when it doesn&#8217;t, for whatever reason, I [eject][1] and fall back to [Webpack][2], [Babel][3], & friends, resentful that CRA has let me down. Recently, though, I discovered that you can customize Babel configuration in a Create React App projects without ejecting.
+I have a co-dependent relationship with <a aria-label="undefined (opens in a new tab)" href="https://create-react-app.dev/" target="_blank" rel="noreferrer noopener">Create React App</a>. When we're good, we're really good. When I have an unmet need --- when I want to customize some part of the build process --- I do my best to make CRA work. And when it doesn't, for whatever reason, I [eject][1] and fall back to [Webpack][2], [Babel][3], & friends, resentful that CRA has let me down. Recently, though, I discovered that you can customize Babel configuration in a Create React App projects without ejecting.
 
-Last month I was working on some shared React components and ran into this again: I wanted to use <a aria-label="undefined (opens in a new tab)" href="https://tailwindcss.com/" target="_blank" rel="noreferrer noopener">Tailwind.css</a> &#8212; fine &#8212; but I also wanted to include it in the resulting Javascript files as CSS-in-JS[^11]. I initially despaired, thinking I&#8217;d have to [eject](https://create-react-app.dev/docs/available-scripts#npm-run-eject) the components in order to customize the Babel configuration.
+Last month I was working on some shared React components and ran into this again: I wanted to use <a aria-label="undefined (opens in a new tab)" href="https://tailwindcss.com/" target="_blank" rel="noreferrer noopener">Tailwind.css</a> --- fine --- but I also wanted to include it in the resulting Javascript files as CSS-in-JS[^11]. I initially despaired, thinking I'd have to [eject](https://create-react-app.dev/docs/available-scripts#npm-run-eject) the components in order to customize the Babel configuration.
 
-And then I discovered [Babel Macros][4], which &#8212; lo and behold &#8212; are [supported by CRA _since 2018_][5]_!_
+And then I discovered [Babel Macros][4], which --- lo and behold --- are [supported by CRA _since 2018_][5]_!_
 
-Babel Macros are exactly what they sound like if you&#8217;re familiar with Lisp-y languages: they&#8217;re code that generates different code. In other words, they give you a functional interface to Babel&#8217;s transpiling capabilities. This allows you to write &#8220;normal&#8221; Javascript (or Typescript) code that CRA can process, but when that code is executed, it hooks into Babel&#8217;s runtime.
+Babel Macros are exactly what they sound like if you're familiar with Lisp-y languages: they're code that generates different code. In other words, they give you a functional interface to Babel's transpiling capabilities. This allows you to write "normal" Javascript (or Typescript) code that CRA can process, but when that code is executed, it hooks into Babel's runtime.
 
 For my Tailwind CSS-in-JS it looks like this.
 
@@ -47,13 +47,13 @@ return (
 );
 ```
 
-Note that I&#8217;m setting what looks like the Tailwind class list as the `style` property of my element: that&#8217;s because `tw` is actually a function that utilizes Babel&#8217;s macro functionality to map the classes to their underlying CSS properties.
+Note that I'm setting what looks like the Tailwind class list as the `style` property of my element: that's because `tw` is actually a function that utilizes Babel's macro functionality to map the classes to their underlying CSS properties.
 
 With this small bit of configuration in place, running the CRA build script results in pure Javascript I can use in my downstream projects, including the necessary CSS.
 
-There are other advantages, too: someone reading this code can now &#8220;follow their nose&#8221; to figure out what&#8217;s going on. One of the most persistent problems I&#8217;ve encountered when approaching a large codebase is understanding how the source is built: where does a dependency come from? how is the code compiled? where &#8212; why!? &#8212; does a transformation happen? This component now answers those questions for me: the use of Babel (and the macro) is **explicit**.
+There are other advantages, too: someone reading this code can now "follow their nose" to figure out what's going on. One of the most persistent problems I've encountered when approaching a large codebase is understanding how the source is built: where does a dependency come from? how is the code compiled? where --- why!? --- does a transformation happen? This component now answers those questions for me: the use of Babel (and the macro) is **explicit**.
 
-[^11]:  There&#8217;s probably another post here: getting shared components to work with external CSS has been a real pain for me.
+[^11]:  There's probably another post here: getting shared components to work with external CSS has been a real pain for me.
 
 
  [1]: https://create-react-app.dev/docs/available-scripts#npm-run-eject

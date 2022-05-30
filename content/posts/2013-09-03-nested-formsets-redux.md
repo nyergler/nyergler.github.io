@@ -10,112 +10,161 @@ tags:
   - python
 slug: nested-formsets-redux
 ---
-It&#8217;s been nearly four years since I first wrote about [nested formsets][1] . When I wrote about nested formsets, I must have been using Django 1.1 (based on correlating dates in the [release notes][2]  and the original blog post), which means what I wrote has had four major releases of Django to drift out of date. And yet it&#8217;s still one of the most frequently visited posts on my blog, and one of the few that I receive email questions about. Four years later, it seemed like the time to revisit the original post to see if nested formsets still make sense and if so, what they look like now.
+It's been nearly four years since I first wrote about [nested formsets][1] .
+When I wrote about nested formsets, I must have been using Django 1.1 (based on
+correlating dates in the [release notes][2]  and the original blog post), which
+means what I wrote has had four major releases of Django to drift out of date.
+And yet it's still one of the most frequently visited posts on my blog, and one
+of the few that I receive email questions about. Four years later, it seemed
+like the time to revisit the original post to see if nested formsets still make
+sense and if so, what they look like now.
 
-[Formsets][3]  help manage the complexity of maintaining multiple instances of a [Form][4]  on a single page. For example, if you&#8217;re editing a list of items on a single page, each individual item may be a copy of the same form. Formsets help manage things like HTML ID generation, flagging forms for deletion, and validating the entire set of forms together. When used with [Models][5] , they allow you to edit the members of a [QuerySet][6]  all at once.
+[Formsets][3]  help manage the complexity of maintaining multiple instances of a
+[Form][4]  on a single page. For example, if you're editing a list of items on a
+single page, each individual item may be a copy of the same form. Formsets help
+manage things like HTML ID generation, flagging forms for deletion, and
+validating the entire set of forms together. When used with [Models][5] , they
+allow you to edit the members of a [QuerySet][6]  all at once.
 
-So what are nested formsets? The example I used previously was something along the lines of Block &#8211; Building &#8211; Tenant: one Block has many Buildings, and each Building has many Tenants. If you&#8217;re editing a Block, you want to see all the Buildings and all the Tenants at once. That&#8217;s a fine hypothetical, but one of the questions I get with some frequency is &#8220;what&#8217;s a good use case for a nested formset?&#8221; Four years later &#8212; two and a half of them spent doing web development full time &#8212; I have yet to encounter a situation where I needed a nested formset. In that time I&#8217;ve built some pretty complex forms, including Eventbrite&#8217;s [event creation flow][7] . That page was complex enough that I built [Form Groups][8]  to support the interaction, and I think the jury is still out on whether that was a good idea or not. It&#8217;s possible that there are use cases for nested formsets in admin-style applications that I haven&#8217;t encountered. I think it&#8217;s also possible that there are reasons to use a nested formset alongside a Javascript framework to ease the user experience.
+So what are nested formsets? The example I used previously was something along
+the lines of Block -- Building -- Tenant: one Block has many Buildings, and each
+Building has many Tenants. If you're editing a Block, you want to see all the
+Buildings and all the Tenants at once. That's a fine hypothetical, but one of
+the questions I get with some frequency is "what's a good use case for a nested
+formset?" Four years later --- two and a half of them spent doing web
+development full time --- I have yet to encounter a situation where I needed a
+nested formset. In that time I've built some pretty complex forms, including
+Eventbrite's [event creation flow][7] . That page was complex enough that I
+built [Form Groups][8]  to support the interaction, and I think the jury is
+still out on whether that was a good idea or not. It's possible that there are
+use cases for nested formsets in admin-style applications that I haven't
+encountered. I think it's also possible that there are reasons to use a nested
+formset alongside a Javascript framework to ease the user experience.
 
-Note that if you only have one level of relationships on the page (ie, you&#8217;re editing all the Tenants for a single Building in our example) then you don&#8217;t need nested formsets: Django&#8217;s [inline formsets][9]  will work just fine.
+Note that if you only have one level of relationships on the page (ie, you're
+editing all the Tenants for a single Building in our example) then you don't
+need nested formsets: Django's [inline formsets][9]  will work just fine.
 
-And why not nested form sets? From the questions people have asked and my experience building Form Groups (which borrowed some ideas), I&#8217;ve concluded that they&#8217;re difficult to get completely right, have edge cases that can be hard to manage, and create quite complicated user interfaces. In my original blog post I alluded to the fact that I spent most of a three day weekend trying to get the nested formsets to work right. Two thirds of that time was spent on work I eventually threw away, because I couldn&#8217;t manage the edge cases. It was only when I started using TDD that I managed to get something working. But I didn&#8217;t publish the tests with my previous code example, so no one else was able to benefit from that work.
+And why not nested form sets? From the questions people have asked and my
+experience building Form Groups (which borrowed some ideas), I've concluded that
+they're difficult to get completely right, have edge cases that can be hard to
+manage, and create quite complicated user interfaces. In my original blog post I
+alluded to the fact that I spent most of a three day weekend trying to get the
+nested formsets to work right. Two thirds of that time was spent on work I
+eventually threw away, because I couldn't manage the edge cases. It was only
+when I started using TDD that I managed to get something working. But I didn't
+publish the tests with my previous code example, so no one else was able to
+benefit from that work.
 
-If you&#8217;ve read this far and still think a nested formset is the best solution for your problem, what would that look like with Django 1.5? The answer is: simpler. I decided to rewrite my initial implementation using test driven development. The full implementation of the formset logic only overrides three methods from `BaseInlineFormSet`.
+If you've read this far and still think a nested formset is the best solution
+for your problem, what would that look like with Django 1.5? The answer is:
+simpler. I decided to rewrite my initial implementation using test driven
+development. The full implementation of the formset logic only overrides three
+methods from `BaseInlineFormSet`.
 
-<pre class="code python literal-block"><span class="kn">from</span> <span class="nn">django.forms.models</span> <span class="kn">import</span> <span class="p">(</span>
-    <span class="n">BaseInlineFormSet</span><span class="p">,</span>
-    <span class="n">inlineformset_factory</span><span class="p">,</span>
-<span class="p">)</span>
+```python
+from django.forms.models import (
+    BaseInlineFormSet,
+    inlineformset_factory,
+)
 
 
-<span class="k">class</span> <span class="nc">BaseNestedFormset</span><span class="p">(</span><span class="n">BaseInlineFormSet</span><span class="p">):</span>
+class BaseNestedFormset(BaseInlineFormSet):
+    def add_fields(self, form, index):
+        # allow the super class to create the fields as usual
+        super(BaseNestedFormset, self).add_fields(form, index)
 
-    <span class="k">def</span> <span class="nf">add_fields</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">form</span><span class="p">,</span> <span class="n">index</span><span class="p">):</span>
+        form.nested = self.nested_formset_class(
+            instance=form.instance,
+            data=form.data if self.is_bound else None,
+            prefix='%s-%s' % (
+                form.prefix,
+                self.nested_formset_class.get_default_prefix(),
+            ),
+        )
 
-        <span class="c1"># allow the super class to create the fields as usual</span>
-        <span class="nb">super</span><span class="p">(</span><span class="n">BaseNestedFormset</span><span class="p">,</span> <span class="bp">self</span><span class="p">)</span><span class="o">.</span><span class="n">add_fields</span><span class="p">(</span><span class="n">form</span><span class="p">,</span> <span class="n">index</span><span class="p">)</span>
+    def is_valid(self):
+        result = super(BaseNestedFormset, self).is_valid()
 
-        <span class="n">form</span><span class="o">.</span><span class="n">nested</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">nested_formset_class</span><span class="p">(</span>
-            <span class="n">instance</span><span class="o">=</span><span class="n">form</span><span class="o">.</span><span class="n">instance</span><span class="p">,</span>
-            <span class="n">data</span><span class="o">=</span><span class="n">form</span><span class="o">.</span><span class="n">data</span> <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">is_bound</span> <span class="k">else</span> <span class="bp">None</span><span class="p">,</span>
-            <span class="n">prefix</span><span class="o">=</span><span class="s1">'</span><span class="si">%s</span><span class="s1">-</span><span class="si">%s</span><span class="s1">'</span> <span class="o">%</span> <span class="p">(</span>
-                <span class="n">form</span><span class="o">.</span><span class="n">prefix</span><span class="p">,</span>
-                <span class="bp">self</span><span class="o">.</span><span class="n">nested_formset_class</span><span class="o">.</span><span class="n">get_default_prefix</span><span class="p">(),</span>
-            <span class="p">),</span>
-        <span class="p">)</span>
+        if self.is_bound:
+            # look at any nested formsets, as well
+            for form in self.forms:
+                result = result and form.nested.is_valid()
 
-    <span class="k">def</span> <span class="nf">is_valid</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        return result
 
-        <span class="n">result</span> <span class="o">=</span> <span class="nb">super</span><span class="p">(</span><span class="n">BaseNestedFormset</span><span class="p">,</span> <span class="bp">self</span><span class="p">)</span><span class="o">.</span><span class="n">is_valid</span><span class="p">()</span>
+    def save(self, commit=True):
+        result = super(BaseNestedFormset, self).save(commit=commit)
+        for form in self:
+            form.nested.save(commit=commit)
 
-        <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">is_bound</span><span class="p">:</span>
-            <span class="c1"># look at any nested formsets, as well</span>
-            <span class="k">for</span> <span class="n">form</span> <span class="ow">in</span> <span class="bp">self</span><span class="o">.</span><span class="n">forms</span><span class="p">:</span>
-                <span class="n">result</span> <span class="o">=</span> <span class="n">result</span> <span class="ow">and</span> <span class="n">form</span><span class="o">.</span><span class="n">nested</span><span class="o">.</span><span class="n">is_valid</span><span class="p">()</span>
+        return result
+```
 
-        <span class="k">return</span> <span class="n">result</span>
+These three method cover the four areas of functionality I called out in the
+[previous post][1] : validation (`is_valid`), saving (both existing and new
+objects are handled here by `save`), and instantiation (creating the nested
+formset instances, handled by `add_fields`).
 
-    <span class="k">def</span> <span class="nf">save</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">commit</span><span class="o">=</span><span class="bp">True</span><span class="p">):</span>
+By making it a general purpose baseclass, I'm also able to write a simple
+factory function, to make using it more in tune with Django's built-in model
+formset.
 
-        <span class="n">result</span> <span class="o">=</span> <span class="nb">super</span><span class="p">(</span><span class="n">BaseNestedFormset</span><span class="p">,</span> <span class="bp">self</span><span class="p">)</span><span class="o">.</span><span class="n">save</span><span class="p">(</span><span class="n">commit</span><span class="o">=</span><span class="n">commit</span><span class="p">)</span>
+```python
+def nested_formset_factory(parent_model, child_model, grandchild_model):
+    parent_child = inlineformset_factory(
+        parent_model,
+        child_model,
+        formset=BaseNestedFormset,
+    )
 
-        <span class="k">for</span> <span class="n">form</span> <span class="ow">in</span> <span class="bp">self</span><span class="p">:</span>
-            <span class="n">form</span><span class="o">.</span><span class="n">nested</span><span class="o">.</span><span class="n">save</span><span class="p">(</span><span class="n">commit</span><span class="o">=</span><span class="n">commit</span><span class="p">)</span>
+    parent_child.nested_formset_class = inlineformset_factory(
+        child_model,
+        grandchild_model,
+    )
 
-        <span class="k">return</span> <span class="n">result</span>
-</pre>
-
-These three method cover the four areas of functionality I called out in the [previous post][1] : validation (`is_valid`), saving (both existing and new objects are handled here by `save`), and instantiation (creating the nested formset instances, handled by `add_fields`).
-
-By making it a general purpose baseclass, I&#8217;m also able to write a simple factory function, to make using it more in tune with Django&#8217;s built-in model formset.
-
-<pre class="code python literal-block"><span class="k">def</span> <span class="nf">nested_formset_factory</span><span class="p">(</span><span class="n">parent_model</span><span class="p">,</span> <span class="n">child_model</span><span class="p">,</span> <span class="n">grandchild_model</span><span class="p">):</span>
-
-    <span class="n">parent_child</span> <span class="o">=</span> <span class="n">inlineformset_factory</span><span class="p">(</span>
-        <span class="n">parent_model</span><span class="p">,</span>
-        <span class="n">child_model</span><span class="p">,</span>
-        <span class="n">formset</span><span class="o">=</span><span class="n">BaseNestedFormset</span><span class="p">,</span>
-    <span class="p">)</span>
-
-    <span class="n">parent_child</span><span class="o">.</span><span class="n">nested_formset_class</span> <span class="o">=</span> <span class="n">inlineformset_factory</span><span class="p">(</span>
-        <span class="n">child_model</span><span class="p">,</span>
-        <span class="n">grandchild_model</span><span class="p">,</span>
-    <span class="p">)</span>
-
-    <span class="k">return</span> <span class="n">parent_child</span>
-</pre>
+    return parent_child
+```
 
 You can find the source to this [general purpose implementation on GitHub][10] . I wrote tests at each step as I worked on this, so it may be interesting to go back and look at individual commits, as well.
 
 So how would you use this in with Django 1.5? With a [class-based view][11] , of course.
 
-<pre class="code python literal-block"><span class="kn">from</span> <span class="nn">django.views.generic.edit</span> <span class="kn">import</span> <span class="n">UpdateView</span>
+```python
+from django.views.generic.edit import UpdateView
 
-<span class="k">class</span> <span class="nc">EditBuildingsView</span><span class="p">(</span><span class="n">UpdateView</span><span class="p">):</span>
-    <span class="n">model</span> <span class="o">=</span> <span class="n">models</span><span class="o">.</span><span class="n">Block</span>
+class EditBuildingsView(UpdateView):
+    model = models.Block
 
-    <span class="k">def</span> <span class="nf">get_template_names</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+    def get_template_names(self):
 
-        <span class="k">return</span> <span class="p">[</span><span class="s1">'blocks/building_form.html'</span><span class="p">]</span>
+        return ['blocks/building_form.html']
 
-    <span class="k">def</span> <span class="nf">get_form_class</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+    def get_form_class(self):
 
-        <span class="k">return</span> <span class="n">nested_formset_factory</span><span class="p">(</span>
-            <span class="n">models</span><span class="o">.</span><span class="n">Block</span><span class="p">,</span>
-            <span class="n">models</span><span class="o">.</span><span class="n">Building</span><span class="p">,</span>
-            <span class="n">models</span><span class="o">.</span><span class="n">Tenant</span><span class="p">,</span>
-        <span class="p">)</span>
+        return nested_formset_factory(
+            models.Block,
+            models.Building,
+            models.Tenant,
+        )
 
-    <span class="k">def</span> <span class="nf">get_success_url</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+    def get_success_url(self):
 
-        <span class="k">return</span> <span class="n">reverse</span><span class="p">(</span><span class="s1">'blocks-list'</span><span class="p">)</span>
-</pre>
+        return reverse('blocks-list')
+```
 
-Of course there&#8217;s more needed &#8212; templates, for one &#8212; but this shows just how easy it is to create the views and leverage a generic abstraction. The real keys here are specifying `model = models.Block` and the definition of `get_form_class`. Django&#8217;s [UpdateView][12]  knows how to implement the basic form processing idiom (GET</span>, POST, redirect), so all you need to do is tell it which form to use.
+Of course there's more needed --- templates, for one --- but this shows just how
+easy it is to create the views and leverage a generic abstraction. The real keys
+here are specifying `model = models.Block` and the definition of
+`get_form_class`. Django's [UpdateView][12]  knows how to implement the basic
+form processing idiom (`GET`, `POST`, redirect), so all you need to do is
+tell it which form to use.
 
-You can find a functional, albeit ugly, demo application in the `demo` directory of the [git repository][10] .
+You can find a functional, albeit ugly, demo application in the `demo` directory
+of the [git repository][10] .
 
-So that&#8217;s it: a general purpose, updated implementation of nested formsets. I advise using them sparingly :).
+So that's it: a general purpose, updated implementation of nested formsets. I
+advise using them sparingly :).
 
 
 

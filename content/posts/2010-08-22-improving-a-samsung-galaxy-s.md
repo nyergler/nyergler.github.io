@@ -37,7 +37,7 @@ Ridiculous, yes, but that _is_ what I did yesterday afternoon. Of course, I wipe
 
 So far everything seems to be working fine. The lag fix, in particular, makes the phone seem to live up to its promise. According to [the xda forums][3] , it would appear that the issue has to do with the filesystem Samsung is using for the internal storage, RFS. In particular the fact that it doesn’t do write buffering. The fix creates an EXT-2 formatted loopback device and moves much of the important bits onto it. With all the caveats about benchmarks, [Quadrant][4]  showed nearly a 3 times improvement in performance, and it feels like it, too.
 
-Thanks to [&#64;GalaxySsupport][1]  for suggesting I wipe the phone: it was indeed the first step to massive improvements. And while I may no longer have a warranty, I now have a phone that works great.
+Thanks to [@GalaxySsupport][1]  for suggesting I wipe the phone: it was indeed the first step to massive improvements. And while I may no longer have a warranty, I now have a phone that works great.
 
 ---
 

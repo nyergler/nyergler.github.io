@@ -51,4 +51,4 @@ Thanks for all the suggestions and trouble reports; try it out and let me know w
  [1]: http://www.yergler.net/projects/ccvalidator
  [2]: http://www.quixote.ca
  [3]: http://lists.ibiblio.org/mailman/listinfo/cc-metadata
- [4]: mailto:nathan&#64;yergler.net
+ [4]: mailto:nathan@yergler.net

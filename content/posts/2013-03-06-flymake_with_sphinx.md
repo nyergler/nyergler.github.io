@@ -9,23 +9,25 @@ tags:
   - none
 slug: flymake_with_sphinx
 ---
-Working on my [PyCon tutorial][1]  (next week!), I&#8217;ve been spending a _lot_ of time in Emacs editing [reStructured Text][2]  documents. I use [Sphinx][3]  and [Hieroglyph][4]  to generate the HTML, the slides, and the PDF from a single source, which make it easy for me to keep everything in sync. [flymake][5]  is an Emacs mode that&#8217;s designed to do syntax or spell checking as you work. The name reveals its roots: in its simplest form, it just runs `make` for your project.
+Working on my [PyCon tutorial][1]  (next week!), I've been spending a _lot_ of time in Emacs editing [reStructured Text][2]  documents. I use [Sphinx][3]  and [Hieroglyph][4]  to generate the HTML, the slides, and the PDF from a single source, which make it easy for me to keep everything in sync. [flymake][5]  is an Emacs mode that's designed to do syntax or spell checking as you work. The name reveals its roots: in its simplest form, it just runs `make` for your project.
 
 I was tired of flipping over to the shell to re-build the Sphinx project, so I decided to enable flymake for `.rst` files and see what happened. The `flymake-allowed-file-name-masks` variable has a list of regular expressions to flymake commands, so I added the following element to the list:
 
-<pre class="literal-block">("\\.rst\\'" flymake-simple-make-init)
-</pre>
+```elisp
+("\\.rst\\'" flymake-simple-make-init)
+```
 
 That was enough to get flymake to invoke the Makefile, and then I just needed to add the target it looks for: `check-syntax`. I added the following target to my Sphinx project Makefile:
 
-<pre class="literal-block">check-syntax:
+```makefile
+check-syntax:
         $(SPHINXBUILD) -n -N -q -b html $(ALLSPHINXOPTS) $(BUILDDIR)/
         $(SPHINXBUILD) -n -N -q -b slides $(ALLSPHINXOPTS) $(BUILDDIR)/slides
-</pre>
+```
 
-In my case I&#8217;m building both HTML and Slides from the Sphinx project, and I wanted both to be updated when I changed a file in Emacs. That did it.
+In my case I'm building both HTML and Slides from the Sphinx project, and I wanted both to be updated when I changed a file in Emacs. That did it.
 
-Now all I _wanted_ was automagic execution of `make`, but to my pleasant surprise, Sphinx&#8217;s warning and error output is compatible with flymake by default. Suddenly Emacs highlighted missing [targets][6]  and directives with missing arguments in red. With [flymake-cursor][7]  enabled, moving my cursor over one of those red lines showed me the Sphinx error below the mode-line.
+Now all I _wanted_ was automagic execution of `make`, but to my pleasant surprise, Sphinx's warning and error output is compatible with flymake by default. Suddenly Emacs highlighted missing [targets][6]  and directives with missing arguments in red. With [flymake-cursor][7]  enabled, moving my cursor over one of those red lines showed me the Sphinx error below the mode-line.
 
 There you have it: Sphinx just works with Emacs and flymake, you just need to turn it on.
 

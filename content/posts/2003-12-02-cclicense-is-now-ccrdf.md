@@ -10,7 +10,7 @@ First, where to find it. I’ve put up a very simple page for it [here][4] . You
 
 Second, expectations. I hacked the code together this afternoon, so there may be omissions or bugs. I’ve done some simple testing, but it hasn’t undergone any extensive testing. At all. I’m planning to port ccValidator over to it in the very near future, which I believe will help expose flaws in the design and bugs in the code.
 
-So download, code, enjoy, and as always, feedback, criticism, and bug reports are welcome. You can e-mail them to <ccrdf&#64;yergler.net>  if they’re ccRdf specific.
+So download, code, enjoy, and as always, feedback, criticism, and bug reports are welcome. You can e-mail them to <ccrdf@yergler.net>  if they’re ccRdf specific.
 
 
  [1]: http://yergler.net/projects/ccvalidator

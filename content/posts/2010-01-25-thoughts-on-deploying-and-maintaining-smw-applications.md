@@ -51,7 +51,7 @@ We brainstormed a solution with the following features:
 
 <ol class="arabic simple">
   <li>
-    <strong>An &#8220;Application&#8220; namespace:</strong> just as Forms, Filters, and Templates have their own namespace, an Application namespace would be used to define groups of pages that work together.
+    <strong>An "Application" namespace:</strong> just as Forms, Filters, and Templates have their own namespace, an Application namespace would be used to define groups of pages that work together.
   </li>
   <li>
     <strong>Individual Application Pages</strong>, each one defining an Application in terms of Components. In our early thinking, a Component could be a Form, a Template, a Filter, or a Category; in the latter case, only the SMW-related aspects of the Category would be included in the Application (ie, not any pages in the Category, on the assumption that they contain instance-specific data).

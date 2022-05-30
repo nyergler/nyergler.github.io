@@ -25,7 +25,7 @@ In the bug-fix category:
   <img alt="" src="http://yergler.net/blog/images/includelicensebadge.png" />
 
   <p class="caption">
-    The new &#8220;Include license badge&#8221; option in wpLicense.
+    The new "Include license badge" option in wpLicense.
   </p>
 </div>
 

@@ -13,7 +13,7 @@ tags:
 slug: nested-formsets-with-django
 ---
 <p class="update">
-  I&#8217;ve published an <a class="reference external" href="http://yergler.net/blog/2013/09/03/nested-formsets-redux/">updated post</a> about nested formsets, along with an generic implementation and demo application on <a class="reference external" href="https://github.com/nyergler/nested-formset">GitHub</a>.
+  I've published an <a class="reference external" href="http://yergler.net/blog/2013/09/03/nested-formsets-redux/">updated post</a> about nested formsets, along with an generic implementation and demo application on <a class="reference external" href="https://github.com/nyergler/nested-formset">GitHub</a>.
 </p>
 
 I spent Labor Day weekend in New York City working on a side project with [Alex][1] . The project is coming together (albeit slowly, sometimes), and there have been a few interesting technical challenges. Labor Day weekend I was building an interface for editing data on the site. The particular feature I’m working on uses a multi-level data model; an example of this kind of model would be modeling City Blocks, where each Block has one or more Buildings, and each Building has one or more Tenants. Using this as an example, I was building the City Block editor.
@@ -50,7 +50,7 @@ TenantFormset = inlineformset_factory(models.Building, models.Tenant, extra=1)
 
 Note that inlineformset_factory not only creates the Formset class, but it also create the [ModelForm][7]  for the model (`models.Tenant` in this example).
 
-The &#8220;host&#8221; formset which contains the nested one — `BuildingFormset` in our example — requires some additional work. There are a few cases that need to be handled:
+The "host" formset which contains the nested one — `BuildingFormset` in our example — requires some additional work. There are a few cases that need to be handled:
 
 <ol class="arabic simple">
   <li>
@@ -60,7 +60,7 @@ The &#8220;host&#8221; formset which contains the nested one — `BuildingFormse
     <strong>Saving existing data</strong> — When saving an item, changes to the items in the nested formset also need to be saved.
   </li>
   <li>
-    <strong>Saving new parent objects</strong> — If the user adds &#8220;parent&#8221; data as well as sub-items (so adding a Building, along with Tenants), the nested form won’t have a reference back to the parent unless we add it ourselves.
+    <strong>Saving new parent objects</strong> — If the user adds "parent" data as well as sub-items (so adding a Building, along with Tenants), the nested form won’t have a reference back to the parent unless we add it ourselves.
   </li>
   <li>
     Finally, the very basic issue of creating the nested formset instance for each parent form.

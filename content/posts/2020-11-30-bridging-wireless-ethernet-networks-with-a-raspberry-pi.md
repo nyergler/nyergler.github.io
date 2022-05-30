@@ -14,7 +14,7 @@ slug: bridging-wireless-ethernet-networks-with-a-raspberry-pi
 We recently acquired a second hand Dell laser printer, which was timely: our
 inkjet printer is a little long in the tooth, and is starting to require more
 frequent head cleaning and nozzle alignment, both of which use that liquid gold
-we call &#8220;ink&#8221;.
+we call "ink".
 
 Unfortunately, the laser printer only supported ethernet out of the box, and
 while a wireless adapter _was_ available, it was retailing for over $150.
@@ -23,22 +23,22 @@ turn into a working solution.
 
 There are plenty of posts out there talking about bridging networks with
 Raspberry Pi and Linux, but most of them seemed to either [assume I care about
-systemd][2] (I don&#8217;t), [want to deal with static IP addresses][3] (I
-don&#8217;t), or [want to bridge two ethernet networks][4] (I don&#8217;t). So
-here&#8217;s what worked for me.
+systemd][2] (I don't), [want to deal with static IP addresses][3] (I
+don't), or [want to bridge two ethernet networks][4] (I don't). So
+here's what worked for me.
 
 There were two inflection points in getting this to work: the first was
-understanding that I don&#8217;t _really_ want a Bridge: I want an ARP[^*]
-Proxy. What&#8217;s the difference? Simply put: a Proxy can inspect and modify
+understanding that I don't _really_ want a Bridge: I want an ARP[^*]
+Proxy. What's the difference? Simply put: a Proxy can inspect and modify
 traffic going through it, while a Bridge does not. Why do we care about that?
 Because wireless access points are fickle creatures, and will often discard
-traffic originating from a host they don&#8217;t know about. Additionally, there
+traffic originating from a host they don't know about. Additionally, there
 are restrictions built into the bridge utilities that prevent you from doing a
-direct bridge from ethernet to wireless. By running a proxy, we&#8217;re able to
-make the bridged traffic (from our printer) appear as if it&#8217;s originating
+direct bridge from ethernet to wireless. By running a proxy, we're able to
+make the bridged traffic (from our printer) appear as if it's originating
 from the Raspberry Pi, which the access point _definitely_ knows about.
 
-I knew that DHCP would be involved if I didn&#8217;t want to deal with static IP
+I knew that DHCP would be involved if I didn't want to deal with static IP
 addresses. The second inflection point was realizing that in order to make that
 work, and to make it transparent-ish from either side of the bridge, I needed to
 make sure the ethernet (eth0) and wireless (wlan0) ports had the same IP
@@ -46,9 +46,9 @@ address. More on how in a moment.
 
 Here are the steps I followed, largely based on the [Debian wiki][5]:
 
-1. Configure your Raspberry Pi with Raspbian and connect it to your wireless network. Getting this out of the way first will configure WPA supplicant, which is responsible for managing the wireless authentication and pre-shared keys. If you&#8217;re interested, `/etc/wpa_supplicant/wpa_supplicant.conf` will hold your configuration after you&#8217;re connected.
+1. Configure your Raspberry Pi with Raspbian and connect it to your wireless network. Getting this out of the way first will configure WPA supplicant, which is responsible for managing the wireless authentication and pre-shared keys. If you're interested, `/etc/wpa_supplicant/wpa_supplicant.conf` will hold your configuration after you're connected.
 
-2. Install the proxy daemon and helpers we&#8217;re going to use: `parprouted` and `dhcp-helper`
+2. Install the proxy daemon and helpers we're going to use: `parprouted` and `dhcp-helper`
 
 
 <pre class="wp-block-code"><code>$ sudo apt-get install parprouted dhcp-helper</code></pre>
@@ -63,8 +63,8 @@ Here are the steps I followed, largely based on the [Debian wiki][5]:
     ```
 
 4. Configure mDNS: when your printer magically appears in the Add Printer list,
-   that&#8217;s mDNS at work. And we definitely want it to just show up,
-   otherwise we&#8217;ll be back in static IP land. To do this, we need to
+   that's mDNS at work. And we definitely want it to just show up,
+   otherwise we'll be back in static IP land. To do this, we need to
    reflect messages from one network to the other. Luckily, Avahi, the Linux
    mDNS implementation installed with Raspbian, makes this a one-line change.
 
@@ -77,7 +77,7 @@ Here are the steps I followed, largely based on the [Debian wiki][5]:
 
 5. Configure your network interfaces
 
-    While we&#8217;re most interested in our ethernet (eth0) and wireless
+    While we're most interested in our ethernet (eth0) and wireless
     (wlan0) interfaces, there are actually three interfaces for us to configure:
     loopback, ethernet, and wireless. I created a file for each in the
     `/etc/network/interfaces.d/` directory.

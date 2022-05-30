@@ -11,7 +11,7 @@ So this year Pride is moving to Headwaters Park East, the largest park in urban 
 
 I was confronted with what can only be described as a crap-pile of images. “Huh, there seems to be a schedule here,” I thought, “maybe I can figure it out.” And then I started noticing inconsistencies: is 12:15 on Saturday “Between the Rooms” or “Lawn Chair Rodeo” ? So I looked at the source, and there it was:
 
-> <meta name=Generator content=&#8221;Microsoft Word 11&#8221;>
+> <meta name=Generator content="Microsoft Word 11">
 
 So my general message is:
 

@@ -13,9 +13,9 @@ slug: upgrading-wordpress
 ---
 [WordPress 2.6.1][1]  is out. Reading feeds on my flight from IND to PHX this afternoon I ran across the [WordPress Automatic Upgrade Plugin][2]  (shouldn’t that be the _Automattic_?). Nice, but I’d like to plug my approach to managing WordPress upgrades, which I think is even easier, assuming you’re OK with minimal command-line interaction.
 
-First, install WordPress from a Subversion checkout; do: &#8220; $ svn co <http://svn.automattic.com/wordpress/tags/2.6> /&#8220; instead of downloading the .zip or .tar.gz file. Configure as directed.
+First, install WordPress from a Subversion checkout; do: " $ svn co <http://svn.automattic.com/wordpress/tags/2.6> /" instead of downloading the .zip or .tar.gz file. Configure as directed.
 
-Then, when a new version is available, log into your webhost and run: &#8220; $ svn switch <http://svn.automattic.com/wordpress/tags/2.6.1> /&#8220; from your install directory.
+Then, when a new version is available, log into your webhost and run: " $ svn switch <http://svn.automattic.com/wordpress/tags/2.6.1> /" from your install directory.
 
 Done.
 

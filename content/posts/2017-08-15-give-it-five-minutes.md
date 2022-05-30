@@ -8,8 +8,8 @@ kind:
   - Note
 slug: give-it-five-minutes
 ---
-&#8220;Learning to think first rather than react quick is a life long pursuit. It’s tough. I still get hot sometimes when I shouldn’t. But I’m really enjoying all the benefits of getting better.&#8221;
+"Learning to think first rather than react quick is a life long pursuit. It’s
+tough. I still get hot sometimes when I shouldn’t. But I’m really enjoying all
+the benefits of getting better."
 
-&#8212; Jason Fried, [Give it five minutes][1]
-
- [1]: https://signalvnoise.com/posts/3124-give-it-five-minutes
+--- Jason Fried, [Give it five minutes](https://signalvnoise.com/posts/3124-give-it-five-minutes)

@@ -8,13 +8,41 @@ tags:
   - CI
   - startup
 ---
-As I mentioned [previously][1], I&#8217;ve been using CodePipeline and CodeBuild for continuous integration and delivery on a new project. For the most part I&#8217;ve been happy with it, but ran into an issue last week that took some experimenting to figure out.
 
-In addition to CodePipeline and CodeBuild, we&#8217;re also using [Elastic Beanstalk][2] for deploying our application. I first experimented with Elastic Beanstalk when it was released, and at the time it had quite a few opinions about how to build an application. When I took another look a few months ago, though, I found that it has grown up considerably. The default model is still dumping your code on an EC2 host and managing the autoscaling group, but it also supports deploying arbitrary Docker images &#8212; both single images and ECS clusters. The [ability to use CodeBuild with Elastic Beanstalk][3] means you can utilize the same CI pipeline regardless of whether you&#8217;re deploying as the result of a web hook or as a one off from the command line.
+As I mentioned [previously][1], I've been using CodePipeline and CodeBuild for
+continuous integration and delivery on a new project. For the most part I've
+been happy with it, but ran into an issue last week that took some experimenting
+to figure out.
 
-This was working great until we started using a custom Docker image, hosted in the Elastic Container Registry (ECR), for our CodeBuild jobs. When we moved to that image, one-off builds broke with an error indicating CodeBuild couldn&#8217;t pull the Docker image from ECR (&#8220;Perhaps you need to login?&#8221; The error message helpfully suggested. Yes, perhaps.) This was pretty confusing, since I was able to confirm that both one-off and pipeline builds were using the same IAM Role, which had permission to fetch images from ECR (and was working from the pipeline). The AWS documentation iterates [the permissions you need in order to use ECR with CodeBuild][4], and indeed, that role had the proper permissions assigned.
+In addition to CodePipeline and CodeBuild, we're also using [Elastic
+Beanstalk][2] for deploying our application. I first experimented with Elastic
+Beanstalk when it was released, and at the time it had quite a few opinions
+about how to build an application. When I took another look a few months ago,
+though, I found that it has grown up considerably. The default model is still
+dumping your code on an EC2 host and managing the autoscaling group, but it also
+supports deploying arbitrary Docker images --- both single images and ECS
+clusters. The [ability to use CodeBuild with Elastic Beanstalk][3] means you can
+utilize the same CI pipeline regardless of whether you're deploying as the
+result of a web hook or as a one off from the command line.
 
-As I experimented, though, I discovered that the issue was not the CodeBuild role, but rather the [ECR Repository Policy][5]. When executing CodeBuild as the result of `eb deploy`, the ECR repository must be configured to allow image pulls from the CodeBuild service. I suspect this is because `eb deploy` doesn&#8217;t execute as your existing CodeBuild project: it creates a new one with the source and output set to S3, runs the build, and tears it down after collecting the artifacts.
+This was working great until we started using a custom Docker image, hosted in
+the Elastic Container Registry (ECR), for our CodeBuild jobs. When we moved to
+that image, one-off builds broke with an error indicating CodeBuild couldn't
+pull the Docker image from ECR ("Perhaps you need to login?" The
+error message helpfully suggested. Yes, perhaps.) This was pretty confusing,
+since I was able to confirm that both one-off and pipeline builds were using the
+same IAM Role, which had permission to fetch images from ECR (and was working
+from the pipeline). The AWS documentation iterates [the permissions you need in
+order to use ECR with CodeBuild][4], and indeed, that role had the proper
+permissions assigned.
+
+As I experimented, though, I discovered that the issue was not the CodeBuild
+role, but rather the [ECR Repository Policy][5]. When executing CodeBuild as the
+result of `eb deploy`, the ECR repository must be configured to allow image
+pulls from the CodeBuild service. I suspect this is because `eb deploy` doesn't
+execute as your existing CodeBuild project: it creates a new one with the source
+and output set to S3, runs the build, and tears it down after collecting the
+artifacts.
 
 I was able to apply the policy with the following Terraform fragment:
 

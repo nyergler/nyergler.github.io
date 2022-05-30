@@ -6,6 +6,13 @@ categories:
 format: link
 slug: lets-talk-about-pickle-rick
 ---
-> Yes, we no doubt live in a world where a lack of intelligence and a lack of awareness (self or otherwise) fail us at every turn. But intelligence is far from the savior of the basic emotional truths at the heart of the human psyche. Our inability to grasp our own capacity for fear, anger, disgust, sadness and joy is what so easily mars the engine of our selfhood. For the biggest truth always rests in our hearts and bodies. There is no outsmarting it. There is no outrunning it. And yet, we&#8217;d rather turn ourselves into pickles instead of facing the obvious darkness in our hearts.
+> Yes, we no doubt live in a world where a lack of intelligence and a lack of
+> awareness (self or otherwise) fail us at every turn. But intelligence is far
+> from the savior of the basic emotional truths at the heart of the human
+> psyche. Our inability to grasp our own capacity for fear, anger, disgust,
+> sadness and joy is what so easily mars the engine of our selfhood. For the
+> biggest truth always rests in our hearts and bodies. There is no outsmarting
+> it. There is no outrunning it. And yet, we'd rather turn ourselves into
+> pickles instead of facing the obvious darkness in our hearts.
 
-&#8212; <a href="http://birthmoviesdeath.com/2017/08/08/film-crit-hulk-smash-lets-talk-about-pickle-rick" target="_blank" rel="noopener">Let&#8217;s Talk about &#8220;Pickle Rick&#8221;</a>
+--- [Let's Talk about "Pickle Rick"](http://birthmoviesdeath.com/2017/08/08/film-crit-hulk-smash-lets-talk-about-pickle-rick)

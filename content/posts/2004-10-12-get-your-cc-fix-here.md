@@ -11,7 +11,7 @@ For all you Mac OS X users who can’t get enough [Creative Commons][1]  license
   <img alt="" src="http://yergler.net/blog/images/ccsherlock_thumb.png" />
 
   <p class="caption">
-    (cc search for text documents containing &#8216;yergler&#8217;; <a class="reference external" href="http://yergler.net/blog/images/ccsherlock.png">full size</a>)
+    (cc search for text documents containing &#8216;yergler'; <a class="reference external" href="http://yergler.net/blog/images/ccsherlock.png">full size</a>)
   </p>
 </div>
 
