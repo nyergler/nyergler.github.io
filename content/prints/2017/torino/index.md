@@ -1,7 +1,7 @@
 ---
 title: Torino
 date: 2017-07-22T19:23:59+00:00
-image: IMG_4824-624x833.jpg
+image: IMG_4824.jpg
 year: 2017
 medium: linocut
 
