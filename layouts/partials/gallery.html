@@ -1,25 +1,26 @@
-{{- if not ($.Page.Scratch.Get "figurecount") }}<link rel="stylesheet" href="/photoswipe/photoswipe.css"/>{{ end }}
+{{- if not ($.Page.Scratch.Get "figurecount") -}}
+	<link rel="stylesheet" href="/photoswipe/photoswipe.css"/>
+{{- end }}
 {{- $.Page.Scratch.Add "figurecount" 1 }}
-{{ $baseURL := .Site.BaseURL }}
-{{ $dir := print "content/" $.Page.File.Dir }}
 
 <div class="gallery-container">
 <div id="gallery" class="gallery">
-	{{- $files := readDir $dir }}
-	{{- range $files -}}
+	{{- range .Resources.ByType "image" -}}
+	{{ if eq .MediaType.SubType "svg" }}
+	{{ else }}
 		{{- $isthumb := .Name | findRE ("-\\d+x\\d+" | printf "%s\\.") }}
-		{{- $isimg := lower .Name | findRE "\\.(gif|jpg|jpeg|tiff|png|bmp)" }}
-		{{- if and $isimg (not $isthumb) (not (eq .Name $.Page.Params.image))}}
+		{{- if and (not $isthumb) (not (eq .Name $.Page.Params.image))}}
 			{{- $linkURL := print $.Page.Permalink .Name | absURL }}
 			<a href="{{ $linkURL }}"
-				data-pswp-width="1669"
-				data-pswp-height="2500"
+				data-pswp-width="{{ .Width }}"
+				data-pswp-height="{{ .Height }}"
 				data-cropped="true"
 				target="_blank">
 			<img src="{{ $linkURL }}" alt="" />
 		  </a>
-		{{- end }}
-	{{- end }}
+		{{ end}}
+	{{ end }}
+	{{- end -}}
 </div>
 </div>
 <script type="module">
@@ -30,6 +31,5 @@
       children: 'a',
       pswpModule: () => import('/photoswipe/photoswipe.esm.js')
     });
-	console.log("INIT")
     lightbox.init();
 </script>

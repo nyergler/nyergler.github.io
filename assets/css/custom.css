@@ -1,18 +1,16 @@
-.gallery-container {
-    display: inline-block;
-    width: 100%;
+.print {
+  padding-top: 4em;
 }
 
 .gallery {
   align-items: center;
   display: flex;
-  flex-direction: column;
   flex-wrap: wrap;
-  position: relative;
-  height: 155px;
-  width: 155px;
 }
 
 .gallery a {
-    padding: 1em;
+  padding: 1em;
+  height: 155px;
+  width: 155px;
+  overflow:hidden;
 }

@@ -7,23 +7,18 @@
       <h1 class="mt-0 text-4xl font-extrabold text-neutral-900 dark:text-neutral">
         {{ .Title | emojify }}
       </h1>
-      <div class="mt-8 mb-12 text-base text-neutral-500 dark:text-neutral-400">
-        {{ partial "article-meta.html" (dict "context" . "scope" "single") }}
-      </div>
+      {{ partial "article-pagination.html" . }}
     </header>
-    <section class="prose dark:prose-light">
+    <section class="print prose dark:prose-light">
       {{ if .Params.image }}
       <figure>
         <img src="{{ .Params.image }}"
              alt="{{ .Title | emojify }}">
         <figcaption>{{ .Title }}, {{ .Params.year }}; {{ .Params.dimensions }} {{ .Params.medium }}</figcaption>
       </figure>
-
       {{ end }}
-      {{ .Content | emojify }}
-    </section>
-    <section>
       {{ partial "gallery.html" . }}
+      {{ .Content | emojify }}
     </section>
     {{ with .Params.series }}
       <p>Part of the series
@@ -31,11 +26,13 @@
         {{- end }}.
       </p>
     {{ end }}
+    <div class="mt-8 mb-12 text-base text-neutral-500 dark:text-neutral-400">
+      {{ partial "article-meta.html" (dict "context" . "scope" "single") }}
+    </div>
 
     <footer class="pt-8">
       {{ partial "author.html" . }}
       {{ partial "sharing-links.html" . }}
-      {{ partial "article-pagination.html" . }}
     </footer>
     {{ if templates.Exists "partials/comments.html" }}
       {{ partial "comments.html" . }}
