@@ -4,14 +4,14 @@ categories:
   - sewing
 tags:
   - handmade
-  - 'https://www.yergler.net/'
   - imadethis
   - oaklandsews
 format: image
 kind:
   - Photo
-slug: '3430'
+slug: "3430"
 ---
+
 {{< gallery >}}
 
 My latest make: cardigan from @threadtheorydesigns in a lovely sweater knit from @stonemountainfabric.
