@@ -1,9 +1,10 @@
 ---
 title: Art & Fear
-date: 2017-07-06T05:03:06.000Z
+date: 2017-07-05T03:03:06.000Z
 draft: true
-slug: '?p=2521'
+slug: art-and-fear
 ---
+
 Has any book influenced me more? Challenged me more?
 
 I brought one book with me to Lincoln this week, "Art & Fear", by David Bayles and Ted Orland. It's a book I've read several times, underlining passages, drawing stars in the margin, and occasionally double-underlining **just to be sure I know it's important.** And I still find new things that resonate each time I read it.
