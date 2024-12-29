@@ -47,6 +47,7 @@
     }
   ],
   "frontMatter.framework.id": "hugo",
+  "frontMatter.framework.startCommand": "./bin/hugo server -D",
   "frontMatter.content.publicFolder": "static",
   "frontMatter.site.baseURL": "http://yergler.net",
   "frontMatter.preview.host": "http://localhost:1313",
