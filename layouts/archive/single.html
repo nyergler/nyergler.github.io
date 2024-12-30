@@ -1,0 +1,28 @@
+{{ define "main" }}
+  <article class="max-w-prose">
+  <h1 class="mt-0 text-4xl font-extrabold text-neutral-900 dark:text-neutral">{{ .Title }}</h1>
+
+  {{ .Content }}
+  {{- range (.Site.RegularPages.GroupByDate "2006") -}}
+    {{- $posts := (where .Pages "Type" "posts") -}}
+    {{- $posts_count := len $posts -}}
+    {{ if and (gt .Key 1) (gt $posts_count 0) }}
+      <h2 class="text-2xl font-extrabold text-neutral-900 dark:text-neutral pt-8 pb-4">{{ .Key }}</h2>
+      <ul>
+        {{ range (where .Pages "Type" "posts") }}
+          {{ if and (not .Params.hidden) (.Title) }}
+            <li>
+              <span>
+                {{ .Date.Format "Jan 02" }}
+              </span>
+              <a href="{{ .RelPermalink }}">
+                <span>{{ .Title }}</span>
+              </a>
+            </li>
+          {{ end }}
+        {{ end }}
+      </ul>
+    {{ end }}
+  {{ end }}
+</article>
+{{ end }}
